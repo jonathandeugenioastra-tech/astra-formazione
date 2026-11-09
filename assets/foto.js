@@ -42,13 +42,13 @@ window.ASTRA.foto = {
  },
  "ambiente": {
   "file": "ambiente",
-  "alt": "Balle di rifiuti di imballaggio pronte per il recupero",
-  "w": 3840,
-  "h": 2400,
-  "titolo": "Balle di rifiuti di imballaggio pronte per il recupero",
+  "alt": "Mani che custodiscono una giovane pianta",
+  "w": 3000,
+  "h": 1718,
+  "titolo": "Mani che custodiscono una giovane pianta",
   "licenza": "Licenza Unsplash (uso libero, anche commerciale)",
   "licUrl": "https://unsplash.com/license",
-  "pagina": "https://images.unsplash.com/photo-1528323273322-d81458248d40"
+  "pagina": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09"
  },
  "energia": {
   "file": "energia",
@@ -62,13 +62,13 @@ window.ASTRA.foto = {
  },
  "haccp": {
   "file": "haccp",
-  "alt": "Cuoco al lavoro in una cucina professionale",
+  "alt": "Cucina professionale pulita e ordinata",
   "w": 3840,
   "h": 2560,
-  "titolo": "Cuoco al lavoro in una cucina professionale",
+  "titolo": "Cucina professionale pulita e ordinata",
   "licenza": "Licenza Unsplash (uso libero, anche commerciale)",
   "licUrl": "https://unsplash.com/license",
-  "pagina": "https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf"
+  "pagina": "https://images.unsplash.com/photo-1556909212-d5b604d0c90d"
  },
  "aziende": {
   "file": "aziende",

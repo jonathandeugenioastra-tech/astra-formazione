@@ -1,4 +1,4 @@
-/* Foto: Unsplash, Licenza Unsplash – https://unsplash.com/license */
+/* Foto: Unsplash (Licenza Unsplash) e Pixabay (Licenza Pixabay) */
 window.ASTRA.foto = {
  "hero1": {
   "file": "hero1",
@@ -42,33 +42,33 @@ window.ASTRA.foto = {
  },
  "ambiente": {
   "file": "ambiente",
-  "alt": "Balle di rifiuti di imballaggio pronte per il recupero",
-  "w": 3840,
-  "h": 2400,
-  "titolo": "Balle di rifiuti di imballaggio pronte per il recupero",
-  "licenza": "Licenza Unsplash (uso libero, anche commerciale)",
-  "licUrl": "https://unsplash.com/license",
-  "pagina": "https://images.unsplash.com/photo-1528323273322-d81458248d40"
+  "alt": "Globo di cristallo nella natura controluce",
+  "titolo": "Globo di cristallo nella natura controluce",
+  "w": 2560,
+  "h": 1706,
+  "licenza": "Licenza Pixabay (uso libero, anche commerciale)",
+  "licUrl": "https://pixabay.com/it/service/license-summary/",
+  "pagina": "https://pixabay.com/it/illustrations/generato-dallai-globo-di-cristallo-8558986/"
  },
  "energia": {
   "file": "energia",
-  "alt": "Impianto fotovoltaico a terra visto dall'alto",
-  "w": 3840,
-  "h": 2878,
-  "titolo": "Impianto fotovoltaico a terra visto dall'alto",
-  "licenza": "Licenza Unsplash (uso libero, anche commerciale)",
-  "licUrl": "https://unsplash.com/license",
-  "pagina": "https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9"
+  "alt": "Impianto fotovoltaico su prato",
+  "titolo": "Impianto fotovoltaico su prato",
+  "w": 2560,
+  "h": 1640,
+  "licenza": "Licenza Pixabay (uso libero, anche commerciale)",
+  "licUrl": "https://pixabay.com/it/service/license-summary/",
+  "pagina": "https://pixabay.com/it/photos/impianto-fotovoltaico-solare-2742302/"
  },
  "haccp": {
   "file": "haccp",
-  "alt": "Cuoco al lavoro in una cucina professionale",
-  "w": 3840,
-  "h": 2560,
-  "titolo": "Cuoco al lavoro in una cucina professionale",
-  "licenza": "Licenza Unsplash (uso libero, anche commerciale)",
-  "licUrl": "https://unsplash.com/license",
-  "pagina": "https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf"
+  "alt": "Cesto di verdure fresche",
+  "titolo": "Cesto di verdure fresche",
+  "w": 2560,
+  "h": 1752,
+  "licenza": "Licenza Pixabay (uso libero, anche commerciale)",
+  "licUrl": "https://pixabay.com/it/service/license-summary/",
+  "pagina": "https://pixabay.com/it/photos/la-verdura-cestino-cesto-di-verdure-752153/"
  },
  "aziende": {
   "file": "aziende",
@@ -119,5 +119,75 @@ window.ASTRA.foto = {
   "licenza": "Licenza Unsplash (uso libero, anche commerciale)",
   "licUrl": "https://unsplash.com/license",
   "pagina": "https://images.unsplash.com/photo-1542744173-8e7e53415bb0"
+ },
+ "ambiente2": {
+  "file": "ambiente2",
+  "alt": "Sfera di vetro tra le foglie verdi",
+  "titolo": "Sfera di vetro tra le foglie verdi",
+  "w": 2560,
+  "h": 2560,
+  "licenza": "Licenza Pixabay (uso libero, anche commerciale)",
+  "licUrl": "https://pixabay.com/it/service/license-summary/",
+  "pagina": "https://pixabay.com/it/photos/natura-sfera-di-vetro-foglie-verdi-10278184/"
+ },
+ "ambiente3": {
+  "file": "ambiente3",
+  "alt": "Bolla di cristallo nella natura",
+  "titolo": "Bolla di cristallo nella natura",
+  "w": 2560,
+  "h": 1440,
+  "licenza": "Licenza Pixabay (uso libero, anche commerciale)",
+  "licUrl": "https://pixabay.com/it/service/license-summary/",
+  "pagina": "https://pixabay.com/it/illustrations/generato-dallai-natura-bolla-8655925/"
+ },
+ "energia2": {
+  "file": "energia2",
+  "alt": "Pale eoliche e campo di girasoli al tramonto",
+  "titolo": "Pale eoliche e campo di girasoli al tramonto",
+  "w": 2560,
+  "h": 1692,
+  "licenza": "Licenza Pixabay (uso libero, anche commerciale)",
+  "licUrl": "https://pixabay.com/it/service/license-summary/",
+  "pagina": "https://pixabay.com/it/photos/mulini-a-vento-campi-tramonto-1838788/"
+ },
+ "energia3": {
+  "file": "energia3",
+  "alt": "Pannelli fotovoltaici e cielo azzurro",
+  "titolo": "Pannelli fotovoltaici e cielo azzurro",
+  "w": 2560,
+  "h": 1684,
+  "licenza": "Licenza Pixabay (uso libero, anche commerciale)",
+  "licUrl": "https://pixabay.com/it/service/license-summary/",
+  "pagina": "https://pixabay.com/it/photos/fotovoltaico-impianto-fotovoltaico-2138992/"
+ },
+ "haccp2": {
+  "file": "haccp2",
+  "alt": "Verdure fresche per un'alimentazione sana",
+  "titolo": "Verdure fresche per un'alimentazione sana",
+  "w": 2560,
+  "h": 1706,
+  "licenza": "Licenza Pixabay (uso libero, anche commerciale)",
+  "licUrl": "https://pixabay.com/it/service/license-summary/",
+  "pagina": "https://pixabay.com/it/photos/alimentazione-sana-verdure-10463566/"
+ },
+ "sicurezza2": {
+  "file": "sicurezza2",
+  "alt": "Operaio con elmetto e dispositivi di protezione al lavoro",
+  "titolo": "Operaio con elmetto e dispositivi di protezione al lavoro",
+  "w": 3840,
+  "h": 2560,
+  "licenza": "Licenza Unsplash (uso libero, anche commerciale)",
+  "licUrl": "https://unsplash.com/license",
+  "pagina": "https://images.unsplash.com/photo-1589939705384-5185137a7f0f"
+ },
+ "sicurezza3": {
+  "file": "sicurezza3",
+  "alt": "Escavatore in un cantiere",
+  "titolo": "Escavatore in un cantiere",
+  "w": 3840,
+  "h": 2555,
+  "licenza": "Licenza Unsplash (uso libero, anche commerciale)",
+  "licUrl": "https://unsplash.com/license",
+  "pagina": "https://images.unsplash.com/photo-1580901368919-7738efb0f87e"
  }
 };

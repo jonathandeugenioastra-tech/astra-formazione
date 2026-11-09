@@ -130,6 +130,9 @@
       <div class="piede"><span class="prezzo">${euro(c.prezzo)}<small>a partecipante · IVA esclusa · indicativo</small></span><span class="freccia">${I.freccia}</span></div>
     </a>`;
   };
+  /* immagine della pagina corso: alterna le varianti dell'area, diverse da quella della home */
+  const fotoArea = c => { const v = [c.ambito + '2', c.ambito + '3'].filter(k => D.foto[k]); if (!v.length) return c.ambito;
+    const i = D.corsi.filter(x => x.ambito === c.ambito).indexOf(c); return v[i % v.length]; };
   const testa = (titolo, sotto, briciola, slot) => `
     <section class="testa-pagina">${slot ? foto(slot, 'sfondo', '100vw', true) : ''}
       <div class="wrap">
@@ -346,7 +349,7 @@
     const primo = ['EL', 'VCS', 'P'].find(m => c.mod.includes(m));
     const edP = ed.filter(e => e.mod === 'P' && e.posti > 0);
     return testa(c.titolo, `${esc(a.nome)} · ${c.ore} ore · ${esc(c.tipo)} · codice ${c.id}`,
-      `<a href="#/catalogo">Catalogo</a><span aria-hidden="true">›</span><a href="#/catalogo?ambito=${c.ambito}">${esc(a.nome)}</a><span aria-hidden="true">›</span><b>${esc(c.titolo)}</b>`, c.ambito) + `
+      `<a href="#/catalogo">Catalogo</a><span aria-hidden="true">›</span><a href="#/catalogo?ambito=${c.ambito}">${esc(a.nome)}</a><span aria-hidden="true">›</span><b>${esc(c.titolo)}</b>`, fotoArea(c)) + `
     <div class="wrap dettaglio">
       <div class="scheda">
         <nav class="indice-scheda" aria-label="Indice della scheda">${SEZ(c).map(([k, t]) => `<button type="button" data-sez="${k}">${t}</button>`).join('')}</nav>
@@ -717,7 +720,7 @@
     <h2 style="margin-top:22px">Conservazione</h2><p>I dati relativi alla formazione sono conservati per il periodo necessario a dimostrare l'adempimento degli obblighi formativi; i dati fiscali per 10 anni.</p>
     <h2 style="margin-top:22px">Diritti</h2><p>Accesso, rettifica, cancellazione, limitazione, portabilità e opposizione (artt. 15–22 Reg. UE 2016/679), scrivendo a ${A.pec}. È possibile proporre reclamo al Garante per la protezione dei dati personali.</p>
     <h2 style="margin-top:22px">Cookie</h2><p>Questo sito non usa cookie di profilazione. Il carrello è conservato solo nel browser dell'utente.</p></div></div>`;
-  P.crediti = () => testa('Crediti delle immagini', 'Fotografie da Unsplash, pubblicate con la Licenza Unsplash che ne consente l\'uso gratuito anche commerciale; ridimensionate per gli schermi fino al 4K.') + `<div class="wrap" style="max-width:960px;padding-top:40px;padding-bottom:96px"><div class="box"><ul class="crediti" style="list-style:none;margin:0;padding:0">
+  P.crediti = () => testa('Crediti delle immagini', 'Fotografie da Unsplash e Pixabay, pubblicate con le rispettive licenze che ne consentono l\'uso gratuito anche commerciale.') + `<div class="wrap" style="max-width:960px;padding-top:40px;padding-bottom:96px"><div class="box"><ul class="crediti" style="list-style:none;margin:0;padding:0">
     ${Object.values(D.foto).filter((f, i, a) => a.findIndex(x => x.file === f.file) === i).map(f => `<li><b>${esc(f.titolo)}</b><br>Licenza: ${f.licUrl ? `<a href="${f.licUrl}" target="_blank" rel="noopener">${esc(f.licenza)}</a>` : esc(f.licenza)} · <a href="${f.pagina}" target="_blank" rel="noopener">Fonte</a></li>`).join('')}
     </ul></div></div>`;
   P.legenda = () => testa('Legenda delle sigle') + `<div class="wrap" style="max-width:960px;padding-top:40px;padding-bottom:96px"><div class="tab-wrap"><table class="t"><thead><tr><th>Sigla</th><th>Significato</th></tr></thead><tbody>

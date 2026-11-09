@@ -667,3 +667,4 @@ nav.menu a{font-family:var(--fb);font-size:15px}
   .piede .legale>.dati{font-size:11px}
 }
 html.app-installata .btn-app,html.app-installata #installa{display:none!important}
+.ambito::before{background:linear-gradient(180deg,rgba(7,29,36,.10) 0%,rgba(7,29,36,.50) 38%,rgba(7,29,36,.95) 74%)}

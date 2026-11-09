@@ -1,3 +1,6 @@
+/* Caratteri: Eras se installato sul dispositivo, altrimenti Montserrat incorporato (SIL OFL 1.1) */
+@font-face{font-family:'ASTRA Testo';font-style:normal;font-weight:400;font-display:swap;src:local('Eras Medium ITC'),local('ErasITC-Medium'),local('Eras Medium'),url('../fonts/Montserrat-Regular.woff2') format('woff2')}
+@font-face{font-family:'ASTRA Bold';font-style:normal;font-weight:400;font-display:swap;src:local('Eras Bold ITC'),local('ErasITC-Bold'),local('Eras Bold'),url('../fonts/Montserrat-Bold.woff2') format('woff2')}
 /* Formazione ASTRA – foglio di stile · © 2026 dr. Jonathan D'Eugenio */
 :root{
   --petrolio:#0F3C47; --notte:#0B2A33; --abisso:#071D24;
@@ -9,8 +12,8 @@
   --r:18px; --r-s:12px;
   --ombra:0 1px 2px rgba(7,29,36,.06),0 8px 28px rgba(7,29,36,.08);
   --ombra-forte:0 2px 6px rgba(7,29,36,.10),0 22px 60px rgba(7,29,36,.18);
-  --f:'Eras Medium ITC','Eras Medium','Eras Demi ITC','Montserrat',system-ui,sans-serif;
-  --fb:'Eras Bold ITC','Eras Bold','Montserrat',system-ui,sans-serif;
+  --f:'ASTRA Testo',system-ui,sans-serif;
+  --fb:'ASTRA Bold',system-ui,sans-serif;
   --w:1280px;
   color-scheme:light;
 }
@@ -18,7 +21,7 @@
 html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
 body{margin:0;background:#fff;color:var(--testo);font-family:var(--f);font-weight:400;font-style:normal;font-size:16px;line-height:1.6;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;overflow-x:hidden}
 em,i,cite,address{font-style:normal}
-b,strong,th,h1,h2,h3,h4,.b{font-family:var(--fb);font-weight:700}
+b,strong,th,h1,h2,h3,h4,.b{font-family:var(--fb);font-weight:400}
 h1,h2,h3,h4{margin:0;line-height:1.2;color:var(--petrolio);text-wrap:balance}
 p{margin:0}
 a{color:var(--petrolio);text-decoration:none;transition:color .2s}

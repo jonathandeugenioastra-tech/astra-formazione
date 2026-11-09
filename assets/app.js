@@ -15,6 +15,9 @@
     P: { nome: 'Aula', breve: 'Aula', desc: 'In aula presso la sede ASTRA o presso il cliente previo accordo' }
   };
   const corso = id => D.corsi.find(c => c.id === id);
+  const slug = c => c.titolo.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+  const urlCorso = c => 'corsi/' + slug(c) + '/';
+  window.ASTRA_slug = slug;
   const amb = k => D.ambiti[k];
 
   /* ---------- Icone ---------- */
@@ -116,7 +119,7 @@
       <a class="btn btn-petrolio" href="tel:${telRPF}">${I.tel} ${RPF.tel}</a></div>`;
   const cardCorso = (c, i = 0) => {
     const a = amb(c.ambito);
-    return `<a class="corso rivela ritardo-${i % 4}" href="#/corso/${c.id}">
+    return `<a class="corso rivela ritardo-${i % 4}" href="${urlCorso(c)}">
       <span class="fascia" style="background:${a.colore}"></span>
       <div class="in">
         <div class="meta"><span class="chip amb" style="background:${a.colore}">${esc(a.nome)}</span><span class="codice">${c.id}</span></div>
@@ -162,7 +165,7 @@
           <h1>Tranquilli,<br>c'è <span class="rosso">ASTRA</span>.</h1>
           <p class="sotto">Formazione obbligatoria in materia di salute e sicurezza sul lavoro, ambiente, energia e igiene degli alimenti, erogata in aula, in videoconferenza sincrona e in e-learning in conformità all'Accordo Stato-Regioni del 17 aprile 2025.</p>
           <form class="cerca-hero" role="search" id="cerca-hero">
-            <label>${I.cerca}<span class="sr">Cerca un corso</span><input name="q" placeholder="Ricerca per titolo o codice del corso" autocomplete="off"></label>
+            <label>${I.cerca}<span class="sr">Cerca un corso</span><input name="q" placeholder="Titolo o codice del corso" autocomplete="off"></label>
             <button class="btn btn-rosso">Cerca</button>
           </form>
           <div class="cta">
@@ -173,7 +176,7 @@
         <aside class="hero-card" aria-labelledby="h-prox">
           <h2 id="h-prox"><span class="live" aria-hidden="true"></span>Prossime edizioni</h2>
           <ol>${prossime.map(e => { const c = corso(e.corso), d = dataBreve(e.data); return `
-            <li><a href="#/corso/${c.id}"><span class="data-box"><b>${d.g}</b><span>${d.m}</span></span>
+            <li><a href="${urlCorso(c)}"><span class="data-box"><b>${d.g}</b><span>${d.m}</span></span>
               <span><span class="t">${esc(e.titolo || c.titolo)}</span><br><span class="m">${MOD[e.mod].breve} · ${esc(e.sede)} · ${c.ore} h</span></span></a></li>`; }).join('')}
           </ol>
           <a class="btn btn-vetro btn-s" style="margin-top:14px;width:100%" href="#/calendario">Calendario delle edizioni</a>
@@ -792,7 +795,7 @@
     clearInterval(heroT);
     app.innerHTML = fn(par, arg && decodeURIComponent(arg));
     app.style.animation = 'none'; void app.offsetWidth; app.style.animation = '';
-    document.title = pag === 'corso' && corso(arg) ? `${corso(arg).titolo} – Formazione ASTRA` : (pag === 'home' ? TITOLI.home : `${TITOLI[pag] || 'Pagina non trovata'} – Formazione ASTRA`);
+    document.title = pag === 'corso' && corso(arg) ? `${corso(arg).titolo} – Corso ${corso(arg).ore} ore – Formazione ASTRA Teramo` : (pag === 'home' ? TITOLI.home : `${TITOLI[pag] || 'Pagina non trovata'} – Formazione ASTRA`);
     $$('nav.menu a').forEach(a => { if (a.getAttribute('href').slice(2).split('?')[0] === pag) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current'); });
     $$('.tabbar [data-tab]').forEach(t => t.classList.toggle('on', t.dataset.tab === (pag || 'home')));
     if (pag === 'app') $('#installa').hidden = true;
@@ -853,6 +856,7 @@
   /* ---------- Avvio ---------- */
   $('#anno').textContent = '2026';
   aggiornaBadge();
+  if (!location.hash && window.ASTRA_ROTTA) history.replaceState(null, '', location.pathname + location.search + '#/' + window.ASTRA_ROTTA);
   addEventListener('hashchange', route);
   route();
 })();

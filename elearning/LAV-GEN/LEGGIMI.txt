@@ -1,0 +1,5 @@
+Formazione generale dei lavoratori – pacchetto SCORM 1.2
+ASTRA S.r.l. – © 2026 dr. Jonathan D'Eugenio
+Caricamento in Moodle: Aggiungi attività > Pacchetto SCORM > carica SCORM_LAV-GEN.zip
+Impostazioni consigliate: Visualizzazione in nuova finestra; Tentativi 1; Metodo di valutazione: punteggio più alto; Forza nuovo tentativo: No.
+Fonti grafiche: pittogrammi UNI EN ISO 7010 (Wikimedia Commons, pubblico dominio); icone Font Awesome Free 6 (CC BY 4.0); fotografie con licenza libera (Unsplash/Pixabay); carattere Inter (SIL OFL 1.1).

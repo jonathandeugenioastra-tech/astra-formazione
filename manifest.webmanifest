@@ -1,0 +1,24 @@
+{
+  "name": "ASTRA Formazione",
+  "short_name": "ASTRA",
+  "description": "Corsi di salute e sicurezza sul lavoro, ambiente, energia e igiene degli alimenti – Centro di Formazione AiFOS ASTRA S.r.l.",
+  "lang": "it",
+  "id": "./",
+  "start_url": "./index.html#/",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#FFFFFF",
+  "theme_color": "#0F3C47",
+  "categories": ["education", "business"],
+  "icons": [
+    { "src": "app/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "app/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "app/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Catalogo corsi", "url": "./index.html#/catalogo" },
+    { "name": "Calendario", "url": "./index.html#/calendario" },
+    { "name": "Verifica attestato", "url": "./index.html#/attestato" }
+  ]
+}

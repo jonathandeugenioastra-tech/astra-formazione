@@ -1,3 +1,11 @@
+/* Caratteri: Inter (testi) e Inter Tight (titoli) – SIL Open Font License 1.1, incorporati */
+@font-face{font-family:'ASTRA Testo';font-weight:400;font-style:normal;font-display:swap;src:url('../fonts/Inter-400.woff2') format('woff2')}
+@font-face{font-family:'ASTRA Testo';font-weight:500;font-style:normal;font-display:swap;src:url('../fonts/Inter-500.woff2') format('woff2')}
+@font-face{font-family:'ASTRA Testo';font-weight:700;font-style:normal;font-display:swap;src:url('../fonts/Inter-700.woff2') format('woff2')}
+@font-face{font-family:'ASTRA Bold';font-weight:400;font-style:normal;font-display:swap;src:url('../fonts/Inter-600.woff2') format('woff2')}
+@font-face{font-family:'ASTRA Bold';font-weight:700;font-style:normal;font-display:swap;src:url('../fonts/Inter-700.woff2') format('woff2')}
+@font-face{font-family:'ASTRA Titoli';font-weight:700;font-style:normal;font-display:swap;src:url('../fonts/InterTight-700.woff2') format('woff2')}
+@font-face{font-family:'ASTRA Titoli';font-weight:800;font-style:normal;font-display:swap;src:url('../fonts/InterTight-800.woff2') format('woff2')}
 /* Formazione ASTRA – foglio di stile · © 2026 dr. Jonathan D'Eugenio */
 :root{
   --petrolio:#0F3C47; --notte:#0B2A33; --abisso:#071D24;
@@ -9,8 +17,9 @@
   --r:18px; --r-s:12px;
   --ombra:0 1px 2px rgba(7,29,36,.06),0 8px 28px rgba(7,29,36,.08);
   --ombra-forte:0 2px 6px rgba(7,29,36,.10),0 22px 60px rgba(7,29,36,.18);
-  --f:'Eras Medium ITC','Eras Medium','Eras Demi ITC','Montserrat',system-ui,sans-serif;
-  --fb:'Eras Bold ITC','Eras Bold','Montserrat',system-ui,sans-serif;
+  --f:'ASTRA Testo',system-ui,sans-serif;
+  --fb:'ASTRA Bold',system-ui,sans-serif;
+  --ft:'ASTRA Titoli','ASTRA Bold',system-ui,sans-serif;
   --w:1280px;
   color-scheme:light;
 }
@@ -18,7 +27,7 @@
 html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
 body{margin:0;background:#fff;color:var(--testo);font-family:var(--f);font-weight:400;font-style:normal;font-size:16px;line-height:1.6;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;overflow-x:hidden}
 em,i,cite,address{font-style:normal}
-b,strong,th,h1,h2,h3,h4,.b{font-family:var(--fb);font-weight:700}
+b,strong,th,h1,h2,h3,h4,.b{font-family:var(--fb);font-weight:400}
 h1,h2,h3,h4{margin:0;line-height:1.2;color:var(--petrolio);text-wrap:balance}
 p{margin:0}
 a{color:var(--petrolio);text-decoration:none;transition:color .2s}
@@ -611,3 +620,35 @@ html.standalone header.testata{padding-top:env(safe-area-inset-top)}
 
 .guida li .tx{flex:1;display:block}
 .guida li .tx b{display:inline}
+
+/* ================= RAFFINAMENTO GRAFICO 2026 ================= */
+body{font-size:16.5px;font-feature-settings:'cv11','ss01','ss03';letter-spacing:-.006em;color:#13232A}
+h1,h2,.intest h2,.testa-pagina h1{font-family:var(--ft);font-weight:800;letter-spacing:-.032em;line-height:1.04}
+h3,h4,.box h2{font-family:var(--ft);font-weight:700;letter-spacing:-.018em}
+.hero h1{font-size:clamp(46px,6.4vw,96px);line-height:.98}
+.hero h1 .rosso{background:linear-gradient(100deg,#FF4D52 0%,#FF7A59 55%,#FFB199 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero::after{content:"";position:absolute;inset:auto -10% -30% auto;width:60vw;height:60vw;max-width:900px;max-height:900px;z-index:-1;background:radial-gradient(circle,rgba(229,39,41,.28),transparent 60%);filter:blur(10px);pointer-events:none;animation:respira 9s ease-in-out infinite}
+@keyframes respira{50%{transform:scale(1.12) translate(-3%,-4%);opacity:.75}}
+.hero .occhiello{letter-spacing:.16em;font-size:13px}
+.hero .sotto{font-family:var(--fb);font-weight:400;color:#E3F1F4}
+.intest h2{font-size:clamp(32px,3.8vw,54px)}
+.intest p{font-size:18px;line-height:1.6}
+.numero b{font-family:var(--ft);font-weight:800;letter-spacing:-.04em;background:linear-gradient(180deg,#fff 30%,#BFE3EA);-webkit-background-clip:text;background-clip:text;color:transparent}
+.numero b small{-webkit-text-fill-color:#FF8A8E}
+.btn{border-radius:14px;letter-spacing:-.005em}
+.btn-rosso{background:linear-gradient(180deg,#E0262E,#BF1C23);box-shadow:0 1px 0 rgba(255,255,255,.25) inset,0 10px 24px rgba(200,31,38,.30)}
+.btn-rosso:hover{background:linear-gradient(180deg,#C81F26,#A4171D)}
+.btn-petrolio,.btn-app{background:linear-gradient(180deg,#14505E,#0F3C47)}
+.corso,.mod-card,.notizia,.box,.cert div,.edizione{border-color:#E1EAED;box-shadow:0 1px 2px rgba(7,29,36,.04)}
+.corso h3{font-size:19px;line-height:1.28}
+.prezzo{font-family:var(--ft);font-weight:800;letter-spacing:-.02em}
+.ambito{border-radius:26px}
+.ambito h3{font-size:28px;font-weight:800}
+.mod-card h3{font-size:22px}
+.cta-banda h2{font-size:clamp(30px,3.4vw,46px)}
+.testa-pagina h1{font-size:clamp(36px,4.6vw,64px)}
+nav.menu a{font-family:var(--fb);font-size:15px}
+.marquee{font-family:var(--fb);letter-spacing:.01em}
+.piede h3{font-family:var(--ft);font-weight:700;letter-spacing:.01em}
+::selection{background:#C81F26;color:#fff}
+@media (max-width:768px){.hero h1{font-size:44px}.intest h2{font-size:28px!important}.ambito h3{font-size:24px}}

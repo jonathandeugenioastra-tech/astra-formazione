@@ -25,9 +25,8 @@
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="apple-mobile-web-app-title" content="ASTRA">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="preload" href="fonts/Inter-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/InterTight-800.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="assets/app.css">
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"EducationalOrganization","name":"ASTRA S.r.l.","description":"Centro di Formazione AiFOS","address":{"@type":"PostalAddress","streetAddress":"Via Potito Randi, 6","postalCode":"64100","addressLocality":"Teramo","addressRegion":"TE","addressCountry":"IT"},"telephone":"+39 0861 413103","email":"info@astrastudio.it","vatID":"IT00665240677","foundingDate":"1987"}
@@ -90,7 +89,7 @@
           <h1>Tranquilli,<br>c'è <span class="rosso">ASTRA</span>.</h1>
           <p class="sotto">Formazione obbligatoria in materia di salute e sicurezza sul lavoro, ambiente, energia e igiene degli alimenti, erogata in aula, in videoconferenza sincrona e in e-learning in conformità all'Accordo Stato-Regioni del 17 aprile 2025.</p>
           <form class="cerca-hero" role="search" id="cerca-hero">
-            <label><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.5-3.5"></path></svg><span class="sr">Cerca un corso</span><input name="q" placeholder="Ricerca per titolo o codice del corso" autocomplete="off"></label>
+            <label><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.5-3.5"></path></svg><span class="sr">Cerca un corso</span><input name="q" placeholder="Titolo o codice del corso" autocomplete="off"></label>
             <button class="btn btn-rosso">Cerca</button>
           </form>
           <div class="cta">

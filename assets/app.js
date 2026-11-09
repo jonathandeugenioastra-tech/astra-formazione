@@ -165,7 +165,7 @@
           <h1>Tranquilli,<br>c'è <span class="rosso">ASTRA</span>.</h1>
           <p class="sotto">Formazione obbligatoria in materia di salute e sicurezza sul lavoro, ambiente, energia e igiene degli alimenti, erogata in aula, in videoconferenza sincrona e in e-learning in conformità all'Accordo Stato-Regioni del 17 aprile 2025.</p>
           <form class="cerca-hero" role="search" id="cerca-hero">
-            <label>${I.cerca}<span class="sr">Cerca un corso</span><input name="q" placeholder="Ricerca per titolo o codice del corso" autocomplete="off"></label>
+            <label>${I.cerca}<span class="sr">Cerca un corso</span><input name="q" placeholder="Titolo o codice del corso" autocomplete="off"></label>
             <button class="btn btn-rosso">Cerca</button>
           </form>
           <div class="cta">

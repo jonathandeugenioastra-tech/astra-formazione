@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jonathandeugenioastra-tech.github.io/astra-formazione/sitemap.xml

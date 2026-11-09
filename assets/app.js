@@ -736,7 +736,14 @@
   let promptInst = null;
   const standalone = () => matchMedia('(display-mode: standalone)').matches || navigator.standalone === true;
   const iOS = /iphone|ipad|ipod/i.test(navigator.userAgent);
-  addEventListener('beforeinstallprompt', e => { e.preventDefault(); promptInst = e; mostraBanner(); });
+  const INST = 'astra-app-installata';
+  const giaInstallata = () => { try { return localStorage.getItem(INST) === '1'; } catch (e) { return false; } };
+  const segnaInstallata = () => { try { localStorage.setItem(INST, '1'); } catch (e) { } nascondiInstalla(); };
+  function nascondiInstalla() { $('#btn-app').hidden = true; $('#installa').hidden = true; document.documentElement.classList.add('app-installata'); }
+  addEventListener('beforeinstallprompt', e => { e.preventDefault(); promptInst = e;
+    /* se il browser propone l'installazione, l'app non è (più) installata */
+    try { localStorage.removeItem(INST); } catch (er) { } $('#btn-app').hidden = false; document.documentElement.classList.remove('app-installata'); mostraBanner(); });
+  addEventListener('appinstalled', segnaInstallata);
   const ICO_SHARE = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="i-in"><path d="M12 3v12M8 7l4-4 4 4"/><path d="M6 11H5a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-8a1 1 0 0 0-1-1h-1"/></svg>';
   const ICO_PLUS = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" class="i-in"><rect x="4" y="4" width="16" height="16" rx="4"/><path d="M12 8v8M8 12h8"/></svg>';
   function guida() {
@@ -762,7 +769,7 @@
   }
   function mostraBanner() {
     let visto = false; try { visto = localStorage.getItem('astra-inst-no') === '1'; } catch (e) { }
-    if (visto || standalone() || innerWidth > 900 || location.hash.startsWith('#/app')) return;
+    if (visto || standalone() || giaInstallata() || innerWidth > 900 || location.hash.startsWith('#/app')) return;
     const b = $('#installa');
 
     b.hidden = false;
@@ -776,7 +783,9 @@
   $('#btn-app').addEventListener('click', installa);
   $('#guida-x').addEventListener('click', () => { $('#guida').hidden = true; document.body.style.overflow = ''; });
   $('#guida').addEventListener('click', e => { if (e.target.id === 'guida') { $('#guida').hidden = true; document.body.style.overflow = ''; } });
-  if (standalone()) $('#btn-app').hidden = true;
+  if (standalone()) segnaInstallata();
+  else if (giaInstallata()) nascondiInstalla();
+  if (!standalone() && navigator.getInstalledRelatedApps) navigator.getInstalledRelatedApps().then(l => { if (l && l.length) segnaInstallata(); }).catch(() => { });
   if (innerWidth > 900 && $('#qr-footer')) { const o = new IntersectionObserver(es => { if (es[0].isIntersecting) { qr($('#qr-footer'), 96); o.disconnect(); } }); o.observe($('#qr-footer')); }
   $('#inst-x').addEventListener('click', () => { $('#installa').hidden = true; try { localStorage.setItem('astra-inst-no', '1'); } catch (e) { } });
   if (standalone()) document.documentElement.classList.add('standalone');

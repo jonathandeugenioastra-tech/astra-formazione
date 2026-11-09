@@ -652,3 +652,18 @@ nav.menu a{font-family:var(--fb);font-size:15px}
 .piede h3{font-family:var(--ft);font-weight:700;letter-spacing:.01em}
 ::selection{background:#C81F26;color:#fff}
 @media (max-width:768px){.hero h1{font-size:44px}.intest h2{font-size:28px!important}.ambito h3{font-size:24px}}
+
+/* Copyright su una sola riga nell'app */
+.firma>div>.sotto-firma .lungo{display:inline}
+@media (max-width:768px){
+  .piede .legale{flex-direction:column;align-items:center;gap:8px;text-align:center}
+  .firma{gap:10px}
+  .firma img{width:40px;height:40px}
+  .firma>div{display:flex;align-items:baseline;gap:6px;white-space:nowrap}
+  .firma b{display:inline;font-size:12px}
+  .firma>div>.sotto-firma{display:inline;font-size:11px}
+  .firma>div>.sotto-firma::before{content:"· "}
+  .firma>div>.sotto-firma .lungo{display:none}
+  .piede .legale>.dati{font-size:11px}
+}
+html.app-installata .btn-app,html.app-installata #installa{display:none!important}

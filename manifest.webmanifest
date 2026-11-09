@@ -10,15 +10,48 @@
   "orientation": "portrait",
   "background_color": "#FFFFFF",
   "theme_color": "#0F3C47",
-  "categories": ["education", "business"],
+  "categories": [
+    "education",
+    "business"
+  ],
   "icons": [
-    { "src": "app/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
-    { "src": "app/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
-    { "src": "app/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+    {
+      "src": "app/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "app/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "app/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
   ],
   "shortcuts": [
-    { "name": "Catalogo corsi", "url": "./index.html#/catalogo" },
-    { "name": "Calendario", "url": "./index.html#/calendario" },
-    { "name": "Verifica attestato", "url": "./index.html#/attestato" }
+    {
+      "name": "Catalogo corsi",
+      "url": "./index.html#/catalogo"
+    },
+    {
+      "name": "Calendario",
+      "url": "./index.html#/calendario"
+    },
+    {
+      "name": "Verifica attestato",
+      "url": "./index.html#/attestato"
+    }
+  ],
+  "related_applications": [
+    {
+      "platform": "webapp",
+      "url": "https://jonathandeugenioastra-tech.github.io/astra-formazione/manifest.webmanifest"
+    }
   ]
 }

@@ -722,3 +722,5 @@ picture{display:contents}
 .hero .sotto{max-width:640px;text-align:justify;hyphens:auto;-webkit-hyphens:auto;text-wrap:pretty}
 .hero .sotto{font-size:clamp(15px,1.2vw,17px);line-height:1.6;font-family:var(--fm,var(--f));max-width:600px}
 @media (max-width:640px){.hero .sotto{font-size:14.5px}}
+@media (min-width:900px){.hero .wrap>div:first-child{width:min-content}.hero .wrap>div:first-child .sotto{max-width:none;width:100%}.hero .wrap>div:first-child .cerca-hero{max-width:none;width:100%}}
+@media (min-width:901px){.hero .wrap>div:first-child{width:min-content}.hero .sotto{max-width:none}.hero .cerca-hero{max-width:none;width:100%}.hero h1.slogan .claim{white-space:nowrap}}

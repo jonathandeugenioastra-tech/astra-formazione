@@ -47,10 +47,10 @@ fs.copyFileSync(path.join(ROOT, 'formazione/risorse/timbro_DEU.png'), path.join(
   const fa = path.join(SRC, 'audio.json'); let audioJs = '';
   if (fs.existsSync(fa)) {
     const A = JSON.parse(fs.readFileSync(fa, 'utf8')); mk('audio');
-    Object.values(A.schermate).flat().forEach(x => fs.copyFileSync(path.join(BASE, 'audio-cache', x.f), path.join(OUT, 'audio', x.f)));
+    Object.values(A.schermate).flatMap(x => Array.isArray(x) ? x : [x]).forEach(x => fs.copyFileSync(path.join(BASE, 'audio-cache', x.f), path.join(OUT, 'audio', x.f)));
     fs.writeFileSync(path.join(OUT, 'dati/audio.js'), 'window.AUDIO=' + JSON.stringify(A) + ';');
     audioJs = '<script src="dati/audio.js?v=' + Date.now() + '"></script>';
-    console.log('Narrazione:', A.voce, Object.values(A.schermate).flat().length, 'tracce');
+    console.log('Narrazione:', A.voce, Object.keys(A.schermate).length, 'schermate');
   } else console.log('Narrazione: file audio assenti (voce di sistema come riserva)');
   const vers = new Date().toISOString().slice(0, 10);
   fs.writeFileSync(path.join(OUT, 'index.html'), `<!doctype html>

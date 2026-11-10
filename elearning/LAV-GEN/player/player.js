@@ -118,13 +118,22 @@
   const parla = (testo, onSegno) => {
     const gen = ++narGen; zitto(gen);
     const tracce = AUD && AUD.schermate[chiave(S[st.c])];
-    const frasi = tracce ? tracce.map(x => x.t) : (testo.match(/[^.!?;]+[.!?;]*/g) || [testo]).map(f => f.trim());
-    narDur = tracce ? tracce.reduce((a, x) => a + x.d, 0) : durata(testo); narInizio = Date.now(); narFine = false;
+    const frasi = tracce ? (Array.isArray(tracce) ? tracce.map(x => x.t) : tracce.frasi.map(x => x.t)) : (testo.match(/[^.!?;]+[.!?;]*/g) || [testo]).map(f => f.trim());
+    narDur = tracce ? (Array.isArray(tracce) ? tracce.reduce((a, x) => a + x.d, 0) : tracce.d) : durata(testo); narInizio = Date.now(); narFine = false;
+    player.ontimeupdate = null;
     $('#tr').innerHTML = frasi.map((f, i) => `<p data-i="${i}">${esc(f)}</p>`).join('');
     const evid = i => { $$('#tr p').forEach(p => p.classList.toggle('att', +p.dataset.i === i)); sottotitolo(frasi[i]); };
     const fine = () => { if (gen !== narGen) return; narFine = true; sottotitolo(''); aggiorna(); };
     if (!audio) { sottotitolo(''); const tm = setTimeout(fine, ANTEPRIMA ? 300 : narDur * 1000 * 0.6); timersSch.push(tm); return; }
     let i = 0;
+    if (tracce && !Array.isArray(tracce)) { // un solo file per schermata, con gli istanti di inizio di ogni frase
+      evid(0); player.src = 'audio/' + tracce.f;
+      player.ontimeupdate = () => { if (gen !== narGen) return; const t = player.currentTime; let j = 0; tracce.frasi.forEach((x, n) => { if (t >= x.s) j = n; }); if (j !== i) { i = j; evid(i); if (onSegno) onSegno(i / tracce.frasi.length); } };
+      player.onended = () => { if (gen !== narGen) return; if (onSegno) onSegno(1); fine(); };
+      player.onerror = () => fine();
+      player.play().catch(() => fine());
+      return;
+    }
     if (tracce) {
       const via = () => {
         if (gen !== narGen) return;
@@ -486,7 +495,7 @@
 
   /* avvio: la narrazione richiede un gesto dell'utente */
   const avvio = document.createElement('div'); avvio.className = 'ov on';
-  avvio.innerHTML = `<div class="box"><h3>${st.c > 0 ? 'Bentornato' : 'Benvenuto'}</h3><p>${st.c > 0 ? 'Riprendi il corso dal punto in cui lo hai lasciato.' : 'Il corso è commentato da una voce narrante. Puoi disattivarla in qualsiasi momento con il pulsante audio.'}</p><button class="btn prim" id="go">${st.c > 0 ? 'Riprendi il corso' : 'Inizia il corso'}</button></div>`;
+  avvio.innerHTML = `<div class="box"><h3>${st.c > 0 ? 'Bentornati' : 'Benvenuti'}</h3><p>${st.c > 0 ? 'Riprendi il corso dal punto in cui lo hai lasciato.' : 'Il corso è commentato da una voce narrante. Puoi disattivarla in qualsiasi momento con il pulsante audio.'}</p><button class="btn prim" id="go">${st.c > 0 ? 'Riprendi il corso' : 'Inizia il corso'}</button></div>`;
   document.body.appendChild(avvio);
   $('#go').onclick = () => { avvio.remove(); ultimoInput = Date.now(); disegna(); };
 

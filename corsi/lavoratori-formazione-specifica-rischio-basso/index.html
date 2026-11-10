@@ -150,7 +150,7 @@
             <div id="blocco-acq" style="display:flex;flex-direction:column;gap:16px">
             <div><span class="b" style="display:block;color:var(--petrolio);margin-bottom:10px" id="lbl-q">Numero di partecipanti</span>
               <div class="qta" role="group" aria-labelledby="lbl-q"><button type="button" data-d="-1" aria-label="Diminuisci">−</button><input name="qta" type="number" min="1" max="500" value="1" inputmode="numeric" aria-label="Partecipanti"><button type="button" data-d="1" aria-label="Aumenta">+</button></div></div>
-            <div class="avviso blu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M12 11v6M12 7.5v.5"></path></svg><span id="nota-sconto">Da 5 partecipanti sconto del 5%, da 10 del 10%, da 20 del 15% (indicativo).</span></div>
+            <div class="avviso blu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M12 11v6M12 7.5v.5"></path></svg><span id="nota-sconto">Sconti per più partecipanti: da 5 sconto del 5%, da 10 sconto del 10%, da 20 sconto del 15% (indicativo).</span></div>
             <div class="avviso giallo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M12 11v6M12 7.5v.5"></path></svg><span>In e-learning il corso è valido esclusivamente per le mansioni a rischio basso.</span></div>
             <button class="btn btn-rosso" style="width:100%"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 4h2l2.4 11.2a2 2 0 0 0 2 1.6h7.7a2 2 0 0 0 2-1.5L21 8H6.2"></path><circle cx="10" cy="20" r="1.4"></circle><circle cx="17" cy="20" r="1.4"></circle></svg> Aggiungi al carrello</button>
             </div>
@@ -275,6 +275,7 @@
 
 <script>window.ASTRA_ROTTA = "corso/LAV-SPEC-B";</script>
 <script src="assets/data.js"></script>
+<script src="assets/listino.js"></script>
 <script src="assets/foto.js"></script>
 <script src="assets/app.js"></script>
 <script>if ('serviceWorker' in navigator && location.protocol !== 'file:') addEventListener('load', () => navigator.serviceWorker.register('sw.js').catch(() => {}));</script>

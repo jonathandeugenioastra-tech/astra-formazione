@@ -388,7 +388,7 @@
         <section class="box rivela" id="s-obj"><h2>Obiettivi del corso</h2><p>Il corso si pone l'obiettivo di:</p><ul class="elenco">${c.obj.map(o => `<li>${esc(o.charAt(0).toLowerCase() + o.slice(1))};</li>`).join('').replace(/;<\/li>$/, '.</li>')}</ul></section>
         <section class="box rivela" id="s-prog"><h2>Programma e articolazione oraria</h2>
           <div class="tab-wrap"><table class="t prog"><thead><tr><th>Modulo</th><th>Contenuti</th><th>Ore</th></tr></thead><tbody>
-            ${c.moduli.map(m => `<tr><td><b>${esc(m.t)}</b></td><td><ul class="elenco stretto">${m.c.map(x => `<li>${esc(x)}</li>`).join('')}</ul></td><td class="c"><b>${m.ore}</b></td></tr>`).join('')}
+            ${c.moduli.map(m => `<tr><td><b>${esc(m.t)}</b></td><td><ul class="elenco stretto">${m.c.map(x => `<li>${esc(x)}</li>`).join('')}</ul></td><td class="c"><b>${String(m.ore).replace(".", ",")}</b></td></tr>`).join('')}
             <tr class="totale"><td colspan="2"><b>Durata complessiva</b></td><td class="c"><b>${c.ore}</b></td></tr></tbody></table></div>
           <p class="nota-tab">${NOTA_ORE(c)}</p></section>
         <section class="box rivela" id="s-dati"><h2>Dati del corso</h2>

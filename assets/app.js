@@ -167,7 +167,7 @@
         <div>
           <span class="occhiello">Centro di Formazione AiFOS · Teramo</span>
           <h1 class="slogan"><span class="marchio">Astra<i>.</i></span><span class="claim">La tua Academy digitale, semplice e veloce.</span></h1>
-          <p class="sotto">Formazione obbligatoria in materia di salute e sicurezza sul lavoro, ambiente, energia e igiene degli alimenti, erogata in aula, in videoconferenza sincrona e in e-learning in conformità all'Accordo Stato-Regioni del 17 aprile 2025.</p>
+          <p class="sotto">Corsi di salute e sicurezza sul lavoro, ambiente, energia e igiene degli alimenti, in aula, in videoconferenza e in e-learning, con durata, contenuti e modalità previsti dalla normativa di riferimento di ciascun corso.</p>
           <form class="cerca-hero" role="search" id="cerca-hero">
             <label>${I.cerca}<span class="sr">Cerca un corso</span><input name="q" placeholder="Titolo o codice del corso" autocomplete="off"></label>
             <button class="btn btn-rosso">Cerca</button>

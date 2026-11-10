@@ -40,9 +40,18 @@ fs.copyFileSync(path.join(ROOT, 'loghi/jd_logo_bianco.svg'), path.join(OUT, 'log
 fs.copyFileSync(path.join(ROOT, 'formazione/risorse/timbro_DEU.png'), path.join(OUT, 'img/timbro.png'));
 
 (async () => {
-  const foto = [...new Set(C.moduli.map(m => m.foto))];
+  const foto = [...new Set(C.moduli.map(m => m.foto).concat(['sicurezza', 'sicurezza2', 'sicurezza3', 'hero1', 'chi', 'aziende']))];
   for (const f of foto) await sharp(path.join(ROOT, 'sito/img', f + '-2560.jpg')).resize({ width: 1920 }).jpeg({ quality: 80, mozjpeg: true }).toFile(path.join(OUT, 'img', f + '.jpg'));
 
+  /* narrazione professionale (se generata con tts_azure.js) */
+  const fa = path.join(SRC, 'audio.json'); let audioJs = '';
+  if (fs.existsSync(fa)) {
+    const A = JSON.parse(fs.readFileSync(fa, 'utf8')); mk('audio');
+    Object.values(A.schermate).flat().forEach(x => fs.copyFileSync(path.join(BASE, 'audio-cache', x.f), path.join(OUT, 'audio', x.f)));
+    fs.writeFileSync(path.join(OUT, 'dati/audio.js'), 'window.AUDIO=' + JSON.stringify(A) + ';');
+    audioJs = '<script src="dati/audio.js?v=' + Date.now() + '"></script>';
+    console.log('Narrazione:', A.voce, Object.values(A.schermate).flat().length, 'tracce');
+  } else console.log('Narrazione: file audio assenti (voce di sistema come riserva)');
   const vers = new Date().toISOString().slice(0, 10);
   fs.writeFileSync(path.join(OUT, 'index.html'), `<!doctype html>
 <html lang="it"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
@@ -51,7 +60,7 @@ fs.copyFileSync(path.join(ROOT, 'formazione/risorse/timbro_DEU.png'), path.join(
 <link rel="preload" href="fonts/Inter-400.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="player/player.css?v=${vers}"></head>
 <body><noscript>Per seguire il corso è necessario abilitare JavaScript.</noscript>
-<script src="dati/icone.js?v=${vers}"></script><script src="dati/iso7010.js?v=${vers}"></script><script src="dati/corso.js?v=${vers}"></script><script src="player/player.js?v=${vers}"></script>
+<script src="dati/icone.js?v=${vers}"></script><script src="dati/iso7010.js?v=${vers}"></script><script src="dati/corso.js?v=${vers}"></script>${audioJs}<script src="player/player.js?v=${vers}"></script>
 </body></html>`);
 
   const files = [];

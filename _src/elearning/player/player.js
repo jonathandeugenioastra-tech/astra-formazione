@@ -73,12 +73,13 @@
       <div class="tit"><small>${esc(C.rif)}</small><span id="h-tit">${esc(C.titolo)}</span></div>
       <div class="azioni">
         <button class="ico-btn" id="b-ind" title="Indice del corso" aria-label="Indice del corso">${ico('FaListUl')}</button>
-        <button class="ico-btn" id="b-tr" title="Trascrizione" aria-label="Trascrizione">${ico('FaClosedCaptioning')}</button>
+        <button class="ico-btn on" id="b-sott" title="Sottotitoli" aria-label="Sottotitoli">${ico('FaClosedCaptioning')}</button>
+        <button class="ico-btn" id="b-tr" title="Trascrizione del commento" aria-label="Trascrizione">${ico('FaAlignLeft')}</button>
         <button class="ico-btn on" id="b-aud" title="Narrazione attiva" aria-label="Narrazione">${ico('FaVolumeHigh')}</button>
       </div>
     </header>
     <div class="avanz"><i id="avz"></i></div>
-    <main class="palco-wrap"><div class="palco" id="palco"></div></main>
+    <main class="palco-wrap"><div class="palco-col"><div class="palco" id="palco"></div><div class="sottotit vuoto" id="sott" aria-live="polite"></div></div></main>
     <footer class="comandi">
       <div class="sx"><div class="firma"><img src="loghi/jd.svg" alt="J.D'"><span>© 2026 dr. Jonathan D'Eugenio · ASTRA S.r.l.</span></div></div>
       <div class="centro">
@@ -99,39 +100,56 @@
   const msg = (t, p) => { $('#msg-t').textContent = t; $('#msg-p').textContent = p; $('#ov-msg').classList.add('on'); };
   $('#msg-ok').onclick = () => $('#ov-msg').classList.remove('on');
 
-  /* ───────── narrazione ───────── */
-  const tts = window.speechSynthesis;
-  let audio = true, voce = null, narFine = true, narInizio = 0, narDur = 1;
-  try { const a = localStorage.getItem('astra-el-audio'); if (a === '0') audio = false; } catch (e) {}
+  /* ───────── narrazione: voce professionale pre-registrata (MP3 per frase) con sottotitoli;
+     in assenza dei file audio si usa la migliore voce neurale disponibile nel sistema ───────── */
+  const tts = window.speechSynthesis, AUD = window.AUDIO || null, player = new Audio();
+  player.preload = 'auto';
+  let audio = true, voce = null, narFine = true, narInizio = 0, narDur = 1, narGen = 0, sott = true;
+  try { const a = localStorage.getItem('astra-el-audio'); if (a === '0') audio = false; if (localStorage.getItem('astra-el-sott') === '0') sott = false; } catch (e) {}
   const scegliVoce = () => {
     if (!tts) return;
     const v = tts.getVoices().filter(x => /^it/i.test(x.lang));
-    voce = v.find(x => /natural|online/i.test(x.name) && /isabella|elsa|elena/i.test(x.name)) || v.find(x => /natural|online/i.test(x.name)) || v.find(x => /google/i.test(x.name)) || v[0] || null;
+    voce = v.find(x => /natural|online/i.test(x.name) && /isabella|elsa|diego|giuseppe/i.test(x.name)) || v.find(x => /natural|online|neural/i.test(x.name)) || v.find(x => /google/i.test(x.name)) || v[0] || null;
   };
   if (tts) { scegliVoce(); tts.onvoiceschanged = scegliVoce; }
   const durata = t => Math.max(4, t.split(/\s+/).length / 2.55);
+  const chiave = s => s.mod.id === 'TF' ? 'TF-0' : `${s.mod.id}-${s.si}`;
+  const sottotitolo = t => { const el = $('#sott'); el.textContent = t || ''; el.classList.toggle('vuoto', !t); };
   const parla = (testo, onSegno) => {
-    if (tts) tts.cancel();
-    narDur = durata(testo); narInizio = Date.now(); narFine = false;
-    const frasi = testo.match(/[^.!?;]+[.!?;]*/g) || [testo];
-    $('#tr').innerHTML = frasi.map((f, i) => `<p data-i="${i}">${esc(f.trim())}</p>`).join('');
-    if (!audio || !tts) { // senza audio la progressione segue il tempo di lettura stimato
-      const tm = setTimeout(() => { narFine = true; aggiorna(); }, ANTEPRIMA ? 300 : narDur * 1000 * 0.6);
-      timersSch.push(tm); return;
-    }
+    const gen = ++narGen; zitto(gen);
+    const tracce = AUD && AUD.schermate[chiave(S[st.c])];
+    const frasi = tracce ? tracce.map(x => x.t) : (testo.match(/[^.!?;]+[.!?;]*/g) || [testo]).map(f => f.trim());
+    narDur = tracce ? tracce.reduce((a, x) => a + x.d, 0) : durata(testo); narInizio = Date.now(); narFine = false;
+    $('#tr').innerHTML = frasi.map((f, i) => `<p data-i="${i}">${esc(f)}</p>`).join('');
+    const evid = i => { $$('#tr p').forEach(p => p.classList.toggle('att', +p.dataset.i === i)); sottotitolo(frasi[i]); };
+    const fine = () => { if (gen !== narGen) return; narFine = true; sottotitolo(''); aggiorna(); };
+    if (!audio) { sottotitolo(''); const tm = setTimeout(fine, ANTEPRIMA ? 300 : narDur * 1000 * 0.6); timersSch.push(tm); return; }
     let i = 0;
+    if (tracce) {
+      const via = () => {
+        if (gen !== narGen) return;
+        if (i >= tracce.length) return fine();
+        evid(i); player.src = 'audio/' + tracce[i].f;
+        player.onended = () => { if (gen !== narGen) return; i++; if (onSegno) onSegno(i / tracce.length); setTimeout(via, 180); };
+        player.onerror = () => { i++; via(); };
+        player.play().catch(() => fine());
+      };
+      return via();
+    }
+    if (!tts) return fine();
     const via = () => {
-      if (i >= frasi.length) { narFine = true; aggiorna(); return; }
-      const u = new SpeechSynthesisUtterance(frasi[i].trim());
-      u.lang = 'it-IT'; if (voce) u.voice = voce; u.rate = 1.02; u.pitch = 1;
-      $$('#tr p').forEach(p => p.classList.toggle('att', +p.dataset.i === i));
-      u.onend = () => { i++; if (onSegno) onSegno(i / frasi.length); via(); };
-      u.onerror = () => { narFine = true; aggiorna(); };
+      if (gen !== narGen) return;
+      if (i >= frasi.length) return fine();
+      const u = new SpeechSynthesisUtterance(frasi[i]);
+      u.lang = 'it-IT'; if (voce) u.voice = voce; u.rate = 1; u.pitch = 1;
+      evid(i);
+      u.onend = () => { if (gen !== narGen) return; i++; if (onSegno) onSegno(i / frasi.length); via(); };
+      u.onerror = () => fine();
       tts.speak(u);
     };
     via();
   };
-  const zitto = () => { if (tts) tts.cancel(); };
+  function zitto(gen) { if (gen === undefined) narGen++; if (tts) tts.cancel(); try { player.pause(); } catch (e) {} }
   $('#b-aud').onclick = () => {
     audio = !audio; $('#b-aud').classList.toggle('on', audio);
     try { localStorage.setItem('astra-el-audio', audio ? '1' : '0'); } catch (e) {}
@@ -141,6 +159,9 @@
   const pann = id => { const p = $(id), ap = !p.classList.contains('aperto'); $$('.pannello').forEach(x => x.classList.remove('aperto')); p.classList.toggle('aperto', ap); };
   $('#b-ind').onclick = () => { indice(); pann('#p-ind'); };
   $('#b-tr').onclick = () => pann('#p-tr');
+  const applicaSott = () => { $('#b-sott').classList.toggle('on', sott); document.body.classList.toggle('no-sott', !sott); };
+  $('#b-sott').onclick = () => { sott = !sott; try { localStorage.setItem('astra-el-sott', sott ? '1' : '0'); } catch (e) {} applicaSott(); };
+  applicaSott();
 
   /* ───────── rivelazione progressiva sincronizzata con la narrazione ───────── */
   let rivela = [], timersSch = [];
@@ -155,8 +176,8 @@
     rivela = $$('.an,.an-s', palco);
     const fisso = rivela.filter(el => el.dataset.subito !== undefined); fisso.forEach(mostra);
     rivela = rivela.filter(el => el.dataset.subito === undefined);
-    const passo = ANTEPRIMA ? 120 : Math.min(2600, Math.max(380, (durata(S[st.c].nar || '') * 1000 * 0.85) / Math.max(1, rivela.length)));
-    rivela.forEach((el, i) => timersSch.push(setTimeout(() => mostra(el), 350 + i * passo)));
+    const passo = ANTEPRIMA ? 90 : Math.min(1400, Math.max(220, (narDur * 1000 * 0.7) / Math.max(1, rivela.length)));
+    rivela.forEach((el, i) => timersSch.push(setTimeout(() => mostra(el), 150 + i * passo)));
   };
 
   /* ───────── vincoli di completamento ───────── */
@@ -240,6 +261,7 @@
   /* ───────── rendering ───────── */
   const testa = (s, extra = '') => `<div class="sch-testa an" data-subito><div><div class="mod">${esc(s.mod.id === 'M0' ? 'Introduzione' : s.mod.id === 'TF' ? 'Verifica finale' : 'Modulo ' + s.mod.id.slice(1) + ' · ' + s.mod.titolo)}</div><h2>${esc(s.tit)}</h2>${s.sott ? `<div class="sott">${esc(s.sott)}</div>` : ''}</div>${s.rif ? `<div class="rif">${esc(s.rif)}</div>` : ''}${extra}</div>`;
   const foto = n => `img/${n}.jpg`;
+  const FOTO = ['sicurezza', 'sicurezza2', 'sicurezza3', 'hero1', 'chi', 'aziende'];
   const shuffle = a => { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
   const svgISO = c => ISO[c] || '';
   const coloriLiv = v => v <= 2 ? ['#00A050', 'Basso', 'Rischio accettabile: mantenere le misure e verificarle nel tempo.'] : v <= 4 ? ['#C9A100', 'Medio-basso', 'Interventi da programmare nel medio periodo, con verifiche periodiche.'] : v <= 8 ? ['#E07000', 'Medio-alto', 'Interventi da programmare con urgenza, nel breve periodo.'] : ['#C81F26', 'Alto', 'Interventi immediati: il rischio non è accettabile.'];
@@ -254,7 +276,7 @@
     guida: s => `<div class="schermata">${testa(s)}<div class="corpo"><div class="guida">${s.voci.map(v => `<div class="g an"><div class="cerchio">${ico(v[0])}</div><b>${esc(v[1])}</b><p>${esc(v[2])}</p></div>`).join('')}</div></div></div>`,
     obiettivi: s => `<div class="schermata">${testa(s)}<div class="corpo"><ul class="check">${s.voci.map(v => `<li class="an">${ico('FaCircleCheck')}<span>${esc(v)}</span></li>`).join('')}</ul></div></div>`,
     sintesi: s => `<div class="schermata">${testa(s)}<div class="corpo sintesi-wrap"><ul class="check">${s.voci.map(v => `<li class="an">${ico('FaCircleCheck')}<span>${esc(v)}</span></li>`).join('')}</ul><div class="badge an-s"><div><div><b>${esc(s.mod.id.slice(1))}</b><span>modulo<br>completato</span></div></div></div></div></div>`,
-    testo: s => `<div class="schermata">${testa(s)}<div class="corpo"><div class="scroll">${s.lead ? `<p class="lead an">${esc(s.lead)}</p>` : ''}<ul class="punti">${s.punti.map((p, i) => `<li class="an"><span class="n">${i + 1}</span><span>${esc(p)}</span></li>`).join('')}</ul></div></div></div>`,
+    testo: s => `<div class="schermata">${testa(s)}<div class="corpo testo-foto"><figure class="foto-sl an" data-subito><img src="img/${FOTO[(s.mi * 7 + s.si) % FOTO.length]}.jpg" alt=""></figure><div class="scroll">${s.lead ? `<p class="lead an">${esc(s.lead)}</p>` : ''}<ul class="punti">${s.punti.map((p, i) => `<li class="an"><span class="n">${i + 1}</span><span>${esc(p)}</span></li>`).join('')}</ul></div></div></div>`,
     definizioni: s => `<div class="schermata">${testa(s)}<div class="corpo"><div class="def-griglia" style="grid-template-columns:repeat(${s.voci.length > 4 ? 3 : 2},1fr)">${s.voci.map((v, i) => `<div class="def an-s" data-i="${i}" role="button" tabindex="0" aria-label="${esc(v[1])}"><div class="in"><div class="fr"><span class="lett">${/^[a-z]{1,2}$/.test(v[0]) ? 'Art. 2 · lett. ' + esc(v[0]) + ')' : esc(v[0])}</span><span class="ter">${esc(v[1])}</span><span class="clic">${ico('FaHandPointer')} Apri</span></div><div class="re"><div class="ter">${esc(v[1])}</div><p>${esc(v[2])}</p></div></div></div>`).join('')}</div></div></div>`,
     articolo: s => `<div class="schermata">${testa(Object.assign({}, s, { rif: '' }))}<div class="corpo art"><div class="targa an" data-subito><div><div class="num">${esc(s.art)}</div>${s.sott ? `<div class="sott">${esc(s.sott)}</div>` : ''}</div>${s.nota ? `<div class="nota">${esc(s.nota)}</div>` : ''}</div><div class="scroll"><ul class="commi">${s.commi.map(c => `<li class="an"><span class="l">${esc(c[0])}${/^[a-z]/.test(c[0]) && c[0].length < 7 && !/^c\./.test(c[0]) ? ')' : ''}</span><span>${esc(c[1])}</span></li>`).join('')}</ul></div></div></div>`,
     figure: s => `<div class="schermata">${testa(s)}<div class="corpo"><div class="fig-griglia ${s.voci.length % 3 === 0 && s.voci.length < 8 ? 'tre' : ''}">${s.voci.map((v, i) => `<button class="fig an-s" data-i="${i}"><span class="cerchio">${ico(v[0])}</span><b>${esc(v[1])}</b></button>`).join('')}</div><div class="dettaglio an" id="det">${ico('FaHandPointer')}<div><b>Seleziona una scheda</b>Per proseguire è necessario consultare tutte le schede.</div></div></div></div>`,
@@ -444,14 +466,15 @@
     const html = (R[s.t] || R.testo)(s);
     const tmp = document.createElement('div'); tmp.innerHTML = html; const nuova = tmp.firstElementChild;
     nuova.classList.add('entra'); if (dir < 0) nuova.classList.add('indietro');
+    if (!nuova.classList.contains('full')) nuova.insertAdjacentHTML('beforeend', `<div class="piede-sl"><span>${esc(C.id)} · ${esc(C.titolo)}</span><span>© 2026 dr. Jonathan D'Eugenio</span><span>${st.c + 1} / ${S.length}</span></div><img class="logo-sl" src="loghi/astra.svg" alt="">`);
     if (s.appro) nuova.insertAdjacentHTML('beforeend', `<button class="appro-btn" id="b-appro">${ico('FaBookOpen')} Approfondimento normativo</button><div class="appro" id="appro"><button class="chiudi" aria-label="Chiudi">${ico('FaXmark')}</button><h3>Approfondimento</h3><p>${esc(s.appro)}</p></div>`);
     $$('.schermata.esce', palco).forEach(x => x.remove());
-    if (vecchia) { vecchia.classList.add('esce'); setTimeout(() => vecchia.remove(), 450); }
+    if (vecchia) { vecchia.classList.add('esce'); setTimeout(() => vecchia.remove(), 300); }
     palco.appendChild(nuova);
     if (s.appro) { $('#b-appro', nuova).onclick = () => $('#appro', nuova).classList.add('aperto'); $('.appro .chiudi', nuova).onclick = () => $('#appro', nuova).classList.remove('aperto'); }
     if (B[s.t]) B[s.t](s, nuova);
+    if (s.nar) parla(s.nar, completo(st.c) ? null : progRivela); else { narFine = true; sottotitolo(''); }
     if (completo(st.c)) $$('.an,.an-s', nuova).forEach(mostra); else avviaRivela();
-    if (s.nar) parla(s.nar, completo(st.c) ? null : progRivela); else narFine = true;
     if (completo(st.c) && audio) narFine = true;
     $('#h-tit').textContent = s.mod.id === 'TF' ? C.titolo : s.mod.titolo;
     window.scrollTo(0, 0);

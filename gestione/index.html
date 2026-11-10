@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Gestione listino – Formazione ASTRA</title>
+<style>
+@font-face{font-family:Inter;src:url(../fonts/Inter-400.woff2) format('woff2');font-weight:400}
+@font-face{font-family:Inter;src:url(../fonts/Inter-600.woff2) format('woff2');font-weight:600}
+:root{--pet:#0F3D4C;--rosso:#C8102E;--bg:#F4F6F8;--card:#fff;--txt:#1B2730;--mut:#5B6B76;--bordo:#D9E0E5;--ok:#1E7B4A;--warn:#8A5A00}
+*{box-sizing:border-box}body{margin:0;font-family:Inter,system-ui,sans-serif;background:var(--bg);color:var(--txt);font-size:15px}
+header{background:var(--pet);color:#fff;padding:18px 20px}header h1{margin:0;font-size:1.3rem}header p{margin:4px 0 0;opacity:.85;font-size:.9rem}
+.wrap{max-width:1150px;margin:0 auto;padding:16px}
+nav.tabs{display:flex;gap:6px;flex-wrap:wrap;margin:16px 0}
+nav.tabs button{border:1px solid var(--bordo);background:#fff;padding:9px 14px;border-radius:8px;font:inherit;cursor:pointer}
+nav.tabs button[aria-selected=true]{background:var(--pet);color:#fff;border-color:var(--pet)}
+section.card{background:var(--card);border:1px solid var(--bordo);border-radius:12px;padding:16px;margin-bottom:16px}
+section.card h2{margin:0 0 6px;font-size:1.1rem}.mut{color:var(--mut);font-size:.88rem}
+table{width:100%;border-collapse:collapse}th,td{padding:7px 6px;border-bottom:1px solid var(--bordo);text-align:left;vertical-align:middle}
+th{font-size:.8rem;text-transform:uppercase;letter-spacing:.03em;color:var(--mut)}
+td.amb{font-weight:600;background:#EEF3F5;color:var(--pet)}
+input,select{font:inherit;padding:6px 8px;border:1px solid var(--bordo);border-radius:6px;background:#fff;max-width:100%}
+input[type=number]{width:96px}input.w{width:100%}
+.btn{border:0;border-radius:8px;padding:10px 16px;font:inherit;font-weight:600;cursor:pointer}
+.btn-p{background:var(--rosso);color:#fff}.btn-s{background:#fff;border:1px solid var(--pet);color:var(--pet)}.btn-x{background:none;color:var(--rosso);padding:4px 8px}
+.riga{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin:10px 0}
+.msg{padding:10px 12px;border-radius:8px;margin-top:10px;font-weight:600}.msg.ok{background:#E3F4EA;color:var(--ok)}.msg.err{background:#FBE4E7;color:var(--rosso)}.msg.warn{background:#FFF4D6;color:var(--warn)}
+.mod{font-size:.75rem;padding:2px 6px;border-radius:4px;background:#EEF3F5;margin-right:3px}
+.cambiato input[type=number]{border-color:var(--rosso);background:#FFF5F6}
+.tabwrap{overflow-x:auto}
+label.ck{display:flex;gap:6px;align-items:center}
+.barra{position:sticky;bottom:0;background:#fff;border-top:1px solid var(--bordo);padding:12px 16px;display:flex;gap:10px;flex-wrap:wrap;align-items:center;justify-content:space-between}
+@media(max-width:640px){th.h,td.h{display:none}}
+</style>
+</head>
+<body>
+<header><div class="wrap" style="padding:0"><h1>Gestione listino e calendario</h1><p>Formazione ASTRA · pagina riservata, non collegata al sito e non indicizzata</p></div></header>
+<div class="wrap">
+  <nav class="tabs" role="tablist">
+    <button role="tab" data-t="prezzi" aria-selected="true">Prezzi e visibilità</button>
+    <button role="tab" data-t="sconti" aria-selected="false">Sconti</button>
+    <button role="tab" data-t="cal" aria-selected="false">Calendario</button>
+    <button role="tab" data-t="cont" aria-selected="false">Contatti e avviso</button>
+    <button role="tab" data-t="pub" aria-selected="false">Pubblica</button>
+  </nav>
+
+  <div data-p="prezzi">
+    <section class="card"><h2>Prezzi per partecipante (IVA esclusa)</h2>
+      <p class="mut">Modifica il prezzo e premi «Pubblica». Deseleziona «Visibile» per nascondere un corso dal catalogo e dal calendario.</p>
+      <div class="riga"><input id="cerca" placeholder="Cerca corso o codice" style="flex:1;min-width:200px">
+        <span>Variazione di tutti i prezzi visibili</span><input id="perc" type="number" step="0.5" value="0" style="width:80px">%
+        <button class="btn btn-s" id="applica">Applica</button></div>
+      <div class="tabwrap"><table><thead><tr><th>Codice</th><th>Corso</th><th class="h">Ore</th><th class="h">Modalità</th><th>Prezzo €</th><th>Visibile</th></tr></thead><tbody id="tp"></tbody></table></div>
+    </section>
+  </div>
+
+  <div data-p="sconti" hidden>
+    <section class="card"><h2>Sconti per numero di partecipanti allo stesso corso</h2>
+      <p class="mut">Applicati automaticamente nel carrello e mostrati nella scheda corso e nella pagina Aziende.</p>
+      <table><thead><tr><th>Da partecipanti</th><th>Sconto %</th><th></th></tr></thead><tbody id="ts"></tbody></table>
+      <div class="riga"><button class="btn btn-s" id="addS">+ Aggiungi fascia</button></div>
+    </section>
+  </div>
+
+  <div data-p="cal" hidden>
+    <section class="card"><h2>Edizioni a calendario</h2>
+      <p class="mut">Le edizioni passate restano visibili finché non le elimini. La modalità proposta è limitata a quelle ammesse per il corso.</p>
+      <div class="tabwrap"><table><thead><tr><th>Corso</th><th>Inizio</th><th>Fine</th><th>Modalità</th><th>Orario</th><th>Sede</th><th>Posti</th><th></th></tr></thead><tbody id="tc"></tbody></table></div>
+      <div class="riga"><button class="btn btn-s" id="addE">+ Aggiungi edizione</button><button class="btn btn-s" id="ordE">Ordina per data</button><button class="btn btn-s" id="delP">Elimina edizioni concluse</button></div>
+    </section>
+  </div>
+
+  <div data-p="cont" hidden>
+    <section class="card"><h2>Contatti</h2>
+      <div class="riga"><label style="flex:1">Telefoni (separati da virgola)<br><input class="w" id="tel"></label></div>
+      <div class="riga"><label style="flex:1">Email<br><input class="w" id="email" type="email"></label><label style="flex:1">PEC<br><input class="w" id="pec" type="email"></label></div>
+      <div class="riga"><label style="flex:1">Orari<br><input class="w" id="orari"></label></div>
+    </section>
+    <section class="card"><h2>Avviso in testa al sito</h2>
+      <p class="mut">Facoltativo: ad esempio chiusure, nuove edizioni, promozioni. Lascia vuoto per non mostrare nulla.</p>
+      <input class="w" id="avviso" maxlength="200" placeholder="Es.: Uffici chiusi dal 24 dicembre al 6 gennaio">
+    </section>
+  </div>
+
+  <div data-p="pub" hidden>
+    <section class="card"><h2>Pubblica online</h2>
+      <p class="mut">Le modifiche vengono salvate nel file <b>assets/listino.js</b> del sito su GitHub. Il sito si aggiorna in 1–2 minuti. Serve un token personale GitHub con permesso di scrittura limitato al solo repository del sito (istruzioni sotto). Il token resta solo in questo browser.</p>
+      <div class="riga"><input id="tok" type="password" autocomplete="off" placeholder="Token GitHub (github_pat_…)" style="flex:1;min-width:240px">
+        <label class="ck"><input type="checkbox" id="ric"> Ricorda su questo computer</label></div>
+      <div class="riga"><button class="btn btn-p" id="pub">Pubblica le modifiche</button><button class="btn btn-s" id="dl">Scarica listino.js</button><button class="btn btn-s" id="dimentica">Dimentica il token</button></div>
+      <div id="esito"></div>
+    </section>
+    <section class="card"><h2>Come creare il token (una sola volta)</h2>
+      <ol class="mut" style="line-height:1.7">
+        <li>Accedi a GitHub con l'account del sito, poi apri <i>Settings → Developer settings → Personal access tokens → Fine-grained tokens</i> e premi <i>Generate new token</i>.</li>
+        <li>Nome: «Gestione listino»; scadenza: a scelta (ad esempio 1 anno).</li>
+        <li><i>Repository access</i>: <b>Only select repositories</b> → <b>astra-formazione</b>.</li>
+        <li><i>Permissions → Repository permissions → Contents</i>: <b>Read and write</b>. Nessun altro permesso.</li>
+        <li>Premi <i>Generate token</i>, copia il codice e incollalo qui sopra. Non condividerlo con nessuno; se lo perdi, revocalo e creane un altro.</li>
+      </ol>
+      <p class="mut">In alternativa puoi premere «Scarica listino.js» e caricare il file su GitHub nella cartella <b>assets</b> del repository (pulsante <i>Add file → Upload files</i>).</p>
+    </section>
+  </div>
+</div>
+<div class="barra"><span id="stato" class="mut">Nessuna modifica</span><button class="btn btn-p" id="pub2">Pubblica</button></div>
+
+<script src="../assets/data.js"></script>
+<script src="../assets/listino.js"></script>
+<script>
+(function () {
+  'use strict';
+  const REPO = 'jonathandeugenioastra-tech/astra-formazione', FILE = 'assets/listino.js', BR = 'main';
+  const D = window.ASTRA, CORSI = D._tutti || D.corsi, L0 = window.ASTRA_LISTINO || {};
+  const AMB = { sicurezza: 'Salute e sicurezza sul lavoro', ambiente: 'Ambiente', energia: 'Energia', haccp: 'Igiene degli alimenti' };
+  const $ = s => document.querySelector(s), esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+  const base = Object.fromEntries(CORSI.map(c => [c.id, (L0.prezzi && typeof L0.prezzi[c.id] === 'number') ? L0.prezzi[c.id] : c.prezzo]));
+  const S = {
+    prezzi: { ...base }, nascosti: (L0.nascosti || []).slice(),
+    sconti: (L0.sconti || [[5, 5], [10, 10], [20, 15]]).map(x => x.slice()).sort((a, b) => a[0] - b[0]),
+    edizioni: (L0.edizioni || D.edizioni || []).map(e => ({ ...e })),
+    contatti: { telefoni: (L0.contatti && L0.contatti.telefoni) || D.azienda.telefoni, email: (L0.contatti && L0.contatti.email) || D.azienda.email, pec: (L0.contatti && L0.contatti.pec) || D.azienda.pec, orari: (L0.contatti && L0.contatti.orari) || D.azienda.orari },
+    avviso: L0.avviso || ''
+  };
+  let iniziale = JSON.stringify(S);
+  const sporco = () => { const d = JSON.stringify(S) !== iniziale; $('#stato').textContent = d ? 'Modifiche non ancora pubblicate' : 'Nessuna modifica'; $('#stato').style.color = d ? 'var(--rosso)' : ''; };
+  addEventListener('beforeunload', e => { if (JSON.stringify(S) !== iniziale) { e.preventDefault(); e.returnValue = ''; } });
+
+  /* schede */
+  document.querySelectorAll('nav.tabs button').forEach(b => b.onclick = () => {
+    document.querySelectorAll('nav.tabs button').forEach(x => x.setAttribute('aria-selected', x === b));
+    document.querySelectorAll('[data-p]').forEach(p => p.hidden = p.dataset.p !== b.dataset.t);
+  });
+
+  /* prezzi */
+  function rPrezzi() {
+    const q = $('#cerca').value.trim().toLowerCase(); let h = '', amb = '';
+    CORSI.filter(c => !q || (c.id + ' ' + c.titolo).toLowerCase().includes(q)).forEach(c => {
+      if (c.ambito !== amb) { amb = c.ambito; h += `<tr><td class="amb" colspan="6">${esc(AMB[amb] || amb)}</td></tr>`; }
+      const ch = S.prezzi[c.id] !== base[c.id];
+      h += `<tr class="${ch ? 'cambiato' : ''}"><td>${esc(c.id)}</td><td>${esc(c.titolo)}</td><td class="h">${c.ore}</td><td class="h">${c.mod.map(m => `<span class="mod">${m}</span>`).join('')}</td>
+        <td><input type="number" min="0" step="1" data-id="${esc(c.id)}" value="${S.prezzi[c.id]}" aria-label="Prezzo ${esc(c.titolo)}"></td>
+        <td><input type="checkbox" data-v="${esc(c.id)}" ${S.nascosti.includes(c.id) ? '' : 'checked'} aria-label="Visibile"></td></tr>`;
+    });
+    $('#tp').innerHTML = h;
+  }
+  $('#tp').addEventListener('input', e => {
+    const t = e.target;
+    if (t.dataset.id) { const v = parseFloat(t.value); if (!isNaN(v) && v >= 0) { S.prezzi[t.dataset.id] = Math.round(v * 100) / 100; t.closest('tr').classList.toggle('cambiato', S.prezzi[t.dataset.id] !== base[t.dataset.id]); } }
+    if (t.dataset.v) { S.nascosti = S.nascosti.filter(x => x !== t.dataset.v); if (!t.checked) S.nascosti.push(t.dataset.v); }
+    sporco();
+  });
+  $('#cerca').oninput = rPrezzi;
+  $('#applica').onclick = () => { const p = parseFloat($('#perc').value); if (!p) return;
+    if (!confirm(`Applicare una variazione del ${p}% a tutti i corsi visibili? I prezzi sono arrotondati all'euro.`)) return;
+    CORSI.forEach(c => { if (!S.nascosti.includes(c.id)) S.prezzi[c.id] = Math.max(0, Math.round(S.prezzi[c.id] * (1 + p / 100))); });
+    $('#perc').value = 0; rPrezzi(); sporco(); };
+
+  /* sconti */
+  function rSconti() {
+    $('#ts').innerHTML = S.sconti.map((s, i) => `<tr><td><input type="number" min="2" step="1" data-i="${i}" data-k="0" value="${s[0]}"></td><td><input type="number" min="0" max="90" step="0.5" data-i="${i}" data-k="1" value="${s[1]}"></td><td><button class="btn btn-x" data-del="${i}">Elimina</button></td></tr>`).join('') || '<tr><td colspan="3" class="mut">Nessuno sconto</td></tr>';
+  }
+  $('#ts').addEventListener('input', e => { const t = e.target; if (t.dataset.i == null) return; const v = parseFloat(t.value); if (!isNaN(v)) S.sconti[+t.dataset.i][+t.dataset.k] = v; sporco(); });
+  $('#ts').addEventListener('click', e => { const d = e.target.dataset.del; if (d == null) return; S.sconti.splice(+d, 1); rSconti(); sporco(); });
+  $('#addS').onclick = () => { const u = S.sconti.length ? S.sconti[S.sconti.length - 1][0] * 2 : 5; S.sconti.push([u, 5]); rSconti(); sporco(); };
+
+  /* calendario */
+  const opzCorsi = id => CORSI.map(c => `<option value="${esc(c.id)}" ${c.id === id ? 'selected' : ''}>${esc(c.id)} – ${esc(c.titolo)}</option>`).join('');
+  const NOMI = { P: 'Aula', VCS: 'Videoconferenza', EL: 'E-learning' };
+  const opzMod = (id, m) => { const c = CORSI.find(x => x.id === id); return (c ? c.mod.filter(x => x !== 'EL') : ['P', 'VCS']).map(x => `<option value="${x}" ${x === m ? 'selected' : ''}>${NOMI[x]}</option>`).join(''); };
+  const oggi = new Date().toISOString().slice(0, 10);
+  function rCal() {
+    $('#tc').innerHTML = S.edizioni.map((e, i) => `<tr${e.fine && e.fine < oggi ? ' style="opacity:.55"' : ''}>
+      <td><select data-i="${i}" data-k="corso" style="max-width:260px">${opzCorsi(e.corso)}</select></td>
+      <td><input type="date" data-i="${i}" data-k="data" value="${esc(e.data)}"></td>
+      <td><input type="date" data-i="${i}" data-k="fine" value="${esc(e.fine || e.data)}"></td>
+      <td><select data-i="${i}" data-k="mod">${opzMod(e.corso, e.mod)}</select></td>
+      <td><input data-i="${i}" data-k="orario" value="${esc(e.orario)}" style="width:120px"></td>
+      <td><input data-i="${i}" data-k="sede" value="${esc(e.sede)}" style="width:140px"></td>
+      <td><input type="number" min="1" data-i="${i}" data-k="posti" value="${e.posti}" style="width:70px"></td>
+      <td><button class="btn btn-x" data-del="${i}">Elimina</button></td></tr>`).join('') || '<tr><td colspan="8" class="mut">Nessuna edizione</td></tr>';
+  }
+  $('#tc').addEventListener('change', e => { const t = e.target; if (t.dataset.i == null) return; const ed = S.edizioni[+t.dataset.i];
+    ed[t.dataset.k] = t.dataset.k === 'posti' ? parseInt(t.value, 10) || 1 : t.value;
+    if (t.dataset.k === 'corso') { const c = CORSI.find(x => x.id === t.value); if (c && !c.mod.includes(ed.mod)) ed.mod = c.mod.includes('P') ? 'P' : 'VCS'; rCal(); }
+    if (t.dataset.k === 'mod') ed.sede = ed.mod === 'VCS' ? 'Online' : (ed.sede === 'Online' ? 'ASTRA – Teramo' : ed.sede);
+    if (t.dataset.k === 'data' && (!ed.fine || ed.fine < ed.data)) { ed.fine = ed.data; rCal(); }
+    sporco(); });
+  $('#tc').addEventListener('click', e => { const d = e.target.dataset.del; if (d == null) return; S.edizioni.splice(+d, 1); rCal(); sporco(); });
+  $('#addE').onclick = () => { S.edizioni.push({ corso: CORSI[0].id, data: oggi, fine: oggi, mod: CORSI[0].mod.includes('P') ? 'P' : 'VCS', orario: '9:00 – 13:00', sede: 'ASTRA – Teramo', posti: 15 }); rCal(); sporco(); };
+  $('#ordE').onclick = () => { S.edizioni.sort((a, b) => a.data.localeCompare(b.data)); rCal(); sporco(); };
+  $('#delP').onclick = () => { const n = S.edizioni.filter(e => (e.fine || e.data) < oggi).length; if (!n) return alert('Nessuna edizione conclusa.');
+    if (confirm(`Eliminare ${n} edizioni concluse?`)) { S.edizioni = S.edizioni.filter(e => (e.fine || e.data) >= oggi); rCal(); sporco(); } };
+
+  /* contatti */
+  $('#tel').value = S.contatti.telefoni.join(', '); $('#email').value = S.contatti.email; $('#pec').value = S.contatti.pec; $('#orari').value = S.contatti.orari; $('#avviso').value = S.avviso;
+  ['tel', 'email', 'pec', 'orari', 'avviso'].forEach(k => $('#' + k).oninput = () => {
+    S.contatti = { telefoni: $('#tel').value.split(',').map(x => x.trim()).filter(Boolean), email: $('#email').value.trim(), pec: $('#pec').value.trim(), orari: $('#orari').value.trim() };
+    S.avviso = $('#avviso').value.trim(); sporco(); });
+
+  /* generazione del file */
+  function valida() {
+    const err = [];
+    CORSI.forEach(c => { if (!(S.prezzi[c.id] >= 0)) err.push('Prezzo non valido: ' + c.id); });
+    S.sconti.forEach(s => { if (!(s[0] >= 2) || !(s[1] >= 0 && s[1] <= 90)) err.push('Fascia di sconto non valida: ' + s.join(' / ')); });
+    if (new Set(S.sconti.map(s => s[0])).size !== S.sconti.length) err.push('Due fasce di sconto hanno lo stesso numero di partecipanti');
+    S.edizioni.forEach((e, i) => { if (!e.data) err.push('Edizione ' + (i + 1) + ': data mancante'); if (e.fine && e.fine < e.data) err.push('Edizione ' + (i + 1) + ': fine prima dell\'inizio'); });
+    return err;
+  }
+  function genera() {
+    const L = { aggiornato: new Date().toISOString().slice(0, 10), prezzi: S.prezzi, nascosti: S.nascosti, sconti: S.sconti.slice().sort((a, b) => a[0] - b[0]), edizioni: S.edizioni, contatti: S.contatti, avviso: S.avviso };
+    return `/* Listino e calendario ASTRA – modificabile dalla pagina «gestione» · © 2026 dr. Jonathan D'Eugenio */
+window.ASTRA_LISTINO = ${JSON.stringify(L, null, 1)};
+(function(){var D=window.ASTRA,L=window.ASTRA_LISTINO;if(!D||!L)return;D._tutti=D.corsi.slice();
+for(var id in L.prezzi){var c=D.corsi.find(function(x){return x.id===id});if(c&&typeof L.prezzi[id]==='number')c.prezzo=L.prezzi[id];}
+var h=L.nascosti||[];D.corsi=D.corsi.filter(function(c){return h.indexOf(c.id)<0});
+if(L.edizioni)D.edizioni=L.edizioni.filter(function(e){return h.indexOf(e.corso)<0&&D.corsi.some(function(c){return c.id===e.corso})});
+if(L.sconti)D.sconti=L.sconti.slice().sort(function(a,b){return b[0]-a[0]});
+if(L.contatti)for(var k in L.contatti)if(L.contatti[k])D.azienda[k]=L.contatti[k];
+D.avviso=L.avviso||'';})();
+`;
+  }
+  const esito = (t, c) => { $('#esito').innerHTML = `<div class="msg ${c}">${t}</div>`; };
+  $('#dl').onclick = () => { const e = valida(); if (e.length) return esito(e.map(esc).join('<br>'), 'err');
+    const a = document.createElement('a'); a.href = URL.createObjectURL(new Blob([genera()], { type: 'text/javascript' })); a.download = 'listino.js'; a.click(); };
+
+  /* token: solo in questo browser */
+  let mem = ''; try { mem = localStorage.getItem('astra-gh-tok') || sessionStorage.getItem('astra-gh-tok') || ''; } catch (e) { }
+  if (mem) { $('#tok').value = mem; $('#ric').checked = !!(function () { try { return localStorage.getItem('astra-gh-tok'); } catch (e) { } })(); }
+  $('#dimentica').onclick = () => { try { localStorage.removeItem('astra-gh-tok'); sessionStorage.removeItem('astra-gh-tok'); } catch (e) { } $('#tok').value = ''; $('#ric').checked = false; esito('Token rimosso da questo browser.', 'ok'); };
+  const b64 = s => { const u = new TextEncoder().encode(s); let b = ''; for (let i = 0; i < u.length; i += 0x8000) b += String.fromCharCode.apply(null, u.subarray(i, i + 0x8000)); return btoa(b); };
+
+  async function pubblica() {
+    document.querySelector('nav.tabs button[data-t=pub]').click();
+    const e = valida(); if (e.length) return esito(e.map(esc).join('<br>'), 'err');
+    const tok = $('#tok').value.trim(); if (!tok) return esito('Inserisci il token GitHub oppure usa «Scarica listino.js».', 'warn');
+    try { if ($('#ric').checked) { localStorage.setItem('astra-gh-tok', tok); sessionStorage.removeItem('astra-gh-tok'); } else { sessionStorage.setItem('astra-gh-tok', tok); localStorage.removeItem('astra-gh-tok'); } } catch (x) { }
+    esito('Pubblicazione in corso…', 'warn');
+    const H = { Authorization: 'Bearer ' + tok, Accept: 'application/vnd.github+json', 'X-GitHub-Api-Version': '2022-11-28' };
+    const U = `https://api.github.com/repos/${REPO}/contents/${FILE}`;
+    try {
+      const g = await fetch(U + '?ref=' + BR, { headers: H, cache: 'no-store' });
+      if (g.status === 401) throw new Error('Token non valido o scaduto.');
+      if (g.status === 403 || g.status === 404) throw new Error('Il token non ha accesso in scrittura al repository astra-formazione (permesso Contents: Read and write).');
+      const sha = g.ok ? (await g.json()).sha : undefined;
+      const r = await fetch(U, { method: 'PUT', headers: H, body: JSON.stringify({ message: 'Aggiornamento listino e calendario dalla pagina di gestione', content: b64(genera()), branch: BR, sha }) });
+      if (!r.ok) { const j = await r.json().catch(() => ({})); throw new Error('GitHub ha risposto ' + r.status + (j.message ? ': ' + j.message : '')); }
+      esito('Pubblicato. Il sito si aggiorna entro 1–2 minuti (se non vedi le modifiche, ricarica la pagina del sito).', 'ok');
+      iniziale = JSON.stringify(S); sporco();
+    } catch (x) { esito(esc(x.message || x), 'err'); }
+  }
+  $('#pub').onclick = pubblica; $('#pub2').onclick = pubblica;
+
+  rPrezzi(); rSconti(); rCal();
+})();
+</script>
+</body>
+</html>

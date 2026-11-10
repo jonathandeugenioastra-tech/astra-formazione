@@ -60,6 +60,8 @@
   const CK = 'astra-carrello-v1';
   let cart = [];
   try { cart = JSON.parse(localStorage.getItem(CK) || '[]') || []; } catch (e) { cart = []; }
+  cart = cart.filter(r => r && D.corsi.some(c => c.id === r.id));
+  if (D.avviso) { const av = document.createElement('div'); av.className = 'avviso-sito'; av.setAttribute('role', 'status'); av.textContent = D.avviso; app.parentNode.insertBefore(av, app); }
   const salva = () => { try { localStorage.setItem(CK, JSON.stringify(cart)); } catch (e) { } aggiornaBadge(); };
   function aggiungi(id, mod, qta, ed = null) {
     const r = cart.find(x => x.id === id && x.mod === mod && (x.ed || null) === (ed || null));
@@ -74,7 +76,9 @@
     const bt = $('#badge-tab'); if (bt) { bt.textContent = n; bt.classList.toggle('on', n > 0); }
     $('#btn-carrello').setAttribute('aria-label', `Carrello, ${n} ${n === 1 ? 'posto' : 'posti'}`);
   }
-  const SCONTI = [[20, 15], [10, 10], [5, 5]];
+  const SCONTI = (D.sconti && D.sconti.length ? D.sconti : [[20, 15], [10, 10], [5, 5]]).slice().sort((a, b) => b[0] - a[0]);
+  const righeSconti = () => { const a = SCONTI.slice().reverse(); if (!a.length) return '<tr><td>qualsiasi numero</td><td class="c">—</td></tr>'; let r = a[0][0] > 1 ? `<tr><td>da 1 a ${a[0][0] - 1}</td><td class="c">—</td></tr>` : ''; a.forEach(([q, x], i) => { r += `<tr><td>${a[i + 1] ? 'da ' + q + ' a ' + (a[i + 1][0] - 1) : q + ' e oltre'}</td><td class="c">${x}%</td></tr>`; }); return r; };
+  const testoSconti = () => SCONTI.length ? 'Sconti per più partecipanti: ' + SCONTI.slice().reverse().map(([q, s]) => 'da ' + q + ' sconto del ' + s + '%').join(', ') + ' (indicativo).' : '';
   const scontoPer = q => (SCONTI.find(([s]) => q >= s) || [0, 0])[1];
 
   /* ---------- Toast ---------- */
@@ -240,7 +244,7 @@
     <section class="sez grigia">
       <div class="wrap split">
         <div class="foto-tonda rivela">${foto('aziende', '', '(max-width:1024px) 100vw, 50vw')}
-          <div class="flottante"><b>-15%</b><span>riduzione a partire da 20 partecipanti, con assegnazione nominativa dei posti</span></div></div>
+          ${SCONTI.length ? `<div class="flottante"><b>-${SCONTI[0][1]}%</b><span>riduzione a partire da ${SCONTI[0][0]} partecipanti, con assegnazione nominativa dei posti</span></div>` : ''}</div>
         <div class="rivela ritardo-1">
           <div class="intest" style="margin-bottom:0"><div><span class="k">Per le aziende</span><h2>Gestione centralizzata della formazione del personale</h2></div></div>
           <ul class="elenco-check">
@@ -435,7 +439,7 @@
             <div id="blocco-acq" style="display:flex;flex-direction:column;gap:16px">
             <div><span class="b" style="display:block;color:var(--petrolio);margin-bottom:10px" id="lbl-q">Numero di partecipanti</span>
               <div class="qta" role="group" aria-labelledby="lbl-q"><button type="button" data-d="-1" aria-label="Diminuisci">−</button><input name="qta" type="number" min="1" max="500" value="1" inputmode="numeric" aria-label="Partecipanti"><button type="button" data-d="1" aria-label="Aumenta">+</button></div></div>
-            <div class="avviso blu">${I.info}<span id="nota-sconto">Da 5 partecipanti sconto del 5%, da 10 del 10%, da 20 del 15% (indicativo).</span></div>
+            <div class="avviso blu">${I.info}<span id="nota-sconto">${testoSconti()}</span></div>
             ${c.nota ? `<div class="avviso giallo">${I.info}<span>${esc(c.nota)}</span></div>` : ''}
             <button class="btn btn-rosso" style="width:100%">${I.carrello} Aggiungi al carrello</button>
             </div>
@@ -451,7 +455,7 @@
     const q = f.qta;
     const agg = () => { const n = Math.max(1, Math.min(500, parseInt(q.value) || 1)); q.value = n;
       const s = scontoPer(n), c = corso(f.dataset.id);
-      $('#nota-sconto').innerHTML = s ? `<b>Sconto ${s}%</b> per ${n} partecipanti: ${euro(c.prezzo * n * (1 - s / 100))} invece di ${euro(c.prezzo * n)} (IVA esclusa).` : 'Da 5 partecipanti sconto del 5%, da 10 del 10%, da 20 del 15% (indicativo).'; };
+      $('#nota-sconto').innerHTML = s ? `<b>Sconto ${s}%</b> per ${n} partecipanti: ${euro(c.prezzo * n * (1 - s / 100))} invece di ${euro(c.prezzo * n)} (IVA esclusa).` : testoSconti(); };
     $$('.qta button', f).forEach(b => b.addEventListener('click', () => { q.value = (parseInt(q.value) || 1) + +b.dataset.d; agg(); }));
     q.addEventListener('input', agg); q.addEventListener('change', agg);
     $$('.indice-scheda button').forEach(b => b.addEventListener('click', () => { const t = $('#s-' + b.dataset.sez); t && window.scrollTo({ top: t.getBoundingClientRect().top + scrollY - 150, behavior: 'smooth' }); }));
@@ -598,7 +602,7 @@
     <section class="sez"><div class="wrap">
       <div class="intest rivela"><div><span class="k">Sconti quantità</span><h2>Condizioni per più partecipanti</h2><p>Riduzioni indicative applicate automaticamente nel carrello per ciascun corso.</p></div></div>
       <div class="tab-wrap rivela" style="max-width:720px"><table class="t"><thead><tr><th>Partecipanti per corso</th><th>Sconto</th></tr></thead><tbody>
-        <tr><td>da 1 a 4</td><td class="c">—</td></tr><tr><td>da 5 a 9</td><td class="c">5%</td></tr><tr><td>da 10 a 19</td><td class="c">10%</td></tr><tr><td>20 e oltre</td><td class="c">15%</td></tr></tbody></table></div>
+        ${righeSconti()}</tbody></table></div>
       <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:32px"><a class="btn btn-rosso" href="#/area-azienda">Dimostrazione dell'area azienda</a><a class="btn btn-bordo" href="#/contatti">Richiesta di piano formativo</a></div>
     </div></section>`;
 

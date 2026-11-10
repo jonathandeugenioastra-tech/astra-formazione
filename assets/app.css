@@ -724,3 +724,4 @@ picture{display:contents}
 @media (max-width:640px){.hero .sotto{font-size:14.5px}}
 @media (min-width:900px){.hero .wrap>div:first-child{width:min-content}.hero .wrap>div:first-child .sotto{max-width:none;width:100%}.hero .wrap>div:first-child .cerca-hero{max-width:none;width:100%}}
 @media (min-width:901px){.hero .wrap>div:first-child{width:min-content}.hero .sotto{max-width:none}.hero .cerca-hero{max-width:none;width:100%}.hero h1.slogan .claim{white-space:nowrap}}
+.avviso-sito{background:#FFF4D6;color:#5A4300;border-bottom:1px solid #F0D58A;padding:10px 16px;text-align:center;font-weight:600;font-size:.95rem}

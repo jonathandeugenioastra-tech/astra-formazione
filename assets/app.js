@@ -166,8 +166,8 @@
       <div class="wrap">
         <div>
           <span class="occhiello">Centro di Formazione AiFOS · Teramo</span>
-          <h1 class="slogan"><span class="marchio">Astra <span class="ac">Academy</span></span><span class="filetto" aria-hidden="true"></span><span class="claim">La tua Academy digitale, semplice e veloce.</span></h1>
-          <p class="sotto">Formazione qualificata in materia di salute e sicurezza sul lavoro, tutela dell'ambiente, energia e igiene degli alimenti, erogata in aula, in videoconferenza sincrona e in e-learning nel rispetto della normativa di riferimento di ciascun corso.</p>
+          <h1 class="slogan"><span class="marchio">Astra <span class="ac">Academy</span></span><span class="filetto" aria-hidden="true"></span><span class="claim">La tua Academy digitale: semplice, intuitiva e performante.</span></h1>
+          <p class="sotto">Piattaforma accreditata per l'erogazione di percorsi formativi qualificati in materia di salute e sicurezza nei luoghi di lavoro, tutela ambientale, transizione energetica e igiene degli alimenti. La didattica è flessibile e fruibile in aula, in videoconferenza sincrona e in modalità e-learning, nel pieno rispetto dei quadri normativi di riferimento.</p>
           <form class="cerca-hero" role="search" id="cerca-hero">
             <label>${I.cerca}<span class="sr">Cerca un corso</span><input name="q" placeholder="Titolo o codice del corso" autocomplete="off"></label>
             <button class="btn btn-rosso">Cerca</button>

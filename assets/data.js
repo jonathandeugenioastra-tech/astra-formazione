@@ -588,7 +588,7 @@ window.ASTRA = {
    "prezzo": 590,
    "agg": "40 ore (RSPP) o 20 ore (ASPP) ogni 5 anni",
    "rif": "D.lgs. 81/2008 art. 32 · Accordo Stato-Regioni 17/04/2025",
-   "pres": "Il Modulo B comune, di 48 ore, fornisce le conoscenze tecniche per l'individuazione dei pericoli e la valutazione dei rischi in tutti i settori. Per i settori agricoltura, pesca, costruzioni, sanità residenziale e chimico-petrolchimico sono previsti moduli di specializzazione (B-SP1 – B-SP5). Il ciclo di aggiornamento decorre dal completamento del Modulo B comune. L'Accordo fissa la durata complessiva di 48 ore, escluse le verifiche; la ripartizione oraria tra le dodici unità didattiche è definita nel progetto formativo. Sono previsti moduli di specializzazione per agricoltura (16 ore), pesca (12 ore), costruzioni (16 ore), sanità residenziale (12 ore) e chimico-petrolchimico (16 ore).",
+   "pres": "Il Modulo B comune, di 48 ore, fornisce le conoscenze tecniche per l'individuazione dei pericoli e la valutazione dei rischi in tutti i settori. Per i settori agricoltura, pesca, costruzioni, sanità residenziale e chimico-petrolchimico sono previsti moduli di specializzazione (B-SP1 – B-SP5). Il ciclo di aggiornamento decorre dal completamento del Modulo B comune. L'Accordo fissa la durata complessiva di 48 ore, escluse le verifiche; la ripartizione oraria tra le dodici unità didattiche indicata di seguito è definita nel progetto formativo ASTRA. Sono previsti moduli di specializzazione per agricoltura (16 ore), pesca (12 ore), costruzioni (16 ore), sanità residenziale (12 ore) e chimico-petrolchimico (16 ore).",
    "dest": "RSPP e ASPP che hanno completato il Modulo A.",
    "req": "Modulo A completato.",
    "obj": [
@@ -599,7 +599,7 @@ window.ASTRA = {
    "moduli": [
     {
      "t": "UD1 – Tecniche specifiche di valutazione dei rischi e analisi degli incidenti",
-     "ore": 4,
+     "ore": 5,
      "c": []
     },
     {
@@ -614,12 +614,12 @@ window.ASTRA = {
     },
     {
      "t": "UD4 – Rischio incendio, atmosfere esplosive e gestione delle emergenze",
-     "ore": 4,
+     "ore": 5,
      "c": []
     },
     {
      "t": "UD5 – Rischi infortunistici",
-     "ore": 4,
+     "ore": 5,
      "c": []
     },
     {
@@ -629,32 +629,32 @@ window.ASTRA = {
     },
     {
      "t": "UD7 – Rischi di natura psico-sociale",
-     "ore": 4,
+     "ore": 3,
      "c": []
     },
     {
      "t": "UD8 – Agenti fisici",
-     "ore": 4,
+     "ore": 5,
      "c": []
     },
     {
      "t": "UD9 – Agenti chimici, cancerogeni e mutageni, amianto",
-     "ore": 4,
+     "ore": 5,
      "c": []
     },
     {
      "t": "UD10 – Agenti biologici",
-     "ore": 4,
+     "ore": 3,
      "c": []
     },
     {
      "t": "UD11 – Rischi connessi ad attività particolari",
-     "ore": 4,
+     "ore": 3,
      "c": []
     },
     {
      "t": "UD12 – Rischi connessi all'assunzione di sostanze stupefacenti, psicotrope e alcol",
-     "ore": 4,
+     "ore": 2,
      "c": []
     }
    ]

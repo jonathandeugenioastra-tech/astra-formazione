@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest identifier="ASTRA-LAV-GEN" version="1.0"
+  xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2"
+  xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+  <metadata><schema>ADL SCORM</schema><schemaversion>1.2</schemaversion></metadata>
+  <organizations default="ORG-LAV-GEN">
+    <organization identifier="ORG-LAV-GEN">
+      <title>Formazione generale dei lavoratori – ASTRA</title>
+      <item identifier="ITEM-LAV-GEN" identifierref="RES-LAV-GEN">
+        <title>Formazione generale dei lavoratori (4 ore)</title>
+        <adlcp:masteryscore>70</adlcp:masteryscore>
+        <adlcp:typicallearningtime>04:00:00</adlcp:typicallearningtime>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="RES-LAV-GEN" type="webcontent" adlcp:scormtype="sco" href="index.html">
+      <file href="audio/gz-03c5cc81b11728.mp3"/>
+      <file href="audio/gz-063c6a0f383aa6.mp3"/>
+      <file href="audio/gz-08ed295183cb00.mp3"/>
+      <file href="audio/gz-0f5ef60d8a5b35.mp3"/>
+      <file href="audio/gz-114aaa701bb485.mp3"/>
+      <file href="audio/gz-11d27eef4d68d3.mp3"/>
+      <file href="audio/gz-15900f5bf2c1f8.mp3"/>
+      <file href="audio/gz-16c64580c03976.mp3"/>
+      <file href="audio/gz-18ce326b0c0aa0.mp3"/>
+      <file href="audio/gz-1929e49c5c00f1.mp3"/>
+      <file href="audio/gz-1944c88ff2324e.mp3"/>
+      <file href="audio/gz-1fa2b47a748004.mp3"/>
+      <file href="audio/gz-26c44700051730.mp3"/>
+      <file href="audio/gz-281f4137e917fa.mp3"/>
+      <file href="audio/gz-28811365473b5a.mp3"/>
+      <file href="audio/gz-3223067ed6ff45.mp3"/>
+      <file href="audio/gz-3670b87266d51b.mp3"/>
+      <file href="audio/gz-3c9eba36befc95.mp3"/>
+      <file href="audio/gz-448e9c326bb81f.mp3"/>
+      <file href="audio/gz-475fb1bbc99167.mp3"/>
+      <file href="audio/gz-4b72110b1ec756.mp3"/>
+      <file href="audio/gz-4fd57b3bbd9bd9.mp3"/>
+      <file href="audio/gz-51a5fb13c47910.mp3"/>
+      <file href="audio/gz-53723ccdb980c2.mp3"/>
+      <file href="audio/gz-560093fd90ad37.mp3"/>
+      <file href="audio/gz-59a6552c402073.mp3"/>
+      <file href="audio/gz-5e43b58779a3d0.mp3"/>
+      <file href="audio/gz-60eca1e5136d00.mp3"/>
+      <file href="audio/gz-61063c8fb6f2e6.mp3"/>
+      <file href="audio/gz-6d47fc494ed130.mp3"/>
+      <file href="audio/gz-79c3c28a2d4ae8.mp3"/>
+      <file href="audio/gz-79eaa3142255e5.mp3"/>
+      <file href="audio/gz-7bc9cea535185e.mp3"/>
+      <file href="audio/gz-8573bb53bfe856.mp3"/>
+      <file href="audio/gz-878d86c425462b.mp3"/>
+      <file href="audio/gz-8c4c16b9327e6c.mp3"/>
+      <file href="audio/gz-8e02d7f7894d83.mp3"/>
+      <file href="audio/gz-8ff0531e72f1ec.mp3"/>
+      <file href="audio/gz-91d96e1420d486.mp3"/>
+      <file href="audio/gz-927ce5c778b9a3.mp3"/>
+      <file href="audio/gz-9537d8164c78b8.mp3"/>
+      <file href="audio/gz-960f6e6cb362c4.mp3"/>
+      <file href="audio/gz-999f3075696b41.mp3"/>
+      <file href="audio/gz-a002de36de1787.mp3"/>
+      <file href="audio/gz-a2ee1ca072729a.mp3"/>
+      <file href="audio/gz-aa9828e677bbc1.mp3"/>
+      <file href="audio/gz-acf1b1f193b2c6.mp3"/>
+      <file href="audio/gz-af305df01d8002.mp3"/>
+      <file href="audio/gz-b36cd1bd38c42c.mp3"/>
+      <file href="audio/gz-b859b0ecc93914.mp3"/>
+      <file href="audio/gz-b8d7287f30f8f2.mp3"/>
+      <file href="audio/gz-b9d5c35cb878ed.mp3"/>
+      <file href="audio/gz-ba030a1b1ff529.mp3"/>
+      <file href="audio/gz-bd7dd8176337b8.mp3"/>
+      <file href="audio/gz-bf964390d87347.mp3"/>
+      <file href="audio/gz-c1e9f706cfe741.mp3"/>
+      <file href="audio/gz-d69aef1c273965.mp3"/>
+      <file href="audio/gz-d967738f982f39.mp3"/>
+      <file href="audio/gz-dcca21e6a27e1d.mp3"/>
+      <file href="audio/gz-e3891817a6320d.mp3"/>
+      <file href="audio/gz-e3976b5e93cbac.mp3"/>
+      <file href="audio/gz-e7ad83f6031085.mp3"/>
+      <file href="audio/gz-ec990db37aa53d.mp3"/>
+      <file href="audio/gz-ee7580ef7bd454.mp3"/>
+      <file href="audio/gz-f1c4516fe26c1d.mp3"/>
+      <file href="audio/gz-f626a4648538c6.mp3"/>
+      <file href="audio/gz-f788ecf812aeba.mp3"/>
+      <file href="audio/gz-f9fb6007532112.mp3"/>
+      <file href="audio/gz-fba97b91c6799d.mp3"/>
+      <file href="dati/audio.js"/>
+      <file href="dati/corso.js"/>
+      <file href="dati/icone.js"/>
+      <file href="dati/iso7010.js"/>
+      <file href="fonts/Inter-400.woff2"/>
+      <file href="fonts/Inter-500.woff2"/>
+      <file href="fonts/Inter-600.woff2"/>
+      <file href="fonts/Inter-700.woff2"/>
+      <file href="fonts/InterTight-800.woff2"/>
+      <file href="fonts/LICENZA-Inter-OFL.txt"/>
+      <file href="img/aziende.jpg"/>
+      <file href="img/chi.jpg"/>
+      <file href="img/hero1.jpg"/>
+      <file href="img/sicurezza.jpg"/>
+      <file href="img/sicurezza2.jpg"/>
+      <file href="img/sicurezza3.jpg"/>
+      <file href="img/timbro.png"/>
+      <file href="index.html"/>
+      <file href="loghi/astra.svg"/>
+      <file href="loghi/jd.svg"/>
+      <file href="player/player.css"/>
+      <file href="player/player.js"/>
+    </resource>
+  </resources>
+</manifest>

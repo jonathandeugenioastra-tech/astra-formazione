@@ -2382,9 +2382,9 @@ window.ASTRA = {
     "P"
    ],
    "prezzo": 50,
-   "agg": "4 ore ogni 3 anni (validità triennale dell'attestato)",
-   "rif": "Reg. CE 852/2004 · L.R. Abruzzo 6/2005, art. 210 · DGR Abruzzo 14/05/2007 n. 463 (BURA n. 34 del 15/06/2007)",
-   "pres": "Corso «tipo 1» per alimentaristi di 5 ore in un'unica giornata, previsto dalla DGR Abruzzo 463/2007 per chi richiede l'attestato per la prima volta. Verifica finale con questionario di 25 domande a risposta multipla, superato con almeno 20 risposte esatte; frequenza obbligatoria per l'intera durata; massimo 30 partecipanti. In Abruzzo il corso non rientra tra quelli erogabili a marchio AiFOS: è attivato solo previo riconoscimento regionale del corso, secondo la DGR 463/2007. Per informazioni contattare la segreteria.",
+   "agg": "Aggiornamento triennale (DGR 135/2011)",
+   "rif": "Reg. CE 852/2004 · L.R. Abruzzo 6/2005, art. 210 · DGR Abruzzo 61/2006, 949/2006, 463/2007 e 135/2011",
+   "pres": "Corso per alimentaristi di 5 ore previsto dalla disciplina regionale (L.R. 6/2005, art. 210; DGR 61/2006, 949/2006 e 463/2007) per chi richiede l'attestato per la prima volta. Il programma e l'elenco dei docenti, con curriculum, sono trasmessi preventivamente al SIAN dell'ASL competente per la validazione; la prova di valutazione finale si svolge alla presenza di un dirigente del SIAN e l'attestato, di validità triennale (DGR 135/2011), è rilasciato dall'ASL. Massimo 30 partecipanti; frequenza obbligatoria per l'intera durata. Il corso non è erogato a marchio AiFOS.",
    "dest": "Operatori del settore alimentare addetti alla produzione, preparazione, somministrazione e vendita di alimenti.",
    "req": "Nessun requisito di accesso.",
    "obj": [
@@ -2416,9 +2416,9 @@ window.ASTRA = {
     "P"
    ],
    "prezzo": 40,
-   "agg": "4 ore ogni 3 anni (validità triennale dell'attestato)",
-   "rif": "Reg. CE 852/2004 · L.R. Abruzzo 6/2005, art. 210 · DGR Abruzzo 14/05/2007 n. 463 (BURA n. 34 del 15/06/2007)",
-   "pres": "Corso «tipo 2» di aggiornamento di 4 ore previsto dalla DGR Abruzzo 463/2007 per il rinnovo triennale dell'attestato. Verifica finale con questionario di 25 domande a risposta multipla, superato con almeno 20 risposte esatte; frequenza obbligatoria per l'intera durata; massimo 30 partecipanti. In Abruzzo il corso non rientra tra quelli erogabili a marchio AiFOS: è attivato solo previo riconoscimento regionale del corso, secondo la DGR 463/2007. Per informazioni contattare la segreteria.",
+   "agg": "Triennale (DGR 135/2011)",
+   "rif": "Reg. CE 852/2004 · L.R. Abruzzo 6/2005, art. 210 · DGR Abruzzo 61/2006, 949/2006, 463/2007 e 135/2011",
+   "pres": "Corso «tipo 2» di aggiornamento di 4 ore previsto dalla DGR Abruzzo 463/2007 per il rinnovo triennale dell'attestato. Verifica finale con questionario di 25 domande a risposta multipla, superato con almeno 20 risposte esatte; frequenza obbligatoria per l'intera durata; massimo 30 partecipanti. In Abruzzo il corso non rientra tra quelli erogabili a marchio AiFOS: è attivato solo previo riconoscimento regionale del corso, secondo la DGR 463/2007. Per informazioni contattare la segreteria. Il programma è trasmesso preventivamente al SIAN dell'ASL competente; l'attestato di aggiornamento è rilasciato dall'ASL.",
    "dest": "Alimentaristi già formati.",
    "req": "Attestato di formazione alimentaristi.",
    "obj": [

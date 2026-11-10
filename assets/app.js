@@ -412,6 +412,7 @@
         ${c.mod.includes('VCS') || c.mod.includes('EL') ? `<section class="box rivela" id="s-tec"><h2>Requisiti tecnici</h2><ul class="elenco">
           ${c.mod.includes('VCS') ? `<li><b>Videoconferenza sincrona:</b> connessione Internet stabile (consigliata banda larga o fibra); computer o tablet dotato di webcam, microfono e uscita audio funzionanti. La webcam deve restare attiva per l'intera durata del corso ai fini dell'identificazione e del tracciamento della presenza; non è ammessa la partecipazione da smartphone.</li>` : ''}
           ${c.mod.includes('EL') ? `<li><b>E-learning:</b> computer o tablet con browser aggiornato e connessione Internet; la piattaforma registra tempi di fruizione, accessi ed esiti delle verifiche intermedie e finali.</li>` : ''}</ul></section>` : ''}
+        ${['LAV-GEN','LAV-SPEC-B','LAV-SPEC-M','LAV-SPEC-A','LAV-AGG','PREP','PREP-AGG','DIR'].includes(c.id) ? `<section class="box rivela"><h2>Formazione in azienda</h2><p>Il corso può essere svolto anche presso la sede del cliente con il datore di lavoro come soggetto formatore e docenti ASTRA qualificati ai sensi del D.I. 6 marzo 2013 (Accordo Stato-Regioni 17/04/2025, Parte II, punto 2), previo accordo stipulato tra le parti. Referente: ${esc(RPF.nome)}, <a href="tel:${RPF.tel.replace(/\s/g, '')}">${RPF.tel}</a>. <a href="#/aziende">Dettagli della modalità</a>.</p></section>` : ''}
         <section class="box rivela" id="s-ed"><h2>Prossime edizioni</h2>${ed.length ? ed.map(edizione).join('') : `<p>Non sono presenti edizioni a calendario. ${c.mod.includes('EL') ? 'Il corso è fruibile in e-learning a decorrere dall\'iscrizione.' : '<a href="#/contatti?corso=' + c.id + '">È possibile richiedere la prossima data</a> presso la sede ASTRA, oppure un\'edizione presso la sede del cliente previo accordo preventivo (tel. ' + RPF.tel + ').'}</p>`}</section>
       </div>
       <aside>
@@ -581,6 +582,18 @@
           <li><span class="ico">${I.lab}</span><div><b>Consulenza e laboratorio</b><span>Valutazione dei rischi, monitoraggi ambientali e analisi nel laboratorio accreditato ACCREDIA.</span></div></li>
         </ul></div>
       <div class="foto-tonda rivela ritardo-1">${foto('laboratorio', '', '(max-width:1024px) 100vw, 50vw')}<div class="flottante"><b>${(D.laboratorio.analisiAnno / 1000).toFixed(0)}k+</b><span>analisi annue eseguite dal laboratorio ${esc(D.laboratorio.ragioneSociale)}</span></div></div>
+    </div></section>
+    <section class="sez" id="formazione-interna"><div class="wrap">
+      <div class="intest rivela"><div><span class="k">Formazione in azienda</span><h2>Il datore di lavoro come soggetto formatore, con i docenti ASTRA</h2>
+        <p>L'Accordo Stato-Regioni del 17 aprile 2025 (Parte II, punto 2) consente al datore di lavoro di essere soggetto formatore per i propri lavoratori, preposti e dirigenti, senza passare da un ente accreditato o da AiFOS, a condizione che i docenti possiedano i requisiti del D.I. 6 marzo 2013 (prerequisito e almeno uno dei sei criteri di qualificazione). ASTRA mette a disposizione formatori qualificati e l'intera gestione del corso, previo accordo scritto stipulato tra le parti.</p></div></div>
+      <div class="split">
+        <div class="rivela"><ul class="elenco-check">
+          <li><span class="ico">${I.aula}</span><div><b>Corsi ammessi</b><span>Lavoratori: formazione generale, specifica (rischio basso, medio e alto) e aggiornamento; preposti e aggiornamento; dirigenti. Erogazione in presenza presso la sede del cliente.</span></div></li>
+          <li><span class="ico">${I.doc}</span><div><b>Ruoli</b><span>Soggetto formatore: il datore di lavoro, che firma registro e attestati. ASTRA: docenti qualificati, responsabile del progetto formativo, progetto del corso, materiali didattici, test di verifica, verbale e fascicolo del corso.</span></div></li>
+          <li><span class="ico">${I.calendario}</span><div><b>Adempimenti</b><span>Richiesta preventiva di collaborazione agli organismi paritetici (in assenza di risposta entro 15 giorni si procede autonomamente); massimo 30 partecipanti; frequenza minima del 90%; test finale di almeno 30 domande nei corsi base e 10 negli aggiornamenti; conservazione del fascicolo per almeno 10 anni.</span></div></li>
+        </ul></div>
+        <div class="box rivela ritardo-1"><h3 style="margin-top:0">Referente</h3><p><b>${esc(RPF.nome)}</b><br>${esc(RPF.qualifica)}</p><p><a class="btn btn-rosso" href="tel:${telRPF}">${I.tel} ${RPF.tel}</a></p><p style="font-size:14px;color:var(--testo-3)">Restano esclusi da questa modalità i corsi per datori di lavoro, RSPP e ASPP, coordinatori, attrezzature e ambienti confinati, che richiedono un soggetto formatore abilitato: per questi ASTRA eroga i corsi come Centro di formazione AiFOS.</p><p><a class="btn btn-bordo" href="#/contatti">Richiesta di accordo</a></p></div>
+      </div>
     </div></section>
     <section class="sez"><div class="wrap">
       <div class="intest rivela"><div><span class="k">Sconti quantità</span><h2>Condizioni per più partecipanti</h2><p>Riduzioni indicative applicate automaticamente nel carrello per ciascun corso.</p></div></div>

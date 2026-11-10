@@ -25,7 +25,7 @@ window.ASTRA = {
   "certificazioni": [
    "UNI EN ISO 9001:2015",
    "UNI EN ISO 14001:2015",
-   "UNI ISO 45001:2018",
+   "UNI EN ISO 45001:2023",
    "UNI/PdR 125:2022"
   ],
   "daConfermare": [
@@ -753,7 +753,7 @@ window.ASTRA = {
      "t": "Modulo 4 – Sistemi di gestione e appalti",
      "ore": 8,
      "c": [
-      "UNI ISO 45001 e modelli organizzativi",
+      "UNI EN ISO 45001 e modelli organizzativi",
       "Gestione degli appalti e interferenze"
      ]
     },
@@ -841,22 +841,16 @@ window.ASTRA = {
    ],
    "moduli": [
     {
-     "t": "Modulo giuridico-normativo",
-     "ore": 1,
+     "t": "Modulo teorico-tecnico",
+     "ore": 8,
      "c": [
       "Normativa generale in materia di igiene e sicurezza",
-      "Responsabilità dell'operatore"
-     ]
-    },
-    {
-     "t": "Modulo tecnico",
-     "ore": 7,
-     "c": [
+      "Responsabilità dell'operatore",
       "Tipologie e caratteristiche dei carrelli",
       "Principali rischi: ribaltamento, urti, caduta del carico",
       "Stabilità, diagrammi di carico e portata",
       "Dispositivi di comando e di sicurezza; controlli e manutenzioni",
-      "Questionario di verifica a risposta multipla"
+      "Questionario a risposta multipla (soglia 70%), propedeutico al modulo pratico"
      ]
     },
     {
@@ -893,20 +887,14 @@ window.ASTRA = {
    ],
    "moduli": [
     {
-     "t": "Modulo giuridico-normativo",
-     "ore": 1,
+     "t": "Modulo teorico-tecnico",
+     "ore": 4,
      "c": [
-      "Normativa di riferimento e responsabilità dell'operatore"
-     ]
-    },
-    {
-     "t": "Modulo tecnico",
-     "ore": 3,
-     "c": [
+      "Normativa di riferimento e responsabilità dell'operatore",
       "Categorie di PLE, componenti e dispositivi di sicurezza",
       "Rischi: caduta dall'alto, ribaltamento, elettrocuzione",
       "DPI anticaduta e procedure operative",
-      "Questionario di verifica a risposta multipla"
+      "Questionario a risposta multipla (soglia 70%), propedeutico al modulo pratico"
      ]
     },
     {
@@ -942,20 +930,14 @@ window.ASTRA = {
    ],
    "moduli": [
     {
-     "t": "Modulo giuridico-normativo",
-     "ore": 1,
+     "t": "Modulo teorico-tecnico",
+     "ore": 4,
      "c": [
-      "Normativa di riferimento e responsabilità dell'operatore"
-     ]
-    },
-    {
-     "t": "Modulo tecnico",
-     "ore": 3,
-     "c": [
+      "Normativa di riferimento e responsabilità dell'operatore",
       "Terminologia, componenti strutturali e dispositivi di comando e sicurezza",
       "Stabilità e diagrammi di carico",
       "Accessori di sollevamento e imbracatura",
-      "Questionario di verifica a risposta multipla"
+      "Questionario a risposta multipla (soglia 70%), propedeutico al modulo pratico"
      ]
     },
     {
@@ -991,19 +973,13 @@ window.ASTRA = {
    ],
    "moduli": [
     {
-     "t": "Modulo giuridico-normativo",
-     "ore": 1,
+     "t": "Modulo teorico-tecnico",
+     "ore": 4,
      "c": [
-      "Normativa di riferimento e responsabilità dell'operatore"
-     ]
-    },
-    {
-     "t": "Modulo tecnico",
-     "ore": 3,
-     "c": [
+      "Normativa di riferimento e responsabilità dell'operatore",
       "Categorie, componenti e dispositivi di sicurezza",
       "Rischi: ribaltamento, investimento, linee elettriche e sottoservizi",
-      "Questionario di verifica a risposta multipla"
+      "Questionario a risposta multipla (soglia 70%), propedeutico al modulo pratico"
      ]
     },
     {
@@ -2183,7 +2159,7 @@ window.ASTRA = {
    ],
    "prezzo": 180,
    "agg": "—",
-   "rif": "Standard volontario VSME (EFRAG) · UNI EN ISO 14001 · UNI ISO 45001",
+   "rif": "Standard volontario VSME (EFRAG) · UNI EN ISO 14001 · UNI EN ISO 45001",
    "pres": "Il corso fornisce gli strumenti per rispondere alle richieste di informazioni di sostenibilità di clienti, banche e committenti e per impostare un rendiconto secondo lo standard volontario VSME per le PMI.",
    "dest": "Imprenditori, responsabili amministrativi, responsabili qualità, ambiente e sicurezza.",
    "req": "Nessun requisito di accesso.",

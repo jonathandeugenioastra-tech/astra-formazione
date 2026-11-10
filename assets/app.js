@@ -281,7 +281,7 @@
   const certificazioni = () => [
     ['UNI EN ISO 9001', 'Sistema di gestione per la qualità'],
     ['UNI EN ISO 14001', 'Sistema di gestione ambientale'],
-    ['UNI ISO 45001', 'Salute e sicurezza sul lavoro'],
+    ['UNI EN ISO 45001', 'Salute e sicurezza sul lavoro'],
     ['UNI/PdR 125', 'Parità di genere']].map(([t, d], i) => `<div class="rivela ritardo-${i}"><span class="sigillo">${I.scudo}</span><b>${t}</b><span>${d}</span></div>`).join('');
 
   /* ---------- Destinatari e durate (ricerca avanzata) ---------- */

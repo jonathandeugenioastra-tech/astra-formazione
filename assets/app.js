@@ -10,8 +10,8 @@
     return '€ ' + i.replace(/\B(?=(\d{3})+(?!\d))/g, '.') + (d !== '00' ? ',' + d : ''); };
   const MESI = ['gennaio', 'febbraio', 'marzo', 'aprile', 'maggio', 'giugno', 'luglio', 'agosto', 'settembre', 'ottobre', 'novembre', 'dicembre'];
   const MOD = {
-    EL: { nome: 'E-learning', breve: 'E-learning', desc: 'Piattaforma online, quando vuoi, con tracciamento SCORM' },
-    VCS: { nome: 'Videoconferenza sincrona', breve: 'Videoconferenza', desc: 'Lezione in diretta con docente, webcam attiva e registro presenze' },
+    EL: { nome: 'E-learning', breve: 'E-learning', desc: 'Fruizione asincrona su piattaforma dedicata, con tracciamento SCORM' },
+    VCS: { nome: 'Videoconferenza sincrona', breve: 'Videoconferenza', desc: 'Lezione in diretta con il docente, webcam attiva e registro delle presenze' },
     P: { nome: 'Aula', breve: 'Aula', desc: 'In aula presso la sede ASTRA o presso il cliente previo accordo' }
   };
   const corso = id => D.corsi.find(c => c.id === id);
@@ -93,8 +93,8 @@
   const testoNonAmmesse = c => { const n = nonAmmesse(c); if (!n.length) return '';
     const norma = c.ambito === 'sicurezza' || c.id.startsWith('HACCP');
     return (n.length === 2 ? `E-learning e videoconferenza non sono ${norma ? 'ammessi dalla normativa' : 'previsti'}` : `${MOD[n[0]].nome} non è ${norma ? 'ammess' + (n[0] === 'EL' ? 'o' : 'a') + ' dalla normativa' : 'previst' + (n[0] === 'EL' ? 'o' : 'a') + ', in ragione delle esercitazioni pratiche'}`) +
-      ' per questo corso: ' + (c.mod.includes('VCS') ? 'si svolge in videoconferenza oppure in aula' : 'si svolge in aula') +
-      ', presso la sede ASTRA nelle date a calendario o presso il cliente previo accordo preventivo.'; };
+      ' per questo corso. L\'erogazione avviene ' + (c.mod.includes('VCS') ? 'in videoconferenza sincrona oppure in aula' : 'in aula') +
+      ', presso la sede ASTRA nelle date a calendario o presso la sede del cliente, previo accordo.'; };
   const SEZ = c => [['pres', 'Presentazione'], ['dest', 'Destinatari'], ['req', 'Requisiti'], ['obj', 'Obiettivi'], ['prog', 'Programma'], ['dati', 'Dati del corso'], ['met', 'Metodologia'], ['ver', 'Verifica'], ['att', 'Attestato'], ['doc2', 'Docenti']].concat(c.mod.includes('VCS') || c.mod.includes('EL') ? [['tec', 'Requisiti tecnici']] : []).concat([['ed', 'Edizioni']]);
   const ABIL = c => c.tipo === 'Abilitazione' || c.id === 'CONF';
   const NOTA_ORE = c => ABIL(c) ? 'Articolazione oraria conforme all\'Accordo Stato-Regioni del 17 aprile 2025. Il modulo pratico rispetta il rapporto istruttore/discenti di 1 a 6.'
@@ -128,7 +128,7 @@
         <div class="chips">${chips(c.mod)}</div>
         <span class="ore">${I.orologio}${c.ore} ore · ${esc(c.tipo)}</span>
       </div>
-      <div class="piede"><span class="prezzo">${euro(c.prezzo)}<small>a partecipante · IVA esclusa · indicativo</small></span><span class="freccia">${I.freccia}</span></div>
+      <div class="piede"><span class="prezzo">${euro(c.prezzo)}<small>per partecipante · IVA esclusa</small></span><span class="freccia">${I.freccia}</span></div>
     </a>`;
   };
   /* immagine della pagina corso: alterna le varianti dell'area, diverse da quella della home */
@@ -166,14 +166,14 @@
       <div class="wrap">
         <div>
           <span class="occhiello">Centro di Formazione AiFOS · Teramo</span>
-          <h1 class="slogan"><span class="marchio">Astra<i>.</i></span><span class="claim">La tua Academy digitale, semplice e veloce.</span></h1>
-          <p class="sotto">Corsi di salute e sicurezza sul lavoro, ambiente, energia e igiene degli alimenti, in aula, in videoconferenza e in e-learning, con durata, contenuti e modalità previsti dalla normativa di riferimento di ciascun corso.</p>
+          <h1 class="slogan"><span class="marchio">Astra <span class="ac">Academy</span></span><span class="filetto" aria-hidden="true"></span><span class="claim">La tua Academy digitale, semplice e veloce.</span></h1>
+          <p class="sotto">Formazione qualificata in materia di salute e sicurezza sul lavoro, tutela dell'ambiente, energia e igiene degli alimenti, erogata in aula, in videoconferenza sincrona e in e-learning nel rispetto della normativa di riferimento di ciascun corso.</p>
           <form class="cerca-hero" role="search" id="cerca-hero">
             <label>${I.cerca}<span class="sr">Cerca un corso</span><input name="q" placeholder="Titolo o codice del corso" autocomplete="off"></label>
             <button class="btn btn-rosso">Cerca</button>
           </form>
           <div class="cta">
-            <a class="btn btn-vetro" href="#/catalogo">Tutti i corsi ${I.freccia}</a>
+            <a class="btn btn-vetro" href="#/catalogo">Catalogo dei corsi ${I.freccia}</a>
             <a class="btn btn-vetro" href="#/aziende">Servizi per le aziende</a>
           </div>
         </div>
@@ -189,12 +189,12 @@
       <div class="punti" role="tablist" aria-label="Immagini">${['hero1', 'hero2', 'hero3'].filter(s => D.foto[s]).map((s, i) => `<button role="tab" aria-label="Immagine ${i + 1}" class="${i ? '' : 'on'}" data-i="${i}"></button>`).join('')}</div>
     </section>
 
-    <section class="banda-cerca" aria-labelledby="h-cerca"><div class="wrap"><h2 id="h-cerca">Cerca tra tutti i corsi</h2>${cercaAvanzata()}</div></section>
+    <section class="banda-cerca" aria-labelledby="h-cerca"><div class="wrap"><h2 id="h-cerca">Ricerca dei corsi</h2>${cercaAvanzata()}</div></section>
 
     <section class="numeri" aria-label="ASTRA in numeri">
       <div class="wrap">
         <div class="numero rivela"><b data-conta="${anni}">0</b><span>anni di consulenza alle imprese, dal 1987</span></div>
-        <div class="numero rivela ritardo-1"><b data-conta="${D.laboratorio.analisiAnno}" data-suffisso="+">0</b><span>analisi l'anno nel laboratorio accreditato</span></div>
+        <div class="numero rivela ritardo-1"><b data-conta="${D.laboratorio.analisiAnno}" data-suffisso="+">0</b><span>analisi annue nel laboratorio accreditato</span></div>
         <div class="numero rivela ritardo-2"><b data-conta="${nCorsi}">0</b><span>corsi a catalogo in 4 aree tematiche</span></div>
         <div class="numero rivela ritardo-3"><b data-conta="3">0</b><span>modalità di erogazione: aula, videoconferenza, e-learning</span></div>
       </div>
@@ -219,9 +219,9 @@
         <div class="intest rivela"><div><span class="k">Didattica</span><h2>Modalità di erogazione</h2>
           <p>Per ciascun corso sono proposte esclusivamente le modalità di erogazione ammesse dalla normativa vigente.</p></div></div>
         <div class="modalita">
-          ${[['EL', I.laptop, ['Accesso 24 ore su 24 da computer', 'Tracciamento dei tempi e test finale', 'Tutor disponibile via email e telefono']],
-          ['VCS', I.video, ['Docente in diretta e interazione', 'Webcam attiva e registro delle presenze', 'Accesso solo da computer o tablet']],
-          ['P', I.aula, ['Aula ASTRA a Teramo nelle date a calendario', 'Presso il cliente previo accordo preventivo', `Info corsi in azienda: ${RPF.tel}`]]].map(([m, ico, li], i) => `
+          ${[['EL', I.laptop, ['Accesso continuativo, 24 ore su 24', 'Tracciamento dei tempi e verifica finale', 'Assistenza del tutor via e-mail e telefono']],
+          ['VCS', I.video, ['Interazione in diretta con il docente', 'Webcam attiva e registro delle presenze', 'Partecipazione da computer o tablet']],
+          ['P', I.aula, ['Sede ASTRA di Teramo, nelle date a calendario', 'Sede del cliente, previo accordo', `Corsi in azienda: ${RPF.tel}`]]].map(([m, ico, li], i) => `
           <article class="mod-card rivela ritardo-${i}"><span class="mod-ico">${ico}</span><span class="chip ${m}" style="width:max-content">${m}</span>
             <h3>${MOD[m].nome}</h3><p>${MOD[m].desc}.</p><ul>${li.map(x => `<li>${x}</li>`).join('')}</ul></article>`).join('')}
         </div>
@@ -231,7 +231,7 @@
     <section class="sez">
       <div class="wrap">
         <div class="intest rivela"><div><span class="k">Selezione</span><h2>Corsi in evidenza</h2></div>
-          <a class="btn btn-bordo" href="#/catalogo">Vedi tutti ${I.freccia}</a></div>
+          <a class="btn btn-bordo" href="#/catalogo">Catalogo completo ${I.freccia}</a></div>
         <div class="griglia home-evid">${evid.map(cardCorso).join('')}</div>
         ${legendaMod}
       </div>
@@ -240,7 +240,7 @@
     <section class="sez grigia">
       <div class="wrap split">
         <div class="foto-tonda rivela">${foto('aziende', '', '(max-width:1024px) 100vw, 50vw')}
-          <div class="flottante"><b>-15%</b><span>sconto indicativo da 20 partecipanti, con assegnazione dei posti ai dipendenti</span></div></div>
+          <div class="flottante"><b>-15%</b><span>riduzione a partire da 20 partecipanti, con assegnazione nominativa dei posti</span></div></div>
         <div class="rivela ritardo-1">
           <div class="intest" style="margin-bottom:0"><div><span class="k">Per le aziende</span><h2>Gestione centralizzata della formazione del personale</h2></div></div>
           <ul class="elenco-check">
@@ -255,7 +255,7 @@
 
     <section class="sez">
       <div class="wrap">
-        <div class="intest rivela"><div><span class="k">Normativa e news</span><h2>Aggiornamenti normativi</h2></div><a class="btn btn-bordo" href="#/normativa">Tutte le news ${I.freccia}</a></div>
+        <div class="intest rivela"><div><span class="k">Normativa</span><h2>Aggiornamenti normativi</h2></div><a class="btn btn-bordo" href="#/normativa">Tutti gli aggiornamenti ${I.freccia}</a></div>
         <div class="news">${D.news.slice(0, 3).map((n, i) => notizia(n, i)).join('')}</div>
       </div>
     </section>
@@ -297,10 +297,10 @@
   const DUR = [['4', 'Fino a 4 ore', o => o <= 4], ['8', 'Da 5 a 8 ore', o => o > 4 && o <= 8], ['16', 'Da 9 a 16 ore', o => o > 8 && o <= 16], ['99', 'Oltre 16 ore', o => o > 16]];
   const cercaAvanzata = (dark) => `
     <form class="cerca-av${dark ? ' scura' : ''}" id="cerca-av" role="search" aria-label="Ricerca avanzata dei corsi">
-      <label><span>Chi seguirà il corso?</span><select name="fig"><option value="">Tutte le figure</option>${FIG.map(f => `<option value="${f[0]}">${esc(f[1])}</option>`).join('')}</select></label>
-      <label><span>Base o aggiornamento?</span><select name="tipo"><option value="">Tutte le tipologie</option>${['Base', 'Aggiornamento', 'Abilitazione', 'Specialistico'].map(t => `<option>${t}</option>`).join('')}</select></label>
+      <label><span>Destinatari</span><select name="fig"><option value="">Tutte le figure</option>${FIG.map(f => `<option value="${f[0]}">${esc(f[1])}</option>`).join('')}</select></label>
+      <label><span>Tipologia</span><select name="tipo"><option value="">Tutte le tipologie</option>${['Base', 'Aggiornamento', 'Abilitazione', 'Specialistico'].map(t => `<option>${t}</option>`).join('')}</select></label>
       <label><span>Area formativa</span><select name="ambito"><option value="">Tutte le aree</option>${Object.entries(D.ambiti).map(([k, a]) => `<option value="${k}">${esc(a.nome)}</option>`).join('')}</select></label>
-      <label><span>Online o in presenza?</span><select name="mod"><option value="">Tutte le modalità</option>${Object.entries(MOD).map(([k, m]) => `<option value="${k}">${esc(m.breve)}</option>`).join('')}</select></label>
+      <label><span>Modalità di erogazione</span><select name="mod"><option value="">Tutte le modalità</option>${Object.entries(MOD).map(([k, m]) => `<option value="${k}">${esc(m.breve)}</option>`).join('')}</select></label>
       <label><span>Durata</span><select name="dur"><option value="">Qualsiasi</option>${DUR.map(d => `<option value="${d[0]}">${d[1]}</option>`).join('')}</select></label>
       <label class="q"><span>Parola chiave</span><input name="q" type="search" placeholder="Titolo, codice o norma"></label>
       <button class="btn btn-rosso">${I.cerca} Cerca</button>
@@ -416,7 +416,7 @@
       </div>
       <aside>
         <form class="box acquisto" id="acquisto" data-id="${c.id}">
-          <div class="top"><span class="prezzo">${euro(c.prezzo)}<small>a partecipante · IVA esclusa · prezzo indicativo</small></span></div>
+          <div class="top"><span class="prezzo">${euro(c.prezzo)}<small>per partecipante · IVA esclusa · prezzo indicativo</small></span></div>
           <div class="corpo">
             <fieldset style="border:0;margin:0;padding:0"><legend class="b" style="color:var(--petrolio);margin-bottom:10px">Modalità</legend>
               ${testoNonAmmesse(c) ? `<div class="avviso giallo" style="margin-bottom:10px">${I.info}<span>${testoNonAmmesse(c)}</span></div>` : ''}
@@ -443,7 +443,7 @@
         </form>
       </aside>
     </div>
-    ${correlati.length ? `<section class="sez grigia" style="padding-top:64px"><div class="wrap"><div class="intest"><div><span class="k">Nella stessa area</span><h2>Potrebbero interessarti</h2></div></div><div class="griglia">${correlati.map(cardCorso).join('')}</div></div></section>` : ''}`;
+    ${correlati.length ? `<section class="sez grigia" style="padding-top:64px"><div class="wrap"><div class="intest"><div><span class="k">Nella stessa area</span><h2>Corsi correlati</h2></div></div><div class="griglia">${correlati.map(cardCorso).join('')}</div></div></section>` : ''}`;
   };
   function montaCorso() {
     const f = $('#acquisto'); if (!f) return;
@@ -576,11 +576,11 @@
       <div class="rivela"><div class="intest" style="margin-bottom:0"><div><span class="k">Servizi</span><h2>Servizi a supporto delle imprese</h2></div></div>
         <ul class="elenco-check">
           <li><span class="ico">${I.doc}</span><div><b>Analisi dei fabbisogni formativi</b><span>Individuazione degli obblighi formativi a partire dal documento di valutazione dei rischi e dalle mansioni.</span></div></li>
-          <li><span class="ico">${I.aula}</span><div><b>Corsi in azienda</b><span>Edizioni dedicate presso la tua sede, previo accordo preventivo, con prove pratiche sulle tue attrezzature. Contatta ${esc(RPF.nome)}, ${esc(RPF.ruolo)}: <a href="tel:${telRPF}">${RPF.tel}</a>.</span></div></li>
+          <li><span class="ico">${I.aula}</span><div><b>Corsi in azienda</b><span>Edizioni dedicate presso la sede del cliente, previo accordo, con esercitazioni pratiche sulle attrezzature aziendali. Referente: ${esc(RPF.nome)}, ${esc(RPF.ruolo)}: <a href="tel:${telRPF}">${RPF.tel}</a>.</span></div></li>
           <li><span class="ico">${I.calendario}</span><div><b>Scadenzario della formazione</b><span>Promemoria automatici a 120, 60 e 30 giorni dalla scadenza.</span></div></li>
           <li><span class="ico">${I.lab}</span><div><b>Consulenza e laboratorio</b><span>Valutazione dei rischi, monitoraggi ambientali e analisi nel laboratorio accreditato ACCREDIA.</span></div></li>
         </ul></div>
-      <div class="foto-tonda rivela ritardo-1">${foto('laboratorio', '', '(max-width:1024px) 100vw, 50vw')}<div class="flottante"><b>${(D.laboratorio.analisiAnno / 1000).toFixed(0)}k+</b><span>analisi l'anno nel laboratorio ${esc(D.laboratorio.ragioneSociale)}</span></div></div>
+      <div class="foto-tonda rivela ritardo-1">${foto('laboratorio', '', '(max-width:1024px) 100vw, 50vw')}<div class="flottante"><b>${(D.laboratorio.analisiAnno / 1000).toFixed(0)}k+</b><span>analisi annue eseguite dal laboratorio ${esc(D.laboratorio.ragioneSociale)}</span></div></div>
     </div></section>
     <section class="sez"><div class="wrap">
       <div class="intest rivela"><div><span class="k">Sconti quantità</span><h2>Condizioni per più partecipanti</h2><p>Riduzioni indicative applicate automaticamente nel carrello per ciascun corso.</p></div></div>
@@ -644,7 +644,7 @@
   }
 
   /* ---------- Normativa ---------- */
-  P.normativa = () => testa('Normativa e news', 'Aggiornamenti su obblighi formativi, sicurezza, ambiente, energia e igiene degli alimenti.', null, 'sicurezza') + `
+  P.normativa = () => testa('Normativa e aggiornamenti', 'Aggiornamenti su obblighi formativi, sicurezza, ambiente, energia e igiene degli alimenti.', null, 'sicurezza') + `
     <div class="wrap" style="display:grid;grid-template-columns:minmax(0,1fr);gap:32px;padding-top:48px;padding-bottom:96px">
       <div class="news">${D.news.map(notizia).join('')}</div>
       <div class="box rivela"><h2>Periodicità degli aggiornamenti</h2>
@@ -675,7 +675,7 @@
   }
 
   /* ---------- Chi siamo ---------- */
-  P['chi-siamo'] = () => testa('Chi siamo', 'Dal 1987 al fianco delle imprese per sicurezza, ambiente, energia e qualità. La mission: dare certezze.', null, 'chi') + `
+  P['chi-siamo'] = () => testa('Chi siamo', 'Dal 1987 al fianco delle imprese per la salute e sicurezza sul lavoro, la tutela dell\'ambiente, l\'energia e la qualità.', null, 'chi') + `
     <section class="sez"><div class="wrap split">
       <div class="rivela">
         <div class="intest" style="margin-bottom:18px"><div><span class="k">La nostra storia</span><h2>${esc(A.ragioneSociale)}</h2></div></div>
@@ -748,7 +748,7 @@
     <h2 style="margin-top:22px">Base giuridica</h2><p>Esecuzione del contratto, adempimento di obblighi di legge (D.lgs. 81/2008 e normativa fiscale), consenso per la newsletter.</p>
     <h2 style="margin-top:22px">Conservazione</h2><p>I dati relativi alla formazione sono conservati per il periodo necessario a dimostrare l'adempimento degli obblighi formativi; i dati fiscali per 10 anni.</p>
     <h2 style="margin-top:22px">Diritti</h2><p>Accesso, rettifica, cancellazione, limitazione, portabilità e opposizione (artt. 15–22 Reg. UE 2016/679), scrivendo a ${A.pec}. È possibile proporre reclamo al Garante per la protezione dei dati personali.</p>
-    <h2 style="margin-top:22px">Cookie</h2><p>Questo sito non usa cookie di profilazione. Il carrello è conservato solo nel browser dell'utente.</p></div></div>`;
+    <h2 style="margin-top:22px">Cookie</h2><p>Il sito non utilizza cookie di profilazione. Il contenuto del carrello è conservato esclusivamente nel browser dell'utente.</p></div></div>`;
   P.crediti = () => testa('Crediti delle immagini', 'Fotografie da Unsplash e Pixabay, pubblicate con le rispettive licenze che ne consentono l\'uso gratuito anche commerciale.') + `<div class="wrap" style="max-width:960px;padding-top:40px;padding-bottom:96px"><div class="box"><ul class="crediti" style="list-style:none;margin:0;padding:0">
     ${Object.values(D.foto).filter((f, i, a) => a.findIndex(x => x.file === f.file) === i).map(f => `<li><b>${esc(f.titolo)}</b><br>Licenza: ${f.licUrl ? `<a href="${f.licUrl}" target="_blank" rel="noopener">${esc(f.licenza)}</a>` : esc(f.licenza)} · <a href="${f.pagina}" target="_blank" rel="noopener">Fonte</a></li>`).join('')}
     </ul></div></div>`;
@@ -824,8 +824,10 @@
   setTimeout(mostraBanner, 2500);
 
   /* ================= ROUTER ================= */
-  const MONTA = { app: montaApp, catalogo: montaCatalogo, corso: montaCorso, carrello: montaCarrello, 'area-azienda': montaArea, attestato: montaAttestato, contatti: montaContatti };
-  const TITOLI = { app: 'App per smartphone', home: 'Formazione ASTRA – Sicurezza, ambiente, energia e HACCP a Teramo', catalogo: 'Catalogo corsi', calendario: 'Calendario corsi', carrello: 'Carrello', aziende: 'Soluzioni per le aziende', 'area-azienda': 'Area azienda', normativa: 'Normativa e news', attestato: 'Verifica attestato', 'chi-siamo': 'Chi siamo', contatti: 'Contatti', privacy: 'Informativa privacy', crediti: 'Crediti delle immagini', legenda: 'Legenda delle sigle' };
+  P.autore = () => `<div id="autore-app" style="min-height:60vh;display:grid;place-items:center;color:var(--testo-3)">Caricamento dell'area autore…</div>`;
+  const montaAutore = () => { const go = () => window.ASTRA_AUTORE($('#autore-app')); if (window.ASTRA_AUTORE) return go(); const s = document.createElement('script'); s.src = 'assets/autore.js?v=' + Date.now(); s.onload = go; document.head.appendChild(s); };
+  const MONTA = { autore: montaAutore, app: montaApp, catalogo: montaCatalogo, corso: montaCorso, carrello: montaCarrello, 'area-azienda': montaArea, attestato: montaAttestato, contatti: montaContatti };
+  const TITOLI = { autore: 'Area autore', app: 'App per smartphone', home: 'Formazione ASTRA – Sicurezza, ambiente, energia e HACCP a Teramo', catalogo: 'Catalogo corsi', calendario: 'Calendario corsi', carrello: 'Carrello', aziende: 'Soluzioni per le aziende', 'area-azienda': 'Area azienda', normativa: 'Normativa e aggiornamenti', attestato: 'Verifica attestato', 'chi-siamo': 'Chi siamo', contatti: 'Contatti', privacy: 'Informativa privacy', crediti: 'Crediti delle immagini', legenda: 'Legenda delle sigle' };
   let heroT;
   function route() {
     const h = location.hash.replace(/^#\/?/, '');

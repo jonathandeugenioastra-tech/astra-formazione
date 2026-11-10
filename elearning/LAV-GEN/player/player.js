@@ -268,7 +268,7 @@
   };
 
   /* ───────── rendering ───────── */
-  const testa = (s, extra = '') => `<div class="sch-testa an" data-subito><div><div class="mod">${esc(s.mod.id === 'M0' ? 'Introduzione' : s.mod.id === 'TF' ? 'Verifica finale' : 'Modulo ' + s.mod.id.slice(1) + ' · ' + s.mod.titolo)}</div><h2>${esc(s.tit)}</h2>${s.sott ? `<div class="sott">${esc(s.sott)}</div>` : ''}</div>${s.rif ? `<div class="rif">${esc(s.rif)}</div>` : ''}${extra}</div>`;
+  const testa = (s, extra = '') => `<div class="sch-testa an" data-subito><div><div class="mod">${esc(s.mod.id === 'M0' ? 'Introduzione' : s.mod.id === 'TF' ? 'Verifica finale' : (/^Modulo/.test(s.mod.titolo) ? s.mod.titolo : 'Modulo ' + s.mod.id.slice(1) + ' · ' + s.mod.titolo))}</div><h2>${esc(s.tit)}</h2>${s.sott ? `<div class="sott">${esc(s.sott)}</div>` : ''}</div>${s.rif ? `<div class="rif">${esc(s.rif)}</div>` : ''}${extra}</div>`;
   const foto = n => `img/${n}.jpg`;
   const FOTO = ['sicurezza', 'sicurezza2', 'sicurezza3', 'hero1', 'chi', 'aziende'];
   const shuffle = a => { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
@@ -280,7 +280,7 @@
       <div class="loghi an" data-subito><span class="bianco"><img src="loghi/astra.svg" alt="ASTRA"></span><img class="jd" src="loghi/jd.svg" alt="J.D'"></div>
       <div class="contenuto"><div class="kicker an">${esc(C.rif)}</div><h1 class="an">${esc(s.tit)}</h1><p class="an">${esc(C.sottotitolo)}</p></div></div>`,
     sezione: s => `<div class="schermata full"><div class="foto" style="background-image:url(${foto(s.mod.foto)})"></div><div class="velo"></div>
-      <div class="num">${esc(s.mod.id.slice(1))}</div>
+      <div class="num">${esc(((s.tit || "").match(/^Modulo (\d+)/) || [])[1] || s.mod.id.slice(1))}</div>
       <div class="contenuto"><div class="kicker an">${esc(s.tit)} · ${s.mod.min} minuti</div><h1 class="an">${esc(s.sott)}</h1><p class="an">${s.mod.schermate.length - 1} schermate · esercitazioni e verifica intermedia</p></div></div>`,
     guida: s => `<div class="schermata">${testa(s)}<div class="corpo"><div class="guida">${s.voci.map(v => `<div class="g an"><div class="cerchio">${ico(v[0])}</div><b>${esc(v[1])}</b><p>${esc(v[2])}</p></div>`).join('')}</div></div></div>`,
     obiettivi: s => `<div class="schermata">${testa(s)}<div class="corpo"><ul class="check">${s.voci.map(v => `<li class="an">${ico('FaCircleCheck')}<span>${esc(v)}</span></li>`).join('')}</ul></div></div>`,

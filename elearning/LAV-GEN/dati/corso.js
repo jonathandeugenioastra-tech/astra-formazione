@@ -468,7 +468,7 @@ window.CORSO = {
 
   /* ───────────────────── TEST FINALE ───────────────────── */
   testFinale: {
-    domande: 20, soglia: 70, tentativi: 3,
+    domande: 30, soglia: 70, tentativi: 3,
     banca: [
       ["Che cosa si intende per «pericolo»?", ["La probabilità che si verifichi un danno", "La proprietà o qualità intrinseca di un determinato fattore avente il potenziale di causare danni", "Il danno effettivamente subito", "La misura adottata per ridurre il rischio"], 1],
       ["Come si stima il rischio?", ["Sommando probabilità e gravità", "Combinando la probabilità e la gravità del danno (R = P × D)", "Contando gli infortuni dell'anno precedente", "Valutando solo la gravità del danno"], 1],

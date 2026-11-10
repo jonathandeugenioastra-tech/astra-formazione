@@ -52,7 +52,8 @@
     const f = D.foto[slot];
     if (!f) return '';
     const b = 'img/' + f.file;
-    return `<img class="${cls}" src="${b}-1280.jpg" srcset="${b}-1280.jpg 1280w, ${b}-2560.jpg 2560w, ${b}-3840.jpg 3840w" sizes="${sizes}" alt="${esc(f.alt)}" width="${f.w || 3840}" height="${f.h || 2160}" ${eager ? 'fetchpriority="high"' : 'loading="lazy"'} decoding="async">`;
+    const ws = [640, 1024, 1600, 2560, 3840].filter(w => w <= (f.w || 2560));
+    return `<picture><source type="image/webp" srcset="${ws.map(w => `${b}-${w}.webp ${w}w`).join(', ')}" sizes="${sizes}"><img class="${cls}" src="${b}-1280.jpg" srcset="${b}-1280.jpg 1280w, ${b}-2560.jpg 2560w" sizes="${sizes}" alt="${esc(f.alt)}" width="${f.w || 3840}" height="${f.h || 2160}" ${eager ? 'fetchpriority="high"' : 'loading="lazy"'} decoding="async"></picture>`;
   }
 
   /* ---------- Carrello (memoria del browser, solo comodità) ---------- */
@@ -165,7 +166,7 @@
       <div class="wrap">
         <div>
           <span class="occhiello">Centro di Formazione AiFOS · Teramo</span>
-          <h1>Tranquilli,<br>c'è <span class="rosso">ASTRA</span>.</h1>
+          <h1 class="slogan"><span class="marchio">Astra<i>.</i></span><span class="claim">La tua Academy digitale, semplice e veloce.</span></h1>
           <p class="sotto">Formazione obbligatoria in materia di salute e sicurezza sul lavoro, ambiente, energia e igiene degli alimenti, erogata in aula, in videoconferenza sincrona e in e-learning in conformità all'Accordo Stato-Regioni del 17 aprile 2025.</p>
           <form class="cerca-hero" role="search" id="cerca-hero">
             <label>${I.cerca}<span class="sr">Cerca un corso</span><input name="q" placeholder="Titolo o codice del corso" autocomplete="off"></label>
@@ -188,7 +189,7 @@
       <div class="punti" role="tablist" aria-label="Immagini">${['hero1', 'hero2', 'hero3'].filter(s => D.foto[s]).map((s, i) => `<button role="tab" aria-label="Immagine ${i + 1}" class="${i ? '' : 'on'}" data-i="${i}"></button>`).join('')}</div>
     </section>
 
-    <div class="marquee" aria-hidden="true"><div class="tr">${[0, 1].map(() => `<span>Accordo Stato-Regioni 17/04/2025</span><span>D.lgs. 81/2008</span><span>Attestati AiFOS</span><span>Videoconferenza con registro presenze</span><span>E-learning SCORM</span><span>ISO 9001 · 14001 · 45001</span><span>Laboratorio ACCREDIA</span><span>Formazione in azienda</span>`).join('')}</div></div>
+    <section class="banda-cerca" aria-labelledby="h-cerca"><div class="wrap"><h2 id="h-cerca">Cerca tra tutti i corsi</h2>${cercaAvanzata()}</div></section>
 
     <section class="numeri" aria-label="ASTRA in numeri">
       <div class="wrap">
@@ -283,23 +284,49 @@
     ['UNI ISO 45001', 'Salute e sicurezza sul lavoro'],
     ['UNI/PdR 125', 'Parità di genere']].map(([t, d], i) => `<div class="rivela ritardo-${i}"><span class="sigillo">${I.scudo}</span><b>${t}</b><span>${d}</span></div>`).join('');
 
+  /* ---------- Destinatari e durate (ricerca avanzata) ---------- */
+  const FIG = [
+    ['lav', 'Lavoratori', /^LAV-/], ['prep', 'Preposti', /^PREP/], ['dir', 'Dirigenti', /^DIR$/], ['dl', 'Datori di lavoro / DL-SPP', /^(DL|DLSPP)$/],
+    ['rspp', 'RSPP / ASPP', /^RSPP-/], ['rls', 'RLS', /^RLS$/], ['ai', 'Addetti antincendio', /^AI-/], ['ps', 'Addetti primo soccorso', /^PS-/],
+    ['attr', 'Operatori di attrezzature (carrelli, PLE, gru, MMT)', /^(CAR|PLE|GRU|MMT)$/], ['quota', 'Lavori in quota e ambienti confinati', /^(QUOTA|CONF)$/],
+    ['ele', 'Addetti ai lavori elettrici', /^PES$/], ['hse', 'HSE manager e tecnici della prevenzione', /^(ATEX|CHIM|CONF|FORM|REACH|RSPP-AGG)$/], ['form', 'Formatori per la sicurezza', /^FORM$/],
+    ['amb', 'Responsabili e tecnici ambientali', /^(LEG-AMB|RA|RIF|RENTRI|CLASS|CAMP-RIF|CAMP-ACQ|EMI|MON-EMI|SCA|BON|REATI|REACH)$/],
+    ['aud', 'Auditor e sistemi di gestione', /^(ISO14|AUD14|ISO50|ISO22)$/], ['ege', 'Energy manager ed EGE', /^(EGE|ISO50|DIAG|CER)$/], ['esg', 'Sustainability / ESG manager', /^(ESG|CFP)$/],
+    ['ali', 'Alimentaristi', /^(HACCP|HACCP-AGG|ALL)$/], ['rhaccp', 'Responsabili HACCP e qualità alimentare', /^(HACCP-R|ISO22|ALL)$/]];
+  const figDi = c => FIG.filter(f => f[2].test(c.id)).map(f => f[0]);
+  const DUR = [['4', 'Fino a 4 ore', o => o <= 4], ['8', 'Da 5 a 8 ore', o => o > 4 && o <= 8], ['16', 'Da 9 a 16 ore', o => o > 8 && o <= 16], ['99', 'Oltre 16 ore', o => o > 16]];
+  const cercaAvanzata = (dark) => `
+    <form class="cerca-av${dark ? ' scura' : ''}" id="cerca-av" role="search" aria-label="Ricerca avanzata dei corsi">
+      <label><span>Chi seguirà il corso?</span><select name="fig"><option value="">Tutte le figure</option>${FIG.map(f => `<option value="${f[0]}">${esc(f[1])}</option>`).join('')}</select></label>
+      <label><span>Base o aggiornamento?</span><select name="tipo"><option value="">Tutte le tipologie</option>${['Base', 'Aggiornamento', 'Abilitazione', 'Specialistico'].map(t => `<option>${t}</option>`).join('')}</select></label>
+      <label><span>Area formativa</span><select name="ambito"><option value="">Tutte le aree</option>${Object.entries(D.ambiti).map(([k, a]) => `<option value="${k}">${esc(a.nome)}</option>`).join('')}</select></label>
+      <label><span>Online o in presenza?</span><select name="mod"><option value="">Tutte le modalità</option>${Object.entries(MOD).map(([k, m]) => `<option value="${k}">${esc(m.breve)}</option>`).join('')}</select></label>
+      <label><span>Durata</span><select name="dur"><option value="">Qualsiasi</option>${DUR.map(d => `<option value="${d[0]}">${d[1]}</option>`).join('')}</select></label>
+      <label class="q"><span>Parola chiave</span><input name="q" type="search" placeholder="Titolo, codice o norma"></label>
+      <button class="btn btn-rosso">${I.cerca} Cerca</button>
+    </form>`;
+
   /* ---------- Catalogo ---------- */
-  let F = { ambito: [], mod: [], tipo: [], q: '', ord: 'rilevanza' };
+  let F = { ambito: [], mod: [], tipo: [], fig: [], dur: [], q: '', ord: 'rilevanza' };
   P.catalogo = (par) => {
-    F = { ambito: par.ambito ? [par.ambito] : [], mod: par.mod ? [par.mod] : [], tipo: [], q: par.q || '', ord: 'rilevanza' };
-    const conta = (k, v) => D.corsi.filter(c => k === 'mod' ? c.mod.includes(v) : c[k] === v).length;
+    F = { ambito: par.ambito ? [par.ambito] : [], mod: par.mod ? [par.mod] : [], tipo: par.tipo ? [par.tipo] : [], fig: par.fig ? [par.fig] : [], dur: par.dur ? [par.dur] : [], q: par.q || '', ord: 'rilevanza' };
+    const conta = (k, v) => D.corsi.filter(c => k === 'mod' ? c.mod.includes(v) : k === 'fig' ? figDi(c).includes(v) : k === 'dur' ? DUR.find(d => d[0] === v)[2](c.ore) : c[k] === v).length;
     const tipi = [...new Set(D.corsi.map(c => c.tipo))];
     return testa('Catalogo corsi', 'Elenco dei corsi con durata, modalità di erogazione ammesse e prezzo indicativo, consultabile per area, modalità e tipologia.', null, 'aula') + `
     <div class="wrap filtri-wrap">
       <form class="filtri" id="filtri" aria-label="Filtri">
         <label class="campo">Cerca<input name="q" type="search" value="${esc(F.q)}" placeholder="Titolo o codice"></label>
-        <button type="button" class="btn btn-bordo btn-s filtri-toggle" aria-expanded="false">Filtri per area, modalità e tipologia</button>
+        <button type="button" class="btn btn-bordo btn-s filtri-toggle" aria-expanded="false">Filtri: area, modalità, tipologia, durata, destinatari</button>
         <div class="filtri-corpo"><fieldset><legend>Area</legend>${Object.entries(D.ambiti).map(([k, a]) => `
           <label class="opz"><input type="checkbox" name="ambito" value="${k}" ${F.ambito.includes(k) ? 'checked' : ''}><span class="pallino" style="background:${a.colore}"></span>${esc(a.nome)}<span class="n">${conta('ambito', k)}</span></label>`).join('')}</fieldset>
         <fieldset><legend>Modalità</legend>${Object.entries(MOD).map(([k, m]) => `
           <label class="opz"><input type="checkbox" name="mod" value="${k}" ${F.mod.includes(k) ? 'checked' : ''}><span class="chip ${k}">${k}</span>${m.breve}<span class="n">${conta('mod', k)}</span></label>`).join('')}</fieldset>
         <fieldset><legend>Tipo</legend>${tipi.map(t => `
-          <label class="opz"><input type="checkbox" name="tipo" value="${t}">${t}<span class="n">${conta('tipo', t)}</span></label>`).join('')}</fieldset>
+          <label class="opz"><input type="checkbox" name="tipo" value="${t}" ${F.tipo.includes(t) ? 'checked' : ''}>${t}<span class="n">${conta('tipo', t)}</span></label>`).join('')}</fieldset>
+        <fieldset><legend>Durata</legend>${DUR.map(d => `
+          <label class="opz"><input type="checkbox" name="dur" value="${d[0]}" ${F.dur.includes(d[0]) ? 'checked' : ''}>${d[1]}<span class="n">${conta('dur', d[0])}</span></label>`).join('')}</fieldset>
+        <fieldset><legend>Destinatari</legend>${FIG.map(f => `
+          <label class="opz"><input type="checkbox" name="fig" value="${f[0]}" ${F.fig.includes(f[0]) ? 'checked' : ''}>${esc(f[1])}<span class="n">${conta('fig', f[0])}</span></label>`).join('')}</fieldset>
         <button type="reset" class="btn btn-bordo btn-s">Azzera filtri</button></div>
       </form>
       <div>
@@ -316,6 +343,8 @@
       (!F.ambito.length || F.ambito.includes(c.ambito)) &&
       (!F.mod.length || F.mod.some(m => c.mod.includes(m))) &&
       (!F.tipo.length || F.tipo.includes(c.tipo)) &&
+      (!F.fig.length || figDi(c).some(f => F.fig.includes(f))) &&
+      (!F.dur.length || DUR.some(d => F.dur.includes(d[0]) && d[2](c.ore))) &&
       (!q || (c.titolo + ' ' + c.id + ' ' + c.dest).toLowerCase().includes(q)));
     if (F.ord === 'prezzo') l.sort((a, b) => a.prezzo - b.prezzo);
     if (F.ord === 'ore') l.sort((a, b) => a.ore - b.ore);
@@ -328,7 +357,7 @@
     const f = $('#filtri');
     const leggi = () => {
       const fd = new FormData(f);
-      F.ambito = fd.getAll('ambito'); F.mod = fd.getAll('mod'); F.tipo = fd.getAll('tipo'); F.q = fd.get('q') || '';
+      F.ambito = fd.getAll('ambito'); F.mod = fd.getAll('mod'); F.tipo = fd.getAll('tipo'); F.fig = fd.getAll('fig'); F.dur = fd.getAll('dur'); F.q = fd.get('q') || '';
       filtraCatalogo();
     };
     $('.filtri-toggle', f).addEventListener('click', e => { const o = f.classList.toggle('aperti'); e.currentTarget.setAttribute('aria-expanded', o); });
@@ -820,6 +849,8 @@
   function montaHome() {
     const f = $('#cerca-hero');
     f && f.addEventListener('submit', e => { e.preventDefault(); location.hash = '#/catalogo?q=' + encodeURIComponent(f.q.value); });
+    const fa = $('#cerca-av');
+    fa && fa.addEventListener('submit', e => { e.preventDefault(); const p = new URLSearchParams(); new FormData(fa).forEach((v, k) => { if (v) p.set(k, v); }); location.hash = '#/catalogo' + (p.toString() ? '?' + p : ''); });
     const sl = $$('.hero .slide'), pt = $$('.hero .punti button');
     if (sl.length < 2) return;
     let i = 0;
@@ -833,7 +864,7 @@
   let io;
   function rivela() {
     if (!('IntersectionObserver' in window)) { $$('.rivela').forEach(e => e.classList.add('vista')); return; }
-    io = io || new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('vista'); io.unobserve(e.target); } }), { rootMargin: '0px 0px -8% 0px', threshold: .08 });
+    io = io || new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('vista'); io.unobserve(e.target); } }), { rootMargin: '0px 0px 12% 0px', threshold: 0 });
     $$('.rivela:not(.vista)').forEach(e => io.observe(e));
   }
   function contatori() {

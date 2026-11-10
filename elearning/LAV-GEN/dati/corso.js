@@ -14,9 +14,9 @@ window.CORSO = {
   moduli: [
 
   /* ───────────────────────── MODULO 0 ───────────────────────── */
-  { id: "M0", titolo: "Benvenuto e istruzioni", min: 5, foto: "sicurezza2", schermate: [
+  { id: "M0", titolo: "Introduzione al corso", min: 5, foto: "sicurezza2", schermate: [
     { t: "copertina", tit: "Formazione generale dei lavoratori", sott: "Corso e-learning · 4 ore · Accordo Stato-Regioni 17 aprile 2025",
-      nar: "Benvenuta, benvenuto. Questo è il corso di formazione generale dei lavoratori, della durata di quattro ore, previsto dall'articolo 37 del decreto legislativo 81 del 2008 e disciplinato dall'Accordo Stato-Regioni del 17 aprile 2025. Il corso è erogato da ASTRA, centro di formazione AiFOS, ed è valido come credito formativo permanente in tutti i settori.", p: 1 },
+      nar: "Benvenuti al corso di formazione generale dei lavoratori. In quattro ore affronteremo insieme i contenuti previsti dall'articolo 37 del decreto legislativo 81 del 2008 e dall'Accordo Stato-Regioni del 17 aprile 2025. Il corso è erogato da ASTRA, centro di formazione AiFOS, e costituisce un credito formativo permanente, valido in tutti i settori.", p: 1 },
     { t: "guida", tit: "Come funziona il corso", voci: [
         ["FaClock", "Tempo minimo", "Ogni schermata ha un tempo minimo di permanenza. Il pulsante Avanti si attiva al termine del tempo e delle attività richieste."],
         ["FaHandPointer", "Interazioni", "Alcuni contenuti si aprono con un clic: è necessario consultarli tutti per proseguire."],
@@ -24,14 +24,14 @@ window.CORSO = {
         ["FaPenToSquare", "Esercitazioni", "Al termine di ogni modulo trovi esercitazioni e una verifica intermedia."],
         ["FaUserCheck", "Presenza", "Durante la fruizione vengono richieste conferme di presenza: se non rispondi, il conteggio del tempo si sospende."],
         ["FaAward", "Attestato", "Al superamento del test finale (70% di risposte corrette) l'attestato viene rilasciato con codice di verifica e QR."]],
-      nar: "Prima di iniziare, alcune indicazioni. Ogni schermata prevede un tempo minimo di permanenza: il pulsante Avanti si attiva solo quando il tempo è trascorso e hai completato le attività richieste, come aprire tutte le schede o rispondere alle esercitazioni. Il tempo viene conteggiato solo quando la finestra del corso è attiva. Periodicamente ti verrà chiesto di confermare la tua presenza: se non rispondi entro sessanta secondi, il conteggio si sospende. Al termine di ciascun modulo troverai esercitazioni e una breve verifica. Il corso si conclude con il test finale: per superarlo occorre rispondere correttamente ad almeno il settanta per cento delle domande.", p: 1.6 },
+      nar: "Prima di cominciare, vediamo come funziona il corso. Ogni schermata ha un tempo minimo di permanenza: il pulsante Avanti si attiva quando il tempo è trascorso e hai completato le attività richieste, come aprire le schede o rispondere alle esercitazioni. Il tempo viene conteggiato solo mentre la finestra del corso è attiva. Di tanto in tanto ti verrà chiesto di confermare la tua presenza; se non rispondi entro sessanta secondi, il conteggio si sospende. Alla fine di ogni modulo trovi le esercitazioni e una breve verifica, e al termine del percorso il test finale: per superarlo occorre almeno il settanta per cento di risposte corrette.", p: 1.6 },
     { t: "obiettivi", tit: "Obiettivi del corso", voci: [
         "Conoscere il significato di pericolo, rischio, danno, prevenzione e protezione",
         "Comprendere come è organizzata la prevenzione in azienda e chi ne fa parte",
         "Conoscere diritti, doveri e responsabilità di ciascun soggetto e il sistema sanzionatorio",
         "Sapere quali sono gli organi di vigilanza, controllo e assistenza e come operano",
         "Riconoscere la segnaletica di sicurezza secondo la norma UNI EN ISO 7010"],
-      nar: "Al termine del corso sarai in grado di distinguere pericolo e rischio, di conoscere le misure generali di tutela, di sapere chi fa che cosa nell'organizzazione aziendale della sicurezza, quali sono i tuoi diritti e i tuoi doveri, quali sanzioni sono previste, e quali enti vigilano sull'applicazione delle norme. La formazione generale è il primo passo: sarà completata dalla formazione specifica sui rischi della tua mansione.", p: 1 }
+      nar: "Vediamo gli obiettivi. Alla fine del corso saprai distinguere il pericolo dal rischio e conoscerai le misure generali di tutela. Saprai chi fa che cosa nell'organizzazione aziendale della sicurezza, quali sono i tuoi diritti e i tuoi doveri, quali sanzioni sono previste e quali enti vigilano sul rispetto delle norme. La formazione generale è il primo passo: verrà completata dalla formazione specifica sui rischi della tua mansione.", p: 1 }
   ]},
 
   /* ───────────────────────── MODULO 1 ───────────────────────── */

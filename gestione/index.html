@@ -32,6 +32,7 @@ input[type=number]{width:96px}input.w{width:100%}
 label.ck{display:flex;gap:6px;align-items:center}
 .barra{position:sticky;bottom:0;background:#fff;border-top:1px solid var(--bordo);padding:12px 16px;display:flex;gap:10px;flex-wrap:wrap;align-items:center;justify-content:space-between}
 @media(max-width:640px){th.h,td.h{display:none}}
+  #tp td:first-child{white-space:nowrap}
 </style>
 </head>
 <body>
@@ -40,6 +41,7 @@ label.ck{display:flex;gap:6px;align-items:center}
   <nav class="tabs" role="tablist">
     <button role="tab" data-t="prezzi" aria-selected="true">Prezzi e visibilità</button>
     <button role="tab" data-t="sconti" aria-selected="false">Sconti</button>
+    <button role="tab" data-t="mod" aria-selected="false">Modalità e aule</button>
     <button role="tab" data-t="cal" aria-selected="false">Calendario</button>
     <button role="tab" data-t="cont" aria-selected="false">Contatti e avviso</button>
     <button role="tab" data-t="pub" aria-selected="false">Pubblica</button>
@@ -47,11 +49,11 @@ label.ck{display:flex;gap:6px;align-items:center}
 
   <div data-p="prezzi">
     <section class="card"><h2>Prezzi per partecipante (IVA esclusa)</h2>
-      <p class="mut">Modifica il prezzo e premi «Pubblica». Deseleziona «Visibile» per nascondere un corso dal catalogo e dal calendario.</p>
+      <p class="mut">Il prezzo base è quello della videoconferenza (o dell'aula presso ASTRA per i corsi solo in aula). Aula presso ASTRA e presso il cliente si calcolano con le maggiorazioni della scheda «Modalità e aule». Il prezzo e-learning, se vuoto, si calcola in automatico. Deseleziona «Visibile» per nascondere un corso.</p>
       <div class="riga"><input id="cerca" placeholder="Cerca corso o codice" style="flex:1;min-width:200px">
         <span>Variazione di tutti i prezzi visibili</span><input id="perc" type="number" step="0.5" value="0" style="width:80px">%
         <button class="btn btn-s" id="applica">Applica</button></div>
-      <div class="tabwrap"><table><thead><tr><th>Codice</th><th>Corso</th><th class="h">Ore</th><th class="h">Modalità</th><th>Prezzo €</th><th>Visibile</th></tr></thead><tbody id="tp"></tbody></table></div>
+      <div class="tabwrap"><table><thead><tr><th>Codice</th><th>Corso</th><th class="h">Ore</th><th class="h">Modalità</th><th>Base €</th><th>E-learning €</th><th class="h">Aula ASTRA · cliente</th><th>Visibile</th></tr></thead><tbody id="tp"></tbody></table></div>
     </section>
   </div>
 
@@ -60,6 +62,21 @@ label.ck{display:flex;gap:6px;align-items:center}
       <p class="mut">Applicati automaticamente nel carrello e mostrati nella scheda corso e nella pagina Aziende.</p>
       <table><thead><tr><th>Da partecipanti</th><th>Sconto %</th><th></th></tr></thead><tbody id="ts"></tbody></table>
       <div class="riga"><button class="btn btn-s" id="addS">+ Aggiungi fascia</button></div>
+    </section>
+  </div>
+
+  <div data-p="mod" hidden>
+    <section class="card"><h2>Maggiorazioni per modalità</h2>
+      <p class="mut">Percentuali applicate al prezzo base e arrotondate a 5 €.</p>
+      <div class="riga"><label>Aula presso ASTRA rispetto alla videoconferenza +<input id="kP" type="number" step="1" style="width:70px">%</label></div>
+      <div class="riga"><label>Aula presso il cliente rispetto all'aula ASTRA +<input id="kC" type="number" step="1" style="width:70px">%</label></div>
+      <div class="riga"><label>E-learning automatico rispetto alla videoconferenza −<input id="kEL" type="number" step="1" style="width:70px">%</label></div>
+    </section>
+    <section class="card"><h2>Aule dedicate: minimo fatturabile e fasce</h2>
+      <p class="mut">Sotto il numero minimo si fattura comunque l'importo di quel numero di quote. Le edizioni a calendario si attivano con lo stesso minimo di iscritti.</p>
+      <div class="riga"><label>Numero minimo di quote fatturabili <input id="amin" type="number" min="1" step="1" style="width:70px"></label></div>
+      <table><thead><tr><th>Da partecipanti</th><th>Sconto %</th><th></th></tr></thead><tbody id="ta"></tbody></table>
+      <div class="riga"><button class="btn btn-s" id="addA">+ Aggiungi fascia</button></div>
     </section>
   </div>
 
@@ -120,8 +137,16 @@ label.ck{display:flex;gap:6px;align-items:center}
     sconti: (L0.sconti || [[5, 5], [10, 10], [20, 15]]).map(x => x.slice()).sort((a, b) => a[0] - b[0]),
     edizioni: (L0.edizioni || D.edizioni || []).map(e => ({ ...e })),
     contatti: { telefoni: (L0.contatti && L0.contatti.telefoni) || D.azienda.telefoni, email: (L0.contatti && L0.contatti.email) || D.azienda.email, pec: (L0.contatti && L0.contatti.pec) || D.azienda.pec, orari: (L0.contatti && L0.contatti.orari) || D.azienda.orari },
-    avviso: L0.avviso || ''
+    avviso: L0.avviso || '',
+    prezziEL: { ...(L0.prezziEL || {}) },
+    modalita: { kP: 1.1, kC: 1.1, kEL: 0.85, ...(L0.modalita || {}) },
+    aula: JSON.parse(JSON.stringify(L0.aula || { minimo: 5, fasce: [[5, 0], [11, 10], [21, 15]] }))
   };
+  const r5 = x => Math.round(x / 5) * 5;
+  const calcola = c => { const b = S.prezzi[c.id], M = S.modalita, p = {};
+    if (c.mod.includes('EL')) p.EL = typeof S.prezziEL[c.id] === 'number' ? S.prezziEL[c.id] : r5(b * M.kEL);
+    if (c.mod.includes('VCS')) p.VCS = b;
+    if (c.mod.includes('P')) { p.P = p.VCS != null ? r5(b * M.kP) : b; p.PC = r5(p.P * M.kC); } return p; };
   let iniziale = JSON.stringify(S);
   const sporco = () => { const d = JSON.stringify(S) !== iniziale; $('#stato').textContent = d ? 'Modifiche non ancora pubblicate' : 'Nessuna modifica'; $('#stato').style.color = d ? 'var(--rosso)' : ''; };
   addEventListener('beforeunload', e => { if (JSON.stringify(S) !== iniziale) { e.preventDefault(); e.returnValue = ''; } });
@@ -136,10 +161,12 @@ label.ck{display:flex;gap:6px;align-items:center}
   function rPrezzi() {
     const q = $('#cerca').value.trim().toLowerCase(); let h = '', amb = '';
     CORSI.filter(c => !q || (c.id + ' ' + c.titolo).toLowerCase().includes(q)).forEach(c => {
-      if (c.ambito !== amb) { amb = c.ambito; h += `<tr><td class="amb" colspan="6">${esc(AMB[amb] || amb)}</td></tr>`; }
+      if (c.ambito !== amb) { amb = c.ambito; h += `<tr><td class="amb" colspan="8">${esc(AMB[amb] || amb)}</td></tr>`; }
       const ch = S.prezzi[c.id] !== base[c.id];
       h += `<tr class="${ch ? 'cambiato' : ''}"><td>${esc(c.id)}</td><td>${esc(c.titolo)}</td><td class="h">${c.ore}</td><td class="h">${c.mod.map(m => `<span class="mod">${m}</span>`).join('')}</td>
         <td><input type="number" min="0" step="1" data-id="${esc(c.id)}" value="${S.prezzi[c.id]}" aria-label="Prezzo ${esc(c.titolo)}"></td>
+        <td>${c.mod.includes('EL') ? `<input type="number" min="0" step="1" data-el="${esc(c.id)}" value="${S.prezziEL[c.id] ?? ''}" placeholder="${calcola(c).EL}" aria-label="Prezzo e-learning ${esc(c.titolo)}">` : '–'}</td>
+        <td class="h" data-pc="${esc(c.id)}">${(p => p.P != null ? p.P + ' · ' + p.PC : '–')(calcola(c))}</td>
         <td><input type="checkbox" data-v="${esc(c.id)}" ${S.nascosti.includes(c.id) ? '' : 'checked'} aria-label="Visibile"></td></tr>`;
     });
     $('#tp').innerHTML = h;
@@ -147,6 +174,8 @@ label.ck{display:flex;gap:6px;align-items:center}
   $('#tp').addEventListener('input', e => {
     const t = e.target;
     if (t.dataset.id) { const v = parseFloat(t.value); if (!isNaN(v) && v >= 0) { S.prezzi[t.dataset.id] = Math.round(v * 100) / 100; t.closest('tr').classList.toggle('cambiato', S.prezzi[t.dataset.id] !== base[t.dataset.id]); } }
+    if (t.dataset.el) { const v = parseFloat(t.value); if (isNaN(v)) delete S.prezziEL[t.dataset.el]; else if (v >= 0) S.prezziEL[t.dataset.el] = Math.round(v * 100) / 100; }
+    if (t.dataset.id || t.dataset.el) { const c = CORSI.find(x => x.id === (t.dataset.id || t.dataset.el)), p = calcola(c), r = t.closest('tr'); const cell = r.querySelector('[data-pc]'); if (cell) cell.textContent = p.P != null ? p.P + ' · ' + p.PC : '–'; const e = r.querySelector('[data-el]'); if (e) e.placeholder = p.EL; }
     if (t.dataset.v) { S.nascosti = S.nascosti.filter(x => x !== t.dataset.v); if (!t.checked) S.nascosti.push(t.dataset.v); }
     sporco();
   });
@@ -155,6 +184,20 @@ label.ck{display:flex;gap:6px;align-items:center}
     if (!confirm(`Applicare una variazione del ${p}% a tutti i corsi visibili? I prezzi sono arrotondati all'euro.`)) return;
     CORSI.forEach(c => { if (!S.nascosti.includes(c.id)) S.prezzi[c.id] = Math.max(0, Math.round(S.prezzi[c.id] * (1 + p / 100))); });
     $('#perc').value = 0; rPrezzi(); sporco(); };
+
+  /* modalità e aule */
+  const pc = k => Math.round((S.modalita[k] - 1) * 100), pcm = k => Math.round((1 - S.modalita[k]) * 100);
+  $('#kP').value = pc('kP'); $('#kC').value = pc('kC'); $('#kEL').value = pcm('kEL'); $('#amin').value = S.aula.minimo;
+  ['kP', 'kC'].forEach(k => $('#' + k).oninput = () => { const v = parseFloat($('#' + k).value); if (!isNaN(v)) { S.modalita[k] = Math.round((1 + v / 100) * 1000) / 1000; rPrezzi(); sporco(); } });
+  $('#kEL').oninput = () => { const v = parseFloat($('#kEL').value); if (!isNaN(v)) { S.modalita.kEL = Math.round((1 - v / 100) * 1000) / 1000; rPrezzi(); sporco(); } };
+  $('#amin').oninput = () => { const v = parseInt($('#amin').value); if (v >= 1) { S.aula.minimo = v; sporco(); } };
+  function rAula() {
+    $('#ta').innerHTML = S.aula.fasce.map((s, i) => `<tr><td><input type="number" min="1" step="1" data-ai="${i}" data-k="0" value="${s[0]}"></td><td><input type="number" min="0" max="90" step="0.5" data-ai="${i}" data-k="1" value="${s[1]}"></td><td><button class="btn btn-x" data-adel="${i}">Elimina</button></td></tr>`).join('');
+  }
+  $('#ta').addEventListener('input', e => { const t = e.target; if (t.dataset.ai == null) return; const v = parseFloat(t.value); if (!isNaN(v)) S.aula.fasce[+t.dataset.ai][+t.dataset.k] = v; sporco(); });
+  $('#ta').addEventListener('click', e => { const d = e.target.dataset.adel; if (d == null) return; S.aula.fasce.splice(+d, 1); rAula(); sporco(); });
+  $('#addA').onclick = () => { const u = S.aula.fasce.length ? S.aula.fasce[S.aula.fasce.length - 1][0] + 10 : 5; S.aula.fasce.push([u, 0]); rAula(); sporco(); };
+  rAula();
 
   /* sconti */
   function rSconti() {
@@ -208,14 +251,20 @@ label.ck{display:flex;gap:6px;align-items:center}
     return err;
   }
   function genera() {
-    const L = { aggiornato: new Date().toISOString().slice(0, 10), prezzi: S.prezzi, nascosti: S.nascosti, sconti: S.sconti.slice().sort((a, b) => a[0] - b[0]), edizioni: S.edizioni, contatti: S.contatti, avviso: S.avviso };
+    const L = { aggiornato: new Date().toISOString().slice(0, 10), prezzi: S.prezzi, prezziEL: S.prezziEL, modalita: S.modalita, aula: { minimo: S.aula.minimo, fasce: S.aula.fasce.slice().sort((a, b) => a[0] - b[0]) }, nascosti: S.nascosti, sconti: S.sconti.slice().sort((a, b) => a[0] - b[0]), edizioni: S.edizioni, contatti: S.contatti, avviso: S.avviso };
     return `/* Listino e calendario ASTRA – modificabile dalla pagina «gestione» · © 2026 dr. Jonathan D'Eugenio */
 window.ASTRA_LISTINO = ${JSON.stringify(L, null, 1)};
 (function(){var D=window.ASTRA,L=window.ASTRA_LISTINO;if(!D||!L)return;D._tutti=D.corsi.slice();
-for(var id in L.prezzi){var c=D.corsi.find(function(x){return x.id===id});if(c&&typeof L.prezzi[id]==='number')c.prezzo=L.prezzi[id];}
+var M=L.modalita||{kP:1.1,kC:1.1,kEL:0.85},E=L.prezziEL||{},r5=function(x){return Math.round(x/5)*5};
+D.corsi.forEach(function(c){var b=(L.prezzi&&typeof L.prezzi[c.id]==='number')?L.prezzi[c.id]:c.prezzo,p={};
+if(c.mod.indexOf('EL')>=0)p.EL=typeof E[c.id]==='number'?E[c.id]:r5(b*M.kEL);
+if(c.mod.indexOf('VCS')>=0)p.VCS=b;
+if(c.mod.indexOf('P')>=0){p.P=p.VCS!=null?r5(b*M.kP):b;p.PC=r5(p.P*M.kC);}
+c.base=b;c.prezzi=p;c.prezzo=Math.min.apply(null,['EL','VCS','P'].filter(function(k){return p[k]!=null}).map(function(k){return p[k]}));});
 var h=L.nascosti||[];D.corsi=D.corsi.filter(function(c){return h.indexOf(c.id)<0});
 if(L.edizioni)D.edizioni=L.edizioni.filter(function(e){return h.indexOf(e.corso)<0&&D.corsi.some(function(c){return c.id===e.corso})});
 if(L.sconti)D.sconti=L.sconti.slice().sort(function(a,b){return b[0]-a[0]});
+D.aula=L.aula||{minimo:5,fasce:[[5,0],[11,10],[21,15]]};D.modalitaK=M;
 if(L.contatti)for(var k in L.contatti)if(L.contatti[k])D.azienda[k]=L.contatti[k];
 D.avviso=L.avviso||'';})();
 `;

@@ -80,6 +80,16 @@
   const righeSconti = () => { const a = SCONTI.slice().reverse(); if (!a.length) return '<tr><td>qualsiasi numero</td><td class="c">—</td></tr>'; let r = a[0][0] > 1 ? `<tr><td>da 1 a ${a[0][0] - 1}</td><td class="c">—</td></tr>` : ''; a.forEach(([q, x], i) => { r += `<tr><td>${a[i + 1] ? 'da ' + q + ' a ' + (a[i + 1][0] - 1) : q + ' e oltre'}</td><td class="c">${x}%</td></tr>`; }); return r; };
   const testoSconti = () => SCONTI.length ? 'Sconti per più partecipanti: ' + SCONTI.slice().reverse().map(([q, s]) => 'da ' + q + ' sconto del ' + s + '%').join(', ') + ' (indicativo).' : '';
   const scontoPer = q => (SCONTI.find(([s]) => q >= s) || [0, 0])[1];
+  /* prezzi per modalità e aule dedicate (listino.js) */
+  const PM = (c, m) => (c.prezzi && c.prezzi[m] != null) ? c.prezzi[m] : c.prezzo;
+  const AULA = D.aula || { minimo: 5, fasce: [[5, 0], [11, 10], [21, 15]] };
+  const NOMI_P = { EL: 'E-learning', VCS: 'Videoconferenza sincrona', P: 'Aula presso ASTRA (Teramo)', PC: 'Aula presso la sede del cliente' };
+  const unPrezzo = c => { const v = Object.values(c.prezzi || {}); return !v.length || v.every(x => x === v[0]); };
+  const tabellaPrezzi = c => `<table class="listino-mod"><tbody>${['EL', 'VCS', 'P', 'PC'].filter(m => c.prezzi && c.prezzi[m] != null).map(m => `<tr><td>${NOMI_P[m]}</td><td class="c">${euro(c.prezzi[m])}</td></tr>`).join('')}</tbody></table>`;
+  const fasceAula = c => { const f = AULA.fasce.slice().sort((a, b) => a[0] - b[0]); const q = PM(c, c.prezzi && c.prezzi.PC != null ? 'PC' : 'VCS');
+    let t = `<b>Aula dedicata all'azienda</b> (presso la sede del cliente${c.mod.includes('VCS') ? ' o in videoconferenza riservata' : ''}): da 1 a ${AULA.minimo - 1} partecipanti si fattura l'importo minimo di ${AULA.minimo} quote${q ? ' (' + euro(q * AULA.minimo) + ' presso il cliente)' : ''}`;
+    f.forEach(([n, x], i) => { t += `; ${f[i + 1] ? 'da ' + n + ' a ' + (f[i + 1][0] - 1) : 'da ' + n} partecipanti ${x ? 'sconto del ' + x + '%' : 'quota piena'}`; });
+    return t + '. Le edizioni a calendario si attivano con almeno ' + AULA.minimo + ' iscritti. Le spese di trasferta oltre la provincia di Teramo sono quotate a parte.'; };
 
   /* ---------- Toast ---------- */
   let tt;
@@ -132,7 +142,7 @@
         <div class="chips">${chips(c.mod)}</div>
         <span class="ore">${I.orologio}${c.ore} ore · ${esc(c.tipo)}</span>
       </div>
-      <div class="piede"><span class="prezzo">${euro(c.prezzo)}<small>per partecipante · IVA esclusa</small></span><span class="freccia">${I.freccia}</span></div>
+      <div class="piede"><span class="prezzo">${unPrezzo(c) ? '' : '<small style="display:inline">da </small>'}${euro(c.prezzo)}<small>per partecipante · IVA esclusa</small></span><span class="freccia">${I.freccia}</span></div>
     </a>`;
   };
   /* immagine della pagina corso: alterna le varianti dell'area, diverse da quella della home */
@@ -421,7 +431,7 @@
       </div>
       <aside>
         <form class="box acquisto" id="acquisto" data-id="${c.id}">
-          <div class="top"><span class="prezzo">${euro(c.prezzo)}<small>per partecipante · IVA esclusa · prezzo indicativo</small></span></div>
+          <div class="top"><span class="prezzo" id="prezzo-mod">${euro(PM(c, primo))}<small>per partecipante · IVA esclusa · prezzo indicativo</small></span>${unPrezzo(c) ? '' : tabellaPrezzi(c)}</div>
           <div class="corpo">
             <fieldset style="border:0;margin:0;padding:0"><legend class="b" style="color:var(--petrolio);margin-bottom:10px">Modalità</legend>
               ${testoNonAmmesse(c) ? `<div class="avviso giallo" style="margin-bottom:10px">${I.info}<span>${testoNonAmmesse(c)}</span></div>` : ''}
@@ -444,6 +454,7 @@
             <button class="btn btn-rosso" style="width:100%">${I.carrello} Aggiungi al carrello</button>
             </div>
             ${c.mod.includes('P') ? boxRPF('nascosto') : ''}
+            <div class="avviso blu" style="margin-top:12px">${I.info}<span>${fasceAula(c)}</span></div>
           </div>
         </form>
       </aside>
@@ -454,15 +465,16 @@
     const f = $('#acquisto'); if (!f) return;
     const q = f.qta;
     const agg = () => { const n = Math.max(1, Math.min(500, parseInt(q.value) || 1)); q.value = n;
-      const s = scontoPer(n), c = corso(f.dataset.id);
-      $('#nota-sconto').innerHTML = s ? `<b>Sconto ${s}%</b> per ${n} partecipanti: ${euro(c.prezzo * n * (1 - s / 100))} invece di ${euro(c.prezzo * n)} (IVA esclusa).` : testoSconti(); };
+      const s = scontoPer(n), c = corso(f.dataset.id), m = (f.querySelector('input[name="mod"]:checked') || {}).value || 'VCS', u = PM(c, m);
+      const pz = $('#prezzo-mod'); if (pz) pz.firstChild.textContent = euro(u);
+      $('#nota-sconto').innerHTML = s ? `<b>Sconto ${s}%</b> per ${n} partecipanti: ${euro(u * n * (1 - s / 100))} invece di ${euro(u * n)} (IVA esclusa).` : testoSconti(); };
     $$('.qta button', f).forEach(b => b.addEventListener('click', () => { q.value = (parseInt(q.value) || 1) + +b.dataset.d; agg(); }));
     q.addEventListener('input', agg); q.addEventListener('change', agg);
     $$('.indice-scheda button').forEach(b => b.addEventListener('click', () => { const t = $('#s-' + b.dataset.sez); t && window.scrollTo({ top: t.getBoundingClientRect().top + scrollY - 150, behavior: 'smooth' }); }));
     const aggiornaMod = () => { const m = (f.querySelector('input[name="mod"]:checked') || {}).value;
       const da = $('#date-aula'); if (da) da.hidden = m !== 'P';
       $('#blocco-acq').hidden = m === 'PC';
-      const b = $('.box-rpf', f); if (b) b.classList.toggle('nascosto', m !== 'PC'); };
+      const b = $('.box-rpf', f); if (b) b.classList.toggle('nascosto', m !== 'PC'); agg(); };
     $$('input[name="mod"]', f).forEach(r => r.addEventListener('change', aggiornaMod)); aggiornaMod();
     f.addEventListener('submit', e => { e.preventDefault(); agg(); const m = f.querySelector('input[name="mod"]:checked').value;
       if (m === 'PC') return; aggiungi(f.dataset.id, m, parseInt(q.value), m === 'P' && f.ed ? f.ed.value : null); });
@@ -525,14 +537,14 @@
     ['nome', 'Nome e cognome', 'text', 1, 'tutta'], ['cf', 'Codice fiscale', 'text', 1], ['email', 'Email', 'email', 1], ['tel', 'Telefono', 'tel', 1], ['comune', 'Comune di residenza', 'text', 0]
   ]).map(([n, l, ty, r, cl]) => `<label class="campo ${cl || ''}"><span>${l}${r ? '' : ' <span style="font-family:var(--f);font-weight:400;color:var(--testo-3)">(facoltativo)</span>'}</span><input name="${n}" type="${ty}" ${r ? 'required' : ''} autocomplete="on"></label>`).join('');
   function calcoli() {
-    const righe = cart.map(r => { const c = corso(r.id), lordo = c.prezzo * r.qta, s = scontoPer(r.qta); return { ...r, c, lordo, s, netto: lordo * (1 - s / 100) }; });
+    const righe = cart.map(r => { const c = corso(r.id), lordo = PM(c, r.mod) * r.qta, s = scontoPer(r.qta); return { ...r, c, lordo, s, netto: lordo * (1 - s / 100) }; });
     const imp = righe.reduce((s, r) => s + r.netto, 0), lordo = righe.reduce((s, r) => s + r.lordo, 0);
     return { righe, lordo, sconto: lordo - imp, imp, iva: imp * .22, tot: imp * 1.22 };
   }
   function disegnaCarrello() {
     const k = calcoli();
     $('#righe').innerHTML = `<h2>Corsi selezionati</h2>` + k.righe.map((r, i) => `
-      <div class="riga"><div><h3><a href="#/corso/${r.id}">${esc(r.c.titolo)}</a></h3><div class="m"><span class="chip ${r.mod}">${r.mod}</span>${r.mod === 'P' ? 'Aula presso ASTRA – ' + (r.ed ? dataLunga(r.ed) : 'data da concordare') : MOD[r.mod].breve} · ${r.c.ore} h · ${euro(r.c.prezzo)} a posto${r.s ? ` · <b style="color:var(--amb)">sconto ${r.s}%</b>` : ''}</div></div>
+      <div class="riga"><div><h3><a href="#/corso/${r.id}">${esc(r.c.titolo)}</a></h3><div class="m"><span class="chip ${r.mod}">${r.mod}</span>${r.mod === 'P' ? 'Aula presso ASTRA – ' + (r.ed ? dataLunga(r.ed) : 'data da concordare') : MOD[r.mod].breve} · ${r.c.ore} h · ${euro(PM(r.c, r.mod))} a posto${r.s ? ` · <b style="color:var(--amb)">sconto ${r.s}%</b>` : ''}</div></div>
         <div class="qta" role="group" aria-label="Partecipanti"><button type="button" data-i="${i}" data-d="-1" aria-label="Diminuisci">−</button><input value="${r.qta}" data-i="${i}" type="number" min="1" aria-label="Partecipanti"><button type="button" data-i="${i}" data-d="1" aria-label="Aumenta">+</button></div>
         <b style="color:var(--petrolio);min-width:90px;text-align:right">${euro(r.netto)}</b>
         <button class="togli" data-x="${i}" aria-label="Rimuovi ${esc(r.c.titolo)}">${I.cestino}</button></div>`).join('');
@@ -603,6 +615,11 @@
       <div class="intest rivela"><div><span class="k">Sconti quantità</span><h2>Condizioni per più partecipanti</h2><p>Riduzioni indicative applicate automaticamente nel carrello per ciascun corso.</p></div></div>
       <div class="tab-wrap rivela" style="max-width:720px"><table class="t"><thead><tr><th>Partecipanti per corso</th><th>Sconto</th></tr></thead><tbody>
         ${righeSconti()}</tbody></table></div>
+      <div class="intest rivela" style="margin-top:48px"><div><span class="k">Aule dedicate</span><h2>Corsi riservati all'azienda e minimo fatturabile</h2><p>Per le aule riservate a una sola azienda, presso la sua sede o in videoconferenza dedicata, si applica la quota della modalità scelta con queste condizioni. Rispetto alla videoconferenza, l'aula presso ASTRA ha una maggiorazione del ${Math.round(((D.modalitaK || {}).kP || 1.1) * 100 - 100)}% e l'aula presso il cliente un'ulteriore maggiorazione del ${Math.round(((D.modalitaK || {}).kC || 1.1) * 100 - 100)}%.</p></div></div>
+      <div class="tab-wrap rivela" style="max-width:720px"><table class="t"><thead><tr><th>Partecipanti</th><th>Condizione</th></tr></thead><tbody>
+        <tr><td>da 1 a ${AULA.minimo - 1}</td><td class="c">importo minimo di ${AULA.minimo} quote</td></tr>
+        ${AULA.fasce.slice().sort((x, y) => x[0] - y[0]).map(([n, x], i, f) => `<tr><td>${f[i + 1] ? 'da ' + n + ' a ' + (f[i + 1][0] - 1) : n + ' e oltre'}</td><td class="c">${x ? 'sconto del ' + x + '%' : 'quota piena'}</td></tr>`).join('')}</tbody></table></div>
+      <p style="max-width:720px;font-size:14px;color:var(--testo-3)">Le edizioni a calendario si attivano con almeno ${AULA.minimo} iscritti. Le spese di trasferta oltre la provincia di Teramo sono quotate a parte. Il numero massimo di partecipanti e il rapporto docente/discenti nelle prove pratiche seguono l'Accordo Stato-Regioni del 17/04/2025.</p>
       <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:32px"><a class="btn btn-rosso" href="#/area-azienda">Dimostrazione dell'area azienda</a><a class="btn btn-bordo" href="#/contatti">Richiesta di piano formativo</a></div>
     </div></section>`;
 

@@ -25,7 +25,7 @@ window.ASTRA = {
   "certificazioni": [
    "UNI EN ISO 9001:2015",
    "UNI EN ISO 14001:2015",
-   "UNI EN ISO 45001:2023",
+   "UNI ISO 45001:2018",
    "UNI/PdR 125:2022"
   ],
   "daConfermare": [

@@ -283,10 +283,10 @@
     <article class="notizia rivela ritardo-${i % 3}"><span class="area" style="color:${a.colore}">${esc(a.nome)}</span>
       <h3>${esc(n.titolo)}</h3><p>${esc(n.testo)}</p><span class="rif">Riferimento: ${esc(n.rif)}</span></article>`; };
   const certificazioni = () => [
-    ['UNI EN ISO 9001', 'Sistema di gestione per la qualità'],
-    ['UNI EN ISO 14001', 'Sistema di gestione ambientale'],
-    ['UNI EN ISO 45001', 'Salute e sicurezza sul lavoro'],
-    ['UNI/PdR 125', 'Parità di genere']].map(([t, d], i) => `<div class="rivela ritardo-${i}"><span class="sigillo">${I.scudo}</span><b>${t}</b><span>${d}</span></div>`).join('');
+    ['loghi/cert/certiquality-iso9001.png', 'UNI EN ISO 9001:2015', 'Sistema di gestione per la qualità', 'CISQ/CERTIQUALITY · cert. n. 3466'],
+    ['loghi/cert/tuv-rheinland-iso14001-iso45001.jpg', 'UNI EN ISO 14001:2015', 'Sistema di gestione ambientale', 'TÜV Rheinland · cert. n. 01 104 2217518'],
+    ['loghi/cert/tuv-rheinland-iso14001-iso45001.jpg', 'UNI ISO 45001:2018', 'Salute e sicurezza sul lavoro', 'TÜV Rheinland · cert. n. 01 213 2217518'],
+    ['loghi/cert/mscert-pdr125.png', 'UNI/PdR 125:2022', 'Parità di genere', 'MSCert · cert. n. 68/PdR 125']].map(([img, t, d, e], i) => `<div class="rivela ritardo-${i}"><span class="marchio"><img src="${img}" alt="Marchio di certificazione ${t} – ASTRA S.r.l." loading="lazy" decoding="async"></span><b>${t}</b><span>${d}</span><span class="ente">${e}</span></div>`).join('') + `<p class="cert-nota">Certificazioni di ASTRA S.r.l. Marchi ufficiali degli organismi di certificazione, come pubblicati su <a href="https://www.astrastudio.it/riconoscimenti/" target="_blank" rel="noopener">astrastudio.it</a>.</p>`;
 
   /* ---------- Destinatari e durate (ricerca avanzata) ---------- */
   const FIG = [
@@ -811,11 +811,9 @@
     else guida();
   }
   function qr(el, size) {
-    const go = () => { el.innerHTML = ''; new QRCode(el, { text: location.href.split('#')[0] + '#/app', width: size, height: size, colorDark: '#0F3C47', colorLight: '#FFFFFF', correctLevel: 1 }); };
-    if (window.QRCode) return go();
-    if (!qr.p) qr.p = new Promise((ok, ko) => { const sc = document.createElement('script'); sc.src = 'https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js'; sc.onload = ok; sc.onerror = ko; document.head.appendChild(sc); });
-    qr.p.then(go).catch(() => { el.textContent = location.host; });
+    el.innerHTML = `<img src="app/qr-app.svg?v=1" alt="Codice QR per aprire la pagina dell'app ASTRA Formazione" width="${size}" height="${size}" style="width:${size}px;height:${size}px;image-rendering:pixelated">`;
   }
+
   function mostraBanner() {
     let visto = false; try { visto = localStorage.getItem('astra-inst-no') === '1'; } catch (e) { }
     if (visto || standalone() || giaInstallata() || innerWidth > 900 || location.hash.startsWith('#/app')) return;

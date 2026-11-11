@@ -44,7 +44,7 @@ function copia(a, b) { for (const f of fs.readdirSync(a)) { if (['.git', '_src',
   for (const pg of pagine) {
     let html, tent = 0;
     for (;;) { try {
-    await p.goto(LOCAL + '#/' + pg.rotta); await p.reload(); await p.waitForLoadState('load'); await p.waitForTimeout(350 + tent * 700);
+    await p.goto(LOCAL + '#/' + pg.rotta).catch(() => {}); await p.reload().catch(() => {}); await p.waitForLoadState('load').catch(() => {}); await p.waitForTimeout(350 + tent * 700);
     html = await p.evaluate(() => { document.querySelectorAll('.rivela').forEach(e => e.classList.add('vista'));
       document.querySelectorAll('[data-conta]').forEach(e => { e.innerHTML = (+e.dataset.conta).toLocaleString('it-IT') + (e.dataset.suffisso ? '<small>' + e.dataset.suffisso + '</small>' : ''); });
       return document.querySelector('#app').innerHTML; });

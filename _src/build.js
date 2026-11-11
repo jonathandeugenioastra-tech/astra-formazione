@@ -9,8 +9,7 @@ const taglia = (s, n = 158) => s.length > n ? s.slice(0, s.lastIndexOf(' ', n - 
 function copia(a, b) { for (const f of fs.readdirSync(a)) { if (['.git', '_src', '.github', 'node_modules', '_PUBBLICAZIONE'].includes(f) || /^(desktop\.ini|Thumbs\.db)$/i.test(f) || f.startsWith('~$')) continue; const x = path.join(a, f), y = path.join(b, f); if (fs.statSync(x).isDirectory()) { fs.mkdirSync(y, { recursive: true }); copia(x, y); } else fs.copyFileSync(x, y); } }
 (async () => {
   try { require('child_process').execSync('git -C ' + OUT + ' pull --ff-only -q', { stdio: 'ignore' }); } catch (e) { }
-  /* il listino modificato online dalla pagina di gestione prevale: si riporta nei sorgenti */
-  const LO = path.join(OUT, 'assets/listino.js'); if (fs.existsSync(LO)) fs.copyFileSync(LO, path.join(SRC, 'assets/listino.js'));
+  /* fonte unica: ramo «sorgenti» (cartella autore, area autore e pagina di gestione scrivono tutti lì) */
   for (const f of fs.readdirSync(OUT)) if (f !== '.git') fs.rmSync(path.join(OUT, f), { recursive: true, force: true });
   copia(SRC, OUT);
   const tpl = fs.readFileSync(path.join(SRC, 'index.html'), 'utf8');

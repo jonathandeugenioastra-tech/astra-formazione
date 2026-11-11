@@ -594,7 +594,8 @@ html.standalone header.testata{padding-top:env(safe-area-inset-top)}
 .btn-app:hover{background:var(--notte)}
 .btn-app[hidden]{display:none!important}
 .qr-footer{display:flex;gap:12px;align-items:center;margin-top:18px}
-.qr-footer>div{background:#fff;padding:6px;border-radius:10px;width:108px;height:108px;flex:none}
+.qr-footer>div{background:#fff;padding:6px;border-radius:10px;width:108px;height:108px;flex:none}.qr-footer img{display:block}
+.cert .marchio img{opacity:1!important;visibility:visible!important}
 .qr-footer span{font-size:12.5px;color:#9FC3CC;line-height:1.4}.qr-footer b{display:block;color:#fff;font-size:13.5px}
 .guida{position:fixed;inset:0;z-index:400;background:rgba(7,29,36,.94);backdrop-filter:blur(6px);color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px;padding:24px;text-align:center}
 .guida[hidden]{display:none}

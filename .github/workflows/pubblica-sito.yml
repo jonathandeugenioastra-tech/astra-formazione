@@ -12,22 +12,23 @@ concurrency:
   cancel-in-progress: false
 jobs:
   pubblica:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 20
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with: { ref: sorgenti, path: sito }
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with: { ref: main, path: out }
-      - uses: actions/setup-node@v4
-        with: { node-version: 20 }
-      - name: Installa il motore di generazione
-        run: |
-          npm i --no-save --no-audit --no-fund --prefix "$GITHUB_WORKSPACE" playwright@1.48.2
-          npx --prefix "$GITHUB_WORKSPACE" playwright install --with-deps chromium
+      - uses: actions/setup-node@v5
+        with: { node-version: 22 }
+      - name: Installa il motore di generazione (usa Google Chrome già presente sul server)
+        env:
+          PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: '1'
+        run: npm i --no-save --no-audit --no-fund --prefix "$GITHUB_WORKSPACE" playwright@1.63.0
       - name: Genera le pagine
         env:
           SRC: ${{ github.workspace }}/sito
+          PW_CHANNEL: chrome
         run: |
           (cd sito && python3 -m http.server 8765 >/dev/null 2>&1 &)
           sleep 2

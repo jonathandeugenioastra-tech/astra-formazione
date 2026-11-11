@@ -39,7 +39,7 @@ function copia(a, b) { for (const f of fs.readdirSync(a)) { if (['.git', '_src',
       hasCourseInstance: [...new Set(c.mod.map(m => modi[m]))].map(m => ({ '@type': 'CourseInstance', courseMode: m, courseWorkload: 'PT' + c.ore + 'H', ...(m === 'onsite' ? { location: { '@type': 'Place', name: 'ASTRA S.r.l.', address: 'Via Potito Randi 6, 64100 Teramo (TE)' } } : {}) })) };
     pagine.push({ rotta: 'corso/' + c.id, dir: 'corsi/' + s + '/', titolo: `${c.titolo} – Corso ${c.ore} ore – Formazione ASTRA Teramo`, desc: taglia(`${c.titolo}: corso di ${c.ore} ore (${c.rif}). ${c.pres}`), ld, prio: '0.8' });
   }
-  const b = await chromium.launch(); const p = await b.newPage({ viewport: { width: 1440, height: 900 } });
+  const b = await chromium.launch(process.env.PW_CHANNEL ? { channel: process.env.PW_CHANNEL } : {}); const p = await b.newPage({ viewport: { width: 1440, height: 900 } });
   await p.addInitScript(() => { try { localStorage.setItem('astra-inst-no', '1'); localStorage.removeItem('astra-carrello-v1'); } catch (e) { } });
   for (const pg of pagine) {
     await p.goto(LOCAL + '#/' + pg.rotta); await p.reload(); await p.waitForTimeout(350);

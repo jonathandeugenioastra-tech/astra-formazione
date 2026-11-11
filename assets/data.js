@@ -1158,7 +1158,7 @@ window.ASTRA = {
    "prezzo": 690,
    "agg": "40 ore ogni 5 anni",
    "rif": "D.lgs. 81/2008 art. 98 e Allegato XIV · Accordo Stato-Regioni 17/04/2025",
-   "pres": "Il corso di 120 ore abilita, insieme ai requisiti professionali dell'art. 98, allo svolgimento dei ruoli di coordinatore per la progettazione e per l'esecuzione dei lavori nei cantieri temporanei o mobili. Si articola in modulo giuridico (28 ore), modulo tecnico (52 ore), modulo metodologico/organizzativo (16 ore) e parte pratica (24 ore). Si svolge in presenza o in videoconferenza sincrona; l'e-learning è ammesso per il solo modulo giuridico. Per l'ammissione alla verifica finale è richiesta la frequenza del 90% del monte ore.",
+   "pres": "Il corso di 120 ore abilita, insieme ai requisiti professionali dell'art. 98, allo svolgimento dei ruoli di coordinatore per la progettazione e per l'esecuzione dei lavori nei cantieri temporanei o mobili. Si articola in modulo giuridico (28 ore), modulo tecnico (52 ore), modulo metodologico e organizzativo (16 ore) e parte pratica (24 ore). Si svolge in presenza o in videoconferenza sincrona; l'e-learning è ammesso per il solo modulo giuridico. Per l'ammissione alla verifica finale è richiesta la frequenza del 90% del monte ore.",
    "dest": "Ingegneri, architetti, geologi, dottori agronomi e forestali, geometri, periti industriali, periti agrari e agrotecnici che intendono svolgere il ruolo di coordinatore.",
    "req": "Titolo di studio ed esperienza nel settore delle costruzioni previsti dall'art. 98 del D.lgs. 81/2008.",
    "obj": [

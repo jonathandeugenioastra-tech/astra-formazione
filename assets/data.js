@@ -232,6 +232,93 @@ window.ASTRA = {
    ]
   },
   {
+   "id": "LAV-CANT",
+   "ambito": "sicurezza",
+   "tipo": "Base",
+   "titolo": "Lavoratori dei cantieri – Formazione specifica rischio alto",
+   "ore": 12,
+   "mod": [
+    "VCS",
+    "P"
+   ],
+   "prezzo": 110,
+   "agg": "6 ore ogni 5 anni",
+   "rif": "D.lgs. 81/2008 art. 37 e Titolo IV · Accordo Stato-Regioni 17/04/2025",
+   "pres": "La formazione specifica di 12 ore per i lavoratori del settore delle costruzioni, classificato a rischio alto, applicata ai cantieri temporanei o mobili: soggetti e documenti del cantiere, patente a crediti, ponteggi, scavi, demolizioni, mezzi, lavori in quota, silice e amianto. Non è ammessa la modalità e-learning; il corso si svolge in presenza o in videoconferenza sincrona.",
+   "dest": "Lavoratori di imprese edili e di ingegneria civile e lavoratori che operano nei cantieri temporanei o mobili.",
+   "req": "Aver completato la formazione generale di 4 ore.",
+   "obj": [
+    "Conoscere soggetti, documenti e regole del cantiere",
+    "Lavorare in sicurezza su ponteggi, in quota, negli scavi e vicino ai mezzi",
+    "Riconoscere i rischi fisici, chimici e cancerogeni tipici dell'edilizia",
+    "Usare correttamente DPI, segnaletica e procedure di emergenza"
+   ],
+   "moduli": [
+    {
+     "t": "Modulo 1 – Il cantiere temporaneo o mobile",
+     "ore": 2,
+     "c": [
+      "Soggetti e documenti: PSC, POS, PiMUS, notifica, fascicolo",
+      "Patente a crediti e regole di comportamento in cantiere",
+      "Ponteggi, scavi, demolizioni, mezzi e ambienti confinati",
+      "Polveri e silice cristallina"
+     ]
+    },
+    {
+     "t": "Modulo 2 – Macchine, attrezzature e impianti",
+     "ore": 2,
+     "c": [
+      "Requisiti delle attrezzature e protezioni",
+      "Utensili, impianti in pressione, rischio elettrico",
+      "Incendio ed esplosione"
+     ]
+    },
+    {
+     "t": "Modulo 3 – Lavori in quota, movimentazione e trasporti",
+     "ore": 2,
+     "c": [
+      "Lavori in quota e sistemi di arresto caduta",
+      "Scale portatili, movimentazione manuale e mezzi di sollevamento",
+      "Lavori in appalto e interferenze"
+     ]
+    },
+    {
+     "t": "Modulo 4 – Agenti chimici, cancerogeni e biologici",
+     "ore": 2,
+     "c": [
+      "Etichettatura e scheda di dati di sicurezza",
+      "Valori limite, cancerogeni e mutageni",
+      "Agenti biologici"
+     ]
+    },
+    {
+     "t": "Modulo 5 – Agenti fisici",
+     "ore": 1.5,
+     "c": [
+      "Rumore, vibrazioni, microclima severo",
+      "Radiazioni ottiche e campi elettromagnetici"
+     ]
+    },
+    {
+     "t": "Modulo 6 – Organizzazione, DPI ed emergenze",
+     "ore": 1,
+     "c": [
+      "Procedure e permessi di lavoro",
+      "DPI, segnaletica, emergenze e quasi incidenti"
+     ]
+    },
+    {
+     "t": "Modulo 7 – Amianto, saldatura e rischi specifici",
+     "ore": 1.5,
+     "c": [
+      "Amianto: procedure e piano di lavoro",
+      "Radiazioni ionizzanti, saldatura e taglio",
+      "Verifica finale dell'apprendimento"
+     ]
+    }
+   ]
+  },
+  {
    "id": "LAV-AGG",
    "ambito": "sicurezza",
    "tipo": "Aggiornamento",
@@ -358,6 +445,68 @@ window.ASTRA = {
       "Vigilanza e gestione delle non conformità: casi di studio",
       "Comunicazione efficace e leadership per la sicurezza",
       "Verifica finale dell'apprendimento"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "PREP-CANT",
+   "ambito": "sicurezza",
+   "tipo": "Base",
+   "titolo": "Preposti dei cantieri temporanei o mobili",
+   "ore": 12,
+   "mod": [
+    "VCS",
+    "P"
+   ],
+   "prezzo": 150,
+   "agg": "6 ore ogni 2 anni",
+   "rif": "D.lgs. 81/2008 artt. 19, 37 e Titolo IV · Accordo Stato-Regioni 17/04/2025",
+   "pres": "Il corso preposti di 12 ore previsto dall'Accordo Stato-Regioni del 17 aprile 2025, con esempi, esercitazioni e casi riferiti ai cantieri: il ruolo del capocantiere e del caposquadra, POS, PSC e PiMUS, interferenze tra imprese, patente a crediti, controlli su ponteggi, scavi, lavori in quota e mezzi. Si svolge esclusivamente in presenza o in videoconferenza sincrona.",
+   "dest": "Capicantiere, capisquadra e lavoratori individuati quali preposti nelle imprese edili e nei cantieri temporanei o mobili.",
+   "req": "Aver completato la formazione generale e specifica prevista per i lavoratori.",
+   "nota": "In videoconferenza la webcam deve restare attiva per tutta la durata del corso.",
+   "obj": [
+    "Conoscere obblighi e responsabilità del preposto, anche nel cantiere",
+    "Leggere e far applicare POS, PSC e PiMUS nelle lavorazioni sorvegliate",
+    "Vigilare su ponteggi, scavi, lavori in quota e mezzi, e intervenire sui comportamenti non conformi",
+    "Comunicare in modo efficace con le squadre e con le altre imprese"
+   ],
+   "moduli": [
+    {
+     "t": "Modulo 1 – Giuridico-normativo",
+     "ore": 2.5,
+     "c": [
+      "Ruolo, individuazione e obblighi del preposto (art. 19)",
+      "Il preposto nell'impresa edile e la sorveglianza dei ponteggi",
+      "Patente a crediti, sanzioni e responsabilità"
+     ]
+    },
+    {
+     "t": "Modulo 2 – Gestione e organizzazione della sicurezza",
+     "ore": 2.5,
+     "c": [
+      "Infortuni, quasi incidenti ed emergenze",
+      "Documenti del cantiere: PSC, POS, PiMUS, notifica",
+      "Interferenze tra imprese e ruolo del coordinatore"
+     ]
+    },
+    {
+     "t": "Modulo 3 – Valutazione dei rischi e controllo della corretta esecuzione",
+     "ore": 4.5,
+     "c": [
+      "DVR, POS e istruzioni operative",
+      "Lavorazioni critiche del cantiere e silice cristallina",
+      "Giro di sicurezza, intervento e interruzione delle attività"
+     ]
+    },
+    {
+     "t": "Modulo 4 – Comunicazione e informazione",
+     "ore": 2.5,
+     "c": [
+      "Comunicazione efficace e leadership",
+      "Neoassunti, somministrati e lavoratori stranieri",
+      "Brevi incontri di sicurezza"
      ]
     }
    ]
@@ -660,6 +809,234 @@ window.ASTRA = {
    ]
   },
   {
+   "id": "RSPP-B-SP1",
+   "ambito": "sicurezza",
+   "tipo": "Base",
+   "titolo": "RSPP e ASPP – Modulo B-SP1 Agricoltura, silvicoltura e zootecnica",
+   "ore": 16,
+   "mod": [
+    "VCS",
+    "P"
+   ],
+   "prezzo": 220,
+   "agg": "Compreso nell'aggiornamento RSPP (40 ore) o ASPP (20 ore) ogni 5 anni",
+   "rif": "D.lgs. 81/2008 art. 32 · Accordo Stato-Regioni 17/04/2025",
+   "pres": "Il modulo di specializzazione B-SP1 (16 ore) è richiesto, in aggiunta al Modulo B comune, per svolgere il ruolo di RSPP o ASPP nel settore agricoltura, silvicoltura e zootecnia. Approfondisce i rischi propri del settore e le relative misure di prevenzione e protezione. Si svolge in presenza o in videoconferenza sincrona e si conclude con una verifica tramite test e simulazione.",
+   "dest": "RSPP e ASPP che operano o intendono operare nel settore agricoltura, silvicoltura e zootecnia.",
+   "req": "Modulo A e Modulo B comune completati.",
+   "obj": [
+    "Conoscere l'organizzazione della sicurezza nelle aziende agricole, forestali e zootecniche",
+    "Valutare i rischi di trattori, macchine agricole e attrezzature forestali",
+    "Gestire prodotti fitosanitari, agenti biologici e ambienti confinati agricoli",
+    "Individuare misure per lavoro stagionale, isolato e all'aperto"
+   ],
+   "moduli": [
+    {
+     "t": "Unità 1 – Organizzazione, macchine e attrezzature",
+     "ore": 8,
+     "c": [
+      "Infortuni del settore e semplificazioni per gli stagionali",
+      "Trattori: ribaltamento, ROPS e cinture",
+      "Presa di potenza, albero cardanico e attrezzature",
+      "Carrelli e mezzi di movimentazione"
+     ]
+    },
+    {
+     "t": "Unità 2 – Agenti, silvicoltura e zootecnia",
+     "ore": 8,
+     "c": [
+      "Prodotti fitosanitari: abilitazione, uso, rientro e deposito",
+      "Motosega e abbattimento",
+      "Animali, agenti biologici e zoonosi",
+      "Vasche, silos e ambienti confinati",
+      "Caldo, radiazione solare e lavoro isolato",
+      "Verifica finale: test e simulazione"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "RSPP-B-SP2",
+   "ambito": "sicurezza",
+   "tipo": "Base",
+   "titolo": "RSPP e ASPP – Modulo B-SP2 Pesca",
+   "ore": 12,
+   "mod": [
+    "VCS",
+    "P"
+   ],
+   "prezzo": 170,
+   "agg": "Compreso nell'aggiornamento RSPP (40 ore) o ASPP (20 ore) ogni 5 anni",
+   "rif": "D.lgs. 81/2008 art. 32 · Accordo Stato-Regioni 17/04/2025",
+   "pres": "Il modulo di specializzazione B-SP2 (12 ore) è richiesto, in aggiunta al Modulo B comune, per svolgere il ruolo di RSPP o ASPP nel settore pesca e acquacoltura. Approfondisce i rischi propri del settore e le relative misure di prevenzione e protezione. Si svolge in presenza o in videoconferenza sincrona e si conclude con una verifica tramite test e simulazione.",
+   "dest": "RSPP e ASPP che operano o intendono operare nel settore pesca e acquacoltura.",
+   "req": "Modulo A e Modulo B comune completati.",
+   "obj": [
+    "Conoscere la normativa speciale sulla sicurezza a bordo delle navi da pesca",
+    "Valutare i rischi delle attività di pesca e di acquacoltura",
+    "Organizzare emergenze, salvataggio e sopravvivenza in mare",
+    "Individuare misure per attrezzature di coperta, stive e lavoro notturno"
+   ],
+   "moduli": [
+    {
+     "t": "Unità 1 – Normativa e organizzazione a bordo",
+     "ore": 6,
+     "c": [
+      "D.lgs. 271/1999 e D.lgs. 298/1999",
+      "Stabilità, coperta, verricelli e cavi",
+      "Formazione, idoneità e riposi"
+     ]
+    },
+    {
+     "t": "Unità 2 – Rischi, emergenze e acquacoltura",
+     "ore": 6,
+     "c": [
+      "Caduta in mare e dispositivi di galleggiamento",
+      "Incendio, abbandono nave e mezzi di salvataggio",
+      "Lavoro in coperta e in stiva",
+      "Acquacoltura e attività a terra",
+      "Verifica finale: test e simulazione"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "RSPP-B-SP3",
+   "ambito": "sicurezza",
+   "tipo": "Base",
+   "titolo": "RSPP e ASPP – Modulo B-SP3 Costruzioni",
+   "ore": 16,
+   "mod": [
+    "VCS",
+    "P"
+   ],
+   "prezzo": 220,
+   "agg": "Compreso nell'aggiornamento RSPP (40 ore) o ASPP (20 ore) ogni 5 anni",
+   "rif": "D.lgs. 81/2008 art. 32 · Accordo Stato-Regioni 17/04/2025",
+   "pres": "Il modulo di specializzazione B-SP3 (16 ore) è richiesto, in aggiunta al Modulo B comune, per svolgere il ruolo di RSPP o ASPP nel settore costruzioni. Approfondisce i rischi propri del settore e le relative misure di prevenzione e protezione. Si svolge in presenza o in videoconferenza sincrona e si conclude con una verifica tramite test e simulazione.",
+   "dest": "RSPP e ASPP che operano o intendono operare nel settore costruzioni.",
+   "req": "Modulo A e Modulo B comune completati.",
+   "obj": [
+    "Conoscere il sistema di prevenzione dei cantieri temporanei o mobili",
+    "Valutare i rischi delle lavorazioni edili e di ingegneria civile",
+    "Supportare l'impresa nella redazione del POS e nel coordinamento con PSC e CSE",
+    "Scegliere misure e DPI per quota, scavi, demolizioni, mezzi e agenti cancerogeni"
+   ],
+   "moduli": [
+    {
+     "t": "Unità 1 – Organizzazione della sicurezza nei cantieri",
+     "ore": 8,
+     "c": [
+      "Titolo IV: soggetti e documenti",
+      "POS e obblighi delle imprese",
+      "Patente a crediti e ruolo dell'RSPP nell'impresa edile",
+      "Organizzazione dell'area di cantiere"
+     ]
+    },
+    {
+     "t": "Unità 2 – Rischi delle lavorazioni edili",
+     "ore": 8,
+     "c": [
+      "Ponteggi e lavori in quota",
+      "Scavi, demolizioni, mezzi e linee elettriche",
+      "Amianto, silice e vibrazioni",
+      "Verifica finale: test e simulazione"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "RSPP-B-SP4",
+   "ambito": "sicurezza",
+   "tipo": "Base",
+   "titolo": "RSPP e ASPP – Modulo B-SP4 Sanità residenziale",
+   "ore": 12,
+   "mod": [
+    "VCS",
+    "P"
+   ],
+   "prezzo": 170,
+   "agg": "Compreso nell'aggiornamento RSPP (40 ore) o ASPP (20 ore) ogni 5 anni",
+   "rif": "D.lgs. 81/2008 art. 32 · Accordo Stato-Regioni 17/04/2025",
+   "pres": "Il modulo di specializzazione B-SP4 (12 ore) è richiesto, in aggiunta al Modulo B comune, per svolgere il ruolo di RSPP o ASPP nel settore strutture sanitarie e socio-sanitarie residenziali. Approfondisce i rischi propri del settore e le relative misure di prevenzione e protezione. Si svolge in presenza o in videoconferenza sincrona e si conclude con una verifica tramite test e simulazione.",
+   "dest": "RSPP e ASPP che operano o intendono operare nel settore strutture sanitarie e socio-sanitarie residenziali.",
+   "req": "Modulo A e Modulo B comune completati.",
+   "obj": [
+    "Conoscere l'organizzazione della sicurezza nelle strutture sanitarie e socio-sanitarie residenziali",
+    "Valutare rischio biologico, taglienti e movimentazione dei pazienti",
+    "Prevenire aggressioni, stress e burnout degli operatori",
+    "Pianificare antincendio ed evacuazione con ospiti non autosufficienti"
+   ],
+   "moduli": [
+    {
+     "t": "Unità 1 – Rischio biologico, chimico e movimentazione",
+     "ore": 6,
+     "c": [
+      "Organizzazione delle strutture residenziali",
+      "Agenti biologici, taglienti e vaccinazioni",
+      "Movimentazione dei pazienti e ausili",
+      "Disinfettanti, farmaci e lattice"
+     ]
+    },
+    {
+     "t": "Unità 2 – Aggressioni, organizzazione ed emergenze",
+     "ore": 6,
+     "c": [
+      "Aggressioni al personale",
+      "Stress, burnout, turni e lavoro notturno",
+      "Antincendio ed esodo orizzontale progressivo",
+      "Verifica finale: test e simulazione"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "RSPP-B-SP5",
+   "ambito": "sicurezza",
+   "tipo": "Base",
+   "titolo": "RSPP e ASPP – Modulo B-SP5 Chimico-petrolchimico",
+   "ore": 16,
+   "mod": [
+    "VCS",
+    "P"
+   ],
+   "prezzo": 220,
+   "agg": "Compreso nell'aggiornamento RSPP (40 ore) o ASPP (20 ore) ogni 5 anni",
+   "rif": "D.lgs. 81/2008 art. 32 · Accordo Stato-Regioni 17/04/2025",
+   "pres": "Il modulo di specializzazione B-SP5 (16 ore) è richiesto, in aggiunta al Modulo B comune, per svolgere il ruolo di RSPP o ASPP nel settore industria chimica e petrolchimica. Approfondisce i rischi propri del settore e le relative misure di prevenzione e protezione. Si svolge in presenza o in videoconferenza sincrona e si conclude con una verifica tramite test e simulazione.",
+   "dest": "RSPP e ASPP che operano o intendono operare nel settore industria chimica e petrolchimica.",
+   "req": "Modulo A e Modulo B comune completati.",
+   "obj": [
+    "Conoscere la disciplina degli incidenti rilevanti e il sistema di gestione della sicurezza",
+    "Valutare rischio chimico, cancerogeno ed esplosivo negli impianti di processo",
+    "Gestire permessi di lavoro, manutenzioni, fermate e ambienti confinati",
+    "Organizzare emergenze interne e rapporti con il piano di emergenza esterno"
+   ],
+   "moduli": [
+    {
+     "t": "Unità 1 – Incidenti rilevanti e rischio chimico",
+     "ore": 8,
+     "c": [
+      "D.lgs. 105/2015: SGS-PIR, rapporto di sicurezza, piani di emergenza",
+      "CLP, REACH e valutazione del rischio chimico",
+      "Cancerogeni e misurazioni UNI EN 689",
+      "Analisi dei rischi di processo"
+     ]
+    },
+    {
+     "t": "Unità 2 – Esplosioni, manutenzioni ed emergenze",
+     "ore": 8,
+     "c": [
+      "Zone ATEX e documento contro le esplosioni",
+      "Apparecchi in pressione e permessi di lavoro",
+      "Fermate di impianto e ambienti confinati",
+      "Emergenze interne",
+      "Verifica finale: test e simulazione"
+     ]
+    }
+   ]
+  },
+  {
    "id": "RSPP-C",
    "ambito": "sicurezza",
    "tipo": "Base",
@@ -763,6 +1140,128 @@ window.ASTRA = {
      "c": [
       "Gestione delle emergenze",
       "Comunicazione e formazione",
+      "Verifica finale dell'apprendimento"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "CSP",
+   "ambito": "sicurezza",
+   "tipo": "Base",
+   "titolo": "Coordinatore per la progettazione e per l’esecuzione dei lavori (CSP/CSE)",
+   "ore": 120,
+   "mod": [
+    "VCS",
+    "P"
+   ],
+   "prezzo": 690,
+   "agg": "40 ore ogni 5 anni",
+   "rif": "D.lgs. 81/2008 art. 98 e Allegato XIV · Accordo Stato-Regioni 17/04/2025",
+   "pres": "Il corso di 120 ore abilita, insieme ai requisiti professionali dell'art. 98, allo svolgimento dei ruoli di coordinatore per la progettazione e per l'esecuzione dei lavori nei cantieri temporanei o mobili. Si articola in modulo giuridico (28 ore), modulo tecnico (52 ore), modulo metodologico e organizzativo (16 ore) e parte pratica (24 ore). Si svolge in presenza o in videoconferenza sincrona; l'e-learning è ammesso per il solo modulo giuridico. Per l'ammissione alla verifica finale è richiesta la frequenza del 90% del monte ore.",
+   "dest": "Ingegneri, architetti, geologi, dottori agronomi e forestali, geometri, periti industriali, periti agrari e agrotecnici che intendono svolgere il ruolo di coordinatore.",
+   "req": "Titolo di studio ed esperienza nel settore delle costruzioni previsti dall'art. 98 del D.lgs. 81/2008.",
+   "obj": [
+    "Conoscere il Titolo IV e gli obblighi di committente, coordinatori e imprese",
+    "Riconoscere e valutare i rischi tipici dei cantieri temporanei o mobili",
+    "Redigere PSC, fascicolo e stima dei costi e verificare i POS",
+    "Gestire coordinamento, riunioni, sopralluoghi e sospensioni"
+   ],
+   "moduli": [
+    {
+     "t": "Modulo giuridico",
+     "ore": 28,
+     "c": [
+      "Sistema delle fonti e soggetti della prevenzione",
+      "Titolo IV: committente, responsabile dei lavori, CSP, CSE, imprese e lavoratori autonomi",
+      "Notifica preliminare, idoneità tecnico-professionale e patente a crediti",
+      "Responsabilità, sanzioni e vigilanza",
+      "Lavori pubblici e costi della sicurezza"
+     ]
+    },
+    {
+     "t": "Modulo tecnico",
+     "ore": 52,
+     "c": [
+      "Organizzazione dell'area di cantiere",
+      "Ponteggi, PiMUS e lavori in quota",
+      "Scavi, demolizioni, mezzi e apparecchi di sollevamento",
+      "Rischio elettrico, ambienti confinati, amianto e silice",
+      "Rumore, vibrazioni, microclima, cantieri stradali, incendio ed emergenze"
+     ]
+    },
+    {
+     "t": "Modulo metodologico/organizzativo",
+     "ore": 16,
+     "c": [
+      "Valutazione dei rischi e PSC (Allegato XV)",
+      "Stima dei costi della sicurezza",
+      "POS, fascicolo dell’opera e cronoprogramma",
+      "Riunioni di coordinamento, comunicazione e negoziazione"
+     ]
+    },
+    {
+     "t": "Parte pratica",
+     "ore": 24,
+     "c": [
+      "Redazione di un PSC e stima dei costi",
+      "Verifica di idoneità dei POS",
+      "Redazione del fascicolo",
+      "Simulazione del coordinamento in esecuzione",
+      "Verifica finale: test, simulazione e colloquio"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "CSP-AGG",
+   "ambito": "sicurezza",
+   "tipo": "Aggiornamento",
+   "titolo": "Coordinatori CSP/CSE – Aggiornamento",
+   "ore": 40,
+   "mod": [
+    "VCS",
+    "P"
+   ],
+   "prezzo": 290,
+   "agg": "40 ore ogni 5 anni",
+   "rif": "D.lgs. 81/2008 art. 98 e Allegato XIV · Accordo Stato-Regioni 17/04/2025",
+   "pres": "L'aggiornamento quinquennale di 40 ore per i coordinatori per la progettazione e per l'esecuzione dei lavori: novità normative e giurisprudenziali, aggiornamento tecnico sui rischi dei cantieri, qualità di PSC, POS e fascicolo e casi di coordinamento. Il coordinatore non in regola con l'aggiornamento non può svolgere l'incarico fino al completamento delle ore.",
+   "dest": "Coordinatori in possesso dell’attestato del corso di 120 ore.",
+   "req": "Attestato del corso per coordinatori (Allegato XIV del D.lgs. 81/2008).",
+   "obj": [
+    "Conoscere le novità normative che riguardano i cantieri",
+    "Aggiornare le conoscenze sui rischi e sulle tecniche di prevenzione",
+    "Migliorare la qualità di PSC, fascicolo e verifica dei POS",
+    "Rafforzare l'azione di coordinamento in esecuzione"
+   ],
+   "moduli": [
+    {
+     "t": "Modulo 1 – Novità normative e giurisprudenza",
+     "ore": 10,
+     "c": [
+      "Patente a crediti, codice dei contratti, Accordo 2025, cancerogeni, Regolamento macchine",
+      "Alta vigilanza del CSE nella giurisprudenza",
+      "Lavori pubblici, sanzioni e vigilanza"
+     ]
+    },
+    {
+     "t": "Modulo 2 – Aggiornamento tecnico",
+     "ore": 17,
+     "c": [
+      "Ponteggi, ancoraggi e piani di recupero",
+      "Scavi, mezzi, linee elettriche e ambienti confinati",
+      "Amianto, silice e caldo nei cantieri",
+      "Cantieri stradali"
+     ]
+    },
+    {
+     "t": "Modulo 3 – Metodologie e casi di coordinamento",
+     "ore": 13,
+     "c": [
+      "PSC, costi, POS, fascicolo e cronoprogramma",
+      "Varianti in corso d’opera e subappalti",
+      "Riunioni, verbali e negoziazione",
       "Verifica finale dell'apprendimento"
      ]
     }
@@ -994,6 +1493,92 @@ window.ASTRA = {
    ]
   },
   {
+   "id": "CARRO",
+   "ambito": "sicurezza",
+   "tipo": "Abilitazione",
+   "titolo": "Carroponte e gru a cavalletto",
+   "ore": 10,
+   "mod": [
+    "P"
+   ],
+   "prezzo": 220,
+   "agg": "4 ore ogni 5 anni (prevalentemente pratiche)",
+   "rif": "D.lgs. 81/2008 art. 73 comma 5 · Accordo Stato-Regioni 17/04/2025",
+   "pres": "L'Accordo Stato-Regioni del 17 aprile 2025 ha introdotto l'abilitazione per gli operatori di carroponte. Il corso comprende un modulo teorico-tecnico di 4 ore e un modulo pratico di 6 ore, specifico per il comando da cabina oppure pensile o radiocomando (7 ore per entrambi i tipi di comando). Si svolge esclusivamente in presenza.",
+   "dest": "Operatori addetti alla conduzione di carroponte, gru a ponte e gru a cavalletto.",
+   "req": "Formazione generale e specifica dei lavoratori; idoneità sanitaria alla mansione.",
+   "obj": [
+    "Conoscere tipologie, componenti, dispositivi di sicurezza e verifiche del carroponte",
+    "Eseguire imbracatura, sollevamento e movimentazione dei carichi in sicurezza"
+   ],
+   "moduli": [
+    {
+     "t": "Modulo teorico-tecnico",
+     "ore": 4,
+     "c": [
+      "Normativa e responsabilità; verifiche periodiche e controlli trimestrali di funi e catene",
+      "Tipologie, componenti e dispositivi di sicurezza",
+      "Comando pensile e radiocomando",
+      "Accessori di sollevamento, imbracatura, angolo delle brache e segnaletica gestuale",
+      "Questionario a risposta multipla (soglia 70%), propedeutico al modulo pratico"
+     ]
+    },
+    {
+     "t": "Modulo pratico",
+     "ore": 6,
+     "c": [
+      "Controlli prima dell’uso",
+      "Imbracatura e movimentazione di carichi",
+      "Manovre con comando da cabina oppure pensile o radiocomando",
+      "Prova pratica di verifica finale"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "CMM",
+   "ambito": "sicurezza",
+   "tipo": "Abilitazione",
+   "titolo": "Caricatori per la movimentazione di materiali (CMM)",
+   "ore": 8,
+   "mod": [
+    "P"
+   ],
+   "prezzo": 190,
+   "agg": "4 ore ogni 5 anni (prevalentemente pratiche)",
+   "rif": "D.lgs. 81/2008 art. 73 comma 5 · Accordo Stato-Regioni 17/04/2025",
+   "pres": "L'Accordo Stato-Regioni del 17 aprile 2025 ha introdotto l'abilitazione per gli operatori dei caricatori per la movimentazione di materiali, usati in piazzali di rottami e rifiuti, porti, segherie e impianti di riciclo. Il corso comprende 4 ore di teoria e 4 ore di pratica con almeno 4 prove pratiche e si svolge esclusivamente in presenza.",
+   "dest": "Operatori addetti alla conduzione di caricatori per la movimentazione di materiali.",
+   "req": "Formazione generale e specifica dei lavoratori; idoneità sanitaria alla mansione.",
+   "obj": [
+    "Conoscere tipologie, componenti, stabilità e tabelle di portata",
+    "Eseguire controlli, manovre di carico e scarico e messa a riposo in sicurezza"
+   ],
+   "moduli": [
+    {
+     "t": "Modulo teorico-tecnico",
+     "ore": 4,
+     "c": [
+      "Normativa e responsabilità; controlli e verifiche periodiche",
+      "Tipologie, componenti e attrezzature di presa",
+      "Stabilità e tabelle di portata",
+      "Rischi tipici dei piazzali e dei porti; linee elettriche",
+      "Questionario a risposta multipla (soglia 70%), propedeutico al modulo pratico"
+     ]
+    },
+    {
+     "t": "Modulo pratico",
+     "ore": 4,
+     "c": [
+      "Controlli prima dell’uso",
+      "Posizionamento e manovre con polipo, pinza o magnete",
+      "Carico di un cassone",
+      "Almeno 4 prove pratiche e messa a riposo"
+     ]
+    }
+   ]
+  },
+  {
    "id": "CONF",
    "ambito": "sicurezza",
    "tipo": "Specialistico",
@@ -1074,6 +1659,61 @@ window.ASTRA = {
       "Spostamenti in quota con doppio cordino",
       "Simulazione di recupero",
       "Prova pratica di verifica"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "PONT",
+   "ambito": "sicurezza",
+   "tipo": "Specialistico",
+   "titolo": "Addetti al montaggio, smontaggio e trasformazione di ponteggi",
+   "ore": 28,
+   "mod": [
+    "P"
+   ],
+   "prezzo": 350,
+   "agg": "4 ore ogni 4 anni (di cui almeno 3 tecnico-pratiche)",
+   "rif": "D.lgs. 81/2008 art. 136 e Allegato XXI",
+   "pres": "Il corso di 28 ore previsto dall'Allegato XXI del D.lgs. 81/2008 per i lavoratori addetti al montaggio, smontaggio e trasformazione dei ponteggi e per i preposti alla loro sorveglianza: modulo giuridico-normativo (4 ore), modulo tecnico (10 ore) e modulo pratico (14 ore) con esercitazioni sui ponteggi a tubi e giunti, a telai prefabbricati e a montanti e traversi. Si svolge in presenza; la frequenza minima è del 90% e la verifica finale comprende un test e una prova pratica.",
+   "dest": "Lavoratori e preposti addetti al montaggio, smontaggio e trasformazione di ponteggi.",
+   "req": "Formazione generale e specifica dei lavoratori; idoneità sanitaria alla mansione.",
+   "obj": [
+    "Conoscere la normativa sui ponteggi e il contenuto del PiMUS",
+    "Montare, trasformare e smontare ponteggi in sicurezza",
+    "Utilizzare correttamente i DPI anticaduta e gestire il recupero di un lavoratore sospeso"
+   ],
+   "moduli": [
+    {
+     "t": "Modulo giuridico-normativo",
+     "ore": 4,
+     "c": [
+      "Titolo IV, Capo II: artt. 131-138",
+      "Soggetti e documenti del cantiere",
+      "Obblighi e responsabilità nel montaggio"
+     ]
+    },
+    {
+     "t": "Modulo tecnico",
+     "ore": 10,
+     "c": [
+      "Tipologie di ponteggio e autorizzazione ministeriale",
+      "PiMUS (Allegato XXII)",
+      "Basi, impalcati, ancoraggi, mantovane e teli",
+      "DPI anticaduta, ancoraggi e tirante d’aria",
+      "Verifiche (Allegato XIX), sindrome da sospensione e piano di recupero",
+      "Verifica intermedia (soglia 70%)"
+     ]
+    },
+    {
+     "t": "Modulo pratico",
+     "ore": 14,
+     "c": [
+      "Ponteggio a tubi e giunti",
+      "Ponteggio a telai prefabbricati",
+      "Ponteggio a montanti e traversi prefabbricati",
+      "Emergenza e salvataggio",
+      "Prova pratica finale"
      ]
     }
    ]

@@ -286,7 +286,7 @@
     ['loghi/cert/certiquality-iso9001.png', 'UNI EN ISO 9001:2015', 'Sistema di gestione per la qualità', 'CISQ/CERTIQUALITY · cert. n. 3466'],
     ['loghi/cert/tuv-rheinland-iso14001-iso45001.jpg?v=2', 'UNI EN ISO 14001:2015', 'Sistema di gestione ambientale', 'TÜV Rheinland · cert. n. 01 104 2217518'],
     ['loghi/cert/tuv-rheinland-iso14001-iso45001.jpg?v=2', 'UNI ISO 45001:2018', 'Salute e sicurezza sul lavoro', 'TÜV Rheinland · cert. n. 01 213 2217518'],
-    ['loghi/cert/mscert-pdr125.png', 'UNI/PdR 125:2022', 'Parità di genere', 'MSCert · cert. n. 68/PdR 125']].map(([img, t, d, e], i) => `<div class="rivela ritardo-${i}"><span class="marchio"><img src="${img}" alt="Marchio di certificazione ${t} – ASTRA S.r.l." loading="lazy" decoding="async"></span><b>${t}</b><span>${d}</span><span class="ente">${e}</span></div>`).join('') + `<p class="cert-nota">Certificazioni di ASTRA S.r.l. Marchi ufficiali degli organismi di certificazione, come pubblicati su <a href="https://www.astrastudio.it/riconoscimenti/" target="_blank" rel="noopener">astrastudio.it</a>.</p>`;
+    ['loghi/cert/mscert-pdr125.png', 'UNI/PdR 125:2022', 'Parità di genere', 'MSCert · cert. n. 68/PdR 125']].map(([img, t, d, e], i) => `<div class="rivela ritardo-${i}"><a class="cert-link" href="https://www.astrastudio.it/riconoscimenti/" target="_blank" rel="noopener" title="Apri le certificazioni sul sito ufficiale ASTRA"><span class="marchio"><img src="${img}" alt="Marchio di certificazione ${t} – ASTRA S.r.l." loading="lazy" decoding="async"></span><b>${t}</b><span>${d}</span><span class="ente">${e}</span></a></div>`).join('');
 
   /* ---------- Destinatari e durate (ricerca avanzata) ---------- */
   const FIG = [

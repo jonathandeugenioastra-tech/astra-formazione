@@ -110,7 +110,7 @@ label.ck{display:flex;gap:6px;align-items:center}
 <script>
 (function () {
   'use strict';
-  const REPO = 'jonathandeugenioastra-tech/astra-formazione', FILE = 'assets/listino.js', BR = 'main';
+  const REPO = 'jonathandeugenioastra-tech/astra-formazione', FILE = 'assets/listino.js', BR = 'sorgenti';
   const D = window.ASTRA, CORSI = D._tutti || D.corsi, L0 = window.ASTRA_LISTINO || {};
   const AMB = { sicurezza: 'Salute e sicurezza sul lavoro', ambiente: 'Ambiente', energia: 'Energia', haccp: 'Igiene degli alimenti' };
   const $ = s => document.querySelector(s), esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -245,7 +245,7 @@ D.avviso=L.avviso||'';})();
       const sha = g.ok ? (await g.json()).sha : undefined;
       const r = await fetch(U, { method: 'PUT', headers: H, body: JSON.stringify({ message: 'Aggiornamento listino e calendario dalla pagina di gestione', content: b64(genera()), branch: BR, sha }) });
       if (!r.ok) { const j = await r.json().catch(() => ({})); throw new Error('GitHub ha risposto ' + r.status + (j.message ? ': ' + j.message : '')); }
-      esito('Pubblicato. Il sito si aggiorna entro 1–2 minuti (se non vedi le modifiche, ricarica la pagina del sito).', 'ok');
+      esito('Pubblicato. Il sito si rigenera e si aggiorna da solo entro 2–4 minuti (se non vedi le modifiche, ricarica la pagina del sito con Ctrl+F5).', 'ok');
       iniziale = JSON.stringify(S); sporco();
     } catch (x) { esito(esc(x.message || x), 'err'); }
   }

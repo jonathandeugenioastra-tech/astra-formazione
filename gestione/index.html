@@ -49,7 +49,7 @@ label.ck{display:flex;gap:6px;align-items:center}
 
   <div data-p="prezzi">
     <section class="card"><h2>Prezzi per partecipante (IVA esclusa)</h2>
-      <p class="mut">Il prezzo base è quello della videoconferenza (o dell'aula presso ASTRA per i corsi solo in aula). Aula presso ASTRA e presso il cliente si calcolano con le maggiorazioni della scheda «Modalità e aule». Il prezzo e-learning, se vuoto, si calcola in automatico. Deseleziona «Visibile» per nascondere un corso.</p>
+      <p class="mut">Il prezzo base corrisponde alla quota in videoconferenza sincrona, ovvero alla quota in aula presso la sede ASTRA per i corsi erogabili esclusivamente in presenza. Le quote dell'aula presso la sede ASTRA e presso il committente derivano dal prezzo base mediante le maggiorazioni definite nella scheda «Modalità e aule». La quota e-learning, se non indicata, è calcolata automaticamente. Per escludere un corso dal catalogo e dal calendario, deselezionare «Visibile».</p>
       <div class="riga"><input id="cerca" placeholder="Cerca corso o codice" style="flex:1;min-width:200px">
         <span>Variazione di tutti i prezzi visibili</span><input id="perc" type="number" step="0.5" value="0" style="width:80px">%
         <button class="btn btn-s" id="applica">Applica</button></div>
@@ -67,13 +67,13 @@ label.ck{display:flex;gap:6px;align-items:center}
 
   <div data-p="mod" hidden>
     <section class="card"><h2>Maggiorazioni per modalità</h2>
-      <p class="mut">Percentuali applicate al prezzo base e arrotondate a 5 €.</p>
+      <p class="mut">Maggiorazioni percentuali applicate al prezzo base; i risultati sono arrotondati al multiplo di 5 € più vicino.</p>
       <div class="riga"><label>Aula presso ASTRA rispetto alla videoconferenza +<input id="kP" type="number" step="1" style="width:70px">%</label></div>
       <div class="riga"><label>Aula presso il cliente rispetto all'aula ASTRA +<input id="kC" type="number" step="1" style="width:70px">%</label></div>
       <div class="riga"><label>E-learning automatico rispetto alla videoconferenza −<input id="kEL" type="number" step="1" style="width:70px">%</label></div>
     </section>
     <section class="card"><h2>Aule dedicate: minimo fatturabile e fasce</h2>
-      <p class="mut">Sotto il numero minimo si fattura comunque l'importo di quel numero di quote. Le edizioni a calendario si attivano con lo stesso minimo di iscritti.</p>
+      <p class="mut">Al di sotto del numero minimo è dovuto un corrispettivo pari a tale numero di quote; il medesimo valore costituisce la soglia di attivazione delle edizioni a calendario. Nei corsi abilitanti non si applicano riduzioni per numerosità.</p>
       <div class="riga"><label>Numero minimo di quote fatturabili <input id="amin" type="number" min="1" step="1" style="width:70px"></label></div>
       <table><thead><tr><th>Da partecipanti</th><th>Sconto %</th><th></th></tr></thead><tbody id="ta"></tbody></table>
       <div class="riga"><button class="btn btn-s" id="addA">+ Aggiungi fascia</button></div>

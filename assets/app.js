@@ -264,7 +264,7 @@
       </div>
     </section>
 
-    <section class="sez grigia" style="padding-top:72px;padding-bottom:72px">
+    <section class="sez sez-cert" style="padding-top:72px;padding-bottom:72px">
       <div class="wrap">
         <div class="intest rivela"><div><span class="k">Qualità certificata</span><h2>Sistemi di gestione e accreditamenti</h2></div></div>
         <div class="cert">${certificazioni()}</div>

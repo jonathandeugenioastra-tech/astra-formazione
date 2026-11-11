@@ -42,10 +42,13 @@ function copia(a, b) { for (const f of fs.readdirSync(a)) { if (['.git', '_src',
   const b = await chromium.launch(process.env.PW_CHANNEL ? { channel: process.env.PW_CHANNEL } : {}); const p = await b.newPage({ viewport: { width: 1440, height: 900 } });
   await p.addInitScript(() => { try { localStorage.setItem('astra-inst-no', '1'); localStorage.removeItem('astra-carrello-v1'); } catch (e) { } });
   for (const pg of pagine) {
-    await p.goto(LOCAL + '#/' + pg.rotta); await p.reload(); await p.waitForTimeout(350);
-    const html = await p.evaluate(() => { document.querySelectorAll('.rivela').forEach(e => e.classList.add('vista'));
+    let html, tent = 0;
+    for (;;) { try {
+    await p.goto(LOCAL + '#/' + pg.rotta); await p.reload(); await p.waitForLoadState('load'); await p.waitForTimeout(350 + tent * 700);
+    html = await p.evaluate(() => { document.querySelectorAll('.rivela').forEach(e => e.classList.add('vista'));
       document.querySelectorAll('[data-conta]').forEach(e => { e.innerHTML = (+e.dataset.conta).toLocaleString('it-IT') + (e.dataset.suffisso ? '<small>' + e.dataset.suffisso + '</small>' : ''); });
       return document.querySelector('#app').innerHTML; });
+    break; } catch (e) { if (++tent > 3) throw e; } }
     const prof = pg.dir.split('/').filter(Boolean).length, base = prof ? '../'.repeat(prof) : '';
     const url = SITE + pg.dir;
     let h = tpl

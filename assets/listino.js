@@ -193,7 +193,7 @@ window.ASTRA_LISTINO = {
   "pec": "astra@mypec.eu",
   "orari": "Lunedì – venerdì 9:00 – 18:00 · sabato e domenica reperibili per urgenze"
  },
- "avviso": ""
+ "avviso": "Prova di pubblicazione dalla cartella autore – 11/11/2026"
 };
 (function(){var D=window.ASTRA,L=window.ASTRA_LISTINO;if(!D||!L)return;D._tutti=D.corsi.slice();
 for(var id in L.prezzi){var c=D.corsi.find(function(x){return x.id===id});if(c&&typeof L.prezzi[id]==='number')c.prezzo=L.prezzi[id];}

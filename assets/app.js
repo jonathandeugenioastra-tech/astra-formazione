@@ -733,7 +733,7 @@
           <tr><th scope="row">PEC</th><td><a href="mailto:${A.pec}">${A.pec}</a></td></tr>
           <tr><th scope="row">Corsi in aula presso il cliente</th><td>${esc(RPF.nome)} – ${esc(RPF.ruolo)} · <a href="tel:${telRPF}">${RPF.tel}</a></td></tr>
           <tr><th scope="row">Orari</th><td>${esc(A.orari)}</td></tr>
-          <tr><th scope="row">Dati societari</th><td>P.IVA e C.F. ${A.piva}</td></tr>
+          <tr><th scope="row">Dati societari</th><td>P.IVA e C.F. ${A.piva} · REA ${A.rea} · Capitale sociale ${A.capitale}</td></tr>
         </tbody></table></div>
         <a class="btn btn-bordo" target="_blank" rel="noopener" href="https://www.openstreetmap.org/search?query=${encodeURIComponent(ind)}">${I.pin} Apri la sede sulla mappa</a>
       </div>

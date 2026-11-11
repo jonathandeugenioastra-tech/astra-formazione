@@ -1,0 +1,43 @@
+# Pubblicazione automatica del sito Formazione ASTRA – © 2026 dr. Jonathan D'Eugenio
+# A ogni modifica del ramo «sorgenti» (cartella autore, area autore del sito) rigenera le pagine e pubblica il ramo «main» (GitHub Pages).
+name: Pubblica sito
+on:
+  push:
+    branches: [sorgenti]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: pubblica-sito
+  cancel-in-progress: false
+jobs:
+  pubblica:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: sorgenti, path: sito }
+      - uses: actions/checkout@v4
+        with: { ref: main, path: out }
+      - uses: actions/setup-node@v4
+        with: { node-version: 20 }
+      - name: Installa il motore di generazione
+        run: |
+          npm i --no-save --no-audit --no-fund --prefix "$GITHUB_WORKSPACE" playwright@1.48.2
+          npx --prefix "$GITHUB_WORKSPACE" playwright install --with-deps chromium
+      - name: Genera le pagine
+        env:
+          SRC: ${{ github.workspace }}/sito
+        run: |
+          (cd sito && python3 -m http.server 8765 >/dev/null 2>&1 &)
+          sleep 2
+          node sito/_src/build.js "$GITHUB_WORKSPACE/out"
+      - name: Pubblica
+        working-directory: out
+        run: |
+          git config user.name "ASTRA - pubblicazione automatica"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then echo "Nessuna modifica da pubblicare"; exit 0; fi
+          git commit -q -m "Pubblicazione automatica (sorgenti ${GITHUB_SHA::7})"
+          git push -q origin HEAD:main

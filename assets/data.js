@@ -21,7 +21,7 @@ window.ASTRA = {
   "email": "info@astrastudio.it",
   "pec": "astra@mypec.eu",
   "web": "https://www.astrastudio.it",
-  "orari": "Lunedì – venerdì 9:00 – 18:00 · sabato e domenica reperibili per urgenze",
+  "orari": "Lunedì – venerdì 9:00 – 18:00 · sabato e festivi: reperibilità per le urgenze",
   "certificazioni": [
    "UNI EN ISO 9001:2015",
    "UNI EN ISO 14001:2015",
@@ -3302,7 +3302,7 @@ window.ASTRA = {
   {
    "area": "ambiente",
    "titolo": "ISO 14001:2026: tempi della transizione",
-   "testo": "La nuova edizione della norma sui sistemi di gestione ambientale è stata pubblicata ad aprile 2026. Le organizzazioni certificate hanno tempo fino al 30 aprile 2029 per completare la transizione.",
+   "testo": "La nuova edizione della norma sui sistemi di gestione ambientale è stata pubblicata ad aprile 2026. Le organizzazioni certificate dispongono di un periodo di transizione fino al 30 aprile 2029.",
    "rif": "UNI EN ISO 14001:2026"
   },
   {

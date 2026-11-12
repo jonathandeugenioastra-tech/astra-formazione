@@ -27,7 +27,7 @@ window.CORSO = {
     },
     {
      "t": "guida",
-     "tit": "Come funziona il corso",
+     "tit": "Articolazione e modalità di fruizione del corso",
      "voci": [
       [
        "FaClock",
@@ -52,7 +52,7 @@ window.CORSO = {
       [
        "FaUserCheck",
        "Presenza",
-       "Durante la fruizione vengono richieste conferme di presenza: se non rispondi, il conteggio del tempo si sospende."
+       "Durante la fruizione vengono richieste conferme di presenza: in assenza di risposta il conteggio del tempo è sospeso."
       ],
       [
        "FaAward",
@@ -65,13 +65,13 @@ window.CORSO = {
     },
     {
      "t": "obiettivi",
-     "tit": "Obiettivi del corso",
+     "tit": "Obiettivi formativi",
      "voci": [
-      "Conoscere il significato di pericolo, rischio, danno, prevenzione e protezione",
-      "Comprendere come è organizzata la prevenzione in azienda e chi ne fa parte",
-      "Conoscere diritti, doveri e responsabilità di ciascun soggetto e il sistema sanzionatorio",
-      "Sapere quali sono gli organi di vigilanza, controllo e assistenza e come operano",
-      "Riconoscere la segnaletica di sicurezza secondo la norma UNI EN ISO 7010"
+      "Definire i concetti di pericolo, rischio, danno, prevenzione e protezione",
+      "Descrivere l’organizzazione aziendale della prevenzione e i soggetti che vi concorrono",
+      "Individuare diritti, doveri e responsabilità dei singoli soggetti e il relativo sistema sanzionatorio",
+      "Identificare gli organi di vigilanza, controllo e assistenza e le rispettive modalità di intervento",
+      "Riconoscere la segnaletica di sicurezza conforme alla norma UNI EN ISO 7010"
      ],
      "nar": "Vediamo gli obiettivi. Alla fine del corso saprai distinguere il pericolo dal rischio e conoscerai le misure generali di tutela. Saprai chi fa che cosa nell'organizzazione aziendale della sicurezza, quali sono i tuoi diritti e i tuoi doveri, quali sanzioni sono previste e quali enti vigilano sul rispetto delle norme. La formazione generale è il primo passo: verrà completata dalla formazione specifica sui rischi della tua mansione.",
      "p": 1
@@ -93,7 +93,7 @@ window.CORSO = {
     },
     {
      "t": "testo",
-     "tit": "Perché la sicurezza è un valore",
+     "tit": "La salute e la sicurezza come valore giuridico e sociale",
      "lead": "La salute è uno stato di completo benessere fisico, mentale e sociale, non la semplice assenza di malattia o infermità.",
      "rif": "Art. 2, c. 1, lett. o) D.lgs. 81/2008",
      "punti": [
@@ -149,9 +149,9 @@ window.CORSO = {
     },
     {
      "t": "testo",
-     "tit": "Leggere i dati: denuncia, riconoscimento, incidenza",
+     "tit": "Lettura dei dati: denuncia, riconoscimento, incidenza",
      "foto": false,
-     "lead": "I dati statistici sono uno strumento di prevenzione solo se si leggono con il metodo corretto.",
+     "lead": "Il dato statistico assume valenza prevenzionistica soltanto se interpretato con rigore metodologico, distinguendo denuncia, riconoscimento e indice di incidenza.",
      "punti": [
       "Denuncia: comunicazione all’INAIL dell’evento da parte del datore di lavoro (art. 53 D.P.R. 1124/1965), da non confondere con il riconoscimento dell’infortunio o della malattia",
       "Comunicazione a fini statistici e informativi degli infortuni con assenza di almeno un giorno, escluso quello dell’evento (art. 18, c. 1, lett. r, D.lgs. 81/2008)",
@@ -167,7 +167,7 @@ window.CORSO = {
     {
      "t": "definizioni",
      "tit": "Le definizioni fondamentali",
-     "sott": "Apri ciascuna scheda per leggere la definizione di legge",
+     "sott": "Consultare ciascuna scheda per la definizione di legge",
      "voci": [
       [
        "r",
@@ -195,13 +195,13 @@ window.CORSO = {
     },
     {
      "t": "confronto",
-     "tit": "Pericolo o rischio?",
+     "tit": "Pericolo e rischio: distinzione concettuale",
      "sx": {
       "ico": "FaTriangleExclamation",
       "tit": "Pericolo",
       "voci": [
-       "È una caratteristica del fattore",
-       "Esiste indipendentemente da noi",
+       "È una proprietà intrinseca del fattore",
+       "Sussiste indipendentemente dall’esposizione",
        "Si identifica",
        "Esempio: un acido corrosivo"
       ]
@@ -210,7 +210,7 @@ window.CORSO = {
       "ico": "FaChartLine",
       "tit": "Rischio",
       "voci": [
-       "Dipende dall'esposizione e dalle condizioni d'uso",
+       "Dipende dall’esposizione e dalle condizioni di impiego",
        "Può essere ridotto",
        "Si valuta e si gestisce",
        "Esempio: travasare l'acido senza guanti né occhiali"
@@ -223,7 +223,7 @@ window.CORSO = {
     {
      "t": "testo",
      "tit": "Il danno: infortunio e malattia professionale",
-     "lead": "Il danno è la conseguenza negativa che il pericolo può produrre sulla salute della persona.",
+     "lead": "Il danno è l’effetto lesivo che la concretizzazione del pericolo produce sull’integrità psicofisica della persona.",
      "punti": [
       "Infortunio sul lavoro: evento dovuto a causa violenta, avvenuto in occasione di lavoro, da cui deriva morte, inabilità permanente o temporanea superiore a tre giorni",
       "Malattia professionale: patologia contratta nell'esercizio e a causa delle lavorazioni, per esposizione prolungata a un agente",
@@ -236,8 +236,8 @@ window.CORSO = {
     },
     {
      "t": "matrice",
-     "tit": "Come si stima il rischio: R = P × D",
-     "sott": "Seleziona almeno tre caselle della matrice per vedere il livello di rischio e la priorità di intervento",
+     "tit": "Stima del rischio: il modello R = P × D",
+     "sott": "Selezionare almeno tre caselle della matrice per esaminare il livello di rischio e la priorità di intervento",
      "P": [
       "Improbabile",
       "Poco probabile",
@@ -285,7 +285,7 @@ window.CORSO = {
     {
      "t": "definizioni",
      "tit": "Prevenzione e protezione",
-     "sott": "Due strategie complementari: apri le schede",
+     "sott": "Due strategie complementari: consultare le schede",
      "voci": [
       [
        "P",
@@ -424,7 +424,7 @@ window.CORSO = {
     {
      "t": "testo",
      "tit": "Fattori di rischio: le tre grandi famiglie",
-     "lead": "La valutazione considera tutti i rischi: per la sicurezza, per la salute e quelli trasversali o organizzativi.",
+     "lead": "La valutazione ha carattere globale e documentato: comprende i rischi per la sicurezza, i rischi per la salute e i rischi trasversali di natura organizzativa.",
      "punti": [
       "Rischi per la sicurezza (infortunistici): strutture, macchine e attrezzature, impianti elettrici, incendio ed esplosione, cadute dall'alto, investimenti",
       "Rischi per la salute (igienico-ambientali): agenti chimici, cancerogeni, biologici, rumore, vibrazioni, microclima, radiazioni, campi elettromagnetici",
@@ -437,7 +437,7 @@ window.CORSO = {
     {
      "t": "pittogrammi",
      "tit": "La segnaletica di sicurezza",
-     "sott": "Pittogrammi ufficiali UNI EN ISO 7010 · Titolo V e Allegati XXIV-XXXII D.lgs. 81/2008 · Apri ogni famiglia",
+     "sott": "Pittogrammi ufficiali UNI EN ISO 7010 · Titolo V e Allegati XXIV-XXXII D.lgs. 81/2008 · Consultare ogni famiglia di segnali",
      "gruppi": [
       {
        "nome": "Avvertimento",
@@ -592,8 +592,8 @@ window.CORSO = {
     },
     {
      "t": "vf",
-     "tit": "Esercitazione 1 · Vero o falso?",
-     "sott": "Rispondi a tutte le affermazioni",
+     "tit": "Esercitazione 1 · Affermazioni vere o false",
+     "sott": "Qualificare ciascuna affermazione come vera o falsa",
      "voci": [
       [
        "Pericolo e rischio sono sinonimi.",
@@ -626,8 +626,8 @@ window.CORSO = {
     },
     {
      "t": "ordina",
-     "tit": "Esercitazione 2 · Metti in ordine le misure",
-     "sott": "Ordina dalla più efficace alla meno efficace usando le frecce",
+     "tit": "Esercitazione 2 · Ordinamento delle misure di tutela",
+     "sott": "Disporre le misure in ordine di efficacia decrescente mediante le frecce",
      "voci": [
       "Eliminazione del pericolo",
       "Sostituzione con ciò che è meno pericoloso",
@@ -640,9 +640,9 @@ window.CORSO = {
     },
     {
      "t": "caso",
-     "tit": "Esercitazione 3 · Caso pratico",
+     "tit": "Esercitazione 3 · Caso di studio",
      "scena": "In un'officina, durante la sbavatura dei pezzi con la mola, si sviluppano polveri metalliche e rumore elevato. Il responsabile propone di consegnare a tutti mascherine e cuffie e di non fare altro.",
-     "domanda": "La proposta è corretta secondo i principi dell'art. 15?",
+     "domanda": "La proposta è conforme ai principi generali di tutela dell’art. 15?",
      "opz": [
       [
        "Sì, i DPI sono sufficienti e sono la soluzione più semplice",
@@ -780,7 +780,7 @@ window.CORSO = {
     {
      "t": "definizioni",
      "tit": "I soggetti: le definizioni di legge (1/2)",
-     "sott": "Art. 2, comma 1, D.lgs. 81/2008 · Apri tutte le schede",
+     "sott": "Art. 2, comma 1, D.lgs. 81/2008 · Consultare tutte le schede",
      "voci": [
       [
        "a",
@@ -810,7 +810,7 @@ window.CORSO = {
     {
      "t": "definizioni",
      "tit": "I soggetti: le definizioni di legge (2/2)",
-     "sott": "Art. 2, comma 1, D.lgs. 81/2008 · Apri tutte le schede",
+     "sott": "Art. 2, comma 1, D.lgs. 81/2008 · Consultare tutte le schede",
      "voci": [
       [
        "f",
@@ -874,7 +874,7 @@ window.CORSO = {
     {
      "t": "figure",
      "tit": "La mappa della prevenzione aziendale",
-     "sott": "Seleziona ogni figura per conoscerne il ruolo",
+     "sott": "Consultare ciascuna figura",
      "voci": [
       [
        "FaUserTie",
@@ -1155,7 +1155,7 @@ window.CORSO = {
      "t": "testo",
      "tit": "Componenti dell'impresa familiare e lavoratori autonomi",
      "rif": "Art. 21 D.lgs. 81/2008",
-     "lead": "Anche chi lavora in proprio ha obblighi di sicurezza.",
+     "lead": "L’attività svolta in forma autonoma o nell’impresa familiare non è sottratta agli obblighi di tutela (art. 21 D.lgs. 81/2008).",
      "punti": [
       "Riguarda componenti dell'impresa familiare, lavoratori autonomi, coltivatori diretti, artigiani e piccoli commercianti, soci delle società semplici agricole",
       "Devono utilizzare attrezzature conformi al Titolo III e munirsi di DPI utilizzandoli conformemente",
@@ -1336,7 +1336,7 @@ window.CORSO = {
     },
     {
      "t": "testo",
-     "tit": "Quando e come si svolge la formazione",
+     "tit": "Tempi e modalità di svolgimento della formazione",
      "foto": false,
      "lead": "La formazione è un obbligo del datore di lavoro, si svolge durante l’orario di lavoro e non comporta oneri per il lavoratore (art. 37, c. 12).",
      "punti": [
@@ -1436,8 +1436,8 @@ window.CORSO = {
     },
     {
      "t": "abbina",
-     "tit": "Esercitazione 4 · Chi fa che cosa?",
-     "sott": "Abbina a ciascuna figura il compito corretto",
+     "tit": "Esercitazione 4 · Attribuzione dei compiti ai soggetti della prevenzione",
+     "sott": "Associare a ciascuna figura il compito corretto",
      "coppie": [
       [
        "Datore di lavoro",
@@ -1469,9 +1469,9 @@ window.CORSO = {
     },
     {
      "t": "caso",
-     "tit": "Esercitazione 5 · Caso pratico",
+     "tit": "Esercitazione 5 · Caso di studio",
      "scena": "Marco, preposto di un magazzino, nota che un carrellista sta movimentando un bancale senza cintura di sicurezza e a velocità elevata. Lo richiama una prima volta, ma dopo pochi minuti il comportamento si ripete.",
-     "domanda": "Che cosa deve fare Marco secondo l'art. 19?",
+     "domanda": "Quale condotta impone a Marco l’art. 19 D.lgs. 81/2008?",
      "opz": [
       [
        "Nulla: ha già richiamato il lavoratore una volta",
@@ -1615,7 +1615,7 @@ window.CORSO = {
     {
      "t": "figure",
      "tit": "I diritti dei lavoratori",
-     "sott": "Seleziona ogni diritto per approfondirlo",
+     "sott": "Consultare ciascun diritto",
      "voci": [
       [
        "FaGraduationCap",
@@ -1663,7 +1663,7 @@ window.CORSO = {
     {
      "t": "testo",
      "tit": "La posizione di garanzia",
-     "lead": "Chi ha poteri sull'organizzazione del lavoro ha anche il dovere giuridico di impedire gli eventi dannosi.",
+     "lead": "La titolarità di poteri organizzativi comporta l’obbligo giuridico di impedire l’evento lesivo (art. 40, cpv., c.p.).",
      "punti": [
       "Art. 40, c. 2 codice penale: non impedire un evento che si ha l'obbligo giuridico di impedire equivale a cagionarlo",
       "Art. 2087 codice civile: l'imprenditore adotta le misure che, secondo la particolarità del lavoro, l'esperienza e la tecnica, sono necessarie a tutelare l'integrità fisica e la personalità morale dei prestatori di lavoro",
@@ -1678,7 +1678,7 @@ window.CORSO = {
      "t": "testo",
      "tit": "La condotta del lavoratore e l’area di rischio",
      "foto": false,
-     "lead": "Quando l’imprudenza del lavoratore esclude la responsabilità del datore di lavoro? La giurisprudenza di legittimità ha fissato un criterio rigoroso.",
+     "lead": "L’imprudenza del lavoratore esclude la responsabilità datoriale soltanto entro limiti rigorosi, definiti dalla giurisprudenza di legittimità.",
      "punti": [
       "La condotta del lavoratore interrompe il nesso causale solo se è abnorme, cioè se attiva un rischio eccentrico o esorbitante rispetto all’area di rischio governata dal garante",
       "Non basta che la condotta sia imprudente o imprevedibile: l’errore del lavoratore rientra tra i rischi che la prevenzione deve governare",
@@ -1761,7 +1761,7 @@ window.CORSO = {
     {
      "t": "figure",
      "tit": "Il sistema sanzionatorio del D.lgs. 81/2008",
-     "sott": "Titolo I, Capo IV · Seleziona ogni soggetto",
+     "sott": "Titolo I, Capo IV · Consultare ciascun soggetto",
      "voci": [
       [
        "FaUserTie",
@@ -1843,8 +1843,8 @@ window.CORSO = {
     },
     {
      "t": "vf",
-     "tit": "Esercitazione 6 · Vero o falso?",
-     "sott": "Rispondi a tutte le affermazioni",
+     "tit": "Esercitazione 6 · Affermazioni vere o false",
+     "sott": "Qualificare ciascuna affermazione come vera o falsa",
      "voci": [
       [
        "Il lavoratore non può mai essere sanzionato penalmente.",
@@ -1882,9 +1882,9 @@ window.CORSO = {
     },
     {
      "t": "caso",
-     "tit": "Esercitazione 7 · Caso pratico",
+     "tit": "Esercitazione 7 · Caso di studio",
      "scena": "Durante un travaso in reparto si sviluppa improvvisamente un forte odore di gas e un collega accusa capogiri. Il capo reparto è in un altro stabilimento e non risponde al telefono.",
-     "domanda": "Qual è il comportamento corretto?",
+     "domanda": "Quale condotta risulta conforme alla normativa?",
      "opz": [
       [
        "Continuare il lavoro finché il capo reparto non risponde",
@@ -2026,8 +2026,8 @@ window.CORSO = {
     },
     {
      "t": "figure",
-     "tit": "Chi vigila e chi assiste",
-     "sott": "Art. 13 D.lgs. 81/2008 e altre norme · Seleziona ogni ente",
+     "tit": "Organi di vigilanza e soggetti di assistenza",
+     "sott": "Art. 13 D.lgs. 81/2008 e altre norme · Consultare ciascun ente",
      "voci": [
       [
        "FaHospital",
@@ -2065,7 +2065,7 @@ window.CORSO = {
     },
     {
      "t": "testo",
-     "tit": "Che cosa fa l'organo di vigilanza",
+     "tit": "Funzioni e poteri dell'organo di vigilanza",
      "lead": "Gli ispettori delle ASL e dell'Ispettorato del lavoro operano con la qualifica di ufficiali di polizia giudiziaria.",
      "punti": [
       "Accedono ai luoghi di lavoro in qualsiasi momento, anche senza preavviso",
@@ -2081,7 +2081,7 @@ window.CORSO = {
      "t": "testo",
      "tit": "Il provvedimento di sospensione dell'attività",
      "rif": "Art. 14 D.lgs. 81/2008",
-     "lead": "Uno strumento per contrastare il lavoro irregolare e le violazioni gravi.",
+     "lead": "Misura cautelare finalizzata al contrasto del lavoro irregolare e delle violazioni gravi in materia di salute e sicurezza (art. 14 D.lgs. 81/2008).",
      "punti": [
       "Presupposti: lavoratori non risultanti dalla documentazione obbligatoria in misura pari o superiore alla soglia di legge, oppure gravi violazioni in materia di sicurezza individuate dall'Allegato I",
       "Riguarda la parte dell'attività interessata dalle violazioni",
@@ -2096,7 +2096,7 @@ window.CORSO = {
      "t": "testo",
      "tit": "Patente a crediti e novità del D.L. 159/2025",
      "foto": false,
-     "lead": "Gli strumenti di controllo si sono rafforzati, soprattutto nei cantieri, con la qualificazione delle imprese e la tracciabilità dei lavoratori.",
+     "lead": "Il sistema dei controlli è stato rafforzato, in particolare nei cantieri, mediante la qualificazione delle imprese e la tracciabilità dei lavoratori.",
      "punti": [
       "Patente a crediti (art. 27, come sostituito dal D.L. 19/2024, conv. L. 56/2024): dal 1° ottobre 2024 imprese e lavoratori autonomi che operano nei cantieri temporanei o mobili devono possederla; si parte da 30 crediti e occorrono almeno 15 crediti per operare",
       "I crediti sono decurtati a seguito di provvedimenti definitivi per violazioni in materia di salute e sicurezza e per infortuni gravi imputabili",
@@ -2138,8 +2138,8 @@ window.CORSO = {
     },
     {
      "t": "abbina",
-     "tit": "Esercitazione 8 · A chi spetta?",
-     "sott": "Abbina a ciascun ente la funzione principale",
+     "tit": "Esercitazione 8 · Attribuzione delle competenze agli enti",
+     "sott": "Associare a ciascun ente la funzione principale",
      "coppie": [
       [
        "ASL – Servizio di prevenzione",
@@ -2626,17 +2626,6 @@ window.CORSO = {
     ],
     1,
     "Art. 37, c. 13."
-   ],
-   [
-    "La formazione dei lavoratori si svolge:",
-    [
-     "Fuori dall’orario di lavoro",
-     "Durante l’orario di lavoro e senza oneri per i lavoratori",
-     "A spese del lavoratore",
-     "Solo nei giorni festivi"
-    ],
-    1,
-    "Art. 37, c. 12."
    ],
    [
     "La verifica di efficacia della formazione spetta:",

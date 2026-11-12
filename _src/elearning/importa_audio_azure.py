@@ -18,7 +18,7 @@ for m in C['moduli']:
     for i, s in enumerate(m['schermate']):
         if s.get('nar'): testi[f"{m['id']}-{i}"] = s['nar']
 tf = C['testFinale']
-testi['TF-0'] = f"Sei arrivato al test finale. Il test comprende {tf['domande']} domande estratte casualmente, con le risposte in ordine casuale. Per superarlo occorre rispondere correttamente ad almeno il {tf['soglia']} per cento delle domande. Hai a disposizione {tf['tentativi']} tentativi. In bocca al lupo!"
+testi['TF-0'] = f"Si accede al test finale. Il test comprende {tf['domande']} domande estratte casualmente, con le risposte in ordine casuale. Il superamento richiede almeno il {tf['soglia']} per cento di risposte corrette. Sono disponibili {tf['tentativi']} tentativi."
 
 def frasi(t): return [x.strip() for x in re.findall(r'[^.!?;]+[.!?;]*', t) if x.strip()]
 def durata(f): return float(subprocess.run(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', f], capture_output=True, text=True).stdout.strip())
@@ -29,7 +29,8 @@ def silenzi(f):
     return list(zip(ini, fin))
 
 dati = json.load(open(SRC))
-out = {'voce': VOCE, 'schermate': {}}
+fa = os.path.join(BASE, 'corsi', ID, 'audio.json')
+out = json.load(open(fa)) if os.path.exists(fa) else {'voce': VOCE, 'schermate': {}}  # si aggiungono le voci nuove a quelle già presenti
 for k, b64 in dati.items():
     raw = base64.b64decode(b64)
     h = 'gz-' + hashlib.sha1(raw).hexdigest()[:14]

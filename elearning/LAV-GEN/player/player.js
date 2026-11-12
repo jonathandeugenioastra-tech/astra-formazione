@@ -39,7 +39,7 @@
       S.push(Object.assign({}, s, { mi, si, mod: m, sec }));
     });
   });
-  S.push({ t: 'testfinale', tit: 'Test finale di apprendimento', mi: C.moduli.length, mod: { id: 'TF', titolo: 'Test finale' }, sec: 0, nar: 'Sei arrivato al test finale. Il test comprende ' + C.testFinale.domande + ' domande estratte casualmente, con risposte in ordine casuale. Per superarlo occorre rispondere correttamente ad almeno il ' + C.testFinale.soglia + ' per cento delle domande. Hai a disposizione ' + C.testFinale.tentativi + ' tentativi.' });
+  S.push({ t: 'testfinale', tit: 'Test finale di apprendimento', mi: C.moduli.length, mod: { id: 'TF', titolo: 'Test finale' }, sec: 0, nar: 'Si accede al test finale. Il test comprende ' + C.testFinale.domande + ' domande estratte casualmente, con le risposte in ordine casuale. Il superamento richiede almeno il ' + C.testFinale.soglia + ' per cento di risposte corrette. Sono disponibili ' + C.testFinale.tentativi + ' tentativi.' });
   const TOT_SEC = S.reduce((a, s) => a + s.sec, 0);
 
   /* ───────── stato ───────── */

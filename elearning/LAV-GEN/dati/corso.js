@@ -22,7 +22,7 @@ window.CORSO = {
      "t": "copertina",
      "tit": "Formazione generale dei lavoratori",
      "sott": "Corso e-learning · 4 ore · Accordo Stato-Regioni 17 aprile 2025",
-     "nar": "Benvenuti al corso di formazione generale dei lavoratori. In quattro ore affronteremo insieme i contenuti previsti dall'articolo 37 del decreto legislativo 81 del 2008 e dall'Accordo Stato-Regioni del 17 aprile 2025. Il corso è erogato da ASTRA, centro di formazione AiFOS, e costituisce un credito formativo permanente, valido in tutti i settori.",
+     "nar": "Benvenuti al corso di formazione generale dei lavoratori. Nelle quattro ore del percorso sono trattati i contenuti previsti dall'articolo 37 del decreto legislativo 81 del 2008 e dall'Accordo Stato-Regioni del 17 aprile 2025. Il corso è erogato da ASTRA, centro di formazione AiFOS, e costituisce credito formativo permanente, valido in tutti i settori di attività.",
      "p": 1
     },
     {
@@ -60,7 +60,7 @@ window.CORSO = {
        "Al superamento del test finale (70% di risposte corrette) l'attestato viene rilasciato con codice di verifica e QR."
       ]
      ],
-     "nar": "Prima di cominciare, vediamo come funziona il corso. Ogni schermata ha un tempo minimo di permanenza: il pulsante Avanti si attiva quando il tempo è trascorso e hai completato le attività richieste, come aprire le schede o rispondere alle esercitazioni. Il tempo viene conteggiato solo mentre la finestra del corso è attiva. Di tanto in tanto ti verrà chiesto di confermare la tua presenza; se non rispondi entro sessanta secondi, il conteggio si sospende. Alla fine di ogni modulo trovi le esercitazioni e una breve verifica, e al termine del percorso il test finale: per superarlo occorre almeno il settanta per cento di risposte corrette.",
+     "nar": "Si illustrano preliminarmente le modalità di fruizione. Ciascuna schermata prevede un tempo minimo di permanenza: il pulsante Avanti si attiva al decorrere del tempo e al completamento delle attività richieste, quali la consultazione delle schede o la risposta alle esercitazioni. Il tempo è conteggiato soltanto mentre la finestra del corso è attiva. Periodicamente è richiesta la conferma della presenza; in assenza di risposta entro sessanta secondi, il conteggio è sospeso. Ogni modulo si conclude con esercitazioni e con una breve verifica; il percorso termina con il test finale, superato con almeno il settanta per cento di risposte corrette.",
      "p": 1.6
     },
     {
@@ -73,7 +73,7 @@ window.CORSO = {
       "Identificare gli organi di vigilanza, controllo e assistenza e le rispettive modalità di intervento",
       "Riconoscere la segnaletica di sicurezza conforme alla norma UNI EN ISO 7010"
      ],
-     "nar": "Vediamo gli obiettivi. Alla fine del corso saprai distinguere il pericolo dal rischio e conoscerai le misure generali di tutela. Saprai chi fa che cosa nell'organizzazione aziendale della sicurezza, quali sono i tuoi diritti e i tuoi doveri, quali sanzioni sono previste e quali enti vigilano sul rispetto delle norme. La formazione generale è il primo passo: verrà completata dalla formazione specifica sui rischi della tua mansione.",
+     "nar": "Si illustrano gli obiettivi formativi. Al termine del percorso il partecipante sarà in grado di distinguere il pericolo dal rischio e di individuare le misure generali di tutela; conoscerà l'attribuzione dei compiti nell'organizzazione aziendale della prevenzione, i diritti e i doveri dei lavoratori, il sistema sanzionatorio e gli organi preposti alla vigilanza. La formazione generale costituisce il primo segmento del percorso, che si completa con la formazione specifica sui rischi propri della mansione.",
      "p": 1
     }
    ]
@@ -88,7 +88,7 @@ window.CORSO = {
      "t": "sezione",
      "tit": "Modulo 1",
      "sott": "Concetti di rischio, danno, prevenzione e protezione",
-     "nar": "Modulo uno. In questo modulo costruiamo il vocabolario della sicurezza: che cosa sono il pericolo, il rischio e il danno, come si stima un rischio, quali sono le misure di prevenzione e di protezione e in quale ordine si applicano.",
+     "nar": "Modulo uno. Il modulo definisce il lessico fondamentale della prevenzione: le nozioni di pericolo, rischio e danno, i criteri di stima del rischio, le misure di prevenzione e di protezione e l'ordine secondo cui esse si applicano.",
      "p": 0.6
     },
     {
@@ -103,7 +103,7 @@ window.CORSO = {
       "La sicurezza è un'attività organizzata, non un fatto episodico"
      ],
      "appro": "Il D.lgs. 9 aprile 2008, n. 81, detto Testo unico sulla salute e sicurezza sul lavoro, riunisce in un solo testo la disciplina della prevenzione. Si applica a tutti i settori di attività, privati e pubblici, e a tutte le tipologie di rischio (art. 3). Il principio guida è la prevenzione: anticipare il danno attraverso la valutazione dei rischi e la programmazione delle misure.",
-     "nar": "Il decreto legislativo 81 del 2008 definisce la salute come uno stato di completo benessere fisico, mentale e sociale, e non soltanto come l'assenza di malattia. È una definizione ampia, che riprende quella dell'Organizzazione mondiale della sanità: tutelare la salute sul lavoro significa quindi occuparsi anche dell'organizzazione, dei ritmi, delle relazioni, dello stress. Il decreto si applica a tutti i settori, pubblici e privati, e a tutti i lavoratori, qualunque sia la forma del loro contratto.",
+     "nar": "Il decreto legislativo 81 del 2008 definisce la salute come uno stato di completo benessere fisico, mentale e sociale, non consistente soltanto in un'assenza di malattia o d'infermità. La definizione, mutuata dall'Organizzazione mondiale della sanità, ha portata ampia: la tutela della salute nei luoghi di lavoro investe pertanto anche l'organizzazione, i ritmi, le relazioni e lo stress. Il decreto si applica a tutti i settori di attività, pubblici e privati, e a tutti i lavoratori, indipendentemente dalla tipologia contrattuale.",
      "p": 1.2
     },
     {
@@ -144,7 +144,7 @@ window.CORSO = {
      ],
      "appro": "L’incidenza (numero di infortuni ogni 100.000 occupati) è l’indicatore corretto per confrontare anni e settori, perché depura il dato dalle variazioni dell’occupazione: un aumento delle denunce in valore assoluto non significa necessariamente un peggioramento delle condizioni di lavoro. Per le malattie professionali l’INAIL attribuisce l’aumento anche a una maggiore emersione dei casi. La denuncia è distinta dal riconoscimento: al 30 aprile 2026 risultavano riconosciuti positivamente circa il 66% degli infortuni in occasione di lavoro denunciati nel 2025.",
      "rif": "INAIL, Relazione annuale 2025 (settembre 2026), pp. 5-12 e 66-75",
-     "nar": "Prima di entrare nei concetti, guardiamo i numeri. Secondo la Relazione annuale INAIL 2025, nel 2025 sono state presentate circa seicentomila denunce di infortunio, con un aumento dell’1,2 per cento. I casi mortali sono stati 1.198, in calo del 3,3 per cento: 890 lavoratori hanno perso la vita in occasione di lavoro e 299 nel tragitto casa–lavoro. Quasi un infortunio su quattro riguarda lavoratori nati all’estero. Le denunce di malattia professionale sono state oltre 98 mila, e tre su quattro riguardano l’apparato muscolo-scheletrico. Dietro ogni numero c’è una persona: per questo la prevenzione è un dovere giuridico e morale.",
+     "nar": "Prima di affrontare i concetti, è utile considerare il quadro statistico. Secondo la Relazione annuale INAIL 2025, nel 2025 sono state presentate circa seicentomila denunce di infortunio, con un incremento dell'1,2 per cento. I casi mortali sono stati 1.198, in calo del 3,3 per cento: 890 lavoratori hanno perso la vita in occasione di lavoro e 299 nel tragitto tra abitazione e luogo di lavoro. Quasi un infortunio su quattro riguarda lavoratori nati all'estero. Le denunce di malattia professionale hanno superato le 98 mila, per tre quarti a carico dell'apparato muscolo-scheletrico. A ciascun dato corrisponde una persona: la prevenzione costituisce perciò un obbligo giuridico e, al tempo stesso, morale.",
      "p": 1.6
     },
     {
@@ -161,7 +161,7 @@ window.CORSO = {
      ],
      "appro": "Esempio di lettura: se in un reparto di 200 addetti si verificano 4 infortuni in un anno, l’incidenza è 4/200 × 100.000 = 2.000 casi ogni 100.000 addetti, valore confrontabile con il dato nazionale (1.720,4 nel 2025 per gli infortuni in occasione di lavoro). Il confronto ha valore indicativo: i dati di settore e di dimensione aziendale sono più significativi del dato medio nazionale.",
      "rif": "D.P.R. 1124/1965, artt. 2 e 53 · D.lgs. 81/2008, art. 18, c. 1, lett. r)",
-     "nar": "Per usare i dati come strumento di prevenzione occorre leggerli correttamente. La denuncia è la comunicazione dell’evento all’INAIL e non coincide con il riconoscimento. L’incidenza, cioè il numero di casi ogni centomila occupati, permette di confrontare anni e settori diversi. L’infortunio in itinere è quello che avviene nel normale percorso tra casa e lavoro. Infine, i mancati infortuni sono la base della piramide: analizzarli consente di intervenire prima che accada l’evento grave.",
+     "nar": "Il dato statistico assume valenza prevenzionistica soltanto se interpretato con rigore. La denuncia è la comunicazione dell'evento all'INAIL e non coincide con il riconoscimento. L'incidenza, ossia il numero di casi ogni centomila occupati, consente il confronto tra anni e settori differenti. L'infortunio in itinere è quello occorso nel normale percorso tra abitazione e luogo di lavoro. I mancati infortuni, infine, costituiscono la base della piramide: la loro analisi consente di intervenire prima che si verifichi l'evento grave.",
      "p": 1.3
     },
     {
@@ -190,7 +190,7 @@ window.CORSO = {
        "Valutazione globale e documentata di tutti i rischi per la salute e sicurezza dei lavoratori presenti nell'organizzazione, finalizzata a individuare le misure di prevenzione e protezione e a elaborare il programma di miglioramento nel tempo."
       ]
      ],
-     "nar": "Ecco le quattro definizioni fondamentali, tratte dall'articolo 2 del decreto. Il pericolo è una proprietà intrinseca, cioè propria, di un fattore: una lama è tagliente, un solvente è infiammabile, una tensione elettrica può folgorare. Il rischio è invece una probabilità: la probabilità che quel danno potenziale si realizzi davvero, nelle concrete condizioni di impiego o di esposizione. La prevenzione è l'insieme delle misure che servono a evitare o diminuire i rischi. La valutazione dei rischi, infine, è l'analisi globale e documentata di tutti i rischi presenti, da cui discendono le misure e il programma di miglioramento. Apri ciascuna scheda per leggere il testo completo.",
+     "nar": "Si esaminano le quattro definizioni fondamentali dell'articolo 2 del decreto. Il pericolo è la proprietà intrinseca di un determinato fattore avente il potenziale di causare danni: una lama è tagliente, un solvente è infiammabile, una tensione elettrica può folgorare. Il rischio è invece la probabilità che il danno potenziale si realizzi nelle concrete condizioni di impiego o di esposizione. La prevenzione è il complesso delle disposizioni e delle misure volte a evitare o a diminuire i rischi. La valutazione dei rischi, infine, è l'analisi globale e documentata di tutti i rischi presenti, dalla quale discendono le misure e il programma di miglioramento. Le singole schede riportano il testo integrale delle definizioni.",
      "p": 1.6
     },
     {
@@ -217,7 +217,7 @@ window.CORSO = {
       ]
      },
      "appro": "Due lavoratori che maneggiano la stessa sostanza pericolosa possono essere esposti a rischi molto diversi: chi lavora sotto cappa aspirante, con contenitori chiusi, guanti e occhiali, ha un rischio basso; chi travasa a mano in un locale non ventilato ha un rischio elevato. Il pericolo è lo stesso; cambia l'esposizione.",
-     "nar": "Pericolo e rischio non sono sinonimi. Il pericolo appartiene alla cosa: un acido è corrosivo sia quando è chiuso in un armadio sia quando lo stiamo travasando. Il rischio dipende invece da come entriamo in contatto con quel pericolo: quanto spesso, per quanto tempo, con quali protezioni. Per questo il pericolo si identifica, mentre il rischio si valuta e si riduce. Tutto il sistema della prevenzione lavora sul rischio.",
+     "nar": "Pericolo e rischio non sono sinonimi. Il pericolo è una qualità propria dell'agente: un acido è corrosivo tanto quando è custodito in un armadio quanto durante il travaso. Il rischio dipende invece dalle modalità di contatto con il pericolo: frequenza, durata e misure di protezione adottate. Ne consegue che il pericolo si identifica, mentre il rischio si valuta e si riduce. L'intero sistema della prevenzione opera sul rischio.",
      "p": 1.2
     },
     {
@@ -231,7 +231,7 @@ window.CORSO = {
       "Tutela assicurativa obbligatoria: INAIL (D.P.R. 1124/1965)"
      ],
      "appro": "La causa violenta dell'infortunio è un fattore che agisce in modo rapido e concentrato nel tempo (un urto, una caduta, uno sforzo improvviso). La causa della malattia professionale agisce invece in modo lento e diluito: rumore, vibrazioni, polveri, agenti chimici e biologici, movimentazione ripetitiva dei carichi. L'elenco delle malattie per le quali è obbligatoria la denuncia è periodicamente aggiornato con decreto ministeriale.",
-     "nar": "Il danno può manifestarsi in due forme. L'infortunio è un evento improvviso, dovuto a una causa violenta, come una caduta, un urto, un taglio, che avviene in occasione di lavoro. La malattia professionale si sviluppa invece lentamente, per l'esposizione prolungata a un agente nocivo: il rumore che danneggia l'udito, le polveri che colpiscono i polmoni, i movimenti ripetitivi che affaticano le articolazioni. È tutelato anche l'infortunio in itinere, cioè quello che avviene nel normale tragitto tra casa e lavoro. L'assicurazione obbligatoria contro infortuni e malattie professionali è gestita dall'INAIL.",
+     "nar": "Il danno può manifestarsi in due forme. L'infortunio è un evento improvviso, determinato da causa violenta in occasione di lavoro, quale una caduta, un urto o un taglio. La malattia professionale si sviluppa invece gradualmente, per effetto dell'esposizione prolungata a un agente nocivo: il rumore che compromette l'udito, le polveri che colpiscono l'apparato respiratorio, i movimenti ripetitivi che sollecitano le articolazioni. È tutelato anche l'infortunio in itinere, occorso nel normale tragitto tra abitazione e luogo di lavoro. L'assicurazione obbligatoria contro gli infortuni e le malattie professionali è gestita dall'INAIL.",
      "p": 1.3
     },
     {
@@ -250,7 +250,7 @@ window.CORSO = {
       "Grave",
       "Gravissimo"
      ],
-     "nar": "Il modo più diffuso per stimare un rischio è la matrice probabilità per danno. Si attribuisce un valore da uno a quattro alla probabilità che l'evento si verifichi e un valore da uno a quattro alla gravità del danno; il prodotto indica il livello di rischio. Un valore basso consente interventi programmati nel tempo; un valore alto richiede interventi immediati. Osserva che un evento raro ma gravissimo e un evento frequente ma lieve possono avere lo stesso livello: entrambi meritano attenzione. Seleziona almeno tre caselle per esplorare la matrice.",
+     "nar": "Il metodo più diffuso per la stima del rischio è la matrice probabilità per danno. Alla probabilità che l'evento si verifichi e alla gravità del danno si attribuisce un valore da uno a quattro; il prodotto esprime il livello di rischio. Un valore basso consente interventi programmati nel tempo; un valore elevato impone interventi immediati. Si noti che un evento raro ma gravissimo e un evento frequente ma lieve possono presentare il medesimo livello di rischio, ed entrambi richiedono pertanto attenzione. La matrice si esamina selezionando almeno tre caselle.",
      "p": 1.6
     },
     {
@@ -279,7 +279,7 @@ window.CORSO = {
       ]
      ],
      "rif": "Artt. 28-29 D.lgs. 81/2008",
-     "nar": "La valutazione dei rischi segue un percorso logico. Si parte dall'identificazione dei pericoli; si individua chi è esposto, considerando anche i lavoratori particolarmente sensibili, come le lavoratrici in gravidanza, i giovani, i lavoratori con disabilità; si stima il rischio; si definiscono le misure di prevenzione e protezione; infine si programmano gli interventi, con responsabili e tempi, e se ne verifica l'efficacia nel tempo. Il risultato è il documento di valutazione dei rischi, il DVR.",
+     "nar": "La valutazione dei rischi si articola secondo una sequenza logica: identificazione dei pericoli; individuazione dei lavoratori esposti, con particolare riguardo ai soggetti più sensibili, quali le lavoratrici in gravidanza, i giovani e i lavoratori con disabilità; stima del rischio; definizione delle misure di prevenzione e protezione; programmazione degli interventi, con indicazione di responsabili e tempi, e verifica della loro efficacia nel tempo. L'esito è formalizzato nel documento di valutazione dei rischi, il DVR.",
      "p": 1.3
     },
     {
@@ -308,7 +308,7 @@ window.CORSO = {
        "Dispositivo indossato dal singolo lavoratore per proteggersi da uno o più rischi: guanti, occhiali, otoprotettori, imbracature (Titolo III, Capo II)."
       ]
      ],
-     "nar": "Prevenzione e protezione sono due strategie che si completano. La prevenzione agisce sulla probabilità, rendendo meno probabile l'evento: una macchina progettata bene, una manutenzione regolare, una procedura chiara, un lavoratore formato. La protezione agisce sulla gravità: se l'evento accade, le conseguenze sono limitate. La protezione può essere collettiva, quando protegge più persone e non dipende dal comportamento del singolo, oppure individuale, quando il lavoratore indossa un dispositivo di protezione. La protezione collettiva ha sempre la priorità.",
+     "nar": "Prevenzione e protezione sono strategie complementari. La prevenzione agisce sulla probabilità, rendendo meno probabile il verificarsi dell'evento: una macchina correttamente progettata, una manutenzione regolare, una procedura chiara, un lavoratore formato. La protezione agisce sulla gravità, limitando le conseguenze dell'evento qualora si verifichi. La protezione è collettiva quando tutela più persone senza dipendere dal comportamento del singolo; è individuale quando il lavoratore indossa un dispositivo di protezione. La protezione collettiva ha sempre la priorità.",
      "p": 1.3
     },
     {
@@ -375,7 +375,7 @@ window.CORSO = {
       ]
      ],
      "nota": "Comma 2: le misure relative alla sicurezza, all'igiene e alla salute durante il lavoro non devono in nessun caso comportare oneri finanziari per i lavoratori.",
-     "nar": "L'articolo 15 elenca le misure generali di tutela: è la carta dei principi della prevenzione. Si comincia dalla valutazione di tutti i rischi e dalla programmazione della prevenzione. I rischi devono essere eliminati e, dove non è possibile, ridotti al minimo; vanno ridotti alla fonte; ciò che è pericoloso va sostituito con ciò che lo è meno; il numero degli esposti va limitato al minimo; la protezione collettiva ha la priorità su quella individuale. Completano il quadro il controllo sanitario, la formazione, la partecipazione dei lavoratori, le misure di emergenza e la manutenzione. Il comma 2 stabilisce un principio importante: le misure di sicurezza non devono mai comportare costi per i lavoratori.",
+     "nar": "L'articolo 15 enuncia le misure generali di tutela, che costituiscono i principi fondamentali della prevenzione. Il primo è la valutazione di tutti i rischi, con la conseguente programmazione della prevenzione. I rischi devono essere eliminati e, ove ciò non sia possibile, ridotti al minimo e alla fonte; ciò che è pericoloso deve essere sostituito con ciò che non lo è o lo è meno; il numero dei lavoratori esposti deve essere limitato al minimo; la protezione collettiva prevale su quella individuale. Completano il quadro il controllo sanitario, la formazione, la partecipazione dei lavoratori, le misure di emergenza e la manutenzione. Il comma 2 sancisce un principio essenziale: le misure di sicurezza non devono in alcun caso comportare oneri finanziari per i lavoratori.",
      "p": 2
     },
     {
@@ -390,7 +390,7 @@ window.CORSO = {
      ],
      "nota": "Più si sale, più la misura è efficace e indipendente dal comportamento umano.",
      "appro": "Esempio: rischio di caduta dall'alto durante la pulizia dei lucernari. Eliminazione: pulizia dal basso con aste telescopiche. Sostituzione: lucernari autopulenti. Protezione collettiva: parapetti e reti anticaduta. Misura organizzativa: permesso di lavoro, lavoro in coppia, formazione. DPI: imbracatura con linea vita, solo se le misure precedenti non bastano.",
-     "nar": "Le misure si applicano in un ordine preciso, che chiamiamo gerarchia. In cima c'è l'eliminazione del pericolo: se il pericolo non c'è, non c'è rischio. Poi la sostituzione, ad esempio una vernice all'acqua al posto di una a solvente. Poi le misure tecniche e la protezione collettiva, come i parapetti o le aspirazioni localizzate. Poi le misure organizzative: procedure, turni, permessi di lavoro, formazione. Alla base ci sono i dispositivi di protezione individuale, che sono l'ultima barriera, perché la loro efficacia dipende da come vengono scelti, indossati e mantenuti.",
+     "nar": "Le misure si applicano secondo un ordine prestabilito, denominato gerarchia. Al vertice si colloca l'eliminazione del pericolo: in assenza di pericolo non sussiste rischio. Seguono la sostituzione, ad esempio di una vernice a solvente con una vernice all'acqua; le misure tecniche e di protezione collettiva, quali i parapetti o l'aspirazione localizzata; le misure organizzative, ossia procedure, turni, permessi di lavoro e formazione. Alla base si collocano i dispositivi di protezione individuale, che rappresentano l'ultima barriera, poiché la loro efficacia dipende dalla corretta scelta, dall'uso e dalla manutenzione.",
      "p": 1.3
     },
     {
@@ -405,7 +405,7 @@ window.CORSO = {
       "Tre categorie: I rischi minimi, II rischi intermedi, III rischi che possono causare morte o danni irreversibili (con addestramento obbligatorio)",
       "Il lavoratore li utilizza correttamente, ne ha cura e segnala ogni difetto (art. 78)"
      ],
-     "nar": "I dispositivi di protezione individuale, chiamati DPI, sono le attrezzature che il lavoratore indossa per proteggersi da uno o più rischi: caschi, guanti, occhiali, otoprotettori, calzature, imbracature, maschere. Si usano quando i rischi non possono essere eliminati o ridotti abbastanza con altre misure. Devono essere marcati CE e adeguati al rischio. Il datore di lavoro li fornisce gratuitamente e garantisce formazione e, per i DPI di terza categoria e per quelli dell'udito, l'addestramento. Il lavoratore ha l'obbligo di utilizzarli correttamente, di averne cura e di segnalare subito ogni difetto.",
+     "nar": "I dispositivi di protezione individuale, o DPI, sono le attrezzature destinate a essere indossate dal lavoratore allo scopo di proteggerlo contro uno o più rischi: elmetti, guanti, occhiali, otoprotettori, calzature, imbracature, facciali filtranti. Si impiegano quando i rischi non possono essere evitati o sufficientemente ridotti con altre misure. Devono recare la marcatura CE ed essere adeguati al rischio. Il datore di lavoro li fornisce gratuitamente e assicura la formazione e, per i DPI di terza categoria e per quelli dell'udito, l'addestramento. Il lavoratore è tenuto a utilizzarli correttamente, ad averne cura e a segnalarne senza indugio ogni difetto.",
      "p": 1.4
     },
     {
@@ -418,7 +418,7 @@ window.CORSO = {
       "Mancati infortuni e comportamenti non sicuri"
      ],
      "testo": "Ogni infortunio grave è preceduto da numerosi eventi senza conseguenze. Segnalarli consente di rimuovere le cause prima che si verifichi il danno.",
-     "nar": "Gli studi sugli infortuni mostrano una piramide, o un iceberg. In cima, visibili, ci sono gli infortuni gravi; sotto, molti infortuni lievi; ancora sotto, moltissimi incidenti con soli danni materiali; alla base, una quantità enorme di mancati infortuni e di comportamenti non sicuri. Il mancato infortunio, in inglese near miss, è un evento che avrebbe potuto causare un danno ma non lo ha causato. Ogni near miss è un'informazione preziosa: segnalarlo al preposto consente di correggere le cause prima che si arrivi all'infortunio.",
+     "nar": "Gli studi sugli infortuni descrivono una piramide, o iceberg. Al vertice, visibili, si collocano gli infortuni gravi; al di sotto, un numero maggiore di infortuni lievi; ancora più in basso, numerosissimi incidenti con soli danni materiali; alla base, una grande quantità di mancati infortuni e di comportamenti non sicuri. Il mancato infortunio, in inglese near miss, è un evento che avrebbe potuto causare un danno senza tuttavia produrlo. Ogni near miss costituisce un'informazione preziosa: la sua segnalazione al preposto consente di rimuoverne le cause prima che si verifichi l'infortunio.",
      "p": 1.2
     },
     {
@@ -431,7 +431,7 @@ window.CORSO = {
       "Rischi trasversali e organizzativi: organizzazione del lavoro, stress lavoro-correlato, lavoro notturno e a turni, ergonomia, videoterminali, movimentazione dei carichi",
       "Fattori personali: genere, età, provenienza da altri Paesi, tipologia contrattuale, gravidanza (art. 28, c. 1)"
      ],
-     "nar": "I rischi si classificano in tre grandi famiglie. I rischi per la sicurezza, detti infortunistici, sono quelli che possono causare un infortunio: macchine, impianti elettrici, incendio, cadute. I rischi per la salute, detti igienico-ambientali, sono collegati all'esposizione ad agenti chimici, fisici e biologici e possono causare malattie professionali. I rischi trasversali riguardano l'organizzazione del lavoro: stress, turni, ritmi, ergonomia. L'articolo 28 richiede inoltre di considerare i fattori personali, come il genere, l'età, la provenienza da altri Paesi, la tipologia di contratto e lo stato di gravidanza.",
+     "nar": "I rischi si classificano in tre grandi famiglie. I rischi per la sicurezza, o infortunistici, possono determinare un infortunio: macchine, impianti elettrici, incendio, cadute. I rischi per la salute, o igienico-ambientali, derivano dall'esposizione ad agenti chimici, fisici e biologici e possono determinare malattie professionali. I rischi trasversali attengono all'organizzazione del lavoro: stress, turni, ritmi, ergonomia. L'articolo 28 impone inoltre di considerare i fattori individuali, quali il genere, l'età, la provenienza da altri Paesi, la tipologia contrattuale e lo stato di gravidanza.",
      "p": 1.3
     },
     {
@@ -587,7 +587,7 @@ window.CORSO = {
        ]
       }
      ],
-     "nar": "La segnaletica di sicurezza comunica un messaggio con forme e colori standardizzati, comprensibili anche senza leggere. I pittogrammi che vedi sono quelli ufficiali della norma UNI EN ISO 7010. I segnali di avvertimento sono triangolari, gialli con bordo nero, e segnalano un pericolo. I segnali di divieto sono rotondi, con bordo e barra rossi. I segnali di prescrizione sono rotondi e azzurri e obbligano a un comportamento, come indossare un DPI. I segnali di salvataggio sono verdi e indicano uscite, percorsi d'esodo e presidi di primo soccorso. I segnali antincendio sono rossi e quadrati e indicano estintori, idranti e pulsanti di allarme. Apri ciascuna famiglia per conoscere i pittogrammi.",
+     "nar": "La segnaletica di sicurezza trasmette un messaggio mediante forme e colori standardizzati, comprensibili anche senza ricorrere alla lettura. I pittogrammi riprodotti sono quelli ufficiali della norma UNI EN ISO 7010. I segnali di avvertimento, triangolari, gialli con bordo nero, indicano un pericolo. I segnali di divieto sono rotondi, con bordo e barra rossi. I segnali di prescrizione, rotondi e azzurri, impongono un comportamento, come l'uso di un DPI. I segnali di salvataggio, verdi, indicano uscite, percorsi di esodo e presidi di primo soccorso. I segnali antincendio, rossi e quadrati, indicano estintori, idranti e pulsanti di allarme. Ciascuna famiglia di segnali può essere consultata singolarmente.",
      "p": 2
     },
     {
@@ -621,7 +621,7 @@ window.CORSO = {
        "Vero: a differenza dell'infortunio, la causa agisce in modo lento e diluito nel tempo."
       ]
      ],
-     "nar": "Prima esercitazione. Leggi ciascuna affermazione e indica se è vera o falsa. Dopo ogni risposta troverai una spiegazione. Per proseguire è necessario rispondere a tutte le affermazioni.",
+     "nar": "Prima esercitazione. Ciascuna affermazione va qualificata come vera o falsa; a ogni risposta segue una spiegazione. Per proseguire è necessario rispondere a tutte le affermazioni.",
      "p": 1.5
     },
     {
@@ -635,7 +635,7 @@ window.CORSO = {
       "Misure organizzative e procedurali",
       "Dispositivi di protezione individuale"
      ],
-     "nar": "Seconda esercitazione. Le misure di tutela sono mescolate: riordinale dalla più efficace alla meno efficace, utilizzando le frecce, e poi premi Verifica.",
+     "nar": "Seconda esercitazione. Le misure di tutela sono presentate in ordine casuale: occorre disporle dalla più efficace alla meno efficace mediante le frecce e quindi premere Verifica.",
      "p": 1.3
     },
     {
@@ -660,7 +660,7 @@ window.CORSO = {
        "Non è una soluzione valutata: sposterebbe il rischio senza ridurlo e potrebbe esporre altre persone."
       ]
      ],
-     "nar": "Terza esercitazione: un caso pratico. Leggi la situazione e scegli la risposta corretta. Ricorda la gerarchia delle misure che abbiamo appena studiato.",
+     "nar": "Terza esercitazione: analisi di un caso. Esaminata la situazione descritta, si individui la risposta corretta alla luce della gerarchia delle misure appena trattata.",
      "p": 1.3
     },
     {
@@ -673,7 +673,7 @@ window.CORSO = {
       "Art. 15: eliminare, sostituire, proteggere collettivamente, organizzare, poi i DPI",
       "La segnaletica ISO 7010 comunica con forme e colori standardizzati"
      ],
-     "nar": "Ricapitoliamo. Il pericolo è una proprietà intrinseca, il rischio è una probabilità che possiamo ridurre. La matrice probabilità per danno aiuta a stabilire le priorità. La prevenzione riduce la probabilità, la protezione riduce la gravità. Le misure si applicano secondo la gerarchia dell'articolo 15, con i DPI come ultima barriera. La segnaletica comunica con forme e colori standardizzati. Ora affronta la verifica intermedia.",
+     "nar": "In sintesi: il pericolo è una proprietà intrinseca, il rischio una probabilità che può essere ridotta. La matrice probabilità per danno orienta la definizione delle priorità. La prevenzione riduce la probabilità, la protezione la gravità. Le misure si applicano secondo la gerarchia dell'articolo 15, nella quale i DPI costituiscono l'ultima barriera. La segnaletica comunica mediante forme e colori standardizzati. Segue la verifica intermedia.",
      "p": 1
     },
     {
@@ -759,7 +759,7 @@ window.CORSO = {
        "Circa tre denunce su quattro (Relazione annuale INAIL 2025)."
       ]
      ],
-     "nar": "Verifica intermedia del primo modulo. Rispondi alle cinque domande: per proseguire occorrono almeno quattro risposte corrette. In caso contrario potrai rivedere le spiegazioni e ripetere la verifica.",
+     "nar": "Verifica intermedia del primo modulo. Sono proposte cinque domande; per proseguire occorrono almeno quattro risposte corrette. In caso contrario è possibile rivedere le spiegazioni e ripetere la verifica.",
      "p": 1.5
     }
    ]
@@ -774,7 +774,7 @@ window.CORSO = {
      "t": "sezione",
      "tit": "Modulo 2",
      "sott": "Organizzazione della prevenzione aziendale",
-     "nar": "Modulo due. La sicurezza è un sistema organizzato: in questo modulo conosciamo le figure previste dal decreto, le loro definizioni di legge, i loro compiti, e gli strumenti con cui la prevenzione viene gestita in azienda.",
+     "nar": "Modulo due. La sicurezza è un sistema organizzato: il modulo esamina le figure previste dal decreto, le rispettive definizioni normative e i compiti, nonché gli strumenti mediante i quali la prevenzione è gestita in azienda.",
      "p": 0.6
     },
     {
@@ -804,7 +804,7 @@ window.CORSO = {
       ]
      ],
      "appro": "Il principio di effettività (art. 299) stabilisce che le posizioni di garanzia del datore di lavoro, del dirigente e del preposto gravano anche su chi, pur senza investitura formale, esercita in concreto i poteri giuridici riferiti a tali soggetti.",
-     "nar": "Conosciamo ora le figure della prevenzione attraverso le definizioni dell'articolo 2. Il lavoratore è chiunque svolga un'attività nell'organizzazione di un datore di lavoro, a prescindere dal contratto e anche senza retribuzione: sono equiparati, ad esempio, i tirocinanti e gli studenti quando usano laboratori e attrezzature. Il datore di lavoro è il titolare del rapporto di lavoro o, comunque, chi ha la responsabilità dell'organizzazione esercitando i poteri decisionali e di spesa. Il dirigente attua le direttive del datore di lavoro, organizza il lavoro e vigila. Il preposto sovrintende all'attività, garantisce l'attuazione delle direttive e ne controlla la corretta esecuzione. Ricorda il principio di effettività dell'articolo 299: conta ciò che una persona fa in concreto, non solo la qualifica formale.",
+     "nar": "Le figure della prevenzione sono definite dall'articolo 2. Il lavoratore è la persona che, indipendentemente dalla tipologia contrattuale, svolge un'attività lavorativa nell'ambito dell'organizzazione di un datore di lavoro, anche senza retribuzione: sono equiparati, ad esempio, i tirocinanti e gli studenti quando utilizzano laboratori e attrezzature. Il datore di lavoro è il titolare del rapporto di lavoro o, comunque, il soggetto che ha la responsabilità dell'organizzazione in quanto esercita i poteri decisionali e di spesa. Il dirigente attua le direttive del datore di lavoro, organizzando l'attività lavorativa e vigilando su di essa. Il preposto sovrintende all'attività lavorativa, garantisce l'attuazione delle direttive ricevute e ne controlla la corretta esecuzione. Vale il principio di effettività dell'articolo 299: rileva la funzione concretamente esercitata, non soltanto la qualifica formale.",
      "p": 2
     },
     {
@@ -843,7 +843,7 @@ window.CORSO = {
        "Insieme degli atti medici finalizzati alla tutela dello stato di salute e sicurezza dei lavoratori, in relazione all'ambiente di lavoro, ai fattori di rischio professionali e alle modalità di svolgimento dell'attività lavorativa."
       ]
      ],
-     "nar": "Proseguiamo con le figure tecniche. L'RSPP, responsabile del servizio di prevenzione e protezione, è designato dal datore di lavoro e coordina il servizio; l'ASPP ne fa parte come addetto. Entrambi devono possedere i requisiti dell'articolo 32. Il medico competente collabora alla valutazione dei rischi ed effettua la sorveglianza sanitaria. L'RLS, rappresentante dei lavoratori per la sicurezza, è eletto o designato dai lavoratori per rappresentarli sui temi di salute e sicurezza. Il servizio di prevenzione e protezione è l'insieme delle persone e dei mezzi dedicati alla prevenzione. La sorveglianza sanitaria è l'insieme degli atti medici a tutela della salute in relazione ai rischi.",
+     "nar": "Si considerano quindi le figure tecniche. Il responsabile del servizio di prevenzione e protezione, o RSPP, è designato dal datore di lavoro e coordina il servizio, del quale fa parte l'addetto, o ASPP. Entrambi devono possedere i requisiti dell'articolo 32. Il medico competente collabora alla valutazione dei rischi ed effettua la sorveglianza sanitaria. Il rappresentante dei lavoratori per la sicurezza, o RLS, è eletto o designato per rappresentare i lavoratori in materia di salute e sicurezza. Il servizio di prevenzione e protezione è l'insieme delle persone, dei sistemi e dei mezzi finalizzati all'attività di prevenzione. La sorveglianza sanitaria è l'insieme degli atti medici finalizzati alla tutela della salute in relazione ai rischi professionali.",
      "p": 2
     },
     {
@@ -868,7 +868,7 @@ window.CORSO = {
       ]
      ],
      "appro": "L'informazione trasmette conoscenze (ad esempio un opuscolo sui rischi); la formazione costruisce competenze attraverso un processo educativo con verifica dell'apprendimento; l'addestramento si fa con la pratica, sotto la guida di una persona esperta, e riguarda l'uso concreto di attrezzature, DPI e procedure (art. 37, c. 5).",
-     "nar": "Formazione, informazione e addestramento non sono la stessa cosa. L'informazione fornisce conoscenze utili a riconoscere e gestire i rischi. La formazione è un processo educativo che trasferisce conoscenze e procedure per costruire competenze: è quella che stai seguendo ora. L'addestramento insegna con la pratica l'uso corretto di attrezzature, macchine, sostanze, DPI e procedure, ed è effettuato da una persona esperta sul luogo di lavoro.",
+     "nar": "Informazione, formazione e addestramento sono attività distinte. L'informazione trasmette conoscenze utili all'identificazione, alla riduzione e alla gestione dei rischi. La formazione è un processo educativo che trasferisce conoscenze e procedure utili all'acquisizione di competenze, quale il presente corso. L'addestramento consiste nell'apprendimento pratico dell'uso corretto di attrezzature, macchine, sostanze, DPI e procedure, ed è svolto da persona esperta sul luogo di lavoro.",
      "p": 1.4
     },
     {
@@ -917,7 +917,7 @@ window.CORSO = {
        "Lavoratori designati e formati per la prevenzione incendi, l'evacuazione e il primo soccorso. Non possono rifiutare la designazione se non per giustificato motivo (art. 43)."
       ]
      ],
-     "nar": "Ecco la mappa della prevenzione aziendale. Il datore di lavoro organizza il sistema ed è il primo garante. Dirigenti e preposti trasmettono e controllano l'attuazione delle misure lungo la linea gerarchica. I lavoratori collaborano e rispettano le disposizioni. Il servizio di prevenzione e protezione, guidato dall'RSPP, fornisce consulenza tecnica. Il medico competente cura la sorveglianza sanitaria. L'RLS rappresenta i lavoratori. Gli addetti alle emergenze intervengono in caso di incendio, evacuazione e primo soccorso. Seleziona ogni figura per approfondirne il ruolo.",
+     "nar": "La mappa della prevenzione aziendale si articola come segue. Il datore di lavoro organizza il sistema ed è il primo garante. Dirigenti e preposti trasmettono le misure e ne controllano l'attuazione lungo la linea gerarchica. I lavoratori collaborano e osservano le disposizioni. Il servizio di prevenzione e protezione, coordinato dall'RSPP, fornisce consulenza tecnica. Il medico competente cura la sorveglianza sanitaria. L'RLS rappresenta i lavoratori. Gli addetti alle emergenze intervengono in caso di incendio, evacuazione e primo soccorso. Il ruolo di ciascuna figura è approfondito nella relativa scheda.",
      "p": 2
     },
     {
@@ -936,7 +936,7 @@ window.CORSO = {
      ],
      "nota": "Sono gli unici due obblighi che il datore di lavoro non può trasferire ad altri: restano sempre a suo carico, in modo personale.",
      "appro": "La ratio è chiara: la valutazione dei rischi è l'atto fondativo di tutta la prevenzione aziendale e l'RSPP è il consulente di fiducia che affianca il datore di lavoro. Entrambi esprimono scelte organizzative di vertice, che non possono essere affidate a un delegato. L'omessa valutazione dei rischi e l'omessa nomina dell'RSPP sono punite con l'arresto o l'ammenda (art. 55).",
-     "nar": "L'articolo 17 individua due obblighi che il datore di lavoro non può delegare in alcun caso: la valutazione di tutti i rischi, con l'elaborazione del documento di valutazione, e la designazione dell'RSPP. Sono le scelte di vertice dell'organizzazione della sicurezza, e per questo restano personali. Tutti gli altri obblighi possono essere trasferiti con la delega di funzioni, nei limiti e alle condizioni dell'articolo 16.",
+     "nar": "L'articolo 17 individua due obblighi che il datore di lavoro non può delegare in alcun caso: la valutazione di tutti i rischi, con l'elaborazione del relativo documento, e la designazione dell'RSPP. Si tratta delle scelte di vertice dell'organizzazione della sicurezza, che per tale ragione restano personali. Gli altri obblighi possono essere trasferiti mediante delega di funzioni, nei limiti e alle condizioni dell'articolo 16.",
      "p": 1.3
     },
     {
@@ -978,7 +978,7 @@ window.CORSO = {
        "Il delegato può, previa intesa con il datore di lavoro, subdelegare specifiche funzioni alle medesime condizioni; il subdelegato non può a sua volta delegare"
       ]
      ],
-     "nar": "L'articolo 16 disciplina la delega di funzioni. Perché sia valida, la delega deve risultare da un atto scritto con data certa; il delegato deve avere professionalità ed esperienza adeguate; deve ricevere tutti i poteri di organizzazione, gestione e controllo e l'autonomia di spesa necessaria; deve accettarla per iscritto. Alla delega va data pubblicità. Attenzione: la delega non elimina l'obbligo di vigilanza del datore di lavoro sul corretto svolgimento delle funzioni trasferite. È ammessa una sola subdelega, alle stesse condizioni.",
+     "nar": "L'articolo 16 disciplina la delega di funzioni. Ai fini della validità, la delega deve risultare da atto scritto recante data certa; il delegato deve possedere i requisiti di professionalità ed esperienza richiesti dalla natura delle funzioni delegate; devono essergli attribuiti tutti i poteri di organizzazione, gestione e controllo e l'autonomia di spesa necessaria; la delega deve essere accettata per iscritto e deve ricevere adeguata e tempestiva pubblicità. La delega non esclude l'obbligo di vigilanza del datore di lavoro in ordine al corretto espletamento delle funzioni trasferite. È ammessa una sola subdelega, alle medesime condizioni.",
      "p": 1.5
     },
     {
@@ -1053,7 +1053,7 @@ window.CORSO = {
       ]
      ],
      "nota": "Comma 3-bis: datore di lavoro e dirigenti vigilano sull'adempimento degli obblighi di preposti, lavoratori, progettisti, fabbricanti, fornitori, installatori e medico competente.",
-     "nar": "L'articolo 18 elenca gli obblighi del datore di lavoro e dei dirigenti, ciascuno secondo le proprie attribuzioni e competenze. Tra i più importanti: nominare il medico competente; designare gli addetti alle emergenze; individuare i preposti, obbligo introdotto nel 2021; fornire DPI idonei; consentire l'accesso alle zone a rischio grave solo a lavoratori istruiti; richiedere il rispetto delle norme e l'uso dei DPI; inviare i lavoratori alle visite mediche; garantire informazione, formazione e addestramento; consegnare all'RLS copia del DVR; comunicare gli infortuni all'INAIL; adottare le misure di emergenza; aggiornare le misure quando cambia l'organizzazione. Il comma 3-bis aggiunge un obbligo di vigilanza su tutti gli altri soggetti.",
+     "nar": "L'articolo 18 elenca gli obblighi del datore di lavoro e dei dirigenti, secondo le rispettive attribuzioni e competenze. Tra i principali: nominare il medico competente; designare gli addetti alle emergenze; individuare i preposti, obbligo introdotto nel 2021; fornire DPI idonei; consentire l'accesso alle zone che espongono a un rischio grave e specifico soltanto ai lavoratori adeguatamente istruiti; richiedere l'osservanza delle norme e l'uso dei DPI; inviare i lavoratori alla visita medica; assicurare informazione, formazione e addestramento; consegnare all'RLS copia del DVR; comunicare gli infortuni all'INAIL; adottare le misure di emergenza; aggiornare le misure in relazione ai mutamenti organizzativi. Il comma 3-bis stabilisce inoltre un obbligo di vigilanza sull'adempimento degli obblighi degli altri soggetti.",
      "p": 2.4
     },
     {
@@ -1095,7 +1095,7 @@ window.CORSO = {
        "Frequentare appositi corsi di formazione (art. 37): 12 ore, solo in presenza, aggiornamento biennale"
       ]
      ],
-     "nar": "L'articolo 19, riformato nel 2021, ha rafforzato il ruolo del preposto. Il preposto sovrintende e vigila sul rispetto delle disposizioni e sull'uso dei dispositivi di protezione. Se rileva un comportamento non conforme, deve intervenire con indicazioni di sicurezza; se l'inosservanza persiste, deve interrompere l'attività del lavoratore e informare i superiori. Verifica che solo i lavoratori istruiti accedano alle zone a rischio grave; in caso di pericolo grave e immediato dà istruzioni per abbandonare il posto di lavoro; segnala le deficienze di mezzi e DPI e, se necessario, interrompe temporaneamente l'attività. Il preposto deve frequentare un corso di dodici ore, interamente in presenza, con aggiornamento ogni due anni.",
+     "nar": "L'articolo 19, riformato nel 2021, ha rafforzato la funzione del preposto. Il preposto sovrintende e vigila sull'osservanza delle disposizioni e sull'uso dei dispositivi di protezione. In caso di comportamento non conforme, interviene impartendo le necessarie indicazioni di sicurezza; qualora la mancata attuazione persista, interrompe l'attività del lavoratore e informa i superiori diretti. Verifica che soltanto i lavoratori adeguatamente istruiti accedano alle zone a rischio grave e specifico; in caso di pericolo grave e immediato impartisce le istruzioni per l'abbandono del posto di lavoro; segnala le deficienze dei mezzi e dei DPI e, ove necessario, interrompe temporaneamente l'attività. Il preposto è tenuto a frequentare un corso di dodici ore, interamente in presenza, con aggiornamento biennale.",
      "p": 2
     },
     {
@@ -1148,7 +1148,7 @@ window.CORSO = {
        "Nei lavori in appalto o subappalto esporre la tessera di riconoscimento"
       ]
      ],
-     "nar": "L'articolo 20 è dedicato a te. Il primo comma fissa un principio: ogni lavoratore deve prendersi cura della propria salute e sicurezza e di quella delle altre persone presenti sul luogo di lavoro su cui ricadono gli effetti delle sue azioni o omissioni. Il lavoratore deve osservare le disposizioni, usare correttamente attrezzature, sostanze e DPI, segnalare immediatamente deficienze e pericoli, non rimuovere né modificare i dispositivi di sicurezza, non compiere manovre che non sono di sua competenza, partecipare alla formazione e sottoporsi ai controlli sanitari. Nei lavori in appalto deve esporre la tessera di riconoscimento.",
+     "nar": "L'articolo 20 disciplina gli obblighi dei lavoratori. Il primo comma enuncia un principio generale: ciascun lavoratore deve prendersi cura della propria salute e sicurezza e di quella delle altre persone presenti sul luogo di lavoro, su cui ricadono gli effetti delle sue azioni od omissioni. Il lavoratore deve osservare le disposizioni impartite; utilizzare correttamente attrezzature, sostanze e DPI; segnalare immediatamente deficienze e situazioni di pericolo; non rimuovere né modificare i dispositivi di sicurezza; non compiere operazioni che non siano di sua competenza; partecipare ai programmi di formazione e sottoporsi ai controlli sanitari. Nei lavori in appalto deve esporre la tessera di riconoscimento.",
      "p": 2
     },
     {
@@ -1162,7 +1162,7 @@ window.CORSO = {
       "Devono munirsi di tessera di riconoscimento quando operano in appalto o subappalto",
       "Hanno facoltà, a proprie spese, di beneficiare della sorveglianza sanitaria e di partecipare a corsi di formazione specifici"
      ],
-     "nar": "L'articolo 21 riguarda i componenti dell'impresa familiare e i lavoratori autonomi, come artigiani e piccoli commercianti. Anche loro devono utilizzare attrezzature conformi, munirsi dei dispositivi di protezione e usarli correttamente, ed esporre la tessera di riconoscimento negli appalti. Hanno inoltre la facoltà, a proprie spese, di sottoporsi alla sorveglianza sanitaria e di partecipare a corsi di formazione.",
+     "nar": "L'articolo 21 riguarda i componenti dell'impresa familiare e i lavoratori autonomi, quali artigiani e piccoli commercianti. Anch'essi devono utilizzare attrezzature conformi, munirsi dei dispositivi di protezione individuale e utilizzarli correttamente, ed esporre la tessera di riconoscimento nell'ambito degli appalti. Hanno inoltre facoltà, con oneri a proprio carico, di beneficiare della sorveglianza sanitaria e di partecipare a corsi di formazione.",
      "p": 1.1
     },
     {
@@ -1191,7 +1191,7 @@ window.CORSO = {
        "Entro 30 giorni da modifiche significative, infortuni significativi, risultati della sorveglianza sanitaria o evoluzione della tecnica"
       ]
      ],
-     "nar": "Il documento di valutazione dei rischi, il DVR, è il cuore della prevenzione aziendale. Contiene la relazione sulla valutazione e i criteri adottati, le misure di prevenzione e protezione e i DPI, il programma di miglioramento, le procedure e i ruoli, i nominativi di RSPP, RLS e medico competente, e l'individuazione delle mansioni a rischio specifico. Ha data certa, attestata dalla firma di datore di lavoro, RSPP, RLS e medico competente. Va rielaborato quando cambiano i processi o l'organizzazione, dopo infortuni significativi o quando i risultati della sorveglianza sanitaria lo richiedono, entro trenta giorni.",
+     "nar": "Il documento di valutazione dei rischi, o DVR, costituisce il fulcro della prevenzione aziendale. Contiene la relazione sulla valutazione e i criteri adottati, le misure di prevenzione e protezione e i DPI, il programma di miglioramento, le procedure e i ruoli, i nominativi dell'RSPP, dell'RLS e del medico competente, nonché l'individuazione delle mansioni che espongono a rischi specifici. Ha data certa, attestata dalla sottoscrizione del datore di lavoro, dell'RSPP, dell'RLS e del medico competente. Deve essere rielaborato entro trenta giorni in occasione di modifiche del processo produttivo o dell'organizzazione, a seguito di infortuni significativi o quando i risultati della sorveglianza sanitaria ne evidenzino la necessità.",
      "p": 1.6
     },
     {
@@ -1226,7 +1226,7 @@ window.CORSO = {
       ]
      ],
      "nota": "I componenti del servizio sono tenuti al segreto sui processi lavorativi di cui vengono a conoscenza. Nei casi previsti dall'Allegato II il datore di lavoro può svolgere direttamente i compiti dell'RSPP, previa formazione specifica (art. 34).",
-     "nar": "Il servizio di prevenzione e protezione può essere interno o esterno all'azienda. I suoi compiti, elencati nell'articolo 33, sono di natura tecnica e consultiva: individuare e valutare i rischi, elaborare le misure e le procedure di sicurezza, proporre i programmi di formazione, partecipare alla riunione periodica e fornire le informazioni ai lavoratori. Nelle realtà indicate dall'allegato secondo, il datore di lavoro può svolgere direttamente i compiti dell'RSPP, dopo aver frequentato una formazione specifica.",
+     "nar": "Il servizio di prevenzione e protezione può essere interno o esterno all'azienda. I suoi compiti, elencati dall'articolo 33, hanno natura tecnica e consultiva: individuare e valutare i rischi, elaborare le misure e le procedure di sicurezza, proporre i programmi di formazione, partecipare alla riunione periodica e fornire le informazioni ai lavoratori. Nei casi indicati dall'allegato secondo, il datore di lavoro può svolgere direttamente i compiti dell'RSPP, previa frequenza di una formazione specifica.",
      "p": 1.3
     },
     {
@@ -1243,7 +1243,7 @@ window.CORSO = {
       "Le visite non possono essere effettuate per accertare stati di gravidanza o negli altri casi vietati dalla legge"
      ],
      "appro": "Giudizi di idoneità (art. 41, c. 6): idoneità; idoneità parziale, temporanea o permanente, con prescrizioni o limitazioni; inidoneità temporanea, con indicazione dei limiti temporali; inidoneità permanente. Il giudizio è comunicato per iscritto al lavoratore e al datore di lavoro. Contro il giudizio è ammesso ricorso all'organo di vigilanza territorialmente competente entro 30 giorni dalla comunicazione. Il medico competente, tra l'altro, visita gli ambienti di lavoro almeno una volta l'anno o con cadenza diversa stabilita in base alla valutazione dei rischi (art. 25).",
-     "nar": "Il medico competente collabora alla valutazione dei rischi ed effettua la sorveglianza sanitaria, che comprende diversi tipi di visita: preventiva, anche prima dell'assunzione; periodica, di norma annuale; su richiesta del lavoratore; al cambio di mansione; alla cessazione del rapporto nei casi previsti; e prima della ripresa del lavoro dopo un'assenza per motivi di salute superiore a sessanta giorni continuativi, se il medico la ritiene necessaria. Al termine della visita il medico esprime un giudizio di idoneità alla mansione, comunicato per iscritto. Contro il giudizio il lavoratore può ricorrere all'organo di vigilanza entro trenta giorni. Le visite non possono mai servire ad accertare uno stato di gravidanza.",
+     "nar": "Il medico competente collabora alla valutazione dei rischi ed effettua la sorveglianza sanitaria, che comprende diverse tipologie di visita: preventiva, anche in fase preassuntiva; periodica, di norma annuale; su richiesta del lavoratore; in occasione del cambio di mansione; alla cessazione del rapporto, nei casi previsti; precedente alla ripresa del lavoro dopo un'assenza per motivi di salute superiore a sessanta giorni continuativi. Al termine della visita il medico esprime per iscritto il giudizio di idoneità alla mansione, avverso il quale il lavoratore può proporre ricorso all'organo di vigilanza entro trenta giorni. Le visite non possono in alcun caso essere effettuate per accertare stati di gravidanza.",
      "p": 2
     },
     {
@@ -1259,7 +1259,7 @@ window.CORSO = {
       "Si possono individuare codici di comportamento, buone prassi e obiettivi di miglioramento",
       "Della riunione è redatto un verbale a disposizione dei partecipanti"
      ],
-     "nar": "Nelle aziende con più di quindici lavoratori il datore di lavoro convoca, almeno una volta l'anno, la riunione periodica. Vi partecipano il datore di lavoro, l'RSPP, il medico competente e l'RLS. Si esaminano il documento di valutazione dei rischi, l'andamento degli infortuni, delle malattie professionali e della sorveglianza sanitaria, l'efficacia dei DPI e i programmi di formazione. È anche l'occasione per definire buone prassi e obiettivi di miglioramento. Della riunione si redige un verbale. Nelle aziende più piccole l'RLS può chiederne la convocazione in presenza di significative variazioni delle condizioni di rischio.",
+     "nar": "Nelle aziende e unità produttive che occupano più di quindici lavoratori il datore di lavoro indice, almeno una volta all'anno, la riunione periodica, cui partecipano il datore di lavoro, l'RSPP, il medico competente e l'RLS. Sono esaminati il documento di valutazione dei rischi, l'andamento degli infortuni, delle malattie professionali e della sorveglianza sanitaria, l'efficacia dei DPI e i programmi di formazione; la riunione è altresì occasione per definire buone prassi e obiettivi di miglioramento. Della riunione è redatto verbale. Nelle realtà di minori dimensioni l'RLS può chiederne la convocazione in presenza di significative variazioni delle condizioni di rischio.",
      "p": 1.3
     },
     {
@@ -1293,7 +1293,7 @@ window.CORSO = {
        "Il contenuto dell'informazione deve essere facilmente comprensibile; per i lavoratori immigrati è preceduto dalla verifica della comprensione della lingua"
       ]
      ],
-     "nar": "L'articolo 36 stabilisce che ogni lavoratore deve ricevere un'informazione adeguata: sui rischi dell'attività dell'impresa in generale e su quelli specifici della propria mansione, sulle sostanze pericolose che utilizza, sulle procedure di primo soccorso, antincendio ed evacuazione, sui nominativi degli addetti alle emergenze, dell'RSPP e del medico competente. L'informazione deve essere facilmente comprensibile e, per i lavoratori provenienti da altri Paesi, deve essere preceduta dalla verifica della comprensione della lingua.",
+     "nar": "L'articolo 36 stabilisce che ciascun lavoratore riceva un'adeguata informazione: sui rischi connessi all'attività dell'impresa in generale e su quelli specifici della mansione, sulle sostanze pericolose impiegate, sulle procedure di primo soccorso, antincendio ed evacuazione, sui nominativi degli addetti alle emergenze, dell'RSPP e del medico competente. L'informazione deve essere facilmente comprensibile e, per i lavoratori provenienti da altri Paesi, è preceduta dalla verifica della comprensione della lingua.",
      "p": 1.3
     },
     {
@@ -1331,7 +1331,7 @@ window.CORSO = {
       ]
      ],
      "appro": "Lavoratori secondo l'Accordo 2025: formazione generale di 4 ore, credito formativo permanente, erogabile anche in e-learning; formazione specifica di 4, 8 o 12 ore secondo la classe di rischio (basso, medio, alto); aggiornamento di 6 ore ogni 5 anni. La formazione specifica per i rischi medio e alto non è erogabile in modalità e-learning.",
-     "nar": "L'articolo 37 disciplina la formazione. Il datore di lavoro deve assicurare a ogni lavoratore una formazione sufficiente e adeguata: una parte generale, quella che stai seguendo, sui concetti di rischio, sull'organizzazione della prevenzione, su diritti e doveri e sugli organi di vigilanza; e una parte specifica sui rischi della mansione e del settore. Durata e contenuti sono fissati dall'Accordo Stato-Regioni del 17 aprile 2025: quattro ore di formazione generale, da quattro a dodici ore di formazione specifica secondo la classe di rischio, e un aggiornamento di sei ore ogni cinque anni. La formazione si svolge durante l'orario di lavoro e senza costi per il lavoratore, all'assunzione, al cambio di mansione e all'introduzione di nuove attrezzature o sostanze.",
+     "nar": "L'articolo 37 disciplina la formazione. Il datore di lavoro assicura a ciascun lavoratore una formazione sufficiente e adeguata, articolata in una parte generale, cui afferisce il presente corso, relativa ai concetti di rischio, all'organizzazione della prevenzione, ai diritti e doveri e agli organi di vigilanza, e in una parte specifica, relativa ai rischi della mansione e del settore. Durata e contenuti sono fissati dall'Accordo Stato-Regioni del 17 aprile 2025: quattro ore di formazione generale, da quattro a dodici ore di formazione specifica in funzione della classe di rischio, e un aggiornamento di sei ore ogni cinque anni. La formazione si svolge durante l'orario di lavoro, senza oneri per il lavoratore, in occasione dell'assunzione, del cambio di mansione e dell'introduzione di nuove attrezzature o sostanze.",
      "p": 2
     },
     {
@@ -1349,7 +1349,7 @@ window.CORSO = {
      ],
      "appro": "Le FAQ ministeriali n. 9 e n. 32 del 27/03/2026 chiariscono che, nel regime dell’Accordo 2025, la formazione va erogata in occasione dell’assunzione e non entro un termine successivo. I dati della formazione sono registrati nel fascicolo elettronico del lavoratore (art. 37, c. 14, come modificato dal D.L. 159/2025, convertito dalla L. 198/2025), che sostituisce il libretto formativo del cittadino.",
      "rif": "Art. 37, cc. 4, 12, 13, 14 D.lgs. 81/2008 · Accordo Stato-Regioni 17/04/2025, Parte I · FAQ Ministero del Lavoro 27/03/2026",
-     "nar": "Vediamo quando e come si svolge la formazione. È un obbligo del datore di lavoro, si svolge durante l’orario di lavoro e non costa nulla al lavoratore. Va erogata al momento dell’assunzione, del trasferimento o del cambio di mansione e quando si introducono nuove attrezzature o sostanze. Per accedere alla verifica finale serve la frequenza di almeno il novanta per cento delle ore; per i lavoratori il test comprende almeno trenta domande sull’intero percorso. Per i lavoratori stranieri occorre prima verificare la comprensione della lingua. Infine il datore di lavoro deve verificare che la formazione sia efficace, cioè che si traduca in comportamenti sicuri.",
+     "nar": "Si precisano tempi e modalità della formazione. Essa costituisce un obbligo del datore di lavoro, si svolge durante l'orario di lavoro e non comporta oneri per il lavoratore. Deve essere erogata all'atto dell'assunzione, del trasferimento o del cambio di mansione e in occasione dell'introduzione di nuove attrezzature o sostanze. L'ammissione alla verifica finale richiede la frequenza di almeno il novanta per cento del monte ore; per i lavoratori il test comprende almeno trenta domande sull'intero percorso. Per i lavoratori stranieri è preliminarmente verificata la comprensione della lingua. Il datore di lavoro verifica infine l'efficacia della formazione, ossia la sua effettiva traduzione in comportamenti sicuri.",
      "p": 1.4
     },
     {
@@ -1363,7 +1363,7 @@ window.CORSO = {
       "Il piano di emergenza ed evacuazione indica percorsi, punti di raccolta, compiti e procedure; le esercitazioni sono periodiche",
       "Formazione degli addetti antincendio: livelli 1, 2 e 3 (D.M. 2 settembre 2021); primo soccorso: aziende di gruppo A, B e C (D.M. 388/2003)"
      ],
-     "nar": "Ogni azienda deve essere pronta a gestire un'emergenza. Il datore di lavoro organizza i rapporti con i servizi pubblici di soccorso, designa gli addetti alla prevenzione incendi, all'evacuazione e al primo soccorso e li fa formare. I lavoratori designati non possono rifiutare l'incarico se non per giustificato motivo. Il piano di emergenza indica i percorsi di esodo, i punti di raccolta e i compiti di ciascuno, e viene messo alla prova con esercitazioni periodiche. Ogni lavoratore deve conoscere il piano, i nominativi degli addetti e il punto di raccolta.",
+     "nar": "Ogni azienda deve essere in grado di gestire le situazioni di emergenza. Il datore di lavoro organizza i rapporti con i servizi pubblici di soccorso, designa gli addetti alla prevenzione incendi, all'evacuazione e al primo soccorso e ne cura la formazione. I lavoratori designati non possono rifiutare l'incarico se non per giustificato motivo. Il piano di emergenza indica i percorsi di esodo, i punti di raccolta e i compiti di ciascuno ed è verificato mediante esercitazioni periodiche. Ogni lavoratore è tenuto a conoscere il piano, i nominativi degli addetti e il punto di raccolta.",
      "p": 1.4
     },
     {
@@ -1378,7 +1378,7 @@ window.CORSO = {
       "RLS di sito produttivo nei contesti con più aziende e rischi interferenti (porti, grandi cantieri, centri intermodali, art. 49)",
       "Formazione: 32 ore iniziali e aggiornamento annuale (art. 37, c. 10-11)"
      ],
-     "nar": "Il rappresentante dei lavoratori per la sicurezza è presente in tutte le aziende. Nelle aziende fino a quindici lavoratori è eletto direttamente dai lavoratori al loro interno, oppure è individuato a livello territoriale o di comparto: in questo caso si parla di RLST, rappresentante territoriale. Nelle aziende con più di quindici lavoratori è eletto o designato nell'ambito delle rappresentanze sindacali; in mancanza, è eletto dai lavoratori. Il numero minimo è di uno fino a duecento lavoratori, tre fino a mille, sei oltre mille. Nei grandi siti con più aziende, come porti e grandi cantieri, è previsto l'RLS di sito produttivo.",
+     "nar": "Il rappresentante dei lavoratori per la sicurezza è previsto in tutte le aziende. Nelle aziende che occupano fino a quindici lavoratori è eletto direttamente dai lavoratori al loro interno oppure è individuato a livello territoriale o di comparto, assumendo in tal caso la denominazione di RLST, rappresentante territoriale. Nelle aziende con più di quindici lavoratori è eletto o designato nell'ambito delle rappresentanze sindacali; in loro assenza, è eletto dai lavoratori. Il numero minimo è di un rappresentante fino a duecento lavoratori, tre fino a mille e sei oltre i mille. Nei siti produttivi complessi, quali porti e grandi cantieri, è previsto l'RLS di sito produttivo.",
      "p": 1.5
     },
     {
@@ -1431,7 +1431,7 @@ window.CORSO = {
        "È tenuto al segreto in ordine ai processi lavorativi e al rispetto della riservatezza sul DVR"
       ]
      ],
-     "nar": "L'articolo 50 elenca le attribuzioni dell'RLS. Il rappresentante accede ai luoghi di lavoro; è consultato preventivamente sulla valutazione dei rischi, sulla designazione dell'RSPP, del medico competente e degli addetti alle emergenze, e sull'organizzazione della formazione; riceve la documentazione aziendale, compresa la copia del DVR; partecipa alla riunione periodica; formula proposte e osservazioni e, se ritiene che le misure non siano idonee, può fare ricorso alle autorità competenti. Deve avere il tempo e i mezzi necessari, senza perdita di retribuzione, e non può subire alcun pregiudizio a causa della sua attività. È tenuto al segreto sui processi lavorativi.",
+     "nar": "L'articolo 50 definisce le attribuzioni dell'RLS. Il rappresentante accede ai luoghi di lavoro; è consultato preventivamente sulla valutazione dei rischi, sulla designazione dell'RSPP, del medico competente e degli addetti alle emergenze e sull'organizzazione della formazione; riceve la documentazione aziendale, compresa copia del DVR; partecipa alla riunione periodica; formula proposte e osservazioni e, qualora ritenga le misure non idonee, può fare ricorso alle autorità competenti. Deve disporre del tempo e dei mezzi necessari, senza perdita di retribuzione, e non può subire pregiudizio alcuno a causa dello svolgimento della propria attività. È tenuto al segreto sui processi lavorativi.",
      "p": 1.7
     },
     {
@@ -1464,7 +1464,7 @@ window.CORSO = {
        "Segnala immediatamente le condizioni di pericolo"
       ]
      ],
-     "nar": "Quarta esercitazione. Per ciascuna figura della prevenzione scegli, dal menu a tendina, il compito che le corrisponde. Quando hai completato tutti gli abbinamenti premi Verifica.",
+     "nar": "Quarta esercitazione. A ciascuna figura della prevenzione va associato, mediante il menu a tendina, il compito corrispondente; completati gli abbinamenti, si preme Verifica.",
      "p": 1.6
     },
     {
@@ -1494,7 +1494,7 @@ window.CORSO = {
        "No: il preposto non deve sostituirsi al lavoratore, ma far rispettare le disposizioni."
       ]
      ],
-     "nar": "Quinta esercitazione: un altro caso pratico. Leggi la situazione del preposto Marco e scegli il comportamento corretto, alla luce dell'articolo 19 riformato nel 2021.",
+     "nar": "Quinta esercitazione: analisi di un caso. Esaminata la situazione del preposto Marco, si individui la condotta conforme all'articolo 19, come riformato nel 2021.",
      "p": 1.3
     },
     {
@@ -1508,7 +1508,7 @@ window.CORSO = {
       "Il lavoratore si prende cura di sé e degli altri (art. 20)",
       "Informazione, formazione, sorveglianza sanitaria, riunione periodica, emergenze e RLS completano il sistema"
      ],
-     "nar": "Ricapitoliamo il secondo modulo. Le figure della prevenzione sono definite dall'articolo 2 e conta ciò che ciascuno fa in concreto. La valutazione dei rischi e la nomina dell'RSPP non sono delegabili; gli altri obblighi possono essere delegati alle condizioni dell'articolo 16. Il preposto vigila, interviene e, se serve, interrompe l'attività. Il lavoratore si prende cura di sé e degli altri. Informazione, formazione, sorveglianza sanitaria, riunione periodica, gestione delle emergenze e rappresentanza dei lavoratori completano il sistema. Ora la verifica intermedia.",
+     "nar": "In sintesi: le figure della prevenzione sono definite dall'articolo 2 e rileva la funzione concretamente esercitata. La valutazione dei rischi e la designazione dell'RSPP non sono delegabili; gli altri obblighi possono essere delegati alle condizioni dell'articolo 16. Il preposto vigila, interviene e, ove necessario, interrompe l'attività. Il lavoratore ha cura della propria salute e sicurezza e di quella altrui. Informazione, formazione, sorveglianza sanitaria, riunione periodica, gestione delle emergenze e rappresentanza dei lavoratori completano il sistema. Segue la verifica intermedia.",
      "p": 1
     },
     {
@@ -1594,7 +1594,7 @@ window.CORSO = {
        "Accordo Stato-Regioni 17/04/2025, Parte I."
       ]
      ],
-     "nar": "Verifica intermedia del secondo modulo. Rispondi alle cinque domande: per proseguire servono almeno quattro risposte corrette.",
+     "nar": "Verifica intermedia del secondo modulo. Sono proposte cinque domande; per proseguire occorrono almeno quattro risposte corrette.",
      "p": 1.5
     }
    ]
@@ -1609,7 +1609,7 @@ window.CORSO = {
      "t": "sezione",
      "tit": "Modulo 3",
      "sott": "Diritti, doveri e sanzioni per i vari soggetti aziendali",
-     "nar": "Modulo tre. Dopo aver conosciuto le figure, approfondiamo i diritti dei lavoratori, i doveri di ciascun soggetto e il sistema delle responsabilità e delle sanzioni.",
+     "nar": "Modulo tre. Definite le figure della prevenzione, il modulo approfondisce i diritti dei lavoratori, i doveri dei singoli soggetti e il sistema delle responsabilità e delle sanzioni.",
      "p": 0.6
     },
     {
@@ -1648,7 +1648,7 @@ window.CORSO = {
        "Non subire pregiudizi per aver segnalato pericoli o per aver adottato misure in caso di pericolo grave (art. 44)."
       ]
      ],
-     "nar": "Ogni lavoratore ha diritti precisi in materia di sicurezza: ricevere formazione e informazione, durante l'orario di lavoro e gratuitamente; ricevere gratuitamente i dispositivi di protezione e lavorare con attrezzature conformi; essere sottoposto alla sorveglianza sanitaria e poter ricorrere contro il giudizio di idoneità; eleggere il proprio rappresentante per la sicurezza; allontanarsi in caso di pericolo grave e immediato; non subire ritorsioni per aver segnalato un pericolo. Seleziona ciascun diritto per approfondirlo.",
+     "nar": "Il lavoratore è titolare di diritti precisi in materia di sicurezza: ricevere formazione e informazione durante l'orario di lavoro e senza oneri; ricevere gratuitamente i dispositivi di protezione e operare con attrezzature conformi; essere sottoposto alla sorveglianza sanitaria e proporre ricorso avverso il giudizio di idoneità; eleggere il proprio rappresentante per la sicurezza; allontanarsi in caso di pericolo grave e immediato; non subire ritorsioni per aver segnalato un pericolo. Ciascun diritto è approfondito nella relativa scheda.",
      "p": 1.6
     },
     {
@@ -1657,7 +1657,7 @@ window.CORSO = {
      "rif": "Art. 44 D.lgs. 81/2008",
      "testo": "Il lavoratore che, in caso di pericolo grave, immediato e che non può essere evitato, si allontana dal posto di lavoro o da una zona pericolosa, non può subire pregiudizio alcuno e deve essere protetto da qualsiasi conseguenza dannosa.",
      "appro": "Il comma 2 aggiunge che il lavoratore che, in caso di pericolo grave e immediato e nell'impossibilità di contattare il competente superiore gerarchico, prende misure per evitare le conseguenze di tale pericolo, non può subire pregiudizio per tale azione, a meno che non abbia commesso una grave negligenza. Collegati: art. 18, c. 1, lett. h) e m); art. 19, c. 1, lett. c) ed e); art. 43.",
-     "nar": "L'articolo 44 tutela un diritto fondamentale. Se si presenta un pericolo grave, immediato e inevitabile, il lavoratore può allontanarsi dal posto di lavoro o dalla zona pericolosa senza subire alcun pregiudizio. E se, non potendo contattare il superiore, adotta lui stesso misure per evitare le conseguenze del pericolo, non può essere penalizzato, a meno che non abbia commesso una grave negligenza. A questo diritto corrispondono gli obblighi del datore di lavoro e del preposto di dare istruzioni per abbandonare il posto di lavoro e di non chiedere di riprendere l'attività finché il pericolo persiste.",
+     "nar": "L'articolo 44 tutela un diritto fondamentale. In presenza di un pericolo grave, immediato e che non può essere evitato, il lavoratore che si allontana dal posto di lavoro o da una zona pericolosa non può subire pregiudizio alcuno. Qualora, nell'impossibilità di contattare il superiore gerarchico, adotti egli stesso misure per evitare le conseguenze del pericolo, non può essere penalizzato, salvo che abbia commesso una grave negligenza. A tale diritto corrispondono gli obblighi del datore di lavoro e del preposto di impartire le istruzioni per l'abbandono del posto di lavoro e di astenersi dal richiedere la ripresa dell'attività finché il pericolo persiste.",
      "p": 1.3
     },
     {
@@ -1671,7 +1671,7 @@ window.CORSO = {
       "Principio di effettività (art. 299): rileva chi esercita in concreto i poteri, anche senza investitura formale",
       "Il comportamento imprudente del lavoratore esclude la responsabilità del garante solo se abnorme, eccezionale e imprevedibile"
      ],
-     "nar": "Per capire il sistema delle responsabilità occorre conoscere la posizione di garanzia. Il codice penale stabilisce che non impedire un evento che si ha l'obbligo giuridico di impedire equivale a cagionarlo. Il codice civile, all'articolo 2087, obbliga l'imprenditore ad adottare tutte le misure necessarie a tutelare l'integrità fisica e la personalità morale dei lavoratori. Datore di lavoro, dirigente e preposto sono titolari di posizioni di garanzia, ciascuno nei limiti dei propri poteri. Secondo la giurisprudenza, il comportamento imprudente del lavoratore esclude la responsabilità di chi doveva vigilare solo se è abnorme, eccezionale e imprevedibile.",
+     "nar": "La comprensione del sistema delle responsabilità presuppone la nozione di posizione di garanzia. Il codice penale stabilisce che non impedire un evento che si ha l'obbligo giuridico di impedire equivale a cagionarlo. Il codice civile, all'articolo 2087, obbliga l'imprenditore ad adottare tutte le misure necessarie a tutelare l'integrità fisica e la personalità morale dei prestatori di lavoro. Datore di lavoro, dirigente e preposto sono titolari di posizioni di garanzia, ciascuno nei limiti dei propri poteri. Secondo la giurisprudenza, la condotta imprudente del lavoratore esclude la responsabilità del garante soltanto se abnorme, eccezionale e imprevedibile.",
      "p": 1.5
     },
     {
@@ -1688,7 +1688,7 @@ window.CORSO = {
      ],
      "appro": "Il principio dell’area di rischio supera la nozione tradizionale di condotta «eccezionale e imprevedibile»: ciò che rileva è se il comportamento del lavoratore, pur imprudente, si colloca all’interno dell’attività lavorativa assegnata e dei rischi che il garante era chiamato a prevenire. Se sì, l’evento resta imputabile a chi aveva l’obbligo di impedirlo (art. 40, c. 2, c.p.). La condotta può assumere rilievo, sul piano civilistico, come concorso di colpa.",
      "rif": "Art. 40, c. 2, c.p. · art. 2087 c.c. · Cass. pen., Sez. IV, nn. 10460/2025 e 23320/2025",
-     "nar": "Una domanda ricorrente è questa: se il lavoratore è imprudente, il datore di lavoro risponde comunque? La Corte di Cassazione ha fissato un criterio rigoroso. La condotta del lavoratore esclude la responsabilità del garante solo se è abnorme, cioè se crea un rischio del tutto estraneo all’attività affidata. Se invece il lavoratore sbaglia mentre svolge il proprio lavoro, quell’errore rientra tra i rischi che la prevenzione doveva governare. Nel 2025, ad esempio, la Corte ha confermato la responsabilità per l’infortunio di un apprendista che puliva un filtro con il boccaporto aperto, secondo una prassi tollerata in azienda.",
+     "nar": "Si pone di frequente la questione se il datore di lavoro risponda dell'imprudenza del lavoratore. La Corte di Cassazione ha fissato un criterio rigoroso: la condotta del lavoratore esclude la responsabilità del garante soltanto se abnorme, ossia se introduce un rischio del tutto estraneo all'attività affidata. L'errore commesso nello svolgimento della propria mansione rientra invece tra i rischi che la prevenzione è chiamata a governare. Nel 2025, ad esempio, la Corte ha confermato la responsabilità per l'infortunio di un apprendista che puliva un filtro con il boccaporto aperto, secondo una prassi tollerata in azienda.",
      "p": 1.5
     },
     {
@@ -1715,7 +1715,7 @@ window.CORSO = {
      ],
      "appro": "L’addestramento (art. 2, c. 1, lett. cc) è svolto da persona esperta e sul luogo di lavoro, ma è un segmento formale e tracciato del percorso: integra la formazione, non la sostituisce. Per le attrezzature che richiedono conoscenze particolari l’art. 73, c. 4 impone formazione, informazione e addestramento adeguati e specifici.",
      "rif": "Artt. 2, 36, 37, 73 D.lgs. 81/2008 · Cass. pen., Sez. IV, n. 22843/2025",
-     "nar": "Esercitazione. Leggi il caso del neoassunto e della troncatrice e scegli la risposta corretta, ricordando il criterio dell’area di rischio appena studiato.",
+     "nar": "Esercitazione. Esaminato il caso del neoassunto e della troncatrice, si individui la risposta corretta alla luce del criterio dell'area di rischio appena illustrato.",
      "p": 1.3
     },
     {
@@ -1741,7 +1741,7 @@ window.CORSO = {
        "Azione di regresso dell'INAIL"
       ]
      },
-     "nar": "Le violazioni delle norme di sicurezza possono generare diverse responsabilità. La persona fisica risponde delle contravvenzioni previste dal decreto, punite con l'arresto o l'ammenda, e, se si verifica un infortunio, dei reati di omicidio colposo o di lesioni personali colpose, aggravati dalla violazione delle norme di prevenzione. C'è poi la responsabilità civile, con il risarcimento del danno, e quella disciplinare del lavoratore. L'impresa, come ente, risponde ai sensi del decreto 231 del 2001 per omicidio colposo e lesioni gravi o gravissime commessi in violazione delle norme di sicurezza; può evitarlo adottando ed attuando efficacemente un modello di organizzazione e gestione conforme all'articolo 30.",
+     "nar": "La violazione delle norme di sicurezza può generare diverse forme di responsabilità. La persona fisica risponde delle contravvenzioni previste dal decreto, punite con l'arresto o con l'ammenda, e, in caso di infortunio, dei delitti di omicidio colposo o di lesioni personali colpose, aggravati dalla violazione delle norme per la prevenzione degli infortuni. Si aggiungono la responsabilità civile, con l'obbligo di risarcimento del danno, e la responsabilità disciplinare del lavoratore. L'ente risponde, ai sensi del decreto legislativo 231 del 2001, dei reati di omicidio colposo e di lesioni gravi o gravissime commessi con violazione delle norme di sicurezza; tale responsabilità può essere esclusa mediante l'adozione e l'efficace attuazione di un modello di organizzazione e gestione conforme all'articolo 30.",
      "p": 1.6
     },
     {
@@ -1755,7 +1755,7 @@ window.CORSO = {
       "Prevede un sistema disciplinare idoneo a sanzionare il mancato rispetto delle misure",
       "Si presume conforme, per le parti corrispondenti, se definito secondo le Linee guida UNI-INAIL o la norma UNI EN ISO 45001"
      ],
-     "nar": "Il modello di organizzazione e gestione è definito dall'articolo 2 e disciplinato dall'articolo 30. È un sistema che assicura il rispetto di tutti gli obblighi di sicurezza: dagli standard delle attrezzature e dei luoghi di lavoro alla valutazione dei rischi, dalle emergenze agli appalti, dalla formazione alla vigilanza. Deve prevedere registrazioni, verifiche periodiche e un sistema disciplinare. Se è adottato ed efficacemente attuato, protegge l'impresa dalla responsabilità prevista dal decreto 231. Si presume conforme, per le parti corrispondenti, se segue le linee guida UNI-INAIL o la norma UNI EN ISO 45001.",
+     "nar": "Il modello di organizzazione e gestione è definito dall'articolo 2 e disciplinato dall'articolo 30. Si tratta di un sistema volto ad assicurare l'adempimento di tutti gli obblighi di sicurezza: dagli standard tecnico-strutturali di attrezzature e luoghi di lavoro alla valutazione dei rischi, dalla gestione delle emergenze agli appalti, dalla formazione alla vigilanza. Deve prevedere idonei sistemi di registrazione, verifiche periodiche e un sistema disciplinare. Se adottato ed efficacemente attuato, ha efficacia esimente della responsabilità prevista dal decreto 231. Si presume conforme, per le parti corrispondenti, se definito secondo le linee guida UNI-INAIL o la norma UNI EN ISO 45001.",
      "p": 1.3
     },
     {
@@ -1795,7 +1795,7 @@ window.CORSO = {
       ]
      ],
      "appro": "Gli importi delle ammende e delle sanzioni amministrative sono rivalutati periodicamente (art. 306, c. 4-bis). Il decreto distingue le sanzioni per ciascun soggetto in proporzione ai poteri e alle responsabilità.",
-     "nar": "Il decreto prevede sanzioni per ciascun soggetto, in proporzione ai suoi poteri. Datori di lavoro e dirigenti rispondono con l'arresto o l'ammenda per la violazione dei propri obblighi: l'arresto è previsto, ad esempio, per l'omessa valutazione dei rischi. I preposti rispondono per la violazione dell'articolo 19, il medico competente per gli obblighi dell'articolo 25. Anche i lavoratori sono sanzionabili: l'articolo 59 prevede l'arresto fino a un mese o l'ammenda per chi, ad esempio, non utilizza i DPI o rimuove i dispositivi di sicurezza. Sono sanzionati anche i lavoratori autonomi e i progettisti, fabbricanti e fornitori di prodotti non conformi. Gli importi sono rivalutati periodicamente.",
+     "nar": "Il decreto prevede sanzioni per ciascun soggetto, in proporzione ai poteri attribuiti. Datori di lavoro e dirigenti rispondono con l'arresto o con l'ammenda della violazione dei propri obblighi; l'arresto è previsto, ad esempio, per l'omessa valutazione dei rischi. I preposti rispondono della violazione dell'articolo 19, il medico competente di quella dell'articolo 25. Sono sanzionabili anche i lavoratori: l'articolo 59 prevede l'arresto fino a un mese o l'ammenda per chi, ad esempio, non utilizza i DPI o rimuove i dispositivi di sicurezza. Sono altresì sanzionati i lavoratori autonomi e i progettisti, fabbricanti e fornitori di prodotti non conformi. Gli importi sono periodicamente rivalutati.",
      "p": 1.7
     },
     {
@@ -1824,7 +1824,7 @@ window.CORSO = {
        "Adempimento e pagamento estinguono il reato; in caso contrario il procedimento penale prosegue"
       ]
      ],
-     "nar": "Per le contravvenzioni in materia di sicurezza esiste un meccanismo particolare, la prescrizione, previsto dal decreto 758 del 1994. Quando l'organo di vigilanza accerta una violazione, impartisce una prescrizione con le misure da adottare e un termine. Se il contravventore regolarizza nei tempi e paga, entro trenta giorni, una somma pari a un quarto del massimo dell'ammenda, il reato si estingue. Se non adempie, il procedimento penale prosegue. È un sistema pensato per ottenere la messa in sicurezza, più che la sola punizione.",
+     "nar": "Per le contravvenzioni in materia di sicurezza opera un istituto specifico, la prescrizione, disciplinato dal decreto legislativo 758 del 1994. Accertata la violazione, l'organo di vigilanza impartisce una prescrizione che indica le misure da adottare e il termine per l'adempimento. Se il contravventore regolarizza nei termini e versa, entro trenta giorni, una somma pari a un quarto del massimo dell'ammenda, il reato si estingue; in caso contrario il procedimento penale prosegue. L'istituto è finalizzato a conseguire la messa in sicurezza, prima ancora che la sanzione.",
      "p": 1.3
     },
     {
@@ -1838,7 +1838,7 @@ window.CORSO = {
       "Canali di segnalazione: preposto, datore di lavoro, RLS, procedure aziendali e, ove previsti, canali riservati",
       "Chi segnala in buona fede deve essere protetto da ritorsioni"
      ],
-     "nar": "La Convenzione dell'Organizzazione internazionale del lavoro numero 190, ratificata dall'Italia con la legge numero 4 del 2021, riconosce il diritto di ogni persona a un mondo del lavoro libero da violenza e molestie. Si tratta di comportamenti, pratiche o minacce che causano o possono causare un danno fisico, psicologico, sessuale o economico. Sono un rischio da considerare nella valutazione, anche come fattore di stress lavoro-correlato. Chi subisce o assiste a questi comportamenti deve poterli segnalare in sicurezza, attraverso il preposto, il datore di lavoro, l'RLS o i canali previsti, senza subire ritorsioni.",
+     "nar": "La Convenzione dell'Organizzazione internazionale del lavoro numero 190, ratificata dall'Italia con la legge numero 4 del 2021, riconosce il diritto di ogni persona a un mondo del lavoro libero da violenza e molestie, ossia da comportamenti, pratiche o minacce che provocano o possono provocare un danno fisico, psicologico, sessuale o economico. Tali fenomeni costituiscono un rischio da considerare nella valutazione, anche quale fattore di stress lavoro-correlato. Chi li subisce o vi assiste deve poterli segnalare in condizioni di sicurezza, tramite il preposto, il datore di lavoro, l'RLS o i canali previsti, senza subire ritorsioni.",
      "p": 1.2
     },
     {
@@ -1877,7 +1877,7 @@ window.CORSO = {
        "Falso: art. 50, comma 2."
       ]
      ],
-     "nar": "Sesta esercitazione. Indica se le affermazioni sono vere o false e leggi le spiegazioni.",
+     "nar": "Sesta esercitazione. Ciascuna affermazione va qualificata come vera o falsa; a ogni risposta segue una spiegazione.",
      "p": 1.5
     },
     {
@@ -1907,7 +1907,7 @@ window.CORSO = {
        "No: la priorità è mettersi al sicuro e attivare l'emergenza."
       ]
      ],
-     "nar": "Settima esercitazione: un caso pratico sulla gestione di un pericolo grave e immediato. Scegli il comportamento corretto.",
+     "nar": "Settima esercitazione: analisi di un caso relativo alla gestione di un pericolo grave e immediato. Si individui la condotta corretta.",
      "p": 1.2
     },
     {
@@ -1920,7 +1920,7 @@ window.CORSO = {
       "Sanzioni per tutti i soggetti, lavoratori compresi (artt. 55-60)",
       "La prescrizione del D.lgs. 758/1994 punta alla regolarizzazione"
      ],
-     "nar": "Ricapitoliamo il terzo modulo. Il lavoratore ha diritti precisi, tra cui quello di allontanarsi dal pericolo grave. Datore di lavoro, dirigenti e preposti sono titolari di posizioni di garanzia. Le violazioni comportano responsabilità penali, civili, disciplinari e, per l'impresa, amministrative. Le sanzioni riguardano tutti i soggetti, lavoratori compresi. La prescrizione consente di estinguere il reato regolarizzando la situazione. Ora la verifica intermedia.",
+     "nar": "In sintesi: il lavoratore è titolare di diritti precisi, tra cui quello di allontanarsi in presenza di pericolo grave. Datore di lavoro, dirigenti e preposti sono titolari di posizioni di garanzia. Le violazioni comportano responsabilità penali, civili, disciplinari e, per l'ente, amministrative. Le sanzioni riguardano tutti i soggetti, lavoratori compresi. La prescrizione consente l'estinzione del reato previa regolarizzazione. Segue la verifica intermedia.",
      "p": 1
     },
     {
@@ -2006,7 +2006,7 @@ window.CORSO = {
        "Cass. pen., Sez. IV, n. 22843/2025."
       ]
      ],
-     "nar": "Verifica intermedia del terzo modulo: servono almeno quattro risposte corrette su cinque.",
+     "nar": "Verifica intermedia del terzo modulo: occorrono almeno quattro risposte corrette su cinque.",
      "p": 1.5
     }
    ]
@@ -2021,7 +2021,7 @@ window.CORSO = {
      "t": "sezione",
      "tit": "Modulo 4",
      "sott": "Organi di vigilanza, controllo e assistenza",
-     "nar": "Modulo quattro. Chi controlla l'applicazione delle norme di sicurezza, e chi aiuta le imprese e i lavoratori? Conosciamo gli organi di vigilanza, controllo e assistenza.",
+     "nar": "Modulo quattro. Il modulo esamina gli organi preposti alla vigilanza sull'applicazione delle norme di sicurezza e i soggetti che svolgono attività di assistenza a imprese e lavoratori.",
      "p": 0.6
     },
     {
@@ -2060,7 +2060,7 @@ window.CORSO = {
        "Programmazione e coordinamento delle attività di prevenzione; Comitato regionale di coordinamento (art. 7) e Commissione consultiva permanente (art. 6)."
       ]
      ],
-     "nar": "L'articolo 13 affida la vigilanza sull'applicazione delle norme di salute e sicurezza principalmente alle aziende sanitarie locali, attraverso i loro servizi di prevenzione. L'Ispettorato nazionale del lavoro ha competenze in materia di sicurezza su tutti i settori, in coordinamento con le ASL, e vigila sul lavoro irregolare. I Vigili del fuoco vigilano sulla prevenzione incendi. L'INAIL gestisce l'assicurazione obbligatoria e svolge attività di prevenzione, ricerca e sostegno alle imprese. Gli organismi paritetici, costituiti dalle associazioni dei datori di lavoro e dei lavoratori, supportano le imprese nella formazione e nelle buone prassi. Le Regioni programmano e coordinano la prevenzione. Seleziona ogni ente per approfondire.",
+     "nar": "L'articolo 13 affida la vigilanza sull'applicazione della normativa in materia di salute e sicurezza principalmente alle aziende sanitarie locali, mediante i rispettivi servizi di prevenzione. L'Ispettorato nazionale del lavoro esercita competenze in materia di sicurezza in tutti i settori, in coordinamento con le ASL, e vigila sul lavoro irregolare. I Vigili del fuoco vigilano in materia di prevenzione incendi. L'INAIL gestisce l'assicurazione obbligatoria e svolge attività di prevenzione, ricerca e sostegno alle imprese. Gli organismi paritetici, costituiti dalle associazioni dei datori di lavoro e dei lavoratori, supportano le imprese nella formazione e nell'individuazione di buone prassi. Le Regioni programmano e coordinano la prevenzione. Il ruolo di ciascun ente è approfondito nella relativa scheda.",
      "p": 2
     },
     {
@@ -2074,7 +2074,7 @@ window.CORSO = {
       "Svolgono inchieste sugli infortuni e sulle malattie professionali",
       "Forniscono anche informazione e assistenza a imprese e lavoratori, al di fuori dell'attività di vigilanza"
      ],
-     "nar": "Gli ispettori degli organi di vigilanza hanno la qualifica di ufficiali di polizia giudiziaria. Possono accedere ai luoghi di lavoro in qualsiasi momento, anche senza preavviso, esaminare la documentazione, come il DVR, le nomine e gli attestati di formazione, ascoltare i lavoratori e il loro rappresentante. Impartiscono prescrizioni, conducono le inchieste sugli infortuni e riferiscono all'autorità giudiziaria. Le ASL svolgono anche un'attività di informazione e assistenza a imprese e lavoratori. Durante un'ispezione è importante collaborare e fornire informazioni veritiere.",
+     "nar": "Il personale ispettivo degli organi di vigilanza riveste la qualifica di ufficiale di polizia giudiziaria. Può accedere ai luoghi di lavoro in qualsiasi momento, anche senza preavviso, esaminare la documentazione, quale il DVR, le nomine e gli attestati di formazione, e assumere informazioni dai lavoratori e dal loro rappresentante. Impartisce prescrizioni, svolge le inchieste sugli infortuni e riferisce all'autorità giudiziaria. Le ASL svolgono inoltre attività di informazione e assistenza a favore di imprese e lavoratori. Nel corso dell'ispezione è doveroso collaborare e fornire informazioni veritiere.",
      "p": 1.5
     },
     {
@@ -2089,7 +2089,7 @@ window.CORSO = {
       "Revoca: regolarizzazione dei lavoratori, ripristino delle condizioni di sicurezza e pagamento di una somma aggiuntiva",
       "Esempi di gravi violazioni (Allegato I): mancata elaborazione del DVR, mancata formazione e addestramento, mancata fornitura dei DPI contro le cadute dall'alto, mancata protezione contro il rischio di seppellimento o di elettrocuzione"
      ],
-     "nar": "L'articolo 14 prevede il provvedimento di sospensione dell'attività imprenditoriale. L'Ispettorato del lavoro, e per le materie di competenza anche le ASL, lo adottano quando trovano lavoratori irregolari oltre la soglia di legge, oppure gravi violazioni in materia di sicurezza, come la mancata elaborazione del DVR, la mancata formazione e addestramento, o l'assenza di protezioni contro le cadute dall'alto. La sospensione riguarda la parte dell'attività interessata e viene revocata solo dopo la regolarizzazione, il ripristino delle condizioni di sicurezza e il pagamento di una somma aggiuntiva.",
+     "nar": "L'articolo 14 disciplina il provvedimento di sospensione dell'attività imprenditoriale. L'Ispettorato del lavoro e, per le materie di competenza, le ASL lo adottano in presenza di lavoratori irregolari oltre la soglia di legge oppure di gravi violazioni in materia di sicurezza, quali la mancata elaborazione del DVR, l'omessa formazione e addestramento o l'assenza di protezioni contro le cadute dall'alto. La sospensione riguarda la parte dell'attività interessata dalle violazioni ed è revocata soltanto a seguito della regolarizzazione, del ripristino delle condizioni di sicurezza e del pagamento di una somma aggiuntiva.",
      "p": 1.3
     },
     {
@@ -2106,7 +2106,7 @@ window.CORSO = {
      ],
      "appro": "La patente a crediti è rilasciata in formato digitale dall’Ispettorato Nazionale del Lavoro tramite il portale dedicato; le regole di attribuzione e decurtazione dei crediti sono definite dall’art. 27 e dal D.M. 18 settembre 2024, n. 132. Operare in cantiere senza patente o con meno di 15 crediti comporta una sanzione amministrativa e l’esclusione dalla partecipazione ai lavori pubblici per sei mesi.",
      "rif": "Art. 27 D.lgs. 81/2008 · D.L. 19/2024 conv. L. 56/2024 · D.M. 132/2024 · D.L. 159/2025 conv. L. 198/2025 · Circolare INL n. 1/2026",
-     "nar": "Gli strumenti di controllo si sono rafforzati negli ultimi anni. Dal primo ottobre 2024 le imprese e i lavoratori autonomi che operano nei cantieri devono possedere la patente a crediti: si parte da trenta crediti e ne servono almeno quindici per lavorare; i crediti vengono decurtati in caso di violazioni accertate in via definitiva o di infortuni gravi. Il decreto legge 159 del 2025 ha introdotto il badge di cantiere con codice anticontraffazione, la cui piena operatività attende il decreto attuativo, e il fascicolo elettronico del lavoratore, che raccoglie la formazione svolta.",
+     "nar": "Il sistema dei controlli è stato rafforzato negli ultimi anni. Dal primo ottobre 2024 le imprese e i lavoratori autonomi che operano nei cantieri devono essere in possesso della patente a crediti: il punteggio iniziale è di trenta crediti e ne occorrono almeno quindici per operare; i crediti sono decurtati a seguito di violazioni definitivamente accertate o di infortuni gravi. Il decreto-legge 159 del 2025 ha introdotto il badge di cantiere con codice anticontraffazione, la cui piena operatività è subordinata al decreto attuativo, e il fascicolo elettronico del lavoratore, che raccoglie la formazione svolta.",
      "p": 1.4
     },
     {
@@ -2120,7 +2120,7 @@ window.CORSO = {
       "La formazione dei lavoratori è svolta in collaborazione con gli organismi paritetici, ove presenti nel settore e nel territorio (art. 37, c. 12)",
       "Comunicano annualmente all'INAIL i dati delle imprese aderenti e dei RLST"
      ],
-     "nar": "Accanto alla vigilanza c'è l'assistenza. Gli organismi paritetici sono costituiti dalle associazioni più rappresentative dei datori di lavoro e dei lavoratori. Sono la sede privilegiata per programmare la formazione, raccogliere le buone prassi e sostenere le imprese; possono svolgere sopralluoghi di supporto e asseverare l'adozione dei modelli organizzativi. La formazione dei lavoratori si svolge in collaborazione con gli organismi paritetici, dove presenti nel settore e nel territorio.",
+     "nar": "Alla vigilanza si affianca l'assistenza. Gli organismi paritetici sono costituiti dalle associazioni dei datori di lavoro e dei lavoratori comparativamente più rappresentative. Costituiscono la sede privilegiata per la programmazione della formazione, la raccolta delle buone prassi e il sostegno alle imprese; possono effettuare sopralluoghi di supporto e asseverare l'adozione dei modelli organizzativi. La formazione dei lavoratori si svolge in collaborazione con gli organismi paritetici, ove presenti nel settore e nel territorio.",
      "p": 1.2
     },
     {
@@ -2133,7 +2133,7 @@ window.CORSO = {
       "Linee guida: atti di indirizzo e coordinamento per l'applicazione della normativa, predisposti da ministeri, regioni, INAIL e approvati in Conferenza Stato-Regioni",
       "Responsabilità sociale delle imprese (lett. ff): integrazione volontaria delle preoccupazioni sociali e ambientali nelle attività commerciali e nei rapporti con le parti interessate"
      ],
-     "nar": "Concludiamo con gli strumenti di riferimento definiti dall'articolo 2. La norma tecnica, ad esempio una norma UNI o ISO, è una specifica approvata da un organismo di normalizzazione: la sua osservanza non è obbligatoria, ma rappresenta lo stato dell'arte. Le buone prassi sono soluzioni organizzative volontarie, validate dalla Commissione consultiva permanente. Le linee guida sono atti di indirizzo approvati in Conferenza Stato-Regioni. La responsabilità sociale delle imprese è l'integrazione volontaria delle preoccupazioni sociali e ambientali nelle attività aziendali.",
+     "nar": "Il modulo si conclude con gli strumenti di riferimento definiti dall'articolo 2. La norma tecnica, ad esempio una norma UNI o ISO, è una specifica tecnica approvata da un organismo di normalizzazione: la sua osservanza non è obbligatoria, ma esprime lo stato dell'arte. Le buone prassi sono soluzioni organizzative o procedurali adottate volontariamente e validate dalla Commissione consultiva permanente. Le linee guida sono atti di indirizzo approvati in sede di Conferenza Stato-Regioni. La responsabilità sociale delle imprese consiste nell'integrazione volontaria delle preoccupazioni sociali e ambientali nelle attività aziendali.",
      "p": 1.2
     },
     {
@@ -2162,7 +2162,7 @@ window.CORSO = {
        "Sospensione dell'attività per lavoro irregolare o gravi violazioni"
       ]
      ],
-     "nar": "Ottava esercitazione. Abbina a ciascun ente la sua funzione principale e premi Verifica.",
+     "nar": "Ottava esercitazione. A ciascun ente va associata la rispettiva funzione principale; completati gli abbinamenti, si preme Verifica.",
      "p": 1.3
     },
     {
@@ -2175,7 +2175,7 @@ window.CORSO = {
       "INAIL e organismi paritetici assistono imprese e lavoratori",
       "La formazione generale è un credito permanente: ora prosegue con la formazione specifica sui rischi della tua mansione"
      ],
-     "nar": "Siamo alla conclusione. La vigilanza spetta principalmente alle ASL, insieme all'Ispettorato del lavoro e ai Vigili del fuoco per le rispettive competenze. Gli ispettori possono accedere ai luoghi di lavoro in qualsiasi momento. L'articolo 14 consente di sospendere l'attività in caso di lavoro irregolare o di gravi violazioni. INAIL e organismi paritetici assistono imprese e lavoratori. La formazione generale che hai completato costituisce un credito formativo permanente; il percorso prosegue con la formazione specifica sui rischi della tua mansione. Ora puoi affrontare il test finale.",
+     "nar": "Il corso volge al termine. La vigilanza spetta principalmente alle ASL, unitamente all'Ispettorato del lavoro e ai Vigili del fuoco per le rispettive competenze. Il personale ispettivo può accedere ai luoghi di lavoro in qualsiasi momento. L'articolo 14 consente la sospensione dell'attività in caso di lavoro irregolare o di gravi violazioni. INAIL e organismi paritetici assistono imprese e lavoratori. La formazione generale completata costituisce credito formativo permanente; il percorso prosegue con la formazione specifica sui rischi propri della mansione. Segue il test finale.",
      "p": 1.2
     },
     {
@@ -2261,7 +2261,7 @@ window.CORSO = {
        "Art. 37, c. 14, come modificato dal D.L. 159/2025."
       ]
      ],
-     "nar": "Ultima verifica intermedia. Servono almeno quattro risposte corrette su cinque. Superata la verifica potrai accedere al test finale.",
+     "nar": "Ultima verifica intermedia: occorrono almeno quattro risposte corrette su cinque. Superata la verifica, è possibile accedere al test finale.",
      "p": 1.5
     }
    ]

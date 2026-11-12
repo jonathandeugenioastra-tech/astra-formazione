@@ -33,7 +33,7 @@ const sintetizza = async (testo, file) => {
   const out = { voce: VOCE, schermate: {} }; let car = 0, nuove = 0;
   const lista = [];
   C.moduli.forEach(m => m.schermate.forEach((s, i) => lista.push([`${m.id}-${i}`, s.nar])));
-  lista.push(['TF-0', `Sei arrivato al test finale. Il test comprende ${C.testFinale.domande} domande estratte casualmente, con risposte in ordine casuale. Per superarlo occorre rispondere correttamente ad almeno il ${C.testFinale.soglia} per cento delle domande. Hai a disposizione ${C.testFinale.tentativi} tentativi.`]);
+  lista.push(['TF-0', `Si accede al test finale. Il test comprende ${C.testFinale.domande} domande estratte casualmente, con le risposte in ordine casuale. Il superamento richiede almeno il ${C.testFinale.soglia} per cento di risposte corrette. Sono disponibili ${C.testFinale.tentativi} tentativi.`]);
   for (const [k, nar] of lista) {
     if (!nar) continue;
     out.schermate[k] = [];

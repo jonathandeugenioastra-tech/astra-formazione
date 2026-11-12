@@ -35,7 +35,7 @@ lista = []
 for m in C['moduli']:
     for i, s in enumerate(m['schermate']): lista.append((f"{m['id']}-{i}", s.get('nar', '')))
 tf = C['testFinale']
-lista.append(('TF-0', f"Sei arrivato al test finale. Il test comprende {tf['domande']} domande estratte casualmente, con risposte in ordine casuale. Per superarlo occorre rispondere correttamente ad almeno il {tf['soglia']} per cento delle domande. Hai a disposizione {tf['tentativi']} tentativi."))
+lista.append(('TF-0', f"Si accede al test finale. Il test comprende {tf['domande']} domande estratte casualmente, con le risposte in ordine casuale. Il superamento richiede almeno il {tf['soglia']} per cento di risposte corrette. Sono disponibili {tf['tentativi']} tentativi."))
 
 out = {'voce': VOCE, 'schermate': {}}; nuove = 0
 for k, nar in lista:

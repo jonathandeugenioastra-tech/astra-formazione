@@ -27,6 +27,7 @@ function copia(a, b) { for (const f of fs.readdirSync(a)) { if (['.git', '_src',
     { rotta: 'attestato', dir: 'verifica-attestato/', titolo: 'Verifica attestato – Formazione ASTRA', desc: 'Verifica della validità degli attestati rilasciati da ASTRA tramite codice o QR code.', prio: '0.5' },
     { rotta: 'app', dir: 'app-smartphone/', titolo: 'App ASTRA Formazione per smartphone', desc: 'Installazione dell\'app ASTRA Formazione su iPhone e Android.', prio: '0.5' },
     { rotta: 'legenda', dir: 'legenda/', titolo: 'Legenda delle sigle – Formazione ASTRA', desc: 'Significato delle sigle utilizzate nella formazione per la salute e sicurezza sul lavoro.', prio: '0.3' },
+    { rotta: 'condizioni', dir: 'condizioni/', titolo: 'Condizioni di iscrizione – Formazione ASTRA', desc: 'Condizioni di iscrizione ai corsi ASTRA: quote, modalità, attivazione delle edizioni, edizioni riservate, disdetta e attestati.', prio: '0.3' },
     { rotta: 'privacy', dir: 'privacy/', titolo: 'Informativa privacy – ASTRA S.r.l.', desc: 'Informativa sul trattamento dei dati personali di ASTRA S.r.l.', prio: '0.2' }
   ];
   const slugs = new Set();

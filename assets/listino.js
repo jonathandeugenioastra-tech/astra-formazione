@@ -234,7 +234,7 @@ window.ASTRA_LISTINO = {
   ],
   "email": "info@astrastudio.it",
   "pec": "astra@mypec.eu",
-  "orari": "Lunedì – venerdì 9:00 – 18:00 · sabato e domenica reperibili per urgenze"
+  "orari": "Lunedì – venerdì 9:00 – 18:00 · sabato e festivi: reperibilità per le urgenze"
  },
  "avviso": ""
 };

@@ -10,9 +10,9 @@
     return '€ ' + i.replace(/\B(?=(\d{3})+(?!\d))/g, '.') + (d !== '00' ? ',' + d : ''); };
   const MESI = ['gennaio', 'febbraio', 'marzo', 'aprile', 'maggio', 'giugno', 'luglio', 'agosto', 'settembre', 'ottobre', 'novembre', 'dicembre'];
   const MOD = {
-    EL: { nome: 'E-learning', breve: 'E-learning', desc: 'Fruizione asincrona su piattaforma dedicata, con tracciamento SCORM' },
-    VCS: { nome: 'Videoconferenza sincrona', breve: 'Videoconferenza', desc: 'Lezione in diretta con il docente, webcam attiva e registro delle presenze' },
-    P: { nome: 'Aula', breve: 'Aula', desc: 'In aula presso la sede ASTRA o presso il cliente previo accordo' }
+    EL: { nome: 'E-learning', breve: 'E-learning', desc: 'Fruizione asincrona su piattaforma dedicata, con tracciamento dei tempi e degli esiti conforme allo standard SCORM' },
+    VCS: { nome: 'Videoconferenza sincrona', breve: 'Videoconferenza', desc: 'Lezione sincrona con il docente, identificazione dei partecipanti e registrazione automatica delle presenze' },
+    P: { nome: 'Aula', breve: 'Aula', desc: 'Didattica frontale presso la sede ASTRA o presso la sede del committente, previo accordo' }
   };
   const corso = id => D.corsi.find(c => c.id === id);
   const slug = c => c.titolo.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
@@ -185,10 +185,10 @@
       <div class="wrap">
         <div>
           <span class="occhiello">Centro di Formazione AiFOS · Teramo</span>
-          <h1 class="slogan"><span class="marchio">Astra <span class="ac">Academy</span></span><span class="filetto" aria-hidden="true"></span><span class="claim">La tua Academy digitale: semplice, intuitiva e performante.</span></h1>
+          <h1 class="slogan"><span class="marchio">Astra <span class="ac">Academy</span></span><span class="filetto" aria-hidden="true"></span><span class="claim">Alta formazione per la prevenzione, l'ambiente e l'energia</span></h1>
           <p class="sotto">Piattaforma accreditata per l'erogazione di percorsi formativi qualificati in materia di salute e sicurezza nei luoghi di lavoro, tutela ambientale, transizione energetica e igiene degli alimenti. La didattica è flessibile e fruibile in aula, in videoconferenza sincrona e in modalità e-learning, nel pieno rispetto dei quadri normativi di riferimento.</p>
           <form class="cerca-hero" role="search" id="cerca-hero">
-            <label>${I.cerca}<span class="sr">Cerca un corso</span><input name="q" placeholder="Titolo o codice del corso" autocomplete="off"></label>
+            <label>${I.cerca}<span class="sr">Ricerca nel catalogo</span><input name="q" placeholder="Titolo o codice del corso" autocomplete="off"></label>
             <button class="btn btn-rosso">Cerca</button>
           </form>
           <div class="cta">
@@ -238,9 +238,9 @@
         <div class="intest rivela"><div><span class="k">Didattica</span><h2>Modalità di erogazione</h2>
           <p>Per ciascun corso sono proposte esclusivamente le modalità di erogazione ammesse dalla normativa vigente.</p></div></div>
         <div class="modalita">
-          ${[['EL', I.laptop, ['Accesso continuativo, 24 ore su 24', 'Tracciamento dei tempi e verifica finale', 'Assistenza del tutor via e-mail e telefono']],
-          ['VCS', I.video, ['Interazione in diretta con il docente', 'Webcam attiva e registro delle presenze', 'Partecipazione da computer o tablet']],
-          ['P', I.aula, ['Sede ASTRA di Teramo, nelle date a calendario', 'Sede del cliente, previo accordo', `Corsi in azienda: ${RPF.tel}`]]].map(([m, ico, li], i) => `
+          ${[['EL', I.laptop, ['Accessibilità continuativa della piattaforma', 'Tracciamento della fruizione e verifica finale dell\'apprendimento', 'Tutoraggio didattico e assistenza tecnica']],
+          ['VCS', I.video, ['Interazione sincrona con il docente', 'Identificazione dei partecipanti e registro elettronico delle presenze', 'Partecipazione da personal computer o tablet']],
+          ['P', I.aula, ['Sede ASTRA di Teramo, nelle date a calendario', 'Sede del committente, previo accordo', `Edizioni presso il committente: ${RPF.tel}`]]].map(([m, ico, li], i) => `
           <article class="mod-card rivela ritardo-${i}"><span class="mod-ico">${ico}</span><span class="chip ${m}" style="width:max-content">${m}</span>
             <h3>${MOD[m].nome}</h3><p>${MOD[m].desc}.</p><ul>${li.map(x => `<li>${x}</li>`).join('')}</ul></article>`).join('')}
         </div>
@@ -264,8 +264,8 @@
           <div class="intest" style="margin-bottom:0"><div><span class="k">Per le aziende</span><h2>Gestione centralizzata della formazione del personale</h2></div></div>
           <ul class="elenco-check">
             <li><span class="ico">${I.utenti}</span><div><b>Acquisto di più posti</b><span>L'azienda acquista i posti necessari e li assegna ai dipendenti indicandone nominativo e codice fiscale.</span></div></li>
-            <li><span class="ico">${I.grafico}</span><div><b>Avanzamento in tempo reale</b><span>Il referente aziendale monitora lo stato di avanzamento di ciascun partecipante e scarica gli attestati.</span></div></li>
-            <li><span class="ico">${I.campana}</span><div><b>Scadenzario automatico</b><span>Promemoria a 120, 60 e 30 giorni dalla scadenza degli aggiornamenti.</span></div></li>
+            <li><span class="ico">${I.grafico}</span><div><b>Monitoraggio dell'avanzamento</b><span>Il referente aziendale verifica lo stato di avanzamento di ciascun partecipante e acquisisce gli attestati rilasciati.</span></div></li>
+            <li><span class="ico">${I.campana}</span><div><b>Scadenzario degli obblighi formativi</b><span>Notifiche preventive a 120, 60 e 30 giorni dalla scadenza degli aggiornamenti obbligatori.</span></div></li>
           </ul>
           <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:30px"><a class="btn btn-rosso" href="#/aziende">Modalità del servizio</a><a class="btn btn-bordo" href="#/area-azienda">Dimostrazione dell'area azienda</a></div>
         </div>
@@ -288,7 +288,7 @@
 
     <section class="sez" style="padding-top:72px">
       <div class="wrap"><div class="cta-banda rivela">${foto('cta', '', '100vw')}
-        <div><h2>Piani formativi aziendali</h2><p>ASTRA analizza mansioni, rischi e scadenze e predispone un calendario formativo dedicato, erogabile anche presso la sede del cliente.</p></div>
+        <div><h2>Piani formativi aziendali</h2><p>ASTRA effettua l'analisi dei fabbisogni formativi sulla base delle mansioni, della valutazione dei rischi e delle scadenze, e predispone un piano formativo dedicato, erogabile anche presso la sede del committente.</p></div>
         <div class="azioni"><a class="btn btn-bianco" href="#/contatti">Richiesta di preventivo</a><a class="btn btn-vetro" href="tel:${A.telefoni[0].replace(/\s/g, '')}">${I.tel} ${A.telefoni[0]}</a></div>
       </div></div>
     </section>`;
@@ -331,7 +331,7 @@
     F = { ambito: par.ambito ? [par.ambito] : [], mod: par.mod ? [par.mod] : [], tipo: par.tipo ? [par.tipo] : [], fig: par.fig ? [par.fig] : [], dur: par.dur ? [par.dur] : [], q: par.q || '', ord: 'rilevanza' };
     const conta = (k, v) => D.corsi.filter(c => k === 'mod' ? c.mod.includes(v) : k === 'fig' ? figDi(c).includes(v) : k === 'dur' ? DUR.find(d => d[0] === v)[2](c.ore) : c[k] === v).length;
     const tipi = [...new Set(D.corsi.map(c => c.tipo))];
-    return testa('Catalogo corsi', 'Elenco dei corsi con durata, modalità di erogazione ammesse e prezzo indicativo, consultabile per area, modalità e tipologia.', null, 'aula') + `
+    return testa('Catalogo corsi', 'Offerta formativa completa, con indicazione della durata, delle modalità di erogazione ammesse dalla normativa e delle quote di partecipazione, consultabile per area tematica, modalità e tipologia.', null, 'aula') + `
     <div class="wrap filtri-wrap">
       <form class="filtri" id="filtri" aria-label="Filtri">
         <label class="campo">Cerca<input name="q" type="search" value="${esc(F.q)}" placeholder="Titolo o codice"></label>
@@ -346,11 +346,11 @@
           <label class="opz"><input type="checkbox" name="dur" value="${d[0]}" ${F.dur.includes(d[0]) ? 'checked' : ''}>${d[1]}<span class="n">${conta('dur', d[0])}</span></label>`).join('')}</fieldset>
         <fieldset><legend>Destinatari</legend>${FIG.map(f => `
           <label class="opz"><input type="checkbox" name="fig" value="${f[0]}" ${F.fig.includes(f[0]) ? 'checked' : ''}>${esc(f[1])}<span class="n">${conta('fig', f[0])}</span></label>`).join('')}</fieldset>
-        <button type="reset" class="btn btn-bordo btn-s">Azzera filtri</button></div>
+        <button type="reset" class="btn btn-bordo btn-s">Reimposta i filtri</button></div>
       </form>
       <div>
         <div class="barra-risultati"><span class="n" id="n-ris" aria-live="polite"></span>
-          <label class="ordina">Ordina per <select id="ord"><option value="rilevanza">Rilevanza</option><option value="prezzo">Prezzo crescente</option><option value="ore">Durata</option><option value="titolo">Titolo A–Z</option></select></label></div>
+          <label class="ordina">Ordina per <select id="ord"><option value="rilevanza">Rilevanza</option><option value="prezzo">Quota crescente</option><option value="ore">Durata</option><option value="titolo">Titolo A–Z</option></select></label></div>
         <div class="griglia" id="ris"></div>
         ${legendaMod}
       </div>
@@ -502,7 +502,7 @@
     D.edizioni.forEach(e => { const d = dataBreve(e.data), k = `${d.mese} ${d.a}`; (per[k] = per[k] || []).push(e); });
     return testa('Calendario corsi', 'Edizioni programmate in aula e in videoconferenza. I corsi in e-learning sono fruibili in qualsiasi momento a decorrere dall\'iscrizione.', null, 'hero2') + `
     <div class="wrap" style="padding-top:28px;padding-bottom:96px">
-      <div class="avviso giallo" style="margin-top:12px">${I.info}<span>Date e disponibilità sono <b>indicative</b> e vanno confermate dalla segreteria al momento dell'iscrizione.</span></div>
+      <div class="avviso giallo" style="margin-top:12px">${I.info}<span>Date e disponibilità hanno carattere <b>indicativo</b> e sono confermate dalla segreteria all'atto dell'iscrizione.</span></div>
       <div class="legenda"><b>Legenda posti:</b><span><i style="width:10px;height:10px;border-radius:50%;background:#00B050;display:inline-block"></i>disponibili</span><span><i style="width:10px;height:10px;border-radius:50%;background:#FFC000;display:inline-block"></i>ultimi posti (5 o meno)</span><span><i style="width:10px;height:10px;border-radius:50%;background:#EE0000;display:inline-block"></i>esaurito</span><span><span class="chip VCS">VCS</span> videoconferenza</span><span><span class="chip P">P</span> presenza</span></div>
       ${Object.entries(per).map(([m, l]) => `<div class="mese rivela"><h2>${m.charAt(0).toUpperCase() + m.slice(1)}</h2>${l.map(edizione).join('')}</div>`).join('')}
     </div>`;
@@ -511,7 +511,7 @@
   /* ---------- Carrello ---------- */
   let tipoCliente = 'azienda';
   P.carrello = () => {
-    if (!cart.length) return testa('Carrello') + `<div class="wrap" style="padding:56px 24px 96px"><div class="vuoto"><b style="font-size:20px;color:var(--petrolio)">Il carrello è vuoto.</b><p style="margin:10px 0 20px">Selezionare un corso dal catalogo e indicare il numero di partecipanti.</p><a class="btn btn-rosso" href="#/catalogo">Vai al catalogo</a></div></div>`;
+    if (!cart.length) return testa('Carrello') + `<div class="wrap" style="padding:56px 24px 96px"><div class="vuoto"><b style="font-size:20px;color:var(--petrolio)">Il carrello è vuoto.</b><p style="margin:10px 0 20px">Selezionare un corso dal catalogo e indicare il numero di partecipanti.</p><a class="btn btn-rosso" href="#/catalogo">Consulta il catalogo</a></div></div>`;
     return testa('Carrello e richiesta d\'iscrizione', null) + `
     <div class="wrap carrello">
       <div>
@@ -525,7 +525,7 @@
           </div>
           <div class="form-griglia" id="campi"></div>
           <div style="display:flex;flex-direction:column;gap:12px;margin-top:18px">
-            <label class="spunta"><input type="checkbox" required name="privacy"><span>Ho letto l'<a href="#/privacy">informativa sul trattamento dei dati personali</a>.</span></label>
+            <label class="spunta"><input type="checkbox" required name="privacy"><span>Dichiaro di aver preso visione dell'<a href="#/privacy">informativa sul trattamento dei dati personali</a>.</span></label>
             <label class="spunta"><input type="checkbox" required name="cond"><span>Accetto le <a href="#/condizioni" target="_blank">Condizioni Generali di Contratto</a> (prezzi e date da confermare da parte della segreteria).</span></label>
           </div>
           <div class="avviso blu" style="margin-top:18px">${I.info}<span>In questa anteprima la richiesta viene preparata come email alla segreteria. Il pagamento online (carta, bonifico, PayPal) sarà attivo nel portale definitivo.</span></div>
@@ -586,12 +586,12 @@
   /* ---------- Aziende ---------- */
   P.aziende = () => testa('Soluzioni per le aziende', 'Piani formativi, acquisto di posti da assegnare ai dipendenti, corsi presso la sede del cliente e scadenzario della formazione.', null, 'aziende') + `
     <section class="sez"><div class="wrap">
-      <div class="intest rivela"><div><span class="k">Come funziona</span><h2>Dall'iscrizione all'attestato: le fasi del servizio</h2></div></div>
+      <div class="intest rivela"><div><span class="k">Procedura</span><h2>Dall'iscrizione al rilascio dell'attestato: articolazione del servizio</h2></div></div>
       <ol class="flusso">
         <li class="rivela"><b>Acquisto dei posti</b><span>Selezione del corso, della modalità di erogazione e del numero di partecipanti, con fatturazione unica all'azienda.</span></li>
         <li class="rivela ritardo-1"><b>Assegnazione dei partecipanti</b><span>Inserimento di nominativo, codice fiscale e indirizzo email dall'area azienda, anche mediante file CSV.</span></li>
-        <li class="rivela ritardo-2"><b>Fruizione del corso</b><span>I partecipanti ricevono le credenziali della piattaforma o il collegamento alla videoconferenza.</span></li>
-        <li class="rivela ritardo-3"><b>Rilascio dell'attestato</b><span>Al superamento della verifica finale l'attestato è disponibile nell'area azienda, con QR code di verifica.</span></li>
+        <li class="rivela ritardo-2"><b>Fruizione del corso</b><span>Ai partecipanti sono trasmesse le credenziali di accesso alla piattaforma o il collegamento alla sessione in videoconferenza.</span></li>
+        <li class="rivela ritardo-3"><b>Rilascio dell'attestato</b><span>Al superamento della verifica finale l'attestato è reso disponibile nell'area riservata, corredato di codice QR per la verifica di autenticità.</span></li>
       </ol>
     </div></section>
     <section class="sez grigia"><div class="wrap split">
@@ -599,7 +599,7 @@
         <ul class="elenco-check">
           <li><span class="ico">${I.doc}</span><div><b>Analisi dei fabbisogni formativi</b><span>Individuazione degli obblighi formativi a partire dal documento di valutazione dei rischi e dalle mansioni.</span></div></li>
           <li><span class="ico">${I.aula}</span><div><b>Corsi in azienda</b><span>Edizioni dedicate presso la sede del cliente, previo accordo, con esercitazioni pratiche sulle attrezzature aziendali. Referente: ${esc(RPF.nome)}, ${esc(RPF.ruolo)}: <a href="tel:${telRPF}">${RPF.tel}</a>.</span></div></li>
-          <li><span class="ico">${I.calendario}</span><div><b>Scadenzario della formazione</b><span>Promemoria automatici a 120, 60 e 30 giorni dalla scadenza.</span></div></li>
+          <li><span class="ico">${I.calendario}</span><div><b>Scadenzario della formazione</b><span>Notifiche automatiche a 120, 60 e 30 giorni dalla scadenza degli obblighi formativi.</span></div></li>
           <li><span class="ico">${I.lab}</span><div><b>Consulenza e laboratorio</b><span>Valutazione dei rischi, monitoraggi ambientali e analisi nel laboratorio accreditato ACCREDIA.</span></div></li>
         </ul></div>
       <div class="foto-tonda rivela ritardo-1">${foto('laboratorio', '', '(max-width:1024px) 100vw, 50vw')}<div class="flottante"><b>${(D.laboratorio.analisiAnno / 1000).toFixed(0)}k+</b><span>analisi annue eseguite dal laboratorio ${esc(D.laboratorio.ragioneSociale)}</span></div></div>
@@ -617,7 +617,7 @@
       </div>
     </div></section>
     <section class="sez"><div class="wrap">
-      <div class="intest rivela"><div><span class="k">Sconti quantità</span><h2>Condizioni per più partecipanti</h2><p>Riduzioni indicative applicate automaticamente nel carrello per ciascun corso.</p></div></div>
+      <div class="intest rivela"><div><span class="k">Riduzioni per numerosità</span><h2>Condizioni per iscrizioni multiple</h2><p>Riduzioni applicate automaticamente in fase d'ordine, per ciascun corso, in funzione del numero di partecipanti della medesima organizzazione.</p></div></div>
       <div class="tab-wrap rivela" style="max-width:720px"><table class="t"><thead><tr><th>Partecipanti per corso</th><th>Sconto</th></tr></thead><tbody>
         ${righeSconti()}</tbody></table></div>
       <div class="intest rivela" style="margin-top:48px"><div><span class="k">Edizioni riservate</span><h2>Corsi riservati all'azienda e corrispettivo minimo</h2><p>Per le edizioni riservate a un'unica organizzazione il corrispettivo si determina a partire dalla quota individuale della modalità prescelta, secondo le fasce riportate. Il corrispettivo minimo si applica ai soli corsi in aula, presso la sede ASTRA o presso la sede del committente. La quota dell'aula presso la sede ASTRA include una maggiorazione del ${Math.round(((D.modalitaK || {}).kP || 1.1) * 100 - 100)}% rispetto alla videoconferenza sincrona, a copertura dei costi di aula, attrezzature e materiali; la quota dell'aula presso il committente include un'ulteriore maggiorazione del ${Math.round(((D.modalitaK || {}).kC || 1.1) * 100 - 100)}% per l'organizzazione e il trasferimento del docente.</p></div></div>
@@ -641,13 +641,13 @@
   ];
   const ST = { ok: 'Completato', corso: 'In corso', att: 'Da iniziare', sca: 'In scadenza' };
   let vista = 'dip';
-  P['area-azienda'] = () => testa('Area azienda', 'Anteprima dimostrativa dell\'area riservata al referente aziendale: dati inventati.', null, null) + `
+  P['area-azienda'] = () => testa('Area azienda', 'Ambiente dimostrativo dell\'area riservata al referente aziendale; i dati riportati sono fittizi.', null, null) + `
     <div class="wrap dash">
       <nav aria-label="Sezioni area azienda">
         ${[['dip', I.utenti, 'Dipendenti'], ['posti', I.carrello, 'Posti acquistati'], ['scad', I.campana, 'Scadenzario'], ['att', I.doc, 'Attestati']].map(([k, ic, t]) => `<button data-v="${k}" aria-pressed="${vista === k}">${ic}${t}</button>`).join('')}
       </nav>
       <div>
-        <div class="avviso giallo" style="margin-bottom:20px">${I.info}<span><b>Dimostrazione.</b> Nomi, corsi e date sono inventati. Nel portale definitivo i dati arrivano da WooCommerce e dalla piattaforma Moodle.</span></div>
+        <div class="avviso giallo" style="margin-bottom:20px">${I.info}<span><b>Ambiente dimostrativo.</b> Nominativi, corsi e date sono fittizi. Nel portale in esercizio i dati sono acquisiti dal sistema di gestione degli ordini e dalla piattaforma di apprendimento.</span></div>
         <div class="kpi">
           <div><b data-conta="24">0</b><span>posti acquistati</span></div>
           <div><b data-conta="18">0</b><span>posti assegnati</span></div>
@@ -683,7 +683,7 @@
   }
 
   /* ---------- Normativa ---------- */
-  P.normativa = () => testa('Normativa e aggiornamenti', 'Aggiornamenti su obblighi formativi, sicurezza, ambiente, energia e igiene degli alimenti.', null, 'sicurezza') + `
+  P.normativa = () => testa('Normativa e aggiornamenti', 'Sintesi ragionata delle principali novità normative in materia di obblighi formativi, salute e sicurezza, ambiente, energia e igiene degli alimenti.', null, 'sicurezza') + `
     <div class="wrap" style="display:grid;grid-template-columns:minmax(0,1fr);gap:32px;padding-top:48px;padding-bottom:96px">
       <div class="news">${D.news.map(notizia).join('')}</div>
       <div class="box rivela"><h2>Periodicità degli aggiornamenti</h2>
@@ -693,13 +693,13 @@
     </div>`;
 
   /* ---------- Verifica attestato ---------- */
-  P.attestato = par => testa('Verifica attestato', 'Inserire il codice riportato sull\'attestato oppure inquadrare il QR code: la pagina mostra l\'esito della verifica.') + `
+  P.attestato = par => testa('Verifica attestato', 'Verifica dell\'autenticità degli attestati mediante il codice univoco riportato sul documento o tramite lettura del codice QR.') + `
     <div class="wrap" style="max-width:880px;padding-top:40px;padding-bottom:96px">
       <form id="verifica" class="box" style="display:flex;gap:12px;flex-wrap:wrap;align-items:flex-end">
         <label class="campo" style="flex:1 1 320px">Codice attestato<input name="c" value="${esc(par.codice || '')}" placeholder="es. AST-2026-000123" style="letter-spacing:.04em;font-size:17px;height:52px"></label>
         <button class="btn btn-petrolio" style="height:52px">Verifica</button>
       </form>
-      <p style="font-size:13px;color:var(--testo-3);margin-top:10px">Prova con il codice di esempio AST-2026-000123 (dati inventati).</p>
+      <p style="font-size:13px;color:var(--testo-3);margin-top:10px">Codice dimostrativo: AST-2026-000123 (dati fittizi).</p>
       <div id="esito" aria-live="polite" style="margin-top:20px"></div>
       <p style="font-size:13px;color:var(--testo-3);margin-top:20px">Per tutela della riservatezza la pagina mostra solo i dati necessari alla verifica: il codice fiscale è parzialmente oscurato.</p>
     </div>`;
@@ -714,18 +714,18 @@
   }
 
   /* ---------- Chi siamo ---------- */
-  P['chi-siamo'] = () => testa('Chi siamo', 'Dal 1987 al fianco delle imprese per la salute e sicurezza sul lavoro, la tutela dell\'ambiente, l\'energia e la qualità.', null, 'chi') + `
+  P['chi-siamo'] = () => testa('Chi siamo', 'Dal 1987 supporto tecnico-scientifico alle imprese in materia di salute e sicurezza sul lavoro, tutela dell\'ambiente, energia e qualità.', null, 'chi') + `
     <section class="sez"><div class="wrap split">
       <div class="rivela">
-        <div class="intest" style="margin-bottom:18px"><div><span class="k">La nostra storia</span><h2>${esc(A.ragioneSociale)}</h2></div></div>
-        <p style="color:var(--testo-2);text-align:justify;font-size:17px">ASTRA nasce a Teramo nel 1987 per offrire alle imprese un unico interlocutore su salute e sicurezza sul lavoro, tutela dell'ambiente, energia e qualità. Accanto alla società di consulenza opera ${esc(D.laboratorio.ragioneSociale)}, laboratorio di analisi attivo dal ${D.laboratorio.fondazione} e accreditato ACCREDIA, che esegue oltre ${D.laboratorio.analisiAnno.toLocaleString('it-IT')} analisi l'anno su acque, alimenti, aria, rifiuti e ambienti di lavoro.</p>
+        <div class="intest" style="margin-bottom:18px"><div><span class="k">Profilo</span><h2>${esc(A.ragioneSociale)}</h2></div></div>
+        <p style="color:var(--testo-2);text-align:justify;font-size:17px">ASTRA S.r.l. è stata costituita a Teramo nel 1987 con l'obiettivo di offrire alle imprese un riferimento unitario in materia di salute e sicurezza sul lavoro, tutela dell'ambiente, energia e sistemi di gestione. Alla società di consulenza è affiancato ${esc(D.laboratorio.ragioneSociale)}, laboratorio di analisi attivo dal ${D.laboratorio.fondazione} e accreditato ACCREDIA, che esegue oltre ${D.laboratorio.analisiAnno.toLocaleString('it-IT')} analisi l'anno su acque, alimenti, aria, rifiuti e ambienti di lavoro.</p>
         <p style="color:var(--testo-2);text-align:justify;font-size:17px;margin-top:14px">Come <b>Centro di Formazione AiFOS</b>, ASTRA organizza ed eroga i corsi secondo i programmi e le procedure dell'associazione: gli attestati di salute e sicurezza sono rilasciati da AiFOS e registrati nel registro nazionale della formazione.</p>
         <div style="display:flex;gap:18px;align-items:center;margin-top:28px;flex-wrap:wrap"><img src="loghi/astra_logo.svg" alt="ASTRA" style="height:64px"><img src="loghi/aifos_logo.svg" alt="AiFOS – Centro di Formazione" style="height:60px"></div>
       </div>
       <div class="foto-tonda rivela ritardo-1">${foto('laboratorio', '', '(max-width:1024px) 100vw, 50vw')}<div class="flottante"><b>1987</b><span>anno di fondazione di ASTRA S.r.l. a Teramo</span></div></div>
     </div></section>
     <section class="sez grigia"><div class="wrap">
-      <div class="intest rivela"><div><span class="k">Le persone</span><h2>Responsabile della formazione</h2></div></div>
+      <div class="intest rivela"><div><span class="k">Struttura</span><h2>Responsabile della formazione</h2></div></div>
       <div class="rivela" style="display:flex;gap:24px;align-items:center;background:var(--petrolio);color:#fff;border-radius:22px;padding:28px;max-width:760px;flex-wrap:wrap">
         <img src="loghi/jd_logo_bianco.svg" alt="Logo JD – Jonathan D'Eugenio" style="width:120px;height:120px">
         <div><b style="font-size:22px;display:block">${esc(D.rpf.nome)}</b><span class="b" style="color:var(--chiaro);font-size:15.5px;display:block">${esc(D.rpf.qualifica)}</span><a class="b" style="color:#fff;display:inline-flex;gap:8px;align-items:center;margin-top:8px" href="tel:${telRPF}"><span style="width:18px;height:18px;display:inline-flex">${I.tel}</span>${RPF.tel}</a></div>
@@ -757,7 +757,7 @@
           <tr><th scope="row">Orari</th><td>${esc(A.orari)}</td></tr>
           <tr><th scope="row">Dati societari</th><td>P.IVA e C.F. ${A.piva} · REA ${A.rea} · Capitale sociale ${A.capitale}</td></tr>
         </tbody></table></div>
-        <a class="btn btn-bordo" target="_blank" rel="noopener" href="https://www.openstreetmap.org/search?query=${encodeURIComponent(ind)}">${I.pin} Apri la sede sulla mappa</a>
+        <a class="btn btn-bordo" target="_blank" rel="noopener" href="https://www.openstreetmap.org/search?query=${encodeURIComponent(ind)}">${I.pin} Localizzazione della sede</a>
       </div>
       <form class="box" id="contatto" style="display:flex;flex-direction:column;gap:14px">
         <h2 style="margin:0">Richiesta di informazioni</h2>
@@ -766,8 +766,8 @@
         <label class="campo">Email<input name="email" type="email" required autocomplete="email"></label>
         <label class="campo">Argomento<select name="arg"><option>Informazioni su un corso</option><option ${c ? 'selected' : ''}>Preventivo o corso in azienda</option><option>Assistenza piattaforma</option><option>Attestati</option><option>Consulenza o analisi di laboratorio</option></select></label>
         <label class="campo">Messaggio<textarea name="msg" rows="5" required>${c ? `Vorrei informazioni sul corso ${c.id} – ${c.titolo}.` : ''}</textarea></label>
-        <label class="spunta"><input type="checkbox" required><span>Ho letto l'<a href="#/privacy">informativa privacy</a>.</span></label>
-        <button class="btn btn-rosso" style="align-self:flex-start">${I.mail} Invia</button>
+        <label class="spunta"><input type="checkbox" required><span>Dichiaro di aver preso visione dell'<a href="#/privacy">informativa sul trattamento dei dati personali</a>.</span></label>
+        <button class="btn btn-rosso" style="align-self:flex-start">${I.mail} Invia la richiesta</button>
       </form>
     </div>`;
   };
@@ -780,14 +780,17 @@
   }
 
   /* ---------- Privacy, legenda ---------- */
-  P.privacy = () => testa('Informativa privacy') + `<div class="wrap" style="max-width:900px;padding-top:40px;padding-bottom:96px"><div class="box">
-    <div class="avviso giallo" style="margin-bottom:18px">${I.info}<span>Testo di base da completare e approvare a cura del titolare del trattamento prima della pubblicazione.</span></div>
-    <h2>Titolare del trattamento</h2><p>${esc(A.ragioneSociale)} – ${esc(A.indirizzo)}, ${A.cap} ${A.comune} (${A.provincia}) – P.IVA ${A.piva} – PEC ${A.pec}.</p>
-    <h2 style="margin-top:22px">Dati trattati e finalità</h2><p>Dati anagrafici e di contatto, codice fiscale, dati dell'azienda di appartenenza e della mansione, dati di frequenza e di superamento dei corsi, per: iscrizione ai corsi, erogazione della formazione, rilascio e registrazione degli attestati, adempimenti fiscali e risposta alle richieste inviate dal sito.</p>
-    <h2 style="margin-top:22px">Base giuridica</h2><p>Esecuzione del contratto, adempimento di obblighi di legge (D.lgs. 81/2008 e normativa fiscale), consenso per la newsletter.</p>
-    <h2 style="margin-top:22px">Conservazione</h2><p>I dati relativi alla formazione sono conservati per il periodo necessario a dimostrare l'adempimento degli obblighi formativi; i dati fiscali per 10 anni.</p>
-    <h2 style="margin-top:22px">Diritti</h2><p>Accesso, rettifica, cancellazione, limitazione, portabilità e opposizione (artt. 15–22 Reg. UE 2016/679), scrivendo a ${A.pec}. È possibile proporre reclamo al Garante per la protezione dei dati personali.</p>
-    <h2 style="margin-top:22px">Cookie</h2><p>Il sito non utilizza cookie di profilazione. Il contenuto del carrello è conservato esclusivamente nel browser dell'utente.</p></div></div>`;
+  P.privacy = () => { const sez = (n, t, v) => `<h2${n > 1 ? ' style="margin-top:24px"' : ''}>${n}. ${t}</h2>${v.map(x => `<p>${x}</p>`).join('')}`;
+    return testa('Informativa sul trattamento dei dati personali', 'Informativa resa ai sensi degli artt. 13 e 14 del Regolamento (UE) 2016/679 e del D.lgs. 196/2003, come modificato dal D.lgs. 101/2018.') + `<div class="wrap" style="max-width:900px;padding-top:40px;padding-bottom:96px"><div class="box condizioni">
+    ${sez(1, 'Titolare del trattamento', [`${esc(A.ragioneSociale)}, con sede in ${esc(A.indirizzo)}, ${A.cap} ${A.comune} (${A.provincia}), P.IVA ${A.piva}. Recapiti: ${esc(A.email)} · PEC ${esc(A.pec)}.`])}
+    ${sez(2, 'Categorie di dati trattati', ['Dati anagrafici e di contatto; codice fiscale; dati dell\'organizzazione di appartenenza e della mansione; dati relativi alla frequenza, alle verifiche dell\'apprendimento e al rilascio degli attestati; dati amministrativi e di fatturazione; dati tecnici di accesso alla piattaforma di apprendimento e alle sessioni in videoconferenza.'])}
+    ${sez(3, 'Finalità e basi giuridiche', ['a) Iscrizione ai corsi, erogazione della formazione, verifica dell\'apprendimento, rilascio e registrazione degli attestati: esecuzione del contratto e delle misure precontrattuali (art. 6, par. 1, lett. b) del Regolamento).', 'b) Adempimento degli obblighi previsti dal D.lgs. 81/2008, dagli Accordi Stato-Regioni e dalla normativa fiscale e contabile, inclusa la conservazione della documentazione dei corsi: obbligo legale (art. 6, par. 1, lett. c).', 'c) Riscontro alle richieste inviate mediante il modulo di contatto: misure precontrattuali su richiesta dell\'interessato (art. 6, par. 1, lett. b).', 'd) Invio di comunicazioni informative sull\'offerta formativa: consenso dell\'interessato, revocabile in qualsiasi momento (art. 6, par. 1, lett. a).'])}
+    ${sez(4, 'Natura del conferimento', ['Il conferimento dei dati di cui alle lettere a) e b) è necessario per l\'iscrizione e per il rilascio dell\'attestato; il mancato conferimento comporta l\'impossibilità di erogare il servizio. Il conferimento per la finalità d) è facoltativo.'])}
+    ${sez(5, 'Destinatari', ['I dati possono essere comunicati ad AiFOS, quale ente che rilascia e registra gli attestati; ai docenti e ai tutor incaricati; ai fornitori dei servizi informatici, della piattaforma di apprendimento e della videoconferenza, nominati responsabili del trattamento ai sensi dell\'art. 28 del Regolamento; agli enti pubblici e agli organi di vigilanza, nei casi previsti dalla legge. I dati non sono diffusi.'])}
+    ${sez(6, 'Trasferimento verso Paesi terzi', ['Qualora alcuni fornitori di servizi informatici trattino dati al di fuori dello Spazio economico europeo, il trasferimento avviene sulla base di una decisione di adeguatezza della Commissione europea o di clausole contrattuali tipo, ai sensi degli artt. 45 e 46 del Regolamento.'])}
+    ${sez(7, 'Periodo di conservazione', ['La documentazione dei corsi (documento progettuale, registro delle presenze, verbale della verifica finale, copia degli attestati) e i dati fiscali sono conservati per dieci anni; i dati trattati per finalità informative sono conservati fino alla revoca del consenso; i dati delle richieste di contatto sono conservati per il tempo necessario al riscontro.'])}
+    ${sez(8, 'Diritti dell\'interessato', [`L'interessato può esercitare i diritti di accesso, rettifica, cancellazione, limitazione, portabilità e opposizione (artt. 15–22 del Regolamento) scrivendo a ${esc(A.pec)}, e ha diritto di proporre reclamo al Garante per la protezione dei dati personali (art. 77).`])}
+    ${sez(9, 'Cookie e archiviazione locale', ['Il sito non utilizza cookie di profilazione né strumenti di tracciamento di terze parti. Il contenuto del carrello e le preferenze di visualizzazione sono conservati esclusivamente nel browser dell\'utente, mediante la memoria locale del dispositivo.'])}</div></div>`; };
   P.condizioni = () => { const kP = Math.round(((D.modalitaK || {}).kP || 1.1) * 100 - 100), kC = Math.round(((D.modalitaK || {}).kC || 1.1) * 100 - 100), m = AULA.minimo;
     const rid = AULA.fasce.filter(f => f[1]).sort((a, b) => a[0] - b[0]).map(([n, x]) => `del ${x}% per gruppi a partire da ${n} partecipanti`);
     const sez = (n, t, v) => `<h2${n > 1 ? ' style="margin-top:26px"' : ''}>${n}. ${t}</h2><ul class="elenco">${v.map(x => `<li>${x}</li>`).join('')}</ul>`;
@@ -872,7 +875,7 @@
   P.autore = () => `<div id="autore-app" style="min-height:60vh;display:grid;place-items:center;color:var(--testo-3)">Caricamento dell'area autore…</div>`;
   const montaAutore = () => { const go = () => window.ASTRA_AUTORE($('#autore-app')); if (window.ASTRA_AUTORE) return go(); const s = document.createElement('script'); s.src = 'assets/autore.js?v=' + Date.now(); s.onload = go; document.head.appendChild(s); };
   const MONTA = { autore: montaAutore, app: montaApp, catalogo: montaCatalogo, corso: montaCorso, carrello: montaCarrello, 'area-azienda': montaArea, attestato: montaAttestato, contatti: montaContatti };
-  const TITOLI = { autore: 'Area autore', app: 'App per smartphone', home: 'Formazione ASTRA – Sicurezza, ambiente, energia e HACCP a Teramo', catalogo: 'Catalogo corsi', calendario: 'Calendario corsi', carrello: 'Carrello', aziende: 'Soluzioni per le aziende', 'area-azienda': 'Area azienda', normativa: 'Normativa e aggiornamenti', attestato: 'Verifica attestato', 'chi-siamo': 'Chi siamo', contatti: 'Contatti', privacy: 'Informativa privacy', condizioni: 'Condizioni Generali di Contratto', legenda: 'Legenda delle sigle' };
+  const TITOLI = { autore: 'Area autore', app: 'App per smartphone', home: 'Formazione ASTRA – Sicurezza, ambiente, energia e HACCP a Teramo', catalogo: 'Catalogo corsi', calendario: 'Calendario corsi', carrello: 'Carrello', aziende: 'Soluzioni per le aziende', 'area-azienda': 'Area azienda', normativa: 'Normativa e aggiornamenti', attestato: 'Verifica attestato', 'chi-siamo': 'Chi siamo', contatti: 'Contatti', privacy: 'Informativa sul trattamento dei dati personali', condizioni: 'Condizioni Generali di Contratto', legenda: 'Legenda delle sigle' };
   let heroT;
   function route() {
     const h = location.hash.replace(/^#\/?/, '');
@@ -930,10 +933,12 @@
 
   /* ---------- Menu mobile, scroll ---------- */
   const menu = $('nav.menu');
-  function chiudiMenu() { menu.classList.remove('aperto'); $('#hamb').setAttribute('aria-expanded', 'false'); document.body.style.overflow = ''; }
-  $('#hamb').addEventListener('click', () => { menu.classList.add('aperto'); $('#hamb').setAttribute('aria-expanded', 'true'); document.body.style.overflow = 'hidden'; });
+  function chiudiMenu() { menu.classList.remove('aperto'); document.documentElement.classList.remove('menu-on'); $('#hamb').setAttribute('aria-expanded', 'false'); document.body.style.overflow = ''; }
+  function apriMenu() { menu.classList.add('aperto'); document.documentElement.classList.add('menu-on'); $('#hamb').setAttribute('aria-expanded', 'true'); document.body.style.overflow = 'hidden'; menu.scrollTop = 0; }
+  $('#hamb').addEventListener('click', apriMenu);
+  menu.addEventListener('click', e => { if (e.target.closest('a')) chiudiMenu(); });
   $('#chiudi-menu').addEventListener('click', chiudiMenu);
-  $('#tab-menu').addEventListener('click', () => { menu.classList.add('aperto'); document.body.style.overflow = 'hidden'; });
+  $('#tab-menu').addEventListener('click', () => { if (menu.classList.contains('aperto')) chiudiMenu(); else apriMenu(); });
   document.addEventListener('keydown', e => { if (e.key === 'Escape') chiudiMenu(); });
   const testata = $('header.testata'), su = $('#su'), pl = $('#prog');
   addEventListener('scroll', () => {

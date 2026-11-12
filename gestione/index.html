@@ -72,9 +72,9 @@ label.ck{display:flex;gap:6px;align-items:center}
       <div class="riga"><label>Aula presso il cliente rispetto all'aula ASTRA +<input id="kC" type="number" step="1" style="width:70px">%</label></div>
       <div class="riga"><label>E-learning automatico rispetto alla videoconferenza −<input id="kEL" type="number" step="1" style="width:70px">%</label></div>
     </section>
-    <section class="card"><h2>Corsi in aula: minimo fatturabile e fasce</h2>
-      <p class="mut">Nei soli corsi in aula (presso la sede ASTRA o presso il committente), al di sotto del numero minimo è dovuto un corrispettivo pari a tale numero di quote; il medesimo valore costituisce la soglia di attivazione delle edizioni a calendario. Nei corsi abilitanti non si applicano riduzioni per numerosità.</p>
-      <div class="riga"><label>Numero minimo di quote fatturabili <input id="amin" type="number" min="1" step="1" style="width:70px"></label></div>
+    <section class="card"><h2>Attivazione dei corsi, minimo fatturabile e fasce</h2>
+      <p class="mut">E-learning: sempre attivabile. Videoconferenza sincrona: l'edizione si avvia al raggiungimento del numero minimo di iscritti indicato. Aula (presso la sede ASTRA o presso il committente): il corso si svolge anche con un solo partecipante, ma al di sotto del numero minimo è dovuto un corrispettivo pari a tale numero di quote. Nei corsi abilitanti non si applicano riduzioni per numerosità.</p>
+      <div class="riga"><label>Aula: numero minimo di quote fatturabili <input id="amin" type="number" min="1" step="1" style="width:70px"></label><label>Videoconferenza: iscritti minimi per l'avvio <input id="vmin" type="number" min="1" step="1" style="width:70px"></label></div>
       <table><thead><tr><th>Da partecipanti</th><th>Sconto %</th><th></th></tr></thead><tbody id="ta"></tbody></table>
       <div class="riga"><button class="btn btn-s" id="addA">+ Aggiungi fascia</button></div>
     </section>
@@ -187,10 +187,11 @@ label.ck{display:flex;gap:6px;align-items:center}
 
   /* modalità e aule */
   const pc = k => Math.round((S.modalita[k] - 1) * 100), pcm = k => Math.round((1 - S.modalita[k]) * 100);
-  $('#kP').value = pc('kP'); $('#kC').value = pc('kC'); $('#kEL').value = pcm('kEL'); $('#amin').value = S.aula.minimo;
+  $('#kP').value = pc('kP'); $('#kC').value = pc('kC'); $('#kEL').value = pcm('kEL'); $('#amin').value = S.aula.minimo; $('#vmin').value = S.aula.minimoVCS != null ? S.aula.minimoVCS : 3;
   ['kP', 'kC'].forEach(k => $('#' + k).oninput = () => { const v = parseFloat($('#' + k).value); if (!isNaN(v)) { S.modalita[k] = Math.round((1 + v / 100) * 1000) / 1000; rPrezzi(); sporco(); } });
   $('#kEL').oninput = () => { const v = parseFloat($('#kEL').value); if (!isNaN(v)) { S.modalita.kEL = Math.round((1 - v / 100) * 1000) / 1000; rPrezzi(); sporco(); } };
   $('#amin').oninput = () => { const v = parseInt($('#amin').value); if (v >= 1) { S.aula.minimo = v; sporco(); } };
+  $('#vmin').oninput = () => { const v = parseInt($('#vmin').value); if (v >= 1) { S.aula.minimoVCS = v; sporco(); } };
   function rAula() {
     $('#ta').innerHTML = S.aula.fasce.map((s, i) => `<tr><td><input type="number" min="1" step="1" data-ai="${i}" data-k="0" value="${s[0]}"></td><td><input type="number" min="0" max="90" step="0.5" data-ai="${i}" data-k="1" value="${s[1]}"></td><td><button class="btn btn-x" data-adel="${i}">Elimina</button></td></tr>`).join('');
   }
@@ -251,7 +252,7 @@ label.ck{display:flex;gap:6px;align-items:center}
     return err;
   }
   function genera() {
-    const L = { aggiornato: new Date().toISOString().slice(0, 10), prezzi: S.prezzi, prezziEL: S.prezziEL, modalita: S.modalita, aula: { minimo: S.aula.minimo, fasce: S.aula.fasce.slice().sort((a, b) => a[0] - b[0]) }, nascosti: S.nascosti, sconti: S.sconti.slice().sort((a, b) => a[0] - b[0]), edizioni: S.edizioni, contatti: S.contatti, avviso: S.avviso };
+    const L = { aggiornato: new Date().toISOString().slice(0, 10), prezzi: S.prezzi, prezziEL: S.prezziEL, modalita: S.modalita, aula: { minimo: S.aula.minimo, minimoVCS: S.aula.minimoVCS != null ? S.aula.minimoVCS : 3, fasce: S.aula.fasce.slice().sort((a, b) => a[0] - b[0]) }, nascosti: S.nascosti, sconti: S.sconti.slice().sort((a, b) => a[0] - b[0]), edizioni: S.edizioni, contatti: S.contatti, avviso: S.avviso };
     return `/* Listino e calendario ASTRA – modificabile dalla pagina «gestione» · © 2026 dr. Jonathan D'Eugenio */
 window.ASTRA_LISTINO = ${JSON.stringify(L, null, 1)};
 (function(){var D=window.ASTRA,L=window.ASTRA_LISTINO;if(!D||!L)return;D._tutti=D.corsi.slice();
@@ -264,7 +265,7 @@ c.base=b;c.prezzi=p;c.prezzo=Math.min.apply(null,['EL','VCS','P'].filter(functio
 var h=L.nascosti||[];D.corsi=D.corsi.filter(function(c){return h.indexOf(c.id)<0});
 if(L.edizioni)D.edizioni=L.edizioni.filter(function(e){return h.indexOf(e.corso)<0&&D.corsi.some(function(c){return c.id===e.corso})});
 if(L.sconti)D.sconti=L.sconti.slice().sort(function(a,b){return b[0]-a[0]});
-D.aula=L.aula||{minimo:3,fasce:[[3,0],[11,10],[21,15]]};D.modalitaK=M;
+D.aula=L.aula||{minimo:3,minimoVCS:3,fasce:[[3,0],[11,10],[21,15]]};if(D.aula.minimoVCS==null)D.aula.minimoVCS=3;D.modalitaK=M;
 if(L.contatti)for(var k in L.contatti)if(L.contatti[k])D.azienda[k]=L.contatti[k];
 D.avviso=L.avviso||'';})();
 `;

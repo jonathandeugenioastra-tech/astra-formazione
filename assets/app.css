@@ -283,7 +283,9 @@ table.t tbody tr:hover td{background:var(--ghiaccio)}
 .edizione .data-box span{color:#FFB3B6}
 .edizione .data-box b{font-size:28px}
 .edizione h3{font-size:17.5px}
-.edizione .m{font-size:14px;color:var(--testo-3);display:flex;gap:14px;flex-wrap:wrap;margin-top:4px}
+.edizione .m{font-size:14px;color:var(--testo-3);display:flex;gap:6px 14px;flex-wrap:wrap;margin-top:6px;align-items:center}
+.edizione .m>span{white-space:nowrap}
+.edizione h3{overflow-wrap:normal;word-break:normal;hyphens:manual;line-height:1.25}
 .posti{font-family:var(--fb);font-size:13.5px;display:flex;align-items:center;gap:8px;white-space:nowrap}
 .posti i{width:10px;height:10px;border-radius:50%;display:inline-block}
 
@@ -467,7 +469,6 @@ nav.menu li.sec{display:none}
   nav.menu li.sep-sec{margin-top:6px;padding-top:4px;border-top:1px solid rgba(255,255,255,.12)}
   nav.menu li.sep-sec::before{content:"Servizi e informazioni";display:block;padding:10px 14px 6px;font-family:var(--fb);font-size:10.5px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:rgba(255,255,255,.55)}
   .chiudi-menu{position:absolute;top:calc(18px + env(safe-area-inset-top));right:18px;width:42px;height:42px;border-radius:50%;background:rgba(255,255,255,.12);color:#fff;border:1px solid rgba(255,255,255,.2)}
-}
 }
 @media (max-width:640px){
   body{font-size:15.5px}
@@ -774,3 +775,31 @@ html,body{overflow-x:clip}
 
 /* menu principale in evidenza su intestazione opaca */
 @media (min-width:1025px){nav.menu a{font-weight:600;color:var(--abisso)}nav.menu a[aria-current="page"]{color:var(--rosso)}}
+
+/* schede edizione su smartphone: data a sinistra, testo a tutta larghezza, stato posti e pulsante su riga propria */
+@media (max-width:640px){
+  .edizione{grid-template-columns:62px minmax(0,1fr);grid-template-areas:"d t" "p p" "b b";gap:12px 14px;padding:16px;align-items:start}
+  .edizione:hover{transform:none}
+  .edizione>.data-box{grid-area:d;padding:8px 0}
+  .edizione>.data-box b{font-size:24px}
+  .edizione>div:not(.data-box){grid-area:t;min-width:0}
+  .edizione h3{font-size:16.5px}
+  .edizione .m{font-size:13.5px;gap:4px 12px}
+  .edizione .m>span:not(.chip){white-space:normal}
+  .edizione>.posti{grid-area:p;padding-top:10px;border-top:1px solid var(--linea)}
+  .edizione>.btn{grid-area:b;width:100%;justify-content:center}
+}
+/* condizioni di attivazione per modalità */
+.tit-attiva{font-size:15px;margin:18px 0 8px;color:var(--petrolio)}
+.attiva{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:10px 0 22px}
+.attiva-r{display:flex;flex-direction:column;gap:5px;background:#fff;border:1px solid var(--linea);border-radius:14px;padding:14px 16px;min-width:0}
+.attiva-t{display:flex;align-items:center;gap:10px;min-width:0}
+.attiva-t .chip{flex:none}
+.attiva-r b{font-family:var(--fb);font-size:13px;color:var(--testo-3);font-weight:600;line-height:1.3}
+.attiva-r strong{font-family:var(--fb);font-size:15.5px;color:var(--petrolio);line-height:1.3;margin-top:2px}
+.attiva-r>span{font-size:13.5px;color:var(--testo-2);line-height:1.45}
+.attiva.compatta{grid-template-columns:1fr;gap:8px;margin:6px 0 4px}
+.attiva.compatta .attiva-r{padding:11px 13px}
+.legenda .pt{width:10px;height:10px;border-radius:50%;display:inline-block;flex:none}
+@media (max-width:900px){.attiva{grid-template-columns:1fr}}
+@media (max-width:640px){.legenda{display:grid;grid-template-columns:1fr;gap:8px;background:#fff;border:1px solid var(--linea);border-radius:14px;padding:14px 16px}.legenda span{white-space:normal}}

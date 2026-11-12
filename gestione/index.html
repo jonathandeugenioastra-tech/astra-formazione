@@ -73,7 +73,7 @@ label.ck{display:flex;gap:6px;align-items:center}
       <div class="riga"><label>E-learning automatico rispetto alla videoconferenza −<input id="kEL" type="number" step="1" style="width:70px">%</label></div>
     </section>
     <section class="card"><h2>Aule dedicate: minimo fatturabile e fasce</h2>
-      <p class="mut">Al di sotto del numero minimo è dovuto un corrispettivo pari a tale numero di quote; il medesimo valore costituisce la soglia di attivazione delle edizioni a calendario. Nei corsi abilitanti non si applicano riduzioni per numerosità.</p>
+      <p class="mut">Nei soli corsi in aula (presso la sede ASTRA o presso il committente), al di sotto del numero minimo è dovuto un corrispettivo pari a tale numero di quote; il medesimo valore costituisce la soglia di attivazione delle edizioni a calendario. Nei corsi abilitanti non si applicano riduzioni per numerosità.</p>
       <div class="riga"><label>Numero minimo di quote fatturabili <input id="amin" type="number" min="1" step="1" style="width:70px"></label></div>
       <table><thead><tr><th>Da partecipanti</th><th>Sconto %</th><th></th></tr></thead><tbody id="ta"></tbody></table>
       <div class="riga"><button class="btn btn-s" id="addA">+ Aggiungi fascia</button></div>
@@ -140,7 +140,7 @@ label.ck{display:flex;gap:6px;align-items:center}
     avviso: L0.avviso || '',
     prezziEL: { ...(L0.prezziEL || {}) },
     modalita: { kP: 1.1, kC: 1.1, kEL: 0.85, ...(L0.modalita || {}) },
-    aula: JSON.parse(JSON.stringify(L0.aula || { minimo: 5, fasce: [[5, 0], [11, 10], [21, 15]] }))
+    aula: JSON.parse(JSON.stringify(L0.aula || { minimo: 3, fasce: [[3, 0], [11, 10], [21, 15]] }))
   };
   const r5 = x => Math.round(x / 5) * 5;
   const calcola = c => { const b = S.prezzi[c.id], M = S.modalita, p = {};
@@ -264,7 +264,7 @@ c.base=b;c.prezzi=p;c.prezzo=Math.min.apply(null,['EL','VCS','P'].filter(functio
 var h=L.nascosti||[];D.corsi=D.corsi.filter(function(c){return h.indexOf(c.id)<0});
 if(L.edizioni)D.edizioni=L.edizioni.filter(function(e){return h.indexOf(e.corso)<0&&D.corsi.some(function(c){return c.id===e.corso})});
 if(L.sconti)D.sconti=L.sconti.slice().sort(function(a,b){return b[0]-a[0]});
-D.aula=L.aula||{minimo:5,fasce:[[5,0],[11,10],[21,15]]};D.modalitaK=M;
+D.aula=L.aula||{minimo:3,fasce:[[3,0],[11,10],[21,15]]};D.modalitaK=M;
 if(L.contatti)for(var k in L.contatti)if(L.contatti[k])D.azienda[k]=L.contatti[k];
 D.avviso=L.avviso||'';})();
 `;

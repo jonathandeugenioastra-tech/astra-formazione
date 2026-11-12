@@ -43,6 +43,7 @@ window.ASTRA = {
   "fondazione": 1981,
   "analisiAnno": 12000
  },
+ "verificaApi": "",
  "rpf": {
   "nome": "dr. Jonathan D'Eugenio",
   "qualifica": "Responsabile del progetto formativo · TPALL e HSE Manager",

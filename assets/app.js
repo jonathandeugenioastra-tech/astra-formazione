@@ -600,7 +600,7 @@
         <li class="rivela"><b>Acquisto dei posti</b><span>Selezione del corso, della modalità di erogazione e del numero di partecipanti, con fatturazione unica all'azienda.</span></li>
         <li class="rivela ritardo-1"><b>Assegnazione dei partecipanti</b><span>Inserimento di nominativo, codice fiscale e indirizzo email dall'area azienda, anche mediante file CSV.</span></li>
         <li class="rivela ritardo-2"><b>Fruizione del corso</b><span>Ai partecipanti sono trasmesse le credenziali di accesso alla piattaforma o il collegamento alla sessione in videoconferenza.</span></li>
-        <li class="rivela ritardo-3"><b>Rilascio dell'attestato</b><span>Al superamento della verifica finale l'attestato è reso disponibile nell'area riservata, corredato di codice QR per la verifica di autenticità.</span></li>
+        <li class="rivela ritardo-3"><b>Rilascio dell'attestato</b><span>Nei corsi in e-learning, al superamento della verifica finale l'attestato è emesso automaticamente con codice univoco e codice QR, trasmesso per posta elettronica al corsista e al referente aziendale e reso disponibile nell'area riservata.</span></li>
       </ol>
     </div></section>
     <section class="sez grigia"><div class="wrap split">
@@ -708,16 +708,30 @@
         <label class="campo" style="flex:1 1 320px">Codice attestato<input name="c" value="${esc(par.codice || '')}" placeholder="es. AST-2026-000123" style="letter-spacing:.04em;font-size:17px;height:52px"></label>
         <button class="btn btn-petrolio" style="height:52px">Verifica</button>
       </form>
-      <p style="font-size:13px;color:var(--testo-3);margin-top:10px">Codice dimostrativo: AST-2026-000123 (dati fittizi).</p>
+      ${D.verificaApi ? '' : '<p style="font-size:13px;color:var(--testo-3);margin-top:10px">Codice dimostrativo: AST-2026-000123 (dati fittizi).</p>'}
       <div id="esito" aria-live="polite" style="margin-top:20px"></div>
       <p style="font-size:13px;color:var(--testo-3);margin-top:20px">Per tutela della riservatezza la pagina mostra solo i dati necessari alla verifica: il codice fiscale è parzialmente oscurato.</p>
     </div>`;
   function montaAttestato() {
     const f = $('#verifica'); if (!f) return;
+    const riga = (k, v) => `<tr><th scope="row">${k}</th><td>${esc(v)}</td></tr>`, dataIt = s => s ? s.split('-').reverse().join('/') : '—';
+    const NOMI = { EL: 'E-learning', VCS: 'Videoconferenza sincrona', P: 'Presenza' };
+    const nonTrovato = `<div class="avviso rosso">${I.info}<span><b>Codice non trovato.</b> Verificare la corretta trascrizione del codice o contattare la segreteria.</span></div>`;
     const v = () => { const c = f.c.value.trim().toUpperCase(); if (!c) return;
+      if (D.verificaApi) {
+        $('#esito').innerHTML = '<p style="color:var(--testo-3)">Verifica in corso…</p>';
+        fetch(D.verificaApi + (D.verificaApi.includes('?') ? '&' : '?') + 'codice=' + encodeURIComponent(c), { cache: 'no-store' })
+          .then(r => r.json()).then(r => {
+            if (!r || !r.trovato) { $('#esito').innerHTML = nonTrovato; return; }
+            const ok = !r.annullato;
+            $('#esito').innerHTML = `<section class="box" style="padding:0;overflow:hidden;border-color:${ok ? '#9ED4B0' : '#F2A7A7'}"><div style="background:${ok ? '#00B050' : '#EE0000'};color:#fff;padding:14px 20px;display:flex;gap:10px;align-items:center" class="b"><span style="width:22px;height:22px">${ok ? I.ok : I.info}</span>${ok ? 'Attestato valido' : 'Attestato annullato'}</div>
+              <table class="t"><tbody>${riga('Codice', r.codice)}${riga('Corsista', r.corsista + ' · codice fiscale ' + r.cf)}${riga('Corso', r.corso + (/\bore\b/.test(r.corso) ? '' : ' (' + String(r.ore).replace('.', ',') + ' ore)'))}${riga('Modalità', NOMI[r.modalita] || r.modalita)}${riga('Completato il', dataIt(r.completato))}${riga('Prossimo aggiornamento entro', r.scadenza ? dataIt(r.scadenza) : 'non previsto')}${riga('Rilasciato da', r.rilasciato)}</tbody></table></section>`;
+          }).catch(() => { $('#esito').innerHTML = `<div class="avviso rosso">${I.info}<span>Servizio di verifica momentaneamente non raggiungibile. Riprovare più tardi.</span></div>`; });
+        return;
+      }
       $('#esito').innerHTML = c === 'AST-2026-000123' ? `<section class="box" style="padding:0;overflow:hidden;border-color:#9ED4B0"><div style="background:#00B050;color:#fff;padding:14px 20px;display:flex;gap:10px;align-items:center" class="b"><span style="width:22px;height:22px">${I.ok}</span>Attestato valido</div>
         <table class="t"><tbody><tr><th scope="row">Corsista</th><td>Mario Rossi · codice fiscale RSS***********3S</td></tr><tr><th scope="row">Corso</th><td>Lavoratori – Aggiornamento (6 ore)</td></tr><tr><th scope="row">Modalità</th><td>E-learning</td></tr><tr><th scope="row">Completato il</th><td>05/11/2026</td></tr><tr><th scope="row">Prossimo aggiornamento entro</th><td>05/11/2031</td></tr><tr><th scope="row">Rilasciato da</th><td>AiFOS – tramite il Centro di Formazione ASTRA S.r.l.</td></tr></tbody></table></section>`
-        : `<div class="avviso rosso">${I.info}<span><b>Codice non trovato.</b> Controlla di averlo scritto correttamente o contatta la segreteria.</span></div>`; };
+        : nonTrovato; };
     f.addEventListener('submit', e => { e.preventDefault(); v(); });
     if (f.c.value) v();
   }

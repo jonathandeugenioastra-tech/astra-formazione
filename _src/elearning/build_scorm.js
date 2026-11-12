@@ -25,7 +25,7 @@ fs.writeFileSync(path.join(OUT, 'dati/icone.js'), '/* Font Awesome Free 6 – CC
 
 /* pittogrammi ISO 7010 (Wikimedia Commons, pubblico dominio) */
 const iso = JSON.parse(fs.readFileSync(path.join(ROOT, 'formazione/risorse/iso7010.json'), 'utf8')).svg;
-const isoPul = {}; Object.entries(iso).forEach(([k, v]) => { isoPul[k] = v.replace(/<\?xml[^>]*>/, '').replace(/<!--[\s\S]*?-->/g, '').replace(/<title>[\s\S]*?<\/title>/, '').replace(/<svg /, `<svg role="img" aria-label="ISO 7010 ${k}" `).replace(/ width="[^"]*"/, '').replace(/ height="[^"]*"/, ''); });
+const isoPul = {}; Object.entries(iso).forEach(([k, v]) => { isoPul[k] = v.replace(/<\?xml[^>]*>/, '').replace(/<!--[\s\S]*?-->/g, '').replace(/<title>[\s\S]*?<\/title>/, '').replace(/<svg\s+/, `<svg role="img" aria-label="ISO 7010 ${k}" `).replace(/ width="[^"]*"/, '').replace(/ height="[^"]*"/, ''); });
 // garantisce viewBox per gli SVG che dichiarano solo width/height
 Object.entries(iso).forEach(([k, v]) => { if (!/viewBox/.test(isoPul[k])) { const w = (v.match(/width="([\d.]+)/) || [])[1], h = (v.match(/height="([\d.]+)/) || [])[1]; if (w && h) isoPul[k] = isoPul[k].replace('<svg ', `<svg viewBox="0 0 ${w} ${h}" `); } });
 fs.writeFileSync(path.join(OUT, 'dati/iso7010.js'), '/* Pittogrammi UNI EN ISO 7010 – Wikimedia Commons – pubblico dominio */\nwindow.ISO7010=' + JSON.stringify(isoPul) + ';');

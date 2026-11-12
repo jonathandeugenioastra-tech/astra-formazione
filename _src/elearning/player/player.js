@@ -310,7 +310,7 @@
     definizioni: (s, el) => {
       const viste = new Set();
       $$('.def', el).forEach(d => { const apri = () => { d.classList.toggle('aperta'); d.classList.add('vista'); viste.add(d.dataset.i); aggiorna(); }; d.onclick = apri; d.onkeydown = e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); apri(); } }; });
-      obbligo = { fatto: () => viste.size >= s.voci.length, testo: 'Apri tutte le schede per proseguire' };
+      obbligo = { fatto: () => viste.size >= s.voci.length, testo: 'Aprire tutte le schede per proseguire' };
     },
     figure: (s, el) => {
       const viste = new Set();
@@ -320,7 +320,7 @@
         const d = $('#det', el); d.innerHTML = `${ico(v[0])}<div><b>${esc(v[1])}</b>${esc(v[2])}</div>`; d.animate([{ opacity: 0, transform: 'translateY(10px)' }, { opacity: 1, transform: 'none' }], { duration: 400, easing: 'ease-out' });
         aggiorna();
       });
-      obbligo = { fatto: () => viste.size >= s.voci.length, testo: 'Consulta tutte le schede per proseguire' };
+      obbligo = { fatto: () => viste.size >= s.voci.length, testo: 'Consultare tutte le schede per proseguire' };
     },
     matrice: (s, el) => {
       const sel = new Set();
@@ -340,7 +340,7 @@
         $('#pann', el).innerHTML = `<div class="descr"><b>${esc(g.nome)}</b> · ${esc(g.forma)}. ${esc(g.desc)}.</div><div class="segni">${g.codici.map((c, k) => `<div class="segno" style="animation:entra .5s ${k * 70}ms both"><div class="svg">${svgISO(c[0])}</div><span>${esc(c[1])}</span><small>ISO 7010 – ${c[0]}</small></div>`).join('')}</div>`;
         aggiorna();
       });
-      obbligo = { fatto: () => viste.size >= s.gruppi.length, testo: 'Consulta tutte le famiglie di segnali' };
+      obbligo = { fatto: () => viste.size >= s.gruppi.length, testo: 'Consultare tutte le famiglie di segnali' };
     },
     vf: (s, el) => {
       const risp = {};
@@ -367,7 +367,7 @@
         else { fb.className = 'fb ko'; fb.textContent = `${giuste} su ${ord.length} nella posizione corretta. Occorre riordinare le voci e ripetere la verifica.`; setTimeout(() => righe.forEach(r => r.classList.remove('ok', 'ko')), 1600); }
         aggiorna();
       };
-      obbligo = { fatto: () => ok, testo: 'Ordina correttamente le misure e premi Verifica' };
+      obbligo = { fatto: () => ok, testo: 'Ordinare correttamente le misure e premere Verifica' };
     },
     caso: (s, el) => {
       let ok = false;
@@ -377,7 +377,7 @@
         if (o[1]) { ok = true; $$('.opz button', el).forEach(x => x.disabled = true); } else b.disabled = true;
         aggiorna();
       });
-      obbligo = { fatto: () => ok, testo: 'Individua la risposta corretta' };
+      obbligo = { fatto: () => ok, testo: 'Individuare la risposta corretta' };
     },
     abbina: (s, el) => {
       let ok = false;
@@ -389,7 +389,7 @@
         else { fb.className = 'fb ko'; fb.textContent = `${g} abbinamenti corretti su ${s.coppie.length}: occorre correggere quelli evidenziati in rosso.`; }
         aggiorna();
       };
-      obbligo = { fatto: () => ok, testo: 'Completa correttamente tutti gli abbinamenti' };
+      obbligo = { fatto: () => ok, testo: 'Completare correttamente tutti gli abbinamenti' };
     },
     verifica: (s, el) => {
       let ok = false;

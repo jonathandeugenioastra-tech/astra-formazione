@@ -803,3 +803,5 @@ html,body{overflow-x:clip}
 .legenda .pt{width:10px;height:10px;border-radius:50%;display:inline-block;flex:none}
 @media (max-width:900px){.attiva{grid-template-columns:1fr}}
 @media (max-width:640px){.legenda{display:grid;grid-template-columns:1fr;gap:8px;background:#fff;border:1px solid var(--linea);border-radius:14px;padding:14px 16px}.legenda span{white-space:normal}}
+/* scheda corso su tablet e smartphone: il riquadro di acquisto non ha altezza limitata e non si sovrappone al testo */
+@media (max-width:1024px){.dettaglio>aside .acquisto,.acquisto{position:static;max-height:none;overflow:visible}.dettaglio>aside{position:relative;z-index:1}}

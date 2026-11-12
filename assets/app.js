@@ -974,6 +974,16 @@
   /* ---------- Avvio ---------- */
   $('#anno').textContent = '2026';
   aggiornaBadge();
+  /* pagine statiche: la rotta è indicata dalla pagina; in mancanza si ricava dal percorso (rete di sicurezza) */
+  if (!location.hash && !window.ASTRA_ROTTA) {
+    const pp = decodeURIComponent(location.pathname).replace(/\/index\.html$/, '').split('/').filter(Boolean);
+    const ult = pp[pp.length - 1] || '', pen = pp[pp.length - 2] || '';
+    const DIR = { catalogo: 'catalogo', calendario: 'calendario', aziende: 'aziende', normativa: 'normativa', 'chi-siamo': 'chi-siamo', contatti: 'contatti',
+      'verifica-attestato': 'attestato', 'app-smartphone': 'app', legenda: 'legenda', condizioni: 'condizioni', privacy: 'privacy' };
+    const sl = t => t.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+    if (pen === 'corsi') { const c = D.corsi.find(x => sl(x.titolo) === ult); if (c) window.ASTRA_ROTTA = 'corso/' + c.id; }
+    else if (DIR[ult]) window.ASTRA_ROTTA = DIR[ult];
+  }
   if (!location.hash && window.ASTRA_ROTTA) history.replaceState(null, '', location.pathname + location.search + '#/' + window.ASTRA_ROTTA);
   addEventListener('hashchange', route);
   route();

@@ -87,6 +87,7 @@ window.ASTRA_LISTINO = {
  },
  "aula": {
   "minimo": 3,
+  "minimoVCS": 3,
   "fasce": [
    [
     3,
@@ -248,6 +249,6 @@ c.base=b;c.prezzi=p;c.prezzo=Math.min.apply(null,['EL','VCS','P'].filter(functio
 var h=L.nascosti||[];D.corsi=D.corsi.filter(function(c){return h.indexOf(c.id)<0});
 if(L.edizioni)D.edizioni=L.edizioni.filter(function(e){return h.indexOf(e.corso)<0&&D.corsi.some(function(c){return c.id===e.corso})});
 if(L.sconti)D.sconti=L.sconti.slice().sort(function(a,b){return b[0]-a[0]});
-D.aula=L.aula||{minimo:3,fasce:[[3,0],[11,10],[21,15]]};D.modalitaK=M;
+D.aula=L.aula||{minimo:3,minimoVCS:3,fasce:[[3,0],[11,10],[21,15]]};if(D.aula.minimoVCS==null)D.aula.minimoVCS=3;D.modalitaK=M;
 if(L.contatti)for(var k in L.contatti)if(L.contatti[k])D.azienda[k]=L.contatti[k];
 D.avviso=L.avviso||'';})();

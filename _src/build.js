@@ -60,7 +60,8 @@ function copia(a, b) { for (const f of fs.readdirSync(a)) { if (['.git', '_src',
       .replace(/<meta property="og:title" content="[^"]*">/, `<meta property="og:title" content="${esc(pg.titolo)}">`)
       .replace(/<meta property="og:description" content="[^"]*">/, `<meta property="og:description" content="${esc(pg.desc)}">`)
       .replace('<main id="app" tabindex="-1"></main>', `<main id="app" tabindex="-1">${html}</main>`)
-      .replace('<script src="assets/data.js"></script>', `<script>window.ASTRA_ROTTA = ${JSON.stringify(pg.rotta)};</script>\n<script src="assets/data.js"></script>`);
+      .replace(/<script src="assets\/data\.js(\?[^"]*)?"><\/script>/, m => `<script>window.ASTRA_ROTTA = ${JSON.stringify(pg.rotta)};</script>\n${m}`);
+    if (pg.rotta && !h.includes('window.ASTRA_ROTTA')) throw new Error('Rotta non inserita nella pagina ' + pg.dir);
     if (pg.ld) h = h.replace('</head>', `<script type="application/ld+json">${JSON.stringify(pg.ld)}</script>\n</head>`);
     fs.mkdirSync(path.join(OUT, pg.dir), { recursive: true });
     fs.writeFileSync(path.join(OUT, pg.dir, 'index.html'), h);

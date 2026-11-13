@@ -94,6 +94,7 @@
       <file href="audio/gz-fa2a25bcf368a2.mp3"/>
       <file href="dati/audio.js"/>
       <file href="dati/corso.js"/>
+      <file href="dati/foto.js"/>
       <file href="dati/icone.js"/>
       <file href="dati/iso7010.js"/>
       <file href="fonts/Inter-400.woff2"/>
@@ -102,12 +103,15 @@
       <file href="fonts/Inter-700.woff2"/>
       <file href="fonts/InterTight-800.woff2"/>
       <file href="fonts/LICENZA-Inter-OFL.txt"/>
+      <file href="img/aula.jpg"/>
       <file href="img/aziende.jpg"/>
       <file href="img/chi.jpg"/>
-      <file href="img/hero1.jpg"/>
+      <file href="img/cta.jpg"/>
+      <file href="img/giustizia.jpg"/>
+      <file href="img/hero3.jpg"/>
       <file href="img/sicurezza.jpg"/>
       <file href="img/sicurezza2.jpg"/>
-      <file href="img/sicurezza3.jpg"/>
+      <file href="img/sorveglianza_sanitaria.jpg"/>
       <file href="img/timbro.png"/>
       <file href="index.html"/>
       <file href="loghi/astra.svg"/>

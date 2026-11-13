@@ -30,10 +30,13 @@
   /* ───────── elenco schermate e tempi minimi ───────── */
   const S = [];
   C.moduli.forEach((m, mi) => {
-    const tot = m.schermate.reduce((a, s) => a + (s.p || 1), 0);
+    /* tempo minimo proporzionale alla durata della voce più il tempo di lettura o di attività della schermata */
+    const ATT = { grafico: 60, testo: 25, articolo: 40, caso: 60, vf: 60, abbina: 60, ordina: 60, matrice: 60, verifica: 90, pittogrammi: 60, definizioni: 45, figure: 45 };
+    const base = m.schermate.map((s, si) => { const a = window.AUDIO && window.AUDIO.schermate[`${m.id}-${si}`]; const d = a ? (Array.isArray(a) ? a.reduce((x, y) => x + y.d, 0) : a.d) : (s.nar ? s.nar.split(/\s+/).length / 2.4 : 0); return Math.max(20, d + (ATT[s.t] || 20)) * (s.p && !a ? s.p : 1); });
+    const tot = base.reduce((a, b) => a + b, 0);
     let somma = 0;
     m.schermate.forEach((s, si) => {
-      let sec = Math.round((m.min * 60) * (s.p || 1) / tot / 5) * 5;
+      let sec = Math.round((m.min * 60) * base[si] / tot / 5) * 5;
       if (si === m.schermate.length - 1) sec = m.min * 60 - somma;
       somma += sec;
       S.push(Object.assign({}, s, { mi, si, mod: m, sec }));
@@ -79,7 +82,7 @@
       </div>
     </header>
     <div class="avanz"><i id="avz"></i></div>
-    <main class="palco-wrap"><div class="palco-col"><div class="palco" id="palco"></div><div class="sottotit vuoto" id="sott" aria-live="polite"></div></div></main>
+    <main class="palco-wrap"><div class="palco-col"><div class="palco" id="palco"></div><div class="sottotit vuoto" id="sott" aria-live="polite"></div><div class="micro" id="micro" aria-live="polite"></div></div></main>
     <footer class="comandi">
       <div class="sx"><div class="firma"><img src="loghi/jd.svg" alt="J.D'"><span>© 2026 dr. Jonathan D'Eugenio · ASTRA S.r.l.</span></div></div>
       <div class="centro">
@@ -212,7 +215,8 @@
     $('span', tm).textContent = completo(i) ? '✓' : `${Math.floor(rest / 60)}:${String(rest % 60).padStart(2, '0')}`;
     let r = '';
     if (!completo(i) && s.t !== 'testfinale') {
-      if (obbligo && !obbligo.fatto()) r = obbligo.testo;
+      if (MV.pend) r = (Date.now() - MV.pend.t > 30000) ? 'Conteggio del tempo sospeso: rispondere alla verifica immediata' : 'Rispondere alla verifica immediata';
+      else if (obbligo && !obbligo.fatto()) r = obbligo.testo;
       else if (rest > 0) r = 'Tempo minimo di permanenza in corso';
       else if (!narFine && audio) r = 'Attendi la fine della narrazione';
     }
@@ -220,6 +224,102 @@
     const fatti = S.slice(0, -1).reduce((a, x, k) => a + (completo(k) ? x.sec : Math.min(st.t[k], x.sec)), 0);
     $('#avz').style.width = (100 * fatti / TOT_SEC).toFixed(2) + '%';
     $('#pos').textContent = `${i + 1} / ${S.length}`;
+  };
+
+  /* ───────── regola dei 30 secondi: micro-verifiche di attenzione ─────────
+     Quando la narrazione è terminata e il tempo minimo della schermata non è ancora trascorso,
+     il corsista riceve entro 20–25 s una micro-verifica generata dai contenuti della schermata
+     (completamento di un dato normativo o tecnico, oppure riconoscimento di un contenuto).
+     Se la verifica resta senza risposta per più di 30 s, il conteggio del tempo si sospende. */
+  const MV = { prossima: 0, pend: null, fatte: 0, giuste: 0, ultimoClic: 0 };
+  ['pointerdown', 'keydown'].forEach(e => addEventListener(e, () => { MV.ultimoClic = Date.now(); }, { passive: true }));
+  const UNITA = 'ore|giorni|mesi|anni|minuti|secondi|kWh|kWp|kW|MWh|MW|mg\\/Nm³|µg\\/m³|mg\\/m³|mg\\/kg|g\\/h|kg\\/h|kg\\/m²|kg|tonnellate|t|m²|m³|m|cm|mm|€\\/MWh|euro|€|°C|dB\\(A\\)|dB|lavoratori|quote|%';
+  const RE_TOK = [
+    new RegExp('(?<![\\w.,])(\\d{1,3}(?:\\.\\d{3})*(?:,\\d+)?)\\s?(' + UNITA + ')(?![\\wà-ù])', 'g'),
+    /\bartt?\.\s?\d+(?:-(?:bis|ter|quater|quinquies|sexies|septies|octies|novies|decies|undecies|duodecies|terdecies|quaterdecies|quinquiesdecies|sexiesdecies))?(?:\.\d+)?/g,
+    /\b(?:D\.lgs\.|D\.M\.|D\.P\.R\.|L\.|D\.L\.)\s?\d+\/\d{4}/g,
+    /\b(?:Reg\.|Dir\.)\s(?:\((?:UE|CE)\)\s)?\d{2,4}\/\d{1,4}/g,
+    /\bUNI(?:\sCEI)?(?:\sEN)?(?:\sISO)?(?:\/IEC)?\s\d{3,5}(?:-\d)?/g,
+    /\bCEI(?:\sEN)?\s\d{1,5}(?:-\d{1,3})?/g,
+    /\bH\d{3}\b/g
+  ];
+  const classeTok = t => { for (let k = 0; k < RE_TOK.length; k++) { RE_TOK[k].lastIndex = 0; const m = RE_TOK[k].exec(t); if (m && m[0] === t) return k === 0 ? 'n:' + m[2] : 'r' + k; } return null; };
+  const frasi = s => [s.lead, ...(s.punti || []), s.appro].filter(Boolean).flatMap(x => String(x).split(/(?<=[.;:])\s+(?=[A-ZÀ-Ù])/)).map(x => x.trim()).filter(x => x.length > 25 && x.length < 260);
+  const tokens = f => { const out = []; RE_TOK.forEach(re => { re.lastIndex = 0; let m; while ((m = re.exec(f))) out.push(m[0]); }); return [...new Set(out)]; };
+  let CORPUS = null;
+  const corpus = () => {
+    if (CORPUS) return CORPUS; CORPUS = {};
+    S.forEach(s => frasi(s).forEach(f => tokens(f).forEach(t => { const c = classeTok(t); if (c) (CORPUS[c] = CORPUS[c] || new Set()).add(t); })));
+    return CORPUS;
+  };
+  const varianti = t => { // varianti numeriche dello stesso dato, se il corso non offre alternative sufficienti
+    const m = /^(\d{1,3}(?:\.\d{3})*(?:,\d+)?)(\s?)(.*)$/.exec(t); if (!m) return [];
+    const v = parseFloat(m[1].replace(/\./g, '').replace(',', '.')); if (!isFinite(v) || v === 0) return [];
+    const fmt = x => (Number.isInteger(x) ? x.toLocaleString('it-IT') : x.toLocaleString('it-IT', { maximumFractionDigits: 2 }));
+    return [v * 2, v / 2, v * 3, v + (v >= 10 ? 10 : 1)].map(x => fmt(x) + m[2] + m[3]);
+  };
+  const mischia = a => a.map(x => [Math.random(), x]).sort((p, q) => p[0] - q[0]).map(x => x[1]);
+  const generaMicro = () => {
+    const i = st.c, cand = [S[i]];
+    for (let k = i - 1; k >= 0 && cand.length < 12; k--) if (S[k].mod === S[i].mod && S[k].t === 'testo') cand.push(S[k]);
+    const C2 = corpus();
+    for (const s of cand) {
+      const fr = mischia(frasi(s));
+      for (const f of fr) {
+        const tk = mischia(tokens(f));
+        for (const t of tk) {
+          const c = classeTok(t); if (!c) continue;
+          let alt = mischia([...(C2[c] || [])].filter(x => x !== t && !f.includes(x)));
+          if (alt.length < 2) alt = alt.concat(varianti(t).filter(x => !f.includes(x) && !alt.includes(x)));
+          if (alt.length < 2) continue;
+          return { tipo: 'completa', fonte: s, testo: f.replace(t, '______'), giusta: t, opz: mischia([t, alt[0], alt[1]]), frase: f };
+        }
+      }
+    }
+    // riconoscimento: quale contenuto è trattato nella schermata
+    const s = S[i], propri = frasi(s); if (!propri.length) return null;
+    const altri = mischia(S.filter(x => x.mod !== s.mod && x.t === 'testo').flatMap(frasi)).slice(0, 2);
+    if (altri.length < 2) return null;
+    const g = propri[Math.floor(Math.random() * propri.length)];
+    return { tipo: 'riconosci', fonte: s, testo: `Quale dei seguenti contenuti è trattato nella schermata «${s.tit}»?`, giusta: g, opz: mischia([g, ...altri]), frase: g };
+  };
+  const microBox = () => $('#micro');
+  const mostraMicro = () => {
+    const q = generaMicro(); if (!q) { MV.prossima = 0; return; }
+    MV.pend = { q, t: Date.now() };
+    const b = microBox();
+    b.innerHTML = `<div class="mv-testa">${ico('FaCircleQuestion')}<b>Verifica immediata</b><span>${q.tipo === 'completa' ? (q.fonte === S[st.c] ? 'Completare con il dato corretto' : 'Ripasso · ' + esc(q.fonte.tit)) : 'Riconoscere il contenuto'}</span><em id="mv-cnt">30 s</em></div><p class="mv-q">${q.tipo === 'completa' ? '«' + esc(q.testo) + '»' : esc(q.testo)}</p><div class="mv-opz">${q.opz.map((o, k) => `<button class="mv-o" data-k="${k}">${esc(o)}</button>`).join('')}</div><p class="mv-esito" id="mv-esito"></p>`;
+    b.classList.add('on');
+    $$('.mv-o', b).forEach(bt => bt.onclick = () => {
+      const ok = q.opz[+bt.dataset.k] === q.giusta;
+      MV.fatte++; if (ok) MV.giuste++;
+      $$('.mv-o', b).forEach(x => { x.disabled = true; if (q.opz[+x.dataset.k] === q.giusta) x.classList.add('giusta'); });
+      if (!ok) bt.classList.add('errata');
+      $('#mv-esito', b).textContent = (ok ? 'Corretto. ' : 'Risposta non corretta. ') + (q.tipo === 'completa' ? 'Testo di riferimento: «' + q.frase + '»' : '');
+      const cn = $('#mv-cnt', b); if (cn) cn.textContent = ok ? 'corretto' : 'registrata';
+      MV.pend = null; MV.prossima = Date.now() + 25000;
+      st.mv = [MV.fatte, MV.giuste];
+      setTimeout(() => { if (!MV.pend) b.classList.remove('on'); }, ok ? 4500 : 9000);
+      aggiorna();
+    });
+  };
+  const chiudiMicro = () => { MV.pend = null; MV.prossima = 0; const b = microBox(); if (b) { b.classList.remove('on'); b.innerHTML = ''; } };
+  /* restituisce false se il conteggio del tempo va sospeso */
+  const cicloMicro = () => {
+    if (ANTEPRIMA) return true;
+    const i = st.c, s = S[i], now = Date.now();
+    if (completo(i) || s.t === 'testfinale') { if (MV.pend) chiudiMicro(); return true; }
+    if (MV.pend) {
+      const r = 30 - Math.floor((now - MV.pend.t) / 1000); const c = $('#mv-cnt'); if (c) c.textContent = r > 0 ? r + ' s' : 'tempo sospeso';
+      return r > 0;
+    }
+    const rest = s.sec * FATTORE - st.t[i];
+    if (rest <= 12 || (!narFine && audio)) { MV.prossima = 0; return true; }
+    if (obbligo && !obbligo.fatto()) return true; // il corsista sta svolgendo l’attività obbligatoria della schermata
+    if (!MV.prossima) MV.prossima = now + 20000;
+    if (now - MV.ultimoClic < 15000 && MV.prossima - now < 8000) MV.prossima = now + 8000;
+    if (now >= MV.prossima) mostraMicro();
+    return true;
   };
 
   /* ───────── conteggio del tempo e presenza ───────── */
@@ -249,7 +349,8 @@
     if (document.visibilityState !== 'visible' || inPausa) return;
     if (now - ultimoInput > 5 * 60000 && !ANTEPRIMA) { presenza(); return; }
     if (now > prossimaPres && !completo(st.c)) { presenza(); return; }
-    if (!completo(st.c)) st.t[st.c] = Math.min(st.t[st.c] + dt, 99999);
+    const contaTempo = cicloMicro();
+    if (!completo(st.c) && contaTempo) st.t[st.c] = Math.min(st.t[st.c] + dt, 99999);
     aggiorna();
   }, 1000);
   setInterval(() => salva(true), 30000);
@@ -270,22 +371,84 @@
   /* ───────── rendering ───────── */
   const testa = (s, extra = '') => `<div class="sch-testa an" data-subito><div><div class="mod">${esc(s.mod.id === 'M0' ? 'Introduzione' : s.mod.id === 'TF' ? 'Verifica finale' : (/^(Modulo|Unità|UD)/.test(s.mod.titolo) ? s.mod.titolo : 'Modulo ' + s.mod.id.slice(1) + ' · ' + s.mod.titolo))}</div><h2>${esc(s.tit)}</h2>${s.sott ? `<div class="sott">${esc(s.sott)}</div>` : ''}</div>${s.rif ? `<div class="rif">${esc(s.rif)}</div>` : ''}${extra}</div>`;
   const foto = n => `img/${n}.jpg`;
-  const FOTO = ['sicurezza', 'sicurezza2', 'sicurezza3', 'hero1', 'chi', 'aziende'];
+  const fondo = n => (!n || n === '-') ? '<div class="foto nofoto"></div>' : `<div class="foto" style="background-image:url(${foto(n)})"></div>`;
+  const FOTO = (window.FOTO_CORSO && window.FOTO_CORSO.length) ? window.FOTO_CORSO : ['sicurezza', 'sicurezza2', 'sicurezza3', 'hero1', 'chi', 'aziende'];
   const shuffle = a => { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
   const svgISO = c => ISO[c] || '';
   const coloriLiv = v => v <= 2 ? ['#00A050', 'Basso', 'Rischio accettabile: mantenere le misure e verificarle nel tempo.'] : v <= 4 ? ['#C9A100', 'Medio-basso', 'Interventi da programmare nel medio periodo, con verifiche periodiche.'] : v <= 8 ? ['#E07000', 'Medio-alto', 'Interventi da programmare con urgenza, nel breve periodo.'] : ['#C81F26', 'Alto', 'Interventi immediati: il rischio non è accettabile.'];
 
+/* ───────── grafici dinamici esplorabili (soglie, calcolo, flusso, intervalli) ───────── */
+  const GR = {};
+  const fmtN = (v, d = 1) => Number(v).toLocaleString('it-IT', { maximumFractionDigits: d });
+  /* soglie: cursore lungo una scala con zone normative (es. livelli d'azione) */
+  GR.soglie = s => {
+    const g = s.grafico, W = 1000, H = 150, x = v => 40 + (v - g.min) / (g.max - g.min) * (W - 80);
+    const lim = [g.min, ...g.zone.map(z => z.fino), g.max];
+    const fasce = g.zone.map((z, k) => `<rect x="${x(lim[k])}" y="40" width="${Math.max(0, x(Math.min(z.fino, g.max)) - x(lim[k]))}" height="34" rx="6" fill="${z.colore}"/>${(x(Math.min(z.fino, g.max)) - x(lim[k])) >= z.nome.length * 8.5 + 16 ? `<text x="${(x(lim[k]) + x(Math.min(z.fino, g.max))) / 2}" y="62" text-anchor="middle" class="gz">${esc(z.nome)}</text>` : ''}`).join('');
+    const tacche = g.zone.filter(z => z.fino < g.max).map(z => `<line x1="${x(z.fino)}" x2="${x(z.fino)}" y1="30" y2="86" class="gt"/><text x="${x(z.fino)}" y="104" text-anchor="middle" class="gv">${fmtN(z.fino)} ${esc(g.unita)}</text>`).join('');
+    return `<div class="gr-box"><svg viewBox="0 0 ${W} ${H}" class="gr-svg" role="img" aria-label="${esc(g.titolo || s.tit)}">${fasce}${tacche}<g id="gr-cur"><line x1="0" x2="0" y1="22" y2="92" class="gc"/><circle cx="0" cy="22" r="9" class="gcc"/></g></svg>
+      <label class="gr-sl"><span>${esc(g.variabile)}</span><input type="range" id="gr-in" min="${g.min}" max="${g.max}" step="${g.passo || 1}" value="${g.iniziale ?? g.min}"><b id="gr-val"></b></label>
+      <div class="gr-esito" id="gr-esito"></div><div class="gr-avanz" id="gr-avanz"></div></div>`;
+  };
+  GR.calcolo = s => {
+    const g = s.grafico;
+    return `<div class="gr-box"><div class="gr-formula">${esc(g.formula_testo)}</div>${g.ingressi.map(i => `<label class="gr-sl"><span>${esc(i.nome)}</span><input type="range" data-id="${i.id}" min="${i.min}" max="${i.max}" step="${i.passo || 1}" value="${i.val}"><b data-v="${i.id}"></b></label>`).join('')}
+      <div class="gr-ris"><span>${esc(g.risultato)}</span><b id="gr-out"></b></div><div class="gr-barra"><div id="gr-bar"></div>${g.limite ? `<i style="left:${100 * g.limite / g.scala}%"></i><em style="left:${100 * g.limite / g.scala}%">${esc(g.limite_testo || 'limite')} ${fmtN(g.limite)}</em>` : ''}</div><div class="gr-esito" id="gr-esito"></div><div class="gr-avanz" id="gr-avanz"></div></div>`;
+  };
+  GR.flusso = s => `<div class="gr-box"><ol class="gr-flusso">${s.grafico.passi.map((p, k) => `<li><button class="gr-nodo" data-k="${k}"><span class="n">${k + 1}</span><b>${esc(p.nome)}</b>${p.tempo ? `<em>${esc(p.tempo)}</em>` : ''}</button></li>`).join('')}</ol><div class="gr-dett" id="gr-dett">Selezionare ciascuna fase per visualizzarne il contenuto.</div><div class="gr-avanz" id="gr-avanz"></div></div>`;
+  GR.intervalli = s => {
+    const g = s.grafico, W = 1000, r = 32, H = 30 + g.voci.length * r, x0 = 330, x = v => x0 + v / g.max * (W - x0 - 40);
+    const ticks = [...Array(g.tacche + 1)].map((_, k) => g.max * k / g.tacche);
+    return `<div class="gr-box"><svg viewBox="0 0 ${W} ${H + 24}" class="gr-svg">${ticks.map(t => `<line x1="${x(t)}" x2="${x(t)}" y1="10" y2="${H}" class="gg"/><text x="${x(t)}" y="${H + 18}" text-anchor="middle" class="gv">${fmtN(t)}</text>`).join('')}
+      ${g.voci.map((v, k) => `<g class="gr-iv" data-k="${k}" tabindex="0" role="button"><text x="${x0 - 14}" y="${30 + k * r}" text-anchor="end" class="gl">${esc(v.nome)}</text><line x1="${x(v.da)}" x2="${x(v.a)}" y1="${26 + k * r}" y2="${26 + k * r}" class="gi" stroke="${v.colore || '#0f5c6b'}"/><circle cx="${x(v.da)}" cy="${26 + k * r}" r="7" fill="${v.colore || '#0f5c6b'}"/><circle cx="${x(v.a)}" cy="${26 + k * r}" r="7" fill="${v.colore || '#0f5c6b'}"/></g>`).join('')}</svg>
+      <div class="gr-asse">${esc(g.unita)}</div><div class="gr-dett" id="gr-dett">Selezionare ciascuna voce per visualizzarne il dettaglio.</div><div class="gr-avanz" id="gr-avanz"></div></div>`;
+  };
+  const BG = {
+    soglie: (s, el) => {
+      const g = s.grafico, inp = $('#gr-in', el), W = 1000, x = v => 40 + (v - g.min) / (g.max - g.min) * (W - 80), viste = new Set();
+      const up = () => { const v = +inp.value, k = g.zone.findIndex(z => v <= z.fino), z = g.zone[k < 0 ? g.zone.length - 1 : k]; viste.add(z.nome);
+        $('#gr-cur', el).setAttribute('transform', `translate(${x(v)},0)`); $('#gr-val', el).textContent = fmtN(v) + ' ' + g.unita;
+        $('#gr-esito', el).innerHTML = `<b style="color:${z.colore}">${esc(z.nome)}</b> · ${esc(z.testo)}`;
+        $('#gr-avanz', el).textContent = `Zone esplorate: ${viste.size} / ${g.zone.length}`; aggiorna(); };
+      inp.oninput = up; up(); obbligo = { fatto: () => viste.size >= g.zone.length, testo: 'Spostare il cursore in tutte le zone del grafico' };
+    },
+    calcolo: (s, el) => {
+      const g = s.grafico, f = new Function(...g.ingressi.map(i => i.id), 'return (' + g.formula + ');'); let mosse = 0;
+      const up = (conta) => { const v = g.ingressi.map(i => +$(`input[data-id="${i.id}"]`, el).value); g.ingressi.forEach((i, k) => $(`[data-v="${i.id}"]`, el).textContent = fmtN(v[k], 2) + ' ' + (i.unita || ''));
+        const r = f(...v); $('#gr-out', el).textContent = fmtN(r, 1) + ' ' + (g.unita || ''); const pc = Math.min(100, 100 * r / g.scala), sup = g.limite && r > g.limite;
+        const bar = $('#gr-bar', el); bar.style.width = pc + '%'; bar.classList.toggle('sup', !!sup);
+        $('#gr-esito', el).textContent = g.limite ? (sup ? (g.testo_sup || 'Valore superiore al limite') : (g.testo_ok || 'Valore entro il limite')) : '';
+        if (conta) mosse++; $('#gr-avanz', el).textContent = `Simulazioni eseguite: ${Math.min(mosse, 3)} / 3`; aggiorna(); };
+      $$('input', el).forEach(i => { i.oninput = () => up(false); i.onchange = () => up(true); }); up(false);
+      obbligo = { fatto: () => mosse >= 3, testo: 'Eseguire almeno tre simulazioni modificando i valori' };
+    },
+    flusso: (s, el) => { const viste = new Set(), p = s.grafico.passi;
+      $$('.gr-nodo', el).forEach(b => b.onclick = () => { const k = +b.dataset.k; viste.add(k); $$('.gr-nodo', el).forEach(x => x.classList.toggle('att', x === b)); b.classList.add('vista');
+        $('#gr-dett', el).innerHTML = `<b>${k + 1}. ${esc(p[k].nome)}</b>${p[k].tempo ? ` <em>${esc(p[k].tempo)}</em>` : ''}<br>${esc(p[k].testo)}`; $('#gr-avanz', el).textContent = `Fasi consultate: ${viste.size} / ${p.length}`; aggiorna(); });
+      $('#gr-avanz', el).textContent = `Fasi consultate: 0 / ${p.length}`; obbligo = { fatto: () => viste.size >= p.length, testo: 'Consultare tutte le fasi del diagramma' };
+    },
+    intervalli: (s, el) => { const viste = new Set(), v = s.grafico.voci;
+      $$('.gr-iv', el).forEach(g => { const apri = () => { const k = +g.dataset.k; viste.add(k); $$('.gr-iv', el).forEach(x => x.classList.toggle('att', x === g));
+        $('#gr-dett', el).innerHTML = `<b>${esc(v[k].nome)}</b>: ${fmtN(v[k].da)}–${fmtN(v[k].a)} ${esc(s.grafico.unita_breve || '')}<br>${esc(v[k].testo)}`; $('#gr-avanz', el).textContent = `Voci consultate: ${viste.size} / ${v.length}`; aggiorna(); };
+        g.onclick = apri; g.onkeydown = e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); apri(); } }; });
+      $('#gr-avanz', el).textContent = `Voci consultate: 0 / ${v.length}`; obbligo = { fatto: () => viste.size >= v.length, testo: 'Consultare tutte le voci del grafico' };
+    }
+  };
+
+  const obiettivoMod = s => { const t = String(s.nar || '').replace(/^(Modulo|Unità|Parte)[^.]*\.\s*/, '').trim(); const f = (t.match(/^[^.]+\./) || [''])[0]; return f.length > 30 && !f.toLowerCase().includes(String(s.sott || '').toLowerCase()) ? f : ''; };
+  const rifMod = s => { const c = {}; s.mod.schermate.forEach(x => String(x.rif || '').split('·').map(r => r.trim().replace(/,\s*(artt?\.|Allegat|Titolo|Capo|Parte|c\.).*$/, '')).filter(r => r.length > 4 && r.length < 60).forEach(r => c[r] = (c[r] || 0) + 1)); return Object.entries(c).sort((a, b) => b[1] - a[1]).slice(0, 3).map(x => x[0]).join(' · '); };
   const R = {
-    copertina: s => `<div class="schermata full"><div class="foto" style="background-image:url(${foto(s.mod.foto)})"></div><div class="velo"></div>
+    grafico: s => `<div class="schermata">${testa(s)}<div class="corpo gr">${s.lead ? `<p class="lead an" data-subito>${esc(s.lead)}</p>` : ''}${GR[s.grafico.tipo](s)}</div></div>`,
+    copertina: s => `<div class="schermata full">${fondo((window.FOTO_MOD && window.FOTO_MOD[s.mod.id]) || s.mod.foto)}<div class="velo"></div>
       <div class="loghi an" data-subito><span class="bianco"><img src="loghi/astra.svg" alt="ASTRA"></span><img class="jd" src="loghi/jd.svg" alt="J.D'"></div>
       <div class="contenuto"><div class="kicker an">${esc(C.rif)}</div><h1 class="an">${esc(s.tit)}</h1><p class="an">${esc(C.sottotitolo)}</p></div></div>`,
-    sezione: s => `<div class="schermata full"><div class="foto" style="background-image:url(${foto(s.mod.foto)})"></div><div class="velo"></div>
+    sezione: s => `<div class="schermata full">${fondo((window.FOTO_MOD && window.FOTO_MOD[s.mod.id]) || s.mod.foto)}<div class="velo"></div>
       <div class="num">${esc(((s.tit || "").match(/^(?:Modulo|Unità [A-Z]?|UD) ?(\d+)/) || [])[1] || s.mod.id.slice(1))}</div>
-      <div class="contenuto"><div class="kicker an">${esc(s.tit)} · ${s.mod.min} minuti</div><h1 class="an">${esc(s.sott)}</h1><p class="an">${s.mod.schermate.length - 1} schermate · esercitazioni e verifica intermedia</p></div></div>`,
+      <div class="contenuto"><div class="kicker an">${esc(s.tit)} · ${s.mod.min} minuti</div><h1 class="an">${esc(s.sott)}</h1>${obiettivoMod(s) ? `<div class="obiet an"><b>Obiettivo didattico</b>${esc(obiettivoMod(s))}</div>` : ''}${rifMod(s) ? `<div class="rifmod an">${esc(rifMod(s))}</div>` : ''}<p class="an">${s.mod.schermate.length - 1} schermate · esercitazioni, grafici interattivi e verifica intermedia</p></div></div>`,
     guida: s => `<div class="schermata">${testa(s)}<div class="corpo"><div class="guida">${s.voci.map(v => `<div class="g an"><div class="cerchio">${ico(v[0])}</div><b>${esc(v[1])}</b><p>${esc(v[2])}</p></div>`).join('')}</div></div></div>`,
     obiettivi: s => `<div class="schermata">${testa(s)}<div class="corpo"><ul class="check">${s.voci.map(v => `<li class="an">${ico('FaCircleCheck')}<span>${esc(v)}</span></li>`).join('')}</ul></div></div>`,
     sintesi: s => `<div class="schermata">${testa(s)}<div class="corpo sintesi-wrap"><ul class="check">${s.voci.map(v => `<li class="an">${ico('FaCircleCheck')}<span>${esc(v)}</span></li>`).join('')}</ul><div class="badge an-s"><div><div><b>${esc(s.mod.id.slice(1))}</b><span>modulo<br>completato</span></div></div></div></div></div>`,
-    testo: s => `<div class="schermata">${testa(s)}<div class="corpo testo-foto"><figure class="foto-sl an" data-subito><img src="img/${FOTO[(s.mi * 7 + s.si) % FOTO.length]}.jpg" alt=""></figure><div class="scroll">${s.lead ? `<p class="lead an">${esc(s.lead)}</p>` : ''}<ul class="punti">${s.punti.map((p, i) => `<li class="an"><span class="n">${i + 1}</span><span>${esc(p)}</span></li>`).join('')}</ul></div></div></div>`,
+    testo: s => { const nf = (window.FOTO_SCH && window.FOTO_SCH[`${s.mod.id}-${s.si}`]) || FOTO[(s.mi * 7 + s.si) % FOTO.length]; return `<div class="schermata">${testa(s)}<div class="corpo ${nf === '-' ? 'testo-solo' : 'testo-foto'}">${nf === '-' ? '' : `<figure class="foto-sl an" data-subito><img src="img/${nf}.jpg" alt=""></figure>`}<div class="scroll">${s.lead ? `<p class="lead an">${esc(s.lead)}</p>` : ''}<ul class="punti">${s.punti.map((p, i) => `<li class="an"><span class="n">${i + 1}</span><span>${esc(p)}</span></li>`).join('')}</ul></div></div></div>`; },
     definizioni: s => `<div class="schermata">${testa(s)}<div class="corpo"><div class="def-griglia" style="grid-template-columns:repeat(${s.voci.length > 4 ? 3 : 2},1fr)">${s.voci.map((v, i) => `<div class="def an-s" data-i="${i}" role="button" tabindex="0" aria-label="${esc(v[1])}"><div class="in"><div class="fr"><span class="lett">${/^[a-z]{1,2}$/.test(v[0]) ? 'Art. 2 · lett. ' + esc(v[0]) + ')' : esc(v[0])}</span><span class="ter">${esc(v[1])}</span><span class="clic">${ico('FaHandPointer')} Consulta</span></div><div class="re"><div class="ter">${esc(v[1])}</div><p>${esc(v[2])}</p></div></div></div>`).join('')}</div></div></div>`,
     articolo: s => `<div class="schermata">${testa(Object.assign({}, s, { rif: '' }))}<div class="corpo art"><div class="targa an" data-subito><div><div class="num">${esc(s.art)}</div>${s.sott ? `<div class="sott">${esc(s.sott)}</div>` : ''}</div>${s.nota ? `<div class="nota">${esc(s.nota)}</div>` : ''}</div><div class="scroll"><ul class="commi">${s.commi.map(c => `<li class="an"><span class="l">${esc(c[0])}${/^[a-z]/.test(c[0]) && c[0].length < 7 && !/^c\./.test(c[0]) ? ')' : ''}</span><span>${esc(c[1])}</span></li>`).join('')}</ul></div></div></div>`,
     figure: s => `<div class="schermata">${testa(s)}<div class="corpo"><div class="fig-griglia ${s.voci.length % 3 === 0 && s.voci.length < 8 ? 'tre' : ''}">${s.voci.map((v, i) => `<button class="fig an-s" data-i="${i}"><span class="cerchio">${ico(v[0])}</span><b>${esc(v[1])}</b></button>`).join('')}</div><div class="dettaglio an" id="det">${ico('FaHandPointer')}<div><b>Selezionare una scheda</b>Per proseguire è necessario consultare tutte le schede.</div></div></div></div>`,
@@ -307,6 +470,7 @@
 
   /* ───────── comportamenti interattivi ───────── */
   const B = {
+    grafico: (s, el) => BG[s.grafico.tipo](s, el),
     definizioni: (s, el) => {
       const viste = new Set();
       $$('.def', el).forEach(d => { const apri = () => { d.classList.toggle('aperta'); d.classList.add('vista'); viste.add(d.dataset.i); aggiorna(); }; d.onclick = apri; d.onkeydown = e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); apri(); } }; });
@@ -470,7 +634,7 @@
     st.c = i; salva(false); disegna();
   };
   const disegna = () => {
-    timersSch.forEach(clearTimeout); timersSch = []; zitto(); obbligo = null; narFine = !audio;
+    timersSch.forEach(clearTimeout); timersSch = []; zitto(); obbligo = null; narFine = !audio; chiudiMicro();
     const s = S[st.c], vecchia = $('.schermata', palco);
     const html = (R[s.t] || R.testo)(s);
     const tmp = document.createElement('div'); tmp.innerHTML = html; const nuova = tmp.firstElementChild;

@@ -497,3 +497,7 @@ button:disabled{cursor:not-allowed}
 .full .obiet{max-width:min(680px,90%);margin:14px 0 8px;font:500 clamp(13px,1.2vw,16px)/1.5 var(--fm);color:#fff}
 .full .obiet b{display:block;font:700 12px var(--fb);letter-spacing:.08em;text-transform:uppercase;color:#ffd27a;margin-bottom:3px}
 .full .rifmod{display:inline-block;font:700 12px var(--fb);color:#fff;background:rgba(200,31,38,.85);padding:4px 10px;border-radius:6px;margin-bottom:6px}
+
+/* infografiche: mostrate per intero, senza ritaglio né movimento */
+.full .foto.inf{background-size:contain;background-repeat:no-repeat;background-color:#fff;animation:none;transform:none}
+.foto-sl.inf{background:#fff}.foto-sl.inf img{object-fit:contain;animation:none}.foto-sl.inf::after{display:none}

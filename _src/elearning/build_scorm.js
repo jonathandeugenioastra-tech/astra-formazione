@@ -50,7 +50,7 @@ fs.copyFileSync(path.join(ROOT, 'formazione/risorse/timbro_DEU.png'), path.join(
   const SCELTA = require('./foto_corsi.js').scegli(C);
   for (const f of new Set([...Object.values(SCELTA.sch), ...Object.values(SCELTA.mod), ...SCELTA.ammesse])) if (f && f !== '-' && !foto.includes(f)) foto.push(f);
   fs.writeFileSync(path.join(OUT, 'dati/foto.js'), 'window.FOTO_CORSO=' + JSON.stringify(SCELTA.ammesse) + ';window.FOTO_SCH=' + JSON.stringify(SCELTA.sch) + ';window.FOTO_MOD=' + JSON.stringify(SCELTA.mod) + ';');
-  for (const f of foto) await sharp(path.join(ROOT, 'sito/img', f + '-2560.jpg')).resize({ width: 1920 }).jpeg({ quality: 80, mozjpeg: true }).toFile(path.join(OUT, 'img', f + '.jpg'));
+  for (const f of foto) await sharp([path.join(ROOT, 'sito/img', f + '-2560.jpg'), path.join(ROOT, '_interno/foto_utente', f + '-2560.jpg')].find(p => fs.existsSync(p))).resize({ width: 1920 }).jpeg({ quality: 80, mozjpeg: true }).toFile(path.join(OUT, 'img', f + '.jpg'));
 
 
   /* narrazione professionale (se generata con tts_azure.js) */

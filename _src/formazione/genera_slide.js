@@ -34,7 +34,7 @@ async function pitto(cod) {
 async function foto(nome, w = 4.6, h = 5.625) {
   const k = 'f' + nome + w.toFixed(3) + 'x' + h.toFixed(3); if (cache[k]) return cache[k];
   const W = 1800, H = Math.round(W * h / w);
-  const buf = await sharp(path.join(ROOT, 'sito/img', nome + '-2560.jpg')).resize({ width: W, height: H, fit: 'cover', position: 'attention' }).jpeg({ quality: 84 }).toBuffer();
+  const buf = await sharp([path.join(ROOT, 'sito/img', nome + '-2560.jpg'), path.join(ROOT, '_interno/foto_utente', nome + '-2560.jpg')].find(p => fs.existsSync(p))).resize(/^inf_/.test(nome) ? { width: W, height: H, fit: 'contain', background: '#ffffff' } : { width: W, height: H, fit: 'cover', position: 'attention' }).jpeg({ quality: 84 }).toBuffer();
   return cache[k] = { data: 'image/jpeg;base64,' + buf.toString('base64'), r: w / h };
 }
 /* dimensione del carattere che fa stare il testo nel riquadro (stima prudente per Eras) */

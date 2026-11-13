@@ -42,7 +42,7 @@ function domandaFlash(sc, corpus, seme) {
 }
 
 const descriviVisual = (nomeFoto, catalogo, incendio) => {
-  if (incendio) return 'Nessuna fotografia (argomento incendio/esplosione): la diapositiva usa solo schemi tecnici, tabelle e riferimenti normativi.';
+  if (incendio && !nomeFoto) return 'Nessuna fotografia (argomento incendio/esplosione): la diapositiva usa solo schemi tecnici, tabelle e riferimenti normativi.';
   if (!nomeFoto) return 'Diapositiva con infografica a punti numerati e schema grafico; nessuna fotografia pertinente disponibile in libreria.';
   const d = catalogo && catalogo[nomeFoto];
   return 'Fotografia: ' + (d ? d : nomeFoto) + '. Richiamare l’immagine per ancorare il concetto alla realtà operativa.';

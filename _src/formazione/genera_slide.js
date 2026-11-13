@@ -127,7 +127,7 @@ async function genera(id) {
         const obT = String(sc.nar || '').replace(/^(Modulo|Unità|Parte)[^.]*\.\s*/, '').trim(), ob = (obT.match(/^[^.]+\./) || [''])[0];
         const rc = {}; M.schermate.forEach(x => String(x.rif || x.art || '').split('·').map(r => r.trim().replace(/,\s*(artt?\.|Allegat|Titolo|Capo|Parte|c\.).*$/, '')).filter(r => r.length > 4 && r.length < 60).forEach(r => rc[r] = (rc[r] || 0) + 1));
         const rifs = Object.entries(rc).sort((a, b) => b[1] - a[1]).slice(0, 4).map(x => x[0]);
-        if (ob.length > 30 && !ob.toLowerCase().includes(String(sc.sott || M.titolo).toLowerCase())) txt(s, [{ text: 'OBIETTIVO DIDATTICO', options: { fontFace: FB, fontSize: 9.5, color: 'FFD27A', breakLine: true } }, { text: ob, options: { fontFace: FB, fontSize: fsz(ob, 4.6, 1.1, 12, 8.5), color: 'FFFFFF' } }], { x: 0.55, y: 3.75, w: 4.6, h: 1.25 });
+        if (ob.length > 30 && !ob.toLowerCase().includes(String(sc.sott || M.titolo).toLowerCase())) txt(s, [{ text: 'OBIETTIVO DIDATTICO', options: { fontFace: FB, fontSize: 9.5, color: 'FFD27A', breakLine: true } }, { text: ob, options: { fontFace: FB, fontSize: (sc.sott || M.titolo).length > 45 ? fsz(ob, 4.6, 0.7, 10, 8) : fsz(ob, 4.6, 1.1, 12, 8.5), color: 'FFFFFF' } }], (sc.sott || M.titolo).length > 45 ? { x: 0.55, y: 4.3, w: 4.6, h: 0.85 } : { x: 0.55, y: 3.75, w: 4.6, h: 1.25 });
         if (nmF && nmF !== '-') { const f = await foto(nmF, 4.6, 5.625); s.addImage({ data: f.data, x: 5.4, y: 0, w: 4.6, h: 5.625 }); }
         else if (rifs.length) { // argomenti senza fotografia (incendio): tabella dei riferimenti normativi del modulo
           s.addText('RIFERIMENTI NORMATIVI DEL MODULO', { x: 5.7, y: 1.2, w: 4, h: 0.35, fontFace: FB, fontSize: 11, color: 'FFD27A' });

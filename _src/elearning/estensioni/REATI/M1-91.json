@@ -1,0 +1,42 @@
+{
+ "dopo": "La procedura estintiva delle contravvenzioni ambientali",
+ "schermate": [
+  {
+   "t": "grafico",
+   "tit": "Diagramma · La procedura estintiva ambientale",
+   "rif": "D.lgs. 152/2006, artt. 318-bis – 318-septies",
+   "lead": "Selezionare ciascuna fase della procedura.",
+   "grafico": {
+    "tipo": "flusso",
+    "passi": [
+     {
+      "nome": "Accertamento",
+      "tempo": null,
+      "testo": "Contravvenzione del D.lgs. 152/2006 senza danno o pericolo concreto e attuale di danno."
+     },
+     {
+      "nome": "Prescrizione asseverata",
+      "tempo": "termine tecnicamente necessario",
+      "testo": "Misure per eliminare la violazione; proroga per una sola volta, motivata, fino a sei mesi."
+     },
+     {
+      "nome": "Verifica",
+      "tempo": "entro 60 giorni",
+      "testo": "L’organo di vigilanza verifica l’adempimento dalla scadenza del termine."
+     },
+     {
+      "nome": "Pagamento",
+      "tempo": "entro 30 giorni",
+      "testo": "Somma pari a un quarto del massimo dell’ammenda."
+     },
+     {
+      "nome": "Estinzione",
+      "tempo": "entro 120 giorni",
+      "testo": "Comunicazione al pubblico ministero; il reato si estingue."
+     }
+    ]
+   },
+   "nar": "Diagramma interattivo. Si selezioni ciascuna fase della procedura di estinzione delle contravvenzioni ambientali: accertamento, prescrizione asseverata, verifica, pagamento ed estinzione, con i termini previsti."
+  }
+ ]
+}

@@ -1,0 +1,42 @@
+{
+ "dopo": "Funzioni e poteri dell'organo di vigilanza",
+ "schermate": [
+  {
+   "t": "grafico",
+   "tit": "Diagramma · La prescrizione dell’organo di vigilanza",
+   "rif": "D.lgs. 758/1994, artt. 20–24",
+   "lead": "Selezionare ciascuna fase della procedura di estinzione delle contravvenzioni in materia di sicurezza.",
+   "grafico": {
+    "tipo": "flusso",
+    "passi": [
+     {
+      "nome": "Accertamento",
+      "tempo": null,
+      "testo": "L’organo di vigilanza accerta una contravvenzione e ne dà notizia al pubblico ministero."
+     },
+     {
+      "nome": "Prescrizione",
+      "tempo": "termine tecnicamente necessario",
+      "testo": "Impartisce una prescrizione per eliminare la violazione, con un termine prorogabile una volta, su richiesta motivata, fino a sei mesi."
+     },
+     {
+      "nome": "Verifica",
+      "tempo": "entro 60 giorni",
+      "testo": "Entro sessanta giorni dalla scadenza del termine verifica l’adempimento."
+     },
+     {
+      "nome": "Pagamento",
+      "tempo": "entro 30 giorni",
+      "testo": "Il contravventore è ammesso a pagare un quarto del massimo dell’ammenda."
+     },
+     {
+      "nome": "Estinzione",
+      "tempo": null,
+      "testo": "Adempimento e pagamento estinguono la contravvenzione; l’esito è comunicato al pubblico ministero."
+     }
+    ]
+   },
+   "nar": "Diagramma interattivo. Si selezioni ciascuna fase della procedura con cui le contravvenzioni in materia di salute e sicurezza possono estinguersi: accertamento, prescrizione, verifica, pagamento ed estinzione."
+  }
+ ]
+}

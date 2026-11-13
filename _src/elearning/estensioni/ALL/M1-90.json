@@ -1,0 +1,47 @@
+{
+ "dopo": "Prevenire la contaminazione crociata da allergeni",
+ "schermate": [
+  {
+   "t": "grafico",
+   "tit": "Diagramma · Il controllo degli allergeni nel ciclo produttivo",
+   "rif": "Reg. (UE) 1169/2011, art. 9 e Allegato II · Reg. (CE) 852/2004",
+   "lead": "Selezionare ciascuna fase per visualizzare i controlli da applicare.",
+   "grafico": {
+    "tipo": "flusso",
+    "passi": [
+     {
+      "nome": "Ricevimento",
+      "tempo": null,
+      "testo": "Verifica delle specifiche e delle etichette delle materie prime; aggiornamento della matrice degli allergeni a ogni cambio di fornitore o ricetta."
+     },
+     {
+      "nome": "Stoccaggio",
+      "tempo": null,
+      "testo": "Separazione fisica e identificazione degli ingredienti allergenici; contenitori chiusi e posizionati in basso."
+     },
+     {
+      "nome": "Preparazione",
+      "tempo": null,
+      "testo": "Pianificazione delle lavorazioni dal prodotto privo di allergeni a quello che li contiene; utensili e superfici dedicati o sanificati."
+     },
+     {
+      "nome": "Sanificazione",
+      "tempo": null,
+      "testo": "Procedure di pulizia validate e verificate, con registrazione; attenzione alle polveri disperse (farine, frutta a guscio)."
+     },
+     {
+      "nome": "Informazione al consumatore",
+      "tempo": null,
+      "testo": "Etichetta o documentazione aggiornata con gli allergeni evidenziati; personale formato a rispondere alle richieste."
+     },
+     {
+      "nome": "Gestione delle non conformità",
+      "tempo": null,
+      "testo": "Blocco del prodotto, valutazione del rischio, eventuale ritiro o richiamo e notifica all’autorità."
+     }
+    ]
+   },
+   "nar": "Diagramma interattivo. Si selezioni ciascuna fase del ciclo produttivo per visualizzare i controlli da applicare per la gestione degli allergeni: ricevimento, stoccaggio, preparazione, sanificazione, informazione al consumatore e gestione delle non conformità."
+  }
+ ]
+}

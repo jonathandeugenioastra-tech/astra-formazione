@@ -1,0 +1,93 @@
+{
+ "dopo": "Valori limite, autocontrolli e comunicazioni",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Esempio applicativo: la correzione all’ossigeno di riferimento",
+   "lead": "La concentrazione misurata in un effluente di combustione va riportata al tenore di ossigeno di riferimento prima del confronto con il limite.",
+   "punti": [
+    "Formula: C_rif = C_mis × (21 − O₂ rif) / (21 − O₂ mis)",
+    "Dati: NOx misurati 180 mg/Nm³ con O₂ misurato 9%; ossigeno di riferimento 3%",
+    "Calcolo: 180 × (21 − 3) / (21 − 9) = 180 × 18 / 12 = 270 mg/Nm³",
+    "Se il limite è 200 mg/Nm³ al 3% di O₂, l’emissione non è conforme",
+    "La correzione si applica solo quando l’autorizzazione la prevede"
+   ],
+   "appro": "Un eccesso d’aria elevato diluisce l’effluente e abbassa la concentrazione misurata: senza correzione, un bruciatore mal regolato potrebbe apparire migliore di uno ben regolato.",
+   "rif": "D.lgs. 152/2006, Allegato VI alla Parte V",
+   "nar": "Si propone un esempio applicativo della correzione all’ossigeno di riferimento. In un impianto di combustione si misura una concentrazione di ossidi di azoto pari a centottanta milligrammi per normal metro cubo, con un tenore di ossigeno nell’effluente del nove per cento. L’autorizzazione fissa un valore limite di duecento milligrammi per normal metro cubo riferito al tre per cento di ossigeno. La concentrazione misurata deve essere riportata al tenore di riferimento con la relazione che moltiplica il valore misurato per il rapporto tra ventuno meno l’ossigeno di riferimento e ventuno meno l’ossigeno misurato. Nel caso in esame il rapporto è diciotto diviso dodici, cioè uno virgola cinque, e la concentrazione corretta risulta di duecentosettanta milligrammi per normal metro cubo, superiore al valore limite. Senza la correzione l’emissione sarebbe apparsa conforme. Il motivo è fisico: un elevato eccesso d’aria diluisce l’effluente e riduce la concentrazione misurata, senza ridurre la massa di inquinante emessa. La correzione rende quindi confrontabili misure eseguite in condizioni di diluizione diverse e impedisce che un bruciatore mal regolato appaia migliore di uno ben regolato. La correzione si applica soltanto quando l’autorizzazione o la norma la prevedono, tipicamente per i processi di combustione."
+  },
+  {
+   "t": "testo",
+   "tit": "Esempio applicativo: dal valore di concentrazione al flusso di massa",
+   "lead": "Il flusso di massa combina concentrazione e portata e consente di stimare la quantità annua emessa.",
+   "punti": [
+    "Dati: concentrazione di polveri 8 mg/Nm³; portata 25.000 Nm³/h",
+    "Flusso di massa: 8 × 25.000 = 200.000 mg/h = 200 g/h",
+    "Funzionamento: 16 ore al giorno per 220 giorni all’anno = 3.520 h",
+    "Emissione annua stimata: 200 g/h × 3.520 h ≈ 704 kg",
+    "Dati utili per dichiarazioni, inventari e confronto con soglie regionali"
+   ],
+   "appro": "Una concentrazione bassa non implica una emissione modesta: con portate elevate anche pochi milligrammi per metro cubo generano quantità annue rilevanti.",
+   "rif": "D.lgs. 152/2006, art. 268 e Allegato I",
+   "nar": "Si propone un secondo esempio applicativo, relativo al calcolo del flusso di massa. Un camino che serve un impianto di levigatura convoglia un effluente con una concentrazione di polveri di otto milligrammi per normal metro cubo e una portata di venticinquemila normal metri cubi all’ora. Il flusso di massa si ottiene moltiplicando la concentrazione per la portata: otto per venticinquemila dà duecentomila milligrammi all’ora, cioè duecento grammi all’ora. Se l’impianto funziona sedici ore al giorno per duecentoventi giorni all’anno, le ore di funzionamento sono tremilacinquecentoventi, e l’emissione annua stimata è di circa settecentoquattro chilogrammi di polveri. Questo calcolo è utile per diversi scopi: verificare il rispetto di un eventuale limite in flusso di massa, compilare le dichiarazioni e gli inventari delle emissioni richiesti dalle Regioni, confrontare le emissioni con le soglie che determinano gli obblighi di monitoraggio e valutare l’efficacia degli interventi di miglioramento. L’esempio mostra anche un aspetto spesso trascurato: una concentrazione bassa non implica un’emissione modesta, perché con portate elevate anche pochi milligrammi per metro cubo si traducono in quantità annue rilevanti. Per questo le autorità considerano entrambi i parametri."
+  },
+  {
+   "t": "testo",
+   "tit": "Incertezza di misura e giudizio di conformità",
+   "lead": "Ogni misura di emissione è affetta da incertezza, di cui occorre tenere conto nel confronto con il valore limite secondo regole predefinite.",
+   "punti": [
+    "Fonti di incertezza: campionamento, rappresentatività del punto di prelievo, analisi di laboratorio, misura della portata",
+    "Il rapporto di prova deve riportare il risultato e la relativa incertezza estesa",
+    "Il criterio di decisione è stabilito dall’autorizzazione, dalle linee guida regionali o dal metodo",
+    "Valutazione su più campionamenti consecutivi, secondo quanto previsto dall’autorizzazione",
+    "Risultati prossimi al limite: approfondimento delle cause e misure correttive anche se formalmente conformi"
+   ],
+   "appro": "Un risultato inferiore al limite ma con intervallo di incertezza che lo comprende segnala un margine insufficiente: è il momento di intervenire, non di attendere il prossimo autocontrollo.",
+   "rif": "D.lgs. 152/2006, Allegato VI · UNI CEI EN ISO/IEC 17025 · UNI EN 15259",
+   "nar": "Ogni misura di emissione è affetta da un’incertezza, che deriva da diverse fonti: le operazioni di campionamento, la rappresentatività del punto di prelievo rispetto all’intero flusso, le analisi di laboratorio e la misura della portata. Il rapporto di prova di un laboratorio qualificato riporta il risultato insieme all’incertezza estesa, cioè l’intervallo entro il quale si ritiene ragionevolmente compreso il valore vero. Il criterio con cui si confronta il risultato con il valore limite, la cosiddetta regola decisionale, è stabilito dall’autorizzazione, dalle linee guida regionali o dal metodo applicato, e va conosciuto prima delle misure. Le autorizzazioni prevedono spesso che la valutazione si basi su più campionamenti consecutivi, nelle condizioni di esercizio più gravose. Oltre all’aspetto formale, il dato va letto in chiave gestionale: un risultato inferiore al limite, ma con un intervallo di incertezza che comprende il limite stesso, segnala un margine insufficiente. In questi casi è opportuno approfondire le cause, verificando l’efficienza del sistema di abbattimento e le condizioni di processo, e adottare misure correttive senza attendere l’autocontrollo successivo. La qualità delle misure dipende anche dalla qualificazione del laboratorio, preferibilmente accreditato per i metodi utilizzati."
+  },
+  {
+   "t": "testo",
+   "tit": "Sistemi di monitoraggio in continuo delle emissioni",
+   "lead": "Per gli impianti di maggiore rilevanza le emissioni sono misurate in continuo con sistemi automatici soggetti a garanzia di qualità.",
+   "punti": [
+    "Sistemi di monitoraggio delle emissioni (SME) prescritti dall’autorizzazione o dalla norma per grandi impianti",
+    "Strumenti certificati secondo UNI EN 15267 (QAL1)",
+    "Taratura con metodi di riferimento (QAL2) e verifica annuale di sorveglianza (AST)",
+    "Controllo continuo della deriva e della precisione a cura del gestore (QAL3)",
+    "Elaborazione dei dati: medie orarie e giornaliere, dati validi, gestione delle anomalie"
+   ],
+   "appro": "Il sistema in continuo è affidabile solo quanto la sua gestione: tarature scadute o dati non validati rendono le misure inutilizzabili ai fini della verifica di conformità.",
+   "rif": "UNI EN 14181 · UNI EN 15267 · D.lgs. 152/2006, Allegato VI",
+   "nar": "Per gli impianti di maggiore rilevanza, come i grandi impianti di combustione, gli inceneritori e molti impianti soggetti ad autorizzazione integrata, le emissioni sono misurate in continuo con sistemi automatici, indicati come sistemi di monitoraggio delle emissioni. L’affidabilità di questi sistemi è garantita da un processo di assicurazione della qualità definito dalla norma UNI EN quattordicimilacentottantuno. Il primo livello prevede che gli strumenti siano certificati per l’applicazione specifica, secondo la norma UNI EN quindicimiladuecentosessantasette. Il secondo livello è la taratura in campo del sistema installato, eseguita confrontando le sue misure con quelle ottenute con i metodi di riferimento, e ripetuta periodicamente. Il terzo livello è il controllo continuo della deriva e della precisione a cura del gestore, mentre la verifica annuale di sorveglianza accerta che la taratura resti valida. I dati grezzi vengono elaborati in medie orarie e giornaliere, applicando criteri di validità e regole per la gestione delle anomalie e dei periodi di avviamento e arresto. Un sistema in continuo è affidabile solo quanto la sua gestione: tarature scadute, verifiche omesse o dati non validati rendono le misure inutilizzabili ai fini della verifica di conformità e possono costituire esse stesse una violazione delle prescrizioni."
+  },
+  {
+   "t": "testo",
+   "tit": "Programmazione e documentazione degli autocontrolli",
+   "lead": "Gli autocontrolli prescritti vanno pianificati, eseguiti e documentati con un sistema che ne garantisca la tracciabilità.",
+   "punti": [
+    "Scadenzario dei campionamenti per ciascun punto di emissione e inquinante",
+    "Esecuzione nelle condizioni di esercizio indicate dall’autorizzazione, di norma le più gravose",
+    "Preavviso all’organo di controllo, quando prescritto",
+    "Conservazione dei rapporti di prova e trasmissione nei termini previsti",
+    "Registro degli autocontrolli e delle anomalie, a disposizione degli organi di controllo"
+   ],
+   "appro": "Campionare in condizioni di produzione ridotta per «stare tranquilli» compromette la rappresentatività del dato e può essere contestato come elusione delle prescrizioni.",
+   "rif": "D.lgs. 152/2006, artt. 269 e 271 · prescrizioni dell’autorizzazione",
+   "nar": "Gli autocontrolli prescritti dall’autorizzazione devono essere pianificati, eseguiti e documentati con un sistema che ne garantisca la tracciabilità. Il primo strumento è uno scadenzario, che indica per ciascun punto di emissione e per ciascun inquinante la frequenza dei campionamenti, la data dell’ultimo controllo e quella del successivo. I campionamenti vanno eseguiti nelle condizioni di esercizio indicate dall’autorizzazione, di norma quelle più gravose dal punto di vista emissivo, documentando i parametri di processo durante le misure. Quando l’autorizzazione lo prescrive, la data dei campionamenti va comunicata in anticipo all’organo di controllo, che può assistere alle operazioni. I rapporti di prova devono essere conservati e trasmessi all’autorità competente nei termini previsti. Molte autorizzazioni richiedono inoltre la tenuta di un registro degli autocontrolli e delle anomalie, con pagine numerate o in formato elettronico, a disposizione degli organi di controllo. Un errore frequente è eseguire i campionamenti in condizioni di produzione ridotta, per ottenere valori più bassi: questa pratica compromette la rappresentatività del dato e può essere contestata come elusione delle prescrizioni. Un dato rappresentativo, anche se meno favorevole, è invece la base per migliorare realmente le prestazioni ambientali."
+  },
+  {
+   "t": "vf",
+   "tit": "Esercitazione · Misure e conformità",
+   "sott": "Qualificare ciascuna affermazione come vera o falsa",
+   "voci": [
+    ["Con O₂ misurato 9% e riferimento 3%, la concentrazione corretta è maggiore di quella misurata.", true, "Vero: fattore (21−3)/(21−9) = 1,5."],
+    ["Una concentrazione bassa implica sempre un’emissione annua modesta.", false, "Falso: dipende anche dalla portata e dalle ore di funzionamento."],
+    ["I sistemi in continuo richiedono tarature con metodi di riferimento.", true, "Vero: livello QAL2 della UNI EN 14181."],
+    ["Conviene campionare a produzione ridotta per ottenere valori più bassi.", false, "Falso: compromette la rappresentatività ed è contestabile."],
+    ["Il rapporto di prova deve riportare l’incertezza di misura.", true, "Vero."]
+   ],
+   "nar": "Esercitazione. Si stabilisca se ciascuna affermazione sulle misure e sulla conformità è vera o falsa."
+  }
+ ]
+}

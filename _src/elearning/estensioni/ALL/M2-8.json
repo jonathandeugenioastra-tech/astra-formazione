@@ -1,0 +1,33 @@
+{
+ "dopo": "Ritiro e richiamo nella ristorazione e nel dettaglio",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Esempio applicativo: un richiamo per allergene non dichiarato",
+   "lead": "Un esempio guidato illustra la sequenza delle azioni quando un fornitore comunica un allergene non dichiarato in un semilavorato.",
+   "punti": [
+    "Comunicazione del fornitore: preparato per dolci, lotto 2611, presenza di latte non dichiarata",
+    "Verifica in giacenza: due confezioni del lotto, isolate e segregate; ordine sospeso",
+    "Verifica degli utilizzi: torte prodotte nei tre giorni precedenti, già vendute al banco",
+    "Valutazione con l’autorità competente e informazione ai clienti tramite avviso esposto nel punto vendita",
+    "Aggiornamento della matrice, nuova scheda tecnica, registrazione dell’evento e delle azioni"
+   ],
+   "appro": "Senza l’annotazione del lotto all’utilizzo, l’esercizio non saprebbe quali torte contengono il preparato contaminato e dovrebbe considerare coinvolta l’intera produzione.",
+   "rif": "Reg. (CE) 178/2002, artt. 18 e 19",
+   "nar": "Si propone un esempio applicativo. Una pasticceria riceve dal fornitore la comunicazione che un preparato per dolci, lotto duemilaseicentoundici, contiene latte non dichiarato in etichetta. Il primo passo è la verifica delle giacenze: dai documenti di consegna risultano tre confezioni di quel lotto, una delle quali già utilizzata; le due rimanenti vengono isolate, segregate con un cartello di divieto d’uso e l’ordine al fornitore viene sospeso. Il secondo passo è la verifica degli utilizzi: grazie all’annotazione del lotto sulle schede di produzione, si accerta che il preparato è stato impiegato per le torte prodotte nei tre giorni precedenti, già vendute al banco. Il terzo passo è la valutazione, insieme all’autorità competente, dell’informazione ai clienti: si espone nel punto vendita un avviso che indica il prodotto, le date di vendita, il motivo e le istruzioni per chi è allergico al latte. Il quarto passo riguarda il sistema: si aggiorna la matrice degli allergeni, si richiede la nuova scheda tecnica e si valuta se mantenere il fornitore. Infine, l’evento e tutte le azioni vengono registrati. L’esempio mostra il valore pratico della rintracciabilità interna: senza l’annotazione del lotto all’utilizzo, l’esercizio avrebbe dovuto considerare coinvolta l’intera produzione del periodo."
+  },
+  {
+   "t": "abbina",
+   "tit": "Esercitazione · Situazioni e azioni corrette",
+   "sott": "Associare a ciascuna situazione l’azione corretta",
+   "coppie": [
+    ["Il fornitore comunica un allergene non dichiarato", "Isolare il lotto e verificarne gli utilizzi"],
+    ["Contenitore senza etichetta in frigorifero", "Non utilizzarlo e trattarlo come non conforme"],
+    ["Cliente con gonfiore delle labbra e difficoltà respiratoria", "Chiamare subito il 112"],
+    ["Prodotto consegnato di marca diversa", "Verificare gli allergeni prima dell’uso"],
+    ["Dubbio sull’assenza di un allergene in un piatto", "Non garantirne l’assenza al cliente"]
+   ],
+   "nar": "Esercitazione. Si associ a ciascuna situazione l’azione corretta."
+  }
+ ]
+}

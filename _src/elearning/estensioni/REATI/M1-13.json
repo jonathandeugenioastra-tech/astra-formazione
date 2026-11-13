@@ -1,0 +1,33 @@
+{
+ "dopo": "La responsabilità dell’ente: D.lgs. 231/2001, art. 25-undecies",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Formazione, segnalazioni e sistema disciplinare",
+   "lead": "Il modello vive attraverso le persone: formazione, canali di segnalazione e sanzioni disciplinari ne garantiscono l’effettività.",
+   "punti": [
+    "Formazione differenziata: vertici, responsabili di funzione, operatori dei processi sensibili",
+    "Contenuti: reati presupposto, protocolli, comportamenti attesi, esempi concreti",
+    "Canali di segnalazione interni con tutela della riservatezza e divieto di ritorsioni (D.lgs. 24/2023)",
+    "Sistema disciplinare: sanzioni proporzionate per la violazione dei protocolli, anche senza reato",
+    "Registrazione della formazione e verifica dell’apprendimento"
+   ],
+   "appro": "Il sistema disciplinare deve essere applicato davvero: un modello con violazioni note e mai sanzionate dimostra l’inefficacia dell’attuazione.",
+   "rif": "D.lgs. 231/2001, art. 6, cc. 2 e 2-bis · D.lgs. 10 marzo 2023, n. 24",
+   "nar": "Il modello organizzativo vive attraverso le persone: formazione, canali di segnalazione e sistema disciplinare ne garantiscono l’effettività. La formazione deve essere differenziata in funzione dei ruoli: i vertici aziendali devono conoscere i reati presupposto e le proprie responsabilità di organizzazione e vigilanza; i responsabili di funzione devono conoscere i protocolli che governano i processi sensibili; gli operatori devono sapere quali comportamenti sono attesi, con esempi concreti tratti dall’attività quotidiana, come la corretta gestione del deposito dei rifiuti o la segnalazione di un’anomalia del depuratore. Il decreto ventiquattro del duemilaventitré, che ha recepito la direttiva europea sulla protezione delle persone che segnalano violazioni, richiede canali di segnalazione interni che garantiscano la riservatezza del segnalante e vieta ogni forma di ritorsione. Il sistema disciplinare deve prevedere sanzioni proporzionate per la violazione dei protocolli, anche quando la violazione non ha ancora prodotto un reato. La formazione va registrata e l’apprendimento verificato. Il sistema disciplinare, infine, deve essere applicato davvero: un modello nel quale le violazioni sono note ma non vengono mai sanzionate dimostra l’inefficacia della sua attuazione e non protegge l’ente."
+  },
+  {
+   "t": "vf",
+   "tit": "Esercitazione · Responsabilità dell’ente",
+   "sott": "Qualificare ciascuna affermazione come vera o falsa",
+   "voci": [
+    ["Il risparmio sui costi di smaltimento può costituire vantaggio per l’ente.", true, "Vero."],
+    ["La certificazione ISO 14001 è un’esimente automatica.", false, "Falso: il giudice valuta l’idoneità e l’efficace attuazione del modello."],
+    ["L’interdizione definitiva è prevista per l’ente stabilmente utilizzato per il traffico organizzato di rifiuti.", true, "Vero."],
+    ["L’organismo di vigilanza deve ricevere flussi informativi anche ad evento.", true, "Vero: ad esempio ispezioni e superamenti."],
+    ["Il sistema disciplinare si applica solo se è stato commesso un reato.", false, "Falso: sanziona la violazione dei protocolli."]
+   ],
+   "nar": "Esercitazione. Si stabilisca se ciascuna affermazione sulla responsabilità dell’ente è vera o falsa."
+  }
+ ]
+}

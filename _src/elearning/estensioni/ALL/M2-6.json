@@ -1,0 +1,35 @@
+{
+ "dopo": "Gli alimenti non preimballati",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Prodotti preincartati e venduti sfusi",
+   "lead": "Pane, pasticceria, gastronomia e prodotti preincartati per la vendita diretta seguono regole specifiche di informazione.",
+   "punti": [
+    "Alimenti sfusi: cartello applicato ai recipienti o nei comparti di esposizione",
+    "Il cartello riporta, tra l’altro, denominazione, elenco degli ingredienti con gli allergeni evidenziati, modalità di conservazione",
+    "Preincartati per la vendita diretta: stesse informazioni, su etichetta o cartello",
+    "Il cartello deve essere leggibile e riferito in modo univoco al prodotto esposto",
+    "Prodotti diversi nello stesso espositore: un cartello per ciascuno, aggiornato a ogni cambio"
+   ],
+   "appro": "Un cartello unico generico per tutto il banco non consente al consumatore di collegare gli allergeni al singolo prodotto e non soddisfa l’obbligo.",
+   "rif": "D.lgs. 231/2017 · Reg. (UE) 1169/2011, art. 44",
+   "nar": "Nel commercio al dettaglio molti alimenti sono venduti sfusi, come pane, pasticceria fresca e prodotti di gastronomia, oppure preincartati per la vendita diretta, cioè confezionati nel punto vendita per essere venduti immediatamente. Per questi prodotti il decreto legislativo duecentotrentuno del duemiladiciassette prevede che le informazioni siano riportate su un cartello applicato ai recipienti che li contengono oppure nei comparti in cui sono esposti. Il cartello riporta, tra le altre indicazioni, la denominazione dell’alimento, l’elenco degli ingredienti con gli allergeni evidenziati e, quando necessario, le modalità di conservazione. Per i prodotti preincartati per la vendita diretta le stesse informazioni possono comparire su un’etichetta applicata alla confezione o su un cartello. Il requisito essenziale è che il cartello sia leggibile e riferito in modo univoco al prodotto esposto: quando nello stesso espositore si trovano prodotti diversi, ciascuno deve avere il proprio cartello, aggiornato a ogni cambio di assortimento. Un cartello unico e generico per l’intero banco non consente al consumatore di collegare gli allergeni al singolo prodotto e non soddisfa l’obbligo. Le informazioni dei cartelli devono naturalmente coincidere con quelle della matrice degli allergeni e delle ricette del laboratorio."
+  },
+  {
+   "t": "testo",
+   "tit": "L’etichetta interna dei semilavorati",
+   "lead": "Le preparazioni conservate per un uso successivo devono essere identificate: l’etichetta interna collega cucina, matrice e rintracciabilità.",
+   "punti": [
+    "Denominazione della preparazione e riferimento alla ricetta",
+    "Data di preparazione e data entro cui utilizzarla",
+    "Allergeni contenuti, con il frutto o il cereale specifico",
+    "Lotto o riferimento alla produzione, quando utile per la rintracciabilità",
+    "Sigla dell’addetto che l’ha preparata"
+   ],
+   "appro": "Un contenitore senza etichetta in frigorifero non va utilizzato: se non è possibile identificarne con certezza il contenuto, va trattato come non conforme.",
+   "rif": "Reg. (CE) 852/2004, art. 5 · Reg. (CE) 178/2002, art. 18",
+   "nar": "Le preparazioni conservate per un uso successivo, come fondi, salse, impasti, farciture e semilavorati congelati, devono essere identificate con un’etichetta interna, che collega la cucina alla matrice degli allergeni e al sistema di rintracciabilità. L’etichetta riporta la denominazione della preparazione con il riferimento alla ricetta standardizzata, la data di preparazione e la data entro cui deve essere utilizzata, gli allergeni contenuti con l’indicazione del frutto a guscio o del cereale specifico, il lotto o il riferimento alla produzione quando utile per la rintracciabilità, e la sigla dell’addetto che l’ha preparata. Questa semplice pratica produce più benefici contemporaneamente: evita l’uso di preparazioni scadute, permette di individuare rapidamente i prodotti coinvolti in caso di richiamo di un ingrediente e consente a chi utilizza il semilavorato di conoscerne gli allergeni senza doverli ricostruire a memoria. La regola collegata è altrettanto semplice: un contenitore senza etichetta, trovato in frigorifero o in dispensa, non va utilizzato. Se non è possibile identificarne con certezza il contenuto, va trattato come non conforme. Questa regola deve essere nota a tutto il personale e richiamata nella formazione, perché è proprio nelle situazioni di fretta che si è tentati di fare eccezioni."
+  }
+ ]
+}

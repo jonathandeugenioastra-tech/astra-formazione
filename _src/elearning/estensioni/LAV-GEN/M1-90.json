@@ -1,0 +1,47 @@
+{
+ "dopo": "Il danno: infortunio e malattia professionale",
+ "schermate": [
+  {
+   "t": "grafico",
+   "tit": "Grafico interattivo · Livelli di esposizione al rumore",
+   "rif": "D.lgs. 81/2008, artt. 189, 192, 193, 196",
+   "lead": "Spostare il cursore sul livello di esposizione giornaliera: per ciascuna zona compaiono gli obblighi del datore di lavoro.",
+   "grafico": {
+    "tipo": "soglie",
+    "variabile": "Livello di esposizione giornaliera LEX,8h",
+    "unita": "dB(A)",
+    "min": 70,
+    "max": 95,
+    "passo": 0.5,
+    "iniziale": 78,
+    "zone": [
+     {
+      "nome": "Sotto 80 dB(A)",
+      "fino": 80,
+      "colore": "#00B050",
+      "testo": "Sotto il valore inferiore di azione: valutazione documentata e riduzione del rischio al minimo secondo il principio generale."
+     },
+     {
+      "nome": "Azione inferiore",
+      "fino": 85,
+      "colore": "#C9A100",
+      "testo": "Tra 80 e 85 dB(A): informazione e formazione, otoprotettori messi a disposizione, sorveglianza sanitaria su richiesta del lavoratore o se il medico ne conferma l’opportunità."
+     },
+     {
+      "nome": "Azione superiore",
+      "fino": 87,
+      "colore": "#E07000",
+      "testo": "Tra 85 e 87 dB(A): uso degli otoprotettori obbligatorio, programma di misure tecniche e organizzative, segnaletica e delimitazione delle aree, sorveglianza sanitaria."
+     },
+     {
+      "nome": "Oltre 87 dB(A)",
+      "fino": 95,
+      "colore": "#C81F26",
+      "testo": "87 dB(A) è il valore limite di esposizione, da non superare tenendo conto dell’attenuazione degli otoprotettori: in caso di superamento occorrono misure immediate."
+     }
+    ]
+   },
+   "nar": "Grafico interattivo. Si sposti il cursore lungo la scala del livello di esposizione giornaliera al rumore. Il decreto ottantuno fissa un valore inferiore di azione di ottanta decibel A, un valore superiore di azione di ottantacinque decibel A e un valore limite di ottantasette decibel A, quest’ultimo da verificare tenendo conto dell’attenuazione degli otoprotettori. Per ciascuna zona compaiono gli obblighi del datore di lavoro. Si esplorino tutte le zone."
+  }
+ ]
+}

@@ -1,0 +1,42 @@
+{
+ "dopo": "Rintracciabilità, ritiro e richiamo",
+ "schermate": [
+  {
+   "t": "grafico",
+   "tit": "Diagramma · Ritiro e richiamo di un prodotto non sicuro",
+   "rif": "Reg. (CE) 178/2002, artt. 18–19",
+   "lead": "Selezionare ciascuna fase della procedura.",
+   "grafico": {
+    "tipo": "flusso",
+    "passi": [
+     {
+      "nome": "Individuazione",
+      "tempo": null,
+      "testo": "Segnalazione interna, da fornitore, cliente o autorità di un prodotto che può non essere conforme ai requisiti di sicurezza."
+     },
+     {
+      "nome": "Valutazione e blocco",
+      "tempo": "immediato",
+      "testo": "Valutazione del rischio, identificazione dei lotti coinvolti tramite la rintracciabilità e blocco delle giacenze."
+     },
+     {
+      "nome": "Ritiro",
+      "tempo": "immediato",
+      "testo": "Ritiro dal mercato dei lotti non sicuri non più sotto il controllo diretto dell’operatore."
+     },
+     {
+      "nome": "Informazione",
+      "tempo": null,
+      "testo": "Informazione immediata all’autorità competente e, se il prodotto può aver raggiunto il consumatore, richiamo con informazione efficace."
+     },
+     {
+      "nome": "Verifica e chiusura",
+      "tempo": null,
+      "testo": "Bilancio di massa dei quantitativi recuperati, destinazione del prodotto, analisi delle cause e azioni correttive."
+     }
+    ]
+   },
+   "nar": "Diagramma interattivo. Si selezioni ciascuna fase della procedura di ritiro e richiamo di un alimento non sicuro: individuazione, valutazione e blocco, ritiro, informazione all’autorità e ai consumatori, verifica e chiusura."
+  }
+ ]
+}

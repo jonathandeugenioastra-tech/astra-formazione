@@ -1,0 +1,35 @@
+{
+ "dopo": "Il danno ambientale (Parte VI)",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Obblighi dell’operatore: prevenzione e riparazione",
+   "lead": "La Parte VI impone all’operatore obblighi di azione immediata, indipendenti dall’accertamento di responsabilità penali.",
+   "punti": [
+    "Minaccia imminente di danno: misure di prevenzione e messa in sicurezza entro 24 ore",
+    "Comunicazione preventiva agli enti territoriali e al Prefetto",
+    "Danno verificatosi: misure per circoscrivere, eliminare o gestire i fattori di danno",
+    "Riparazione primaria (ritorno alle condizioni originarie), complementare e compensativa",
+    "Costi a carico dell’operatore responsabile, secondo il principio «chi inquina paga»"
+   ],
+   "appro": "La riparazione compensativa compensa la perdita temporanea di risorse e servizi naturali nel periodo necessario al ripristino: il danno ha anche una dimensione temporale.",
+   "rif": "D.lgs. 152/2006, artt. 304, 305, 308 e Allegato 3 alla Parte VI",
+   "nar": "La Parte sesta del decreto centocinquantadue impone all’operatore, cioè al soggetto che esercita o controlla un’attività professionale, obblighi di azione immediata, indipendenti dall’accertamento di eventuali responsabilità penali. Quando un danno ambientale non si è ancora verificato, ma esiste una minaccia imminente che si verifichi, l’operatore deve adottare entro ventiquattro ore, a proprie spese, le misure di prevenzione e di messa in sicurezza, previa comunicazione al Comune, alla Provincia, alla Regione e al Prefetto, che informa il Ministero dell’ambiente. Quando il danno si è verificato, l’operatore deve adottare immediatamente le iniziative praticabili per circoscrivere, eliminare o gestire i fattori di danno, allo scopo di prevenire ulteriori pregiudizi ambientali ed effetti nocivi per la salute umana. La riparazione si articola in tre forme: la riparazione primaria, che riporta le risorse danneggiate alle condizioni originarie; la riparazione complementare, che compensa il mancato ripristino completo; la riparazione compensativa, che compensa la perdita temporanea di risorse e servizi naturali nel periodo necessario al ripristino. I costi sono a carico dell’operatore responsabile, secondo il principio chi inquina paga, sancito dal diritto europeo."
+  },
+  {
+   "t": "testo",
+   "tit": "Assicurazione e garanzie finanziarie per il rischio ambientale",
+   "lead": "Le conseguenze economiche di un evento ambientale possono superare la capacità finanziaria dell’impresa: strumenti assicurativi e garanzie ne riducono l’impatto.",
+   "punti": [
+    "La responsabilità civile generale spesso esclude o limita l’inquinamento graduale",
+    "Polizze specifiche per inquinamento: costi di bonifica, danni a terzi, danno ambientale",
+    "Garanzie finanziarie richieste dalle autorizzazioni per alcune attività (ad esempio gestione dei rifiuti)",
+    "Valutazione del rischio ambientale come base per l’assicurazione: serbatoi, sostanze, scarichi, vicinanza a corpi idrici",
+    "Le polizze non coprono sanzioni penali e di norma non coprono atti dolosi"
+   ],
+   "appro": "Una valutazione del rischio ambientale ben documentata riduce i premi e mette in evidenza gli interventi di prevenzione più efficaci, come i bacini di contenimento.",
+   "rif": "D.lgs. 152/2006, artt. 208 e 304 · Dir. 2004/35/CE, art. 14",
+   "nar": "Le conseguenze economiche di un evento ambientale, tra misure di emergenza, caratterizzazione, bonifica, risarcimento dei danni a terzi e riparazione del danno ambientale, possono superare la capacità finanziaria dell’impresa. Gli strumenti assicurativi e le garanzie finanziarie ne riducono l’impatto. Occorre però sapere che le polizze di responsabilità civile generale spesso escludono o limitano la copertura dell’inquinamento, in particolare quello graduale, che si sviluppa nel tempo per perdite lente, come quelle di un serbatoio interrato. Esistono polizze specifiche per il rischio di inquinamento, che possono coprire i costi di bonifica, i danni a terzi e il danno ambientale. Per alcune attività, come la gestione dei rifiuti, le autorizzazioni richiedono la prestazione di garanzie finanziarie a favore dell’ente pubblico. La base per una corretta copertura è una valutazione del rischio ambientale dello stabilimento, che consideri i serbatoi e le tubazioni, le sostanze stoccate, gli scarichi, la vulnerabilità del sottosuolo e la vicinanza a corpi idrici o a pozzi. Le polizze non coprono le sanzioni penali e di norma non coprono gli atti dolosi. Una valutazione ben documentata riduce i premi e mette in evidenza gli interventi di prevenzione più efficaci, come i bacini di contenimento e i doppi fondi."
+  }
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "dopo": "Le definizioni della Parte V",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Struttura e campo di applicazione della Parte V",
+   "lead": "La Parte V del D.lgs. 152/2006 disciplina la tutela dell’aria e la riduzione delle emissioni in atmosfera, con regole distinte per stabilimenti, impianti termici civili e combustibili.",
+   "punti": [
+    "Titolo I: prevenzione e limitazione delle emissioni degli impianti e delle attività degli stabilimenti (artt. 267–281)",
+    "Titolo II: impianti termici civili di potenza inferiore alle soglie del Titolo I (artt. 282–290)",
+    "Titolo III: combustibili consentiti e loro caratteristiche merceologiche (artt. 291–298)",
+    "Allegati tecnici: valori limite (I), grandi impianti di combustione (II), COV (III), deroghe (IV), emissioni diffuse di polveri (V), controlli (VI)",
+    "Esclusioni: impianti soggetti ad AIA per i profili disciplinati dall’autorizzazione integrata, salvo rinvii espressi"
+   ],
+   "appro": "Le Regioni possono stabilire valori limite e prescrizioni più severi, anche in relazione ai piani di qualità dell’aria: la lettura della sola norma nazionale non è sufficiente.",
+   "rif": "D.lgs. 152/2006, Parte V, artt. 267–298 e Allegati I–X",
+   "nar": "La Parte quinta del decreto legislativo centocinquantadue del duemilasei disciplina la tutela dell’aria e la riduzione delle emissioni in atmosfera. È articolata in tre titoli. Il Titolo primo riguarda la prevenzione e la limitazione delle emissioni degli impianti e delle attività svolte negli stabilimenti, ed è il riferimento principale per le imprese: comprende le definizioni, il regime autorizzativo, i valori limite, i controlli e le sanzioni. Il Titolo secondo disciplina gli impianti termici civili, cioè gli impianti destinati al riscaldamento di ambienti e alla produzione di acqua calda per usi igienici e sanitari, di potenza inferiore alle soglie oltre le quali si applica il Titolo primo. Il Titolo terzo stabilisce quali combustibili possono essere utilizzati e con quali caratteristiche merceologiche. Una parte sostanziale della disciplina è contenuta negli allegati tecnici: l’Allegato primo fissa i valori limite di emissione per sostanze e attività, l’Allegato terzo riguarda i composti organici volatili, l’Allegato quarto elenca le attività in deroga e quelle soggette ad autorizzazione generale, l’Allegato quinto disciplina le emissioni diffuse di polveri e l’Allegato sesto i metodi di controllo. Le Regioni possono stabilire valori limite e prescrizioni più severi, anche in relazione ai piani di qualità dell’aria: la conoscenza della sola norma nazionale non è quindi sufficiente."
+  },
+  {
+   "t": "testo",
+   "tit": "Inquinamento atmosferico ed effetti sulla salute",
+   "lead": "La disciplina delle emissioni trova fondamento negli effetti degli inquinanti atmosferici sulla salute umana e sugli ecosistemi.",
+   "punti": [
+    "Particolato (PM10, PM2,5): penetrazione nelle vie respiratorie profonde, effetti respiratori e cardiovascolari",
+    "Ossidi di azoto e ozono: irritazione delle vie aeree, aggravamento dell’asma",
+    "Biossido di zolfo: irritazione respiratoria, formazione di particolato secondario",
+    "Composti organici volatili: precursori dell’ozono; alcuni cancerogeni (ad esempio il benzene)",
+    "L’inquinamento atmosferico esterno è classificato dalla IARC come cancerogeno per l’uomo (Gruppo 1)"
+   ],
+   "appro": "La frazione di particolato con diametro aerodinamico inferiore a 2,5 µm raggiunge gli alveoli polmonari: per questo gli indicatori sanitari privilegiano il PM2,5.",
+   "rif": "D.lgs. 155/2010 · IARC Monographs, vol. 109 · OMS, Linee guida sulla qualità dell’aria 2021",
+   "nar": "La disciplina delle emissioni in atmosfera trova il suo fondamento negli effetti degli inquinanti sulla salute umana e sugli ecosistemi. Il particolato atmosferico è classificato in base al diametro aerodinamico: le particelle di diametro inferiore a dieci micrometri, indicate come PM dieci, raggiungono le vie respiratorie, mentre quelle inferiori a due virgola cinque micrometri penetrano fino agli alveoli polmonari e sono associate a effetti respiratori e cardiovascolari. Gli ossidi di azoto e l’ozono, che si forma in atmosfera a partire da ossidi di azoto e composti organici volatili in presenza di radiazione solare, irritano le vie aeree e aggravano l’asma. Il biossido di zolfo è un irritante respiratorio e contribuisce alla formazione di particolato secondario. I composti organici volatili sono precursori dell’ozono e comprendono sostanze cancerogene, come il benzene. Nel duemilatredici l’Agenzia internazionale per la ricerca sul cancro ha classificato l’inquinamento atmosferico esterno, e il particolato in esso contenuto, come cancerogeno per l’uomo. In Italia la qualità dell’aria ambiente è disciplinata dal decreto legislativo centocinquantacinque del duemiladieci, che fissa valori limite e obiettivi per la popolazione. Il controllo delle emissioni degli stabilimenti è uno degli strumenti con cui si persegue il rispetto di tali obiettivi."
+  },
+  {
+   "t": "testo",
+   "tit": "Impianto, stabilimento e convogliamento delle emissioni",
+   "lead": "La distinzione tra impianto e stabilimento e l’obbligo di convogliamento orientano l’intero regime autorizzativo.",
+   "punti": [
+    "Lo stabilimento è autorizzato nel suo complesso; l’autorizzazione individua impianti, attività e punti di emissione",
+    "Impianto: dispositivo o sistema fisso destinato a svolgere in modo autonomo una specifica attività",
+    "Convogliamento: le emissioni tecnicamente convogliabili devono essere convogliate (art. 270)",
+    "Emissioni di più impianti simili possono essere considerate unitariamente ai fini dei limiti",
+    "Le emissioni diffuse restano soggette a prescrizioni di contenimento"
+   ],
+   "appro": "Il convogliamento consente la misura e l’abbattimento; un’emissione tecnicamente convogliabile lasciata diffusa è una non conformità rilevante in sede di controllo.",
+   "rif": "D.lgs. 152/2006, artt. 268 e 270",
+   "nar": "La distinzione tra impianto e stabilimento orienta l’intero regime autorizzativo della Parte quinta. Lo stabilimento è il complesso unitario e stabile, sottoposto al potere decisionale di un unico gestore, in cui sono presenti uno o più impianti o si svolgono attività che producono emissioni. L’impianto è il dispositivo o il sistema fisso destinato a svolgere in modo autonomo una specifica attività, anche come parte di un ciclo più ampio. L’autorizzazione riguarda lo stabilimento nel suo complesso e individua, per ciascun impianto e attività, i punti di emissione, numerati e descritti, con i relativi valori limite e prescrizioni. L’articolo duecentosettanta stabilisce il principio del convogliamento: le emissioni tecnicamente convogliabili devono essere raccolte e inviate a uno o più camini, dove possono essere misurate e, se necessario, trattate in un sistema di abbattimento. L’autorità competente può inoltre considerare in modo unitario le emissioni di più impianti simili, ai fini dell’applicazione dei valori limite. Le emissioni diffuse, che non possono essere convogliate, restano comunque soggette a prescrizioni di contenimento. In sede di controllo, un’emissione tecnicamente convogliabile lasciata diffusa costituisce una non conformità rilevante, perché sottrae l’emissione alla misura e all’abbattimento."
+  },
+  {
+   "t": "testo",
+   "tit": "Come si esprime un valore limite di emissione",
+   "lead": "Un valore limite ha significato solo se accompagnato da unità di misura e condizioni di riferimento.",
+   "punti": [
+    "Concentrazione: massa di inquinante per volume di effluente, in mg/Nm³",
+    "Condizioni normali: 273,15 K e 101,3 kPa, di norma riferite al gas secco",
+    "Tenore di ossigeno di riferimento per i processi di combustione (ad esempio 3%, 6%, 11% o 15%)",
+    "Flusso di massa: massa emessa per unità di tempo (g/h o kg/h)",
+    "Fattore di emissione: massa emessa per unità di prodotto o di combustibile"
+   ],
+   "appro": "Riportare la concentrazione all’ossigeno di riferimento impedisce che la diluizione con aria esterna faccia apparire conforme un’emissione che non lo è.",
+   "rif": "D.lgs. 152/2006, art. 268 e Allegato VI",
+   "nar": "Un valore limite di emissione ha significato solo se è accompagnato dall’unità di misura e dalle condizioni di riferimento. La forma più comune è la concentrazione, cioè la massa di inquinante contenuta in un metro cubo di effluente gassoso, espressa in milligrammi per normal metro cubo. Il normal metro cubo indica un volume riportato alle condizioni normali di temperatura e pressione, pari a duecentosettantatré virgola quindici kelvin e centouno virgola tre chilopascal, e di norma riferito al gas secco, cioè privato del vapore acqueo. Per i processi di combustione la concentrazione è inoltre riferita a un tenore di ossigeno stabilito, che dipende dal tipo di impianto e di combustibile. Questa correzione impedisce che la diluizione dell’effluente con aria esterna faccia apparire conforme un’emissione che non lo è. Accanto alla concentrazione, l’autorizzazione può fissare un flusso di massa, cioè la quantità di inquinante emessa nell’unità di tempo, espressa in grammi o chilogrammi all’ora, oppure un fattore di emissione, che rapporta la massa emessa alla quantità di prodotto o di combustibile. La lettura corretta di un’autorizzazione richiede quindi di individuare, per ciascun inquinante, il valore, l’unità di misura, le condizioni di riferimento e il periodo di mediazione."
+  },
+  {
+   "t": "vf",
+   "tit": "Esercitazione · Principi della Parte V",
+   "sott": "Qualificare ciascuna affermazione come vera o falsa",
+   "voci": [
+    ["Le emissioni tecnicamente convogliabili devono essere convogliate.", true, "Vero: art. 270."],
+    ["Il normal metro cubo è riferito a 20 °C e 1 atm.", false, "Falso: 273,15 K (0 °C) e 101,3 kPa."],
+    ["Le Regioni possono fissare valori limite più severi di quelli nazionali.", true, "Vero."],
+    ["Il flusso di massa si esprime in mg/Nm³.", false, "Falso: si esprime in massa per unità di tempo (g/h, kg/h)."],
+    ["L’autorizzazione riguarda lo stabilimento nel suo complesso.", true, "Vero: individua impianti, attività e punti di emissione."]
+   ],
+   "nar": "Esercitazione. Si stabilisca se ciascuna affermazione sui principi della Parte quinta è vera o falsa."
+  }
+ ]
+}

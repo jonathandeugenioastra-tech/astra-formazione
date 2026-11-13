@@ -1,0 +1,63 @@
+{
+ "dopo": "Illecito amministrativo, contravvenzione, delitto",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Il procedimento sanzionatorio amministrativo",
+   "lead": "Gli illeciti amministrativi ambientali seguono le regole generali della legge 689/1981, che garantiscono il contraddittorio e la tutela giurisdizionale.",
+   "punti": [
+    "Contestazione immediata o notificazione degli estremi della violazione entro 90 giorni dall’accertamento (360 giorni per i residenti all’estero)",
+    "Pagamento in misura ridotta entro 60 giorni: un terzo del massimo o il doppio del minimo, se più favorevole",
+    "Scritti difensivi e richiesta di audizione all’autorità competente entro 30 giorni",
+    "Ordinanza-ingiunzione o archiviazione motivata",
+    "Opposizione davanti all’autorità giudiziaria entro 30 giorni dalla notificazione dell’ordinanza"
+   ],
+   "appro": "Il pagamento in misura ridotta chiude il procedimento, ma non elimina l’obbligo di regolarizzare la situazione che ha originato la violazione.",
+   "rif": "L. 24 novembre 1981, n. 689, artt. 14, 16, 18, 22",
+   "nar": "Gli illeciti amministrativi in materia ambientale seguono le regole generali della legge seicentottantanove del millenovecentottantuno, che garantiscono il contraddittorio e la tutela giurisdizionale. La violazione deve essere contestata immediatamente al trasgressore oppure, se ciò non è possibile, gli estremi della violazione devono essere notificati entro novanta giorni dall’accertamento, termine che diventa di trecentosessanta giorni per i residenti all’estero. Entro sessanta giorni dalla contestazione o dalla notificazione, il trasgressore può effettuare il pagamento in misura ridotta, pari alla terza parte del massimo della sanzione prevista o, se più favorevole, al doppio del minimo. In alternativa, entro trenta giorni, può presentare scritti difensivi all’autorità competente e chiedere di essere sentito. L’autorità, esaminati gli atti, emette un’ordinanza-ingiunzione di pagamento oppure un’ordinanza motivata di archiviazione. Contro l’ordinanza-ingiunzione è ammessa opposizione davanti all’autorità giudiziaria entro trenta giorni dalla notificazione. Occorre ricordare che il pagamento in misura ridotta chiude il procedimento sanzionatorio, ma non elimina l’obbligo di regolarizzare la situazione che ha originato la violazione, ad esempio correggendo un registro o presentando una comunicazione omessa: la violazione, se perdura, può essere nuovamente accertata."
+  },
+  {
+   "t": "testo",
+   "tit": "Gli organi di controllo e la polizia giudiziaria ambientale",
+   "lead": "I controlli ambientali sono svolti da enti tecnici e da corpi di polizia, con poteri e finalità differenti.",
+   "punti": [
+    "Agenzie regionali per la protezione dell’ambiente (ARPA): controlli tecnici, campionamenti, analisi",
+    "Personale ARPA con qualifica di ufficiale di polizia giudiziaria, quando attribuita",
+    "Comando Carabinieri per la tutela ambientale (NOE) e Carabinieri forestali",
+    "Polizia locale, Guardia di finanza, Capitanerie di porto per le rispettive competenze",
+    "Autorità competenti al rilascio dei titoli: Regione, Provincia, Comune"
+   ],
+   "appro": "Quando l’ispettore opera come ufficiale di polizia giudiziaria e emergono indizi di reato, le dichiarazioni rese possono assumere rilievo nel procedimento penale: è utile la presenza di un referente preparato.",
+   "rif": "L. 132/2016 (Sistema nazionale per la protezione dell’ambiente) · Codice di procedura penale, artt. 55–57",
+   "nar": "I controlli ambientali sono svolti da enti tecnici e da corpi di polizia, con poteri e finalità differenti. Le Agenzie regionali per la protezione dell’ambiente, che con l’Istituto superiore per la protezione e la ricerca ambientale formano il Sistema nazionale per la protezione dell’ambiente previsto dalla legge centotrentadue del duemilasedici, svolgono i controlli tecnici: ispezioni, campionamenti, analisi di laboratorio, verifica del rispetto delle prescrizioni. Al personale ispettivo può essere attribuita la qualifica di ufficiale di polizia giudiziaria: in questo caso, quando emergono indizi di reato, il controllo può trasformarsi in attività di indagine. Operano inoltre il Comando dei Carabinieri per la tutela ambientale, con i nuclei operativi ecologici, i Carabinieri forestali, la polizia locale, la Guardia di finanza e le Capitanerie di porto, ciascuno nelle proprie competenze. Le autorità che rilasciano i titoli, cioè Regioni, Province e Comuni, esercitano i poteri amministrativi di diffida, sospensione e revoca. Per l’impresa è utile sapere con chi si confronta: quando l’ispettore opera come ufficiale di polizia giudiziaria, le dichiarazioni rese e i documenti acquisiti possono assumere rilievo nel procedimento penale. È quindi opportuno che il controllo sia seguito da un referente preparato, che fornisca informazioni corrette e documentate."
+  },
+  {
+   "t": "testo",
+   "tit": "Chi risponde in azienda: posizioni di garanzia e delega",
+   "lead": "La responsabilità penale è personale: nelle imprese occorre individuare chi aveva il dovere e il potere di impedire la violazione.",
+   "punti": [
+    "Destinatari degli obblighi: legale rappresentante, gestore dell’impianto, produttore o detentore dei rifiuti",
+    "Delega di funzioni in materia ambientale: ammessa secondo i criteri elaborati dalla giurisprudenza",
+    "Requisiti: atto scritto e certo, delegato competente, autonomia decisionale e di spesa, effettività",
+    "Permane un obbligo di vigilanza del delegante sul corretto espletamento delle funzioni",
+    "Le carenze strutturali e le scelte di investimento restano in capo ai vertici aziendali"
+   ],
+   "appro": "L’art. 16 del D.lgs. 81/2008 disciplina la delega in materia di sicurezza; per l’ambiente non esiste una norma analoga, ma la giurisprudenza applica criteri sostanzialmente corrispondenti.",
+   "rif": "Costituzione, art. 27 · giurisprudenza della Corte di cassazione sulla delega di funzioni",
+   "nar": "La responsabilità penale è personale, come stabilisce l’articolo ventisette della Costituzione: nelle imprese occorre quindi individuare chi aveva il dovere giuridico e il potere concreto di impedire la violazione. I destinatari degli obblighi ambientali sono individuati dalle singole norme: il legale rappresentante dell’impresa, il gestore dell’impianto, il produttore o il detentore dei rifiuti, il titolare dello scarico. Nelle organizzazioni complesse questi obblighi possono essere trasferiti con una delega di funzioni. Per la materia ambientale non esiste una norma generale analoga all’articolo sedici del decreto ottantuno sulla sicurezza, ma la giurisprudenza della Corte di cassazione ammette la delega a condizioni sostanzialmente corrispondenti: deve risultare da un atto scritto e di data certa, essere conferita a un soggetto tecnicamente competente, attribuire autonomia decisionale e poteri di spesa adeguati ed essere effettiva, cioè esercitata in concreto. Il delegante conserva un obbligo di vigilanza sul corretto espletamento delle funzioni delegate. Inoltre, le violazioni che derivano da carenze strutturali dell’organizzazione o da scelte di investimento, come la mancata realizzazione di un impianto di depurazione necessario, restano in capo ai vertici aziendali, che non possono trasferirle con una delega."
+  },
+  {
+   "t": "vf",
+   "tit": "Esercitazione · Illeciti e procedimenti",
+   "sott": "Qualificare ciascuna affermazione come vera o falsa",
+   "voci": [
+    ["Le contravvenzioni possono essere punite anche a titolo di colpa.", true, "Vero."],
+    ["Il pagamento in misura ridotta va effettuato entro 60 giorni.", true, "Vero: art. 16 della L. 689/1981."],
+    ["Il pagamento della sanzione amministrativa elimina l’obbligo di regolarizzare.", false, "Falso: la situazione irregolare va comunque sanata."],
+    ["La delega di funzioni in materia ambientale può essere verbale.", false, "Falso: occorre un atto scritto e certo."],
+    ["Il delegante conserva un obbligo di vigilanza.", true, "Vero."]
+   ],
+   "nar": "Esercitazione. Si stabilisca se ciascuna affermazione sugli illeciti e sui procedimenti è vera o falsa."
+  }
+ ]
+}

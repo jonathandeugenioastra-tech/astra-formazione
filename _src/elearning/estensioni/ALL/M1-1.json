@@ -1,0 +1,95 @@
+{
+ "dopo": "Allergie e intolleranze alimentari",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Il meccanismo dell’allergia alimentare",
+   "lead": "L’allergia alimentare è una risposta immunitaria specifica e riproducibile verso una proteina dell’alimento.",
+   "punti": [
+    "Sensibilizzazione: al primo contatto l’organismo produce anticorpi specifici (IgE) contro la proteina, senza sintomi",
+    "Reazione: ai contatti successivi gli anticorpi legati ai mastociti provocano il rilascio di istamina e di altri mediatori",
+    "Tempi: la reazione mediata da IgE compare in genere entro pochi minuti e fino a circa due ore dall’ingestione",
+    "Soglia: quantità minime, nell’ordine dei milligrammi di proteina, possono bastare a scatenare i sintomi nei soggetti più sensibili",
+    "Variabilità: la stessa persona può reagire in modo diverso secondo dose, stato di salute, sforzo fisico, assunzione di farmaci o di alcol"
+   ],
+   "appro": "Le reazioni non mediate da IgE (ad esempio alcune enteropatie) hanno insorgenza più lenta e prevalenti manifestazioni gastrointestinali; anche in questo caso l’unica prevenzione efficace è l’esclusione dell’alimento.",
+   "rif": "Reg. (UE) 1169/2011, considerando 24 e art. 9, par. 1, lett. c)",
+   "nar": "L’allergia alimentare è una risposta del sistema immunitario, specifica e riproducibile, rivolta contro una proteina contenuta nell’alimento. Il processo si sviluppa in due fasi. Nella prima, detta sensibilizzazione, l’organismo entra in contatto con la proteina e produce anticorpi specifici, le immunoglobuline di classe E, senza manifestare alcun sintomo. Nella seconda fase, a un contatto successivo, questi anticorpi, legati alla superficie di particolari cellule del sistema immunitario, riconoscono la proteina e provocano il rilascio di istamina e di altri mediatori chimici. Ne derivano i sintomi, che nella forma mediata dalle immunoglobuline E compaiono di norma entro pochi minuti e comunque entro circa due ore dall’ingestione. Per l’operatore del settore alimentare l’aspetto decisivo è la soglia di reazione: nei soggetti più sensibili possono essere sufficienti quantità di proteina dell’ordine dei milligrammi, corrispondenti a tracce invisibili a occhio nudo. Occorre inoltre considerare che la gravità della reazione non è costante: la stessa persona può reagire in modo diverso secondo la dose assunta, lo stato di salute, lo sforzo fisico, l’assunzione di alcuni farmaci o di bevande alcoliche. Esistono anche reazioni non mediate dalle immunoglobuline E, a insorgenza più lenta e con manifestazioni prevalentemente gastrointestinali. In tutti i casi la sola prevenzione efficace consiste nell’evitare l’alimento responsabile: per questo il legislatore europeo ha reso obbligatoria l’informazione sugli allergeni e ha richiesto agli operatori di gestirne la presenza lungo l’intero processo produttivo."
+  },
+  {
+   "t": "testo",
+   "tit": "Riconoscere i segni della reazione allergica",
+   "lead": "Il personale deve saper riconoscere precocemente i segni di una reazione, perché l’evoluzione può essere rapida.",
+   "punti": [
+    "Cute e mucose: prurito, orticaria, arrossamento, gonfiore di labbra, lingua, palpebre",
+    "Apparato respiratorio: raucedine, difficoltà a deglutire, tosse, respiro sibilante, sensazione di soffocamento",
+    "Apparato digerente: nausea, vomito, dolore addominale, diarrea",
+    "Apparato cardiovascolare: pallore, sudorazione, debolezza, calo della pressione, perdita di coscienza",
+    "Segnali di allarme: coinvolgimento di due o più apparati o difficoltà respiratoria indicano una possibile anafilassi"
+   ],
+   "appro": "I sintomi iniziali possono essere lievi e peggiorare nel giro di minuti: una reazione che coinvolge le vie respiratorie o la circolazione va sempre trattata come un’emergenza.",
+   "rif": "Reg. (UE) 1169/2011, considerando 24",
+   "nar": "Il personale a contatto con il pubblico deve saper riconoscere i segni di una reazione allergica, perché la sua evoluzione può essere molto rapida. Le prime manifestazioni interessano spesso la cute e le mucose: prurito, orticaria, arrossamento, gonfiore delle labbra, della lingua o delle palpebre. Possono seguire sintomi a carico dell’apparato respiratorio, come raucedine, difficoltà a deglutire, tosse, respiro sibilante e sensazione di soffocamento. L’apparato digerente può manifestare nausea, vomito, dolore addominale e diarrea. I segni più gravi riguardano l’apparato cardiovascolare: pallore, sudorazione fredda, debolezza improvvisa, calo della pressione arteriosa fino alla perdita di coscienza. Il criterio pratico da trasmettere a tutto il personale è semplice: quando i sintomi coinvolgono contemporaneamente due o più apparati, oppure quando compare difficoltà respiratoria, si deve sospettare un’anafilassi, cioè una reazione generalizzata potenzialmente mortale. Si osservi che un esordio apparentemente lieve, ad esempio un semplice prurito alla bocca, non esclude un peggioramento nel giro di pochi minuti. Per questo l’atteggiamento corretto non è attendere l’evoluzione, ma attivare subito la procedura di emergenza prevista dall’esercizio, che sarà illustrata nella schermata successiva."
+  },
+  {
+   "t": "testo",
+   "tit": "La gestione dell’emergenza anafilattica",
+   "lead": "Ogni esercizio alimentare dovrebbe disporre di una procedura scritta, nota a tutto il personale, per la reazione allergica grave.",
+   "punti": [
+    "Chiamare subito il numero unico di emergenza 112, indicando che si sospetta una reazione allergica grave",
+    "Se la persona dispone di un autoiniettore di adrenalina, aiutarla a utilizzarlo o seguire le istruzioni dell’operatore del 112",
+    "Posizione: sdraiata con le gambe sollevate; seduta se respira con difficoltà; non farla alzare né camminare",
+    "Non somministrare cibo o bevande; conservare il piatto e annotare gli ingredienti per i soccorritori",
+    "Registrare l’evento e analizzarne le cause per correggere procedure, ricette o informazioni"
+   ],
+   "appro": "L’intervento sanitario resta di competenza dei soccorritori; al personale dell’esercizio si chiede di attivarli immediatamente, assistere la persona e fornire informazioni precise sull’alimento consumato.",
+   "rif": "Procedura interna di emergenza · Reg. (CE) 852/2004, art. 5 (procedure basate sui principi HACCP)",
+   "nar": "Ogni esercizio alimentare dovrebbe disporre di una procedura scritta per la reazione allergica grave, conosciuta da tutto il personale e richiamata nella formazione periodica. Il primo atto è chiamare senza indugio il numero unico di emergenza centododici, specificando che si sospetta una reazione allergica grave e descrivendo i sintomi osservati. Molte persone con allergie gravi portano con sé un autoiniettore di adrenalina: se la persona ne è in possesso, il personale la aiuta a utilizzarlo oppure segue le istruzioni fornite dall’operatore della centrale di emergenza. La posizione è importante: la persona va fatta sdraiare con le gambe sollevate, oppure mantenuta seduta se respira con difficoltà; non deve essere fatta alzare né camminare, perché il passaggio alla posizione eretta può aggravare il calo della pressione. Non si somministrano cibi né bevande. È invece utile conservare il piatto consumato e annotare gli ingredienti e i semilavorati utilizzati, perché queste informazioni sono preziose per i soccorritori. Concluso l’intervento, l’evento va registrato e analizzato: occorre comprendere se l’errore è nato dall’informazione fornita, dalla ricetta, da un cambio di fornitore o da una contaminazione crociata, e adottare le azioni correttive conseguenti. L’intervento sanitario resta di competenza dei soccorritori; al personale si chiede rapidità, assistenza e precisione nelle informazioni."
+  },
+  {
+   "t": "testo",
+   "tit": "Le intolleranze alimentari",
+   "lead": "Le intolleranze sono reazioni avverse non mediate dal sistema immunitario, di regola dipendenti dalla quantità assunta.",
+   "punti": [
+    "Intolleranza al lattosio: deficit dell’enzima lattasi; sintomi gastrointestinali proporzionati alla dose",
+    "Intolleranze farmacologiche: sostanze come l’istamina o i solfiti possono provocare reazioni in soggetti predisposti",
+    "Solfiti: inclusi tra gli allergeni dell’Allegato II oltre 10 mg/kg o 10 mg/l espressi come anidride solforosa",
+    "La tolleranza a piccole quantità varia da persona a persona: l’informazione deve permettere una scelta consapevole",
+    "Indicazioni come «senza lattosio» sono volontarie e non devono indurre in errore il consumatore"
+   ],
+   "appro": "Diversamente dall’allergia, nell’intolleranza la gravità cresce con la quantità; ciò non riduce l’obbligo di informare correttamente, perché la scelta spetta al consumatore.",
+   "rif": "Reg. (UE) 1169/2011, art. 9, art. 36 e Allegato II, punto 12",
+   "nar": "Le intolleranze alimentari sono reazioni avverse che non coinvolgono il sistema immunitario e che, di regola, dipendono dalla quantità di alimento assunta. L’esempio più diffuso è l’intolleranza al lattosio, dovuta alla carenza dell’enzima lattasi, che scinde lo zucchero del latte: il lattosio non digerito fermenta nell’intestino e provoca gonfiore, dolore addominale e diarrea, con un’intensità proporzionata alla dose. Esistono poi intolleranze di tipo farmacologico, nelle quali alcune sostanze presenti negli alimenti, come l’istamina contenuta in determinati prodotti fermentati o ittici, oppure i solfiti, provocano reazioni in persone predisposte. I solfiti, impiegati come conservanti e antiossidanti, sono compresi tra le sostanze dell’Allegato due del regolamento milleseicentosessantanove del duemilaundici quando superano dieci milligrammi per chilogrammo o per litro, espressi come anidride solforosa. Poiché la soglia di tolleranza varia da persona a persona, l’informazione deve consentire a ciascun consumatore una scelta consapevole. Le indicazioni volontarie, come «senza lattosio», sono ammesse solo se non inducono in errore: il prodotto deve effettivamente rispondere a quanto dichiarato e l’operatore deve poterlo dimostrare. Rispetto all’allergia, la differenza di meccanismo non attenua gli obblighi di informazione, che restano integralmente a carico dell’operatore."
+  },
+  {
+   "t": "testo",
+   "tit": "La celiachia e le indicazioni sull’assenza di glutine",
+   "lead": "La celiachia è una malattia autoimmune permanente; l’unico trattamento è l’esclusione rigorosa del glutine.",
+   "punti": [
+    "Il glutine danneggia la mucosa dell’intestino tenue nelle persone predisposte, anche senza sintomi evidenti",
+    "«Senza glutine»: contenuto non superiore a 20 mg/kg nell’alimento venduto al consumatore finale",
+    "«Con contenuto di glutine molto basso»: non oltre 100 mg/kg, per prodotti con ingredienti di cereali trattati",
+    "Le indicazioni sono volontarie, ma se utilizzate vincolano l’operatore al rispetto dei limiti",
+    "Nella ristorazione l’offerta «senza glutine» richiede procedure dedicate di separazione, pulizia e formazione"
+   ],
+   "appro": "L’avena può essere indicata senza glutine solo se prodotta, preparata o trattata in modo da evitare la contaminazione con frumento, segale, orzo e relative varietà ibride, e se il contenuto non supera 20 mg/kg.",
+   "rif": "Reg. di esecuzione (UE) 828/2014 · Reg. (UE) 1169/2011, art. 36",
+   "nar": "La celiachia è una malattia autoimmune permanente: nelle persone geneticamente predisposte il glutine, una frazione proteica di frumento, segale, orzo e dei loro ibridi, provoca un danno alla mucosa dell’intestino tenue, talvolta anche in assenza di sintomi evidenti. L’unico trattamento oggi disponibile è l’esclusione rigorosa del glutine dalla dieta, per tutta la vita. Il regolamento di esecuzione ottocentoventotto del duemilaquattordici disciplina le indicazioni che l’operatore può fornire al consumatore. L’indicazione «senza glutine» è consentita soltanto se l’alimento, così come venduto al consumatore finale, contiene non più di venti milligrammi di glutine per chilogrammo. L’indicazione «con contenuto di glutine molto basso» è riservata ai prodotti che contengono ingredienti derivati da cereali trattati per ridurne il glutine e che non superano cento milligrammi per chilogrammo. Per l’avena è prevista una regola specifica: può essere indicata senza glutine solo se prodotta, preparata o trattata in modo da evitare contaminazioni e se rispetta il limite di venti milligrammi. Queste indicazioni sono volontarie, ma una volta utilizzate vincolano l’operatore. Nella ristorazione, l’offerta di piatti senza glutine richiede procedure dedicate di separazione degli ingredienti e delle attrezzature, pulizia accurata e formazione specifica del personale, perché la contaminazione con farine e superfici è la causa più frequente di errore."
+  },
+  {
+   "t": "testo",
+   "tit": "Perché la legge tutela il consumatore allergico",
+   "lead": "Il diritto dell’Unione considera l’informazione sugli allergeni un requisito di sicurezza, non una semplice indicazione commerciale.",
+   "punti": [
+    "La legislazione alimentare persegue un livello elevato di tutela della salute (Reg. (CE) 178/2002)",
+    "Un alimento è a rischio anche quando non si tiene conto delle informazioni messe a disposizione del consumatore",
+    "Il Reg. (UE) 1169/2011 rende obbligatoria l’indicazione delle sostanze dell’Allegato II in ogni forma di vendita",
+    "Il Reg. (CE) 852/2004, modificato nel 2021, impone di gestire gli allergeni anche negli impianti e nei trasporti",
+    "Le violazioni sono sanzionate in Italia dal D.lgs. 231/2017"
+   ],
+   "appro": "Ai fini della valutazione di sicurezza si considerano anche la particolare sensibilità di una specifica categoria di consumatori e le informazioni fornite con l’alimento: un’etichetta errata può rendere a rischio un prodotto altrimenti conforme.",
+   "rif": "Reg. (CE) 178/2002, artt. 5 e 14 · Reg. (UE) 1169/2011, artt. 9 e 44 · Reg. (CE) 852/2004 · D.lgs. 231/2017",
+   "nar": "Per comprendere gli obblighi in materia di allergeni occorre partire dai principi generali della legislazione alimentare europea. Il regolamento centosettantotto del duemiladue stabilisce che la legislazione alimentare persegue un livello elevato di tutela della salute e che non possono essere immessi sul mercato alimenti a rischio. Nel valutare se un alimento sia a rischio si deve tenere conto anche delle informazioni messe a disposizione del consumatore, comprese quelle riportate in etichetta, e della particolare sensibilità di una specifica categoria di consumatori. Ne consegue che un prodotto in sé perfettamente idoneo può diventare a rischio per una persona allergica se l’informazione sugli allergeni è assente o errata. Su questa base il regolamento milleseicentosessantanove del duemilaundici rende obbligatoria l’indicazione delle sostanze elencate nell’Allegato due, sia per gli alimenti preimballati sia per quelli venduti sfusi o somministrati nella ristorazione. Il regolamento ottocentocinquantadue del duemilaquattro, modificato nel duemilaventuno, ha aggiunto l’obbligo di gestire la presenza degli allergeni anche nelle attrezzature, nei veicoli e nei contenitori. In Italia il decreto legislativo duecentotrentuno del duemiladiciassette stabilisce le sanzioni per la violazione di questi obblighi. L’informazione sugli allergeni è dunque, a tutti gli effetti, un requisito di sicurezza alimentare."
+  }
+ ]
+}

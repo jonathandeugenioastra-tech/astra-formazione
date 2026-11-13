@@ -1,0 +1,95 @@
+{
+ "dopo": "Esempio applicativo: autoconsumo di un’officina",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Le componenti della bolletta elettrica",
+   "lead": "Per valutare il risparmio dell’autoconsumo occorre conoscere le voci della bolletta che l’energia autoprodotta permette di evitare.",
+   "punti": [
+    "Spesa per la materia energia: prezzo dell’energia e oneri di commercializzazione del venditore",
+    "Spesa per il trasporto e la gestione del contatore: tariffe di trasmissione, distribuzione e misura",
+    "Spesa per oneri di sistema: componenti a copertura di costi di interesse generale",
+    "Imposte: accisa e IVA, con regimi diversi per uso domestico e non domestico",
+    "Le quote proporzionali all’energia prelevata sono evitate dall’autoconsumo; le quote fisse e di potenza no"
+   ],
+   "appro": "Il «costo evitato» di un chilowattora autoconsumato è quindi pari alla somma delle sole componenti variabili con l’energia prelevata, non al costo medio della bolletta.",
+   "rif": "Deliberazioni ARERA sulla struttura tariffaria · Bolletta 2.0",
+   "nar": "Per valutare correttamente il risparmio ottenuto con l’autoconsumo occorre conoscere le voci della bolletta elettrica e capire quali vengono effettivamente evitate dall’energia autoprodotta. La bolletta è composta da quattro gruppi di voci. La spesa per la materia energia comprende il prezzo dell’energia e gli oneri di commercializzazione del venditore. La spesa per il trasporto e la gestione del contatore comprende le tariffe di trasmissione, di distribuzione e di misura, stabilite dall’ARERA. La spesa per oneri di sistema comprende componenti destinate a coprire costi di interesse generale del sistema elettrico. Infine vi sono le imposte, cioè l’accisa e l’IVA, con regimi diversi per gli usi domestici e non domestici. Ciascun gruppo comprende quote proporzionali all’energia prelevata, quote fisse e quote proporzionali alla potenza impegnata. L’autoconsumo evita soltanto le quote proporzionali all’energia prelevata, mentre le quote fisse e quelle legate alla potenza restano invariate. Ne deriva che il costo evitato di un chilowattora autoconsumato non coincide con il costo medio della bolletta, ottenuto dividendo l’importo totale per i chilowattora consumati, ma è pari alla somma delle sole componenti variabili. Utilizzare il costo medio porta a sovrastimare il risparmio, soprattutto per le utenze con quote fisse rilevanti."
+  },
+  {
+   "t": "testo",
+   "tit": "Indicatori economici dell’investimento",
+   "lead": "La convenienza di un impianto si valuta con indicatori che considerano l’intera vita utile e il valore del denaro nel tempo.",
+   "punti": [
+    "Tempo di ritorno semplice: investimento diviso risparmio annuo; facile ma approssimativo",
+    "Valore attuale netto (VAN): somma dei flussi di cassa attualizzati meno l’investimento",
+    "Tasso interno di rendimento (TIR): tasso che annulla il valore attuale netto",
+    "Costo livellato dell’energia (LCOE): costo medio di ogni kWh prodotto sulla vita utile",
+    "Includere manutenzione, sostituzione dell’inverter, degrado dei moduli, assicurazioni"
+   ],
+   "appro": "Un tempo di ritorno breve non garantisce da solo la convenienza: il valore attuale netto permette di confrontare alternative con durate e profili di flusso diversi.",
+   "rif": "Prassi di valutazione degli investimenti energetici · UNI CEI EN 16247",
+   "nar": "La convenienza economica di un impianto fotovoltaico si valuta con indicatori che considerano l’intera vita utile e il valore del denaro nel tempo. Il più semplice è il tempo di ritorno semplice, ottenuto dividendo l’investimento per il risparmio annuo: è facile da calcolare ma approssimativo, perché non considera ciò che accade dopo il recupero dell’investimento né il valore del denaro nel tempo. Il valore attuale netto è la somma dei flussi di cassa futuri, attualizzati con un tasso che rappresenta il costo del capitale, meno l’investimento iniziale: un valore positivo indica che l’investimento crea valore. Il tasso interno di rendimento è il tasso di attualizzazione che rende nullo il valore attuale netto e consente di confrontare l’investimento con rendimenti alternativi. Il costo livellato dell’energia rappresenta il costo medio di ogni chilowattora prodotto lungo la vita utile e si confronta direttamente con il costo evitato dell’energia acquistata. In tutti i casi l’analisi deve includere i costi di manutenzione, la sostituzione dell’inverter nel corso della vita utile, il degrado delle prestazioni dei moduli e le assicurazioni. Un tempo di ritorno breve non garantisce da solo la convenienza: il valore attuale netto consente di confrontare alternative con durate e profili di flusso diversi."
+  },
+  {
+   "t": "testo",
+   "tit": "Efficienza energetica prima del fotovoltaico",
+   "lead": "Ridurre i consumi è la misura con il miglior rapporto tra costo e beneficio e precede il dimensionamento dell’impianto.",
+   "punti": [
+    "Principio «l’efficienza energetica al primo posto», adottato dalla legislazione europea",
+    "Diagnosi energetica: individua sprechi e interventi su illuminazione, motori, aria compressa, climatizzazione",
+    "Ridurre i consumi prima di dimensionare l’impianto evita di sovradimensionarlo",
+    "Interventi tipici: illuminazione a LED, inverter su motori e pompe, eliminazione delle perdite di aria compressa",
+    "Monitoraggio dei consumi per verificare i risultati nel tempo"
+   ],
+   "appro": "Un kilowattora non consumato non va né prodotto né acquistato: per questo l’efficienza viene prima della produzione da fonti rinnovabili.",
+   "rif": "Dir. (UE) 2023/1791 · D.lgs. 102/2014",
+   "nar": "Prima di dimensionare un impianto fotovoltaico è opportuno ridurre i consumi, perché l’efficienza energetica offre generalmente il miglior rapporto tra costo e beneficio. La legislazione europea, in particolare la direttiva sull’efficienza energetica del duemilaventitré, ha adottato il principio dell’efficienza energetica al primo posto, secondo cui le misure di riduzione della domanda vanno considerate prima di quelle che aumentano l’offerta. Lo strumento di partenza è la diagnosi energetica, disciplinata in Italia dal decreto legislativo centodue del duemilaquattordici, che individua dove e come l’energia viene consumata e quali interventi sono convenienti. Gli interventi tipici in un’impresa riguardano l’illuminazione, con la sostituzione delle lampade tradizionali con sorgenti a LED; i motori e le pompe, con l’installazione di inverter che adeguano la velocità al carico; l’aria compressa, con l’eliminazione delle perdite e la riduzione della pressione; la climatizzazione, con regolazioni più efficienti. Ridurre i consumi prima di dimensionare l’impianto evita di sovradimensionarlo rispetto al fabbisogno futuro. Il monitoraggio dei consumi consente infine di verificare nel tempo i risultati degli interventi. Il principio è intuitivo: un chilowattora non consumato non va né prodotto né acquistato."
+  },
+  {
+   "t": "testo",
+   "tit": "Pompe di calore, mobilità elettrica e autoconsumo",
+   "lead": "L’elettrificazione dei consumi termici e dei trasporti aumenta i prelievi diurni e può migliorare la valorizzazione dell’impianto.",
+   "punti": [
+    "Pompe di calore: producono calore con un’efficienza molto superiore a quella delle resistenze elettriche",
+    "Programmazione della produzione di acqua calda nelle ore di massima produzione fotovoltaica",
+    "Accumulo termico: un serbatoio di acqua calda funziona come una batteria a basso costo",
+    "Ricarica dei veicoli aziendali durante le ore di produzione, con gestione intelligente della potenza",
+    "Attenzione alla potenza impegnata e al dimensionamento dei circuiti"
+   ],
+   "appro": "Spostare la produzione di acqua calda e la ricarica dei veicoli nelle ore di sole è spesso più economico che installare batterie elettrochimiche.",
+   "rif": "D.lgs. 199/2021 · CEI 64-8, parte 7-722 (alimentazione dei veicoli elettrici)",
+   "nar": "L’elettrificazione dei consumi termici e dei trasporti modifica il profilo dei consumi di imprese e famiglie e può migliorare sensibilmente la valorizzazione di un impianto fotovoltaico. Le pompe di calore producono calore con un’efficienza molto superiore a quella delle resistenze elettriche, perché trasferiscono calore dall’ambiente esterno anziché generarlo direttamente. Se la produzione di acqua calda viene programmata nelle ore di massima produzione fotovoltaica, l’energia autoconsumata aumenta. Un serbatoio di accumulo dell’acqua calda funziona di fatto come una batteria termica a basso costo: immagazzina l’energia del sole sotto forma di calore per utilizzarla nelle ore successive. Analogamente, la ricarica dei veicoli aziendali può essere concentrata nelle ore centrali della giornata, con sistemi di gestione intelligente della potenza che modulano la ricarica in base alla produzione disponibile. Questi interventi richiedono però attenzione alla potenza impegnata e al dimensionamento dei circuiti, che devono essere progettati secondo le norme tecniche, comprese quelle specifiche per l’alimentazione dei veicoli elettrici. In molti casi, spostare la produzione di acqua calda e la ricarica dei veicoli nelle ore di sole è più economico che installare un sistema di accumulo elettrochimico."
+  },
+  {
+   "t": "testo",
+   "tit": "Fotovoltaico su parcheggi, aree industriali e agrivoltaico",
+   "lead": "Oltre alle coperture degli edifici, gli impianti possono sfruttare superfici già trasformate o integrarsi con l’attività agricola.",
+   "punti": [
+    "Pensiline fotovoltaiche nei parcheggi: producono energia e proteggono i veicoli",
+    "Aree industriali, cave dismesse, discariche chiuse: superfici già compromesse, spesso considerate idonee",
+    "Agrivoltaico: impianti che consentono la prosecuzione dell’attività agricola sotto o tra i moduli",
+    "Le Regioni individuano le aree idonee, con iter autorizzativi più rapidi",
+    "Valutazione dei vincoli paesaggistici e del consumo di suolo"
+   ],
+   "appro": "Privilegiare superfici già impermeabilizzate o compromesse riduce il consumo di suolo agricolo e i tempi di autorizzazione.",
+   "rif": "D.lgs. 199/2021, art. 20 · D.lgs. 190/2024 · disciplina regionale delle aree idonee",
+   "nar": "Oltre alle coperture degli edifici, gli impianti fotovoltaici possono sfruttare altre superfici, con vantaggi e vincoli diversi. Le pensiline fotovoltaiche nei parcheggi producono energia e allo stesso tempo proteggono i veicoli dal sole e dalle intemperie, e possono essere abbinate a punti di ricarica. Le aree industriali, le cave dismesse e le discariche chiuse sono superfici già compromesse, che la normativa tende a considerare idonee e per le quali gli iter autorizzativi sono più rapidi. L’agrivoltaico è una soluzione in cui l’impianto consente la prosecuzione dell’attività agricola o zootecnica sotto o tra i moduli, ad esempio con strutture sopraelevate o con file distanziate, conciliando produzione energetica e uso agricolo del suolo. Il decreto legislativo centonovantanove del duemilaventuno ha previsto l’individuazione delle aree idonee, demandata alla disciplina regionale, nelle quali gli impianti beneficiano di procedure semplificate. In tutti i casi occorre valutare i vincoli paesaggistici e il consumo di suolo. Privilegiare superfici già impermeabilizzate o compromesse è una scelta coerente con la tutela del territorio e riduce i tempi di autorizzazione. Per una comunità energetica, la disponibilità di grandi coperture industriali o di parcheggi pubblici rappresenta spesso l’opportunità più concreta."
+  },
+  {
+   "t": "testo",
+   "tit": "Esempio applicativo: stima della producibilità con PVGIS",
+   "lead": "Un esempio guidato mostra i passaggi per stimare la produzione di un impianto e interpretarne i risultati.",
+   "punti": [
+    "Dati di ingresso: posizione del sito, potenza di picco 50 kWp, inclinazione 10°, orientamento sud-est",
+    "Perdite di sistema stimate: 14%; tecnologia: silicio cristallino",
+    "Risultato: produzione annua e mensile, con andamento stagionale",
+    "Confronto mese per mese con i consumi: estate con eccedenze, inverno con copertura ridotta",
+    "Esportazione dei dati orari per il confronto con il profilo di carico dell’impresa"
+   ],
+   "appro": "PVGIS fornisce stime basate su dati climatici storici: la produzione di un singolo anno può discostarsi sensibilmente dalla media, in più o in meno.",
+   "rif": "PVGIS – Commissione europea, Centro comune di ricerca",
+   "nar": "Si propone un esempio applicativo di stima della producibilità con PVGIS. Si consideri un impianto da cinquanta chilowatt di picco su una copertura industriale poco inclinata, con inclinazione di dieci gradi e orientamento sud-est. Il primo passaggio consiste nell’individuare il sito sulla mappa, così che lo strumento utilizzi i dati climatici di quella posizione. Si inseriscono quindi la potenza di picco, l’inclinazione, l’orientamento, la tecnologia dei moduli, in questo caso silicio cristallino, e le perdite di sistema stimate, ad esempio il quattordici per cento. Lo strumento restituisce la produzione annua attesa e la sua distribuzione mensile, che evidenzia il marcato andamento stagionale: nei mesi estivi la produzione è molto superiore a quella invernale. Il confronto mese per mese con i consumi dell’impresa mostra che in estate si producono eccedenze, da autoconsumare con accumuli o da condividere in una configurazione, mentre in inverno la copertura dei consumi è ridotta. Per un’analisi più accurata PVGIS consente di esportare dati orari da confrontare con il profilo di carico. Occorre infine ricordare che le stime si basano su dati climatici storici: la produzione di un singolo anno può discostarsi sensibilmente dalla media, in più o in meno, e il piano economico deve tenerne conto."
+  }
+ ]
+}

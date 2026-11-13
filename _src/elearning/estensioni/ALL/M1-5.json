@@ -1,0 +1,50 @@
+{
+ "dopo": "Come si evidenziano gli allergeni in etichetta",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Ingredienti composti, additivi e coadiuvanti tecnologici",
+   "lead": "L’obbligo di indicare gli allergeni si estende a ogni sostanza utilizzata nella fabbricazione e ancora presente nel prodotto finito, anche in forma modificata.",
+   "punti": [
+    "Ingredienti composti: gli allergeni dei loro componenti vanno dichiarati anche quando l’elenco del composto può essere omesso",
+    "Additivi ed enzimi derivati da allergeni: si dichiarano con riferimento all’allergene (ad esempio «lecitina di soia»)",
+    "Coadiuvanti tecnologici: esclusi dall’elenco degli ingredienti, ma non se derivano da sostanze dell’Allegato II",
+    "Aromi, spezie e miscele: verificare sulla scheda tecnica la presenza di sedano, senape, latte, soia o frutta a guscio",
+    "Supporti e solventi di additivi e aromi: anch’essi soggetti all’obbligo se derivano da un allergene"
+   ],
+   "appro": "La regola generale è che l’esenzione dall’elenco degli ingredienti non vale per le sostanze dell’Allegato II: un allergene non può mai «scomparire» per effetto di una deroga tecnica.",
+   "rif": "Reg. (UE) 1169/2011, artt. 9, 20 e 21",
+   "nar": "L’obbligo di indicare gli allergeni non riguarda soltanto gli ingredienti principali, ma ogni sostanza utilizzata nella fabbricazione o nella preparazione e ancora presente nel prodotto finito, anche se in forma modificata. Il regolamento milleseicentosessantanove prevede diverse situazioni in cui un componente può essere omesso dall’elenco degli ingredienti: è il caso di alcuni ingredienti composti, dei coadiuvanti tecnologici, dei supporti e dei solventi utilizzati per additivi e aromi. Tutte queste deroghe, tuttavia, non si applicano alle sostanze dell’Allegato due. Se un coadiuvante tecnologico deriva da un allergene, ad esempio un enzima ottenuto dal latte o un agente di rivestimento a base di soia, l’allergene deve comunque essere dichiarato. Lo stesso vale per gli additivi: la lecitina va indicata come lecitina di soia o lecitina d’uovo, secondo l’origine. Una particolare attenzione meritano gli aromi, le spezie e le miscele, che spesso contengono sedano, senape, latte, soia o frutta a guscio in piccole quantità; l’unico strumento affidabile è la scheda tecnica del fornitore. Il principio da ricordare è semplice: nessuna deroga tecnica può far scomparire un allergene dall’informazione al consumatore. Per il ristoratore e l’artigiano questo significa che ogni componente, anche minimo, va considerato nella matrice degli allergeni."
+  },
+  {
+   "t": "testo",
+   "tit": "Le altre informazioni obbligatorie dei preimballati",
+   "lead": "Gli allergeni fanno parte di un insieme di informazioni obbligatorie che l’etichetta deve riportare in modo chiaro e coerente.",
+   "punti": [
+    "Denominazione dell’alimento ed elenco degli ingredienti in ordine decrescente di peso",
+    "Sostanze dell’Allegato II evidenziate e quantità di determinati ingredienti (QUID) quando previste",
+    "Quantità netta, termine minimo di conservazione o data di scadenza, condizioni di conservazione e d’uso",
+    "Nome o ragione sociale e indirizzo dell’operatore responsabile; paese d’origine quando previsto",
+    "Istruzioni per l’uso quando necessarie, titolo alcolometrico oltre 1,2% vol, dichiarazione nutrizionale"
+   ],
+   "appro": "Le informazioni obbligatorie devono comparire in un punto evidente, in modo da essere facilmente visibili, chiaramente leggibili e, se del caso, indelebili, e non devono essere nascoste o interrotte da altre indicazioni.",
+   "rif": "Reg. (UE) 1169/2011, artt. 9 e 13",
+   "nar": "Le indicazioni sugli allergeni fanno parte di un insieme più ampio di informazioni obbligatorie che l’etichetta di un alimento preimballato deve riportare, elencate dall’articolo nove del regolamento milleseicentosessantanove. Si tratta della denominazione dell’alimento; dell’elenco degli ingredienti in ordine decrescente di peso al momento dell’impiego; delle sostanze dell’Allegato due, evidenziate; della quantità di determinati ingredienti o categorie di ingredienti, quando richiesta; della quantità netta; del termine minimo di conservazione o della data di scadenza; delle condizioni particolari di conservazione e d’uso; del nome o della ragione sociale e dell’indirizzo dell’operatore responsabile; del paese d’origine o del luogo di provenienza nei casi previsti; delle istruzioni per l’uso, quando la loro omissione renderebbe difficile un uso adeguato; del titolo alcolometrico per le bevande che superano un virgola due per cento in volume; e della dichiarazione nutrizionale. L’articolo tredici stabilisce che queste informazioni devono comparire in un punto evidente, in modo da essere facilmente visibili, chiaramente leggibili e, se del caso, indelebili, e non devono essere nascoste, oscurate o interrotte da altre indicazioni o immagini. Per il produttore artigianale che confeziona i propri prodotti, la cura dell’etichetta è quindi parte integrante della sicurezza alimentare, non un adempimento grafico."
+  },
+  {
+   "t": "testo",
+   "tit": "Esempio applicativo: l’etichetta di un biscotto artigianale",
+   "lead": "Un esempio guidato mostra come costruire correttamente l’elenco degli ingredienti con gli allergeni evidenziati.",
+   "punti": [
+    "Ricetta: farina di grano tenero, burro, zucchero, uova, nocciole, latte in polvere, agente lievitante, sale",
+    "Elenco: «farina di frumento, zucchero, burro (latte), nocciole 12%, uova, latte in polvere, agenti lievitanti: …, sale»",
+    "Allergeni evidenziati: frumento, burro/latte, nocciole, uova, latte",
+    "QUID delle nocciole, se richiamate nella denominazione o nell’immagine",
+    "Avvertenza precauzionale solo se la valutazione del rischio evidenzia, ad esempio, tracce di pistacchio"
+   ],
+   "appro": "Nei prodotti in cui la denominazione richiama un ingrediente, come «biscotti alle nocciole», la quantità percentuale di quell’ingrediente va indicata nell’elenco o accanto alla denominazione.",
+   "rif": "Reg. (UE) 1169/2011, artt. 18, 21 e 22 · Allegato VIII",
+   "nar": "Si propone un esempio applicativo: l’etichetta di un biscotto artigianale alle nocciole. La ricetta prevede farina di grano tenero, burro, zucchero, uova, nocciole, latte in polvere, un agente lievitante e sale. Il primo passo è ordinare gli ingredienti in base al peso al momento dell’impiego. Il secondo è individuare le sostanze dell’Allegato due: il frumento, il burro, che è un derivato del latte, le uova, le nocciole e il latte in polvere. Il terzo passo è l’evidenziazione: ciascuno di questi ingredienti va scritto con un carattere distinto, ad esempio in grassetto; nel caso del burro è prassi corretta indicare tra parentesi la parola latte, evidenziata, per rendere esplicita l’origine. Poiché la denominazione richiama le nocciole, la loro quantità percentuale deve essere indicata, ad esempio nocciole dodici per cento. Infine, l’eventuale avvertenza precauzionale si valuta separatamente: se nello stesso laboratorio si lavorano pistacchi e la valutazione del rischio ha evidenziato un rischio residuo non eliminabile, si può indicare che il prodotto può contenere tracce di pistacchio. In assenza di questa valutazione, l’avvertenza non va aggiunta per semplice prudenza. L’esempio mostra come un’etichetta corretta derivi direttamente dalla ricetta e dalla matrice degli allergeni."
+  }
+ ]
+}

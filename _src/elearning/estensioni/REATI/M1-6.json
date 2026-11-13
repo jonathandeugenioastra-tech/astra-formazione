@@ -1,0 +1,79 @@
+{
+ "dopo": "La responsabilità dell’ente: D.lgs. 231/2001, art. 25-undecies",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Presupposti della responsabilità dell’ente",
+   "lead": "L’ente risponde quando il reato è commesso nel suo interesse o a suo vantaggio da soggetti apicali o sottoposti.",
+   "punti": [
+    "Interesse: finalità perseguita con la condotta (ad esempio ridurre i costi di smaltimento)",
+    "Vantaggio: beneficio oggettivamente conseguito, anche come risparmio di spesa",
+    "Soggetti apicali (art. 6): l’ente deve dimostrare l’adozione e l’efficace attuazione del modello",
+    "Soggetti sottoposti (art. 7): responsabilità se il reato è reso possibile dall’inosservanza degli obblighi di direzione o vigilanza",
+    "Nei reati colposi il vantaggio coincide spesso con il risparmio dei costi di prevenzione"
+   ],
+   "appro": "Nei reati ambientali il vantaggio dell’ente è frequentemente un risparmio: un trasportatore non qualificato perché più economico, un impianto di depurazione non adeguato, una manutenzione rinviata.",
+   "rif": "D.lgs. 231/2001, artt. 5, 6, 7",
+   "nar": "La responsabilità amministrativa dell’ente, prevista dal decreto legislativo duecentotrentuno del duemilauno, sorge quando uno dei reati presupposto è commesso nel suo interesse o a suo vantaggio da persone che rivestono funzioni di rappresentanza, amministrazione o direzione, i cosiddetti soggetti apicali, oppure da persone sottoposte alla loro direzione o vigilanza. L’interesse riguarda la finalità perseguita con la condotta, ad esempio ridurre i costi di smaltimento dei rifiuti; il vantaggio è il beneficio oggettivamente conseguito, anche sotto forma di risparmio di spesa. Se il reato è commesso da un soggetto apicale, l’ente deve dimostrare di aver adottato ed efficacemente attuato un modello idoneo, di aver affidato la vigilanza a un organismo dotato di autonomi poteri e che il reato è stato commesso eludendo fraudolentemente il modello. Se il reato è commesso da un sottoposto, l’ente risponde quando il reato è stato reso possibile dall’inosservanza degli obblighi di direzione o vigilanza. Nei reati ambientali, molti dei quali puniti anche a titolo di colpa, il vantaggio dell’ente coincide frequentemente con un risparmio: un trasportatore non qualificato scelto perché più economico, un impianto di depurazione non adeguato, una manutenzione rinviata. È proprio su queste scelte che il modello organizzativo deve intervenire."
+  },
+  {
+   "t": "testo",
+   "tit": "Sanzioni all’ente: quote, interdittive, confisca",
+   "lead": "Le sanzioni a carico dell’ente sono pecuniarie, determinate per quote, e nei casi più gravi interdittive.",
+   "punti": [
+    "Sanzione pecuniaria: numero di quote stabilito dal giudice per gravità del fatto; valore della quota in base alle condizioni economiche dell’ente",
+    "Sanzioni interdittive (art. 9): interdizione dall’esercizio dell’attività, sospensione o revoca di autorizzazioni, divieto di contrattare con la PA, esclusione da agevolazioni, divieto di pubblicizzare beni o servizi",
+    "Interdizione definitiva per l’ente stabilmente utilizzato per il traffico organizzato di rifiuti",
+    "D.lgs. 81/2026: aumento del massimo delle quote per il disastro ambientale e aumento di un terzo per le ipotesi aggravate",
+    "Confisca del prezzo o del profitto del reato e pubblicazione della sentenza"
+   ],
+   "appro": "Le sanzioni interdittive possono bloccare l’attività o l’accesso agli appalti pubblici: per molte imprese sono più gravose della stessa sanzione pecuniaria.",
+   "rif": "D.lgs. 231/2001, artt. 9–11, 19 e 25-undecies, come modificato dal D.lgs. 81/2026",
+   "nar": "Le sanzioni a carico dell’ente sono innanzitutto pecuniarie, determinate con un sistema per quote: il giudice stabilisce il numero di quote in base alla gravità del fatto, al grado di responsabilità dell’ente e all’attività svolta per eliminare le conseguenze del reato, e fissa il valore di ciascuna quota in base alle condizioni economiche e patrimoniali dell’ente. Il decreto ottantuno del duemilaventisei ha aumentato il numero massimo di quote per il disastro ambientale e ha previsto un aumento di un terzo della sanzione per le ipotesi aggravate di inquinamento e di commercio di prodotti inquinanti. Per alcuni reati ambientali si applicano anche sanzioni interdittive: l’interdizione dall’esercizio dell’attività, la sospensione o la revoca di autorizzazioni e licenze, il divieto di contrattare con la pubblica amministrazione, l’esclusione da agevolazioni e finanziamenti, il divieto di pubblicizzare beni o servizi. Quando l’ente è stabilmente utilizzato allo scopo di consentire il traffico organizzato di rifiuti, è prevista l’interdizione definitiva dall’esercizio dell’attività. Sono inoltre previste la confisca del prezzo o del profitto del reato e la pubblicazione della sentenza. Per molte imprese le sanzioni interdittive, che possono bloccare l’attività o l’accesso agli appalti pubblici, sono più gravose della stessa sanzione pecuniaria."
+  },
+  {
+   "t": "testo",
+   "tit": "Costruire il modello organizzativo per i reati ambientali",
+   "lead": "Il modello organizzativo è efficace se nasce da un’analisi reale dei processi aziendali e si traduce in controlli verificabili.",
+   "punti": [
+    "Mappatura delle attività sensibili: rifiuti, scarichi, emissioni, sostanze chimiche, serbatoi, appalti ambientali",
+    "Valutazione dei rischi di reato per ciascuna attività, con esame dei controlli esistenti",
+    "Protocolli: responsabilità, autorizzazioni interne, qualifica dei fornitori, registrazioni",
+    "Organismo di vigilanza: autonomia, flussi informativi periodici e ad evento, verifiche",
+    "Sistema disciplinare e canali di segnalazione delle violazioni (D.lgs. 24/2023)"
+   ],
+   "appro": "Un modello copiato da un esempio generico, senza mappatura reale e senza evidenze di attuazione, non supera il vaglio del giudice: contano le prove dell’efficace attuazione.",
+   "rif": "D.lgs. 231/2001, artt. 6–7 · D.lgs. 24/2023 · UNI EN ISO 14001",
+   "nar": "Il modello di organizzazione, gestione e controllo è efficace solo se nasce da un’analisi reale dei processi aziendali e si traduce in controlli verificabili. Il primo passo è la mappatura delle attività sensibili rispetto ai reati ambientali: la gestione dei rifiuti, dalla produzione al conferimento; gli scarichi idrici; le emissioni in atmosfera; l’uso e lo stoccaggio delle sostanze chimiche; i serbatoi interrati e fuori terra; gli appalti di servizi ambientali, come lo smaltimento e la manutenzione degli impianti di depurazione. Per ciascuna attività si valutano i rischi di reato e si esaminano i controlli esistenti. Si definiscono poi i protocolli: chi decide, chi autorizza, come si qualificano i fornitori, quali registrazioni si conservano. L’organismo di vigilanza, dotato di autonomia, riceve flussi informativi periodici, come gli esiti degli autocontrolli e delle verifiche sui fornitori, e flussi ad evento, come ispezioni, prescrizioni e incidenti, e svolge verifiche sull’attuazione del modello. Completano il modello un sistema disciplinare e i canali di segnalazione delle violazioni previsti dal decreto ventiquattro del duemilaventitré. Un modello copiato da un esempio generico, senza mappatura reale e senza evidenze di attuazione, non supera il vaglio del giudice: contano le prove dell’efficace attuazione."
+  },
+  {
+   "t": "testo",
+   "tit": "Qualifica e controllo dei fornitori di servizi ambientali",
+   "lead": "Trasportatori, impianti di destinazione e laboratori sono anelli critici: le loro carenze possono ricadere sul produttore dei rifiuti e sull’ente.",
+   "punti": [
+    "Trasportatori: iscrizione all’Albo nazionale gestori ambientali per la categoria, i codici e i mezzi utilizzati",
+    "Impianti di destinazione: autorizzazione vigente per i codici e le operazioni di recupero o smaltimento",
+    "Verifica della quarta copia del formulario o della sua evidenza nel RENTRI entro i termini",
+    "Laboratori: accreditamento per le prove eseguite e rappresentatività del campionamento",
+    "Riesame periodico: scadenze delle autorizzazioni, sopralluoghi a campione, prezzi anomali"
+   ],
+   "appro": "Un prezzo di smaltimento molto inferiore a quello di mercato è un segnale di allarme: la giurisprudenza lo considera un indizio della consapevolezza della destinazione illecita.",
+   "rif": "D.lgs. 152/2006, artt. 188, 193, 212 · D.lgs. 231/2001",
+   "nar": "Trasportatori, impianti di destinazione e laboratori sono anelli critici della catena di gestione ambientale: le loro carenze possono ricadere sul produttore dei rifiuti e sull’ente. Prima di affidare un servizio occorre verificare che il trasportatore sia iscritto all’Albo nazionale gestori ambientali per la categoria corretta, per i codici dei rifiuti da trasportare e per i mezzi effettivamente utilizzati. L’impianto di destinazione deve possedere un’autorizzazione vigente per i codici e per le operazioni di recupero o smaltimento previste. Dopo ogni conferimento, il produttore deve verificare il ritorno della quarta copia del formulario controfirmata dal destinatario, o la corrispondente evidenza nel registro elettronico nazionale, entro i termini previsti: in mancanza, deve darne comunicazione. Per i laboratori che eseguono le analisi di classificazione dei rifiuti o gli autocontrolli, occorre verificare l’accreditamento per le prove eseguite e la correttezza del campionamento. La qualifica non è un atto unico: va riesaminata periodicamente, controllando le scadenze delle autorizzazioni, eseguendo sopralluoghi a campione e valutando i prezzi. Un prezzo di smaltimento molto inferiore a quello di mercato è un segnale di allarme, che la giurisprudenza considera indice della consapevolezza di una destinazione illecita."
+  },
+  {
+   "t": "caso",
+   "tit": "Caso di studio · Lo smaltimento a prezzo di favore",
+   "scena": "Un’impresa affida lo smaltimento di fanghi di verniciatura a un intermediario che offre un prezzo pari a un terzo di quello di mercato. Le quarte copie dei formulari rientrano con timbri illeggibili. Un’indagine accerta che i fanghi venivano abbandonati in un’area agricola.",
+   "domanda": "Quale profilo di responsabilità è più rilevante per l’impresa?",
+   "opz": [
+    ["Nessuno: la responsabilità è solo dell’intermediario", false, "No: il produttore ha obblighi di verifica e il risparmio è un vantaggio per l’ente."],
+    ["Possibile concorso nei reati sui rifiuti e responsabilità dell’ente, per omessa verifica e vantaggio economico", true, "Corretto: prezzo anomalo e documenti irregolari erano segnali evidenti."],
+    ["Solo una sanzione amministrativa per i formulari", false, "No: i fatti hanno rilevanza penale."]
+   ],
+   "rif": "D.lgs. 152/2006, artt. 188, 255-ter, 256, 259-bis · D.lgs. 231/2001, art. 25-undecies",
+   "appro": "La procedura di qualifica avrebbe dovuto bloccare l’affidamento: verifica delle autorizzazioni, congruità del prezzo, controllo puntuale delle quarte copie.",
+   "nar": "Caso di studio. Un’impresa affida lo smaltimento di fanghi a un intermediario a un prezzo pari a un terzo di quello di mercato, e i fanghi vengono abbandonati in un’area agricola. Si individui il profilo di responsabilità più rilevante."
+  }
+ ]
+}

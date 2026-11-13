@@ -1,0 +1,42 @@
+{
+ "dopo": "Prevenzione incendi e emergenze: il quadro dei tre decreti",
+ "schermate": [
+  {
+   "t": "grafico",
+   "tit": "Diagramma · La valutazione del rischio di incendio",
+   "rif": "D.M. 3 settembre 2021, Allegato I · D.lgs. 81/2008, art. 46",
+   "lead": "Selezionare ciascuna fase della valutazione (schema tecnico, senza immagini).",
+   "grafico": {
+    "tipo": "flusso",
+    "passi": [
+     {
+      "nome": "Pericoli di incendio",
+      "tempo": null,
+      "testo": "Individuazione di materiali combustibili e infiammabili, sorgenti di innesco e lavorazioni pericolose."
+     },
+     {
+      "nome": "Contesto e occupanti",
+      "tempo": null,
+      "testo": "Descrizione dell’ambiente, del numero e delle caratteristiche delle persone presenti, comprese quelle con esigenze speciali."
+     },
+     {
+      "nome": "Valutazione qualitativa o quantitativa",
+      "tempo": null,
+      "testo": "Stima delle conseguenze sugli occupanti e sui beni, con i criteri del D.M. 3 settembre 2021 e, ove previsto, del Codice di prevenzione incendi (D.M. 3 agosto 2015)."
+     },
+     {
+      "nome": "Misure",
+      "tempo": null,
+      "testo": "Misure tecniche (compartimentazione, rilevazione, estinzione, vie d’esodo) e gestionali (D.M. 2 settembre 2021: gestione della sicurezza in esercizio e in emergenza)."
+     },
+     {
+      "nome": "Revisione",
+      "tempo": "a ogni modifica significativa",
+      "testo": "Aggiornamento in caso di modifiche dell’attività, dei materiali, del layout o degli occupanti."
+     }
+    ]
+   },
+   "nar": "Diagramma interattivo. Si selezioni ciascuna fase della valutazione del rischio di incendio: individuazione dei pericoli, descrizione del contesto e degli occupanti, valutazione, misure tecniche e gestionali e revisione."
+  }
+ ]
+}

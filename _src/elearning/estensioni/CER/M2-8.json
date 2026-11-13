@@ -1,0 +1,35 @@
+{
+ "dopo": "Esempio applicativo: l’energia condivisa in un’ora",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Esempio applicativo: il riparto annuale dei benefici",
+   "lead": "Una comunità riceve nell’anno 30.000 € tra tariffa premio e restituzione delle componenti e li ripartisce secondo il proprio regolamento.",
+   "punti": [
+    "Costi di gestione della comunità (piattaforma, consulenze, assicurazione): 3.000 €",
+    "Corrispettivo al produttore terzo previsto dal contratto: 9.000 €",
+    "Fondo per finalità sociali del territorio (10% del residuo): 1.800 €",
+    "Quota distribuita ai membri: 16.200 €, in proporzione al contributo orario all’energia condivisa",
+    "Rendiconto annuale approvato dall’assemblea e comunicato a tutti i membri"
+   ],
+   "appro": "Un riparto proporzionale al contributo orario, anziché uguale per tutti, incentiva i comportamenti che aumentano la condivisione e risulta percepito come più equo.",
+   "rif": "D.lgs. 199/2021, art. 31 · D.M. 414/2023 · Statuto e regolamento della comunità",
+   "nar": "Si propone un esempio applicativo del riparto annuale dei benefici. Una comunità energetica rinnovabile riceve dal Gestore dei servizi energetici, nel corso dell’anno, complessivamente trentamila euro tra tariffa premio e restituzione delle componenti tariffarie. Il regolamento interno, approvato dall’assemblea, stabilisce l’ordine delle destinazioni. In primo luogo si coprono i costi di gestione della comunità, che comprendono la piattaforma di monitoraggio, le consulenze amministrative e l’assicurazione, pari a tremila euro. In secondo luogo si versa al produttore terzo il corrispettivo previsto dal contratto, pari a novemila euro. Del residuo di diciottomila euro, il dieci per cento, cioè milleottocento euro, alimenta un fondo destinato a finalità sociali del territorio, ad esempio il sostegno alle famiglie in difficoltà economica. I restanti sedicimiladuecento euro sono distribuiti ai membri in proporzione al rispettivo contributo orario all’energia condivisa, calcolato sui dati di misura. Il rendiconto annuale, con il dettaglio delle entrate, delle spese e delle quote attribuite, viene approvato dall’assemblea e comunicato a tutti i membri. Un riparto proporzionale al contributo orario, anziché uguale per tutti, incentiva i comportamenti che aumentano la condivisione ed è generalmente percepito come più equo dai partecipanti."
+  },
+  {
+   "t": "testo",
+   "tit": "Indicatori di monitoraggio della comunità",
+   "lead": "Un insieme limitato di indicatori consente di valutare nel tempo l’andamento tecnico, economico e sociale della comunità.",
+   "punti": [
+    "Energia prodotta e energia condivisa, mensile e annuale",
+    "Quota di condivisione: energia condivisa / energia immessa dagli impianti",
+    "Benefici economici complessivi e per membro; costi di gestione in rapporto ai benefici",
+    "Emissioni di gas a effetto serra evitate, con fattore di emissione e anno di riferimento dichiarati",
+    "Numero di membri, ingressi e recessi; partecipazione alle assemblee"
+   ],
+   "appro": "Il confronto mese per mese della quota di condivisione rivela rapidamente l’effetto dell’ingresso di nuovi membri o delle campagne di spostamento dei carichi.",
+   "rif": "TIAD ARERA · D.M. 414/2023 · GHG Protocol",
+   "nar": "La gestione di una comunità energetica richiede un monitoraggio continuo, basato su un insieme limitato ma significativo di indicatori. Sul piano tecnico si osservano l’energia prodotta dagli impianti e l’energia condivisa, su base mensile e annuale, e la quota di condivisione, cioè il rapporto tra l’energia condivisa e l’energia immessa in rete dagli impianti della configurazione. Sul piano economico si considerano i benefici complessivi ricevuti e quelli attribuiti a ciascun membro, insieme ai costi di gestione in rapporto ai benefici, che misurano l’efficienza della struttura. Sul piano ambientale si calcolano le emissioni di gas a effetto serra evitate, dichiarando il fattore di emissione utilizzato e l’anno di riferimento. Sul piano sociale si osservano il numero dei membri, gli ingressi e i recessi e la partecipazione alle assemblee, che indicano il grado di coinvolgimento della comunità. Il confronto mese per mese della quota di condivisione è particolarmente utile: rivela rapidamente l’effetto dell’ingresso di nuovi membri, delle campagne di spostamento dei carichi o di un guasto agli impianti. Gli indicatori vanno presentati ai membri nel rendiconto periodico, con grafici semplici e commenti che spieghino le variazioni osservate."
+  }
+ ]
+}

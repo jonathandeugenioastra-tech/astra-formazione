@@ -1,0 +1,63 @@
+{
+ "dopo": "Sistemi di abbattimento: manutenzione e guasti",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Esempio applicativo: la durata di un filtro a carboni attivi",
+   "lead": "Un calcolo semplificato della capacità di adsorbimento consente di programmare la sostituzione del carbone prima della saturazione.",
+   "punti": [
+    "Massa di carbone installata: 600 kg",
+    "Capacità di adsorbimento utile ipotizzata: 10% in massa, cioè 60 kg di solventi",
+    "Solvente inviato al filtro: 1,5 kg/h, con efficienza di captazione considerata totale",
+    "Durata teorica: 60 kg / 1,5 kg/h = 40 ore di funzionamento",
+    "Con 8 h/giorno: sostituzione indicativa ogni 5 giorni lavorativi, da verificare con misure"
+   ],
+   "appro": "La capacità reale dipende dal tipo di solvente, dall’umidità e dalla temperatura: il calcolo va validato con misure in uscita e con i dati del fornitore del carbone.",
+   "rif": "D.lgs. 152/2006, art. 271 · prescrizioni dell’autorizzazione",
+   "nar": "Si propone un esempio applicativo del calcolo della durata di un filtro a carboni attivi. In una linea di incollaggio, il filtro contiene seicento chilogrammi di carbone attivo. Il fornitore indica, per i solventi in uso, una capacità di adsorbimento utile pari a circa il dieci per cento della massa del carbone, cioè sessanta chilogrammi di solventi prima che l’efficienza diminuisca in modo significativo. La quantità di solvente inviata al filtro, stimata dai consumi di adesivo e dal suo contenuto di solvente, è di uno virgola cinque chilogrammi all’ora. La durata teorica del carbone è quindi di sessanta diviso uno virgola cinque, cioè quaranta ore di funzionamento. Con un funzionamento di otto ore al giorno, la sostituzione andrebbe programmata indicativamente ogni cinque giorni lavorativi. Il risultato evidenzia un aspetto spesso sottovalutato: con quantità di solvente significative, i carboni attivi possono saturarsi in tempi molto brevi, e una sostituzione semestrale, prevista per abitudine, lascerebbe l’emissione non trattata per gran parte del periodo. La capacità reale dipende inoltre dal tipo di solvente, dall’umidità e dalla temperatura dell’effluente. Il calcolo va quindi validato con misure in uscita e con i dati del fornitore, e in presenza di carichi elevati conviene valutare tecnologie diverse, come la combustione o il recupero del solvente."
+  },
+  {
+   "t": "testo",
+   "tit": "Fumi di saldatura: emissioni ed esposizione professionale",
+   "lead": "La saldatura genera fumi metallici e gas che interessano sia la disciplina delle emissioni sia la tutela della salute dei lavoratori.",
+   "punti": [
+    "Composizione: ossidi di ferro e manganese; cromo esavalente e nichel nella saldatura degli acciai inossidabili; ozono e ossidi di azoto",
+    "I fumi di saldatura sono classificati dalla IARC come cancerogeni per l’uomo (Gruppo 1)",
+    "Aspirazione localizzata alla fonte: torce aspiranti, bracci mobili, banchi aspirati",
+    "Filtrazione dell’aria aspirata prima dello scarico; ricircolo solo se ammesso e con filtrazione adeguata",
+    "Regime autorizzativo: attività in deroga o autorizzazione generale secondo i consumi e la normativa regionale"
+   ],
+   "appro": "Il cromo esavalente è un cancerogeno soggetto anche al Titolo IX, Capo II, del D.lgs. 81/2008: la sua presenza richiede la valutazione dell’esposizione e misure di prevenzione specifiche.",
+   "rif": "IARC Monographs, vol. 118 · D.lgs. 81/2008, Titolo IX · D.lgs. 152/2006, Allegato IV",
+   "nar": "La saldatura genera fumi costituiti da particelle metalliche ultrafini e da gas, che interessano sia la disciplina delle emissioni sia la tutela della salute dei lavoratori. La composizione dipende dal procedimento, dal materiale base e dal materiale d’apporto: nella saldatura dell’acciaio al carbonio prevalgono gli ossidi di ferro e di manganese, mentre la saldatura degli acciai inossidabili libera anche composti del cromo esavalente e del nichel; l’arco elettrico produce inoltre ozono e ossidi di azoto. Nel duemiladiciassette l’Agenzia internazionale per la ricerca sul cancro ha classificato i fumi di saldatura come cancerogeni per l’uomo. Il cromo esavalente è inoltre un agente cancerogeno soggetto alle disposizioni specifiche del decreto ottantuno, che richiedono la valutazione dell’esposizione e misure di prevenzione rigorose. La misura tecnica principale è l’aspirazione localizzata alla fonte, con torce aspiranti, bracci mobili o banchi aspirati, posizionati in modo da allontanare i fumi dalla zona respiratoria del saldatore. L’aria aspirata va filtrata prima dello scarico all’esterno; il ricircolo negli ambienti di lavoro è ammissibile solo se consentito e con una filtrazione adeguata. Dal punto di vista ambientale, molte attività di saldatura rientrano nelle attività in deroga o nelle autorizzazioni generali, in funzione dei consumi di materiale d’apporto e della normativa regionale."
+  },
+  {
+   "t": "testo",
+   "tit": "Polveri di legno: emissioni e rischio cancerogeno",
+   "lead": "La lavorazione del legno produce polveri che richiedono un sistema di aspirazione e filtrazione efficace, con implicazioni ambientali, sanitarie e di rischio di esplosione.",
+   "punti": [
+    "Le polveri di legno duro sono agenti cancerogeni ai sensi del D.lgs. 81/2008 (Allegato XLII)",
+    "Valore limite di esposizione professionale per le polveri di legno duro: 2 mg/m³ (frazione inalabile)",
+    "Impianti centralizzati di aspirazione con filtro a maniche e scarico in silo",
+    "Rischio di incendio ed esplosione nei filtri e nei silos: misure di protezione e valutazione specifica",
+    "Emissioni al camino: limiti per le polveri fissati dall’autorizzazione o dall’autorizzazione generale"
+   ],
+   "appro": "Lo stesso impianto di aspirazione protegge i lavoratori dalla polvere cancerogena e riduce le emissioni, ma concentra nel filtro una polvere combustibile: le tre valutazioni vanno integrate.",
+   "rif": "D.lgs. 81/2008, Titolo IX, Capo II e Allegati XLII–XLIII · D.lgs. 152/2006, Parte V",
+   "nar": "La lavorazione del legno produce polveri che richiedono un sistema di aspirazione e filtrazione efficace, con implicazioni ambientali, sanitarie e di sicurezza. Il decreto ottantuno del duemilaotto include tra gli agenti cancerogeni il lavoro comportante l’esposizione a polvere di legno duro, e fissa un valore limite di esposizione professionale di due milligrammi per metro cubo, riferito alla frazione inalabile. L’esposizione è associata in particolare ai tumori delle cavità nasali e dei seni paranasali, e i lavoratori esposti sono soggetti a sorveglianza sanitaria e all’iscrizione nel registro degli esposti. La misura tecnica principale è un impianto centralizzato di aspirazione, con captazione alle singole macchine, filtro a maniche e scarico della polvere in un silo o in contenitori chiusi. Lo stesso impianto, però, concentra nel filtro e nel silo una polvere combustibile, che comporta un rischio di incendio e di esplosione da valutare specificamente e da gestire con misure di protezione adeguate. Al camino, le emissioni di polveri devono rispettare i limiti fissati dall’autorizzazione o dall’autorizzazione generale. Le tre valutazioni, cioè quella del rischio cancerogeno per i lavoratori, quella delle emissioni in atmosfera e quella del rischio di esplosione, riguardano lo stesso impianto e devono essere integrate."
+  },
+  {
+   "t": "vf",
+   "tit": "Esercitazione · Abbattimento e casi applicativi",
+   "sott": "Qualificare ciascuna affermazione come vera o falsa",
+   "voci": [
+    ["Un filtro a carboni attivi saturo continua a trattenere i solventi con la stessa efficienza.", false, "Falso: oltre la saturazione l’efficienza crolla, senza segni visibili."],
+    ["Il guasto che impedisce il rispetto dei limiti va comunicato entro otto ore.", true, "Vero: art. 271, c. 14."],
+    ["I fumi di saldatura sono classificati dalla IARC nel Gruppo 1.", true, "Vero: dal 2017."],
+    ["Le polveri di legno duro non sono considerate agenti cancerogeni.", false, "Falso: Allegato XLII del D.lgs. 81/2008."],
+    ["Nel combustore termico la temperatura della camera è un parametro da registrare.", true, "Vero: sotto il minimo la distruzione dei COV non è garantita."]
+   ],
+   "nar": "Esercitazione. Si stabilisca se ciascuna affermazione sui sistemi di abbattimento e sui casi applicativi è vera o falsa."
+  }
+ ]
+}

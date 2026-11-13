@@ -1,0 +1,34 @@
+{
+ "dopo": "Esercitazione · Il cartello «può contenere tutto»",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Gli errori più frequenti nelle informazioni sugli allergeni",
+   "lead": "L’analisi dei controlli e dei reclami mostra errori ricorrenti, quasi sempre evitabili con un sistema documentato.",
+   "punti": [
+    "Avvertenze generiche che coprono tutti gli allergeni, senza valutazione del rischio",
+    "Matrice non aggiornata dopo cambi di ricetta, fornitore o piatti del giorno",
+    "Preparazioni di base escluse dalla matrice: fondi, salse, panature, decorazioni",
+    "Indicazioni incomplete: «frutta a guscio» o «glutine» al posto del frutto o del cereale specifico",
+    "Informazione affidata alla memoria del personale, senza documentazione consultabile"
+   ],
+   "appro": "Un sistema efficace si riconosce dalla coerenza: ricetta, matrice, menù, cartelli e risposta del personale devono dire la stessa cosa.",
+   "rif": "Reg. (UE) 1169/2011, artt. 9, 21, 36 e 44 · D.lgs. 231/2017",
+   "nar": "L’esperienza dei controlli ufficiali e l’analisi dei reclami mostrano errori ricorrenti nelle informazioni sugli allergeni, quasi tutti evitabili con un sistema documentato. Il primo è l’uso di avvertenze generiche che coprono tutti gli allergeni, come nel caso appena esaminato: un’informazione di questo tipo non consente al consumatore alcuna scelta e non dimostra alcuna valutazione del rischio. Il secondo errore è la matrice non aggiornata dopo un cambio di ricetta o di fornitore, o dopo l’introduzione di un piatto del giorno. Il terzo è l’esclusione delle preparazioni di base dalla matrice: fondi, brodi, salse, panature e decorazioni sono spesso la vera fonte dell’allergene. Il quarto è l’indicazione incompleta, ad esempio frutta a guscio senza specificare il frutto, oppure glutine senza indicare il cereale. Il quinto è l’affidamento alla memoria del personale, senza documentazione scritta consultabile, contrario alle modalità previste dal decreto legislativo duecentotrentuno. Il criterio con cui riconoscere un sistema efficace è la coerenza: la ricetta, la matrice, il menù, i cartelli e la risposta fornita dal personale devono riportare esattamente le stesse informazioni. Qualsiasi discordanza tra questi elementi indica un punto debole da correggere."
+  },
+  {
+   "t": "caso",
+   "tit": "Caso di studio · La richiesta al banco gastronomia",
+   "scena": "Una cliente chiede se una torta salata esposta al banco contenga frutta a guscio. L’addetto ricorda che la ricetta non prevede noci e risponde di no, senza consultare la documentazione. La torta è stata preparata con un pesto che contiene anacardi.",
+   "domanda": "Quale condotta avrebbe dovuto tenere l’addetto?",
+   "opz": [
+    ["Rispondere in base alla propria esperienza, visto che la ricetta non prevede noci", false, "No: l’informazione va ricavata dalla documentazione, comprese le preparazioni di base."],
+    ["Consultare la documentazione scritta, verificando anche il pesto, e rispondere solo sulla base di essa", true, "Corretto: la risposta deve derivare dalla matrice aggiornata."],
+    ["Invitare la cliente a leggere il cartello generale «può contenere allergeni»", false, "No: un’avvertenza generica non risponde alla domanda e non è un’informazione adeguata."]
+   ],
+   "rif": "Reg. (UE) 1169/2011, art. 44 · D.lgs. 231/2017",
+   "appro": "Gli anacardi rientrano nella frutta a guscio dell’Allegato II; il pesto è una preparazione di base che trasmette i propri allergeni al prodotto finito.",
+   "nar": "Caso di studio. Al banco gastronomia una cliente chiede se una torta salata contenga frutta a guscio; l’addetto risponde di no a memoria, ma la torta contiene un pesto con anacardi. Si individui la condotta corretta."
+  }
+ ]
+}

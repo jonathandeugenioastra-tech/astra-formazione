@@ -1,0 +1,50 @@
+{
+ "dopo": "Esempio applicativo: autoconsumo di un’officina",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Lavori in quota nell’installazione e nella manutenzione",
+   "lead": "L’installazione e la manutenzione degli impianti su copertura espongono i lavoratori al rischio di caduta dall’alto, principale causa di infortuni gravi nel settore.",
+   "punti": [
+    "Lavoro in quota: attività con rischio di caduta da una quota superiore a 2 m rispetto a un piano stabile",
+    "Priorità alle protezioni collettive (parapetti, reti) rispetto ai dispositivi individuali",
+    "Dispositivi di ancoraggio e linee vita conformi alle norme tecniche, con sistemi di arresto caduta",
+    "Coperture non portanti e lucernari: rischio di sfondamento, da proteggere o segregare",
+    "Piano di emergenza e di recupero del lavoratore sospeso all’imbracatura"
+   ],
+   "appro": "La sospensione inerte nell’imbracatura dopo una caduta può avere conseguenze gravi in tempi brevi: il recupero va pianificato prima dell’inizio dei lavori, non improvvisato.",
+   "rif": "D.lgs. 81/2008, artt. 107, 111 e 115 · UNI EN 795 · UNI EN 363",
+   "nar": "L’installazione e la manutenzione degli impianti fotovoltaici su copertura espongono i lavoratori al rischio di caduta dall’alto, che rappresenta la principale causa di infortuni gravi e mortali nei lavori edili. Il decreto legislativo ottantuno del duemilaotto definisce lavoro in quota l’attività che espone il lavoratore al rischio di caduta da una quota posta ad altezza superiore a due metri rispetto a un piano stabile. Il datore di lavoro deve scegliere attrezzature e misure adeguate, dando priorità alle protezioni collettive, come i parapetti provvisori lungo i bordi e le reti di sicurezza, rispetto ai dispositivi di protezione individuale. Quando le protezioni collettive non sono realizzabili, si impiegano sistemi di arresto caduta collegati a dispositivi di ancoraggio o a linee vita conformi alle norme tecniche, utilizzati da lavoratori formati e addestrati. Un pericolo specifico delle coperture industriali è lo sfondamento di superfici non portanti, come lucernari e lastre di copertura degradate: queste superfici vanno protette con coperture resistenti o segregate. Infine, l’uso dei sistemi di arresto caduta richiede un piano di emergenza e di recupero del lavoratore rimasto sospeso all’imbracatura, perché la sospensione inerte può avere conseguenze gravi in tempi brevi. Il recupero va pianificato prima dell’inizio dei lavori, con attrezzature e personale disponibili in cantiere."
+  },
+  {
+   "t": "testo",
+   "tit": "Lavori elettrici e qualificazione del personale",
+   "lead": "Gli interventi sugli impianti fotovoltaici comportano rischio elettrico anche in assenza di rete, perché i moduli esposti alla luce sono sempre in tensione.",
+   "punti": [
+    "I moduli generano tensione in corrente continua appena illuminati: non è possibile «spegnere» la stringa",
+    "Lavori elettrici affidati a persone esperte (PES) o avvertite (PAV), designate dal datore di lavoro",
+    "Lavori sotto tensione: consentiti solo nei casi e con le procedure previste, da personale idoneo",
+    "Procedure: sezionamento, protezione contro la richiusura, verifica di assenza di tensione, messa a terra dove applicabile",
+    "Arco elettrico in corrente continua: più persistente rispetto alla corrente alternata"
+   ],
+   "appro": "In corrente continua l’arco che si forma aprendo un connettore sotto carico non si estingue spontaneamente al passaggio per lo zero: i connettori non vanno mai scollegati con l’inverter in funzione.",
+   "rif": "D.lgs. 81/2008, artt. 80–83 · CEI EN 50110-1 · CEI 11-27",
+   "nar": "Gli interventi sugli impianti fotovoltaici comportano un rischio elettrico specifico: i moduli generano tensione in corrente continua non appena sono esposti alla luce, anche quando l’impianto è scollegato dalla rete. Non è quindi possibile togliere tensione a una stringa con il solo sezionamento lato rete, e questa caratteristica va tenuta presente in tutte le fasi di installazione, manutenzione e intervento in emergenza. Il decreto legislativo ottantuno del duemilaotto impone al datore di lavoro di valutare il rischio elettrico e di adottare misure tecniche e organizzative adeguate. Le norme CEI EN cinquantamilacentodieci e CEI undici-ventisette stabiliscono che i lavori elettrici siano affidati a persone esperte o avvertite, designate dal datore di lavoro sulla base di formazione ed esperienza; i lavori sotto tensione sono consentiti solo nei casi e con le procedure previste dalla legge e dalle norme, da personale riconosciuto idoneo. Le procedure di lavoro fuori tensione comprendono il sezionamento, la protezione contro la richiusura, la verifica dell’assenza di tensione e, dove applicabile, la messa a terra e in cortocircuito. Un aspetto peculiare riguarda l’arco elettrico: in corrente continua l’arco che si forma aprendo un connettore sotto carico non si estingue spontaneamente come in corrente alternata. Per questo i connettori delle stringhe non vanno mai scollegati con l’inverter in funzione."
+  },
+  {
+   "t": "testo",
+   "tit": "Esempio applicativo: dimensionare un accumulo domestico",
+   "lead": "Una famiglia con impianto da 6 kWp valuta un sistema di accumulo partendo dai propri dati di consumo.",
+   "punti": [
+    "Consumo annuo 4.000 kWh, di cui circa il 60% nelle ore serali e notturne",
+    "Produzione annua stimata 7.800 kWh; autoconsumo istantaneo senza accumulo circa il 30% dei consumi",
+    "Eccedenza diurna media in primavera-estate: 12–15 kWh al giorno",
+    "Consumo serale medio: circa 6–7 kWh al giorno",
+    "Capacità utile ragionevole: 6–8 kWh; oltre, la batteria resterebbe spesso non scaricata"
+   ],
+   "appro": "Un accumulo sovradimensionato non aumenta l’autoconsumo: la capacità utile va confrontata con il consumo serale, non con l’eccedenza di produzione.",
+   "rif": "CEI 0-21 · Guida tecnica GSE sui sistemi di accumulo",
+   "nar": "Si propone un esempio applicativo di dimensionamento di un sistema di accumulo domestico. Una famiglia dispone di un impianto fotovoltaico da sei chilowatt di picco, con una produzione annua stimata di circa settemilaottocento chilowattora. Il consumo annuo è di quattromila chilowattora, di cui circa il sessanta per cento concentrato nelle ore serali e notturne, quando l’impianto non produce. Senza accumulo, la quota dei consumi coperta direttamente dall’impianto è di circa il trenta per cento. Nei mesi primaverili ed estivi l’impianto genera in media un’eccedenza diurna di dodici-quindici chilowattora al giorno, mentre il consumo serale medio della famiglia è di circa sei-sette chilowattora. La capacità utile ragionevole dell’accumulo è quindi di sei-otto chilowattora: una batteria più grande verrebbe caricata completamente, ma resterebbe spesso parzialmente carica al mattino, perché i consumi serali non bastano a scaricarla. Con questa capacità la quota di consumi coperta dall’energia solare può salire indicativamente oltre il sessanta per cento nei mesi favorevoli, mentre in inverno l’accumulo resta poco utilizzato per la scarsa produzione. L’esempio mostra un principio generale: la capacità utile va confrontata con il consumo serale, non con l’eccedenza di produzione, e la valutazione economica deve considerare anche la durata attesa e il degrado della batteria."
+  }
+ ]
+}

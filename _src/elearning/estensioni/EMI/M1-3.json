@@ -1,0 +1,63 @@
+{
+ "dopo": "L’autorizzazione unica ambientale (AUA)",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Stabilimenti soggetti ad AIA e migliori tecniche disponibili",
+   "lead": "Le installazioni industriali di maggiori dimensioni sono soggette all’autorizzazione integrata ambientale, fondata sulle migliori tecniche disponibili.",
+   "punti": [
+    "AIA: attività dell’Allegato VIII alla Parte II del D.lgs. 152/2006, oltre le soglie di capacità",
+    "Approccio integrato: aria, acqua, suolo, rifiuti, rumore, energia in un unico provvedimento",
+    "Conclusioni sulle BAT adottate dalla Commissione europea, con livelli di emissione associati (BAT-AEL)",
+    "Piano di monitoraggio e controllo; riesame periodico dell’autorizzazione",
+    "Per le emissioni in atmosfera l’AIA sostituisce l’autorizzazione dell’art. 269"
+   ],
+   "appro": "I BAT-AEL sono intervalli di emissione ottenibili con le migliori tecniche: i valori limite fissati nell’AIA non possono di norma superarne il limite superiore.",
+   "rif": "D.lgs. 152/2006, Parte II, Titolo III-bis · Dir. 2010/75/UE come modificata dalla Dir. (UE) 2024/1785",
+   "nar": "Le installazioni industriali di maggiori dimensioni sono soggette all’autorizzazione integrata ambientale, disciplinata dal Titolo terzo-bis della Parte seconda del decreto centocinquantadue, che recepisce la direttiva europea sulle emissioni industriali. Rientrano nell’autorizzazione integrata le attività elencate nell’Allegato ottavo, quando superano le soglie di capacità indicate, come le grandi installazioni chimiche, metallurgiche, cartarie, alimentari, di trattamento dei rifiuti e di allevamento intensivo. L’autorizzazione integrata adotta un approccio unitario: considera nel loro insieme le emissioni in aria, acqua e suolo, la produzione di rifiuti, il rumore, il consumo di energia e di risorse, in un unico provvedimento che, per le emissioni in atmosfera, sostituisce l’autorizzazione dell’articolo duecentosessantanove. Il riferimento tecnico sono le conclusioni sulle migliori tecniche disponibili adottate dalla Commissione europea per ciascun settore, che indicano anche i livelli di emissione associati, cioè gli intervalli di emissione ottenibili applicando tali tecniche. I valori limite fissati nell’autorizzazione non possono di norma superare il limite superiore di questi intervalli. L’autorizzazione comprende un piano di monitoraggio e controllo ed è soggetta a riesame, in particolare dopo la pubblicazione di nuove conclusioni sulle migliori tecniche disponibili per il settore."
+  },
+  {
+   "t": "testo",
+   "tit": "I medi impianti di combustione",
+   "lead": "Gli impianti di combustione di potenza termica nominale compresa tra 1 e 50 MW sono soggetti a una disciplina specifica di origine europea.",
+   "punti": [
+    "Medio impianto di combustione: potenza termica nominale pari o superiore a 1 MW e inferiore a 50 MW",
+    "Valori limite per polveri, ossidi di azoto, ossidi di zolfo e, se previsto, monossido di carbonio",
+    "Impianti nuovi: valori limite applicabili dal 20 dicembre 2018",
+    "Impianti esistenti: adeguamento dal 1° gennaio 2025 (oltre 5 MW) o dal 1° gennaio 2030 (fino a 5 MW)",
+    "Registro degli impianti e obblighi di monitoraggio periodico"
+   ],
+   "appro": "Gli impianti termici di processo, come generatori di vapore e forni di riscaldamento, rientrano frequentemente nella disciplina anche in stabilimenti di medie dimensioni.",
+   "rif": "D.lgs. 152/2006, art. 273-bis e Allegato I, Parte III · Dir. (UE) 2015/2193",
+   "nar": "Gli impianti di combustione con potenza termica nominale compresa tra uno e cinquanta megawatt sono definiti medi impianti di combustione e sono soggetti a una disciplina specifica, introdotta nell’articolo duecentosettantatré-bis per il recepimento della direttiva europea duemilaquindici-duemilacentonovantatré. La disciplina riguarda impianti molto diffusi nell’industria, come generatori di vapore, caldaie di processo, forni di riscaldamento e motori per la produzione di energia. Per questi impianti la norma fissa valori limite di emissione per polveri, ossidi di azoto, ossidi di zolfo e, in alcuni casi, monossido di carbonio, differenziati per tipo di impianto e di combustibile. Il calendario di applicazione distingue gli impianti nuovi, ai quali i valori limite si applicano dal venti dicembre duemiladiciotto, dagli impianti esistenti, che devono adeguarsi dal primo gennaio duemilaventicinque se di potenza superiore a cinque megawatt e dal primo gennaio duemilatrenta se di potenza fino a cinque megawatt. Gli impianti sono iscritti in un registro tenuto dalle autorità competenti e sono soggetti a obblighi di monitoraggio periodico. La potenza termica nominale da considerare è quella dell’impianto, eventualmente aggregando più unità secondo le regole previste dalla norma."
+  },
+  {
+   "t": "testo",
+   "tit": "Impianti termici civili e combustibili consentiti",
+   "lead": "Gli impianti di riscaldamento degli edifici e i combustibili utilizzabili sono disciplinati dai Titoli II e III della Parte V.",
+   "punti": [
+    "Impianti termici civili: riscaldamento di ambienti e produzione di acqua calda sanitaria",
+    "Titolo II: impianti di potenza inferiore alla soglia oltre la quale si applica il Titolo I",
+    "Requisiti tecnici e valori limite; controlli e manutenzione secondo la normativa sugli impianti termici",
+    "Titolo III e Allegato X: elenco dei combustibili consentiti e relative caratteristiche merceologiche",
+    "Le biomasse combustibili devono rispettare i requisiti dell’Allegato X"
+   ],
+   "appro": "L’impiego di un combustibile non consentito, ad esempio residui di lavorazione non conformi all’Allegato X, configura un illecito e può trasformare il materiale in rifiuto da gestire come tale.",
+   "rif": "D.lgs. 152/2006, artt. 282–298 e Allegato X · D.P.R. 74/2013",
+   "nar": "Gli impianti di riscaldamento degli edifici e i combustibili utilizzabili sono disciplinati dal Titolo secondo e dal Titolo terzo della Parte quinta. Gli impianti termici civili sono gli impianti destinati al riscaldamento degli ambienti, alla climatizzazione e alla produzione di acqua calda per usi igienici e sanitari. Il Titolo secondo si applica agli impianti di potenza inferiore alla soglia oltre la quale si applica la disciplina degli stabilimenti del Titolo primo, e stabilisce requisiti tecnici e costruttivi e valori limite di emissione. Il controllo e la manutenzione di questi impianti si coordinano con la normativa sull’esercizio degli impianti termici, che prevede il libretto di impianto e i controlli di efficienza energetica. Il Titolo terzo e l’Allegato decimo stabiliscono quali combustibili possono essere utilizzati negli impianti, sia industriali sia civili, e con quali caratteristiche merceologiche, ad esempio il contenuto di zolfo dei combustibili liquidi. Anche le biomasse combustibili, come il legno vergine o i residui di lavorazioni agricole, devono rispettare i requisiti dell’allegato. L’impiego di un materiale non consentito, ad esempio residui di lavorazione del legno trattato con vernici o impregnanti, configura un illecito e può comportare la qualificazione del materiale come rifiuto, con l’applicazione della relativa disciplina."
+  },
+  {
+   "t": "abbina",
+   "tit": "Esercitazione · Regimi e riferimenti",
+   "sott": "Associare a ciascun regime il riferimento corretto",
+   "coppie": [
+    ["Autorizzazione unica ambientale", "D.P.R. 59/2013"],
+    ["Autorizzazione integrata ambientale", "D.lgs. 152/2006, Parte II, Titolo III-bis"],
+    ["Medi impianti di combustione", "Art. 273-bis, da 1 a 50 MW"],
+    ["Attività in deroga", "Allegato IV, Parte I"],
+    ["Combustibili consentiti", "Allegato X alla Parte V"]
+   ],
+   "nar": "Esercitazione. Si associ a ciascun regime il riferimento normativo corretto."
+  }
+ ]
+}

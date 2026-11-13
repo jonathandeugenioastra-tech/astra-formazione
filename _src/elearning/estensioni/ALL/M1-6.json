@@ -1,0 +1,78 @@
+{
+ "dopo": "Caso di studio · La salsa sostituita",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Esempio applicativo: la propagazione degli allergeni nelle lasagne",
+   "lead": "Un piatto composto eredita gli allergeni di tutte le preparazioni di base: l’esempio delle lasagne alla bolognese lo dimostra.",
+   "punti": [
+    "Pasta fresca all’uovo: frumento, uova",
+    "Besciamella: latte, burro (latte), farina di frumento; noce moscata senza allergeni",
+    "Ragù: carne, soffritto con sedano, vino (solfiti se oltre 10 mg/l nel prodotto finito), eventuale latte",
+    "Finitura: formaggio grattugiato (latte)",
+    "Risultato in matrice: frumento, uova, latte, sedano ed eventuali solfiti, da verificare sul vino impiegato"
+   ],
+   "appro": "Il sedano del soffritto è uno degli allergeni più spesso dimenticati: compare in molte basi (ragù, brodi, fondi) senza essere percepito come ingrediente del piatto.",
+   "rif": "Reg. (UE) 1169/2011, art. 44 e Allegato II",
+   "nar": "Si propone un esempio di propagazione degli allergeni in un piatto composto: le lasagne alla bolognese. Il piatto è formato da quattro preparazioni. La pasta fresca all’uovo apporta frumento e uova. La besciamella apporta latte, burro, che è un derivato del latte, e farina di frumento; la noce moscata non è un allergene dell’Allegato due. Il ragù richiede maggiore attenzione: oltre alla carne, contiene un soffritto in cui è presente il sedano, che è un allergene; il vino utilizzato in cottura può apportare solfiti, da dichiarare se nel prodotto finito superano dieci milligrammi per chilogrammo; alcune ricette prevedono anche l’aggiunta di latte. Infine, la finitura con formaggio grattugiato apporta nuovamente latte. Nella matrice, quindi, le lasagne risultano contenere frumento, uova, latte e sedano, con la verifica dei solfiti in base al vino impiegato e alle quantità. L’esempio evidenzia un errore frequente: il sedano del soffritto viene spesso dimenticato perché non è percepito come ingrediente del piatto, pur essendo presente in ragù, brodi e fondi. Per evitare omissioni, ogni preparazione di base deve avere la propria riga nella matrice e ogni piatto deve richiamare tutte le basi che utilizza."
+  },
+  {
+   "t": "testo",
+   "tit": "Panifici, pizzerie e pasticcerie",
+   "lead": "Nei laboratori che impiegano farine e polveri la dispersione nell’aria rende la contaminazione crociata particolarmente difficile da controllare.",
+   "punti": [
+    "Farine: setacciatura e impasto in fasi e aree distinte; aspirazione o coperchi sulle impastatrici",
+    "Prodotti senza glutine: area, utensili, teglie e forno dedicati o lavorazione a inizio giornata dopo pulizia",
+    "Pasticceria: granelle, pralinati e paste di frutta a guscio conservati chiusi e lavorati per ultimi",
+    "Pizzeria: farine di spolvero, pale e piani condivisi; attenzione a farciture con pesce, frutta a guscio, latte",
+    "Prodotti esposti: protezioni tra vassoi, pinze dedicate, cartellini aggiornati"
+   ],
+   "appro": "La farina sospesa nell’aria può depositarsi su superfici anche a distanza dal punto di impiego per molte ore: la sola separazione temporale, senza pulizia e ventilazione, non è sufficiente.",
+   "rif": "Reg. (CE) 852/2004, Allegato II · Reg. di esecuzione (UE) 828/2014",
+   "nar": "Nei laboratori di panificazione, pizzeria e pasticceria la gestione degli allergeni presenta una difficoltà specifica: la dispersione nell’aria di farine e polveri. La farina sospesa può depositarsi su superfici e attrezzature anche lontane dal punto di impiego e restare in sospensione a lungo dopo la lavorazione. Per questo la setacciatura e l’impasto vanno svolti in fasi e aree il più possibile distinte, utilizzando coperchi sulle impastatrici e, dove disponibili, sistemi di aspirazione. La produzione di prodotti senza glutine richiede area, utensili, teglie e forno dedicati oppure, quando ciò non è possibile, la lavorazione a inizio giornata, dopo una pulizia accurata e la ventilazione dei locali. In pasticceria il rischio principale è rappresentato dalla frutta a guscio: granelle, pralinati e paste vanno conservati in contenitori chiusi, utilizzati con utensili dedicati e lavorati per ultimi. In pizzeria occorre considerare le farine di spolvero, le pale e i piani condivisi, oltre alle farciture che contengono pesce, frutta a guscio o latte. Infine, per i prodotti esposti al banco servono protezioni tra i vassoi, pinze dedicate e cartellini sempre aggiornati: un vassoio di biscotti alle mandorle accanto a uno di biscotti senza frutta a guscio, con un’unica pinza, vanifica qualsiasi informazione."
+  },
+  {
+   "t": "testo",
+   "tit": "Bar, gelaterie e banchi gastronomia",
+   "lead": "Anche le attività con preparazioni semplici presentano punti critici specifici per gli allergeni.",
+   "punti": [
+    "Bar: bevande vegetali e latte vaccino con lance vapore e lattiere distinte o pulite tra un uso e l’altro",
+    "Bar: prodotti da forno esposti con pinze dedicate e informazioni disponibili",
+    "Gelateria: spatole separate per gusto, risciacquo tra usi, coni e granelle identificati",
+    "Banco gastronomia: affettatrice pulita tra formaggi e salumi; coltelli e taglieri dedicati",
+    "Prodotti sfusi: cartello con ingredienti e allergeni accanto a ciascun prodotto"
+   ],
+   "appro": "Una lancia vapore utilizzata prima per il latte vaccino e poi per una bevanda vegetale trasferisce proteine del latte: per un cliente allergico la bevanda alternativa non è più sicura.",
+   "rif": "Reg. (UE) 1169/2011, art. 44 · D.lgs. 231/2017 · Reg. (CE) 852/2004",
+   "nar": "Anche le attività con preparazioni apparentemente semplici presentano punti critici specifici. Nel bar, la richiesta sempre più frequente di bevande vegetali in alternativa al latte vaccino richiede lance vapore e lattiere distinte, oppure pulite accuratamente tra un uso e l’altro: una lancia utilizzata per il latte vaccino trasferisce proteine del latte alla bevanda vegetale, che per un cliente allergico non è più sicura. I prodotti da forno esposti vanno serviti con pinze dedicate e accompagnati dalle informazioni sugli allergeni. In gelateria, ogni gusto dovrebbe avere la propria spatola, oppure la spatola va risciacquata tra un utilizzo e l’altro; coni, cialde e granelle devono essere identificati, perché spesso contengono frumento, latte, soia o frutta a guscio. Nel banco gastronomia il punto critico è l’affettatrice, che va pulita nel passaggio tra prodotti diversi, in particolare tra formaggi e salumi o tra prodotti con e senza frutta a guscio, come la mortadella al pistacchio; anche coltelli e taglieri dovrebbero essere dedicati. Per i prodotti venduti sfusi, accanto a ciascun prodotto va esposto un cartello con gli ingredienti e gli allergeni, oppure va resa disponibile la documentazione prevista dal decreto legislativo duecentotrentuno."
+  },
+  {
+   "t": "testo",
+   "tit": "Ristorazione collettiva e diete speciali",
+   "lead": "Nelle mense scolastiche, aziendali e sanitarie gli utenti possono avere allergie gravi e una ridotta capacità di valutare il rischio, come i bambini.",
+   "punti": [
+    "Dieta speciale su richiesta formale, con certificazione medica, registrata nominativamente",
+    "Menù dietetico predisposto per sostituzione degli alimenti esclusi, non per semplice eliminazione",
+    "Preparazione in area o tempo dedicati; contenitore o vassoio personalizzato, sigillato e identificato",
+    "Consegna diretta all’utente con verifica dell’identità; personale di distribuzione formato",
+    "Procedura per le emergenze nota al personale e collegamento con le figure sanitarie della struttura"
+   ],
+   "appro": "Nella ristorazione scolastica il passaggio critico è la distribuzione: un vassoio identificato e consegnato direttamente al bambino riduce drasticamente il rischio di scambio.",
+   "rif": "Reg. (UE) 1169/2011, art. 44 · Reg. (CE) 852/2004 · Linee di indirizzo nazionali per la ristorazione scolastica",
+   "nar": "La ristorazione collettiva, nelle scuole, nelle aziende e nelle strutture sanitarie e socioassistenziali, richiede un livello di attenzione particolarmente elevato, perché gli utenti possono avere allergie gravi e, come nel caso dei bambini, una ridotta capacità di valutare il rischio. La gestione si basa sulla dieta speciale. La richiesta viene formalizzata dall’utente o dalla famiglia, accompagnata da certificazione medica, e registrata nominativamente. Il servizio di dietetica predispone un menù che sostituisce gli alimenti esclusi con alternative equivalenti dal punto di vista nutrizionale, anziché limitarsi a eliminarli. La preparazione avviene in un’area o in un momento dedicati, con utensili puliti, e il pasto viene collocato in un contenitore o vassoio personalizzato, sigillato e identificato con il nome dell’utente e la dieta. Il passaggio più critico è la distribuzione: il pasto va consegnato direttamente all’utente, verificandone l’identità, da personale formato che conosce il significato della dieta e non effettua sostituzioni. Infine, deve esistere una procedura per le emergenze conosciuta da tutto il personale, con il collegamento alle figure sanitarie presenti nella struttura. Le linee di indirizzo nazionali per la ristorazione scolastica forniscono indicazioni di riferimento per l’organizzazione di questo processo."
+  },
+  {
+   "t": "vf",
+   "tit": "Esercitazione · Situazioni operative",
+   "sott": "Qualificare ciascuna affermazione come vera o falsa",
+   "voci": [
+    ["Il sedano del soffritto va riportato nella matrice dei piatti che contengono il ragù.", true, "Vero: un piatto eredita gli allergeni delle preparazioni di base."],
+    ["Un coadiuvante tecnologico derivato dal latte può essere omesso perché non compare tra gli ingredienti.", false, "Falso: le deroghe non valgono per le sostanze dell’Allegato II."],
+    ["La stessa lancia vapore, se non pulita, può trasferire proteine del latte a una bevanda vegetale.", true, "Vero."],
+    ["Nella ristorazione scolastica la dieta speciale può essere preparata eliminando semplicemente l’alimento escluso.", false, "Falso: va predisposto un menù sostitutivo nutrizionalmente adeguato."],
+    ["La lecitina di soia deve essere dichiarata come allergene.", true, "Vero: la lecitina non rientra nelle esenzioni previste per la soia."]
+   ],
+   "nar": "Esercitazione. Si stabilisca se ciascuna affermazione relativa a situazioni operative è vera o falsa."
+  }
+ ]
+}

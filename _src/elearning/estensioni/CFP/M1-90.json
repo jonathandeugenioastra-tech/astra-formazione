@@ -1,0 +1,40 @@
+{
+ "dopo": "Dati di attività, fattori di emissione e qualità dei dati",
+ "schermate": [
+  {
+   "t": "grafico",
+   "tit": "Simulazione · Emissioni indirette da energia elettrica",
+   "rif": "UNI EN ISO 14064-1:2019 · GHG Protocol, Scope 2",
+   "lead": "Modificare il consumo annuo di energia elettrica e il fattore di emissione: il calcolo restituisce le emissioni in tonnellate di CO₂ equivalente.",
+   "grafico": {
+    "tipo": "calcolo",
+    "formula_testo": "Emissioni (t CO₂e) = consumo (kWh) × fattore (kg CO₂e/kWh) / 1.000",
+    "formula": "e * f / 1000",
+    "ingressi": [
+     {
+      "id": "e",
+      "nome": "Consumo annuo di energia elettrica",
+      "min": 10000,
+      "max": 2000000,
+      "passo": 10000,
+      "val": 450000,
+      "unita": "kWh"
+     },
+     {
+      "id": "f",
+      "nome": "Fattore di emissione (fonte ufficiale dell’anno)",
+      "min": 0.05,
+      "max": 0.6,
+      "passo": 0.01,
+      "val": 0.25,
+      "unita": "kg/kWh"
+     }
+    ],
+    "risultato": "Emissioni indirette",
+    "unita": "t CO₂e",
+    "scala": 1200
+   },
+   "nar": "Simulazione. Si modifichino il consumo annuo di energia elettrica e il fattore di emissione, che va tratto da fonti ufficiali per l’anno di riferimento. Il prodotto, diviso per mille, restituisce le emissioni indirette in tonnellate di anidride carbonica equivalente. Si osservi l’effetto della scelta del fattore, che distingue il metodo basato sulla localizzazione da quello basato sul mercato."
+  }
+ ]
+}

@@ -1,0 +1,79 @@
+{
+ "dopo": "Sistemi di abbattimento: manutenzione e guasti",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Depolverazione: filtri a maniche e cicloni",
+   "lead": "I sistemi di depolverazione separano il particolato dall’effluente; la scelta dipende da granulometria, umidità, temperatura e caratteristiche della polvere.",
+   "punti": [
+    "Cicloni: separazione per forza centrifuga, efficaci per particelle grossolane, spesso come prefiltro",
+    "Filtri a maniche: elevata efficienza anche sulle particelle fini; pulizia ad aria compressa in controcorrente",
+    "Parametro di controllo: perdita di carico del filtro, da registrare e confrontare con l’intervallo di corretto funzionamento",
+    "Rottura di una manica: aumento improvviso delle emissioni; rilevabile con sensori triboelettrici",
+    "Polveri combustibili: valutazione del rischio di esplosione e misure di protezione del filtro"
+   ],
+   "appro": "Una perdita di carico troppo bassa può indicare maniche rotte o mancanti; una troppo alta, intasamento e riduzione dell’aspirazione alle postazioni di lavoro.",
+   "rif": "D.lgs. 152/2006, art. 271 · D.lgs. 81/2008, Titolo XI",
+   "nar": "I sistemi di depolverazione separano il particolato dall’effluente gassoso; la scelta della tecnologia dipende dalla granulometria, dall’umidità, dalla temperatura e dalle caratteristiche chimico-fisiche della polvere. I cicloni separano le particelle per effetto della forza centrifuga: sono semplici e robusti, efficaci sulle particelle grossolane, e vengono spesso impiegati come prefiltro. I filtri a maniche trattengono le polveri su tessuti filtranti e raggiungono un’elevata efficienza anche sulle particelle fini; le maniche vengono pulite periodicamente con impulsi di aria compressa in controcorrente, e la polvere raccolta viene scaricata dalle tramogge. Il parametro principale di controllo è la perdita di carico del filtro, che va registrata e confrontata con l’intervallo di corretto funzionamento indicato dal costruttore: un valore troppo basso può indicare maniche rotte o mancanti, un valore troppo alto segnala intasamento e una riduzione dell’aspirazione alle postazioni di lavoro, con conseguenze anche sull’esposizione dei lavoratori. La rottura di una manica produce un aumento improvviso delle emissioni, rilevabile con sensori triboelettrici installati sul condotto. Quando la polvere è combustibile, come nel caso del legno, delle farine o di molte polveri metalliche, il filtro va considerato nella valutazione del rischio di esplosione e dotato delle misure di protezione necessarie."
+  },
+  {
+   "t": "testo",
+   "tit": "Assorbimento a umido e adsorbimento su carboni attivi",
+   "lead": "Gli inquinanti gassosi e i composti organici volatili si trattano con sistemi di assorbimento in liquido o di adsorbimento su solidi.",
+   "punti": [
+    "Scrubber a umido: assorbimento di gas acidi o basici in soluzione di lavaggio; controllo di pH, portata di ricircolo e reintegro",
+    "Lo scrubber produce un effluente liquido da gestire come scarico o rifiuto",
+    "Carboni attivi: adsorbimento dei COV sulla superficie porosa; efficienza decrescente fino alla saturazione",
+    "Sostituzione o rigenerazione programmata in base alle ore di funzionamento e ai quantitativi trattati",
+    "Carbone esausto: rifiuto, con classificazione in base alle sostanze adsorbite"
+   ],
+   "appro": "Un filtro a carboni attivi saturo non trattiene più gli inquinanti, ma non dà segni visibili: la sostituzione va programmata con un calcolo della capacità e verificata con misure.",
+   "rif": "D.lgs. 152/2006, art. 271 · Parte IV (rifiuti)",
+   "nar": "Gli inquinanti gassosi e i composti organici volatili si trattano con sistemi basati sull’assorbimento in un liquido o sull’adsorbimento su un solido. Lo scrubber a umido mette a contatto l’effluente con una soluzione di lavaggio, nella quale si sciolgono i gas solubili, come i gas acidi o l’ammoniaca; l’efficienza dipende dal pH della soluzione, dalla portata di ricircolo e dal reintegro dei reagenti, che vanno controllati e registrati. Lo scrubber produce un effluente liquido, che deve essere gestito come scarico autorizzato o come rifiuto. I filtri a carboni attivi trattengono i composti organici volatili sulla superficie porosa del carbone. La loro efficienza è elevata finché il carbone non si avvicina alla saturazione, poi diminuisce rapidamente; il problema è che un filtro saturo non dà segni visibili e continua apparentemente a funzionare. La sostituzione o la rigenerazione va quindi programmata in base a un calcolo della capacità di adsorbimento, alle ore di funzionamento e ai quantitativi di solvente trattati, e verificata con misure periodiche. Il carbone esausto è un rifiuto, da classificare in base alle sostanze adsorbite e da gestire secondo la Parte quarta del decreto. La documentazione delle sostituzioni è uno degli elementi che gli organi di controllo verificano con maggiore frequenza."
+  },
+  {
+   "t": "testo",
+   "tit": "Combustione termica e catalitica dei COV",
+   "lead": "I combustori ossidano i composti organici volatili ad anidride carbonica e acqua e sono adatti a portate elevate o concentrazioni significative.",
+   "punti": [
+    "Combustore termico rigenerativo: ossidazione ad alta temperatura con recupero di calore su letti ceramici",
+    "Combustore catalitico: ossidazione a temperatura inferiore grazie al catalizzatore",
+    "Parametri da registrare: temperatura della camera di combustione, tempo di permanenza, consumi di combustibile",
+    "Avvelenamento del catalizzatore da composti di silicio, zolfo o metalli",
+    "Emissioni secondarie: ossidi di azoto e monossido di carbonio da controllare"
+   ],
+   "appro": "La temperatura di combustione è il parametro chiave: sotto il valore minimo prescritto la distruzione dei COV non è garantita, anche se l’impianto è in funzione.",
+   "rif": "D.lgs. 152/2006, art. 271 e Allegato III",
+   "nar": "I combustori ossidano i composti organici volatili trasformandoli in anidride carbonica e acqua, e sono adatti a portate elevate o a concentrazioni significative di solventi, come nelle linee di verniciatura industriale e di stampa. Il combustore termico rigenerativo opera ad alta temperatura e recupera il calore dei fumi su letti di materiale ceramico, che preriscaldano l’effluente in ingresso: in questo modo, con concentrazioni sufficienti, l’ossidazione può sostenersi con un ridotto consumo di combustibile ausiliario. Il combustore catalitico utilizza un catalizzatore che consente l’ossidazione a temperature inferiori, con minori consumi; il catalizzatore può però essere avvelenato da composti di silicio, zolfo o metalli presenti nell’effluente, che ne riducono l’efficacia. I parametri da registrare comprendono la temperatura della camera di combustione, il tempo di permanenza e i consumi di combustibile. La temperatura è il parametro chiave: al di sotto del valore minimo prescritto la distruzione dei composti organici non è garantita, anche se l’impianto risulta in funzione. I combustori generano inoltre emissioni secondarie, come ossidi di azoto e monossido di carbonio, che devono essere controllate e che sono spesso oggetto di specifici valori limite nell’autorizzazione."
+  },
+  {
+   "t": "testo",
+   "tit": "Gestione del guasto: obblighi e sequenza operativa",
+   "lead": "Quando un guasto impedisce il rispetto dei valori limite, il gestore deve informare l’autorità e ripristinare la conformità nel più breve tempo possibile.",
+   "punti": [
+    "Comunicazione all’autorità competente entro le otto ore successive all’individuazione del guasto",
+    "L’autorità può disporre la riduzione o la cessazione delle attività o altre prescrizioni",
+    "Ripristino della funzionalità nel più breve tempo possibile",
+    "Registrazione del guasto, delle cause, delle azioni e dei tempi di ripristino",
+    "Analisi delle cause e azioni per prevenire la ripetizione"
+   ],
+   "appro": "Una procedura scritta, con nominativi, recapiti e modulo di comunicazione già predisposti, evita che le otto ore trascorrano nell’incertezza su chi debba fare cosa.",
+   "rif": "D.lgs. 152/2006, art. 271, c. 14",
+   "nar": "Quando un guasto o un’anomalia impedisce il rispetto dei valori limite di emissione, l’articolo duecentosettantuno, comma quattordici, stabilisce obblighi precisi. Il gestore deve informare l’autorità competente entro le otto ore successive all’individuazione del guasto. L’autorità può disporre la riduzione o la cessazione delle attività o altre prescrizioni, fermo restando l’obbligo del gestore di procedere al ripristino della funzionalità dell’impianto nel più breve tempo possibile. Il guasto va registrato con la descrizione dell’evento, le cause individuate, le azioni intraprese e i tempi di ripristino. Dopo il ripristino è opportuno analizzare le cause e adottare azioni per prevenire la ripetizione dell’evento, ad esempio modificando il piano di manutenzione o installando un sistema di allarme. La gestione del guasto richiede una procedura scritta, che indichi chi rileva l’anomalia, chi decide sulla riduzione o sull’arresto della produzione, chi effettua la comunicazione e con quale modulo, con nominativi e recapiti aggiornati anche per le ore notturne e i giorni festivi. Senza una procedura predisposta, è frequente che le otto ore trascorrano nell’incertezza su chi debba agire, con conseguenze sanzionatorie evitabili."
+  },
+  {
+   "t": "caso",
+   "tit": "Caso di studio · Il filtro a maniche del venerdì sera",
+   "scena": "Venerdì alle 22 l’operatore del turno serale nota polvere visibile all’uscita del camino del filtro a maniche e una perdita di carico molto inferiore al normale. La produzione prosegue fino al lunedì.",
+   "domanda": "Quale condotta era corretta?",
+   "opz": [
+    ["Proseguire la produzione e segnalare il problema al manutentore lunedì", false, "No: il guasto incide sui valori limite e va comunicato entro otto ore."],
+    ["Ridurre o arrestare l’attività collegata, comunicare il guasto entro otto ore e avviare il ripristino", true, "Corretto: art. 271, c. 14, e procedura interna."],
+    ["Attendere il prossimo autocontrollo per verificare se il limite è superato", false, "No: l’anomalia è evidente e richiede intervento immediato."]
+   ],
+   "rif": "D.lgs. 152/2006, art. 271, c. 14",
+   "appro": "La procedura di guasto deve essere conosciuta anche dal personale dei turni serali e festivi, con un referente reperibile.",
+   "nar": "Caso di studio. Di venerdì sera un operatore nota polvere visibile all’uscita del camino e una perdita di carico molto bassa del filtro a maniche, ma la produzione prosegue fino al lunedì. Si individui la condotta corretta."
+  }
+ ]
+}

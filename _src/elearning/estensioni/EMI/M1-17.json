@@ -1,0 +1,28 @@
+{
+ "dopo": "Valori limite, autocontrolli e comunicazioni",
+ "schermate": [
+  {
+   "t": "grafico",
+   "tit": "Simulazione · Correzione all’ossigeno di riferimento",
+   "rif": "D.lgs. 152/2006, Allegato VI alla Parte V",
+   "lead": "Modificare la concentrazione misurata e il tenore di ossigeno nei fumi: il grafico mostra la concentrazione riportata all’ossigeno di riferimento del 3% e il confronto con un valore limite di 200 mg/Nm³.",
+   "grafico": {
+    "tipo": "calcolo",
+    "formula_testo": "C rif = C mis × (21 − O₂ rif) / (21 − O₂ mis)   con O₂ rif = 3%",
+    "formula": "c * (21 - 3) / (21 - o)",
+    "ingressi": [
+     { "id": "c", "nome": "Concentrazione misurata di NOx", "min": 50, "max": 300, "passo": 5, "val": 180, "unita": "mg/Nm³" },
+     { "id": "o", "nome": "Ossigeno misurato nei fumi", "min": 3, "max": 15, "passo": 0.5, "val": 9, "unita": "%" }
+    ],
+    "risultato": "Concentrazione riportata al 3% di O₂",
+    "unita": "mg/Nm³",
+    "scala": 600,
+    "limite": 200,
+    "limite_testo": "valore limite",
+    "testo_ok": "Valore corretto entro il limite: l’emissione risulta conforme per questo parametro.",
+    "testo_sup": "Valore corretto superiore al limite: la diluizione con aria aveva mascherato il superamento."
+   },
+   "nar": "Simulazione. Si modifichino la concentrazione misurata di ossidi di azoto e il tenore di ossigeno nei fumi. Il grafico riporta la concentrazione all’ossigeno di riferimento del tre per cento e la confronta con un valore limite di duecento milligrammi per normal metro cubo. Si osservi che, a parità di concentrazione misurata, un tenore di ossigeno più elevato produce una concentrazione corretta più alta: l’eccesso d’aria diluisce i fumi, ma non riduce la massa di inquinante emessa. Si eseguano almeno tre simulazioni."
+  }
+ ]
+}

@@ -1,0 +1,35 @@
+{
+ "dopo": "SVHC, elenco di sostanze candidate e articoli",
+ "schermate": [
+  {
+   "t": "grafico",
+   "tit": "Grafico interattivo · SVHC negli articoli",
+   "rif": "Reg. (CE) 1907/2006, artt. 7 e 33",
+   "lead": "Spostare il cursore sulla concentrazione di una sostanza dell’elenco delle candidate in un articolo.",
+   "grafico": {
+    "tipo": "soglie",
+    "variabile": "Concentrazione della SVHC nell’articolo (% in peso)",
+    "unita": "%",
+    "min": 0,
+    "max": 0.5,
+    "passo": 0.01,
+    "iniziale": 0.05,
+    "zone": [
+     {
+      "nome": "Sotto lo 0,1%",
+      "fino": 0.1,
+      "colore": "#00B050",
+      "testo": "Nessun obbligo di comunicazione ai sensi dell’art. 33, salvo altre restrizioni applicabili."
+     },
+     {
+      "nome": "Pari o superiore allo 0,1%",
+      "fino": 0.5,
+      "colore": "#E07000",
+      "testo": "Obbligo di fornire ai destinatari, e su richiesta ai consumatori entro 45 giorni, le informazioni per un uso sicuro (almeno il nome della sostanza); notifica all’ECHA se oltre 1 t/anno per produttore o importatore; comunicazione alla banca dati SCIP."
+     }
+    ]
+   },
+   "nar": "Grafico interattivo. Si sposti il cursore sulla concentrazione di una sostanza estremamente preoccupante in un articolo. Alla soglia dello zero virgola uno per cento in peso scattano gli obblighi di comunicazione lungo la catena di approvvigionamento e verso i consumatori, che devono ricevere le informazioni entro quarantacinque giorni dalla richiesta."
+  }
+ ]
+}

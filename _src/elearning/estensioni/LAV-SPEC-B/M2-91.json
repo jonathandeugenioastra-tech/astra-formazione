@@ -1,0 +1,83 @@
+{
+ "dopo": "Esempio applicativo: il calcolo dell’indice di sollevamento",
+ "schermate": [
+  {
+   "t": "grafico",
+   "tit": "Grafico interattivo · Livelli di esposizione al rumore",
+   "rif": "D.lgs. 81/2008, artt. 189, 192, 193, 196",
+   "lead": "Spostare il cursore sul livello di esposizione giornaliera: per ciascuna zona compaiono gli obblighi del datore di lavoro.",
+   "grafico": {
+    "tipo": "soglie",
+    "variabile": "Livello di esposizione giornaliera LEX,8h",
+    "unita": "dB(A)",
+    "min": 70,
+    "max": 95,
+    "passo": 0.5,
+    "iniziale": 78,
+    "zone": [
+     {
+      "nome": "Sotto 80 dB(A)",
+      "fino": 80,
+      "colore": "#00B050",
+      "testo": "Sotto il valore inferiore di azione: valutazione documentata e riduzione del rischio al minimo secondo il principio generale."
+     },
+     {
+      "nome": "Azione inferiore",
+      "fino": 85,
+      "colore": "#C9A100",
+      "testo": "Tra 80 e 85 dB(A): informazione e formazione, otoprotettori messi a disposizione, sorveglianza sanitaria su richiesta del lavoratore o se il medico ne conferma l’opportunità."
+     },
+     {
+      "nome": "Azione superiore",
+      "fino": 87,
+      "colore": "#E07000",
+      "testo": "Tra 85 e 87 dB(A): uso degli otoprotettori obbligatorio, programma di misure tecniche e organizzative, segnaletica e delimitazione delle aree, sorveglianza sanitaria."
+     },
+     {
+      "nome": "Oltre 87 dB(A)",
+      "fino": 95,
+      "colore": "#C81F26",
+      "testo": "87 dB(A) è il valore limite di esposizione, da non superare tenendo conto dell’attenuazione degli otoprotettori: in caso di superamento occorrono misure immediate."
+     }
+    ]
+   },
+   "nar": "Grafico interattivo. Si sposti il cursore lungo la scala del livello di esposizione giornaliera al rumore. Il decreto ottantuno fissa un valore inferiore di azione di ottanta decibel A, un valore superiore di azione di ottantacinque decibel A e un valore limite di ottantasette decibel A, quest’ultimo da verificare tenendo conto dell’attenuazione degli otoprotettori. Per ciascuna zona compaiono gli obblighi del datore di lavoro. Si esplorino tutte le zone."
+  },
+  {
+   "t": "grafico",
+   "tit": "Grafico interattivo · Vibrazioni trasmesse al sistema mano-braccio",
+   "rif": "D.lgs. 81/2008, art. 201",
+   "lead": "Spostare il cursore sul valore di esposizione giornaliera A(8) per visualizzare gli obblighi corrispondenti.",
+   "grafico": {
+    "tipo": "soglie",
+    "variabile": "Esposizione giornaliera A(8) mano-braccio",
+    "unita": "m/s²",
+    "min": 0,
+    "max": 8,
+    "passo": 0.1,
+    "iniziale": 1.5,
+    "zone": [
+     {
+      "nome": "Sotto l’azione",
+      "fino": 2.5,
+      "colore": "#00B050",
+      "testo": "Sotto 2,5 m/s²: valutazione documentata e riduzione del rischio al minimo."
+     },
+     {
+      "nome": "Valore d’azione",
+      "fino": 5,
+      "colore": "#E07000",
+      "testo": "Tra 2,5 e 5 m/s²: programma di misure tecniche e organizzative, informazione e formazione, sorveglianza sanitaria dei lavoratori esposti."
+     },
+     {
+      "nome": "Oltre 5 m/s²",
+      "fino": 8,
+      "colore": "#C81F26",
+      "testo": "5 m/s² è il valore limite giornaliero: non deve essere superato; se superato, misure immediate per riportare l’esposizione al di sotto."
+     }
+    ]
+   },
+   "nar": "Grafico interattivo. Si sposti il cursore sul valore di esposizione giornaliera alle vibrazioni trasmesse al sistema mano-braccio, normalizzato a otto ore. Il valore d’azione è di due virgola cinque metri al secondo quadrato e il valore limite di cinque metri al secondo quadrato. Per il corpo intero i valori corrispondenti sono zero virgola cinque e uno virgola zero. Si esplorino tutte le zone."
+  }
+ ]
+}

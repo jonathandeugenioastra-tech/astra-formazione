@@ -1,0 +1,78 @@
+{
+ "dopo": "Manutenzione, monitoraggio e fine vita",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Verifiche strutturali delle coperture",
+   "lead": "L’installazione di un impianto aggiunge carichi permanenti e modifica le azioni del vento e della neve sulla copertura.",
+   "punti": [
+    "Carico dei moduli e delle strutture di sostegno, indicativamente dell’ordine di 15–25 kg/m² per sistemi complanari",
+    "Sistemi zavorrati: carichi concentrati più elevati, da verificare puntualmente",
+    "Azioni del vento (sollevamento) e accumuli di neve secondo le Norme tecniche per le costruzioni",
+    "Coperture esistenti: verifica dello stato di conservazione e della capacità portante residua",
+    "Coperture in cemento-amianto: valutazione e bonifica prima di qualsiasi intervento"
+   ],
+   "appro": "Su coperture in cemento-amianto non si installano impianti senza preventiva valutazione e bonifica secondo la normativa specifica: le lavorazioni sul materiale possono liberare fibre pericolose.",
+   "rif": "D.M. 17 gennaio 2018 (NTC 2018) · D.lgs. 81/2008, Titolo IX, Capo III",
+   "nar": "L’installazione di un impianto fotovoltaico su una copertura esistente comporta conseguenze strutturali che devono essere valutate da un tecnico abilitato. I moduli e le strutture di sostegno aggiungono un carico permanente, che per i sistemi complanari alla copertura è indicativamente dell’ordine di quindici-venticinque chilogrammi per metro quadrato; i sistemi zavorrati, utilizzati sulle coperture piane per evitare forature, introducono carichi concentrati più elevati che vanno verificati puntualmente. Occorre inoltre considerare le azioni del vento, che possono generare forze di sollevamento sui moduli, e gli accumuli di neve, che i moduli possono modificare, secondo le Norme tecniche per le costruzioni del duemiladiciotto. Sulle coperture esistenti la verifica riguarda anche lo stato di conservazione degli elementi e la capacità portante residua, soprattutto negli edifici industriali datati. Un caso particolare è rappresentato dalle coperture in cemento-amianto, ancora presenti in molti capannoni: su di esse non si installano impianti senza una preventiva valutazione e, di norma, la bonifica, perché le lavorazioni sul materiale possono liberare fibre pericolose e sono soggette alla specifica disciplina di tutela dei lavoratori dall’amianto. La sostituzione di una copertura in amianto con una nuova copertura e un impianto fotovoltaico è spesso un intervento che unisce bonifica e produzione di energia."
+  },
+  {
+   "t": "testo",
+   "tit": "Documentazione e conformità dell’impianto",
+   "lead": "Un impianto realizzato correttamente è accompagnato da una documentazione che ne attesta la conformità e ne consente la gestione.",
+   "punti": [
+    "Progetto dell’impianto, redatto da professionista abilitato quando previsto",
+    "Dichiarazione di conformità dell’installatore, con allegati obbligatori",
+    "Schemi elettrici, elenco dei componenti, certificati di moduli e inverter",
+    "Verifiche iniziali e documentazione di collaudo; regolamento di esercizio con il gestore di rete",
+    "Manuale d’uso e di manutenzione, con le istruzioni per il sezionamento in emergenza"
+   ],
+   "appro": "La dichiarazione di conformità è il documento con cui l’impresa installatrice attesta di aver realizzato l’impianto a regola d’arte; senza di essa l’impianto non può essere considerato conforme.",
+   "rif": "D.M. 22 gennaio 2008, n. 37 · CEI EN 62446-1 · CEI 0-21",
+   "nar": "Un impianto fotovoltaico realizzato correttamente è accompagnato da una documentazione che ne attesta la conformità e ne consente la gestione nel tempo. Il primo documento è il progetto, redatto da un professionista abilitato quando la potenza o le caratteristiche dell’impianto lo richiedono secondo il decreto ministeriale trentasette del duemilaotto. Il secondo è la dichiarazione di conformità rilasciata dall’impresa installatrice, con gli allegati obbligatori, con cui l’impresa attesta di aver realizzato l’impianto a regola d’arte; senza questo documento l’impianto non può essere considerato conforme. La documentazione comprende inoltre gli schemi elettrici, l’elenco dei componenti installati e i certificati di conformità dei moduli e degli inverter alle norme tecniche. La norma CEI EN sessantaduemilaquattrocentoquarantasei descrive le verifiche iniziali e la documentazione minima per gli impianti connessi alla rete. Per la connessione è previsto il regolamento di esercizio sottoscritto con il gestore di rete. Infine, il manuale d’uso e di manutenzione deve contenere le istruzioni per l’esercizio, la manutenzione e il sezionamento in caso di emergenza. Questa documentazione va conservata per tutta la vita dell’impianto e messa a disposizione del datore di lavoro, del responsabile della manutenzione e dei soccorritori."
+  },
+  {
+   "t": "testo",
+   "tit": "Altre fonti rinnovabili nelle configurazioni",
+   "lead": "Accanto al fotovoltaico, nelle configurazioni di autoconsumo possono essere impiegate altre fonti rinnovabili, con profili di produzione diversi.",
+   "punti": [
+    "Mini eolico: produzione anche notturna e invernale, molto dipendente dalla ventosità del sito",
+    "Mini idroelettrico: produzione continua dove esistono salti e portate idonei, con vincoli ambientali",
+    "Biogas e biomasse: produzione programmabile, con requisiti di sostenibilità e di emissione",
+    "La combinazione di fonti diverse migliora la copertura delle ore serali e invernali",
+    "Il decreto prevede fattori e regole specifiche per ciascuna fonte"
+   ],
+   "appro": "La programmabilità è il vantaggio principale di biogas e idroelettrico rispetto al fotovoltaico: la produzione può seguire i consumi anziché la disponibilità del sole.",
+   "rif": "D.lgs. 199/2021 · D.M. 414/2023",
+   "nar": "Il fotovoltaico è la fonte più diffusa nelle configurazioni di autoconsumo, ma non l’unica ammessa. Il mini eolico produce energia anche nelle ore notturne e nei mesi invernali, ma la sua resa dipende fortemente dalla ventosità del sito, che va misurata prima dell’investimento, e richiede attenzione agli aspetti paesaggistici e acustici. Il mini idroelettrico, dove esistono salti e portate idonei, ad esempio lungo canali irrigui o acquedotti, garantisce una produzione relativamente continua, con vincoli legati alla tutela dei corpi idrici. Il biogas e le biomasse consentono una produzione programmabile, che può seguire i consumi anziché la disponibilità della fonte, ma devono rispettare requisiti di sostenibilità della materia prima e limiti di emissione in atmosfera. La combinazione di fonti con profili di produzione diversi migliora la copertura delle ore serali e dei mesi invernali, nei quali il fotovoltaico produce poco, e aumenta quindi l’energia condivisa. Il decreto ministeriale quattrocentoquattordici prevede regole specifiche per ciascuna fonte. Nella pratica, la maggior parte delle comunità parte dal fotovoltaico per la sua semplicità e diffusione, valutando in una seconda fase l’integrazione di altre fonti o di sistemi di accumulo per migliorare l’equilibrio tra produzione e consumi."
+  },
+  {
+   "t": "testo",
+   "tit": "Emissioni evitate e impronta ambientale del fotovoltaico",
+   "lead": "Il beneficio ambientale di un impianto si misura con le emissioni evitate, considerando anche quelle legate alla sua produzione.",
+   "punti": [
+    "Emissioni evitate: energia prodotta moltiplicata per il fattore di emissione del sistema elettrico",
+    "Fattore di emissione: da fonti ufficiali aggiornate (ad esempio i dati nazionali pubblicati da ISPRA)",
+    "Analisi del ciclo di vita: emissioni di fabbricazione, trasporto, installazione e fine vita",
+    "Tempo di ritorno energetico: anni necessari per produrre l’energia spesa per costruire l’impianto",
+    "Comunicazione corretta: dati, fonti e metodo dichiarati, senza asserzioni generiche"
+   ],
+   "appro": "Il fattore di emissione del sistema elettrico si riduce negli anni con la crescita delle rinnovabili: va sempre indicato l’anno di riferimento del dato utilizzato.",
+   "rif": "ISPRA – Fattori di emissione per la produzione e il consumo di energia elettrica in Italia · ISO 14040/14044",
+   "nar": "Il beneficio ambientale di un impianto fotovoltaico si misura principalmente con le emissioni di gas a effetto serra evitate. Il calcolo moltiplica l’energia prodotta per il fattore di emissione del sistema elettrico, cioè la quantità di anidride carbonica equivalente associata a ogni chilowattora prelevato dalla rete. Il fattore va tratto da fonti ufficiali aggiornate, come i dati nazionali pubblicati dall’Istituto superiore per la protezione e la ricerca ambientale, indicando sempre l’anno di riferimento, perché il valore si riduce negli anni con la crescita delle rinnovabili. Una valutazione completa considera però l’intero ciclo di vita dell’impianto, secondo le norme sull’analisi del ciclo di vita: le emissioni legate alla fabbricazione dei moduli e degli altri componenti, al trasporto, all’installazione e alla gestione a fine vita. Un indicatore utile è il tempo di ritorno energetico, cioè il numero di anni necessari perché l’impianto produca l’energia spesa per costruirlo, che per gli impianti attuali è nell’ordine di pochi anni, a fronte di una vita utile di decenni. Nella comunicazione dei risultati, ad esempio nei rendiconti di sostenibilità, occorre dichiarare dati, fonti e metodo, evitando asserzioni generiche come impatto zero, che non sono supportate da un calcolo verificabile."
+  },
+  {
+   "t": "abbina",
+   "tit": "Esercitazione · Grandezze e definizioni",
+   "sott": "Associare a ciascuna grandezza la definizione corretta",
+   "coppie": [
+    ["Irraggiamento", "Potenza solare per unità di superficie (W/m²)"],
+    ["Irradiazione", "Energia solare raccolta in un periodo (kWh/m²)"],
+    ["Quota di autoconsumo", "Energia autoconsumata / energia prodotta"],
+    ["Performance Ratio", "Energia prodotta / energia teorica con la stessa radiazione"],
+    ["Valore attuale netto", "Flussi di cassa attualizzati meno l’investimento"]
+   ],
+   "nar": "Esercitazione. Si associ a ciascuna grandezza la definizione corretta."
+  }
+ ]
+}

@@ -1,0 +1,49 @@
+{
+ "dopo": "La procedura estintiva delle contravvenzioni ambientali",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Le fasi della procedura estintiva",
+   "lead": "La procedura della Parte VI-bis si sviluppa in fasi scandite da termini precisi, che l’impresa deve conoscere per non perdere il beneficio.",
+   "punti": [
+    "Prescrizione asseverata tecnicamente dall’ente specializzato, con termine non superiore al periodo tecnicamente necessario",
+    "Proroga per una sola volta, su richiesta motivata, per un periodo non superiore a sei mesi",
+    "Verifica dell’adempimento entro 60 giorni dalla scadenza del termine",
+    "Ammissione al pagamento di un quarto del massimo dell’ammenda, da effettuare entro 30 giorni",
+    "Comunicazione al pubblico ministero dell’adempimento e del pagamento; estinzione del reato"
+   ],
+   "appro": "La richiesta di proroga va presentata prima della scadenza del termine e motivata con ragioni tecniche documentate, ad esempio i tempi di fornitura di un impianto.",
+   "rif": "D.lgs. 152/2006, artt. 318-ter, 318-quater, 318-septies",
+   "nar": "La procedura della Parte sesta-bis si sviluppa in fasi scandite da termini precisi, che l’impresa deve conoscere per non perdere il beneficio dell’estinzione. Quando accerta una contravvenzione che non ha cagionato danno o pericolo concreto e attuale, l’organo di vigilanza impartisce una prescrizione, asseverata tecnicamente dall’ente specializzato competente, con un termine per la regolarizzazione non superiore al periodo di tempo tecnicamente necessario. Il termine può essere prorogato per una sola volta, su richiesta motivata del contravventore, per un periodo non superiore a sei mesi, quando la complessità degli interventi lo giustifica. Entro sessanta giorni dalla scadenza del termine, l’organo di vigilanza verifica se la violazione è stata eliminata secondo le modalità e nel termine indicati. In caso positivo, ammette il contravventore a pagare, entro trenta giorni, una somma pari a un quarto del massimo dell’ammenda prevista per la contravvenzione. Entro i centoventi giorni successivi alla scadenza del termine, l’organo di vigilanza comunica al pubblico ministero l’adempimento e l’eventuale pagamento, e il reato si estingue. La richiesta di proroga va presentata prima della scadenza e motivata con ragioni tecniche documentate, ad esempio i tempi di fornitura e installazione di un impianto."
+  },
+  {
+   "t": "testo",
+   "tit": "Esempio applicativo: il deposito temporaneo irregolare",
+   "lead": "Un controllo rileva un deposito di rifiuti pericolosi oltre i limiti del deposito temporaneo; l’impresa segue la procedura estintiva.",
+   "punti": [
+    "Accertamento: rifiuti pericolosi in deposito da oltre un anno, senza etichettatura, su area non pavimentata",
+    "Prescrizione: avvio a recupero o smaltimento entro 30 giorni, area pavimentata e coperta, etichettatura",
+    "L’impresa incarica un trasportatore e un impianto autorizzati, verificandone le iscrizioni e le autorizzazioni",
+    "Documentazione dell’adempimento: formulari, registro, fotografie dell’area sistemata",
+    "Pagamento di un quarto del massimo dell’ammenda e aggiornamento della procedura interna"
+   ],
+   "appro": "Senza le condizioni del deposito temporaneo, l’accumulo di rifiuti si qualifica come deposito incontrollato o stoccaggio non autorizzato: la gestione dei tempi e delle quantità è essenziale.",
+   "rif": "D.lgs. 152/2006, artt. 185-bis, 256, 318-bis – 318-septies",
+   "nar": "Si propone un esempio applicativo. Durante un controllo presso un’officina meccanica, l’organo di vigilanza rileva un deposito di rifiuti pericolosi, tra cui oli esausti e filtri, presenti da oltre un anno, privi di etichettatura e collocati su un’area non pavimentata. Il deposito non rispetta le condizioni del deposito temporaneo prima della raccolta previste dall’articolo centottantacinque-bis, e la condotta configura una contravvenzione. Non essendovi danno né pericolo concreto per il suolo, l’organo di vigilanza impartisce una prescrizione: avviare i rifiuti a recupero o smaltimento entro trenta giorni, realizzare un’area di deposito pavimentata e coperta, provvedere all’etichettatura. L’impresa incarica un trasportatore iscritto all’Albo nazionale gestori ambientali e un impianto autorizzato, verificandone preventivamente le iscrizioni e le autorizzazioni. L’adempimento viene documentato con i formulari di identificazione, le registrazioni nel registro cronologico e le fotografie dell’area sistemata. Dopo la verifica positiva, l’impresa paga un quarto del massimo dell’ammenda e il reato si estingue. L’impresa aggiorna infine la procedura interna di gestione dei rifiuti, stabilendo un controllo mensile delle quantità e dei tempi di deposito, per evitare il ripetersi della violazione."
+  },
+  {
+   "t": "caso",
+   "tit": "Caso di studio · La proroga chiesta in ritardo",
+   "scena": "Un’impresa riceve una prescrizione con termine di 90 giorni per installare un sistema di trattamento delle acque. Il fornitore consegna l’impianto con due mesi di ritardo; l’impresa chiede la proroga una settimana dopo la scadenza del termine.",
+   "domanda": "Qual è la valutazione corretta?",
+   "opz": [
+    ["La proroga è sempre concessa se il ritardo dipende dal fornitore", false, "No: la richiesta deve precedere la scadenza ed essere motivata."],
+    ["La richiesta è tardiva: occorreva presentarla motivatamente prima della scadenza, documentando i tempi di fornitura", true, "Corretto: la proroga è ammessa una sola volta su richiesta motivata."],
+    ["Non serve alcuna proroga, basta adempiere appena possibile", false, "No: l’adempimento oltre il termine non consente l’estinzione."]
+   ],
+   "rif": "D.lgs. 152/2006, art. 318-ter",
+   "appro": "Il cronoprogramma degli interventi va costruito subito dopo la prescrizione, verificando con i fornitori la compatibilità dei tempi con il termine assegnato.",
+   "nar": "Caso di studio. Un’impresa chiede la proroga del termine della prescrizione una settimana dopo la scadenza, per un ritardo del fornitore. Si individui la valutazione corretta."
+  }
+ ]
+}

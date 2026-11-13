@@ -1,0 +1,79 @@
+{
+ "dopo": "Emissioni in atmosfera: autorizzazione e attività in deroga",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "La domanda di autorizzazione: contenuti tecnici",
+   "lead": "La domanda di autorizzazione alle emissioni descrive lo stabilimento in modo da consentire all’autorità di fissare limiti e prescrizioni adeguati.",
+   "punti": [
+    "Progetto dello stabilimento: cicli produttivi, impianti, materie prime e quantitativi",
+    "Quadro emissivo: punti di emissione, portate, temperature, inquinanti, concentrazioni e flussi di massa attesi",
+    "Sistemi di abbattimento previsti, con caratteristiche e rendimenti",
+    "Emissioni diffuse e misure di contenimento",
+    "Tempi di messa in esercizio e di messa a regime; criteri di monitoraggio"
+   ],
+   "appro": "La coerenza tra quadro emissivo dichiarato e realtà dell’impianto è la prima verifica degli organi di controllo: dati sottostimati in domanda generano non conformità al primo autocontrollo.",
+   "rif": "D.lgs. 152/2006, art. 269, cc. 2–4",
+   "nar": "La domanda di autorizzazione alle emissioni deve descrivere lo stabilimento in modo da consentire all’autorità competente di fissare valori limite e prescrizioni adeguati. Secondo l’articolo duecentosessantanove, la domanda è corredata dal progetto, che indica i cicli produttivi, gli impianti, le materie prime e le quantità impiegate, e da una relazione tecnica che descrive il quadro emissivo. Il quadro emissivo elenca i punti di emissione con le relative caratteristiche: portata dell’effluente, temperatura, altezza e sezione del camino, inquinanti presenti, concentrazioni e flussi di massa attesi. La domanda descrive inoltre i sistemi di abbattimento previsti, con le loro caratteristiche e i rendimenti attesi, le emissioni diffuse e le misure per contenerle, i tempi previsti per la messa in esercizio e la messa a regime e i criteri di monitoraggio proposti. Quando la domanda è presentata nell’ambito dell’autorizzazione unica ambientale, si utilizzano i modelli regionali e la presentazione avviene tramite lo Sportello unico per le attività produttive. La coerenza tra il quadro emissivo dichiarato e il funzionamento reale dell’impianto è la prima verifica degli organi di controllo: dati sottostimati in fase di domanda generano facilmente non conformità al primo autocontrollo."
+  },
+  {
+   "t": "testo",
+   "tit": "Messa in esercizio e messa a regime",
+   "lead": "Dopo il rilascio dell’autorizzazione, l’avvio degli impianti segue una sequenza di comunicazioni e di misure stabilita dalla norma e dall’autorizzazione.",
+   "punti": [
+    "Comunicazione della messa in esercizio all’autorità competente almeno 15 giorni prima",
+    "Messa a regime entro il termine fissato dall’autorizzazione",
+    "Misure delle emissioni in un periodo continuativo di marcia controllata, di norma non inferiore a 10 giorni dalla messa a regime",
+    "Comunicazione dei risultati all’autorità competente e all’organo di controllo",
+    "Eventuale proroga del termine di messa a regime su richiesta motivata"
+   ],
+   "appro": "La messa in esercizio è la prima accensione dell’impianto; la messa a regime è la condizione di funzionamento stabile alla quale si riferiscono i valori limite.",
+   "rif": "D.lgs. 152/2006, art. 269, c. 6",
+   "nar": "Dopo il rilascio dell’autorizzazione, l’avvio degli impianti segue una sequenza di comunicazioni e di misure. La messa in esercizio corrisponde alla prima accensione dell’impianto e deve essere comunicata all’autorità competente almeno quindici giorni prima. La messa a regime corrisponde invece alla condizione di funzionamento stabile alla quale si riferiscono i valori limite, e deve avvenire entro il termine fissato dall’autorizzazione; il termine può essere prorogato su richiesta motivata del gestore, quando l’avviamento presenta difficoltà tecniche. A partire dalla messa a regime, il gestore effettua le misure delle emissioni in un periodo continuativo di marcia controllata, la cui durata è stabilita dall’autorizzazione e di norma non è inferiore a dieci giorni, con il numero di campionamenti previsto. I risultati sono comunicati all’autorità competente e all’organo di controllo, normalmente l’Agenzia regionale per la protezione dell’ambiente, entro i termini indicati. Questa fase ha una grande importanza pratica: le misure di marcia controllata costituiscono il primo riscontro oggettivo della conformità dell’impianto e la base per gli autocontrolli successivi. È buona prassi pianificarle con il laboratorio prima dell’avviamento, verificando l’accessibilità e la conformità dei punti di prelievo."
+  },
+  {
+   "t": "testo",
+   "tit": "Modifiche dello stabilimento",
+   "lead": "Ogni modifica dello stabilimento va qualificata come sostanziale o non sostanziale, con conseguenze procedurali diverse.",
+   "punti": [
+    "Modifica sostanziale: comporta un aumento o una variazione qualitativa delle emissioni, o altera le condizioni di convogliamento",
+    "Modifica sostanziale: richiede l’aggiornamento dell’autorizzazione prima della realizzazione",
+    "Modifica non sostanziale: comunicazione preventiva all’autorità competente",
+    "L’autorità può, entro i termini previsti, aggiornare l’autorizzazione anche per modifiche comunicate",
+    "Criteri regionali: molte Regioni definiscono soglie e casi di modifica sostanziale"
+   ],
+   "appro": "La sostituzione di una macchina con una analoga può sembrare irrilevante, ma se cambia la portata del camino o il tipo di inquinante può configurare una modifica sostanziale.",
+   "rif": "D.lgs. 152/2006, art. 268, c. 1, lett. m-bis) · art. 269, c. 8",
+   "nar": "Ogni modifica dello stabilimento deve essere qualificata come sostanziale o non sostanziale, perché le conseguenze procedurali sono diverse. È sostanziale la modifica che comporta un aumento o una variazione qualitativa delle emissioni oppure che altera le condizioni di convogliamento delle emissioni esistenti. Le modifiche sostanziali richiedono l’aggiornamento dell’autorizzazione, che va ottenuto prima di realizzare la modifica. Le modifiche non sostanziali devono invece essere comunicate preventivamente all’autorità competente, che può aggiornare l’autorizzazione o imporre prescrizioni entro i termini previsti. Molte Regioni hanno definito criteri e soglie per distinguere i due casi, che vanno consultati. Nella pratica la qualificazione richiede attenzione: la sostituzione di una macchina con un’altra analoga può sembrare irrilevante, ma se cambia la portata del camino, il tipo di prodotti vernicianti o la quantità di solvente utilizzata, può configurare una modifica sostanziale. Un errore di qualificazione espone il gestore alle sanzioni previste per l’esercizio in assenza o in difformità dall’autorizzazione. Per questo è opportuno che ogni progetto di modifica degli impianti produttivi sia esaminato preventivamente anche sotto il profilo ambientale, con una procedura interna che coinvolga il responsabile ambientale."
+  },
+  {
+   "t": "testo",
+   "tit": "Attività in deroga e autorizzazioni generali",
+   "lead": "Per le attività con emissioni scarsamente rilevanti o standardizzabili, la Parte V prevede regimi semplificati.",
+   "punti": [
+    "Allegato IV, Parte I: impianti e attività in deroga, non soggetti ad autorizzazione (ad esempio piccoli laboratori, alcune lavorazioni a ridotto consumo)",
+    "Le Regioni possono prevedere comunicazioni per le attività in deroga",
+    "Allegato IV, Parte II: attività soggette ad autorizzazione di carattere generale",
+    "Adesione del gestore con domanda, nel rispetto di soglie e prescrizioni regionali",
+    "Il superamento delle soglie fa venir meno il regime semplificato"
+   ],
+   "appro": "Il regime in deroga si fonda sul rispetto delle soglie dichiarate: la crescita della produzione o dei consumi di solventi può far uscire lo stabilimento dal regime semplificato senza che il gestore se ne accorga.",
+   "rif": "D.lgs. 152/2006, art. 272 e Allegato IV",
+   "nar": "Per le attività con emissioni scarsamente rilevanti o facilmente standardizzabili, la Parte quinta prevede regimi semplificati. La Parte prima dell’Allegato quarto elenca impianti e attività in deroga, non soggetti ad autorizzazione, ad esempio alcuni laboratori, piccoli impianti di combustione e lavorazioni con consumi di materie prime o solventi inferiori a soglie stabilite. Le Regioni possono prevedere che il gestore comunichi lo svolgimento di queste attività. La Parte seconda dell’Allegato quarto elenca invece le attività che possono essere svolte in base ad autorizzazioni di carattere generale, adottate dalle Regioni o dalle autorità competenti per specifiche categorie, come la verniciatura, la saldatura o la lavorazione del legno al di sotto di determinate soglie. Il gestore aderisce all’autorizzazione generale con una domanda e si impegna a rispettarne le prescrizioni, compresi i valori limite e gli autocontrolli. Entrambi i regimi si fondano sul rispetto delle soglie: la crescita della produzione o dei consumi può far uscire lo stabilimento dal regime semplificato, con la conseguente necessità di un’autorizzazione ordinaria. È quindi opportuno verificare periodicamente, ad esempio una volta all’anno, i consumi effettivi rispetto alle soglie dichiarate."
+  },
+  {
+   "t": "caso",
+   "tit": "Caso di studio · La nuova cabina di verniciatura",
+   "scena": "Un’impresa autorizzata con una cabina di verniciatura a spruzzo installa una seconda cabina, collegata a un nuovo camino, raddoppiando il consumo annuo di prodotti vernicianti.",
+   "domanda": "Qual è il corretto inquadramento?",
+   "opz": [
+    ["Modifica non sostanziale, basta comunicarla dopo l’installazione", false, "No: nuovo punto di emissione e aumento delle emissioni."],
+    ["Modifica sostanziale: aggiornamento dell’autorizzazione prima della realizzazione", true, "Corretto: aumento delle emissioni e nuovo convogliamento."],
+    ["Nessun adempimento, se la vernice è la stessa", false, "No: la quantità emessa aumenta."]
+   ],
+   "rif": "D.lgs. 152/2006, art. 269, c. 8",
+   "appro": "Con il raddoppio dei consumi occorre verificare anche le soglie dell’art. 275 (COV) e dell’eventuale autorizzazione generale.",
+   "nar": "Caso di studio. Un’impresa installa una seconda cabina di verniciatura con un nuovo camino, raddoppiando il consumo di prodotti vernicianti. Si individui il corretto inquadramento della modifica."
+  }
+ ]
+}

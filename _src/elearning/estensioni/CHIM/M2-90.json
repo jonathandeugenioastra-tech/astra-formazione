@@ -1,0 +1,41 @@
+{
+ "dopo": "La UNI EN 689: strategia di misura",
+ "schermate": [
+  {
+   "t": "grafico",
+   "tit": "Grafico interattivo · Test preliminare della UNI EN 689",
+   "rif": "UNI EN 689:2018, punto 5.5.2 e Allegato F",
+   "lead": "Spostare il cursore sull’indice di esposizione I = C / VLEP del campione più elevato, nel caso di tre misure.",
+   "grafico": {
+    "tipo": "soglie",
+    "variabile": "Indice di esposizione massimo (3 misure)",
+    "unita": "",
+    "min": 0,
+    "max": 1.5,
+    "passo": 0.01,
+    "iniziale": 0.05,
+    "zone": [
+     {
+      "nome": "Conformità",
+      "fino": 0.1,
+      "colore": "#00B050",
+      "testo": "Con tre misure tutte inferiori a 0,1 VLEP, il test preliminare indica conformità. Con quattro o cinque misure le soglie sono 0,15 e 0,2."
+     },
+     {
+      "nome": "Nessuna decisione",
+      "fino": 1.0,
+      "colore": "#C9A100",
+      "testo": "Nessuna misura supera il VLEP ma almeno una è superiore alla soglia: occorrono almeno sei misure e il test statistico."
+     },
+     {
+      "nome": "Non conformità",
+      "fino": 1.5,
+      "colore": "#C81F26",
+      "testo": "Almeno una misura supera il VLEP: situazione non conforme, misure di prevenzione immediate e nuova valutazione."
+     }
+    ]
+   },
+   "nar": "Grafico interattivo. Si sposti il cursore sull’indice di esposizione, cioè sul rapporto tra la concentrazione misurata e il valore limite di esposizione professionale, per il campione più elevato. Nel test preliminare con tre misure, se tutte sono inferiori a un decimo del valore limite si conclude per la conformità; se una supera il valore limite, la situazione è non conforme; negli altri casi occorrono almeno sei misure e il test statistico. Si esplorino le tre zone."
+  }
+ ]
+}

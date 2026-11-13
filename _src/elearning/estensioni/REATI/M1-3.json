@@ -1,0 +1,48 @@
+{
+ "dopo": "Esempio applicativo: quando c’è «inquinamento ambientale»",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Le contravvenzioni più frequenti del D.lgs. 152/2006",
+   "lead": "La maggior parte dei procedimenti penali ambientali riguarda contravvenzioni previste dal Testo unico ambientale, distribuite nelle diverse Parti.",
+   "punti": [
+    "Scarichi (art. 137): scarico senza autorizzazione, superamento dei limiti per le sostanze pericolose, inosservanza delle prescrizioni",
+    "Rifiuti (artt. 256 e seguenti): gestione non autorizzata, deposito incontrollato, miscelazione non consentita, discarica abusiva",
+    "Documentazione dei rifiuti (art. 258): formulari e registri, con illeciti amministrativi e penali",
+    "Emissioni in atmosfera (art. 279): esercizio senza autorizzazione, superamento dei limiti, violazione delle prescrizioni",
+    "Bonifiche (art. 257): mancata comunicazione e mancata bonifica in conformità al progetto approvato"
+   ],
+   "appro": "Molte contravvenzioni sono estinguibili con la procedura della Parte VI-bis se non hanno causato danno o pericolo concreto: la rapidità della regolarizzazione è decisiva.",
+   "rif": "D.lgs. 152/2006, artt. 137, 256–259-ter, 257, 279",
+   "nar": "La maggior parte dei procedimenti penali in materia ambientale non riguarda i delitti del codice penale, ma le contravvenzioni previste dal Testo unico ambientale, distribuite nelle diverse Parti. In materia di scarichi, l’articolo centotrentasette punisce lo scarico di acque reflue industriali senza autorizzazione, il superamento dei valori limite per le sostanze pericolose e l’inosservanza delle prescrizioni dell’autorizzazione. In materia di rifiuti, gli articoli duecentocinquantasei e seguenti puniscono la gestione dei rifiuti senza autorizzazione, il deposito incontrollato, la miscelazione non consentita e la realizzazione di discariche abusive; l’articolo duecentocinquantotto riguarda la documentazione, cioè formulari e registri, con illeciti amministrativi e, nei casi più gravi, penali. In materia di emissioni, l’articolo duecentosettantanove punisce l’esercizio senza autorizzazione, il superamento dei valori limite e la violazione delle prescrizioni. In materia di bonifiche, l’articolo duecentocinquantasette punisce la mancata comunicazione dell’evento potenzialmente contaminante e la mancata bonifica in conformità al progetto approvato. Molte di queste contravvenzioni possono essere estinte con la procedura della Parte sesta-bis, se non hanno causato danno o pericolo concreto e attuale: la rapidità della regolarizzazione è quindi decisiva."
+  },
+  {
+   "t": "testo",
+   "tit": "La riforma dei reati in materia di rifiuti (D.L. 116/2025)",
+   "lead": "Il decreto-legge 116/2025, convertito dalla legge 147/2025, ha inasprito in modo significativo le sanzioni per l’abbandono e la gestione illecita dei rifiuti.",
+   "punti": [
+    "Abbandono di rifiuti non pericolosi (art. 255): ammenda per i privati; arresto o ammenda per titolari di imprese e responsabili di enti",
+    "Nuovi delitti di abbandono nei casi aggravati (art. 255-bis) e di rifiuti pericolosi (art. 255-ter), con pena della reclusione",
+    "Gestione non autorizzata (art. 256): pene aumentate; reclusione per i rifiuti pericolosi; confisca dei mezzi",
+    "Sospensione della patente di guida per le condotte commesse con veicoli; sanzioni sull’iscrizione all’Albo gestori",
+    "Aggravante d’impresa (art. 259-bis): aumento di un terzo se il fatto è commesso nell’ambito di un’attività d’impresa o organizzata"
+   ],
+   "appro": "Per le imprese la riforma rende penalmente rilevanti condotte che prima erano spesso punite solo con sanzioni amministrative: la verifica di trasportatori e destinatari diventa ancora più importante.",
+   "rif": "D.L. 8 agosto 2025, n. 116, convertito dalla L. 3 ottobre 2025, n. 147 · D.lgs. 152/2006, artt. 255–259-ter",
+   "nar": "Il decreto-legge centosedici del duemilaventicinque, convertito dalla legge centoquarantasette, ha inasprito in modo significativo le sanzioni per l’abbandono e la gestione illecita dei rifiuti. L’abbandono di rifiuti non pericolosi, disciplinato dall’articolo duecentocinquantacinque, è punito con l’ammenda per i privati, mentre per i titolari di imprese e i responsabili di enti è prevista la pena dell’arresto o dell’ammenda. Sono stati introdotti nuovi delitti: l’abbandono di rifiuti non pericolosi nei casi aggravati, ad esempio quando ne deriva pericolo per le persone o per le matrici ambientali, e l’abbandono di rifiuti pericolosi, entrambi puniti con la reclusione. Per la gestione non autorizzata dei rifiuti, l’articolo duecentocinquantasei prevede pene aumentate, la reclusione per i rifiuti pericolosi, ipotesi aggravate e la confisca dei mezzi utilizzati. Quando le condotte sono commesse con veicoli, si applica la sospensione della patente di guida, e per le imprese di trasporto sono previste la sospensione o la cancellazione dall’Albo nazionale gestori ambientali. L’articolo duecentocinquantanove-bis introduce un’aggravante d’impresa: le pene sono aumentate di un terzo se il fatto è commesso nell’ambito di un’attività d’impresa o comunque organizzata. Per le imprese, la verifica dei trasportatori e dei destinatari dei rifiuti diventa ancora più importante."
+  },
+  {
+   "t": "vf",
+   "tit": "Esercitazione · Delitti e contravvenzioni",
+   "sott": "Qualificare ciascuna affermazione come vera o falsa",
+   "voci": [
+    ["Il disastro ambientale è punito con la reclusione da 5 a 15 anni.", true, "Vero: art. 452-quater c.p."],
+    ["Il D.lgs. 81/2026 ha introdotto il delitto di commercio di prodotti inquinanti.", true, "Vero: art. 452-bis.1 c.p."],
+    ["La confisca si applica anche se l’imputato ha efficacemente bonificato.", false, "Falso: in tal caso non si applica (art. 452-undecies)."],
+    ["Un singolo conferimento irregolare integra sempre il traffico illecito di rifiuti.", false, "Falso: servono attività organizzate e continuative."],
+    ["Dopo il D.L. 116/2025 l’aggravante d’impresa aumenta le pene di un terzo.", true, "Vero: art. 259-bis D.lgs. 152/2006."]
+   ],
+   "nar": "Esercitazione. Si stabilisca se ciascuna affermazione sui delitti e sulle contravvenzioni ambientali è vera o falsa."
+  }
+ ]
+}

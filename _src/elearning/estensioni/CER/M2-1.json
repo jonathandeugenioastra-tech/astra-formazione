@@ -1,0 +1,65 @@
+{
+ "dopo": "Le configurazioni di autoconsumo diffuso",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Il quadro europeo dell’autoconsumo collettivo",
+   "lead": "Le comunità energetiche nascono dal pacchetto europeo «Energia pulita per tutti gli europei», che ha riconosciuto ai cittadini un ruolo attivo nel sistema energetico.",
+   "punti": [
+    "Direttiva (UE) 2018/2001 (RED II): comunità di energia rinnovabile e autoconsumatori che agiscono collettivamente",
+    "Direttiva (UE) 2019/944: comunità energetiche dei cittadini e clienti attivi",
+    "Principio: partecipazione aperta e volontaria, controllo effettivo dei membri, benefici prima dei profitti",
+    "Recepimento in Italia: D.lgs. 199/2021 (RED II) e D.lgs. 210/2021 (mercato elettrico)",
+    "Regolazione tecnica ed economica: ARERA (TIAD); incentivi: D.M. 414/2023, gestiti dal GSE"
+   ],
+   "appro": "Le comunità energetiche dei cittadini possono includere anche fonti non rinnovabili e hanno regole diverse dalle comunità di energia rinnovabile; il corso si concentra su queste ultime, che accedono agli incentivi.",
+   "rif": "Dir. (UE) 2018/2001 · Dir. (UE) 2019/944 · D.lgs. 199/2021 · D.lgs. 210/2021",
+   "nar": "Le comunità energetiche nascono dal pacchetto legislativo europeo noto come «Energia pulita per tutti gli europei», che ha riconosciuto ai cittadini, alle imprese e agli enti locali un ruolo attivo nel sistema energetico, non più soltanto come consumatori ma anche come produttori. Due direttive costituiscono il fondamento. La direttiva duemilauno del duemiladiciotto, nota come seconda direttiva sulle energie rinnovabili, ha introdotto le comunità di energia rinnovabile e gli autoconsumatori di energia rinnovabile che agiscono collettivamente. La direttiva novecentoquarantaquattro del duemiladiciannove, sul mercato interno dell’energia elettrica, ha introdotto le comunità energetiche dei cittadini e la figura del cliente attivo. I principi comuni sono la partecipazione aperta e volontaria, il controllo effettivo da parte dei membri e la prevalenza dei benefici ambientali, economici e sociali rispetto ai profitti finanziari. In Italia le direttive sono state recepite rispettivamente dal decreto legislativo centonovantanove e dal decreto legislativo duecentodieci del duemilaventuno. La regolazione tecnica ed economica è affidata all’ARERA con il testo integrato dell’autoconsumo diffuso, mentre gli incentivi sono disciplinati dal decreto ministeriale quattrocentoquattordici del duemilaventitré e gestiti dal Gestore dei servizi energetici. Il corso si concentra sulle comunità di energia rinnovabile, che accedono agli incentivi."
+  },
+  {
+   "t": "testo",
+   "tit": "Le configurazioni previste dal TIAD",
+   "lead": "Il Testo integrato dell’autoconsumo diffuso dell’ARERA disciplina diverse configurazioni, accomunate dal concetto di energia autoconsumata virtualmente attraverso la rete.",
+   "punti": [
+    "Gruppo di autoconsumatori di energia rinnovabile che agiscono collettivamente (stesso edificio o condominio)",
+    "Comunità energetica rinnovabile (CER) e comunità energetica dei cittadini",
+    "Autoconsumatore individuale di energia rinnovabile «a distanza» che utilizza la rete di distribuzione",
+    "Autoconsumatore a distanza con linea diretta e altre configurazioni minori",
+    "Modello «virtuale»: i contatori restano separati; la condivisione si calcola ora per ora sui dati di misura"
+   ],
+   "appro": "Il modello virtuale non richiede di modificare gli impianti elettrici dei partecipanti: ciascuno mantiene il proprio contratto di fornitura e libera scelta del venditore.",
+   "rif": "TIAD – Deliberazione ARERA 727/2022/R/eel e s.m.i. · D.lgs. 199/2021, artt. 30–32",
+   "nar": "Il testo integrato dell’autoconsumo diffuso, adottato dall’ARERA con la deliberazione settecentoventisette del duemilaventidue e successivamente aggiornato, disciplina diverse configurazioni, accomunate dal concetto di energia autoconsumata virtualmente attraverso la rete pubblica. Le principali sono quattro. Il gruppo di autoconsumatori di energia rinnovabile che agiscono collettivamente riunisce soggetti che si trovano nello stesso edificio o condominio. La comunità energetica rinnovabile è un soggetto giuridico autonomo che può riunire membri distribuiti sul territorio. L’autoconsumatore individuale a distanza è un unico soggetto che produce energia in un sito e la consuma in un altro, utilizzando la rete di distribuzione. Esistono poi configurazioni minori, come l’autoconsumatore a distanza con linea diretta. Tutte si basano su un modello virtuale: gli impianti elettrici e i contatori dei partecipanti restano separati, ciascuno mantiene il proprio contratto di fornitura e la libera scelta del venditore, e la condivisione viene calcolata ora per ora a partire dai dati di misura dell’energia immessa e prelevata. Questo modello consente di costituire una configurazione senza modificare gli impianti esistenti dei partecipanti, con evidenti vantaggi pratici rispetto a soluzioni basate su reti private."
+  },
+  {
+   "t": "testo",
+   "tit": "Il perimetro della cabina primaria",
+   "lead": "Per accedere alla tariffa premio sull’energia condivisa, impianti e consumatori devono essere collegati alla rete sottesa alla stessa cabina primaria.",
+   "punti": [
+    "Cabina primaria: impianto di trasformazione tra alta e media tensione che alimenta una porzione di territorio",
+    "Il GSE pubblica una mappa interattiva delle aree sottese alle cabine primarie",
+    "Una CER può comprendere membri in aree di cabine diverse, ma l’incentivo si calcola per ciascuna cabina",
+    "La verifica si effettua con il codice del punto di prelievo (POD) di ogni partecipante",
+    "Comuni diversi possono ricadere nella stessa cabina e uno stesso Comune in più cabine"
+   ],
+   "appro": "La verifica della cabina primaria è il primo controllo da fare quando si raccolgono le adesioni: un membro esterno al perimetro partecipa alla comunità ma non genera energia condivisa incentivata con gli impianti di un’altra cabina.",
+   "rif": "D.M. 414/2023 · Regole operative del GSE · TIAD ARERA",
+   "nar": "Il criterio territoriale che determina l’accesso agli incentivi è la cabina primaria. Si tratta dell’impianto di trasformazione che collega la rete di alta tensione a quella di media tensione e che alimenta una porzione di territorio; tutte le utenze e gli impianti collegati alla rete a valle di quella cabina si dicono sottesi alla stessa cabina primaria. Per ottenere la tariffa premio sull’energia condivisa, l’impianto di produzione e i consumatori con cui l’energia viene condivisa devono essere sottesi alla medesima cabina. Il Gestore dei servizi energetici pubblica una mappa interattiva che consente di individuare le aree di ciascuna cabina; la verifica puntuale si effettua con il codice del punto di prelievo di ogni partecipante, riportato in bolletta. Una comunità energetica può comprendere membri collegati a cabine diverse, ma l’energia condivisa incentivata si calcola separatamente per ciascuna cabina. Occorre inoltre considerare che i confini delle cabine non coincidono con quelli amministrativi: Comuni diversi possono ricadere nella stessa cabina e uno stesso Comune può essere servito da più cabine. Per questo la verifica della cabina primaria è il primo controllo da eseguire quando si raccolgono le adesioni dei futuri membri e si valuta la collocazione degli impianti."
+  },
+  {
+   "t": "testo",
+   "tit": "Requisiti degli impianti",
+   "lead": "Non ogni impianto può accedere agli incentivi della comunità: il decreto stabilisce requisiti di potenza, di data e di nuova realizzazione.",
+   "punti": [
+    "Impianti alimentati da fonti rinnovabili, di potenza singola non superiore a 1 MW",
+    "Impianti nuovi o potenziamenti, entrati in esercizio dopo l’entrata in vigore del D.lgs. 199/2021",
+    "Impianti nella disponibilità della comunità, anche di proprietà di un produttore terzo",
+    "Rispetto dei requisiti costruttivi e di tutela ambientale previsti dalle regole operative",
+    "Gli impianti già esistenti possono partecipare con limiti, senza tariffa premio sulla loro energia"
+   ],
+   "appro": "Per gli impianti realizzati prima della costituzione della comunità è essenziale che la loro entrata in esercizio sia successiva alla costituzione o che ricorrano le condizioni previste dalle regole operative: la sequenza delle date va pianificata.",
+   "rif": "D.lgs. 199/2021, art. 31 · D.M. 414/2023 · Regole operative del GSE",
+   "nar": "Non ogni impianto può accedere agli incentivi previsti per le configurazioni di autoconsumo diffuso. Il decreto legislativo centonovantanove e il decreto ministeriale quattrocentoquattordici stabiliscono requisiti precisi. Gli impianti devono essere alimentati da fonti rinnovabili, con una potenza singola non superiore a un megawatt. Devono essere impianti nuovi o potenziamenti di impianti esistenti, limitatamente alla potenza aggiunta, entrati in esercizio dopo l’entrata in vigore del decreto legislativo centonovantanove del duemilaventuno. Gli impianti devono essere nella disponibilità della comunità: possono essere di sua proprietà oppure di un produttore terzo che li mette a disposizione, anche ricevendo un corrispettivo. Devono inoltre rispettare i requisiti costruttivi e di tutela ambientale previsti dalle regole operative del Gestore dei servizi energetici. Gli impianti già esistenti al momento dell’entrata in vigore del decreto possono partecipare alla configurazione entro determinati limiti, ma la loro energia non dà diritto alla tariffa premio. Un aspetto delicato riguarda la sequenza temporale: le regole operative stabiliscono condizioni sulla relazione tra la data di entrata in esercizio dell’impianto e quella di costituzione della comunità. Per questo la pianificazione delle date è parte integrante della progettazione di una configurazione."
+  }
+ ]
+}

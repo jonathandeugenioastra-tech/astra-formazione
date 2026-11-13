@@ -1,0 +1,35 @@
+{
+ "dopo": "Sanzioni per le emissioni in atmosfera",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Rapporti con il territorio e gestione delle segnalazioni",
+   "lead": "Lo stabilimento convive con residenti e altre attività: la gestione trasparente delle segnalazioni previene conflitti e contenziosi.",
+   "punti": [
+    "Canale dedicato per ricevere segnalazioni su odori, fumi o polveri, con registrazione di data, ora e luogo",
+    "Verifica delle condizioni di esercizio e meteorologiche al momento dell’evento",
+    "Risposta motivata al segnalante e, se necessario, comunicazione all’autorità",
+    "Azioni correttive documentate e verifica della loro efficacia",
+    "Comunicazione periodica dei risultati ambientali, ad esempio in un rendiconto di sostenibilità"
+   ],
+   "appro": "Una segnalazione registrata e analizzata è un dato utile per migliorare: incrociando data, ora e direzione del vento si individua spesso la sorgente reale.",
+   "rif": "D.lgs. 152/2006, art. 272-bis · UNI EN ISO 14001, punto 7.4",
+   "nar": "Lo stabilimento convive con residenti e altre attività del territorio, e la percezione delle sue emissioni, soprattutto odori, fumi visibili e polveri, influisce sui rapporti con la comunità. La gestione trasparente delle segnalazioni previene conflitti e contenziosi. È utile predisporre un canale dedicato per ricevere le segnalazioni, registrando per ciascuna la data, l’ora, il luogo e la descrizione del fenomeno. Ogni segnalazione va verificata confrontandola con le condizioni di esercizio degli impianti e con le condizioni meteorologiche al momento dell’evento, in particolare la direzione e la velocità del vento. Incrociando questi dati si individua spesso la sorgente reale, che può essere lo stabilimento ma anche un’attività vicina. Al segnalante va fornita una risposta motivata, e quando l’evento è riconducibile a un’anomalia dello stabilimento, va valutata la necessità di comunicarlo all’autorità. Le azioni correttive vanno documentate e la loro efficacia verificata nel tempo. La comunicazione periodica dei risultati ambientali, ad esempio in un rendiconto di sostenibilità o in incontri pubblici, rafforza la fiducia. I sistemi di gestione ambientale richiedono proprio di stabilire processi di comunicazione esterna: una segnalazione registrata e analizzata diventa un dato utile per migliorare."
+  },
+  {
+   "t": "testo",
+   "tit": "Sintesi operativa: le verifiche essenziali",
+   "lead": "Un controllo periodico interno, strutturato su poche domande, consente di verificare lo stato di conformità dello stabilimento.",
+   "punti": [
+    "Tutte le sorgenti sono censite e coperte da autorizzazione, deroga o autorizzazione generale?",
+    "Le modifiche degli ultimi dodici mesi sono state qualificate e comunicate?",
+    "Gli autocontrolli sono eseguiti, rappresentativi, conformi e trasmessi nei termini?",
+    "I sistemi di abbattimento sono manutenuti, i parametri registrati, i guasti comunicati entro otto ore?",
+    "Soglie, piano dei solventi, scadenza dell’autorizzazione e formazione del personale sono sotto controllo?"
+   ],
+   "appro": "Le cinque domande possono costituire la traccia di un audit interno semestrale, con evidenze documentali per ogni risposta.",
+   "rif": "D.lgs. 152/2006, Parte V · UNI EN ISO 19011",
+   "nar": "Al termine del percorso è utile riassumere le verifiche essenziali in un controllo periodico interno, strutturato su poche domande. La prima riguarda il campo di applicazione: tutte le sorgenti di emissione dello stabilimento sono censite e coperte da un’autorizzazione, da un regime in deroga o da un’autorizzazione generale? La seconda riguarda le modifiche: gli interventi degli ultimi dodici mesi su impianti, processi e prodotti sono stati qualificati come sostanziali o non sostanziali e comunicati o autorizzati? La terza riguarda gli autocontrolli: sono stati eseguiti con la frequenza prescritta, in condizioni rappresentative, con risultati conformi e trasmessi nei termini? La quarta riguarda i sistemi di abbattimento: sono manutenuti secondo il piano, i parametri di funzionamento sono registrati e i guasti sono stati comunicati entro otto ore? La quinta riguarda gli aspetti gestionali: il rispetto delle soglie dei regimi semplificati, il piano di gestione dei solventi, la scadenza dell’autorizzazione e la formazione del personale sono sotto controllo? Queste cinque domande possono costituire la traccia di un audit interno semestrale, condotto secondo le linee guida per gli audit dei sistemi di gestione, con evidenze documentali per ogni risposta e azioni correttive per ogni carenza rilevata."
+  }
+ ]
+}

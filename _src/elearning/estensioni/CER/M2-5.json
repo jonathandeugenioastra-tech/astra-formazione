@@ -1,0 +1,79 @@
+{
+ "dopo": "Gli errori più frequenti nella progettazione",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Esempio applicativo: una comunità promossa da un Comune",
+   "lead": "Un piccolo Comune promuove una comunità con impianti sulle coperture pubbliche e l’adesione di famiglie, attività commerciali e una scuola.",
+   "punti": [
+    "Impianti: 120 kWp sul polo scolastico e 60 kWp sul magazzino comunale, nella stessa cabina primaria",
+    "Membri: Comune, scuola, 80 famiglie, 12 attività commerciali, una parrocchia",
+    "Consumi diurni della scuola e delle attività commerciali: buona condivisione nei giorni feriali",
+    "Riparto: remunerazione degli impianti, quote ai membri, fondo per famiglie in difficoltà",
+    "Criticità: estate con scuola chiusa e minore condivisione; da compensare con nuove adesioni"
+   ],
+   "appro": "L’esempio è didattico: le scelte reali dipendono dai dati orari dei membri, dalle regole della contrattualistica pubblica e dalla disciplina vigente degli incentivi.",
+   "rif": "D.lgs. 199/2021 · D.M. 414/2023 · D.lgs. 36/2023",
+   "nar": "Si propone un esempio applicativo. Un piccolo Comune decide di promuovere una comunità energetica rinnovabile, realizzando due impianti fotovoltaici sulle coperture pubbliche: centoventi chilowatt di picco sul polo scolastico e sessanta chilowatt sul magazzino comunale, entrambi sottesi alla stessa cabina primaria. Aderiscono il Comune, la scuola, ottanta famiglie, dodici attività commerciali e la parrocchia. La scuola e le attività commerciali hanno consumi concentrati nelle ore diurne dei giorni feriali e garantiscono una buona condivisione dell’energia prodotta. Il regolamento interno prevede tre destinazioni dei benefici: la remunerazione degli impianti realizzati dal Comune, le quote ai membri in proporzione al contributo orario alla condivisione e un fondo destinato alle famiglie in difficoltà economica. L’analisi evidenzia però una criticità: nei mesi estivi la scuola è chiusa proprio quando la produzione è massima, e la condivisione si riduce. Per compensare, la comunità promuove l’adesione di attività con consumi estivi, come strutture turistiche e attività artigianali. L’esempio è didattico: le scelte reali dipendono dai dati orari dei membri, dalle regole della contrattualistica pubblica per le scelte del Comune e dalla disciplina vigente degli incentivi."
+  },
+  {
+   "t": "testo",
+   "tit": "Esempio applicativo: una comunità in un’area industriale",
+   "lead": "In una zona industriale più piccole e medie imprese costituiscono una comunità sfruttando le coperture dei capannoni.",
+   "punti": [
+    "Membri: PMI della zona industriale; le grandi imprese possono mettere impianti a disposizione come produttori terzi",
+    "Elevata coincidenza tra produzione diurna e consumi delle lavorazioni",
+    "Rischio: superamento della soglia di condivisione oltre la quale la tariffa eccedente va a consumatori diversi dalle imprese",
+    "Soluzione: coinvolgere famiglie ed enti del territorio o prevedere finalità sociali",
+    "Attenzione al periodo di chiusura estiva delle imprese"
+   ],
+   "appro": "Le comunità composte prevalentemente da imprese condividono molta energia, ma devono rispettare il vincolo di destinazione della tariffa eccedente previsto dal decreto.",
+   "rif": "D.lgs. 199/2021, art. 31 · D.M. 414/2023",
+   "nar": "Si consideri un secondo esempio applicativo: in una zona industriale, diverse piccole e medie imprese costituiscono una comunità energetica rinnovabile sfruttando le ampie coperture dei capannoni. Le piccole e medie imprese sono membri ammessi; una grande impresa della zona, che non può essere membro con poteri di controllo, mette a disposizione un proprio impianto come produttore terzo, ricevendo un corrispettivo. La coincidenza tra la produzione fotovoltaica diurna e i consumi delle lavorazioni è elevata, e l’energia condivisa risulta una quota molto alta della produzione. Proprio questo elemento comporta un rischio: se l’energia condivisa supera la soglia del cinquantacinque per cento dell’energia immessa, la quota di tariffa relativa all’eccedenza deve essere destinata esclusivamente a consumatori diversi dalle imprese o a finalità sociali. La comunità può gestire questa situazione coinvolgendo famiglie ed enti del territorio, ad esempio i residenti delle aree vicine, oppure prevedendo nel regolamento destinazioni sociali per la quota eccedente. Un ulteriore aspetto da considerare è il periodo di chiusura estiva delle imprese, che coincide con la massima produzione: senza membri con consumi in quel periodo, la condivisione di agosto può ridursi drasticamente."
+  },
+  {
+   "t": "testo",
+   "tit": "Diritti dei membri come clienti finali",
+   "lead": "La partecipazione a una configurazione non limita i diritti dei membri come clienti del sistema elettrico.",
+   "punti": [
+    "Ciascun membro mantiene il proprio contratto di fornitura e la libera scelta del venditore",
+    "Diritto di uscire dalla configurazione con le modalità stabilite dallo statuto e dal regolamento",
+    "Tutele dei clienti finali previste dalla regolazione ARERA, comprese quelle per i clienti vulnerabili",
+    "Diritto a informazioni chiare su benefici, costi e trattamento dei dati",
+    "Trattamento dei dati di consumo nel rispetto del Reg. (UE) 2016/679"
+   ],
+   "appro": "I dati orari di consumo rivelano abitudini e presenze: il loro trattamento richiede base giuridica, informativa e misure di sicurezza adeguate.",
+   "rif": "D.lgs. 199/2021, art. 31 · Reg. (UE) 2016/679",
+   "nar": "La partecipazione a una comunità energetica o a un’altra configurazione di autoconsumo diffuso non limita i diritti dei membri come clienti del sistema elettrico. Ciascun membro mantiene il proprio contratto di fornitura con il venditore che ha scelto e può cambiarlo liberamente, perché la condivisione avviene in modo virtuale e non interferisce con la fornitura. Il membro ha il diritto di uscire dalla configurazione con le modalità stabilite dallo statuto e dal regolamento, che possono prevedere un preavviso e, nei casi previsti, un corrispettivo equo e proporzionato. Restano applicabili le tutele dei clienti finali previste dalla regolazione dell’ARERA, comprese quelle per i clienti vulnerabili. I membri hanno inoltre diritto a informazioni chiare sui benefici attesi, sui costi a carico della comunità e sul trattamento dei propri dati. Quest’ultimo aspetto merita attenzione: i dati orari di consumo rivelano abitudini e presenze nelle abitazioni e costituiscono dati personali. Il loro trattamento, necessario per il calcolo dell’energia condivisa e per il riparto dei benefici, richiede una base giuridica, un’informativa ai membri e misure di sicurezza adeguate, nel rispetto del regolamento europeo sulla protezione dei dati personali."
+  },
+  {
+   "t": "testo",
+   "tit": "Verifiche del GSE e decadenza dagli incentivi",
+   "lead": "Il GSE verifica i requisiti in fase di accesso e durante il periodo di incentivazione; le irregolarità possono comportare la decadenza.",
+   "punti": [
+    "Verifica documentale all’accesso: statuto, membri, impianti, date, cabina primaria",
+    "Controlli successivi, anche con sopralluoghi sugli impianti",
+    "Obbligo di comunicare tempestivamente variazioni di membri, impianti e referente",
+    "Violazioni rilevanti: decadenza dagli incentivi e recupero delle somme erogate",
+    "Conservazione ordinata della documentazione per tutta la durata dell’incentivo"
+   ],
+   "appro": "Molte contestazioni nascono da comunicazioni omesse o tardive, più che da irregolarità sostanziali: una gestione amministrativa accurata è parte integrante del progetto.",
+   "rif": "D.M. 414/2023 · Regole operative del GSE · disciplina dei controlli del GSE",
+   "nar": "Il Gestore dei servizi energetici verifica il rispetto dei requisiti sia in fase di accesso agli incentivi sia durante l’intero periodo di incentivazione. All’accesso esegue una verifica documentale dello statuto, della compagine dei membri, delle caratteristiche degli impianti, delle date rilevanti e dell’appartenenza alla cabina primaria. Durante il periodo di incentivazione può svolgere controlli successivi, anche con sopralluoghi presso gli impianti. Il referente della configurazione ha l’obbligo di comunicare tempestivamente le variazioni dei membri, degli impianti e dello stesso referente, nei tempi stabiliti dalle regole operative. Le violazioni rilevanti, come la mancanza dei requisiti dichiarati o la presentazione di dati non veritieri, possono comportare la decadenza dagli incentivi e il recupero delle somme già erogate, oltre alle eventuali ulteriori conseguenze previste dalla legge. L’esperienza mostra che molte contestazioni nascono da comunicazioni omesse o tardive, più che da irregolarità sostanziali. La documentazione deve quindi essere conservata in modo ordinato per tutta la durata dell’incentivo: atti costitutivi, verbali, adesioni e recessi, titoli abilitativi, documenti di connessione, comunicazioni con il Gestore. Una gestione amministrativa accurata è parte integrante del successo di una comunità, al pari della progettazione tecnica."
+  },
+  {
+   "t": "caso",
+   "tit": "Caso di studio · Il membro fuori cabina",
+   "scena": "Una comunità ha costituito l’associazione e raccolto 40 adesioni. Al momento della richiesta al GSE risulta che 12 famiglie sono collegate a una cabina primaria diversa da quella dell’unico impianto.",
+   "domanda": "Qual è la conseguenza corretta?",
+   "opz": [
+    ["Le 12 famiglie devono essere escluse dalla comunità", false, "No: possono restare membri, ma non generano energia condivisa incentivata con quell’impianto."],
+    ["Restano membri, ma i loro prelievi non contribuiscono all’energia condivisa incentivata con l’impianto di un’altra cabina", true, "Corretto: l’incentivo si calcola per cabina primaria."],
+    ["Il GSE calcola comunque l’incentivo su tutti i membri", false, "No: il perimetro della cabina primaria è un requisito."]
+   ],
+   "rif": "D.M. 414/2023 · Regole operative del GSE",
+   "appro": "La verifica della cabina primaria va eseguita con il codice POD di ciascun aderente prima della costituzione; nuovi impianti nella seconda cabina permetterebbero di valorizzare anche quei membri.",
+   "nar": "Caso di studio. Al momento della richiesta al Gestore dei servizi energetici, dodici famiglie di una comunità risultano collegate a una cabina primaria diversa da quella dell’unico impianto. Si individui la conseguenza corretta."
+  }
+ ]
+}

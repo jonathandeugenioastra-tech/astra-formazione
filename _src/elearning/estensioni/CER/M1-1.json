@@ -1,0 +1,110 @@
+{
+ "dopo": "L’impianto fotovoltaico: elementi essenziali",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "La radiazione solare e la producibilità",
+   "lead": "L’energia prodotta da un impianto dipende dalla radiazione solare disponibile nel sito e dall’orientamento dei moduli.",
+   "punti": [
+    "Irraggiamento: potenza solare per unità di superficie, in condizioni di cielo sereno vicina a 1.000 W/m² a mezzogiorno",
+    "Irradiazione: energia raccolta in un periodo, espressa in kWh/m² al giorno o all’anno",
+    "In Italia l’orientamento ottimale è verso sud, con inclinazione indicativamente tra 25° e 35°",
+    "Orientamenti est-ovest producono meno in totale ma distribuiscono meglio la produzione nella giornata",
+    "Strumento di stima: PVGIS della Commissione europea, con dati climatici del sito"
+   ],
+   "appro": "Per l’autoconsumo non conta solo l’energia annua: un impianto orientato a est-ovest può coprire meglio i consumi del mattino e del pomeriggio di un’attività produttiva.",
+   "rif": "PVGIS – Commissione europea, Centro comune di ricerca",
+   "nar": "L’energia prodotta da un impianto fotovoltaico dipende innanzitutto dalla radiazione solare disponibile nel sito. Occorre distinguere due grandezze. L’irraggiamento è la potenza solare che incide sull’unità di superficie, misurata in watt per metro quadrato: in condizioni di cielo sereno, a mezzogiorno, si avvicina a mille watt per metro quadrato, valore assunto come riferimento per le prove dei moduli. L’irradiazione è invece l’energia raccolta in un certo periodo, espressa in chilowattora per metro quadrato al giorno o all’anno, ed è la grandezza da cui dipende la produzione annua. Alle latitudini italiane l’orientamento che massimizza la produzione è verso sud, con un’inclinazione indicativamente compresa tra venticinque e trentacinque gradi. Orientamenti diversi comportano una riduzione della produzione totale, ma possono essere vantaggiosi: un impianto con falde esposte a est e a ovest produce meno nell’arco dell’anno, ma distribuisce meglio la produzione nella giornata, coprendo i consumi del mattino e del tardo pomeriggio. Per stimare la producibilità di un sito si utilizza comunemente PVGIS, lo strumento del Centro comune di ricerca della Commissione europea, che impiega dati climatici storici e consente di simulare orientamenti, inclinazioni e perdite di sistema."
+  },
+  {
+   "t": "testo",
+   "tit": "Celle e moduli: tecnologie e prestazioni",
+   "lead": "Il modulo fotovoltaico è formato da celle di silicio collegate in serie e protette da vetro, incapsulante e cornice.",
+   "punti": [
+    "Silicio monocristallino: tecnologia prevalente, con varianti ad alta efficienza (PERC, TOPCon, eterogiunzione)",
+    "Efficienza dei moduli commerciali: indicativamente intorno al 20–23%",
+    "Moduli bifacciali: producono anche dal lato posteriore, utili su superfici chiare o strutture sollevate",
+    "Potenza nominale (Wp) misurata in condizioni standard: 1.000 W/m², 25 °C, spettro AM 1,5",
+    "Degrado: perdita di prestazioni nel tempo, garantita dai costruttori con valori annui contenuti"
+   ],
+   "appro": "La potenza di picco è un valore di laboratorio: in esercizio i moduli lavorano a temperature più elevate e con irraggiamenti variabili, per cui la potenza istantanea è normalmente inferiore.",
+   "rif": "Norme CEI EN 61215 e CEI EN 61730 (qualificazione e sicurezza dei moduli)",
+   "nar": "Il modulo fotovoltaico è costituito da celle di silicio collegate elettricamente in serie e protette da un vetro frontale, da un materiale incapsulante, da un foglio posteriore o da un secondo vetro e da una cornice. La tecnologia oggi prevalente è il silicio monocristallino, con diverse varianti ad alta efficienza, indicate con sigle come PERC, TOPCon ed eterogiunzione, che differiscono per la struttura della cella. L’efficienza dei moduli commerciali, cioè la quota della radiazione incidente convertita in energia elettrica, è indicativamente compresa tra il venti e il ventitré per cento. I moduli bifacciali producono energia anche dal lato posteriore, sfruttando la luce riflessa dal suolo o dalla copertura: sono vantaggiosi su superfici chiare o su strutture sollevate. La potenza nominale, espressa in watt di picco, è misurata in condizioni standard di prova: irraggiamento di mille watt per metro quadrato, temperatura della cella di venticinque gradi e spettro solare di riferimento. In esercizio i moduli lavorano a temperature più elevate e con irraggiamenti variabili, per cui la potenza istantanea è normalmente inferiore a quella di picco. Nel tempo le prestazioni si riducono lentamente per effetto del degrado, che i costruttori garantiscono entro valori annui contenuti. I moduli devono essere qualificati secondo le norme tecniche di prestazione e di sicurezza."
+  },
+  {
+   "t": "testo",
+   "tit": "L’inverter e la gestione dell’energia",
+   "lead": "L’inverter converte la corrente continua dei moduli in corrente alternata e gestisce il punto di lavoro dell’impianto.",
+   "punti": [
+    "Conversione da corrente continua ad alternata, sincronizzata con la rete",
+    "Inseguimento del punto di massima potenza (MPPT) al variare di irraggiamento e temperatura",
+    "Configurazioni: inverter di stringa, centralizzati, microinverter od ottimizzatori sui singoli moduli",
+    "Protezioni di interfaccia: distacco dalla rete in caso di anomalie, secondo le regole tecniche di connessione",
+    "Monitoraggio: dati di produzione e allarmi, base per la manutenzione"
+   ],
+   "appro": "Ottimizzatori e microinverter riducono l’effetto di ombreggiamenti parziali e di moduli con orientamenti diversi, a fronte di un costo maggiore e di più componenti da manutenere.",
+   "rif": "Norme CEI 0-21 e CEI 0-16 · CEI EN 62109",
+   "nar": "L’inverter è il componente che converte la corrente continua prodotta dai moduli in corrente alternata, sincronizzata con la rete elettrica, ed è in un certo senso il cervello dell’impianto. Una delle sue funzioni principali è l’inseguimento del punto di massima potenza: poiché la potenza erogata dai moduli varia con l’irraggiamento e la temperatura, l’inverter adegua continuamente tensione e corrente di lavoro per estrarre la massima potenza disponibile. Esistono diverse configurazioni. Gli inverter di stringa ricevono più stringhe di moduli collegati in serie e sono la soluzione più diffusa negli impianti su edifici. Gli inverter centralizzati sono impiegati negli impianti di grande taglia. I microinverter, montati su ciascun modulo, e gli ottimizzatori di potenza consentono di gestire separatamente i singoli moduli, riducendo le perdite dovute a ombreggiamenti parziali o a moduli con orientamenti diversi, a fronte di un costo maggiore e di un numero più elevato di componenti. L’inverter integra inoltre le protezioni di interfaccia, che distaccano l’impianto dalla rete in caso di anomalie secondo le regole tecniche di connessione, e fornisce i dati di monitoraggio della produzione e gli allarmi, che costituiscono la base per una manutenzione efficace."
+  },
+  {
+   "t": "testo",
+   "tit": "Perdite di sistema e rendimento complessivo",
+   "lead": "Tra l’energia teoricamente disponibile e quella effettivamente prodotta intervengono numerose perdite, sintetizzate dal rendimento di sistema.",
+   "punti": [
+    "Temperatura: la potenza dei moduli diminuisce all’aumentare della temperatura delle celle",
+    "Ombreggiamenti e sporcamento: riducono la radiazione utile, anche in modo sproporzionato",
+    "Perdite nei cavi, nell’inverter e per disaccoppiamento tra moduli",
+    "Indice di prestazione (Performance Ratio): rapporto tra energia prodotta e energia teorica",
+    "Nei sistemi ben progettati il rendimento complessivo si colloca indicativamente tra il 75% e l’85%"
+   ],
+   "appro": "Un’ombra su poche celle può ridurre la produzione dell’intera stringa: per questo il rilievo degli ostacoli (camini, antenne, alberi, edifici) è una fase essenziale del progetto.",
+   "rif": "CEI EN 61724-1 (monitoraggio delle prestazioni)",
+   "nar": "Tra l’energia solare teoricamente disponibile e quella effettivamente immessa nell’impianto elettrico intervengono numerose perdite. La prima è dovuta alla temperatura: la potenza dei moduli diminuisce all’aumentare della temperatura delle celle, che nelle giornate estive può superare ampiamente quella dell’aria; per questo una buona ventilazione posteriore dei moduli migliora la produzione. La seconda riguarda gli ombreggiamenti e lo sporcamento: un’ombra che interessa poche celle può ridurre in modo sproporzionato la produzione dell’intera stringa, mentre polvere, foglie e depositi riducono la radiazione utile. Si aggiungono le perdite nei cavi, nella conversione dell’inverter e per il disaccoppiamento tra moduli con caratteristiche leggermente diverse. L’insieme di queste perdite è sintetizzato dall’indice di prestazione, in inglese performance ratio, definito come rapporto tra l’energia effettivamente prodotta e quella che l’impianto avrebbe prodotto in condizioni ideali con la stessa radiazione. Nei sistemi ben progettati e mantenuti questo indice si colloca indicativamente tra il settantacinque e l’ottantacinque per cento. Il suo monitoraggio nel tempo permette di individuare anomalie, come stringhe guaste o sporcamento eccessivo. Il rilievo accurato degli ostacoli presenti sulla copertura e nei dintorni è quindi una fase essenziale della progettazione."
+  },
+  {
+   "t": "testo",
+   "tit": "Dimensionare l’impianto sui consumi",
+   "lead": "Il dimensionamento corretto parte dall’analisi dei consumi orari, non dalla superficie disponibile.",
+   "punti": [
+    "Dati orari o quartorari di prelievo: disponibili dal distributore, anche tramite il portale dei consumi",
+    "Profilo di carico: giorni feriali e festivi, stagionalità, turni di lavoro",
+    "Confronto ora per ora tra produzione stimata e prelievi: quota autoconsumata e quota immessa",
+    "Un impianto sovradimensionato immette molta energia a valore inferiore; uno sottodimensionato lascia risparmi non sfruttati",
+    "Considerare l’evoluzione dei consumi: elettrificazione di calore e mobilità, ampliamenti"
+   ],
+   "appro": "Con l’autoconsumo diffuso l’energia immessa non è più necessariamente un sottoprodotto: se condivisa in una configurazione incentivata, anche un impianto più grande dei consumi propri può risultare conveniente.",
+   "rif": "D.lgs. 199/2021 · TIAD ARERA",
+   "nar": "Il dimensionamento corretto di un impianto fotovoltaico parte dall’analisi dei consumi, non dalla superficie disponibile sulla copertura. Il primo passo è ottenere i dati di prelievo orari o quartorari, che il distributore rende disponibili anche attraverso il portale dei consumi. Questi dati permettono di ricostruire il profilo di carico: la differenza tra giorni feriali e festivi, l’andamento stagionale, l’effetto dei turni di lavoro e dei periodi di chiusura. Il secondo passo è il confronto, ora per ora, tra la produzione stimata dell’impianto e i prelievi: la quota di produzione che coincide con i consumi è autoconsumata e vale il costo evitato dell’energia acquistata, mentre la quota eccedente viene immessa in rete. Un impianto sovradimensionato rispetto ai consumi immette una quota elevata di energia, valorizzata a un prezzo inferiore; un impianto sottodimensionato lascia invece risparmi non sfruttati. Occorre inoltre considerare l’evoluzione dei consumi: l’elettrificazione del riscaldamento con pompe di calore, la mobilità elettrica e gli ampliamenti produttivi possono aumentare i prelievi negli anni. Con le configurazioni di autoconsumo diffuso, infine, l’energia immessa può essere condivisa e incentivata: in questi casi anche un impianto più grande dei consumi propri può risultare conveniente."
+  },
+  {
+   "t": "testo",
+   "tit": "Indicatori: autoconsumo e autosufficienza",
+   "lead": "Due indicatori distinti descrivono il rapporto tra impianto e consumi e vanno sempre letti insieme.",
+   "punti": [
+    "Quota di autoconsumo: energia autoconsumata diviso energia prodotta",
+    "Quota di autosufficienza: energia autoconsumata diviso energia consumata",
+    "Un impianto piccolo ha alta quota di autoconsumo ma bassa autosufficienza",
+    "Un impianto grande ha alta autosufficienza ma bassa quota di autoconsumo",
+    "L’accumulo e lo spostamento dei carichi aumentano entrambi gli indicatori"
+   ],
+   "appro": "Spostare i carichi programmabili nelle ore di produzione, come lavaggi, ricariche di veicoli elettrici o produzione di acqua calda, è spesso la misura più economica per aumentare l’autoconsumo.",
+   "rif": "CEI EN 61724-1 · prassi di analisi energetica",
+   "nar": "Il rapporto tra un impianto fotovoltaico e i consumi del sito è descritto da due indicatori distinti, che vanno sempre letti insieme. La quota di autoconsumo è il rapporto tra l’energia autoconsumata e l’energia prodotta: indica quanta parte della produzione viene utilizzata direttamente nel sito. La quota di autosufficienza è il rapporto tra l’energia autoconsumata e l’energia consumata: indica quanta parte del fabbisogno viene coperta dall’impianto. I due indicatori variano in modo opposto con la taglia dell’impianto. Un impianto piccolo rispetto ai consumi ha una quota di autoconsumo molto elevata, perché quasi tutta la produzione viene utilizzata, ma una bassa autosufficienza. Un impianto grande ha un’autosufficienza elevata, ma una quota di autoconsumo più bassa, perché una parte rilevante della produzione viene immessa in rete. Esistono misure che aumentano entrambi gli indicatori. La prima è l’accumulo, che sposta l’energia prodotta di giorno verso le ore serali. La seconda, spesso la più economica, è lo spostamento dei carichi programmabili nelle ore di produzione: lavaggi, ricarica dei veicoli elettrici, produzione di acqua calda con pompe di calore, cicli di lavorazione differibili. Un’analisi dei carichi può quindi migliorare il risultato economico senza modificare l’impianto."
+  },
+  {
+   "t": "testo",
+   "tit": "I sistemi di accumulo elettrochimico",
+   "lead": "Le batterie aumentano l’autoconsumo, ma la loro convenienza va valutata caso per caso.",
+   "punti": [
+    "Tecnologia prevalente: litio ferro fosfato (LFP), per sicurezza e durata in cicli",
+    "Capacità utile (kWh) e potenza (kW): da dimensionare sull’eccedenza giornaliera e sui consumi serali",
+    "Rendimento di ciclo: una parte dell’energia accumulata si perde nella carica e scarica",
+    "Durata: espressa in numero di cicli e anni, con riduzione progressiva della capacità",
+    "Requisiti di sicurezza e di installazione: locale idoneo, ventilazione, prevenzione incendi"
+   ],
+   "appro": "Nelle attività con consumi concentrati nelle ore diurne l’accumulo aggiunge poco; è più utile dove i consumi serali sono rilevanti o dove serve continuità di alimentazione.",
+   "rif": "CEI 0-21, allegati sui sistemi di accumulo · CEI EN 62619",
+   "nar": "I sistemi di accumulo elettrochimico permettono di immagazzinare l’energia prodotta in eccesso durante il giorno e di utilizzarla nelle ore serali o notturne, aumentando l’autoconsumo e l’autosufficienza. La tecnologia oggi prevalente negli impianti stazionari è quella al litio ferro fosfato, apprezzata per la sicurezza e la durata in termini di cicli. Il dimensionamento richiede due grandezze: la capacità utile, in chilowattora, da commisurare all’energia eccedente nelle giornate tipiche e ai consumi serali, e la potenza, in chilowatt, che determina la velocità di carica e scarica. Occorre considerare il rendimento di ciclo, perché una parte dell’energia accumulata si perde nei processi di carica e scarica, e la durata, espressa in numero di cicli e in anni, durante i quali la capacità si riduce progressivamente. L’installazione deve rispettare requisiti di sicurezza: un locale idoneo, un’adeguata ventilazione, le distanze e le misure di prevenzione incendi indicate dal costruttore e dalle norme. La convenienza dell’accumulo va valutata caso per caso: nelle attività con consumi concentrati nelle ore diurne, che già autoconsumano gran parte della produzione, l’accumulo aggiunge poco; è invece più utile dove i consumi serali sono rilevanti, come nelle abitazioni, o dove è richiesta continuità di alimentazione."
+  }
+ ]
+}

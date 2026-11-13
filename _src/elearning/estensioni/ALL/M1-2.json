@@ -1,0 +1,95 @@
+{
+ "dopo": "Gli allergeni: le 14 sostanze dell’Allegato II",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Cereali contenenti glutine: contenuto ed esenzioni",
+   "lead": "La voce comprende grano, segale, orzo, avena e i loro ceppi ibridati, con i prodotti derivati.",
+   "punti": [
+    "Il grano comprende anche le specie farro e grano khorasan",
+    "Esenzione: sciroppi di glucosio a base di grano, incluso il destrosio",
+    "Esenzione: maltodestrine a base di grano e sciroppi di glucosio a base di orzo",
+    "Esenzione: cereali utilizzati per distillati alcolici, compreso l’alcol etilico di origine agricola",
+    "Nell’elenco degli ingredienti si evidenzia il nome del cereale specifico (ad esempio «farina di grano»), non il generico «glutine»"
+   ],
+   "appro": "Le esenzioni derivano da valutazioni scientifiche secondo cui i processi di raffinazione riducono la proteina allergenica a livelli che non comportano rischio per la maggior parte dei consumatori.",
+   "rif": "Reg. (UE) 1169/2011, Allegato II, punto 1 · art. 21",
+   "nar": "La prima voce dell’Allegato due riguarda i cereali contenenti glutine: grano, segale, orzo, avena e i loro ceppi ibridati, insieme ai prodotti derivati. La norma precisa che il grano comprende anche specie come il farro e il grano khorasan, spesso percepite dal consumatore come alternative, ma che contengono glutine. Il regolamento prevede alcune esenzioni, giustificate da valutazioni scientifiche secondo cui i processi di lavorazione riducono la proteina allergenica a livelli privi di rischio per la generalità dei consumatori. Sono esentati gli sciroppi di glucosio a base di grano, incluso il destrosio, le maltodestrine a base di grano, gli sciroppi di glucosio a base di orzo e i cereali utilizzati per la produzione di distillati alcolici, compreso l’alcol etilico di origine agricola. Le esenzioni vanno interpretate in modo restrittivo: riguardano soltanto i derivati espressamente indicati. Quanto alla modalità di indicazione, nell’elenco degli ingredienti si evidenzia il nome del cereale specifico, ad esempio farina di grano tenero o malto d’orzo, e non il termine generico glutine, perché il consumatore deve conoscere l’origine botanica dell’ingrediente. Un errore frequente nella ristorazione è dichiarare «contiene glutine» senza indicare il cereale: l’informazione è incompleta e non consente al consumatore allergico al grano, ma non celiaco, di valutare correttamente il prodotto."
+  },
+  {
+   "t": "testo",
+   "tit": "Prodotti della pesca: crostacei, molluschi, pesce",
+   "lead": "Crostacei, molluschi e pesce sono tre voci distinte dell’Allegato II, con allergeni e reazioni crociate differenti.",
+   "punti": [
+    "Crostacei (gamberi, scampi, granchi, aragoste) e molluschi (cozze, vongole, calamari, polpi) sono voci separate",
+    "Le reazioni crociate sono frequenti all’interno dello stesso gruppo, meno tra pesce e crostacei",
+    "Pesce, esenzione: gelatina di pesce come supporto per preparati di vitamine o carotenoidi",
+    "Pesce, esenzione: gelatina o colla di pesce (ittiocolla) usata come chiarificante nella birra e nel vino",
+    "Attenzione ai derivati nascosti: brodi, fumetti, salse di pesce, colatura, surimi, condimenti per pizze e primi"
+   ],
+   "appro": "Le proteine responsabili, come la tropomiosina nei crostacei e nei molluschi o la parvalbumina nel pesce, resistono alla cottura: un brodo o una salsa possono quindi provocare reazioni anche senza parti visibili dell’alimento.",
+   "rif": "Reg. (UE) 1169/2011, Allegato II, punti 2, 4 e 14",
+   "nar": "L’Allegato due considera i prodotti della pesca in tre voci distinte: i crostacei, come gamberi, scampi, granchi e aragoste; i molluschi, come cozze, vongole, ostriche, calamari e polpi; e il pesce. La distinzione è importante perché le proteine responsabili delle reazioni sono diverse. Nei crostacei e nei molluschi l’allergene principale è la tropomiosina, che spiega le frequenti reazioni crociate all’interno di questi gruppi; nel pesce prevale la parvalbumina. Una persona allergica al pesce può quindi tollerare i crostacei e viceversa, ma la valutazione spetta al medico, non all’esercente: l’informazione deve essere precisa per ciascuna voce. Per il pesce il regolamento prevede due esenzioni: la gelatina di pesce utilizzata come supporto per preparati di vitamine o carotenoidi, e la gelatina o colla di pesce, detta ittiocolla, impiegata come agente chiarificante nella birra e nel vino. Nella pratica la principale insidia è rappresentata dai derivati poco visibili: brodi e fumetti di pesce, salse a base di pesce, colatura di alici, surimi, condimenti per primi piatti e pizze. Queste proteine resistono alla cottura, per cui un fondo di cottura o una salsa possono provocare reazioni anche in assenza di parti riconoscibili dell’alimento. Ogni preparazione di base va quindi inserita nella matrice degli allergeni."
+  },
+  {
+   "t": "testo",
+   "tit": "Uova, latte e prodotti derivati",
+   "lead": "Uova e latte sono tra le cause più frequenti di allergia, soprattutto in età infantile, e sono presenti in moltissime preparazioni.",
+   "punti": [
+    "Uova: qualsiasi specie avicola e tutti i prodotti a base di uova, compresi albume e tuorlo in polvere",
+    "Latte: tutti i prodotti a base di latte, incluso il lattosio",
+    "Esenzioni per il latte: siero di latte usato per distillati alcolici e lattitolo",
+    "Usi nascosti: impasti, pastelle, panature, salse, gelati, glasse, pasta fresca, insaccati, lucidature dei prodotti da forno",
+    "Il caseinato e le proteine del latte vanno dichiarati con riferimento al latte (ad esempio «caseinato di sodio (latte)»)"
+   ],
+   "appro": "Lisozima ed emulsionanti derivati dall’uovo, come la lecitina d’uovo, sono ingredienti a base di uova e vanno evidenziati come tali.",
+   "rif": "Reg. (UE) 1169/2011, Allegato II, punti 3 e 7 · art. 21",
+   "nar": "Uova e latte sono, insieme, tra le cause più frequenti di allergia alimentare, in particolare nell’infanzia, e sono presenti in un numero molto ampio di preparazioni. La voce uova comprende i prodotti a base di uova di qualsiasi specie, inclusi l’albume e il tuorlo in polvere, e gli ingredienti che ne derivano, come il lisozima o la lecitina d’uovo. La voce latte comprende tutti i prodotti a base di latte, incluso il lattosio. Le esenzioni previste sono soltanto due: il siero di latte utilizzato per la produzione di distillati alcolici e il lattitolo. Il problema operativo principale riguarda gli usi nascosti. Le uova possono trovarsi in impasti, pastelle, panature, pasta fresca, salse emulsionate e nelle lucidature applicate ai prodotti da forno; il latte e i suoi derivati, come caseinati e proteine del siero, ricorrono in insaccati, preparati per purè, glasse, condimenti e prodotti da forno. Quando un ingrediente ha un nome tecnico che non richiama l’origine, la norma richiede di chiarirla: ad esempio caseinato di sodio seguito, tra parentesi, dalla parola latte, evidenziata. Nella ristorazione è essenziale che le basi di preparazione, come brodi, fondi e besciamelle, siano documentate con la stessa cura dei piatti finiti, perché sono la fonte più comune di omissioni nelle informazioni fornite al cliente."
+  },
+  {
+   "t": "testo",
+   "tit": "Arachidi e frutta a guscio",
+   "lead": "Arachidi e frutta a guscio possono provocare reazioni gravi anche a dosi minime e richiedono la massima cautela.",
+   "punti": [
+    "Le arachidi sono legumi e costituiscono una voce autonoma, distinta dalla frutta a guscio",
+    "Frutta a guscio: mandorle, nocciole, noci, anacardi, noci di pecan, noci del Brasile, pistacchi, noci macadamia",
+    "Esenzione: frutta a guscio utilizzata per distillati alcolici, compreso l’alcol etilico di origine agricola",
+    "Si indica il frutto specifico (ad esempio «granella di nocciole»), non il generico «frutta a guscio»",
+    "Fonti nascoste: pesti, pralinati, creme spalmabili, granelle di guarnizione, oli non raffinati, farine alternative"
+   ],
+   "appro": "Le polveri e le granelle si disperdono facilmente su superfici e utensili: la contaminazione crociata da frutta a guscio è tra le più difficili da controllare e va prevenuta con aree, utensili e contenitori dedicati.",
+   "rif": "Reg. (UE) 1169/2011, Allegato II, punti 5 e 8",
+   "nar": "Le arachidi e la frutta a guscio sono responsabili di una quota rilevante delle reazioni allergiche gravi e possono agire anche a dosi minime. L’Allegato due le considera in due voci distinte. Le arachidi, botanicamente, sono legumi e costituiscono una voce autonoma, insieme ai prodotti derivati. La frutta a guscio comprende invece un elenco chiuso: mandorle, nocciole, noci comuni, anacardi, noci di pecan, noci del Brasile, pistacchi e noci macadamia, insieme ai prodotti derivati. L’unica esenzione riguarda la frutta a guscio utilizzata per la produzione di distillati alcolici. Nell’indicazione degli ingredienti va riportato il frutto specifico, ad esempio granella di nocciole o farina di mandorle, perché molte persone sono allergiche solo ad alcune specie. Le fonti nascoste sono numerose: pesti, pralinati, creme spalmabili, decorazioni, granelle di guarnizione, oli non raffinati, farine alternative impiegate in prodotti senza glutine. Sotto il profilo della prevenzione, questi allergeni pongono un problema particolare perché polveri e frammenti si disperdono facilmente su superfici, utensili e confezioni. Per questo è raccomandato l’uso di aree, utensili e contenitori dedicati, chiaramente identificati, e una programmazione delle lavorazioni che collochi le preparazioni con frutta a guscio al termine del ciclo, prima della pulizia."
+  },
+  {
+   "t": "testo",
+   "tit": "Soia, sedano, senape, sesamo e lupini",
+   "lead": "Cinque voci dell’Allegato II spesso sottovalutate perché presenti come ingredienti minori, aromi o additivi.",
+   "punti": [
+    "Soia, esenzioni: olio e grasso di soia completamente raffinati; tocoferoli naturali (E306) e loro derivati da soia",
+    "Soia, esenzioni: fitosteroli ed esteri di fitosterolo da oli vegetali di soia; esteri di stanolo vegetale da steroli di soia",
+    "Sedano e senape: frequenti in brodi, dadi, preparati per insaccati, salse, condimenti e miscele di spezie",
+    "Semi di sesamo: pane, prodotti da forno, salse orientali, oli; la contaminazione da semi è molto diffusa",
+    "Lupini: farine di lupino impiegate in prodotti da forno e in prodotti senza glutine"
+   ],
+   "appro": "Le miscele di spezie e gli aromi devono essere verificati sulla scheda tecnica del fornitore: un allergene presente in un ingrediente composto va dichiarato anche se in quantità minima.",
+   "rif": "Reg. (UE) 1169/2011, Allegato II, punti 6, 9, 10, 11 e 13",
+   "nar": "Alcune voci dell’Allegato due sono spesso sottovalutate perché ricorrono come ingredienti minori, aromi o additivi. La soia comprende i semi e i prodotti derivati, con esenzioni precise: l’olio e il grasso di soia completamente raffinati, i tocoferoli naturali misti e le forme naturali di alfa tocoferolo ottenute dalla soia, i fitosteroli e gli esteri di fitosterolo derivati da oli vegetali di soia e gli esteri di stanolo vegetale prodotti da steroli di soia. La lecitina di soia, invece, non è esentata e va dichiarata. Il sedano e la senape compaiono frequentemente in brodi, dadi, preparati per insaccati, salse, condimenti e miscele di spezie, spesso senza che l’operatore ne sia consapevole. I semi di sesamo sono diffusi nei prodotti da forno, nelle salse di tradizione orientale e negli oli; la loro dispersione sulle superfici di lavoro è una causa comune di contaminazione crociata. I lupini, infine, sono legumi le cui farine vengono impiegate in prodotti da forno e in alternativa alle farine di frumento nei prodotti senza glutine, con possibili reazioni anche in soggetti allergici alle arachidi. Il messaggio operativo è chiaro: le miscele di spezie, gli aromi e i preparati vanno sempre verificati sulla scheda tecnica del fornitore, perché un allergene presente in un ingrediente composto va dichiarato anche in quantità minima."
+  },
+  {
+   "t": "testo",
+   "tit": "Come si evidenziano gli allergeni in etichetta",
+   "lead": "L’articolo 21 stabilisce il modo in cui le sostanze dell’Allegato II devono essere indicate negli alimenti preimballati.",
+   "punti": [
+    "Nell’elenco degli ingredienti, con riferimento alla denominazione della sostanza riportata nell’Allegato II",
+    "Evidenziazione con un carattere chiaramente distinto: tipo, stile o colore di sfondo",
+    "In assenza dell’elenco degli ingredienti: la parola «contiene» seguita dal nome della sostanza",
+    "Se più ingredienti derivano dalla stessa sostanza, l’indicazione va ripetuta per ciascuno",
+    "Non serve l’indicazione quando la denominazione dell’alimento fa chiaramente riferimento all’allergene"
+   ],
+   "appro": "Le informazioni obbligatorie devono avere un’altezza minima della «x» di 1,2 mm, ridotta a 0,9 mm per gli imballaggi la cui superficie maggiore è inferiore a 80 cm².",
+   "rif": "Reg. (UE) 1169/2011, artt. 13 e 21 · Allegato IV",
+   "nar": "L’articolo ventuno del regolamento milleseicentosessantanove stabilisce come le sostanze dell’Allegato due devono comparire sugli alimenti preimballati. La regola generale è che siano indicate nell’elenco degli ingredienti, con un riferimento chiaro alla denominazione della sostanza così come riportata nell’Allegato. L’indicazione deve essere evidenziata attraverso un tipo di carattere chiaramente distinto dagli altri ingredienti, ad esempio per dimensioni, stile o colore di sfondo; nella prassi si utilizzano il grassetto o il maiuscolo. Quando l’alimento non prevede un elenco degli ingredienti, come accade per alcune bevande, l’indicazione è costituita dalla parola «contiene» seguita dal nome della sostanza. Se più ingredienti o coadiuvanti derivano dalla stessa sostanza, l’etichettatura deve chiarirlo per ciascuno di essi. Non è invece necessaria alcuna indicazione aggiuntiva quando la denominazione dell’alimento fa chiaramente riferimento alla sostanza, come nel caso del latte o di un formaggio. Occorre infine ricordare che le informazioni obbligatorie devono essere leggibili: l’altezza minima della lettera x è di un millimetro e due decimi, ridotta a nove decimi di millimetro per gli imballaggi con superficie maggiore inferiore a ottanta centimetri quadrati. Un’evidenziazione corretta ma illeggibile non soddisfa l’obbligo."
+  }
+ ]
+}

@@ -1,0 +1,50 @@
+{
+ "dopo": "Prepararsi al controllo ufficiale",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Le autorità di controllo in Italia",
+   "lead": "Il controllo ufficiale sugli alimenti è svolto da più autorità, con competenze distinte e coordinate.",
+   "punti": [
+    "Ministero della salute: autorità competente centrale, coordinamento, allerta e richiami",
+    "Regioni e aziende sanitarie locali: controlli sugli esercizi e sugli stabilimenti del territorio",
+    "Carabinieri per la tutela della salute (NAS): controlli e attività di polizia giudiziaria",
+    "Ispettorato centrale repressione frodi (ICQRF): tutela della qualità e contrasto alle frodi commerciali",
+    "Il D.lgs. 27/2021 ha riorganizzato il sistema dei controlli ufficiali in applicazione del Reg. (UE) 2017/625"
+   ],
+   "appro": "Le sanzioni del D.lgs. 231/2017 sono irrogate dalle autorità competenti indicate dallo stesso decreto; i controlli possono avvenire senza preavviso.",
+   "rif": "Reg. (UE) 2017/625 · D.lgs. 27/2021 · D.lgs. 231/2017",
+   "nar": "Il controllo ufficiale sugli alimenti in Italia è svolto da più autorità, con competenze distinte e coordinate, secondo il regolamento seicentoventicinque del duemiladiciassette e il decreto legislativo ventisette del duemilaventuno, che ha riorganizzato il sistema nazionale. Il Ministero della salute è l’autorità competente centrale: coordina i controlli, gestisce i rapporti con il sistema di allerta europeo e pubblica gli avvisi di richiamo. Le Regioni e le aziende sanitarie locali svolgono i controlli sugli esercizi e sugli stabilimenti del proprio territorio, attraverso i servizi di igiene degli alimenti. I Carabinieri per la tutela della salute, noti come nuclei antisofisticazioni e sanità, svolgono controlli e attività di polizia giudiziaria. L’Ispettorato centrale della tutela della qualità e repressione frodi dei prodotti agroalimentari si occupa in particolare della qualità merceologica e del contrasto alle frodi commerciali, comprese quelle relative alle informazioni in etichetta. Le sanzioni previste dal decreto legislativo duecentotrentuno del duemiladiciassette sono irrogate dalle autorità indicate dallo stesso decreto. I controlli possono avvenire senza preavviso: per questo la documentazione sugli allergeni deve essere sempre disponibile e aggiornata, non predisposta all’ultimo momento."
+  },
+  {
+   "t": "testo",
+   "tit": "Le responsabilità civili e penali",
+   "lead": "Oltre alle sanzioni amministrative, un errore sugli allergeni che causa un danno alla salute può comportare responsabilità civile e penale.",
+   "punti": [
+    "Responsabilità civile: risarcimento del danno subito dal consumatore",
+    "Responsabilità penale: un danno alla salute derivante da colpa può integrare il reato di lesioni personali colpose",
+    "La colpa si valuta in base a negligenza, imprudenza, imperizia o inosservanza di leggi e regolamenti",
+    "Procedure documentate, formazione e verifiche dimostrano la diligenza dell’operatore",
+    "La responsabilità riguarda chi ha commesso l’errore e chi aveva il dovere di organizzare e vigilare"
+   ],
+   "appro": "In un procedimento, la documentazione del sistema di gestione degli allergeni è spesso l’elemento decisivo per valutare se l’evento fosse prevedibile ed evitabile.",
+   "rif": "Codice civile, artt. 2043 e 2050 · Codice penale, art. 590 · Reg. (CE) 178/2002, art. 17",
+   "nar": "Oltre alle sanzioni amministrative, un errore sugli allergeni che provoca un danno alla salute del consumatore può comportare responsabilità civile e penale. Sul piano civile, l’operatore è tenuto al risarcimento del danno causato, secondo i principi generali del codice civile in materia di fatto illecito. Sul piano penale, un danno alla salute derivante da colpa può integrare il reato di lesioni personali colpose; nei casi più gravi possono configurarsi reati più severi. La colpa si valuta in base alla negligenza, all’imprudenza, all’imperizia o all’inosservanza di leggi, regolamenti, ordini e discipline: proprio la violazione delle norme sull’informazione e sulla gestione degli allergeni costituisce un elemento di colpa specifica. Il regolamento centosettantotto del duemiladue attribuisce agli operatori la responsabilità di garantire che gli alimenti soddisfino le disposizioni della legislazione alimentare in tutte le fasi sotto il loro controllo. In un procedimento, la documentazione del sistema di gestione è spesso l’elemento decisivo per valutare se l’evento fosse prevedibile ed evitabile e se l’operatore abbia adottato le misure dovute. La responsabilità può riguardare non solo l’addetto che ha commesso l’errore, ma anche chi aveva il dovere di organizzare il lavoro, formare il personale e vigilare."
+  },
+  {
+   "t": "testo",
+   "tit": "L’audit interno sulla gestione degli allergeni",
+   "lead": "Una verifica periodica, svolta con una lista di controllo, permette di individuare i punti deboli prima che causino un incidente.",
+   "punti": [
+    "Documenti: matrice aggiornata, schede tecniche, ricette, registrazioni di pulizia e formazione",
+    "Osservazione: separazione e programmazione applicate, contenitori ed etichette interne",
+    "Prova del servizio: richiesta simulata di un cliente allergico e verifica della risposta",
+    "Coerenza: confronto tra ricetta, matrice, menù, cartelli e risposta del personale",
+    "Esito: non conformità, azioni correttive con responsabile e scadenza, verifica dell’efficacia"
+   ],
+   "appro": "L’audit è più efficace se svolto da una persona diversa da chi gestisce quotidianamente il sistema, anche all’interno della stessa impresa.",
+   "rif": "Reg. (CE) 852/2004, art. 5 · Comunicazione della Commissione 2022/C 355/01",
+   "nar": "Una verifica periodica del sistema, svolta con una lista di controllo, permette di individuare i punti deboli prima che causino un incidente. L’audit interno sulla gestione degli allergeni esamina cinque aspetti. Il primo è la documentazione: la matrice è aggiornata e firmata, le schede tecniche sono presenti e recenti, le ricette corrispondono a quanto preparato, le registrazioni di pulizia e di formazione sono complete. Il secondo è l’osservazione diretta delle lavorazioni: si verifica che la separazione e la programmazione siano effettivamente applicate e che contenitori ed etichette interne siano corretti. Il terzo è una prova del servizio: una richiesta simulata di un cliente allergico, per verificare che il personale consulti la documentazione e risponda correttamente. Il quarto è il controllo di coerenza tra ricetta, matrice, menù, cartelli e risposta del personale. Il quinto è la gestione dell’esito: le non conformità vengono registrate, per ciascuna si stabilisce un’azione correttiva con un responsabile e una scadenza, e successivamente se ne verifica l’efficacia. L’audit è più efficace se svolto da una persona diversa da chi gestisce quotidianamente il sistema, anche all’interno della stessa impresa, perché uno sguardo esterno individua più facilmente le abitudini scorrette."
+  }
+ ]
+}

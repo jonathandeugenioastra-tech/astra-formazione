@@ -1,0 +1,35 @@
+{
+ "dopo": "La responsabilità dell’ente: D.lgs. 231/2001, art. 25-undecies",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Integrare modello 231 e sistema di gestione ambientale",
+   "lead": "Il sistema di gestione ambientale e il modello organizzativo hanno finalità diverse ma possono condividere processi, registrazioni e verifiche.",
+   "punti": [
+    "ISO 14001: miglioramento delle prestazioni ambientali e conformità agli obblighi",
+    "Modello 231: prevenzione dei reati presupposto ed esimente per l’ente",
+    "Elementi comuni: analisi degli obblighi, procedure operative, competenze, audit, gestione delle non conformità",
+    "Elementi specifici del modello: organismo di vigilanza, sistema disciplinare, flussi informativi, whistleblowing",
+    "Gli audit del sistema di gestione possono alimentare le verifiche dell’organismo di vigilanza"
+   ],
+   "appro": "La certificazione non è un’esimente automatica: il giudice valuta l’idoneità del modello rispetto ai reati e la sua efficace attuazione nel caso concreto.",
+   "rif": "UNI EN ISO 14001 · D.lgs. 231/2001, artt. 6–7",
+   "nar": "Il sistema di gestione ambientale conforme alla norma UNI EN ISO quattordicimilauno e il modello organizzativo previsto dal decreto duecentotrentuno hanno finalità diverse: il primo mira al miglioramento delle prestazioni ambientali e al rispetto degli obblighi di conformità; il secondo mira a prevenire i reati presupposto e a consentire all’ente di andare esente da responsabilità. I due strumenti possono però condividere molti elementi: l’analisi degli obblighi normativi, le procedure operative per rifiuti, scarichi ed emissioni, la gestione delle competenze e della formazione, gli audit interni, la gestione delle non conformità e delle azioni correttive. Il modello comprende inoltre elementi specifici che il sistema di gestione non prevede: l’organismo di vigilanza, il sistema disciplinare, i flussi informativi verso l’organismo e i canali di segnalazione delle violazioni. Un’integrazione ben progettata evita duplicazioni: gli audit ambientali possono alimentare le verifiche dell’organismo di vigilanza, e le procedure del sistema di gestione possono costituire i protocolli del modello. Occorre però evitare un equivoco frequente: la certificazione non è un’esimente automatica. Il giudice valuta l’idoneità del modello rispetto ai reati e la sua efficace attuazione nel caso concreto, indipendentemente dal certificato."
+  },
+  {
+   "t": "testo",
+   "tit": "Esempio applicativo: i flussi informativi verso l’organismo di vigilanza",
+   "lead": "Un sistema di flussi informativi ben definito consente all’organismo di vigilanza di conoscere tempestivamente i fatti rilevanti.",
+   "punti": [
+    "Flussi periodici semestrali: esiti degli autocontrolli di scarichi ed emissioni, stato delle autorizzazioni",
+    "Flussi periodici: verifiche sui fornitori di servizi ambientali, quantità di rifiuti prodotti e destinazioni",
+    "Flussi ad evento: ispezioni, verbali, prescrizioni, superamenti dei limiti, sversamenti",
+    "Flussi ad evento: modifiche di impianti e nuovi prodotti chimici rilevanti",
+    "Riscontro dell’organismo: richieste di approfondimento, verifiche mirate, segnalazioni al vertice"
+   ],
+   "appro": "Un flusso che non genera mai domande non è un controllo: l’organismo deve analizzare le informazioni ricevute e documentare le proprie valutazioni.",
+   "rif": "D.lgs. 231/2001, art. 6, c. 2, lett. d)",
+   "nar": "Si propone un esempio applicativo di flussi informativi verso l’organismo di vigilanza per i reati ambientali, in un’impresa manifatturiera con scarichi, emissioni e produzione di rifiuti pericolosi. Ogni sei mesi il responsabile ambientale trasmette all’organismo un rapporto con gli esiti degli autocontrolli degli scarichi e delle emissioni, lo stato delle autorizzazioni e le relative scadenze, le verifiche eseguite sui trasportatori e sugli impianti di destinazione, le quantità di rifiuti prodotte e le loro destinazioni. Sono inoltre previsti flussi ad evento, da trasmettere tempestivamente: ispezioni degli organi di controllo, verbali e prescrizioni ricevute, superamenti dei valori limite, sversamenti e incidenti, modifiche rilevanti degli impianti e introduzione di nuovi prodotti chimici pericolosi. L’organismo analizza le informazioni ricevute, chiede approfondimenti quando necessario, ad esempio sulle cause di un superamento ripetuto, svolge verifiche mirate a campione e segnala al vertice aziendale le carenze che richiedono decisioni o investimenti. Tutte le valutazioni vanno documentate nei verbali dell’organismo. Un flusso che non genera mai domande non è un controllo: l’efficacia del sistema si dimostra proprio con le richieste, le verifiche e le azioni che ne derivano."
+  }
+ ]
+}

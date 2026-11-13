@@ -1,0 +1,91 @@
+{
+ "dopo": "Lotto, registrazioni e simulazione di richiamo",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Il lotto: definizione e indicazione",
+   "lead": "Il lotto identifica un insieme di unità di vendita prodotte, fabbricate o confezionate in circostanze praticamente identiche.",
+   "punti": [
+    "È stabilito dal produttore, dal fabbricante o dal confezionatore, oppure dal primo venditore stabilito nell’Unione",
+    "Si indica preceduto dalla lettera «L», salvo che sia chiaramente distinguibile dalle altre indicazioni",
+    "Può essere omesso quando il termine minimo di conservazione o la data di scadenza riportano almeno giorno e mese",
+    "Il lotto deve essere facilmente visibile, leggibile e indelebile",
+    "Nella produzione interna, un lotto ben definito limita l’estensione di un eventuale richiamo"
+   ],
+   "appro": "Lotti di dimensione contenuta riducono la quantità di prodotto da ritirare: la scelta della dimensione del lotto è anche una decisione di gestione del rischio.",
+   "rif": "Direttiva 2011/91/UE · D.lgs. 231/2017",
+   "nar": "Il lotto è l’insieme di unità di vendita di un alimento prodotte, fabbricate o confezionate in circostanze praticamente identiche. La disciplina deriva dalla direttiva novantuno del duemilaundici ed è attuata in Italia dal decreto legislativo duecentotrentuno del duemiladiciassette. Il lotto è stabilito dal produttore, dal fabbricante o dal confezionatore dell’alimento, oppure dal primo venditore stabilito nell’Unione europea. In etichetta va indicato preceduto dalla lettera elle, salvo che sia chiaramente distinguibile dalle altre indicazioni; deve essere facilmente visibile, chiaramente leggibile e indelebile. L’indicazione può essere omessa quando il termine minimo di conservazione o la data di scadenza riportano almeno il giorno e il mese, perché in tal caso la data stessa svolge la funzione di identificazione. Nella produzione interna di un laboratorio o di una cucina centralizzata, definire lotti ben circoscritti ha un valore pratico rilevante: in caso di problema consente di limitare il ritiro alle sole unità effettivamente coinvolte. Lotti molto ampi, al contrario, costringono a ritirare quantità elevate di prodotto. La scelta della dimensione del lotto è quindi anche una decisione di gestione del rischio, da prendere in fase di progettazione del processo."
+  },
+  {
+   "t": "testo",
+   "tit": "Le registrazioni di rintracciabilità",
+   "lead": "Le registrazioni rendono la rintracciabilità effettiva e dimostrabile all’autorità di controllo.",
+   "punti": [
+    "In ingresso: fornitore, prodotto, quantità, lotto, data di ricevimento",
+    "In produzione: collegamento tra lotti delle materie prime e lotti dei prodotti finiti o dei semilavorati",
+    "In uscita (verso altre imprese): cliente, prodotto, quantità, lotto, data di consegna",
+    "Conservazione ordinata dei documenti di trasporto e delle fatture, con il lotto annotato",
+    "Sistemi informatici o cartacei, purché consultabili rapidamente"
+   ],
+   "appro": "Per i semilavorati preparati internamente, un’etichetta con data di preparazione e allergeni è al tempo stesso uno strumento di rintracciabilità e di informazione.",
+   "rif": "Reg. (CE) 178/2002, art. 18 · Reg. (CE) 852/2004, art. 5",
+   "nar": "Le registrazioni sono ciò che rende la rintracciabilità effettiva e dimostrabile. In ingresso si registrano il fornitore, il prodotto, la quantità, il lotto e la data di ricevimento; nella pratica è sufficiente conservare in modo ordinato i documenti di trasporto, annotando il lotto quando non vi è già riportato. Nelle attività di produzione occorre collegare i lotti delle materie prime ai lotti dei prodotti finiti o dei semilavorati, così da poter risalire, in caso di problema, da un ingrediente a tutti i prodotti in cui è stato impiegato e viceversa. In uscita, quando si forniscono altre imprese, si registrano il cliente, il prodotto, la quantità, il lotto e la data di consegna. Il sistema può essere informatico o cartaceo: ciò che conta è che sia completo e consultabile rapidamente, anche da persone diverse dal titolare. Per i semilavorati preparati internamente, come basi, salse o impasti, un’etichetta che riporti la data di preparazione, il lotto o il riferimento alla produzione e gli allergeni contenuti svolge contemporaneamente una funzione di rintracciabilità e di informazione. In caso di controllo, l’autorità verifica che a partire da un prodotto sia possibile ricostruire fornitori e utilizzi in tempi ragionevoli."
+  },
+  {
+   "t": "testo",
+   "tit": "La simulazione di richiamo",
+   "lead": "La simulazione verifica, prima che serva davvero, che il sistema di rintracciabilità funzioni nei tempi necessari.",
+   "punti": [
+    "Si sceglie un lotto di materia prima o di prodotto finito e si avvia la ricerca senza preavviso",
+    "Si ricostruiscono fornitore, utilizzi interni, quantità prodotte, giacenze e destinatari",
+    "Indicatori: tempo impiegato e percentuale della quantità rintracciata rispetto a quella prodotta",
+    "Si verificano anche contatti aggiornati, modelli di comunicazione e responsabilità",
+    "Esito e azioni di miglioramento vanno registrati; la simulazione si ripete periodicamente"
+   ],
+   "appro": "Un obiettivo spesso adottato nei sistemi di gestione è la rintracciabilità dell’intera quantità entro poche ore; il valore va definito dall’operatore in base alle proprie dimensioni e attività.",
+   "rif": "Reg. (CE) 178/2002, artt. 18 e 19 · UNI EN ISO 22005:2008",
+   "nar": "La simulazione di richiamo serve a verificare, prima che serva davvero, che il sistema di rintracciabilità funzioni nei tempi necessari. Si sceglie un lotto di materia prima o di prodotto finito e si avvia la ricerca senza preavviso, come se fosse arrivata la comunicazione di un allergene non dichiarato. Si ricostruiscono il fornitore, gli utilizzi interni, le quantità prodotte, le giacenze residue e, se l’attività fornisce altre imprese, i destinatari. Due indicatori misurano l’esito: il tempo impiegato per completare la ricostruzione e la percentuale della quantità rintracciata rispetto a quella prodotta o ricevuta. Nei sistemi di gestione è frequente l’obiettivo di rintracciare l’intera quantità entro poche ore; il valore va comunque definito dall’operatore in base alle proprie dimensioni e attività. La simulazione è anche l’occasione per verificare che i contatti di fornitori, clienti e autorità siano aggiornati, che i modelli di comunicazione siano pronti e che ciascuno conosca il proprio ruolo. L’esito va registrato insieme alle azioni di miglioramento individuate, e la simulazione va ripetuta periodicamente, in particolare dopo cambiamenti organizzativi o dei sistemi di registrazione. Una simulazione che rivela lacune non è un insuccesso: è proprio il suo scopo."
+  },
+  {
+   "t": "testo",
+   "tit": "Cultura della sicurezza alimentare e miglioramento",
+   "lead": "La gestione degli allergeni funziona nel tempo solo se diventa parte della cultura dell’organizzazione.",
+   "punti": [
+    "Impegno visibile del titolare o della direzione, con risorse adeguate",
+    "Ruoli chiari: chi aggiorna la matrice, chi qualifica i fornitori, chi forma il personale",
+    "Comunicazione aperta: ogni addetto può fermare una preparazione se ha un dubbio",
+    "Analisi di reclami, quasi incidenti e risultati dei controlli per migliorare il sistema",
+    "Riesame periodico della documentazione e della formazione"
+   ],
+   "appro": "Il Reg. (UE) 2021/382 richiede che la cultura della sicurezza alimentare sia proporzionata alla natura e alle dimensioni dell’impresa: anche un piccolo esercizio deve dimostrarla con comportamenti concreti.",
+   "rif": "Reg. (CE) 852/2004, Allegato II, come modificato dal Reg. (UE) 2021/382",
+   "nar": "Le procedure descritte in questo corso funzionano nel tempo solo se diventano parte della cultura dell’organizzazione. Il regolamento trecentottantadue del duemilaventuno ha reso obbligatoria la cultura della sicurezza alimentare, chiedendo che sia proporzionata alla natura e alle dimensioni dell’impresa. Per la gestione degli allergeni ciò si traduce in alcuni elementi concreti. Il titolare o la direzione devono dimostrare un impegno visibile, garantendo tempo e risorse per la formazione, la documentazione e le verifiche. I ruoli devono essere chiari: chi aggiorna la matrice, chi qualifica i fornitori e conserva le schede tecniche, chi forma il personale e ne verifica l’apprendimento. La comunicazione deve essere aperta: ogni addetto deve sentirsi autorizzato a fermare una preparazione o a non servire un piatto quando ha un dubbio sugli allergeni, senza timore di conseguenze. Reclami, quasi incidenti e risultati dei controlli ufficiali vanno analizzati non per individuare un colpevole, ma per migliorare il sistema. Infine, la documentazione e la formazione vanno riesaminate periodicamente. Un’organizzazione con una solida cultura della sicurezza alimentare si riconosce dal fatto che le procedure vengono applicate anche quando nessuno controlla."
+  },
+  {
+   "t": "abbina",
+   "tit": "Esercitazione · Norme e contenuti",
+   "sott": "Associare a ciascun riferimento normativo il contenuto corretto",
+   "coppie": [
+    ["Reg. (UE) 1169/2011, Allegato II", "Elenco delle 14 sostanze che provocano allergie o intolleranze"],
+    ["Reg. (CE) 178/2002, art. 18", "Rintracciabilità: un passo indietro e un passo avanti"],
+    ["Reg. (CE) 178/2002, art. 19", "Ritiro e richiamo degli alimenti a rischio"],
+    ["Reg. di esecuzione (UE) 828/2014", "Indicazioni «senza glutine»"],
+    ["Reg. (UE) 2021/382", "Gestione degli allergeni in attrezzature e cultura della sicurezza alimentare"]
+   ],
+   "nar": "Esercitazione. Si associ a ciascun riferimento normativo il contenuto corretto."
+  },
+  {
+   "t": "vf",
+   "tit": "Esercitazione · Affermazioni vere o false su informazione e rintracciabilità",
+   "sott": "Qualificare ciascuna affermazione come vera o falsa",
+   "voci": [
+    ["Nella ristorazione l’informazione sugli allergeni può essere solo orale, senza documentazione scritta.", false, "Falso: serve una documentazione scritta facilmente reperibile (D.lgs. 231/2017)."],
+    ["Nella vendita online gli allergeni devono essere disponibili prima della conclusione dell’acquisto.", true, "Vero: art. 14 del Reg. (UE) 1169/2011."],
+    ["Il richiamo riguarda i prodotti che possono aver raggiunto il consumatore.", true, "Vero: il ritiro riguarda il prodotto ancora nella filiera."],
+    ["Il lotto può essere omesso se la data riporta almeno giorno e mese.", true, "Vero."],
+    ["La simulazione di richiamo è inutile se non si sono mai verificati problemi.", false, "Falso: serve proprio a verificare il sistema prima che sia necessario."]
+   ],
+   "nar": "Esercitazione. Si stabilisca se ciascuna affermazione su informazione al consumatore e rintracciabilità è vera o falsa."
+  }
+ ]
+}

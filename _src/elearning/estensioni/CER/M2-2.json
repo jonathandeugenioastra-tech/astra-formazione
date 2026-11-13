@@ -1,0 +1,80 @@
+{
+ "dopo": "Incentivi per le CER e le altre configurazioni",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "La struttura della tariffa premio",
+   "lead": "La tariffa premio sull’energia condivisa ha una parte fissa, che decresce con la potenza dell’impianto, e una parte variabile legata al prezzo zonale.",
+   "punti": [
+    "Impianti fino a 200 kW: 80 €/MWh più max(0; 180 − prezzo zonale), con un tetto di 120 €/MWh",
+    "Impianti tra 200 e 600 kW: 70 €/MWh più max(0; 180 − prezzo zonale), con un tetto di 110 €/MWh",
+    "Impianti oltre 600 kW: 60 €/MWh più max(0; 180 − prezzo zonale), con un tetto di 100 €/MWh",
+    "Fattore correttivo per il fotovoltaico: +4 €/MWh nelle regioni del Centro, +10 €/MWh in quelle del Nord",
+    "Durata: 20 anni dalla data di entrata in esercizio commerciale dell’impianto"
+   ],
+   "appro": "La parte variabile cresce quando il prezzo zonale dell’energia è basso, garantendo una remunerazione complessiva più stabile; il tetto impedisce sovracompensazioni.",
+   "rif": "D.M. 7 dicembre 2023, n. 414, Allegato 1",
+   "nar": "La tariffa premio riconosciuta sull’energia condivisa ha una struttura in due parti. La prima è una parte fissa, che decresce all’aumentare della potenza dell’impianto: ottanta euro per megawattora per gli impianti fino a duecento chilowatt, settanta euro per quelli tra duecento e seicento chilowatt, sessanta euro per quelli oltre seicento chilowatt. La seconda è una parte variabile, pari alla differenza, se positiva, tra centottanta euro e il prezzo zonale orario dell’energia: quando il prezzo di mercato è basso, la parte variabile cresce, garantendo una remunerazione complessiva più stabile. La somma delle due parti non può superare un tetto, rispettivamente di centoventi, centodieci e cento euro per megawattora nelle tre fasce di potenza, così da evitare sovracompensazioni. Per gli impianti fotovoltaici è previsto un fattore correttivo che tiene conto della minore producibilità: più quattro euro per megawattora nelle regioni del Centro, tra cui l’Abruzzo, e più dieci euro in quelle del Nord. La tariffa è riconosciuta per vent’anni a partire dalla data di entrata in esercizio commerciale dell’impianto. Si osservi che la tariffa remunera esclusivamente l’energia condivisa, cioè la quota oraria di energia immessa che coincide con i prelievi dei membri sottesi alla stessa cabina primaria."
+  },
+  {
+   "t": "testo",
+   "tit": "Esempio applicativo: il calcolo della tariffa",
+   "lead": "Un esempio numerico mostra come si determina la tariffa per un impianto fotovoltaico da 100 kW in Abruzzo.",
+   "punti": [
+    "Fascia di potenza: fino a 200 kW, parte fissa 80 €/MWh",
+    "Prezzo zonale ipotizzato: 110 €/MWh; parte variabile: 180 − 110 = 70 €/MWh",
+    "Somma 150 €/MWh, ridotta al tetto di 120 €/MWh",
+    "Fattore correttivo Centro: +4 €/MWh; tariffa risultante: 124 €/MWh",
+    "Con 60 MWh condivisi in un anno: circa 7.440 € di tariffa premio, oltre alla vendita dell’energia e alla restituzione delle componenti tariffarie"
+   ],
+   "appro": "I valori sono esemplificativi: il calcolo effettivo avviene ora per ora, con il prezzo zonale di ciascuna ora e l’energia condivisa misurata.",
+   "rif": "D.M. 414/2023, Allegato 1 · Regole operative del GSE",
+   "nar": "Si propone un esempio applicativo. Si consideri un impianto fotovoltaico da cento chilowatt, realizzato in Abruzzo e inserito in una comunità energetica rinnovabile. Poiché la potenza non supera duecento chilowatt, la parte fissa della tariffa è di ottanta euro per megawattora. Se in una certa ora il prezzo zonale dell’energia è di centodieci euro per megawattora, la parte variabile è pari a centottanta meno centodieci, cioè settanta euro. La somma, centocinquanta euro, supera il tetto previsto per questa fascia di potenza ed è quindi ridotta a centoventi euro. A questo valore si aggiunge il fattore correttivo per gli impianti fotovoltaici del Centro, pari a quattro euro, per una tariffa di centoventiquattro euro per megawattora. Se nell’anno l’energia condivisa dall’impianto con i membri della stessa cabina primaria è di sessanta megawattora, la tariffa premio complessiva è di circa settemilaquattrocentoquaranta euro. A questa somma si aggiungono il ricavo della vendita dell’energia immessa, ad esempio con il ritiro dedicato, e la restituzione delle componenti tariffarie prevista dall’ARERA. Occorre ricordare che il calcolo effettivo avviene ora per ora, con il prezzo zonale di ciascuna ora e l’energia condivisa misurata: l’esempio serve a comprendere il meccanismo, non a stimare con precisione un progetto reale."
+  },
+  {
+   "t": "testo",
+   "tit": "La destinazione dei benefici e il vincolo per le imprese",
+   "lead": "Il decreto stabilisce regole sulla destinazione della tariffa per garantire che la comunità persegua benefici per il territorio.",
+   "punti": [
+    "La comunità distribuisce i benefici secondo il proprio regolamento interno",
+    "Se l’energia condivisa supera il 55% di quella immessa, la quota di tariffa eccedente va destinata ai soli consumatori diversi dalle imprese o a finalità sociali",
+    "Per gli impianti che beneficiano anche del contributo in conto capitale la soglia è più bassa",
+    "Il regolamento deve essere trasparente: criteri di riparto, tempi, costi di gestione",
+    "Le finalità sociali possono comprendere interventi a favore di famiglie in difficoltà o del territorio"
+   ],
+   "appro": "Il vincolo evita che la comunità diventi uno strumento di remunerazione delle sole imprese: i benefici devono ricadere anche su famiglie, enti e territorio.",
+   "rif": "D.M. 414/2023 · Regole operative del GSE",
+   "nar": "Il decreto ministeriale quattrocentoquattordici stabilisce alcune regole sulla destinazione della tariffa premio, per garantire che la comunità persegua effettivamente benefici ambientali, economici e sociali per i membri e per il territorio. La comunità distribuisce i benefici secondo il proprio regolamento interno, ma con un vincolo specifico: se l’energia condivisa supera il cinquantacinque per cento dell’energia immessa dagli impianti, la quota di tariffa premio relativa all’eccedenza deve essere destinata esclusivamente ai consumatori diversi dalle imprese oppure a finalità sociali con ricadute sul territorio. Per gli impianti che hanno beneficiato anche del contributo in conto capitale del Piano nazionale di ripresa e resilienza, la soglia è più bassa. Lo scopo del vincolo è evitare che la comunità diventi uno strumento di remunerazione delle sole imprese partecipanti. Il regolamento interno deve quindi essere trasparente e indicare i criteri di riparto, i tempi delle erogazioni, i costi di gestione a carico della comunità e le modalità di rendicontazione ai membri. Le finalità sociali possono comprendere, ad esempio, contributi alle famiglie in condizione di povertà energetica, interventi di efficienza negli edifici pubblici o iniziative per il territorio. Una progettazione attenta di questi aspetti rafforza anche la fiducia dei membri."
+  },
+  {
+   "t": "testo",
+   "tit": "La restituzione delle componenti tariffarie",
+   "lead": "Oltre alla tariffa premio, l’ARERA riconosce un contributo per l’energia autoconsumata che non utilizza le reti di trasmissione.",
+   "punti": [
+    "Riconosce la restituzione di alcune componenti tariffarie di trasmissione e distribuzione non dovute",
+    "Si calcola sull’energia autoconsumata, cioè la quota oraria condivisa nella configurazione",
+    "Il valore unitario è definito e aggiornato periodicamente dall’ARERA",
+    "È erogato dal GSE insieme alla tariffa premio, al referente della configurazione",
+    "Ha un importo unitario inferiore alla tariffa premio, ma contribuisce al bilancio della comunità"
+   ],
+   "appro": "Il contributo deriva dal fatto che l’energia condivisa all’interno della stessa area evita in parte l’utilizzo delle reti a livelli di tensione superiori.",
+   "rif": "TIAD – Deliberazione ARERA 727/2022/R/eel",
+   "nar": "Oltre alla tariffa premio prevista dal decreto ministeriale, la regolazione dell’ARERA riconosce alle configurazioni di autoconsumo diffuso un contributo per la valorizzazione dell’energia autoconsumata. Il principio è il seguente: l’energia prodotta e consumata all’interno della stessa area, nella stessa ora, utilizza la rete di distribuzione locale ma evita in parte l’utilizzo delle reti a livelli di tensione superiori. Per questo l’Autorità riconosce la restituzione di alcune componenti tariffarie, relative alla trasmissione e a parte della distribuzione, che i consumatori hanno pagato in bolletta ma che non corrispondono a un effettivo utilizzo di quelle reti. Il contributo si calcola sull’energia autoconsumata, cioè sulla quota oraria di energia condivisa all’interno della configurazione, e il suo valore unitario è definito e aggiornato periodicamente dall’ARERA. Viene erogato dal Gestore dei servizi energetici insieme alla tariffa premio, al referente della configurazione, che poi lo ripartisce secondo il regolamento. L’importo unitario è sensibilmente inferiore a quello della tariffa premio, ma contribuisce al bilancio complessivo della comunità. Nella valutazione economica di un progetto occorre quindi considerare tre voci di ricavo: la vendita dell’energia immessa, la tariffa premio e la restituzione delle componenti tariffarie."
+  },
+  {
+   "t": "testo",
+   "tit": "Il contributo in conto capitale del PNRR",
+   "lead": "Il PNRR ha previsto un contributo a fondo perduto per gli impianti delle comunità nei comuni di minori dimensioni.",
+   "punti": [
+    "Contributo fino al 40% dei costi ammissibili per impianti in comuni fino a 50.000 abitanti",
+    "Sportello di presentazione delle domande chiuso il 30 novembre 2025, con graduatorie in scorrimento",
+    "Il contributo è cumulabile con la tariffa premio, che viene però ridotta in proporzione",
+    "Termini di realizzazione e rendicontazione stabiliti dal GSE per i progetti ammessi",
+    "Per i nuovi progetti occorre verificare la disponibilità di eventuali nuove misure"
+   ],
+   "appro": "Le misure di finanziamento cambiano nel tempo: prima di impostare un piano economico va sempre consultata la versione vigente delle regole operative e dei bandi del GSE.",
+   "rif": "D.M. 414/2023 come modificato · PNRR, Missione 2 · Regole operative del GSE",
+   "nar": "Il Piano nazionale di ripresa e resilienza ha previsto un contributo in conto capitale, a fondo perduto, per gli impianti delle comunità energetiche e dei gruppi di autoconsumatori realizzati nei comuni di minori dimensioni. Il contributo copre fino al quaranta per cento dei costi ammissibili e, a seguito delle modifiche intervenute, riguarda gli impianti nei comuni fino a cinquantamila abitanti. Lo sportello per la presentazione delle domande è stato chiuso il trenta novembre duemilaventicinque, con graduatorie gestite in scorrimento. Il contributo è cumulabile con la tariffa premio, che però viene ridotta in proporzione al contributo ottenuto, per evitare una doppia remunerazione dello stesso investimento. Per i progetti ammessi, il Gestore dei servizi energetici ha stabilito termini precisi di realizzazione e di rendicontazione, il cui mancato rispetto può comportare la perdita del contributo. Per i nuovi progetti occorre verificare la disponibilità di eventuali nuove misure di sostegno. Il quadro degli incentivi è infatti in continua evoluzione: le associazioni di categoria hanno chiesto la proroga del meccanismo tariffario oltre il duemilaventisette. Prima di impostare il piano economico di una configurazione va quindi sempre consultata la versione vigente delle regole operative e dei bandi pubblicati dal Gestore dei servizi energetici."
+  }
+ ]
+}

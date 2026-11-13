@@ -1,0 +1,34 @@
+{
+ "dopo": "Esempio applicativo: quando c’è «inquinamento ambientale»",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Reati in materia di scarichi idrici",
+   "lead": "L’art. 137 del D.lgs. 152/2006 gradua le sanzioni in base al tipo di scarico e alla presenza di sostanze pericolose.",
+   "punti": [
+    "Scarico di acque reflue industriali senza autorizzazione o con autorizzazione sospesa o revocata",
+    "Pena più severa se lo scarico contiene sostanze pericolose della Tabella 5 dell’Allegato 5",
+    "Superamento dei valori limite per le sostanze pericolose: contravvenzione",
+    "Superamento dei limiti per le altre sostanze: di norma illecito amministrativo (art. 133)",
+    "Inosservanza delle prescrizioni dell’autorizzazione e degli obblighi di controllo"
+   ],
+   "appro": "La distinzione tra sostanze pericolose e altri parametri determina se il superamento di un limite è un reato o un illecito amministrativo: va verificata parametro per parametro.",
+   "rif": "D.lgs. 152/2006, artt. 133 e 137 · Allegato 5 alla Parte III, Tabelle 3, 4 e 5",
+   "nar": "In materia di scarichi idrici, l’articolo centotrentasette del decreto centocinquantadue gradua le sanzioni in base al tipo di scarico e alla presenza di sostanze pericolose. È punito con sanzione penale chi apre o effettua scarichi di acque reflue industriali senza autorizzazione, oppure continua a effettuarli dopo che l’autorizzazione è stata sospesa o revocata; la pena è più severa se lo scarico contiene le sostanze pericolose indicate nella Tabella cinque dell’Allegato cinque alla Parte terza, come metalli pesanti, solventi clorurati e altri composti tossici e persistenti. Il superamento dei valori limite di emissione per le sostanze pericolose costituisce una contravvenzione, mentre il superamento dei limiti per gli altri parametri, come i solidi sospesi o la richiesta chimica di ossigeno, costituisce di norma un illecito amministrativo, sanzionato dall’articolo centotrentatré. È inoltre punita l’inosservanza delle prescrizioni dell’autorizzazione e degli obblighi di controllo. La distinzione è quindi fondamentale: lo stesso rapporto di prova può contenere superamenti di natura diversa, e la qualificazione va fatta parametro per parametro. Per l’impresa ne deriva l’importanza di conoscere con precisione quali sostanze pericolose sono presenti nel proprio ciclo produttivo e nei propri scarichi."
+  },
+  {
+   "t": "caso",
+   "tit": "Caso di studio · La moria di pesci nel torrente",
+   "scena": "A valle dello scarico di un’impresa galvanica si verifica una moria di pesci. Le analisi rilevano nel torrente concentrazioni elevate di cromo e nichel per circa due chilometri; lo scarico superava da mesi i limiti per gli stessi metalli e il depuratore non era manutenuto.",
+   "domanda": "Quale qualificazione è più plausibile?",
+   "opz": [
+    ["Solo un illecito amministrativo per superamento dei limiti", false, "No: cromo e nichel sono sostanze pericolose e c’è un evento ambientale."],
+    ["Inquinamento ambientale, oltre alle contravvenzioni sugli scarichi, con possibile responsabilità dell’ente", true, "Corretto: compromissione significativa e misurabile, condotta abusiva."],
+    ["Nessun reato, se l’impresa aveva l’autorizzazione", false, "No: la violazione delle prescrizioni rende la condotta abusiva."]
+   ],
+   "rif": "Codice penale, art. 452-bis · D.lgs. 152/2006, art. 137 · D.lgs. 231/2001, art. 25-undecies",
+   "appro": "La qualificazione definitiva dipende dagli accertamenti tecnici sull’estensione e sulla misurabilità della compromissione del corpo idrico.",
+   "nar": "Caso di studio. A valle dello scarico di un’impresa galvanica si verifica una moria di pesci, con concentrazioni elevate di cromo e nichel nel torrente per circa due chilometri. Si individui la qualificazione più plausibile."
+  }
+ ]
+}

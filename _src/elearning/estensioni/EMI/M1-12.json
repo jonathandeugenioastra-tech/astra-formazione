@@ -1,0 +1,64 @@
+{
+ "dopo": "Sanzioni per le emissioni in atmosfera",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Organizzazione interna e responsabilità ambientali",
+   "lead": "La conformità alle prescrizioni sulle emissioni richiede un’organizzazione con ruoli, competenze e poteri chiaramente definiti.",
+   "punti": [
+    "Il gestore è il soggetto con potere decisionale sull’esercizio dello stabilimento",
+    "Delega di funzioni in materia ambientale: atto scritto, soggetto competente, poteri di spesa e autonomia",
+    "Responsabile ambientale: presidio di autorizzazioni, scadenze, autocontrolli e comunicazioni",
+    "Ruoli operativi: produzione, manutenzione, acquisti (prodotti con solventi), ufficio tecnico (modifiche)",
+    "Flussi informativi: ogni modifica di impianto o di prodotto passa dal responsabile ambientale"
+   ],
+   "appro": "Una delega priva di poteri di spesa adeguati non trasferisce realmente la responsabilità: chi deve sostituire un filtro deve poterlo fare senza attendere autorizzazioni.",
+   "rif": "D.lgs. 152/2006, art. 268 · giurisprudenza sulla delega di funzioni in materia ambientale",
+   "nar": "La conformità alle prescrizioni sulle emissioni in atmosfera richiede un’organizzazione con ruoli, competenze e poteri chiaramente definiti. Il gestore è la persona fisica o giuridica che ha potere decisionale sull’installazione e sull’esercizio dello stabilimento, e risponde del rispetto dell’autorizzazione. Nelle organizzazioni complesse può essere conferita una delega di funzioni in materia ambientale, che secondo la giurisprudenza deve risultare da atto scritto, essere attribuita a un soggetto tecnicamente competente e prevedere poteri di organizzazione, gestione, controllo e spesa adeguati. Una delega priva di poteri di spesa non trasferisce realmente la responsabilità: chi deve sostituire un filtro o un carbone esausto deve poterlo fare senza attendere autorizzazioni. Il responsabile ambientale presidia autorizzazioni, scadenze, autocontrolli e comunicazioni, ma la conformità dipende anche dai ruoli operativi: la produzione, che conduce gli impianti; la manutenzione, che garantisce l’efficienza dei sistemi di abbattimento; gli acquisti, che introducono prodotti contenenti solventi; l’ufficio tecnico, che progetta le modifiche. Il punto critico sono i flussi informativi: ogni modifica di impianto, di processo o di prodotto chimico deve passare dal responsabile ambientale prima della realizzazione, per verificarne le conseguenze sull’autorizzazione."
+  },
+  {
+   "t": "testo",
+   "tit": "Esempio applicativo: lo scadenzario annuale delle emissioni",
+   "lead": "Uno scadenzario ben costruito riunisce in un unico strumento tutti gli adempimenti ricorrenti dello stabilimento.",
+   "punti": [
+    "Gennaio–marzo: piano di gestione dei solventi dell’anno precedente; dichiarazioni ai registri",
+    "Secondo trimestre: autocontrolli annuali dei punti di emissione, in condizioni rappresentative",
+    "Trasmissione dei rapporti di prova nei termini prescritti",
+    "Manutenzioni programmate: maniche, carboni attivi, scrubber, combustori, secondo le frequenze stabilite",
+    "Verifica annuale delle soglie dei regimi semplificati; controllo della data di scadenza dell’autorizzazione"
+   ],
+   "appro": "La domanda di rinnovo dell’AUA va presentata almeno sei mesi prima della scadenza: inserirla nello scadenzario con un anticipo maggiore consente di preparare la documentazione senza urgenza.",
+   "rif": "D.lgs. 152/2006, artt. 269, 271, 275 · D.P.R. 59/2013, art. 5",
+   "nar": "Si propone un esempio applicativo di scadenzario annuale degli adempimenti relativi alle emissioni, per uno stabilimento con attività di verniciatura e sabbiatura. Nei primi mesi dell’anno si elabora il piano di gestione dei solventi relativo all’anno precedente e si compilano le dichiarazioni ai registri delle emissioni, quando dovute. Nel secondo trimestre si programmano gli autocontrolli annuali dei punti di emissione, scegliendo periodi di produzione rappresentativa e comunicando le date all’organo di controllo se prescritto. Nei termini stabiliti si trasmettono i rapporti di prova. Lungo tutto l’anno lo scadenzario riporta le manutenzioni programmate dei sistemi di abbattimento: controllo e sostituzione delle maniche dei filtri, sostituzione dei carboni attivi in base al calcolo di saturazione, verifica dei parametri degli scrubber e dei combustori. Una volta all’anno si verificano i consumi rispetto alle soglie dei regimi semplificati e si controlla la data di scadenza dell’autorizzazione. La domanda di rinnovo dell’autorizzazione unica ambientale va presentata almeno sei mesi prima della scadenza: inserirla nello scadenzario con un anticipo maggiore, ad esempio un anno, consente di preparare la documentazione senza urgenza. Ogni voce dello scadenzario indica il responsabile e l’evidenza documentale attesa."
+  },
+  {
+   "t": "testo",
+   "tit": "Formazione del personale e cultura ambientale",
+   "lead": "Molte non conformità nascono da comportamenti quotidiani: la formazione degli operatori è una misura di prevenzione essenziale.",
+   "punti": [
+    "Operatori di impianto: funzionamento dei sistemi di abbattimento e segnali di anomalia",
+    "Procedura di guasto: chi avvisare, quando fermare, come registrare",
+    "Manutentori: interventi programmati, registrazioni, gestione dei rifiuti prodotti",
+    "Addetti agli acquisti e all’ufficio tecnico: effetti di nuovi prodotti e modifiche sull’autorizzazione",
+    "Verifica dell’efficacia: esercitazioni sulla procedura di guasto e controlli a campione dei registri"
+   ],
+   "appro": "L’operatore che conosce il significato della perdita di carico del filtro è il primo sistema di allarme dello stabilimento.",
+   "rif": "UNI EN ISO 14001, punto 7.2 e 7.3 · D.lgs. 231/2001, art. 6",
+   "nar": "Molte non conformità in materia di emissioni nascono da comportamenti quotidiani: un filtro non controllato, un carbone non sostituito, una nuova vernice introdotta senza verifiche, un guasto non segnalato. La formazione del personale è quindi una misura di prevenzione essenziale. Gli operatori di impianto devono conoscere il funzionamento dei sistemi di abbattimento e riconoscere i segnali di anomalia, come una perdita di carico fuori dall’intervallo normale, un pennacchio visibile al camino o un odore insolito. Tutti devono conoscere la procedura di guasto: chi avvisare, quando ridurre o fermare la produzione, come registrare l’evento. I manutentori devono eseguire e registrare gli interventi programmati e gestire correttamente i rifiuti prodotti, come le maniche e i carboni esausti. Gli addetti agli acquisti e all’ufficio tecnico devono sapere che un nuovo prodotto con solventi o una modifica di impianto possono incidere sull’autorizzazione. L’efficacia della formazione va verificata, ad esempio con esercitazioni sulla procedura di guasto e con controlli a campione dei registri. Le norme sui sistemi di gestione ambientale e i modelli organizzativi richiedono proprio questo: competenza e consapevolezza del personale. L’operatore che conosce il significato della perdita di carico del filtro è il primo sistema di allarme dello stabilimento."
+  },
+  {
+   "t": "caso",
+   "tit": "Caso di studio · Il nuovo prodotto verniciante",
+   "scena": "L’ufficio acquisti sostituisce un prodotto verniciante con uno più economico, con un contenuto di solvente superiore del 40%. Il responsabile ambientale non viene informato. Il consumo annuo di solvente supera la soglia dell’autorizzazione generale cui l’impresa aveva aderito.",
+   "domanda": "Qual è la valutazione corretta?",
+   "opz": [
+    ["Nessun problema, perché i camini e gli impianti non sono cambiati", false, "No: il superamento della soglia fa venir meno il regime semplificato."],
+    ["L’impresa opera fuori dal regime cui ha aderito e deve regolarizzare la posizione autorizzativa; va rivisto il flusso informativo interno", true, "Corretto: il cambio di prodotto incide sulle emissioni e sulle soglie."],
+    ["È sufficiente indicarlo nel piano di gestione dei solventi dell’anno successivo", false, "No: il problema è autorizzativo, non solo di rendicontazione."]
+   ],
+   "rif": "D.lgs. 152/2006, artt. 272 e 275",
+   "appro": "Una procedura di qualifica dei prodotti chimici, che coinvolga SPP e responsabile ambientale prima dell’acquisto, previene contemporaneamente rischi per i lavoratori e non conformità ambientali.",
+   "nar": "Caso di studio. L’ufficio acquisti introduce un prodotto verniciante con più solvente senza informare il responsabile ambientale, e il consumo annuo supera la soglia dell’autorizzazione generale. Si individui la valutazione corretta."
+  }
+ ]
+}

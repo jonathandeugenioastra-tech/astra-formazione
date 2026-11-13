@@ -1,0 +1,123 @@
+{
+ "dopo": "Prevenire la contaminazione crociata da allergeni",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Le vie della contaminazione crociata",
+   "lead": "La contaminazione crociata è il trasferimento non intenzionale di un allergene in un alimento che non lo contiene come ingrediente.",
+   "punti": [
+    "Materie prime: semilavorati o ingredienti contaminati all’origine o sostituiti dal fornitore",
+    "Attrezzature e superfici: affettatrici, taglieri, impastatrici, friggitrici, forni e piani di lavoro condivisi",
+    "Personale: mani, guanti, indumenti, utensili spostati da una lavorazione all’altra",
+    "Aria e polveri: farine e granelle che si disperdono durante setacciatura, impasto e confezionamento",
+    "Rilavorazioni: reimpiego di prodotto, scarti o eccedenze in lotti di composizione diversa"
+   ],
+   "appro": "L’olio di frittura è un veicolo tipico: se nella stessa friggitrice si cuociono pesce impanato e patatine, le patatine non possono essere considerate prive di pesce, glutine e uova.",
+   "rif": "Reg. (CE) 852/2004, art. 5 e Allegato II · Comunicazione della Commissione 2022/C 355/01",
+   "nar": "Per contaminazione crociata si intende il trasferimento non intenzionale di un allergene in un alimento che non lo contiene come ingrediente. Le vie attraverso cui ciò avviene sono cinque. La prima sono le materie prime: un semilavorato può essere contaminato già all’origine, oppure il fornitore può modificare la ricetta senza che l’informazione arrivi all’utilizzatore. La seconda sono le attrezzature e le superfici condivise: affettatrici, taglieri, impastatrici, friggitrici, forni e piani di lavoro su cui si alternano preparazioni diverse. La terza è il personale, che con mani, guanti, indumenti e utensili può trasportare residui da una lavorazione all’altra. La quarta è l’aria: farine, polveri e granelle si disperdono durante la setacciatura, l’impasto e il confezionamento e si depositano su superfici anche lontane. La quinta sono le rilavorazioni, cioè il reimpiego di prodotto, scarti o eccedenze in lotti di composizione diversa. Un esempio frequente nella ristorazione è l’olio di frittura: se nella stessa friggitrice si cuociono pesce impanato e patatine, le patatine possono contenere pesce, glutine e uova e non possono essere servite come prive di questi allergeni. La prevenzione richiede di analizzare ciascuna di queste vie nel proprio processo e di stabilire misure specifiche, documentate nel piano di autocontrollo."
+  },
+  {
+   "t": "testo",
+   "tit": "Il Reg. (UE) 2021/382 e la gestione degli allergeni",
+   "lead": "Nel 2021 il legislatore europeo ha introdotto nel Reg. (CE) 852/2004 requisiti espliciti sugli allergeni e sulla cultura della sicurezza alimentare.",
+   "punti": [
+    "Attrezzature, veicoli e contenitori usati per un allergene non vanno usati per alimenti che non lo contengono",
+    "Eccezione: se puliti e controllati almeno per l’assenza di residui visibili dell’allergene",
+    "Il requisito si applica a raccolta, trasporto e magazzinaggio delle sostanze dell’Allegato II",
+    "Cultura della sicurezza alimentare: impegno della direzione, consapevolezza e responsabilità del personale",
+    "Comunicazione aperta, formazione, verifica delle prestazioni e risorse adeguate"
+   ],
+   "appro": "Il controllo dell’assenza di residui visibili è il livello minimo richiesto dalla norma; nei processi a rischio elevato va integrato da verifiche analitiche dell’efficacia della pulizia.",
+   "rif": "Reg. (UE) 2021/382 · Reg. (CE) 852/2004, Allegato II",
+   "nar": "Con il regolamento trecentottantadue del duemilaventuno la Commissione europea ha modificato l’Allegato due del regolamento ottocentocinquantadue del duemilaquattro, introducendo due novità di rilievo. La prima riguarda direttamente gli allergeni: le attrezzature, i veicoli e i contenitori utilizzati per la raccolta, il trasporto o il magazzinaggio di una delle sostanze dell’Allegato due del regolamento milleseicentosessantanove non devono essere utilizzati per alimenti che non contengono tale sostanza, a meno che non siano stati puliti e controllati almeno per verificare l’assenza di residui visibili. Si tratta di un requisito minimo: nei processi in cui il rischio è elevato, il controllo visivo va integrato da verifiche analitiche dell’efficacia della pulizia. La seconda novità è l’obbligo di instaurare e mantenere una cultura della sicurezza alimentare. La direzione deve dimostrare un impegno concreto, garantire risorse adeguate e una comunicazione aperta; il personale deve essere consapevole dei pericoli e delle proprie responsabilità; la formazione e la supervisione devono essere adeguate e le prestazioni verificate. Per gli allergeni questo significa che ogni addetto deve sapere quali sostanze sono presenti nelle lavorazioni, quali misure le controllano e a chi segnalare un’anomalia, ad esempio un cambio di ricetta del fornitore o un contenitore non identificato."
+  },
+  {
+   "t": "testo",
+   "tit": "Valutare il rischio allergeni nel piano di autocontrollo",
+   "lead": "La gestione degli allergeni si integra nel sistema basato sui principi HACCP e nei programmi di prerequisiti.",
+   "punti": [
+    "Inventario: elenco degli allergeni presenti in ingredienti, semilavorati, coadiuvanti e prodotti finiti",
+    "Mappatura: individuazione dei punti del processo in cui può avvenire un trasferimento",
+    "Valutazione: probabilità del trasferimento e gravità per il consumatore, considerando forma fisica e quantità",
+    "Misure: separazione, programmazione, pulizia, identificazione, formazione, informazione",
+    "Verifica e revisione: a ogni modifica di ricette, fornitori, attrezzature o layout"
+   ],
+   "appro": "La forma fisica dell’allergene incide sul rischio: polveri e particelle fini si disperdono più facilmente dei liquidi, e questi più dei solidi in pezzi.",
+   "rif": "Reg. (CE) 852/2004, art. 5 · Comunicazione della Commissione 2022/C 355/01",
+   "nar": "La gestione degli allergeni non costituisce un sistema separato, ma si integra nel piano di autocontrollo basato sui principi del sistema HACCP e nei programmi di prerequisiti. La Comunicazione della Commissione del duemilaventidue sui sistemi di gestione della sicurezza alimentare indica un percorso articolato in cinque passaggi. Il primo è l’inventario: si elencano gli allergeni presenti negli ingredienti, nei semilavorati, nei coadiuvanti tecnologici e nei prodotti finiti, partendo dalle schede tecniche dei fornitori. Il secondo è la mappatura del processo, che individua i punti in cui può avvenire un trasferimento: ricevimento, stoccaggio, pesatura, lavorazione, cottura, confezionamento, servizio. Il terzo è la valutazione del rischio, che considera la probabilità del trasferimento e la gravità per il consumatore; un fattore determinante è la forma fisica dell’allergene, perché le polveri si disperdono più facilmente dei liquidi e questi più dei solidi in pezzi. Il quarto passaggio è la definizione delle misure: separazione, programmazione delle lavorazioni, pulizia, identificazione di contenitori e utensili, formazione del personale e corretta informazione al consumatore. Il quinto è la verifica e la revisione del sistema, da ripetere ogni volta che cambiano ricette, fornitori, attrezzature o disposizione dei locali."
+  },
+  {
+   "t": "testo",
+   "tit": "Separazione, programmazione e identificazione",
+   "lead": "Le misure organizzative più efficaci impediscono fisicamente o temporalmente il contatto tra allergeni e alimenti che non li contengono.",
+   "punti": [
+    "Separazione fisica: aree, linee, attrezzature e utensili dedicati, contrassegnati per colore",
+    "Separazione temporale: lavorare prima i prodotti privi di allergeni e poi quelli che li contengono, con pulizia intermedia",
+    "Stoccaggio: contenitori chiusi ed etichettati, allergeni sui ripiani più bassi per evitare cadute su altri alimenti",
+    "Identificazione: semilavorati e preparazioni di base sempre etichettati con gli allergeni contenuti",
+    "Controllo delle rilavorazioni: reimpiego solo in prodotti della stessa composizione"
+   ],
+   "appro": "Nelle cucine di dimensioni ridotte la separazione temporale è spesso l’unica possibile: va pianificata nel programma di produzione, non lasciata alla scelta del singolo addetto.",
+   "rif": "Reg. (CE) 852/2004, Allegato II · Comunicazione della Commissione 2022/C 355/01",
+   "nar": "Le misure organizzative più efficaci sono quelle che impediscono il contatto tra gli allergeni e gli alimenti che non li contengono, separandoli nello spazio o nel tempo. La separazione fisica prevede aree, linee, attrezzature e utensili dedicati, contrassegnati con un codice colore che ne renda immediata l’identificazione. Quando la separazione fisica non è possibile, come accade spesso nelle cucine di dimensioni ridotte, si ricorre alla separazione temporale: si lavorano per primi i prodotti privi di allergeni e successivamente quelli che li contengono, con una pulizia accurata tra una lavorazione e l’altra. Questa sequenza deve essere pianificata nel programma di produzione e non lasciata alla scelta del singolo addetto. Anche lo stoccaggio contribuisce alla prevenzione: gli ingredienti allergenici vanno conservati in contenitori chiusi ed etichettati, collocati sui ripiani più bassi, così che eventuali fuoriuscite non ricadano su altri alimenti. Tutti i semilavorati e le preparazioni di base, come fondi, salse e impasti, devono essere etichettati con l’indicazione degli allergeni contenuti, perché una preparazione non identificata è la causa più frequente di errori nelle informazioni al cliente. Infine, il reimpiego di prodotto o di eccedenze è ammesso solo in preparazioni della medesima composizione."
+  },
+  {
+   "t": "testo",
+   "tit": "La pulizia e la verifica della sua efficacia",
+   "lead": "Una pulizia efficace contro gli allergeni rimuove fisicamente la proteina: la sola disinfezione non è sufficiente.",
+   "punti": [
+    "Procedura scritta: superfici, attrezzature, smontaggio delle parti, prodotti, sequenza e responsabile",
+    "Rimozione meccanica dei residui prima del lavaggio; attenzione a giunti, guarnizioni, lame e nastri",
+    "Evitare getti ad alta pressione e aria compressa, che disperdono le particelle",
+    "Controllo visivo dopo ogni pulizia; verifica analitica periodica con test specifici per l’allergene",
+    "Registrazione delle pulizie e delle verifiche, con azioni correttive in caso di esito sfavorevole"
+   ],
+   "appro": "I test che misurano l’ATP indicano la presenza di materiale organico ma non dimostrano l’assenza di uno specifico allergene: per la validazione servono test immunologici specifici.",
+   "rif": "Reg. (CE) 852/2004, Allegato II · Reg. (UE) 2021/382",
+   "nar": "La pulizia è la misura che permette di passare da una lavorazione con allergeni a una senza, ma deve essere progettata a questo scopo. Una pulizia efficace contro gli allergeni rimuove fisicamente la proteina; la disinfezione, che riduce i microrganismi, non elimina gli allergeni e non è quindi sufficiente. La procedura va scritta e deve indicare le superfici e le attrezzature interessate, le parti da smontare, i prodotti da utilizzare, la sequenza delle operazioni e il responsabile. Prima del lavaggio si rimuovono meccanicamente i residui, prestando particolare attenzione a giunti, guarnizioni, lame, nastri trasportatori e alle zone difficilmente raggiungibili. Si devono evitare i getti ad alta pressione e l’aria compressa, che disperdono le particelle e possono ricontaminare superfici già pulite. Al termine si esegue un controllo visivo, requisito minimo previsto dal regolamento; nei processi a rischio elevato, la procedura va validata e verificata periodicamente con test analitici specifici per l’allergene, come i test immunologici rapidi. Si osservi che i test basati sull’ATP rilevano materiale organico in generale e non dimostrano l’assenza di uno specifico allergene. Le pulizie e le verifiche vanno registrate e, in caso di esito sfavorevole, si ripete la pulizia e se ne analizzano le cause."
+  },
+  {
+   "t": "testo",
+   "tit": "L’etichettatura precauzionale «può contenere»",
+   "lead": "L’indicazione «può contenere» è un’informazione volontaria e va utilizzata solo dopo una valutazione del rischio.",
+   "punti": [
+    "Non sostituisce le buone pratiche: si usa per un rischio residuo non eliminabile con misure ragionevoli",
+    "Deve essere specifica: indicare l’allergene, non formule generiche come «può contenere allergeni»",
+    "Deve essere veritiera e non ambigua, come ogni informazione volontaria",
+    "Un uso indiscriminato riduce le scelte del consumatore allergico e la credibilità dell’avvertenza",
+    "La decisione va documentata nel piano di autocontrollo, con la valutazione che la giustifica"
+   ],
+   "appro": "Le informazioni volontarie non devono indurre in errore, essere ambigue o confuse e devono basarsi, se del caso, sui dati scientifici pertinenti.",
+   "rif": "Reg. (UE) 1169/2011, art. 36 · Comunicazione della Commissione 2022/C 355/01",
+   "nar": "Le avvertenze del tipo «può contenere» non sono disciplinate in modo dettagliato dal regolamento milleseicentosessantanove, ma rientrano tra le informazioni volontarie dell’articolo trentasei, che devono essere veritiere, non ambigue e basate, se del caso, sui dati scientifici pertinenti. La loro funzione è segnalare un rischio residuo di contaminazione crociata che non può essere eliminato con misure ragionevoli di buona pratica. Non possono quindi sostituire la separazione, la programmazione e la pulizia: devono essere la conclusione di una valutazione del rischio documentata nel piano di autocontrollo. L’indicazione deve essere specifica e riferirsi all’allergene effettivamente in questione, ad esempio «può contenere tracce di nocciole»; formule generiche come «può contenere allergeni» o «prodotto in uno stabilimento che utilizza tutti gli allergeni» non forniscono un’informazione utile. Un uso indiscriminato dell’avvertenza produce due effetti negativi: riduce ingiustificatamente le scelte del consumatore allergico e indebolisce la credibilità dell’avvertenza stessa, inducendo alcuni consumatori a ignorarla. Il caso del cartello «tutti i nostri prodotti possono contenere tutti gli allergeni», che sarà esaminato nel secondo modulo, è un esempio di questo errore."
+  },
+  {
+   "t": "testo",
+   "tit": "Il personale: igiene, comportamenti, formazione",
+   "lead": "Il comportamento degli addetti è decisivo: le misure tecniche falliscono se il personale non ne conosce lo scopo.",
+   "punti": [
+    "Lavaggio delle mani e cambio dei guanti al passaggio tra preparazioni con e senza allergeni",
+    "Indumenti e grembiuli puliti; nessun utensile spostato tra postazioni dedicate",
+    "Nessuna sostituzione di ingredienti senza autorizzazione e aggiornamento delle informazioni",
+    "Formazione all’assunzione e periodica, commisurata alle mansioni, con verifica della comprensione",
+    "Canale chiaro per segnalare anomalie: errori di etichetta, cambi di fornitore, contenitori non identificati"
+   ],
+   "appro": "La formazione degli addetti al settore alimentare è un requisito del Reg. (CE) 852/2004; in Abruzzo si integra con i percorsi previsti dalla disciplina regionale per gli alimentaristi.",
+   "rif": "Reg. (CE) 852/2004, Allegato II, capitolo XII · Reg. (UE) 2021/382",
+   "nar": "Le misure tecniche e organizzative sono efficaci solo se il personale ne conosce lo scopo e le applica con costanza. Alcuni comportamenti vanno definiti con precisione: il lavaggio delle mani e il cambio dei guanti ogni volta che si passa da una preparazione con allergeni a una senza; l’uso di indumenti e grembiuli puliti; il divieto di spostare utensili tra postazioni dedicate. Una regola fondamentale riguarda le sostituzioni: nessun ingrediente può essere sostituito, nemmeno temporaneamente per mancanza di scorte, senza autorizzazione del responsabile e senza il contestuale aggiornamento della matrice degli allergeni e delle informazioni al cliente. Il regolamento ottocentocinquantadue richiede che gli addetti siano controllati e formati in materia di igiene alimentare in relazione al tipo di attività; il regolamento del duemilaventuno sulla cultura della sicurezza alimentare rafforza questo requisito. La formazione sugli allergeni va svolta all’assunzione e periodicamente, commisurata alle mansioni, con una verifica della comprensione. È inoltre essenziale un canale chiaro per segnalare le anomalie, come un errore in etichetta, un cambio di fornitore o un contenitore non identificato: la tempestività della segnalazione è spesso ciò che impedisce che un errore raggiunga il consumatore."
+  },
+  {
+   "t": "vf",
+   "tit": "Esercitazione · Affermazioni vere o false sulla prevenzione",
+   "sott": "Qualificare ciascuna affermazione come vera o falsa",
+   "voci": [
+    ["La disinfezione delle superfici elimina anche gli allergeni.", false, "Falso: la disinfezione riduce i microrganismi; l’allergene va rimosso fisicamente con la pulizia."],
+    ["Il Reg. (UE) 2021/382 richiede che i contenitori usati per un allergene siano puliti e controllati prima dell’uso per alimenti che non lo contengono.", true, "Vero: almeno per l’assenza di residui visibili."],
+    ["Un test ATP negativo dimostra l’assenza dell’allergene.", false, "Falso: l’ATP indica materiale organico generico; servono test specifici."],
+    ["L’avvertenza «può contenere» può sostituire la separazione delle lavorazioni.", false, "Falso: è ammessa solo per il rischio residuo, dopo la valutazione."],
+    ["Le patatine fritte nell’olio usato per il pesce impanato possono contenere pesce, glutine e uova.", true, "Vero: l’olio di frittura è un veicolo di contaminazione crociata."]
+   ],
+   "nar": "Esercitazione. Si stabilisca se ciascuna affermazione sulla prevenzione della contaminazione crociata è vera o falsa; ogni risposta è corredata dalla relativa spiegazione."
+  }
+ ]
+}

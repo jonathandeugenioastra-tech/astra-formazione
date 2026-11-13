@@ -1,0 +1,33 @@
+{
+ "dopo": "Il danno ambientale (Parte VI)",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Il danno ambientale: definizione e azione dello Stato",
+   "lead": "La Parte VI del D.lgs. 152/2006 disciplina la prevenzione e la riparazione del danno ambientale, con un ruolo centrale del Ministero dell’ambiente.",
+   "punti": [
+    "Danno ambientale: deterioramento significativo e misurabile, diretto o indiretto, di una risorsa naturale o dell’utilità assicurata da quest’ultima",
+    "Risorse tutelate: specie e habitat protetti, acque interne, costiere e marine, terreno",
+    "Il Ministero può adottare ordinanze di prevenzione e ripristino a carico del responsabile",
+    "Azione risarcitoria in sede civile o penale per il danno non riparato",
+    "Regioni, enti locali, associazioni e privati interessati possono presentare denunce e osservazioni e chiedere l’intervento statale"
+   ],
+   "appro": "Il risarcimento del danno ambientale è prioritariamente in forma specifica, cioè con il ripristino delle risorse; solo in subordine si quantifica per equivalente economico.",
+   "rif": "D.lgs. 152/2006, artt. 300, 309, 311, 313",
+   "nar": "La Parte sesta del decreto centocinquantadue, che recepisce la direttiva europea sulla responsabilità ambientale, disciplina la prevenzione e la riparazione del danno ambientale. L’articolo trecento definisce il danno ambientale come qualsiasi deterioramento significativo e misurabile, diretto o indiretto, di una risorsa naturale o dell’utilità assicurata da quest’ultima. Le risorse tutelate sono le specie e gli habitat naturali protetti, le acque interne, costiere e marine e il terreno, quando la contaminazione crea un rischio significativo per la salute umana. Il ruolo centrale spetta al Ministero dell’ambiente, che può adottare ordinanze con cui impone al responsabile le misure di prevenzione e di ripristino, e può esercitare l’azione risarcitoria, anche costituendosi parte civile nel processo penale, per il danno non riparato. Le Regioni, gli enti locali, le associazioni di protezione ambientale e le persone interessate possono presentare denunce e osservazioni e chiedere l’intervento statale. Un principio importante riguarda la forma del risarcimento: è prioritaria la riparazione in forma specifica, cioè il ripristino delle risorse danneggiate; solo quando questo non è possibile si procede alla quantificazione per equivalente economico. Per l’impresa ciò significa che i costi di un evento ambientale grave possono protrarsi a lungo, ben oltre l’eventuale procedimento penale."
+  },
+  {
+   "t": "vf",
+   "tit": "Esercitazione · Danno ambientale e bonifiche",
+   "sott": "Qualificare ciascuna affermazione come vera o falsa",
+   "voci": [
+    ["Le misure di prevenzione vanno adottate entro 24 ore dall’evento potenzialmente contaminante.", true, "Vero: art. 242 D.lgs. 152/2006."],
+    ["Il superamento delle CSC significa automaticamente che il sito è contaminato.", false, "Falso: serve l’analisi di rischio e il confronto con le CSR."],
+    ["Il risarcimento del danno ambientale è prioritariamente in forma specifica.", true, "Vero: ripristino delle risorse."],
+    ["Il proprietario non responsabile non ha alcun obbligo.", false, "Falso: deve adottare le misure di prevenzione."],
+    ["La mancata comunicazione dell’evento potenzialmente contaminante è sanzionata.", true, "Vero: art. 257."]
+   ],
+   "nar": "Esercitazione. Si stabilisca se ciascuna affermazione sul danno ambientale e sulle bonifiche è vera o falsa."
+  }
+ ]
+}

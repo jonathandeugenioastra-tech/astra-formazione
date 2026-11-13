@@ -1,0 +1,63 @@
+{
+ "dopo": "I delitti contro l’ambiente (L. 68/2015 e D.lgs. 81/2026)",
+ "schermate": [
+  {
+   "t": "grafico",
+   "tit": "Grafico interattivo · Pene dei delitti contro l’ambiente",
+   "rif": "Codice penale, artt. 452-bis – 452-quaterdecies (L. 68/2015, D.lgs. 81/2026)",
+   "lead": "Selezionare ciascun delitto per visualizzare la pena della reclusione prevista (senza aggravanti).",
+   "grafico": {
+    "tipo": "intervalli",
+    "unita": "Reclusione (anni)",
+    "unita_breve": "anni",
+    "max": 16,
+    "tacche": 8,
+    "voci": [
+     {
+      "nome": "Impedimento del controllo",
+      "da": 0.5,
+      "a": 3,
+      "colore": "#5a9aa6",
+      "testo": "Art. 452-septies: negare l’accesso, predisporre ostacoli o mutare artificiosamente lo stato dei luoghi."
+     },
+     {
+      "nome": "Omessa bonifica",
+      "da": 1,
+      "a": 4,
+      "colore": "#2b7a8a",
+      "testo": "Art. 452-terdecies: anche multa da 20.000 a 80.000 euro."
+     },
+     {
+      "nome": "Traffico illecito di rifiuti",
+      "da": 1,
+      "a": 6,
+      "colore": "#0f5c6b",
+      "testo": "Art. 452-quaterdecies: da 3 a 8 anni per rifiuti ad alta radioattività."
+     },
+     {
+      "nome": "Inquinamento ambientale",
+      "da": 2,
+      "a": 6,
+      "colore": "#E07000",
+      "testo": "Art. 452-bis: anche multa da 10.000 a 100.000 euro; aggravanti per aree protette, habitat, effetti durevoli."
+     },
+     {
+      "nome": "Morte da inquinamento",
+      "da": 5,
+      "a": 12,
+      "colore": "#C00000",
+      "testo": "Art. 452-ter: se dall’inquinamento o dal commercio di prodotti inquinanti deriva la morte di una persona."
+     },
+     {
+      "nome": "Disastro ambientale",
+      "da": 5,
+      "a": 15,
+      "colore": "#C81F26",
+      "testo": "Art. 452-quater: alterazione irreversibile o di eliminazione particolarmente onerosa di un ecosistema, offesa alla pubblica incolumità."
+     }
+    ]
+   },
+   "nar": "Grafico interattivo. Si selezioni ciascun delitto per visualizzare l’intervallo della pena della reclusione prevista dal codice penale, senza considerare le circostanze aggravanti. Il confronto evidenzia la gravità crescente, dall’impedimento del controllo al disastro ambientale."
+  }
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "dopo": "Autoconsumo fisico e valore dell’energia",
+ "schermate": [
+  {
+   "t": "grafico",
+   "tit": "Simulazione · Quota di autoconsumo",
+   "rif": "D.lgs. 199/2021 · TIAD ARERA",
+   "lead": "Modificare la produzione annua e l’energia consumata nelle stesse ore: il calcolo restituisce la quota di autoconsumo.",
+   "grafico": {
+    "tipo": "calcolo",
+    "formula_testo": "Quota di autoconsumo = energia autoconsumata / energia prodotta × 100",
+    "formula": "Math.min(a, p) / p * 100",
+    "ingressi": [
+     {
+      "id": "p",
+      "nome": "Energia prodotta nell’anno",
+      "min": 20000,
+      "max": 150000,
+      "passo": 1000,
+      "val": 125000,
+      "unita": "kWh"
+     },
+     {
+      "id": "a",
+      "nome": "Consumi contemporanei alla produzione",
+      "min": 0,
+      "max": 150000,
+      "passo": 1000,
+      "val": 93750,
+      "unita": "kWh"
+     }
+    ],
+    "risultato": "Quota di autoconsumo",
+    "unita": "%",
+    "scala": 100
+   },
+   "nar": "Simulazione. Si modifichino l’energia prodotta e la parte dei consumi che avviene nelle stesse ore della produzione. Il rapporto tra energia autoconsumata ed energia prodotta è la quota di autoconsumo, che determina la convenienza economica dell’impianto. Si eseguano almeno tre simulazioni."
+  }
+ ]
+}

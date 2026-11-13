@@ -1,0 +1,40 @@
+{
+ "dopo": "Esempio applicativo: il tasso di infortuni del rendiconto",
+ "schermate": [
+  {
+   "t": "grafico",
+   "tit": "Simulazione · Indici di frequenza e di gravità",
+   "rif": "UNI 7249:2007",
+   "lead": "Modificare il numero di infortuni e le ore lavorate: il calcolo restituisce l’indice di frequenza per milione di ore lavorate.",
+   "grafico": {
+    "tipo": "calcolo",
+    "formula_testo": "IF = numero di infortuni × 1.000.000 / ore lavorate",
+    "formula": "n * 1000000 / (h * 1000)",
+    "ingressi": [
+     {
+      "id": "n",
+      "nome": "Infortuni nell’anno",
+      "min": 0,
+      "max": 30,
+      "passo": 1,
+      "val": 6,
+      "unita": ""
+     },
+     {
+      "id": "h",
+      "nome": "Ore lavorate (migliaia)",
+      "min": 50,
+      "max": 1000,
+      "passo": 10,
+      "val": 320,
+      "unita": "migliaia h"
+     }
+    ],
+    "risultato": "Indice di frequenza",
+    "unita": "",
+    "scala": 60
+   },
+   "nar": "Simulazione. Si modifichino il numero di infortuni dell’anno e le ore lavorate. L’indice di frequenza esprime il numero di infortuni per un milione di ore lavorate e consente di confrontare nel tempo e tra aziende di dimensioni diverse. L’indice di gravità, analogamente, rapporta le giornate perse alle ore lavorate. Si eseguano almeno tre simulazioni."
+  }
+ ]
+}

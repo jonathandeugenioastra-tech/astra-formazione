@@ -1,0 +1,53 @@
+{
+ "dopo": "Valori limite e misurazioni dell’esposizione",
+ "schermate": [
+  {
+   "t": "grafico",
+   "tit": "Simulazione · Concentrazione media ponderata su 8 ore",
+   "rif": "D.lgs. 81/2008, Allegato XXXVIII · UNI EN 689:2018",
+   "lead": "Modificare concentrazioni e durate di due fasi di lavoro con toluene: il calcolo restituisce la media ponderata sulle 8 ore confrontata con il VLEP di 192 mg/m³.",
+   "grafico": {
+    "tipo": "calcolo",
+    "formula_testo": "C(8h) = (C₁·t₁ + C₂·t₂) / 8 h",
+    "formula": "(a*t + b*(8-t)) / 8",
+    "ingressi": [
+     {
+      "id": "a",
+      "nome": "Concentrazione in fase di verniciatura",
+      "min": 0,
+      "max": 600,
+      "passo": 10,
+      "val": 300,
+      "unita": "mg/m³"
+     },
+     {
+      "id": "t",
+      "nome": "Durata della fase di verniciatura",
+      "min": 0.5,
+      "max": 8,
+      "passo": 0.5,
+      "val": 3,
+      "unita": "h"
+     },
+     {
+      "id": "b",
+      "nome": "Concentrazione nel resto del turno",
+      "min": 0,
+      "max": 200,
+      "passo": 5,
+      "val": 40,
+      "unita": "mg/m³"
+     }
+    ],
+    "risultato": "Media ponderata su 8 ore",
+    "unita": "mg/m³",
+    "scala": 400,
+    "limite": 192,
+    "limite_testo": "VLEP toluene",
+    "testo_ok": "Esposizione media inferiore al VLEP a 8 ore: verificare comunque i limiti di breve termine e la variabilità.",
+    "testo_sup": "Esposizione media superiore al VLEP: misure di prevenzione immediate."
+   },
+   "nar": "Simulazione. Si modifichino la concentrazione di toluene durante la fase di verniciatura, la durata della fase e la concentrazione nel resto del turno. Il calcolo restituisce la concentrazione media ponderata sulle otto ore, che si confronta con il valore limite di esposizione professionale del toluene, pari a centonovantadue milligrammi per metro cubo. Si osservi come una fase breve ma intensa possa determinare il superamento del limite. Si eseguano almeno tre simulazioni."
+  }
+ ]
+}

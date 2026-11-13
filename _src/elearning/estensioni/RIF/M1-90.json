@@ -1,0 +1,42 @@
+{
+ "dopo": "Rifiuti pericolosi: caratteristiche HP e procedura di classificazione",
+ "schermate": [
+  {
+   "t": "grafico",
+   "tit": "Diagramma · La classificazione di un rifiuto",
+   "rif": "Decisione 2014/955/UE · Reg. (UE) 1357/2014 · Linee guida SNPA (Delibera 105/2021)",
+   "lead": "Selezionare ciascuna fase della procedura di classificazione.",
+   "grafico": {
+    "tipo": "flusso",
+    "passi": [
+     {
+      "nome": "Origine",
+      "tempo": null,
+      "testo": "Individuazione del processo che ha generato il rifiuto e del capitolo dell’elenco europeo (EER) pertinente."
+     },
+     {
+      "nome": "Codice",
+      "tempo": null,
+      "testo": "Scelta del codice a sei cifre: voce assoluta pericolosa, assoluta non pericolosa oppure voce a specchio."
+     },
+     {
+      "nome": "Caratterizzazione",
+      "tempo": null,
+      "testo": "Per le voci a specchio: composizione da schede di sicurezza, conoscenza del processo e analisi chimiche."
+     },
+     {
+      "nome": "Caratteristiche HP",
+      "tempo": null,
+      "testo": "Confronto con i criteri delle caratteristiche di pericolo HP1–HP15 del Reg. (UE) 1357/2014."
+     },
+     {
+      "nome": "Attribuzione e verifica",
+      "tempo": "a ogni variazione del processo",
+      "testo": "Attribuzione del codice e delle HP, documentazione e verifica periodica."
+     }
+    ]
+   },
+   "nar": "Diagramma interattivo. Si selezioni ciascuna fase della procedura di classificazione di un rifiuto: origine, scelta del codice, caratterizzazione, valutazione delle caratteristiche di pericolo, attribuzione e verifica."
+  }
+ ]
+}

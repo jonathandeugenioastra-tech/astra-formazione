@@ -1,0 +1,80 @@
+{
+ "dopo": "Costituzione e governance della CER",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Lo statuto e il regolamento della comunità",
+   "lead": "I documenti fondativi della comunità devono rispettare i requisiti di legge e definire in modo chiaro diritti e doveri dei membri.",
+   "punti": [
+    "Oggetto sociale prevalente: benefici ambientali, economici o sociali per membri e territorio",
+    "Partecipazione aperta e volontaria; diritto di recesso con le modalità stabilite",
+    "Controllo esercitato dai membri ammessi; esclusione dei soggetti per cui l’energia è attività principale",
+    "Regolamento interno: riparto dei benefici, costi di gestione, rapporti con il produttore terzo",
+    "Individuazione del referente verso il GSE e mandato per la gestione dei rapporti"
+   ],
+   "appro": "Un regolamento chiaro sul riparto dei benefici previene i conflitti: i membri devono sapere in anticipo come e quando riceveranno la loro quota.",
+   "rif": "D.lgs. 199/2021, art. 31 · D.M. 414/2023 · Regole operative del GSE",
+   "nar": "I documenti fondativi della comunità energetica rinnovabile, cioè l’atto costitutivo, lo statuto e il regolamento interno, devono rispettare i requisiti di legge e definire in modo chiaro i diritti e i doveri dei membri. Lo statuto deve indicare come oggetto sociale prevalente il conseguimento di benefici ambientali, economici o sociali a favore dei membri o delle aree locali in cui la comunità opera, e non la realizzazione di profitti finanziari. Deve garantire una partecipazione aperta e volontaria e il diritto di recesso dei membri, con le modalità e gli eventuali corrispettivi stabiliti. Il controllo della comunità deve essere esercitato dai membri ammessi, con l’esclusione dei soggetti per i quali la produzione o la vendita di energia costituisce l’attività commerciale o industriale principale. Il regolamento interno disciplina gli aspetti operativi: i criteri di riparto dei benefici, i costi di gestione a carico della comunità, i rapporti con l’eventuale produttore terzo che mette a disposizione gli impianti, le modalità di rendicontazione. Occorre infine individuare il referente della configurazione verso il Gestore dei servizi energetici e conferirgli il mandato per la gestione dei rapporti. Un regolamento chiaro sul riparto dei benefici previene i conflitti: i membri devono sapere in anticipo come e quando riceveranno la propria quota."
+  },
+  {
+   "t": "testo",
+   "tit": "Criteri di riparto dei benefici",
+   "lead": "Il regolamento interno può adottare criteri diversi, purché trasparenti, coerenti con lo statuto e rispettosi dei vincoli del decreto.",
+   "punti": [
+    "Remunerazione degli impianti: quota ai produttori o al produttore terzo per l’investimento sostenuto",
+    "Ripartizione ai consumatori in proporzione al contributo orario all’energia condivisa",
+    "Quote fisse per membro, utili a coinvolgere famiglie con consumi ridotti",
+    "Fondo per finalità sociali o per interventi di efficienza energetica sul territorio",
+    "Copertura dei costi di gestione: misure, piattaforma, contabilità, assicurazioni"
+   ],
+   "appro": "Ripartire in base al contributo orario premia i membri che consumano nelle ore di produzione e incentiva lo spostamento dei carichi, migliorando i risultati di tutta la comunità.",
+   "rif": "D.M. 414/2023 · Regole operative del GSE",
+   "nar": "Il regolamento interno può adottare diversi criteri di riparto dei benefici, purché trasparenti, coerenti con lo statuto e rispettosi dei vincoli previsti dal decreto, in particolare quello relativo alle imprese. Una prima quota è di norma destinata alla remunerazione degli impianti, cioè dei produttori o del produttore terzo che ha sostenuto l’investimento. Una seconda quota viene ripartita tra i consumatori, spesso in proporzione al contributo orario di ciascuno all’energia condivisa: chi consuma nelle ore di produzione contribuisce di più alla condivisione e riceve una quota maggiore. Questo criterio ha anche un effetto educativo, perché incentiva i membri a spostare i carichi nelle ore di sole, migliorando il risultato dell’intera comunità. Alcune comunità prevedono quote fisse per membro, utili a coinvolgere famiglie con consumi ridotti. Una parte dei benefici può alimentare un fondo per finalità sociali, come il sostegno alle famiglie in povertà energetica, o per interventi di efficienza energetica sul territorio. Infine, il regolamento deve prevedere la copertura dei costi di gestione: acquisizione e trattamento dei dati di misura, piattaforma informatica, contabilità, adempimenti fiscali e assicurazioni. Trascurare questi costi è uno degli errori più frequenti nei piani economici delle comunità."
+  },
+  {
+   "t": "testo",
+   "tit": "Il ruolo degli enti locali e del terzo settore",
+   "lead": "Comuni, parrocchie e associazioni sono spesso i promotori delle comunità, per la loro capacità di aggregare e per le superfici disponibili.",
+   "punti": [
+    "Enti locali: possono essere membri, mettere a disposizione coperture pubbliche e promuovere l’informazione",
+    "Gli affidamenti e le concessioni devono rispettare le regole della contrattualistica pubblica",
+    "Enti religiosi e del terzo settore: membri ammessi, con forte radicamento nella comunità locale",
+    "Contrasto alla povertà energetica tramite quote destinate alle famiglie vulnerabili",
+    "Funzione di garanzia: il soggetto pubblico rafforza la fiducia dei cittadini nella comunità"
+   ],
+   "appro": "La partecipazione di un ente locale non trasforma la comunità in un ente pubblico: restano la natura privatistica e l’autonomia, ma l’ente deve rispettare le proprie regole di trasparenza e di gestione del patrimonio.",
+   "rif": "D.lgs. 199/2021, art. 31 · D.lgs. 36/2023 (codice dei contratti pubblici)",
+   "nar": "Gli enti locali, gli enti religiosi e le organizzazioni del terzo settore sono spesso i promotori delle comunità energetiche, grazie alla loro capacità di aggregare i cittadini e alla disponibilità di superfici adatte agli impianti. Un Comune può essere membro della comunità, mettere a disposizione le coperture degli edifici pubblici e promuovere l’informazione ai cittadini e alle imprese. Gli affidamenti di servizi, le concessioni di superfici e la scelta di eventuali partner devono però rispettare le regole della contrattualistica pubblica, oggi contenute nel codice dei contratti pubblici del duemilaventitré, e le norme sulla gestione del patrimonio pubblico. Gli enti religiosi e del terzo settore sono membri ammessi e portano un forte radicamento nella comunità locale. Uno degli obiettivi più significativi di queste comunità è il contrasto alla povertà energetica, attraverso quote dei benefici destinate alle famiglie vulnerabili. Il soggetto pubblico svolge anche una funzione di garanzia, rafforzando la fiducia dei cittadini nell’iniziativa. Occorre però chiarire che la partecipazione di un ente locale non trasforma la comunità in un ente pubblico: essa mantiene la propria natura privatistica e la propria autonomia, mentre l’ente partecipante continua a rispettare le proprie regole di trasparenza e di gestione."
+  },
+  {
+   "t": "testo",
+   "tit": "Il piano economico di una comunità",
+   "lead": "Prima di costituire una comunità è necessario un piano economico che stimi ricavi, costi e rischi nell’arco dei vent’anni di incentivazione.",
+   "punti": [
+    "Ricavi: vendita dell’energia immessa, tariffa premio, restituzione delle componenti tariffarie",
+    "Costi di investimento: impianti, connessioni, progettazione, costituzione della comunità",
+    "Costi ricorrenti: manutenzione, assicurazioni, gestione dei dati, contabilità, referente",
+    "Variabili critiche: energia condivisa, prezzo zonale, adesioni e recessi dei membri",
+    "Analisi di sensibilità: scenari con condivisione e prezzi più bassi del previsto"
+   ],
+   "appro": "La variabile più incerta è l’energia condivisa, che dipende dal comportamento dei membri: stimarla con i dati orari reali di un campione di membri riduce sensibilmente il rischio di sovrastima.",
+   "rif": "D.M. 414/2023 · TIAD ARERA",
+   "nar": "Prima di costituire una comunità energetica è necessario predisporre un piano economico che stimi ricavi, costi e rischi nell’arco dei vent’anni di incentivazione. I ricavi sono di tre tipi: la vendita dell’energia immessa, la tariffa premio sull’energia condivisa e la restituzione delle componenti tariffarie. I costi di investimento comprendono gli impianti, le connessioni alla rete, la progettazione e gli oneri di costituzione della comunità. I costi ricorrenti comprendono la manutenzione degli impianti, le assicurazioni, la gestione dei dati di misura, la contabilità e gli adempimenti, e l’eventuale compenso del referente o del gestore. Alcune variabili sono critiche. La più incerta è l’energia condivisa, che dipende dal profilo orario dei consumi dei membri e dal loro comportamento; seguono il prezzo zonale dell’energia, che influenza sia la vendita sia la parte variabile della tariffa, e la stabilità della compagine, perché adesioni e recessi modificano la condivisione. Per questo il piano deve includere un’analisi di sensibilità, con scenari in cui l’energia condivisa e i prezzi risultano inferiori al previsto. Una buona pratica consiste nello stimare la condivisione utilizzando i dati orari reali di un campione rappresentativo di membri, anziché profili standard, riducendo sensibilmente il rischio di sovrastima."
+  },
+  {
+   "t": "testo",
+   "tit": "Gli errori più frequenti nella progettazione",
+   "lead": "Molte comunità incontrano difficoltà per errori evitabili nella fase di progettazione.",
+   "punti": [
+    "Membri e impianti in cabine primarie diverse, scoperti dopo la costituzione",
+    "Compagine sbilanciata: solo consumi serali, energia condivisa molto inferiore alle attese",
+    "Sequenza delle date errata tra costituzione della comunità ed entrata in esercizio degli impianti",
+    "Costi di gestione non considerati nel piano economico",
+    "Statuto non conforme ai requisiti: membri non ammessi in posizione di controllo"
+   ],
+   "appro": "Una lista di controllo preliminare con cabina primaria, profili orari, date, statuto e piano economico riduce la maggior parte di questi rischi.",
+   "rif": "D.lgs. 199/2021 · D.M. 414/2023 · Regole operative del GSE",
+   "nar": "L’esperienza dei primi anni di applicazione mostra che molte comunità incontrano difficoltà a causa di errori evitabili nella fase di progettazione. Il primo errore riguarda il perimetro: membri e impianti collegati a cabine primarie diverse, circostanza scoperta solo dopo la costituzione, con la conseguenza che una parte dell’energia non risulta condivisa ai fini dell’incentivo. Il secondo riguarda la composizione della compagine: una comunità formata solo da famiglie con consumi prevalentemente serali condivide poca energia rispetto alla produzione fotovoltaica diurna, e i benefici risultano molto inferiori alle attese. Il terzo errore riguarda la sequenza delle date: le regole operative stabiliscono condizioni sulla relazione tra la costituzione della comunità e l’entrata in esercizio degli impianti, e un errore può precludere l’accesso alla tariffa. Il quarto è l’omissione dei costi di gestione nel piano economico. Il quinto riguarda lo statuto: requisiti non rispettati, come la presenza di membri non ammessi in posizione di controllo, possono comportare il diniego dell’incentivo in sede di verifica. Una lista di controllo preliminare, che verifichi cabina primaria, profili orari dei membri, date, conformità dello statuto e piano economico, riduce la maggior parte di questi rischi e dovrebbe precedere ogni costituzione."
+  }
+ ]
+}

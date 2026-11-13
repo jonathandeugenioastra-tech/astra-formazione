@@ -1,0 +1,131 @@
+{
+ "dopo": "Valori limite e misurazioni dell’esposizione",
+ "schermate": [
+  {
+   "t": "grafico",
+   "tit": "Simulazione · Concentrazione media ponderata su 8 ore",
+   "rif": "D.lgs. 81/2008, Allegato XXXVIII · UNI EN 689:2018",
+   "lead": "Modificare concentrazioni e durate di due fasi di lavoro con toluene: il calcolo restituisce la media ponderata sulle 8 ore confrontata con il VLEP di 192 mg/m³.",
+   "grafico": {
+    "tipo": "calcolo",
+    "formula_testo": "C(8h) = (C₁·t₁ + C₂·t₂) / 8 h",
+    "formula": "(a*t + b*(8-t)) / 8",
+    "ingressi": [
+     {
+      "id": "a",
+      "nome": "Concentrazione in fase di verniciatura",
+      "min": 0,
+      "max": 600,
+      "passo": 10,
+      "val": 300,
+      "unita": "mg/m³"
+     },
+     {
+      "id": "t",
+      "nome": "Durata della fase di verniciatura",
+      "min": 0.5,
+      "max": 8,
+      "passo": 0.5,
+      "val": 3,
+      "unita": "h"
+     },
+     {
+      "id": "b",
+      "nome": "Concentrazione nel resto del turno",
+      "min": 0,
+      "max": 200,
+      "passo": 5,
+      "val": 40,
+      "unita": "mg/m³"
+     }
+    ],
+    "risultato": "Media ponderata su 8 ore",
+    "unita": "mg/m³",
+    "scala": 400,
+    "limite": 192,
+    "limite_testo": "VLEP toluene",
+    "testo_ok": "Esposizione media inferiore al VLEP a 8 ore: verificare comunque i limiti di breve termine e la variabilità.",
+    "testo_sup": "Esposizione media superiore al VLEP: misure di prevenzione immediate."
+   },
+   "nar": "Simulazione. Si modifichino la concentrazione di toluene durante la fase di verniciatura, la durata della fase e la concentrazione nel resto del turno. Il calcolo restituisce la concentrazione media ponderata sulle otto ore, che si confronta con il valore limite di esposizione professionale del toluene, pari a centonovantadue milligrammi per metro cubo. Si osservi come una fase breve ma intensa possa determinare il superamento del limite. Si eseguano almeno tre simulazioni."
+  },
+  {
+   "t": "grafico",
+   "tit": "Grafico interattivo · Livelli di esposizione al rumore",
+   "rif": "D.lgs. 81/2008, artt. 189, 192, 193, 196",
+   "lead": "Spostare il cursore sul livello di esposizione giornaliera: per ciascuna zona compaiono gli obblighi del datore di lavoro.",
+   "grafico": {
+    "tipo": "soglie",
+    "variabile": "Livello di esposizione giornaliera LEX,8h",
+    "unita": "dB(A)",
+    "min": 70,
+    "max": 95,
+    "passo": 0.5,
+    "iniziale": 78,
+    "zone": [
+     {
+      "nome": "Sotto 80 dB(A)",
+      "fino": 80,
+      "colore": "#00B050",
+      "testo": "Sotto il valore inferiore di azione: valutazione documentata e riduzione del rischio al minimo secondo il principio generale."
+     },
+     {
+      "nome": "Azione inferiore",
+      "fino": 85,
+      "colore": "#C9A100",
+      "testo": "Tra 80 e 85 dB(A): informazione e formazione, otoprotettori messi a disposizione, sorveglianza sanitaria su richiesta del lavoratore o se il medico ne conferma l’opportunità."
+     },
+     {
+      "nome": "Azione superiore",
+      "fino": 87,
+      "colore": "#E07000",
+      "testo": "Tra 85 e 87 dB(A): uso degli otoprotettori obbligatorio, programma di misure tecniche e organizzative, segnaletica e delimitazione delle aree, sorveglianza sanitaria."
+     },
+     {
+      "nome": "Oltre 87 dB(A)",
+      "fino": 95,
+      "colore": "#C81F26",
+      "testo": "87 dB(A) è il valore limite di esposizione, da non superare tenendo conto dell’attenuazione degli otoprotettori: in caso di superamento occorrono misure immediate."
+     }
+    ]
+   },
+   "nar": "Grafico interattivo. Si sposti il cursore lungo la scala del livello di esposizione giornaliera al rumore. Il decreto ottantuno fissa un valore inferiore di azione di ottanta decibel A, un valore superiore di azione di ottantacinque decibel A e un valore limite di ottantasette decibel A, quest’ultimo da verificare tenendo conto dell’attenuazione degli otoprotettori. Per ciascuna zona compaiono gli obblighi del datore di lavoro. Si esplorino tutte le zone."
+  },
+  {
+   "t": "grafico",
+   "tit": "Grafico interattivo · Vibrazioni trasmesse al sistema mano-braccio",
+   "rif": "D.lgs. 81/2008, art. 201",
+   "lead": "Spostare il cursore sul valore di esposizione giornaliera A(8) per visualizzare gli obblighi corrispondenti.",
+   "grafico": {
+    "tipo": "soglie",
+    "variabile": "Esposizione giornaliera A(8) mano-braccio",
+    "unita": "m/s²",
+    "min": 0,
+    "max": 8,
+    "passo": 0.1,
+    "iniziale": 1.5,
+    "zone": [
+     {
+      "nome": "Sotto l’azione",
+      "fino": 2.5,
+      "colore": "#00B050",
+      "testo": "Sotto 2,5 m/s²: valutazione documentata e riduzione del rischio al minimo."
+     },
+     {
+      "nome": "Valore d’azione",
+      "fino": 5,
+      "colore": "#E07000",
+      "testo": "Tra 2,5 e 5 m/s²: programma di misure tecniche e organizzative, informazione e formazione, sorveglianza sanitaria dei lavoratori esposti."
+     },
+     {
+      "nome": "Oltre 5 m/s²",
+      "fino": 8,
+      "colore": "#C81F26",
+      "testo": "5 m/s² è il valore limite giornaliero: non deve essere superato; se superato, misure immediate per riportare l’esposizione al di sotto."
+     }
+    ]
+   },
+   "nar": "Grafico interattivo. Si sposti il cursore sul valore di esposizione giornaliera alle vibrazioni trasmesse al sistema mano-braccio, normalizzato a otto ore. Il valore d’azione è di due virgola cinque metri al secondo quadrato e il valore limite di cinque metri al secondo quadrato. Per il corpo intero i valori corrispondenti sono zero virgola cinque e uno virgola zero. Si esplorino tutte le zone."
+  }
+ ]
+}

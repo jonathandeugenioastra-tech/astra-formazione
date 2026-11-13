@@ -1,0 +1,64 @@
+{
+ "dopo": "Esempio applicativo: quando c’è «inquinamento ambientale»",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Spedizioni transfrontaliere di rifiuti",
+   "lead": "L’invio di rifiuti in un altro Stato è soggetto a una disciplina europea specifica, profondamente rinnovata dal 2024.",
+   "punti": [
+    "Reg. (UE) 2024/1157: nuovo regolamento sulle spedizioni di rifiuti, applicabile in gran parte dal 21 maggio 2026",
+    "Procedura di notifica e autorizzazione preventiva scritta per i rifiuti pericolosi e per lo smaltimento",
+    "Rifiuti dell’«elenco verde» destinati a recupero: obblighi di informazione e documento di accompagnamento",
+    "Digitalizzazione progressiva dello scambio di documenti tra autorità e operatori",
+    "Spedizione illegale: sanzioni penali nazionali (art. 259 D.lgs. 152/2006) e obbligo di ripresa dei rifiuti"
+   ],
+   "appro": "Un rifiuto classificato in modo errato come «verde» per evitare la notifica configura una spedizione illegale: la classificazione e la verifica dell’impianto estero sono responsabilità di chi organizza la spedizione.",
+   "rif": "Reg. (UE) 2024/1157 · D.lgs. 152/2006, art. 259",
+   "nar": "L’invio di rifiuti in un altro Stato è soggetto a una disciplina europea specifica, profondamente rinnovata dal regolamento duemilaventiquattro-millecentocinquantasette, che sostituisce il precedente regolamento del duemilasei e si applica in gran parte dal ventuno maggio duemilaventisei. Per i rifiuti pericolosi e per i rifiuti destinati allo smaltimento è prevista una procedura di notifica e autorizzazione preventiva scritta delle autorità competenti di spedizione, di destinazione e di transito. Per i rifiuti non pericolosi dell’elenco verde destinati al recupero valgono obblighi di informazione meno onerosi, con un documento di accompagnamento della spedizione. Il nuovo regolamento prevede la digitalizzazione progressiva dello scambio dei documenti e regole più severe per le esportazioni verso Paesi terzi. Una spedizione effettuata senza rispettare queste procedure è illegale: comporta le sanzioni penali previste dall’articolo duecentocinquantanove del decreto centocinquantadue e l’obbligo di ripresa dei rifiuti a carico di chi ha organizzato la spedizione. Un errore frequente, e a volte intenzionale, riguarda la classificazione: un rifiuto indicato come appartenente all’elenco verde per evitare la notifica configura una spedizione illegale. La classificazione corretta e la verifica dell’impianto estero di destinazione sono responsabilità di chi organizza la spedizione."
+  },
+  {
+   "t": "testo",
+   "tit": "Inquinamento e salute: la sorveglianza epidemiologica",
+   "lead": "La valutazione degli effetti sanitari dell’inquinamento richiede metodi epidemiologici rigorosi, applicati in Italia in particolare ai siti contaminati di interesse nazionale.",
+   "punti": [
+    "Siti di interesse nazionale (SIN): aree contaminate individuate per estensione e pericolosità, con bonifica di competenza statale",
+    "Studio SENTIERI dell’Istituto superiore di sanità: sorveglianza della mortalità, dei ricoveri e dei tumori nelle popolazioni residenti",
+    "Indicatori: rapporti standardizzati rispetto a popolazioni di riferimento, con intervalli di confidenza",
+    "Interpretazione: associazioni coerenti con le esposizioni note, non prove causali individuali",
+    "Biomonitoraggio umano: misura delle sostanze o dei loro metaboliti in sangue e urine"
+   ],
+   "appro": "Un eccesso di malattie in una popolazione residente non dimostra da solo il nesso con una specifica sorgente: occorrono la ricostruzione delle esposizioni e la coerenza con le conoscenze tossicologiche.",
+   "rif": "D.lgs. 152/2006, art. 252 · Istituto superiore di sanità, Progetto SENTIERI",
+   "nar": "La valutazione degli effetti sanitari dell’inquinamento richiede metodi epidemiologici rigorosi. In Italia questi metodi sono applicati in particolare ai siti di interesse nazionale, cioè alle aree contaminate individuate per l’estensione e la pericolosità della contaminazione, la cui bonifica è di competenza statale ai sensi dell’articolo duecentocinquantadue del decreto centocinquantadue. L’Istituto superiore di sanità conduce da oltre un decennio lo studio epidemiologico SENTIERI, che sorveglia la mortalità, i ricoveri ospedalieri e l’incidenza dei tumori nelle popolazioni residenti in questi siti. I risultati sono espressi con rapporti standardizzati, che confrontano i casi osservati con quelli attesi in una popolazione di riferimento, accompagnati da intervalli di confidenza. Un eccesso di casi coerente con le esposizioni note del sito, ad esempio tumori della pleura in presenza di amianto, rafforza l’ipotesi di un’associazione, ma non costituisce una prova causale per il singolo individuo. Il biomonitoraggio umano, cioè la misura delle sostanze o dei loro metaboliti nel sangue e nelle urine, consente di documentare le esposizioni effettive. Nei procedimenti penali per disastro ambientale questi strumenti sono fondamentali, ma vanno interpretati con cautela: occorrono la ricostruzione delle esposizioni e la coerenza con le conoscenze tossicologiche."
+  },
+  {
+   "t": "testo",
+   "tit": "La responsabilità del consulente e del tecnico",
+   "lead": "Chi fornisce consulenza ambientale all’impresa può essere coinvolto nei reati del cliente, quando il suo contributo è consapevole e determinante.",
+   "punti": [
+    "Concorso di persone nel reato (art. 110 c.p.): contributo materiale o morale alla realizzazione del fatto",
+    "Esempi: classificazione consapevolmente errata di un rifiuto, analisi alterate, attestazioni non veritiere",
+    "Falsità nei certificati di analisi dei rifiuti: sanzioni specifiche (art. 258 D.lgs. 152/2006)",
+    "Il consulente diligente documenta i dati ricevuti, i limiti del proprio incarico e le raccomandazioni fornite",
+    "Il dovere professionale include la segnalazione scritta al cliente delle non conformità rilevate"
+   ],
+   "appro": "Una raccomandazione scritta, datata e motivata tutela il professionista e aiuta il cliente: la consulenza ambientale è prevenzione, non avallo di prassi irregolari.",
+   "rif": "Codice penale, art. 110 · D.lgs. 152/2006, art. 258",
+   "nar": "Chi fornisce consulenza ambientale all’impresa, come il tecnico ambientale, il chimico che classifica i rifiuti o il laboratorio che esegue le analisi, può essere coinvolto nei reati del cliente quando il suo contributo è consapevole e determinante. L’articolo centodieci del codice penale disciplina il concorso di persone nel reato: risponde chiunque fornisca un contributo materiale o morale alla realizzazione del fatto. Sono esempi tipici la classificazione consapevolmente errata di un rifiuto pericoloso come non pericoloso, per consentirne lo smaltimento a costi inferiori, l’alterazione dei risultati delle analisi o il rilascio di attestazioni non veritiere. L’articolo duecentocinquantotto del decreto centocinquantadue prevede sanzioni specifiche per chi predispone un certificato di analisi dei rifiuti con false indicazioni sulla natura, sulla composizione e sulle caratteristiche chimico-fisiche. Il consulente diligente, al contrario, documenta i dati ricevuti dal cliente, i limiti del proprio incarico, i metodi utilizzati e le raccomandazioni fornite. Il dovere professionale comprende anche la segnalazione scritta al cliente delle non conformità rilevate. Una raccomandazione scritta, datata e motivata tutela il professionista e aiuta il cliente: la consulenza ambientale è prevenzione, non avallo di prassi irregolari."
+  },
+  {
+   "t": "caso",
+   "tit": "Caso di studio · La richiesta del cliente",
+   "scena": "Un cliente chiede al proprio consulente di attribuire a un fango di trattamento un codice non pericoloso «per contenere i costi», nonostante le analisi mostrino concentrazioni di metalli superiori alle soglie per la caratteristica HP14.",
+   "domanda": "Qual è la condotta professionale corretta?",
+   "opz": [
+    ["Assecondare il cliente, la responsabilità è solo del produttore", false, "No: il contributo consapevole configura il concorso nel reato."],
+    ["Rifiutare, classificare correttamente il rifiuto e formalizzare per iscritto la valutazione e le conseguenze", true, "Corretto: la classificazione deve basarsi sui dati e va documentata."],
+    ["Ripetere le analisi finché non si ottiene un risultato favorevole", false, "No: la selezione dei risultati falsa la caratterizzazione."]
+   ],
+   "rif": "Codice penale, art. 110 · D.lgs. 152/2006, artt. 184 e 258",
+   "appro": "Se esistono dubbi sulla rappresentatività del campione, si progetta un piano di campionamento statisticamente adeguato, non una serie di prove fino al risultato desiderato.",
+   "nar": "Caso di studio. Un cliente chiede al consulente di attribuire a un fango un codice non pericoloso per contenere i costi, nonostante le analisi indichino concentrazioni di metalli superiori alle soglie di pericolo. Si individui la condotta professionale corretta."
+  }
+ ]
+}

@@ -1,0 +1,42 @@
+{
+ "dopo": "Autorizzazione allo scarico e valori limite",
+ "schermate": [
+  {
+   "t": "grafico",
+   "tit": "Diagramma · L’autorizzazione allo scarico",
+   "rif": "D.lgs. 152/2006, artt. 101, 124 · D.P.R. 59/2013",
+   "lead": "Selezionare ciascuna fase.",
+   "grafico": {
+    "tipo": "flusso",
+    "passi": [
+     {
+      "nome": "Classificazione",
+      "tempo": null,
+      "testo": "Individuazione del tipo di acque (domestiche, assimilate, industriali, meteoriche) e del recettore (fognatura, acque superficiali, suolo)."
+     },
+     {
+      "nome": "Domanda",
+      "tempo": null,
+      "testo": "Domanda all’autorità competente o tramite AUA al SUAP, con caratteristiche quali-quantitative e sistemi di trattamento."
+     },
+     {
+      "nome": "Autorizzazione",
+      "tempo": "4 anni (15 se in AUA)",
+      "testo": "Titolo con valori limite, prescrizioni e frequenza degli autocontrolli; il rinnovo si chiede un anno prima della scadenza."
+     },
+     {
+      "nome": "Esercizio e controlli",
+      "tempo": null,
+      "testo": "Pozzetto di campionamento accessibile, autocontrolli, manutenzione degli impianti di trattamento, registrazioni."
+     },
+     {
+      "nome": "Modifiche",
+      "tempo": null,
+      "testo": "Le modifiche che variano le caratteristiche dello scarico richiedono una nuova autorizzazione o un aggiornamento."
+     }
+    ]
+   },
+   "nar": "Diagramma interattivo. Si selezioni ciascuna fase del percorso autorizzativo di uno scarico: classificazione delle acque e del recettore, domanda, autorizzazione, esercizio e controlli, modifiche."
+  }
+ ]
+}

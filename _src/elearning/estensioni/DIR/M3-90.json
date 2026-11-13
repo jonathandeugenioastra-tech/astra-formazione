@@ -1,0 +1,47 @@
+{
+ "dopo": "Il documento di valutazione dei rischi",
+ "schermate": [
+  {
+   "t": "grafico",
+   "tit": "Diagramma · Il processo di valutazione dei rischi",
+   "rif": "D.lgs. 81/2008, artt. 17, 28, 29",
+   "lead": "Selezionare ciascuna fase del processo per visualizzarne contenuti e soggetti coinvolti.",
+   "grafico": {
+    "tipo": "flusso",
+    "passi": [
+     {
+      "nome": "Organizzazione",
+      "tempo": null,
+      "testo": "Il datore di lavoro avvia la valutazione in collaborazione con RSPP e medico competente, previa consultazione del RLS (art. 29)."
+     },
+     {
+      "nome": "Identificazione dei pericoli",
+      "tempo": null,
+      "testo": "Analisi di luoghi, attrezzature, sostanze, organizzazione e gruppi di lavoratori esposti a rischi particolari."
+     },
+     {
+      "nome": "Stima del rischio",
+      "tempo": null,
+      "testo": "Valutazione di probabilità e danno, con criteri espliciti e metodi specifici per i rischi normati (rumore, chimico, MMC…)."
+     },
+     {
+      "nome": "Misure e programma",
+      "tempo": null,
+      "testo": "Individuazione delle misure di prevenzione e protezione e programma di miglioramento con ruoli e tempi (art. 28, c. 2)."
+     },
+     {
+      "nome": "Documento",
+      "tempo": null,
+      "testo": "Redazione del DVR con data certa, firmato dal datore di lavoro, RSPP, RLS e medico competente."
+     },
+     {
+      "nome": "Rielaborazione",
+      "tempo": "entro 30 giorni",
+      "testo": "Aggiornamento in caso di modifiche significative, infortuni significativi o risultati della sorveglianza sanitaria (art. 29, c. 3)."
+     }
+    ]
+   },
+   "nar": "Diagramma interattivo. Si selezioni ciascuna fase del processo di valutazione dei rischi: organizzazione, identificazione dei pericoli, stima del rischio, misure e programma di miglioramento, documento, rielaborazione. Per ciascuna fase compaiono i contenuti e i soggetti coinvolti."
+  }
+ ]
+}

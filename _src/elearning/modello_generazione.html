@@ -1,0 +1,45 @@
+<!doctype html><html lang="it"><head><meta charset="utf-8"><title>Generazione narrazione – Astra Academy</title>
+<style>
+@font-face{font-family:Eras;src:local("Eras Medium ITC"),local("ErasITC-Medium")}
+@font-face{font-family:ErasB;src:local("Eras Bold ITC"),local("ErasITC-Bold")}
+body{font-family:Eras,"Eras Medium ITC",sans-serif;background:#f4f6f8;color:#14323c;margin:0;padding:32px 16px;text-align:justify}
+main{max-width:760px;margin:auto;background:#fff;border:.25pt solid #9db0b8;padding:28px 32px}
+h1{font-family:ErasB,"Eras Bold ITC",sans-serif;font-weight:normal;font-size:22px;color:#0b5566;margin:0 0 6px}
+p{line-height:1.5}label{display:block;margin:14px 0 4px;font-family:ErasB,"Eras Bold ITC",sans-serif}
+input{font:inherit;padding:8px;border:.25pt solid #708a94;width:100%;box-sizing:border-box}
+button{font:inherit;font-family:ErasB,"Eras Bold ITC",sans-serif;background:#0b5566;color:#fff;border:0;padding:10px 22px;margin-top:18px;cursor:pointer}
+button:disabled{background:#9db0b8}#log{margin-top:18px;font-size:14px;white-space:pre-line}
+.barra{height:8px;background:#e3e9ec;margin-top:14px}.barra div{height:8px;background:#0b5566;width:0}
+</style></head><body><main>
+<h1>Generazione della narrazione e-learning</h1>
+<p>La pagina sintetizza, con la voce Azure «Giuseppe», le narrazioni da aggiornare: __N__ schermate di __CORSI__ corsi, circa __C__ caratteri. Per ciascun corso viene scaricato un file <b>giuseppe_&lt;CODICE&gt;.json</b> nella cartella Download.</p>
+<p>La chiave del servizio Azure Speech si inserisce nel campo seguente: resta esclusivamente in questo browser, non viene salvata e non è trasmessa ad altri che al servizio Microsoft.</p>
+<label for="k">Chiave Azure Speech</label><input id="k" type="password" autocomplete="off">
+<label for="r">Area geografica della risorsa</label><input id="r" value="northeurope">
+<button id="go">Avvia la generazione</button>
+<div class="barra"><div id="b"></div></div><div id="log"></div>
+<p style="font-size:13px;margin-top:22px">Il browser potrebbe chiedere l’autorizzazione a scaricare più file: occorre consentirla. Al termine la pagina può essere chiusa.</p>
+</main><script>
+const D=__DATI__;
+const PRON=[[/\bD\.lgs\.?/g,'decreto legislativo'],[/\bart\.\s?/gi,'articolo '],[/\bc\.\s?(\d)/g,'comma $1'],[/\bINAIL\b/g,'Inàil'],[/\bISO\b/g,'iso'],[/\bUNI\b/g,'uni'],[/\bILO\b/g,'ilo'],[/\bCE\b/g,'ci e']];
+const pron=t=>PRON.reduce((s,[a,b])=>s.replace(a,b),t);
+const xml=s=>s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+const log=t=>document.getElementById('log').textContent+=t+'\n';
+const b64=buf=>{let s='',a=new Uint8Array(buf);for(let i=0;i<a.length;i+=32768)s+=String.fromCharCode.apply(null,a.subarray(i,i+32768));return btoa(s)};
+async function sintetizza(key,reg,t){
+ const ssml=`<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="https://www.w3.org/2001/mstts" xml:lang="it-IT"><voice name="it-IT-GiuseppeMultilingualNeural"><mstts:express-as style="narration-professional"><prosody rate="-4%">${xml(t).replace(/⟦INAIL⟧/g,'<phoneme alphabet="ipa" ph="iˈnail">Inail</phoneme>')}</prosody></mstts:express-as></voice></speak>`;
+ for(let i=1;i<=5;i++){const r=await fetch(`https://${reg}.tts.speech.microsoft.com/cognitiveservices/v1`,{method:'POST',headers:{'Ocp-Apim-Subscription-Key':key,'Content-Type':'application/ssml+xml','X-Microsoft-OutputFormat':'audio-48khz-192kbitrate-mono-mp3'},body:ssml});
+  if(r.ok)return b64(await r.arrayBuffer());
+  if(r.status==401||r.status==403)throw new Error('chiave o area geografica non valide');
+  await new Promise(s=>setTimeout(s,2000*i));}
+ throw new Error('servizio non disponibile dopo cinque tentativi');}
+document.getElementById('go').onclick=async()=>{
+ const key=document.getElementById('k').value.trim(),reg=document.getElementById('r').value.trim();
+ if(!key){alert('Inserire la chiave Azure Speech.');return}
+ document.getElementById('go').disabled=true;const tot=Object.values(D).reduce((a,o)=>a+Object.keys(o).length,0);let n=0;
+ try{for(const [id,o] of Object.entries(D)){const out={};for(const [k,t] of Object.entries(o)){out[k]=await sintetizza(key,reg,t);n++;document.getElementById('b').style.width=(100*n/tot)+'%'}
+   const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([JSON.stringify(out)],{type:'application/json'}));a.download='giuseppe_'+id+'.json';a.click();log(id+': '+Object.keys(o).length+' schermate generate e scaricate.');await new Promise(s=>setTimeout(s,800))}
+  log('\nGenerazione completata. È possibile comunicarlo a Claude.')}
+ catch(e){log('Interruzione: '+e.message+'. I corsi già scaricati restano validi; riavviando, la generazione riprende da capo.')}
+ document.getElementById('k').value='';document.getElementById('go').disabled=false};
+</script></body></html>

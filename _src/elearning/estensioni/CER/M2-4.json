@@ -1,0 +1,91 @@
+{
+ "dopo": "Esempio applicativo: l’energia condivisa in un’ora",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Il gruppo di autoconsumatori in condominio",
+   "lead": "Nel condominio i residenti possono condividere l’energia di un impianto sulla copertura comune senza costituire una comunità.",
+   "punti": [
+    "Configurazione: gruppo di autoconsumatori che agiscono collettivamente nello stesso edificio",
+    "Impianto sulle parti comuni, deliberato dall’assemblea condominiale secondo le regole del codice civile",
+    "Ciascun condomino mantiene il proprio contatore e il proprio fornitore",
+    "L’energia condivisa con le utenze dei condomini e con quelle comuni accede alla tariffa premio",
+    "Un referente, spesso l’amministratore, gestisce i rapporti con il GSE"
+   ],
+   "appro": "Le utenze condominiali comuni, come illuminazione, ascensore e pompe, hanno consumi in parte diurni e contribuiscono alla condivisione anche quando i residenti sono assenti.",
+   "rif": "D.lgs. 199/2021, art. 30 · TIAD ARERA · Codice civile, art. 1117 e seguenti",
+   "nar": "Nel condominio i residenti possono condividere l’energia prodotta da un impianto installato sulla copertura comune senza costituire una comunità energetica, attraverso la configurazione del gruppo di autoconsumatori di energia rinnovabile che agiscono collettivamente. L’impianto viene realizzato sulle parti comuni dell’edificio, previa deliberazione dell’assemblea condominiale secondo le regole del codice civile sulle innovazioni e sulle parti comuni. Ciascun condomino che aderisce mantiene il proprio contatore, il proprio contratto di fornitura e la libera scelta del venditore: la condivisione si calcola virtualmente, ora per ora, sui dati di misura. L’energia condivisa con le utenze dei condomini aderenti e con le utenze condominiali comuni accede alla tariffa premio e alla restituzione delle componenti tariffarie, nei limiti previsti. Le utenze comuni, come l’illuminazione delle scale, l’ascensore e le pompe, hanno consumi in parte diurni e contribuiscono alla condivisione anche quando i residenti sono assenti per lavoro. Un referente, spesso l’amministratore di condominio, gestisce i rapporti con il Gestore dei servizi energetici e la ripartizione dei benefici secondo le regole stabilite dall’assemblea. Questa configurazione è particolarmente adatta ai condomini con coperture ampie e ben esposte."
+  },
+  {
+   "t": "testo",
+   "tit": "L’autoconsumatore a distanza per le imprese",
+   "lead": "Un’impresa con più sedi può produrre energia in un sito e utilizzarla virtualmente in un altro sotteso alla stessa cabina primaria.",
+   "punti": [
+    "Configurazione: autoconsumatore individuale di energia rinnovabile «a distanza»",
+    "Impianto su un sito dell’impresa (ad esempio un magazzino con ampia copertura), consumi in un altro sito",
+    "Stesso soggetto titolare dei punti di prelievo e dell’impianto, o nella sua disponibilità",
+    "Accesso a tariffa premio e restituzione delle componenti tariffarie sull’energia autoconsumata a distanza",
+    "Utile quando il sito con consumi elevati non ha superfici adatte all’installazione"
+   ],
+   "appro": "Per le imprese la configurazione a distanza è spesso più semplice di una comunità, perché non richiede di costituire un soggetto giuridico con altri membri.",
+   "rif": "D.lgs. 199/2021, art. 30 · TIAD ARERA · D.M. 414/2023",
+   "nar": "Un’impresa con più sedi può sfruttare la configurazione dell’autoconsumatore individuale di energia rinnovabile a distanza. L’impresa realizza l’impianto in un sito con superfici adatte, ad esempio un magazzino con una copertura ampia e ben esposta, e utilizza virtualmente l’energia prodotta in un altro sito con consumi elevati, purché entrambi siano sottesi alla stessa cabina primaria per l’accesso agli incentivi. Il titolare dei punti di prelievo deve essere lo stesso soggetto che ha la disponibilità dell’impianto, eventualmente realizzato da un produttore terzo. Sull’energia autoconsumata a distanza, cioè sulla quota oraria di energia immessa nel sito di produzione che coincide con i prelievi del sito di consumo, si ottengono la tariffa premio e la restituzione delle componenti tariffarie, nei limiti previsti dal decreto. La configurazione è particolarmente utile quando il sito con i consumi maggiori, ad esempio uno stabilimento con coperture inadatte o vincolate, non può ospitare un impianto adeguato. Per le imprese, questa soluzione è spesso più semplice di una comunità energetica, perché non richiede di costituire un soggetto giuridico con altri membri né di condividere la governance, pur consentendo di valorizzare la produzione rinnovabile tra sedi diverse."
+  },
+  {
+   "t": "testo",
+   "tit": "Dati di misura e gestione operativa",
+   "lead": "Il funzionamento di una configurazione si basa sui dati orari di misura, che il GSE riceve dai gestori di rete.",
+   "punti": [
+    "I contatori elettronici misurano immissioni e prelievi con dettaglio orario o quartorario",
+    "I gestori di rete trasmettono i dati al GSE, che calcola energia condivisa, tariffa e contributi",
+    "Il referente riceve gli importi e i dati per la ripartizione ai membri",
+    "Le piattaforme di gestione consentono ai membri di visualizzare i propri consumi e il contributo alla condivisione",
+    "Comunicazioni al GSE: ingressi e uscite di membri, modifiche degli impianti"
+   ],
+   "appro": "La trasparenza dei dati è un fattore di successo: i membri che vedono il proprio contributo alla condivisione sono più motivati a spostare i consumi nelle ore di produzione.",
+   "rif": "TIAD ARERA · Regole operative del GSE",
+   "nar": "Il funzionamento di una configurazione di autoconsumo diffuso si basa interamente sui dati di misura. I contatori elettronici installati presso gli impianti e presso le utenze dei membri misurano le immissioni e i prelievi con dettaglio orario o quartorario. I gestori delle reti di distribuzione trasmettono questi dati al Gestore dei servizi energetici, che per ciascuna ora calcola l’energia condivisa all’interno della configurazione e, sulla base di essa, la tariffa premio e il contributo di restituzione delle componenti tariffarie. Gli importi vengono erogati al referente della configurazione insieme ai dati necessari alla ripartizione tra i membri secondo il regolamento interno. Molte comunità si dotano di una piattaforma di gestione che consente ai membri di visualizzare i propri consumi, il proprio contributo all’energia condivisa e i benefici maturati. Il referente deve inoltre comunicare al Gestore dei servizi energetici gli ingressi e le uscite dei membri e le modifiche degli impianti, nei tempi previsti dalle regole operative. La trasparenza dei dati è un fattore di successo: i membri che vedono il proprio contributo alla condivisione sono più motivati a spostare i consumi nelle ore di produzione, migliorando il risultato collettivo."
+  },
+  {
+   "t": "testo",
+   "tit": "Garanzie di origine e contratti di lungo termine",
+   "lead": "Accanto alle configurazioni di autoconsumo, le imprese possono documentare e acquistare energia rinnovabile con strumenti di mercato.",
+   "punti": [
+    "Garanzia di origine (GO): certificato elettronico che attesta la produzione di 1 MWh da fonte rinnovabile",
+    "Rilasciata dal GSE ai produttori; può essere trasferita e annullata per dimostrare il consumo di energia rinnovabile",
+    "Contratti di acquisto di lungo termine (PPA): fornitura di energia rinnovabile da un impianto specifico a prezzo concordato",
+    "Utili per la rendicontazione delle emissioni indirette con il metodo basato sul mercato",
+    "Non sostituiscono la riduzione dei consumi, che resta la prima misura"
+   ],
+   "appro": "Nella rendicontazione delle emissioni, l’energia coperta da garanzie di origine annullate può essere considerata a emissioni nulle nel metodo basato sul mercato, purché siano rispettati i criteri di qualità degli strumenti.",
+   "rif": "D.lgs. 199/2021, art. 46 · GHG Protocol, Scope 2 Guidance",
+   "nar": "Accanto all’autoconsumo e alle configurazioni di autoconsumo diffuso, le imprese possono documentare e acquistare energia rinnovabile attraverso strumenti di mercato. La garanzia di origine è un certificato elettronico che attesta che un megawattora di energia elettrica è stato prodotto da una fonte rinnovabile. È rilasciata dal Gestore dei servizi energetici ai produttori, può essere trasferita tra operatori e viene annullata quando si vuole dimostrare che una determinata quantità di energia consumata proviene da fonti rinnovabili, ad esempio nelle offerte di energia verde dei venditori. I contratti di acquisto di lungo termine, noti come PPA, prevedono invece la fornitura di energia rinnovabile prodotta da un impianto specifico, a un prezzo concordato per diversi anni: offrono stabilità dei costi e contribuiscono alla realizzazione di nuovi impianti. Questi strumenti sono rilevanti per la rendicontazione delle emissioni indirette legate all’energia acquistata: nel metodo basato sul mercato, l’energia coperta da garanzie di origine annullate può essere considerata a emissioni nulle, purché gli strumenti rispettino i criteri di qualità previsti. Occorre però ricordare che questi strumenti non sostituiscono la riduzione dei consumi, che resta la prima misura di un percorso di decarbonizzazione credibile."
+  },
+  {
+   "t": "abbina",
+   "tit": "Esercitazione · Configurazioni e caratteristiche",
+   "sott": "Associare a ciascuna configurazione o elemento la caratteristica corretta",
+   "coppie": [
+    ["Comunità energetica rinnovabile", "Soggetto giuridico autonomo con membri distribuiti sul territorio"],
+    ["Gruppo di autoconsumatori", "Condomini o utenti dello stesso edificio"],
+    ["Autoconsumatore a distanza", "Stesso soggetto, impianto in un sito e consumi in un altro"],
+    ["Cabina primaria", "Perimetro per l’energia condivisa incentivata"],
+    ["Garanzia di origine", "Certificato di 1 MWh prodotto da fonte rinnovabile"]
+   ],
+   "nar": "Esercitazione. Si associ a ciascuna configurazione o elemento la caratteristica corretta."
+  },
+  {
+   "t": "vf",
+   "tit": "Esercitazione · Affermazioni vere o false sugli incentivi",
+   "sott": "Qualificare ciascuna affermazione come vera o falsa",
+   "voci": [
+    ["La tariffa premio si applica a tutta l’energia prodotta dall’impianto.", false, "Falso: si applica alla sola energia condivisa."],
+    ["Per gli impianti fino a 200 kW la parte fissa della tariffa è di 80 €/MWh.", true, "Vero."],
+    ["Il fattore correttivo per il fotovoltaico in Abruzzo è di +4 €/MWh.", true, "Vero: regioni del Centro."],
+    ["Il contributo in conto capitale lascia invariata la tariffa premio.", false, "Falso: la tariffa viene ridotta in proporzione."],
+    ["Una comunità formata solo da consumi serali condivide molta energia fotovoltaica.", false, "Falso: la produzione fotovoltaica è diurna."]
+   ],
+   "nar": "Esercitazione. Si stabilisca se ciascuna affermazione sugli incentivi è vera o falsa."
+  }
+ ]
+}

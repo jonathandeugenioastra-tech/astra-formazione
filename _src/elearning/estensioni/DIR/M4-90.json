@@ -1,0 +1,37 @@
+{
+ "dopo": "Verificare l’efficacia della formazione: il modello a quattro livelli",
+ "schermate": [
+  {
+   "t": "grafico",
+   "tit": "Diagramma · I quattro livelli di verifica dell’efficacia",
+   "rif": "Accordo Stato-Regioni 17 aprile 2025 · modello di Kirkpatrick",
+   "lead": "Selezionare ciascun livello per visualizzarne strumenti e indicatori.",
+   "grafico": {
+    "tipo": "flusso",
+    "passi": [
+     {
+      "nome": "Reazione",
+      "tempo": "al termine del corso",
+      "testo": "Gradimento dei partecipanti: questionario su contenuti, docente, materiali e organizzazione."
+     },
+     {
+      "nome": "Apprendimento",
+      "tempo": "al termine del corso",
+      "testo": "Conoscenze e abilità acquisite: test di verifica, prove pratiche, simulazioni."
+     },
+     {
+      "nome": "Comportamento",
+      "tempo": "dopo alcune settimane",
+      "testo": "Trasferimento sul lavoro: osservazioni dei preposti, audit comportamentali, uso corretto dei DPI."
+     },
+     {
+      "nome": "Risultati",
+      "tempo": "nel medio periodo",
+      "testo": "Effetti sull’organizzazione: quasi incidenti segnalati, infortuni, non conformità, indicatori del sistema di gestione."
+     }
+    ]
+   },
+   "nar": "Diagramma interattivo. Si selezioni ciascun livello del modello di verifica dell’efficacia della formazione: reazione, apprendimento, comportamento e risultati, con gli strumenti e gli indicatori corrispondenti."
+  }
+ ]
+}

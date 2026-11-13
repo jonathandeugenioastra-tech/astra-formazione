@@ -11,14 +11,13 @@ fs.mkdirSync(CACHE, { recursive: true });
 global.window = {}; eval(fs.readFileSync(path.join(BASE, 'corsi', id, 'corso.js'), 'utf8')); const C = window.CORSO;
 
 /* pronuncia: espansioni per una lettura naturale (solo per la voce, non per i testi a video) */
-const PRON = [[/\bD\.lgs\.?/g, 'decreto legislativo'], [/\bart\.\s?/gi, 'articolo '], [/\bc\.\s?(\d)/g, 'comma $1'], [/\bINAIL\b/g, 'Inàil'], [/\bISO\b/g, 'iso'], [/\bUNI\b/g, 'uni'], [/\bILO\b/g, 'ilo'], [/\bCE\b/g, 'ci e']];
-const pron = t => PRON.reduce((s, [a, b]) => s.replace(a, b), t);
+const { pronuncia: pron, ssmlFonemi } = require('./pronuncia.js');
 const xml = s => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 const frasi = t => (t.match(/[^.!?;]+[.!?;]*/g) || [t]).map(s => s.trim()).filter(Boolean);
 const durata = f => +execFileSync('ffprobe', ['-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', f]).toString().trim();
 
 const sintetizza = async (testo, file) => {
-  const ssml = `<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="https://www.w3.org/2001/mstts" xml:lang="it-IT"><voice name="${VOCE}"><mstts:express-as style="narration-professional"><prosody rate="-4%">${xml(pron(testo))}</prosody></mstts:express-as></voice></speak>`;
+  const ssml = `<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="https://www.w3.org/2001/mstts" xml:lang="it-IT"><voice name="${VOCE}"><mstts:express-as style="narration-professional"><prosody rate="-4%">${ssmlFonemi(xml(pron(testo)))}</prosody></mstts:express-as></voice></speak>`;
   for (let t = 1; t <= 4; t++) {
     const r = await fetch(`https://${REG}.tts.speech.microsoft.com/cognitiveservices/v1`, { method: 'POST', headers: { 'Ocp-Apim-Subscription-Key': KEY, 'Content-Type': 'application/ssml+xml', 'X-Microsoft-OutputFormat': 'audio-48khz-192kbitrate-mono-mp3', 'User-Agent': 'ASTRA-elearning' }, body: ssml });
     if (r.ok) { fs.writeFileSync(file, Buffer.from(await r.arrayBuffer())); return; }

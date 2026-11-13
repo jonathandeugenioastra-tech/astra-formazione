@@ -1,0 +1,37 @@
+{
+ "dopo": "Il RENTRI: finalità, soggetti e calendario",
+ "schermate": [
+  {
+   "t": "grafico",
+   "tit": "Diagramma · Il calendario di iscrizione al RENTRI",
+   "rif": "D.M. MASE 4 aprile 2023, n. 59",
+   "lead": "Selezionare ciascuna finestra di iscrizione.",
+   "grafico": {
+    "tipo": "flusso",
+    "passi": [
+     {
+      "nome": "Primo gruppo",
+      "tempo": "15/12/2024 – 13/02/2025",
+      "testo": "Produttori di rifiuti speciali pericolosi e non pericolosi con più di 50 dipendenti; gestori di rifiuti (trasportatori, impianti, intermediari)."
+     },
+     {
+      "nome": "Secondo gruppo",
+      "tempo": "15/06/2025 – 14/08/2025",
+      "testo": "Produttori di rifiuti speciali con più di 10 e fino a 50 dipendenti."
+     },
+     {
+      "nome": "Terzo gruppo",
+      "tempo": "15/12/2025 – 13/02/2026",
+      "testo": "Tutti gli altri produttori obbligati, compresi quelli con non più di 10 dipendenti produttori di rifiuti pericolosi."
+     },
+     {
+      "nome": "Dopo l’iscrizione",
+      "tempo": null,
+      "testo": "Registro cronologico in formato digitale e, dal 13 febbraio 2026, formulario digitale; contributo annuo e deleghe agli operatori."
+     }
+    ]
+   },
+   "nar": "Diagramma interattivo. Si selezioni ciascuna finestra del calendario di iscrizione al registro elettronico nazionale per la tracciabilità dei rifiuti, distinta in base alla categoria e al numero di dipendenti dei produttori."
+  }
+ ]
+}

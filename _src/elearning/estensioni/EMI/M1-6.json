@@ -1,0 +1,123 @@
+{
+ "dopo": "Esempio applicativo: leggere un rapporto di prova delle emissioni",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Il punto di prelievo e la sezione di misura",
+   "lead": "La rappresentatività di una misura dipende dalla sezione del condotto in cui viene eseguita, che deve rispettare requisiti geometrici e di accessibilità.",
+   "punti": [
+    "Tratto rettilineo indicativo: almeno 5 diametri idraulici a monte e 2 a valle della sezione di misura",
+    "Distanza di almeno 5 diametri idraulici dallo sbocco del camino",
+    "Flusso omogeneo, senza vortici o inversioni; verifica preliminare dei profili di velocità",
+    "Numero di bocchelli e di punti di campionamento in funzione della sezione del condotto",
+    "Piattaforma di lavoro sicura e accessibile, con protezioni contro la caduta e prese di energia"
+   ],
+   "appro": "Quando la geometria non consente i tratti rettilinei previsti, la norma indica verifiche aggiuntive; la soluzione va concordata con l’organo di controllo e documentata.",
+   "rif": "UNI EN 15259 · UNI EN ISO 16911-1",
+   "nar": "La rappresentatività di una misura di emissione dipende in larga misura dalla sezione del condotto in cui viene eseguita. La norma UNI EN quindicimiladuecentocinquantanove stabilisce i requisiti della sezione e del sito di misura. In linea generale la sezione deve trovarsi in un tratto rettilineo del condotto, con una lunghezza di almeno cinque diametri idraulici a monte e due a valle, e a una distanza di almeno cinque diametri idraulici dallo sbocco del camino. Il flusso nella sezione deve essere omogeneo, senza vortici né inversioni, e il profilo di velocità va verificato preliminarmente. Il numero di bocchelli di accesso e di punti di campionamento lungo i diametri dipende dalle dimensioni della sezione, perché le concentrazioni e le velocità non sono uniformi. Il sito di misura deve inoltre essere accessibile in sicurezza: una piattaforma di lavoro stabile, di dimensioni adeguate alle attrezzature, protetta contro la caduta dall’alto e dotata di prese di energia. Quando la geometria dell’impianto non consente i tratti rettilinei previsti, la norma indica verifiche aggiuntive di omogeneità del flusso; la soluzione adottata va concordata con l’organo di controllo e documentata. Un punto di prelievo non conforme può rendere contestabili tutti gli autocontrolli eseguiti."
+  },
+  {
+   "t": "testo",
+   "tit": "I metodi di riferimento per i principali inquinanti",
+   "lead": "Gli autocontrolli si eseguono con i metodi indicati nell’autorizzazione, di norma le norme tecniche europee di riferimento.",
+   "punti": [
+    "Polveri: UNI EN 13284-1 (metodo gravimetrico)",
+    "Ossidi di azoto: UNI EN 14792; monossido di carbonio: UNI EN 15058; ossigeno: UNI EN 14789",
+    "Carbonio organico totale: UNI EN 12619; COV speciati: UNI CEN/TS 13649",
+    "Portata e velocità: UNI EN ISO 16911-1; vapore acqueo: UNI EN 14790",
+    "Metodi alternativi ammessi se di equivalenza dimostrata e accettati dall’autorità"
+   ],
+   "appro": "Il carbonio organico totale misura il carbonio complessivo dei composti organici, non la massa dei singoli solventi: i due valori non sono direttamente confrontabili.",
+   "rif": "D.lgs. 152/2006, art. 271, c. 17 e Allegato VI",
+   "nar": "Gli autocontrolli devono essere eseguiti con i metodi indicati nell’autorizzazione, che di norma coincidono con le norme tecniche europee adottate come metodi di riferimento. Per le polveri si utilizza il metodo gravimetrico della norma UNI EN tredicimiladuecentottantaquattro, parte prima, basato sul prelievo isocinetico, cioè alla stessa velocità del flusso nel condotto, e sulla pesata del filtro. Per gli ossidi di azoto il riferimento è la norma UNI EN quattordicimilasettecentonovantadue, per il monossido di carbonio la UNI EN quindicimilacinquantotto e per l’ossigeno la UNI EN quattordicimilasettecentottantanove. Il carbonio organico totale si misura con la UNI EN dodicimilaseicentodiciannove, mediante un rivelatore a ionizzazione di fiamma, mentre i singoli composti organici volatili si determinano con la specifica tecnica UNI CEN quattordicimilaseicentoquarantanove, con campionamento su fiale adsorbenti e analisi gascromatografica. La portata si determina secondo la UNI EN ISO sedicimilanovecentoundici e il vapore acqueo secondo la UNI EN quattordicimilasettecentonovanta. Metodi alternativi sono ammessi se ne è dimostrata l’equivalenza e se accettati dall’autorità. Occorre prestare attenzione alle unità: il carbonio organico totale esprime il carbonio complessivo dei composti organici, non la massa dei singoli solventi, e i due valori non sono direttamente confrontabili."
+  },
+  {
+   "t": "testo",
+   "tit": "La sicurezza delle operazioni di campionamento",
+   "lead": "I campionamenti alle emissioni espongono gli operatori a rischi che il gestore e il laboratorio devono valutare e coordinare.",
+   "punti": [
+    "Lavori in quota su piattaforme e scale: protezioni collettive, ancoraggi, piano di recupero",
+    "Esposizione a effluenti caldi, tossici o corrosivi all’apertura dei bocchelli",
+    "Rischio elettrico delle attrezzature in ambiente esterno; condizioni meteorologiche avverse",
+    "Movimentazione manuale delle attrezzature di prelievo fino alla piattaforma",
+    "Coordinamento tra gestore e laboratorio: informazioni sui rischi e misure di prevenzione"
+   ],
+   "appro": "Il laboratorio che esegue i campionamenti opera nello stabilimento in regime di appalto: il gestore deve fornire informazioni sui rischi specifici e cooperare all’attuazione delle misure.",
+   "rif": "D.lgs. 81/2008, artt. 26, 107–115 · UNI EN 15259",
+   "nar": "I campionamenti alle emissioni espongono gli operatori a rischi che il gestore dello stabilimento e il laboratorio devono valutare e coordinare. Il primo è il lavoro in quota: le sezioni di misura si trovano spesso a diversi metri di altezza, raggiungibili con scale fisse o piattaforme, che devono disporre di parapetti o di dispositivi di ancoraggio e di un piano di recupero in caso di caduta. All’apertura dei bocchelli gli operatori possono essere esposti a effluenti caldi, tossici o corrosivi, ad esempio nei condotti in pressione o a valle di processi chimici, e occorrono dispositivi di protezione adeguati. Le attrezzature elettriche utilizzate all’aperto richiedono protezioni idonee, e le condizioni meteorologiche avverse, come vento forte, pioggia o temporali, possono imporre la sospensione delle operazioni. Anche la movimentazione manuale delle attrezzature di prelievo fino alla piattaforma va considerata. Il laboratorio opera nello stabilimento in regime di appalto: il datore di lavoro committente deve fornire informazioni dettagliate sui rischi specifici dell’ambiente in cui il laboratorio opera e cooperare all’attuazione delle misure di prevenzione, secondo l’articolo ventisei del decreto ottantuno. La progettazione del punto di prelievo dovrebbe quindi considerare, fin dall’inizio, la sicurezza di chi dovrà accedervi."
+  },
+  {
+   "t": "testo",
+   "tit": "I composti organici volatili e l’uso di solventi",
+   "lead": "Le attività che impiegano solventi organici oltre determinate soglie di consumo sono soggette alla disciplina specifica dell’art. 275 e dell’Allegato III.",
+   "punti": [
+    "Attività elencate nell’Allegato III: verniciatura, stampa, sgrassaggio, adesivi, rivestimenti, produzione di prodotti vernicianti e altre",
+    "Soglie di consumo annuo di solvente oltre le quali si applicano i limiti",
+    "Limiti per le emissioni convogliate e per le emissioni diffuse (in percentuale del solvente utilizzato) o limiti di emissione totale",
+    "Sostanze con indicazioni di pericolo H340, H350, H350i, H360D, H360F: sostituzione prioritaria e limiti specifici",
+    "Schema di riduzione come alternativa al rispetto dei singoli limiti"
+   ],
+   "appro": "Le sostanze cancerogene, mutagene o tossiche per la riproduzione vanno sostituite, per quanto possibile, con sostanze meno nocive: è un obbligo che coincide con quello previsto dal D.lgs. 81/2008 per la tutela dei lavoratori.",
+   "rif": "D.lgs. 152/2006, art. 275 e Allegato III alla Parte V · D.lgs. 81/2008, art. 235",
+   "nar": "Le attività che impiegano solventi organici oltre determinate soglie di consumo annuo sono soggette alla disciplina specifica dell’articolo duecentosettantacinque e dell’Allegato terzo alla Parte quinta, che recepisce le disposizioni europee sui composti organici volatili. L’allegato elenca le attività interessate, tra cui la verniciatura di autoveicoli, metalli, legno e plastica, la stampa, lo sgrassaggio delle superfici, l’applicazione di adesivi, la produzione di prodotti vernicianti e farmaceutici. Per ciascuna attività sono stabilite soglie di consumo di solvente oltre le quali si applicano limiti per le emissioni convogliate e limiti per le emissioni diffuse, espressi in percentuale del solvente utilizzato, oppure limiti di emissione totale. Il gestore può, in alternativa, adottare uno schema di riduzione, che consente di raggiungere un risultato equivalente con mezzi diversi, ad esempio prodotti a basso contenuto di solventi. Una disciplina particolare riguarda le sostanze classificate con le indicazioni di pericolo relative alla cancerogenicità, alla mutagenicità e alla tossicità per la riproduzione: devono essere sostituite, per quanto possibile, con sostanze meno nocive, e sono soggette a limiti specifici. Questo obbligo coincide con quello di sostituzione previsto dal decreto ottantuno per la tutela dei lavoratori, e richiede un’azione coordinata tra responsabile ambientale e servizio di prevenzione e protezione."
+  },
+  {
+   "t": "testo",
+   "tit": "Il piano di gestione dei solventi",
+   "lead": "Il piano di gestione dei solventi è il bilancio di massa con cui si verificano le emissioni diffuse e il rispetto dei limiti dell’Allegato III.",
+   "punti": [
+    "Ingressi: solventi acquistati (I1) e solventi recuperati e riutilizzati (I2)",
+    "Uscite: emissioni convogliate, solventi nei rifiuti, nei prodotti, nelle acque, distrutti dai sistemi di abbattimento",
+    "Emissioni diffuse: calcolate per differenza dal bilancio",
+    "Fonti dei dati: fatture, schede di dati di sicurezza, analisi dei rifiuti, autocontrolli",
+    "Trasmissione annuale all’autorità competente, secondo le modalità regionali"
+   ],
+   "appro": "Il contenuto di solvente dei prodotti si ricava dalle schede di dati di sicurezza o dalle schede tecniche: dati incompleti rendono il bilancio inattendibile.",
+   "rif": "D.lgs. 152/2006, Allegato III alla Parte V, Parte V (piano di gestione dei solventi)",
+   "nar": "Il piano di gestione dei solventi è il bilancio di massa con cui il gestore verifica le emissioni diffuse e il rispetto dei limiti dell’Allegato terzo. Gli ingressi comprendono i solventi organici contenuti nei prodotti acquistati e quelli recuperati e riutilizzati nel processo. Le uscite comprendono le emissioni convogliate, misurate con gli autocontrolli, i solventi contenuti nei rifiuti, come le morchie di verniciatura e gli stracci, quelli rimasti nei prodotti finiti, quelli scaricati nelle acque e quelli distrutti dai sistemi di abbattimento, come i combustori. Le emissioni diffuse si calcolano per differenza: ciò che entra e non esce per le vie individuate si considera emesso in modo diffuso. I dati provengono da fonti documentate: le fatture e i registri di magazzino per i quantitativi, le schede di dati di sicurezza o le schede tecniche per il contenuto di solvente dei prodotti, le analisi dei rifiuti e i rapporti di prova degli autocontrolli. Il piano va elaborato annualmente e trasmesso all’autorità competente secondo le modalità stabilite dalla Regione. La sua attendibilità dipende dalla qualità dei dati: contenuti di solvente non documentati o quantitativi stimati in modo approssimativo rendono il bilancio inattendibile e possono nascondere superamenti dei limiti sulle emissioni diffuse."
+  },
+  {
+   "t": "testo",
+   "tit": "Emissioni odorigene",
+   "lead": "Le emissioni di odore sono disciplinate espressamente dalla Parte V e sono spesso all’origine di segnalazioni e contenziosi con la popolazione.",
+   "punti": [
+    "Art. 272-bis: le Regioni e le autorità competenti possono prevedere misure per la prevenzione e la limitazione delle emissioni odorigene",
+    "Misura della concentrazione di odore per olfattometria dinamica, in unità odorimetriche europee (ouE/m³)",
+    "Valutazione dell’impatto con modelli di dispersione e confronto con criteri regionali",
+    "Fonti tipiche: trattamento rifiuti e reflui, industria alimentare, verniciatura, allevamenti",
+    "Gestione delle segnalazioni: registro, verifica delle condizioni di esercizio, azioni correttive"
+   ],
+   "appro": "L’odore è percepito a concentrazioni spesso molto inferiori a quelle rilevanti per la salute, ma incide sulla qualità della vita: le segnalazioni vanno trattate con metodo, non sottovalutate.",
+   "rif": "D.lgs. 152/2006, art. 272-bis · UNI EN 13725",
+   "nar": "Le emissioni di odore sono disciplinate espressamente dall’articolo duecentosettantadue-bis della Parte quinta, che consente alle Regioni e alle autorità competenti di prevedere misure per la prevenzione e la limitazione delle emissioni odorigene, compresi valori limite e criteri di valutazione. La concentrazione di odore si misura con l’olfattometria dinamica, secondo la norma UNI EN tredicimilasettecentoventicinque: un campione di effluente viene diluito progressivamente e presentato a un gruppo di valutatori selezionati, fino a individuare la diluizione alla quale l’odore viene percepito dalla metà del gruppo. Il risultato si esprime in unità odorimetriche europee per metro cubo. L’impatto sul territorio si valuta con modelli di dispersione atmosferica e si confronta con i criteri stabiliti dalle linee guida regionali. Le fonti tipiche sono gli impianti di trattamento di rifiuti e reflui, l’industria alimentare, la verniciatura e gli allevamenti. L’odore viene percepito a concentrazioni spesso molto inferiori a quelle rilevanti per la salute, ma incide sulla qualità della vita della popolazione ed è all’origine di numerose segnalazioni e contenziosi. Le segnalazioni vanno quindi trattate con metodo: registrazione, verifica delle condizioni di esercizio al momento dell’evento, individuazione delle cause e adozione di azioni correttive."
+  },
+  {
+   "t": "testo",
+   "tit": "Emissioni diffuse di polveri da stoccaggio e movimentazione",
+   "lead": "Le attività di stoccaggio, carico, scarico e trasporto di materiali polverulenti generano emissioni diffuse soggette a prescrizioni di contenimento.",
+   "punti": [
+    "Allegato V alla Parte V: misure per la produzione, manipolazione, trasporto, carico, scarico e stoccaggio di materiali polverulenti",
+    "Stoccaggi coperti o confinati; cumuli all’aperto protetti dal vento o bagnati",
+    "Nastri trasportatori chiusi; punti di caduta del materiale con altezza ridotta e aspirazione",
+    "Piazzali pavimentati e puliti; bagnatura delle piste; lavaggio delle ruote dei mezzi",
+    "Limitazione delle operazioni in condizioni di vento forte"
+   ],
+   "appro": "Le stesse misure riducono anche l’esposizione dei lavoratori alle polveri: il contenimento delle emissioni diffuse è un obiettivo condiviso tra tutela ambientale e sicurezza.",
+   "rif": "D.lgs. 152/2006, Allegato V alla Parte V",
+   "nar": "Le attività di stoccaggio, carico, scarico e trasporto di materiali polverulenti, come inerti, cementi, minerali, cereali o rifiuti, generano emissioni diffuse di polveri, soggette alle prescrizioni dell’Allegato quinto alla Parte quinta e dell’autorizzazione. Le misure di contenimento riguardano innanzitutto gli stoccaggi: i materiali più fini vanno conservati in silos o in ambienti chiusi, mentre i cumuli all’aperto vanno protetti dall’azione del vento con barriere o coperture, oppure mantenuti umidi con sistemi di bagnatura. La movimentazione deve avvenire con nastri trasportatori chiusi o carterati, riducendo l’altezza di caduta del materiale e installando sistemi di aspirazione nei punti di trasferimento. I piazzali e le piste di transito vanno pavimentati, puliti regolarmente e, quando necessario, bagnati; i mezzi in uscita dallo stabilimento vanno sottoposti al lavaggio delle ruote, per evitare il trascinamento di materiale sulla viabilità pubblica. Le operazioni più critiche vanno limitate o sospese in condizioni di vento forte. Queste misure riducono anche l’esposizione dei lavoratori alle polveri, compresa la silice cristallina respirabile quando presente: il contenimento delle emissioni diffuse è un obiettivo condiviso tra tutela ambientale e sicurezza sul lavoro."
+  },
+  {
+   "t": "vf",
+   "tit": "Esercitazione · Campionamenti, COV e odori",
+   "sott": "Qualificare ciascuna affermazione come vera o falsa",
+   "voci": [
+    ["La sezione di misura deve avere tratti rettilinei a monte e a valle.", true, "Vero: UNI EN 15259."],
+    ["Il carbonio organico totale coincide con la somma delle masse dei solventi.", false, "Falso: esprime il solo carbonio dei composti organici."],
+    ["Nel piano di gestione dei solventi le emissioni diffuse si calcolano per differenza.", true, "Vero."],
+    ["La concentrazione di odore si misura in mg/Nm³.", false, "Falso: in unità odorimetriche europee per metro cubo (ouE/m³)."],
+    ["Il laboratorio che campiona nello stabilimento opera in regime di appalto ai fini del D.lgs. 81/2008.", true, "Vero: si applica l’art. 26."]
+   ],
+   "nar": "Esercitazione. Si stabilisca se ciascuna affermazione sui campionamenti, sui composti organici volatili e sugli odori è vera o falsa."
+  }
+ ]
+}

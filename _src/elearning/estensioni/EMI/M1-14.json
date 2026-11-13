@@ -1,0 +1,35 @@
+{
+ "dopo": "Esempio applicativo: leggere un rapporto di prova delle emissioni",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Esempio applicativo: il bilancio dei solventi di una verniciatura",
+   "lead": "Un bilancio di massa semplificato mostra come si calcolano le emissioni diffuse di una linea di verniciatura industriale.",
+   "punti": [
+    "Solvente in ingresso (I1): 20 t/anno, dai prodotti vernicianti e diluenti acquistati",
+    "Emissioni convogliate dopo il combustore: 0,5 t; solvente distrutto dal combustore: 12 t",
+    "Solvente nei rifiuti (morchie, stracci, diluenti esausti): 3 t",
+    "Emissioni diffuse per differenza: 20 − 0,5 − 12 − 3 = 4,5 t, pari al 22,5% del solvente utilizzato",
+    "Confronto con il limite di emissione diffusa previsto per l’attività dall’Allegato III"
+   ],
+   "appro": "Un valore elevato di emissioni diffuse indica captazione insufficiente: cabine aperte, essiccazione non aspirata o miscelazione dei prodotti in locali non captati.",
+   "rif": "D.lgs. 152/2006, art. 275 e Allegato III alla Parte V",
+   "nar": "Si propone un esempio applicativo del bilancio dei solventi di una linea di verniciatura industriale. Nell’anno lo stabilimento acquista prodotti vernicianti e diluenti contenenti complessivamente venti tonnellate di solventi organici, ricavate dalle schede tecniche e dai quantitativi acquistati. Le emissioni convogliate dopo il combustore termico, calcolate dagli autocontrolli e dalle ore di funzionamento, ammontano a zero virgola cinque tonnellate. Il combustore distrugge circa dodici tonnellate di solvente, stimate dal confronto tra le concentrazioni in ingresso e in uscita. I rifiuti prodotti, come morchie di verniciatura, stracci contaminati e diluenti esausti, contengono circa tre tonnellate di solvente, secondo le analisi di caratterizzazione. Le emissioni diffuse si calcolano per differenza: venti meno zero virgola cinque, meno dodici, meno tre, uguale quattro virgola cinque tonnellate, pari al ventidue virgola cinque per cento del solvente utilizzato. Questo valore va confrontato con il limite di emissione diffusa previsto per l’attività dall’Allegato terzo. Un valore elevato indica una captazione insufficiente: cabine aperte, essiccazione non aspirata o preparazione e miscelazione dei prodotti in locali non captati. Le stesse emissioni diffuse rappresentano anche un’esposizione potenziale dei lavoratori, da verificare nella valutazione del rischio chimico."
+  },
+  {
+   "t": "testo",
+   "tit": "Gestire un superamento rilevato in autocontrollo",
+   "lead": "Quando un autocontrollo evidenzia il superamento di un valore limite, il gestore deve agire con tempestività e documentare ogni passaggio.",
+   "punti": [
+    "Verifica immediata del rapporto di prova: condizioni di esercizio, metodo, incertezza, calcoli",
+    "Comunicazione all’autorità competente e all’organo di controllo nei termini previsti dall’autorizzazione o dalla norma",
+    "Ricerca delle cause: sistema di abbattimento, condizioni di processo, materie prime",
+    "Azioni correttive e nuovo campionamento di verifica",
+    "Registrazione dell’evento e aggiornamento delle procedure"
+   ],
+   "appro": "Ripetere il campionamento finché non si ottiene un valore conforme, senza comunicare il primo risultato, è una condotta che può avere conseguenze ben più gravi del superamento stesso.",
+   "rif": "D.lgs. 152/2006, artt. 271 e 279 · prescrizioni dell’autorizzazione",
+   "nar": "Quando un autocontrollo evidenzia il superamento di un valore limite, il gestore deve agire con tempestività e documentare ogni passaggio. Il primo passo è la verifica del rapporto di prova: le condizioni di esercizio durante il campionamento, il metodo applicato, l’incertezza di misura e la correttezza dei calcoli, comprese le correzioni alle condizioni di riferimento. Se il superamento è confermato, va comunicato all’autorità competente e all’organo di controllo nei termini previsti dall’autorizzazione o dalla norma. Contemporaneamente si ricercano le cause, esaminando l’efficienza del sistema di abbattimento, le condizioni di processo e le eventuali variazioni delle materie prime o dei prodotti utilizzati. Individuate le cause, si adottano le azioni correttive e si esegue un nuovo campionamento di verifica, i cui risultati vanno anch’essi comunicati. L’evento va registrato e, se necessario, le procedure di manutenzione o di esercizio vanno aggiornate. Una condotta da evitare assolutamente è ripetere il campionamento finché non si ottiene un valore conforme, senza comunicare il primo risultato: oltre a essere scorretta, può avere conseguenze ben più gravi del superamento stesso, anche sul piano penale. La trasparenza nei confronti dell’autorità, unita a un’azione correttiva efficace, è invece valutata positivamente."
+  }
+ ]
+}

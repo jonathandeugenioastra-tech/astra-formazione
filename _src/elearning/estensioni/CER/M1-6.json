@@ -1,0 +1,35 @@
+{
+ "dopo": "Esempio applicativo: autoconsumo di un’officina",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Ombreggiamenti, orientamento e disaccoppiamento dei moduli",
+   "lead": "La produzione reale di un impianto dipende dall’orientamento, dall’inclinazione e soprattutto dagli ombreggiamenti, anche parziali.",
+   "punti": [
+    "In Italia l’orientamento ottimale è verso sud, con inclinazione indicativa di 30–35°",
+    "Orientamenti est-ovest: minore produzione annua, ma curva giornaliera più ampia e utile all’autoconsumo",
+    "Ombreggiamento parziale: in una stringa il modulo più ombreggiato limita la corrente di tutti",
+    "Diodi di bypass: escludono le sezioni ombreggiate, limitando le perdite e i punti caldi",
+    "Ottimizzatori e microinverter: gestione modulo per modulo dove gli ombreggiamenti non sono evitabili"
+   ],
+   "appro": "Uno studio degli ombreggiamenti su base annua, con il percorso del sole nelle diverse stagioni, va eseguito prima di definire la disposizione dei moduli.",
+   "rif": "CEI 82-25 · UNI/TS 11300-4",
+   "nar": "La produzione reale di un impianto fotovoltaico dipende dall’orientamento, dall’inclinazione dei moduli e soprattutto dagli ombreggiamenti. In Italia l’orientamento che massimizza la produzione annua è verso sud, con un’inclinazione indicativa di trenta-trentacinque gradi. Gli impianti orientati a est e a ovest producono meno nell’arco dell’anno, ma distribuiscono la produzione su un intervallo più ampio della giornata, al mattino e nel tardo pomeriggio, e possono quindi favorire l’autoconsumo e la condivisione. Gli ombreggiamenti, anche parziali, hanno effetti più rilevanti di quanto si possa intuire: in una stringa i moduli sono collegati in serie e attraversati dalla stessa corrente, per cui il modulo più ombreggiato tende a limitare la corrente dell’intera stringa. I diodi di bypass, integrati nei moduli, escludono le sezioni ombreggiate, riducendo le perdite e prevenendo il surriscaldamento localizzato delle celle, noto come punto caldo. Dove gli ombreggiamenti di camini, antenne, alberi o edifici vicini non sono evitabili, si possono impiegare ottimizzatori di potenza o microinverter, che gestiscono ciascun modulo in modo indipendente. Prima di definire la disposizione dei moduli è quindi necessario uno studio degli ombreggiamenti su base annua, che consideri il percorso del sole nelle diverse stagioni."
+  },
+  {
+   "t": "testo",
+   "tit": "Esempio applicativo: il ritorno dell’investimento di un’impresa",
+   "lead": "Un’impresa di lavorazioni meccaniche valuta un impianto da 100 kWp con un’analisi economica semplificata.",
+   "punti": [
+    "Investimento indicativo: 110.000 €; produzione annua stimata 125.000 kWh",
+    "Autoconsumo: 75% della produzione, pari a 93.750 kWh, a un costo evitato ipotizzato di 0,20 €/kWh",
+    "Risparmio annuo da autoconsumo circa 18.750 €; energia immessa valorizzata separatamente",
+    "Costi di esercizio (manutenzione, assicurazione, monitoraggio) ipotizzati in circa 1.500 € all’anno",
+    "Tempo di ritorno semplice indicativo: circa 6 anni, prima di imposte e incentivi fiscali"
+   ],
+   "appro": "Il tempo di ritorno semplice non considera il valore del denaro nel tempo né il degrado dei moduli: per decisioni di investimento si usano valore attuale netto e tasso interno di rendimento.",
+   "rif": "Esempio didattico · Indicatori economici del Modulo 1",
+   "nar": "Si propone un esempio applicativo di analisi economica semplificata. Un’impresa di lavorazioni meccaniche valuta un impianto fotovoltaico da cento chilowatt di picco sulla copertura del capannone, con un investimento indicativo di centodiecimila euro e una produzione annua stimata di centoventicinquemila chilowattora. Poiché le lavorazioni si svolgono nelle ore diurne dei giorni feriali, la quota di autoconsumo stimata è del settantacinque per cento della produzione, pari a circa novantatremilasettecentocinquanta chilowattora all’anno. Ipotizzando un costo evitato dell’energia prelevata di zero virgola venti euro per chilowattora, comprensivo delle componenti variabili della bolletta, il risparmio annuo derivante dall’autoconsumo è di circa diciottomilasettecentocinquanta euro; l’energia immessa in rete è valorizzata separatamente. I costi di esercizio, che comprendono manutenzione, assicurazione e monitoraggio, sono ipotizzati in circa millecinquecento euro all’anno. Il tempo di ritorno semplice risulta quindi di circa sei anni, prima delle imposte e di eventuali agevolazioni fiscali. Questo indicatore è utile come prima stima, ma non considera il valore del denaro nel tempo, il degrado progressivo dei moduli, la sostituzione dell’inverter e la variabilità dei prezzi dell’energia. Per una decisione di investimento si utilizzano il valore attuale netto e il tasso interno di rendimento, con ipotesi prudenti e analisi di sensibilità."
+  }
+ ]
+}

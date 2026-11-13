@@ -1,0 +1,108 @@
+{
+ "dopo": "Autoconsumo fisico e valore dell’energia",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "I regimi amministrativi per gli impianti",
+   "lead": "Il D.lgs. 190/2024 ha riordinato i titoli necessari per realizzare impianti a fonti rinnovabili in tre regimi.",
+   "punti": [
+    "Attività libera: interventi di minore impatto, senza titolo abilitativo, salvo i vincoli applicabili",
+    "Procedura abilitativa semplificata (PAS): presentata al Comune per impianti di taglia o impatto intermedi",
+    "Autorizzazione unica: per gli impianti di maggiore dimensione o impatto, rilasciata da Regione o Stato",
+    "Gli impianti fotovoltaici su coperture di edifici rientrano di norma nell’attività libera",
+    "Restano da verificare vincoli paesaggistici, culturali, edilizi e di prevenzione incendi"
+   ],
+   "appro": "La qualificazione dell’intervento dipende da potenza, collocazione e vincoli: prima di progettare va verificato l’allegato del decreto che classifica gli interventi e la disciplina regionale delle aree idonee.",
+   "rif": "D.lgs. 25 novembre 2024, n. 190",
+   "nar": "Il decreto legislativo centonovanta del duemilaventiquattro ha riordinato i regimi amministrativi per la realizzazione degli impianti a fonti rinnovabili, riconducendoli a tre categorie. La prima è l’attività libera, che comprende gli interventi di minore impatto e non richiede alcun titolo abilitativo, fermi restando i vincoli eventualmente applicabili. La seconda è la procedura abilitativa semplificata, presentata al Comune, per gli impianti di taglia o di impatto intermedi. La terza è l’autorizzazione unica, rilasciata dalla Regione o, per gli impianti di maggiori dimensioni, dallo Stato, per gli interventi più rilevanti. Gli impianti fotovoltaici realizzati sulle coperture degli edifici rientrano di norma nell’attività libera, il che semplifica notevolmente l’iter per imprese e famiglie. La classificazione dipende però dalla potenza, dalla collocazione dell’impianto e dalla presenza di vincoli: prima di progettare occorre verificare l’allegato del decreto che classifica gli interventi, la disciplina regionale sulle aree idonee e gli eventuali vincoli paesaggistici, culturali ed edilizi. Restano inoltre applicabili le norme di prevenzione incendi quando l’impianto è installato su attività soggette ai controlli dei Vigili del fuoco. Una verifica preliminare accurata evita ritardi e contestazioni successive."
+  },
+  {
+   "t": "testo",
+   "tit": "La connessione alla rete",
+   "lead": "Per immettere energia in rete l’impianto deve essere connesso secondo le regole dell’ARERA e le norme tecniche del CEI.",
+   "punti": [
+    "Richiesta di connessione al gestore di rete secondo il Testo integrato delle connessioni attive (TICA)",
+    "Preventivo con soluzione tecnica, costi e tempi; accettazione e realizzazione delle opere",
+    "Regole tecniche: CEI 0-21 per la bassa tensione, CEI 0-16 per la media e alta tensione",
+    "Registrazione dell’impianto sul sistema Gaudì di Terna",
+    "Attivazione dei contratti per la valorizzazione dell’energia e per le eventuali configurazioni"
+   ],
+   "appro": "Per gli impianti di piccola taglia su utenze esistenti è previsto un iter semplificato con modello unico; i tempi di connessione vanno comunque considerati nel cronoprogramma.",
+   "rif": "TICA – Deliberazione ARERA ARG/elt 99/08 e s.m.i. · CEI 0-21 · CEI 0-16",
+   "nar": "Per immettere energia nella rete pubblica l’impianto deve essere connesso secondo le regole stabilite dall’Autorità di regolazione per energia reti e ambiente e le norme tecniche del Comitato elettrotecnico italiano. La procedura è disciplinata dal Testo integrato delle connessioni attive. Il produttore presenta la richiesta di connessione al gestore della rete, che elabora un preventivo con la soluzione tecnica, i costi e i tempi di realizzazione; il produttore lo accetta e, completate le opere, l’impianto viene connesso. Le regole tecniche da rispettare dipendono dal livello di tensione: la norma CEI zero ventuno per le connessioni in bassa tensione, la norma CEI zero sedici per quelle in media e alta tensione. Esse definiscono, tra l’altro, le caratteristiche dei sistemi di protezione di interfaccia e dei sistemi di misura. L’impianto deve inoltre essere registrato sul sistema Gaudì, l’anagrafe degli impianti di produzione gestita da Terna. Infine si attivano i contratti per la valorizzazione dell’energia immessa e, se previsto, per l’accesso alle configurazioni di autoconsumo diffuso. Per gli impianti di piccola taglia realizzati su utenze esistenti è previsto un iter semplificato con un modello unico, ma i tempi di connessione vanno comunque considerati nel cronoprogramma del progetto."
+  },
+  {
+   "t": "testo",
+   "tit": "La valorizzazione dell’energia immessa",
+   "lead": "L’energia non autoconsumata può essere venduta con il ritiro dedicato, sul mercato o condivisa in una configurazione di autoconsumo diffuso.",
+   "punti": [
+    "Ritiro dedicato (GSE): l’energia è acquistata dal GSE ai prezzi di mercato della zona, con procedura semplificata",
+    "Vendita sul mercato tramite un operatore (trader) con contratto bilaterale",
+    "Lo scambio sul posto non è disponibile per i nuovi impianti",
+    "Condivisione in una CER o in un’altra configurazione: tariffa premio sull’energia condivisa e restituzione di componenti tariffarie",
+    "Il valore dell’energia immessa è inferiore al costo evitato dell’energia autoconsumata"
+   ],
+   "appro": "Il prezzo dell’energia nelle ore centrali dei giorni soleggiati tende a ridursi per l’elevata produzione fotovoltaica: è un motivo in più per privilegiare l’autoconsumo e la condivisione.",
+   "rif": "D.lgs. 387/2003, art. 13 (ritiro dedicato) · D.lgs. 199/2021 · D.M. 414/2023",
+   "nar": "L’energia prodotta e non autoconsumata viene immessa in rete e può essere valorizzata in diversi modi. Il più semplice è il ritiro dedicato, gestito dal Gestore dei servizi energetici: il produttore cede l’energia al GSE, che la remunera ai prezzi di mercato della zona in cui si trova l’impianto, con una procedura semplificata adatta ai piccoli produttori. In alternativa l’energia può essere venduta sul mercato attraverso un operatore, con un contratto bilaterale. Lo scambio sul posto, che per molti anni ha consentito di compensare economicamente l’energia immessa con quella prelevata, non è più disponibile per i nuovi impianti. Una terza possibilità è la condivisione dell’energia all’interno di una comunità energetica rinnovabile o di un’altra configurazione di autoconsumo diffuso, che consente di ottenere, oltre alla vendita dell’energia, una tariffa premio sull’energia condivisa e la restituzione di alcune componenti tariffarie. In ogni caso il valore dell’energia immessa è inferiore al costo evitato dell’energia autoconsumata, che comprende anche gli oneri di rete e di sistema. Va inoltre considerato che nelle ore centrali delle giornate soleggiate i prezzi di mercato tendono a ridursi per l’elevata produzione fotovoltaica complessiva: un motivo in più per privilegiare l’autoconsumo e la condivisione."
+  },
+  {
+   "t": "testo",
+   "tit": "Sicurezza elettrica degli impianti fotovoltaici",
+   "lead": "Un impianto fotovoltaico è in tensione ogni volta che i moduli sono illuminati: il lato in corrente continua non può essere «spento» dal quadro.",
+   "punti": [
+    "Lato in corrente continua: tensioni di stringa elevate, presenti finché i moduli ricevono luce",
+    "Rischio di arco elettrico in corrente continua in caso di connessioni difettose o danneggiate",
+    "Lavori elettrici solo da personale con profilo adeguato (PES, PAV, PEI) secondo la norma CEI 11-27",
+    "Sezionatori lato corrente continua e alternata, segnaletica e schemi aggiornati",
+    "Lavori sulle coperture: rischio di caduta dall’alto, linee vita, parapetti, DPI anticaduta"
+   ],
+   "appro": "L’apertura dell’interruttore generale non elimina la tensione sui cavi tra moduli e inverter: chi interviene deve conoscere la configurazione dell’impianto e le procedure di messa in sicurezza.",
+   "rif": "D.lgs. 81/2008, Titolo III, Capo III e Titolo IV · CEI 11-27 · CEI 64-8, parte 7-712",
+   "nar": "Un impianto fotovoltaico presenta un rischio elettrico particolare: il lato in corrente continua, cioè i moduli e i cavi fino all’inverter, è in tensione ogni volta che i moduli ricevono luce, e non può essere disattivato semplicemente aprendo l’interruttore del quadro elettrico. Le tensioni di stringa possono essere elevate e la corrente continua, in caso di connessioni difettose o cavi danneggiati, può dare origine ad archi elettrici persistenti, potenziale causa di incendio. Per questo i lavori elettrici sugli impianti devono essere eseguiti esclusivamente da personale con il profilo adeguato, persona esperta, avvertita o idonea, secondo la norma CEI undici ventisette, nel rispetto delle disposizioni del decreto legislativo ottantuno del duemilaotto sugli impianti e le apparecchiature elettriche. L’impianto deve disporre di sezionatori sia sul lato in corrente continua sia su quello in corrente alternata, di segnaletica che indichi la presenza di un impianto fotovoltaico e di schemi aggiornati. Poiché gli impianti sono spesso installati sulle coperture, si aggiunge il rischio di caduta dall’alto: installazione e manutenzione richiedono linee vita, parapetti o dispositivi di protezione individuale anticaduta. Anche i Vigili del fuoco, in caso di intervento, devono poter identificare rapidamente l’impianto e i dispositivi di sezionamento."
+  },
+  {
+   "t": "testo",
+   "tit": "Prevenzione incendi e coperture",
+   "lead": "L’installazione di un impianto su un edificio soggetto ai controlli dei Vigili del fuoco richiede una valutazione specifica.",
+   "punti": [
+    "Riferimento: guida tecnica del Corpo nazionale dei Vigili del fuoco per l’installazione degli impianti fotovoltaici",
+    "Valutazione dell’interazione tra impianto e struttura: reazione al fuoco della copertura, compartimentazioni",
+    "Distanze da aperture, evacuatori di fumo e lucernari; percorsi per le squadre di soccorso",
+    "Dispositivi di sezionamento facilmente accessibili e segnalati",
+    "Aggiornamento della documentazione di prevenzione incendi quando l’impianto modifica le condizioni di sicurezza"
+   ],
+   "appro": "L’impianto fotovoltaico non è in sé un’attività soggetta, ma la sua installazione su un’attività soggetta può costituire una modifica rilevante ai fini della prevenzione incendi.",
+   "rif": "D.P.R. 151/2011 · Guida tecnica dei Vigili del fuoco per gli impianti fotovoltaici",
+   "nar": "Quando un impianto fotovoltaico viene installato sulla copertura di un edificio che ospita un’attività soggetta ai controlli di prevenzione incendi, è necessaria una valutazione specifica. L’impianto non costituisce di per sé un’attività soggetta, ma la sua installazione può modificare le condizioni di sicurezza dell’attività sottostante e configurarsi come modifica rilevante ai fini della prevenzione incendi, ai sensi del regolamento del duemilaundici. Il riferimento tecnico è la guida del Corpo nazionale dei Vigili del fuoco per l’installazione degli impianti fotovoltaici. La valutazione considera l’interazione tra impianto e struttura: la reazione al fuoco degli elementi della copertura, il mantenimento delle compartimentazioni, la distanza dei moduli da aperture, evacuatori di fumo e calore e lucernari, la presenza di percorsi che consentano alle squadre di soccorso di operare. Particolare importanza hanno i dispositivi di sezionamento, che devono essere facilmente accessibili, segnalati e indicati nelle planimetrie. Se l’impianto modifica le condizioni di sicurezza, la documentazione di prevenzione incendi va aggiornata secondo le procedure previste. Per un’impresa, coinvolgere il professionista antincendio fin dalla fase di progetto evita soluzioni da correggere a impianto già realizzato."
+  },
+  {
+   "t": "testo",
+   "tit": "Manutenzione, monitoraggio e fine vita",
+   "lead": "Un impianto fotovoltaico dura decenni: manutenzione e monitoraggio ne preservano la produzione, e a fine vita i moduli sono rifiuti da gestire correttamente.",
+   "punti": [
+    "Monitoraggio continuo della produzione e confronto con l’atteso; analisi degli allarmi dell’inverter",
+    "Ispezioni periodiche: stato di moduli, connessioni, strutture, quadri e protezioni",
+    "Termografia per individuare celle o connessioni surriscaldate; pulizia quando lo sporcamento è significativo",
+    "Sostituzione dell’inverter prevista nel corso della vita utile",
+    "Fine vita: i moduli sono rifiuti di apparecchiature elettriche ed elettroniche (RAEE)"
+   ],
+   "appro": "Per gli impianti incentivati il GSE prevede specifiche modalità di garanzia per la corretta gestione dei moduli a fine vita.",
+   "rif": "D.lgs. 49/2014 (RAEE) · CEI EN 62446 · regole del GSE",
+   "nar": "Un impianto fotovoltaico ha una vita utile di diversi decenni, durante i quali manutenzione e monitoraggio ne preservano la produzione e la sicurezza. Il monitoraggio continuo confronta la produzione effettiva con quella attesa e analizza gli allarmi dell’inverter: una riduzione anomala segnala guasti di stringa, ombreggiamenti nuovi o sporcamento. Le ispezioni periodiche verificano lo stato dei moduli, delle connessioni, delle strutture di sostegno, dei quadri e delle protezioni; la termografia consente di individuare celle o connessioni surriscaldate, potenziali punti di guasto o di innesco. La pulizia dei moduli si esegue quando lo sporcamento è significativo, con metodi che non danneggino le superfici e nel rispetto delle misure di sicurezza per i lavori in quota. Nel corso della vita utile è normalmente prevista la sostituzione dell’inverter, componente con durata inferiore a quella dei moduli. A fine vita, i moduli fotovoltaici sono rifiuti di apparecchiature elettriche ed elettroniche e vanno gestiti secondo il decreto legislativo quarantanove del duemilaquattordici, attraverso i sistemi di raccolta e trattamento previsti. Per gli impianti che beneficiano di incentivi, il Gestore dei servizi energetici prevede specifiche modalità di garanzia finanziaria per assicurare la corretta gestione dei moduli a fine vita."
+  },
+  {
+   "t": "vf",
+   "tit": "Esercitazione · Affermazioni vere o false sul fotovoltaico",
+   "sott": "Qualificare ciascuna affermazione come vera o falsa",
+   "voci": [
+    ["Aprendo l’interruttore generale si elimina la tensione sui cavi tra moduli e inverter.", false, "Falso: il lato in corrente continua resta in tensione finché i moduli sono illuminati."],
+    ["La quota di autosufficienza è il rapporto tra energia autoconsumata ed energia consumata.", true, "Vero."],
+    ["Gli impianti fotovoltaici su coperture rientrano di norma nell’attività libera secondo il D.lgs. 190/2024.", true, "Vero, salvo vincoli applicabili."],
+    ["Lo scambio sul posto è disponibile per i nuovi impianti.", false, "Falso."],
+    ["Un’ombra su poche celle può ridurre la produzione dell’intera stringa.", true, "Vero."]
+   ],
+   "nar": "Esercitazione. Si stabilisca se ciascuna affermazione sul fotovoltaico è vera o falsa."
+  }
+ ]
+}

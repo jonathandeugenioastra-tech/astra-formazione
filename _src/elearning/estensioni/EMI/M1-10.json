@@ -1,0 +1,50 @@
+{
+ "dopo": "Valori limite, autocontrolli e comunicazioni",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "La struttura dell’Allegato I: sostanze e classi",
+   "lead": "L’Allegato I alla Parte V fissa valori limite che le autorità applicano quando l’autorizzazione non stabilisce valori specifici, distinguendo le sostanze per pericolosità.",
+   "punti": [
+    "Parte I: valori limite per sostanze cancerogene, tossiche per la riproduzione, mutagene e di tossicità e cumulabilità particolarmente elevate",
+    "Sostanze inorganiche in forma di polvere, gas e vapori; sostanze organiche sotto forma di gas, vapori o polveri, suddivise in classi",
+    "Per ciascuna classe: soglia di rilevanza in flusso di massa e valore limite in concentrazione",
+    "Parte III: valori limite per specifiche tipologie di impianti (combustione, motori, turbine, attività industriali)",
+    "Le autorizzazioni e le Regioni possono fissare valori diversi, nel rispetto dei criteri della norma"
+   ],
+   "appro": "La soglia di rilevanza esprime il principio di proporzionalità: per le sostanze più pericolose il limite si applica anche a flussi di massa molto ridotti.",
+   "rif": "D.lgs. 152/2006, art. 271 e Allegato I alla Parte V",
+   "nar": "L’Allegato primo alla Parte quinta fissa valori limite di emissione che costituiscono il riferimento per le autorità competenti quando l’autorizzazione deve stabilire limiti per sostanze o attività. La Parte prima dell’allegato distingue le sostanze in base alla pericolosità. Per le sostanze cancerogene, tossiche per la riproduzione o mutagene e per quelle di tossicità e cumulabilità particolarmente elevate, sono previsti valori limite specifici. Le sostanze inorganiche in forma di polvere, di gas o di vapore e le sostanze organiche sono suddivise in classi, ordinate in modo decrescente di pericolosità. Per ciascuna classe la norma indica una soglia di rilevanza, espressa come flusso di massa, e un valore limite di concentrazione, che si applica quando la soglia è superata. Questa struttura esprime un principio di proporzionalità: per le sostanze più pericolose il limite si applica anche a flussi di massa molto ridotti, mentre per quelle meno pericolose solo oltre quantità più elevate. La Parte terza dell’allegato stabilisce valori limite per specifiche tipologie di impianti e attività, come gli impianti di combustione, i motori fissi, le turbine e numerosi processi industriali. Le autorizzazioni e le Regioni possono fissare valori diversi, motivandoli nel rispetto dei criteri della norma."
+  },
+  {
+   "t": "testo",
+   "tit": "Avviamenti, arresti e condizioni transitorie",
+   "lead": "Nelle fasi di avviamento, arresto e regolazione le emissioni possono differire da quelle di regime e richiedono una gestione specifica.",
+   "punti": [
+    "L’autorizzazione può prevedere condizioni e prescrizioni specifiche per avviamenti e arresti",
+    "Procedure operative che riducano durata e intensità delle fasi transitorie",
+    "Avvio dei sistemi di abbattimento prima dell’avvio del processo e arresto dopo la sua fermata",
+    "Registrazione degli eventi di avviamento e arresto, quando prescritto",
+    "Le fasi transitorie non giustificano emissioni evitabili con una corretta gestione"
+   ],
+   "appro": "Avviare l’aspirazione e il sistema di abbattimento solo dopo il processo, «per risparmiare energia», produce emissioni non trattate proprio nella fase più critica.",
+   "rif": "D.lgs. 152/2006, art. 271 · prescrizioni dell’autorizzazione",
+   "nar": "Nelle fasi di avviamento, arresto e regolazione degli impianti le emissioni possono differire sensibilmente da quelle di regime: un bruciatore che si accende produce più monossido di carbonio e incombusti, un sistema di abbattimento non ancora alla temperatura di esercizio ha un’efficienza ridotta. L’autorizzazione può prevedere condizioni e prescrizioni specifiche per queste fasi, ad esempio esclusioni temporanee dal confronto con i valori limite o limiti di durata. Il gestore deve comunque adottare procedure operative che riducano la durata e l’intensità delle fasi transitorie. Un principio essenziale riguarda la sequenza: i sistemi di aspirazione e abbattimento devono essere avviati prima dell’avvio del processo che genera le emissioni e arrestati dopo la sua fermata, in modo che nessuna fase produttiva avvenga senza trattamento. Nei combustori termici, ad esempio, la camera di combustione deve raggiungere la temperatura prescritta prima dell’invio dell’effluente da trattare. Quando prescritto, gli eventi di avviamento e arresto vanno registrati. Le fasi transitorie non giustificano emissioni evitabili: avviare l’aspirazione e il sistema di abbattimento solo dopo il processo, per risparmiare energia, produce emissioni non trattate proprio nella fase più critica."
+  },
+  {
+   "t": "testo",
+   "tit": "Esempio applicativo: leggere il quadro prescrittivo di un’autorizzazione",
+   "lead": "Il quadro prescrittivo traduce l’autorizzazione in obblighi operativi, che vanno estratti e assegnati a responsabili interni.",
+   "punti": [
+    "Tabella dei punti di emissione: sigla, impianto servito, portata, altezza, sistema di abbattimento",
+    "Per ciascun punto: inquinanti, valori limite, condizioni di riferimento, frequenza degli autocontrolli",
+    "Prescrizioni generali: comunicazioni, registri, manutenzioni, gestione dei guasti",
+    "Prescrizioni specifiche: emissioni diffuse, odori, piano di gestione dei solventi",
+    "Scadenze: messa a regime, trasmissione dei risultati, rinnovo"
+   ],
+   "appro": "Ogni prescrizione dovrebbe essere trasformata in un’attività con un responsabile, una frequenza e un’evidenza documentale: è la base dello scadenzario ambientale.",
+   "rif": "D.lgs. 152/2006, art. 269 · D.P.R. 59/2013",
+   "nar": "Si propone un esempio applicativo di lettura del quadro prescrittivo di un’autorizzazione alle emissioni, rilasciata nell’ambito dell’autorizzazione unica ambientale a un’impresa di lavorazioni metalliche. La prima sezione è la tabella dei punti di emissione: per ciascun camino sono indicati la sigla, ad esempio E uno, E due ed E tre, l’impianto servito, la portata autorizzata, l’altezza e il sistema di abbattimento installato. Per ciascun punto sono poi indicati gli inquinanti, i valori limite con le condizioni di riferimento e la frequenza degli autocontrolli, ad esempio annuale per le polveri della sabbiatura e semestrale per i composti organici della verniciatura. La sezione delle prescrizioni generali stabilisce le comunicazioni dovute, i registri da tenere, le manutenzioni dei sistemi di abbattimento e la gestione dei guasti. Possono seguire prescrizioni specifiche sulle emissioni diffuse, sugli odori o sul piano di gestione dei solventi. Infine si individuano le scadenze: messa a regime dei nuovi impianti, trasmissione dei risultati, domanda di rinnovo. Il lavoro decisivo consiste nel trasformare ciascuna prescrizione in un’attività con un responsabile interno, una frequenza e un’evidenza documentale. È questa la base dello scadenzario ambientale dello stabilimento, che va aggiornato a ogni modifica dell’autorizzazione."
+  }
+ ]
+}

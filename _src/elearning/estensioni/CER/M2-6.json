@@ -1,0 +1,80 @@
+{
+ "dopo": "Requisiti degli impianti",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Comunità di energia rinnovabile e comunità energetica dei cittadini",
+   "lead": "Le due figure hanno origine in direttive diverse e rispondono a regole diverse su membri, fonti e perimetro.",
+   "punti": [
+    "Comunità di energia rinnovabile (CER): solo fonti rinnovabili, membri vicini agli impianti, accesso agli incentivi del D.M. 414/2023",
+    "Comunità energetica dei cittadini (CEC): può includere fonti non rinnovabili e svolgere più attività nel settore elettrico",
+    "CEC: membri persone fisiche, piccole imprese, enti; controllo da parte di soggetti che non svolgono attività energetica su larga scala",
+    "Entrambe: partecipazione aperta e volontaria, benefici prima dei profitti",
+    "La scelta dipende dalle attività che si intendono svolgere e dall’accesso agli incentivi"
+   ],
+   "appro": "Nella pratica italiana la grande maggioranza delle iniziative assume la forma di comunità di energia rinnovabile, proprio per l’accesso alla tariffa premio sull’energia condivisa.",
+   "rif": "D.lgs. 199/2021, art. 31 · D.lgs. 210/2021, art. 14",
+   "nar": "Il legislatore europeo ha introdotto due figure di comunità energetica, con origini e regole diverse. La comunità di energia rinnovabile deriva dalla seconda direttiva sulle rinnovabili ed è stata recepita in Italia dal decreto legislativo centonovantanove del duemilaventuno: utilizza esclusivamente fonti rinnovabili, i suoi membri devono essere situati in prossimità degli impianti e può accedere agli incentivi del decreto ministeriale quattrocentoquattordici. La comunità energetica dei cittadini deriva invece dalla direttiva sul mercato elettrico ed è stata recepita dal decreto legislativo duecentodieci del duemilaventuno: può includere anche fonti non rinnovabili e può svolgere più attività nel settore elettrico, come la fornitura, la distribuzione, l’aggregazione o i servizi di efficienza energetica. Anche nella comunità energetica dei cittadini il controllo spetta a membri che non svolgono attività energetica su larga scala. Entrambe le figure si basano sulla partecipazione aperta e volontaria e sulla prevalenza dei benefici ambientali, economici e sociali rispetto ai profitti. La scelta tra le due forme dipende dalle attività che si intendono svolgere e dall’accesso agli incentivi. Nella pratica italiana la grande maggioranza delle iniziative assume la forma di comunità di energia rinnovabile, proprio per la possibilità di ottenere la tariffa premio sull’energia condivisa."
+  },
+  {
+   "t": "testo",
+   "tit": "Il percorso di costituzione passo per passo",
+   "lead": "La nascita di una comunità segue una sequenza ordinata di fasi tecniche, giuridiche e amministrative.",
+   "punti": [
+    "1. Studio di fattibilità: cabina primaria, superfici, profili di consumo, piano economico",
+    "2. Aggregazione dei membri: informazione, raccolta delle adesioni e dei codici POD",
+    "3. Costituzione del soggetto giuridico: atto costitutivo, statuto, regolamento",
+    "4. Realizzazione e connessione degli impianti, nel rispetto della sequenza delle date",
+    "5. Richiesta di accesso al servizio sul portale del GSE e avvio della gestione"
+   ],
+   "appro": "Le fasi non sono rigidamente sequenziali: la raccolta delle adesioni e lo studio di fattibilità si alimentano a vicenda, ma la costituzione va formalizzata prima dell’entrata in esercizio degli impianti nei casi previsti.",
+   "rif": "D.lgs. 199/2021 · D.M. 414/2023 · Regole operative del GSE",
+   "nar": "La costituzione di una comunità energetica rinnovabile segue una sequenza ordinata di fasi tecniche, giuridiche e amministrative. La prima è lo studio di fattibilità: si verifica la cabina primaria di riferimento, si individuano le superfici disponibili per gli impianti, si raccolgono i profili di consumo dei potenziali membri e si elabora il piano economico. La seconda è l’aggregazione dei membri: si informano cittadini, imprese ed enti, anche con incontri pubblici, e si raccolgono le adesioni con i codici dei punti di prelievo, necessari per le verifiche. La terza è la costituzione del soggetto giuridico, con l’atto costitutivo, lo statuto conforme ai requisiti di legge e il regolamento interno. La quarta è la realizzazione e la connessione degli impianti, che deve rispettare la sequenza delle date prevista dalle regole operative. La quinta è la richiesta di accesso al servizio di autoconsumo diffuso sul portale del Gestore dei servizi energetici, seguita dall’avvio della gestione ordinaria. Le fasi non sono rigidamente sequenziali: la raccolta delle adesioni e lo studio di fattibilità si alimentano a vicenda. Tuttavia la costituzione della comunità va formalizzata prima dell’entrata in esercizio degli impianti nei casi previsti, perché un errore nella sequenza può precludere l’accesso alla tariffa."
+  },
+  {
+   "t": "testo",
+   "tit": "L’accumulo nelle configurazioni di autoconsumo",
+   "lead": "Un sistema di accumulo può aumentare l’energia condivisa spostando nelle ore serali la produzione eccedente.",
+   "punti": [
+    "Accumulo associato all’impianto: l’energia immessa durante la scarica può contribuire alla condivisione",
+    "Utile quando la comunità ha consumi serali rilevanti e produzione diurna eccedente",
+    "Va valutato il costo dell’accumulo rispetto all’incremento di tariffa premio ottenuto",
+    "Regole di misura e di computo definite dalla regolazione e dalle regole operative",
+    "Alternativa spesso più economica: aumentare i membri con consumi diurni"
+   ],
+   "appro": "Prima di investire in un accumulo conviene simulare, con i dati orari reali, l’incremento effettivo di energia condivisa nelle diverse stagioni.",
+   "rif": "TIAD ARERA · Regole operative del GSE",
+   "nar": "Nelle configurazioni di autoconsumo diffuso un sistema di accumulo associato all’impianto di produzione può aumentare l’energia condivisa. Durante le ore centrali della giornata, quando la produzione supera i consumi dei membri, l’accumulo immagazzina l’energia eccedente; nelle ore serali, quando la produzione si annulla e i consumi delle famiglie crescono, l’accumulo la restituisce alla rete, e l’energia immessa durante la scarica può contribuire alla condivisione secondo le regole di misura e di computo stabilite dalla regolazione e dalle regole operative. L’accumulo è utile soprattutto quando la comunità ha consumi serali rilevanti e una produzione diurna eccedente rispetto ai consumi dei membri nelle stesse ore. La sua convenienza va però valutata confrontando il costo dell’investimento e della sostituzione nel tempo con l’incremento di tariffa premio effettivamente ottenuto. Prima di decidere è opportuno simulare, con i dati orari reali dei membri, l’incremento di energia condivisa nelle diverse stagioni. Spesso esiste un’alternativa più economica: aumentare la quota di membri con consumi diurni, come attività commerciali, uffici e piccole imprese, oppure incentivare lo spostamento dei carichi dei membri esistenti nelle ore di produzione."
+  },
+  {
+   "t": "testo",
+   "tit": "Informare e coinvolgere i cittadini",
+   "lead": "Il successo di una comunità dipende dalla fiducia e dalla partecipazione consapevole dei membri.",
+   "punti": [
+    "Incontri pubblici con informazioni chiare su benefici, costi, impegni e diritti",
+    "Materiali comprensibili: esempi numerici prudenti, nessuna promessa di risparmio garantito",
+    "Trasparenza su chi realizza gli impianti, chi li possiede e come si ripartiscono i benefici",
+    "Coinvolgimento delle scuole e delle associazioni del territorio",
+    "Rendiconto periodico ai membri sull’energia condivisa e sui benefici erogati"
+   ],
+   "appro": "Promesse eccessive di risparmio generano delusione e recessi: è preferibile presentare stime prudenti, spiegando le variabili da cui dipendono i risultati.",
+   "rif": "D.lgs. 199/2021, art. 31 · D.lgs. 206/2005 (pratiche commerciali)",
+   "nar": "Il successo di una comunità energetica dipende in larga misura dalla fiducia e dalla partecipazione consapevole dei membri. La fase di informazione merita quindi la stessa cura della progettazione tecnica. Gli incontri pubblici devono fornire informazioni chiare sui benefici attesi, sui costi, sugli impegni richiesti ai membri e sui loro diritti, compreso quello di recesso. I materiali informativi devono essere comprensibili, con esempi numerici prudenti e senza promesse di risparmio garantito: la tariffa premio dipende dall’energia effettivamente condivisa e dai prezzi di mercato, che non sono prevedibili con certezza. Occorre essere trasparenti su chi realizza gli impianti, chi ne è proprietario, quali corrispettivi riceve l’eventuale produttore terzo e come vengono ripartiti i benefici. Il coinvolgimento delle scuole e delle associazioni del territorio favorisce la diffusione delle informazioni e la consapevolezza energetica. Una volta avviata la comunità, il rendiconto periodico ai membri sull’energia condivisa, sui benefici erogati e sui costi sostenuti rafforza la fiducia. L’esperienza mostra che le promesse eccessive di risparmio generano delusione e recessi, mentre stime prudenti, accompagnate dalla spiegazione delle variabili da cui dipendono i risultati, costruiscono comunità stabili nel tempo."
+  },
+  {
+   "t": "testo",
+   "tit": "Esempio applicativo: la condivisione in una giornata tipo",
+   "lead": "Una tabella oraria semplificata mostra come si accumula l’energia condivisa nell’arco di una giornata feriale di primavera.",
+   "punti": [
+    "Ore 8–10: produzione 30 kWh, prelievi dei membri 45 kWh → condivisi 30 kWh",
+    "Ore 10–14: produzione 140 kWh, prelievi 90 kWh → condivisi 90 kWh, eccedenza 50 kWh",
+    "Ore 14–18: produzione 70 kWh, prelievi 80 kWh → condivisi 70 kWh",
+    "Ore 18–22: produzione 0 kWh, prelievi 110 kWh → condivisi 0 kWh",
+    "Totale: prodotti 240 kWh, condivisi 190 kWh (79% della produzione)"
+   ],
+   "appro": "La percentuale di energia condivisa varia molto con la stagione e con il giorno della settimana: nei festivi, se i membri sono soprattutto attività produttive, la condivisione crolla.",
+   "rif": "TIAD ARERA · D.M. 414/2023",
+   "nar": "Si propone un esempio applicativo semplificato della condivisione in una giornata feriale di primavera, raggruppando le ore in fasce. Tra le otto e le dieci l’impianto produce trenta chilowattora e i membri ne prelevano quarantacinque: l’energia condivisa è pari alla produzione, cioè trenta chilowattora. Tra le dieci e le quattordici la produzione sale a centoquaranta chilowattora, mentre i prelievi sono novanta: l’energia condivisa è di novanta chilowattora e i restanti cinquanta costituiscono un’eccedenza, venduta ma non incentivata. Tra le quattordici e le diciotto la produzione è di settanta chilowattora e i prelievi di ottanta: si condividono settanta chilowattora. Tra le diciotto e le ventidue la produzione è nulla e, nonostante prelievi elevati, la condivisione è zero. Nel totale della giornata l’impianto produce duecentoquaranta chilowattora, di cui centonovanta condivisi, pari al settantanove per cento della produzione. Nella realtà il calcolo è eseguito ora per ora e non per fasce, e la percentuale varia molto con la stagione e con il giorno della settimana: nei giorni festivi, se i membri sono soprattutto attività produttive, la condivisione può ridursi drasticamente. L’esempio mostra anche dove intervenire: l’eccedenza delle ore centrali e i consumi serali indicano l’utilità di nuovi membri diurni o di un accumulo."
+  }
+ ]
+}

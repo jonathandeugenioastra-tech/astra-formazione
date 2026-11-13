@@ -1,0 +1,23 @@
+{
+ "dopo": "L’autorizzazione unica ambientale (AUA)",
+ "schermate": [
+  {
+   "t": "grafico",
+   "tit": "Diagramma · Dall’autorizzazione alla marcia controllata",
+   "rif": "D.lgs. 152/2006, art. 269 · D.P.R. 59/2013, art. 4",
+   "lead": "Selezionare ciascuna fase per visualizzarne contenuto, soggetti e termini.",
+   "grafico": {
+    "tipo": "flusso",
+    "passi": [
+     { "nome": "Domanda al SUAP", "tempo": "prima della realizzazione", "testo": "Domanda con progetto, quadro emissivo, sistemi di abbattimento, emissioni diffuse e tempi di messa in esercizio e a regime, sui modelli regionali." },
+     { "nome": "Istruttoria", "tempo": "90 o 120 giorni", "testo": "L’autorità competente acquisisce i pareri dei soggetti competenti (ARPA, Comune, gestore del servizio idrico); le richieste di integrazione sospendono i termini." },
+     { "nome": "Rilascio del titolo", "tempo": "durata 15 anni", "testo": "Il SUAP rilascia l’autorizzazione con punti di emissione, valori limite, prescrizioni e frequenza degli autocontrolli." },
+     { "nome": "Messa in esercizio", "tempo": "comunicazione ≥ 15 giorni prima", "testo": "Prima accensione degli impianti, comunicata in anticipo all’autorità competente." },
+     { "nome": "Messa a regime", "tempo": "entro il termine autorizzato", "testo": "Condizione di funzionamento stabile alla quale si riferiscono i valori limite; il termine è prorogabile su richiesta motivata." },
+     { "nome": "Marcia controllata", "tempo": "di norma ≥ 10 giorni", "testo": "Misure delle emissioni nel periodo continuativo stabilito e comunicazione dei risultati all’autorità e all’organo di controllo." }
+    ]
+   },
+   "nar": "Diagramma interattivo. Si selezioni ciascuna fase del percorso che va dalla domanda di autorizzazione alla marcia controllata degli impianti, per visualizzarne il contenuto, i soggetti coinvolti e i termini previsti dalla norma."
+  }
+ ]
+}

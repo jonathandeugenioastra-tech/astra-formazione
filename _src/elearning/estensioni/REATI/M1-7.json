@@ -1,0 +1,35 @@
+{
+ "dopo": "Illecito amministrativo, contravvenzione, delitto",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Dolo, colpa e conoscenza della norma",
+   "lead": "L’elemento soggettivo distingue le diverse responsabilità e incide sulla qualificazione del fatto e sulla pena.",
+   "punti": [
+    "Delitti: punibili di regola solo a titolo di dolo, salvo espressa previsione della forma colposa",
+    "Delitti ambientali colposi (art. 452-quinquies): pene diminuite da un terzo a due terzi",
+    "Contravvenzioni: punibili indifferentemente a titolo di dolo o di colpa",
+    "Colpa: negligenza, imprudenza, imperizia o inosservanza di leggi, regolamenti, ordini e discipline",
+    "L’ignoranza della legge penale non scusa, salvo che sia inevitabile (art. 5 c.p.)"
+   ],
+   "appro": "Nelle contravvenzioni ambientali non serve dimostrare l’intenzione: basta l’inosservanza di una regola di diligenza, ad esempio il mancato controllo dell’autorizzazione del trasportatore.",
+   "rif": "Codice penale, artt. 5, 42, 43, 452-quinquies",
+   "nar": "L’elemento soggettivo distingue le diverse forme di responsabilità e incide sulla qualificazione del fatto e sulla pena. I delitti sono punibili, di regola, solo a titolo di dolo, cioè quando l’evento è previsto e voluto; sono punibili per colpa solo nei casi espressamente previsti dalla legge. Per i delitti ambientali, l’articolo quattrocentocinquantadue-quinquies prevede la forma colposa dell’inquinamento e del disastro ambientale, con pene diminuite da un terzo a due terzi. Le contravvenzioni, invece, sono punibili indifferentemente a titolo di dolo o di colpa. La colpa consiste nella negligenza, nell’imprudenza, nell’imperizia o nell’inosservanza di leggi, regolamenti, ordini e discipline. Ne deriva una conseguenza pratica importante: nelle contravvenzioni ambientali non occorre dimostrare l’intenzione di violare la norma, ma è sufficiente l’inosservanza di una regola di diligenza, come il mancato controllo dell’autorizzazione di un trasportatore o la mancata verifica della scadenza di un titolo. L’articolo cinque del codice penale stabilisce inoltre che l’ignoranza della legge penale non scusa, salvo che sia inevitabile, secondo l’interpretazione della Corte costituzionale. Per chi opera in un’impresa, l’aggiornamento normativo è quindi un dovere professionale, non un’opzione."
+  },
+  {
+   "t": "testo",
+   "tit": "Prescrizione dei reati ambientali",
+   "lead": "Il tempo necessario a prescrivere un reato dipende dalla pena massima e dalla natura del reato; per i delitti ambientali i termini sono raddoppiati.",
+   "punti": [
+    "Regola generale: tempo pari al massimo della pena edittale, non inferiore a 6 anni per i delitti e a 4 anni per le contravvenzioni",
+    "Delitti del Titolo VI-bis: termini di prescrizione raddoppiati (art. 157, c. 6, c.p.)",
+    "Atti interruttivi: il termine ricomincia a decorrere, con un aumento massimo previsto dalla legge",
+    "Reati permanenti: la prescrizione decorre dalla cessazione della permanenza",
+    "La prescrizione estingue il reato, ma non gli obblighi di bonifica e ripristino"
+   ],
+   "appro": "Molte contravvenzioni ambientali sono reati permanenti, come l’esercizio senza autorizzazione: finché la situazione irregolare perdura, la prescrizione non inizia a decorrere.",
+   "rif": "Codice penale, artt. 157–161",
+   "nar": "Il tempo necessario a prescrivere un reato dipende dalla pena massima prevista e dalla natura del reato. La regola generale dell’articolo centocinquantasette del codice penale stabilisce che il reato si prescrive in un tempo pari al massimo della pena edittale, e comunque non inferiore a sei anni per i delitti e a quattro anni per le contravvenzioni. Per i delitti contro l’ambiente del Titolo sesto-bis, la legge sessantotto del duemilaquindici ha previsto il raddoppio dei termini di prescrizione, in considerazione della complessità degli accertamenti e del tempo con cui spesso emergono gli effetti dell’inquinamento. Gli atti interruttivi, come l’interrogatorio o la richiesta di rinvio a giudizio, fanno decorrere nuovamente il termine, entro un aumento massimo stabilito dalla legge. Un aspetto rilevante per le contravvenzioni ambientali è la natura permanente di molte di esse: l’esercizio di un’attività senza autorizzazione o la gestione di una discarica abusiva sono reati permanenti, e la prescrizione decorre solo dalla cessazione della condotta. Infine, la prescrizione estingue il reato, ma non fa venir meno gli obblighi amministrativi di messa in sicurezza, bonifica e ripristino, che restano a carico del responsabile e, in alcuni casi, gravano sul sito come onere reale."
+  }
+ ]
+}

@@ -40,8 +40,18 @@ fs.copyFileSync(path.join(ROOT, 'loghi/jd_logo_bianco.svg'), path.join(OUT, 'log
 fs.copyFileSync(path.join(ROOT, 'formazione/risorse/timbro_DEU.png'), path.join(OUT, 'img/timbro.png'));
 
 (async () => {
-  const foto = [...new Set(C.moduli.map(m => m.foto).concat(['sicurezza', 'sicurezza2', 'sicurezza3', 'hero1', 'chi', 'aziende']))];
+  /* immagini pertinenti al tema del corso: quelle dei moduli e le altre dello stesso tema */
+  const TEMI = { haccp: ['haccp', 'haccp2'], ambiente: ['ambiente', 'ambiente2', 'ambiente3'], energia: ['energia', 'energia2', 'energia3'], laboratorio: ['laboratorio'],
+    sicurezza: ['sicurezza', 'sicurezza2', 'sicurezza3', 'hero1', 'chi', 'aziende', 'aula'] };
+  const tema = f => Object.keys(TEMI).find(k => f.startsWith(k)) || 'sicurezza';
+  const temaFoto = [...new Set(C.moduli.map(m => m.foto).filter(Boolean).flatMap(f => TEMI[{ chi: 'sicurezza', aziende: 'sicurezza', aula: 'sicurezza', hero1: 'sicurezza' }[f] || tema(f)]))];
+  const CREDITI = fs.existsSync(path.join(ROOT, 'sito/img/crediti.json')) ? JSON.parse(fs.readFileSync(path.join(ROOT, 'sito/img/crediti.json'), 'utf8')) : {};
+  const foto = []; // solo le immagini effettivamente assegnate a moduli e schermate
+  const SCELTA = require('./foto_corsi.js').scegli(C);
+  for (const f of new Set([...Object.values(SCELTA.sch), ...Object.values(SCELTA.mod), ...SCELTA.ammesse])) if (f && f !== '-' && !foto.includes(f)) foto.push(f);
+  fs.writeFileSync(path.join(OUT, 'dati/foto.js'), 'window.FOTO_CORSO=' + JSON.stringify(SCELTA.ammesse) + ';window.FOTO_SCH=' + JSON.stringify(SCELTA.sch) + ';window.FOTO_MOD=' + JSON.stringify(SCELTA.mod) + ';');
   for (const f of foto) await sharp(path.join(ROOT, 'sito/img', f + '-2560.jpg')).resize({ width: 1920 }).jpeg({ quality: 80, mozjpeg: true }).toFile(path.join(OUT, 'img', f + '.jpg'));
+
 
   /* narrazione professionale (se generata con tts_azure.js) */
   const fa = path.join(SRC, 'audio.json'); let audioJs = '';
@@ -60,7 +70,7 @@ fs.copyFileSync(path.join(ROOT, 'formazione/risorse/timbro_DEU.png'), path.join(
 
 <link rel="stylesheet" href="player/player.css?v=${vers}"></head>
 <body><noscript>Per seguire il corso è necessario abilitare JavaScript.</noscript>
-<script src="dati/icone.js?v=${vers}"></script><script src="dati/iso7010.js?v=${vers}"></script><script src="dati/corso.js?v=${vers}"></script>${audioJs}<script src="player/player.js?v=${vers}"></script>
+<script src="dati/icone.js?v=${vers}"></script><script src="dati/iso7010.js?v=${vers}"></script><script src="dati/foto.js?v=${vers}"></script><script src="dati/corso.js?v=${vers}"></script>${audioJs}<script src="player/player.js?v=${vers}"></script>
 </body></html>`);
 
   const files = [];

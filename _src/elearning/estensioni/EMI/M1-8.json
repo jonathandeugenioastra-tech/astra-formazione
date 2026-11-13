@@ -1,0 +1,50 @@
+{
+ "dopo": "Le definizioni della Parte V",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Qualità dell’aria ambiente e piani regionali",
+   "lead": "Le emissioni degli stabilimenti si inseriscono in un sistema di tutela che fissa obiettivi di qualità dell’aria per la popolazione.",
+   "punti": [
+    "D.lgs. 155/2010: valori limite e valori obiettivo di qualità dell’aria per PM10, PM2,5, NO₂, SO₂, CO, benzene, ozono, metalli e IPA",
+    "Zonizzazione del territorio e reti regionali di monitoraggio",
+    "Piani regionali di qualità dell’aria nelle zone con superamenti",
+    "Misure possibili per gli stabilimenti: limiti più severi, prescrizioni aggiuntive, limitazioni temporanee",
+    "Nuova direttiva europea sulla qualità dell’aria con valori più stringenti al 2030"
+   ],
+   "appro": "In una zona con superamenti dei valori di qualità dell’aria, le autorità tendono a imporre prescrizioni più severe ai nuovi impianti e alle modifiche: l’informazione va considerata già in fase di progetto.",
+   "rif": "D.lgs. 155/2010 · Dir. (UE) 2024/2881",
+   "nar": "Le emissioni degli stabilimenti si inseriscono in un sistema di tutela più ampio, che fissa obiettivi di qualità dell’aria ambiente per la protezione della salute della popolazione e della vegetazione. In Italia il riferimento è il decreto legislativo centocinquantacinque del duemiladieci, che stabilisce valori limite e valori obiettivo per il particolato PM dieci e PM due virgola cinque, il biossido di azoto, il biossido di zolfo, il monossido di carbonio, il benzene, l’ozono, alcuni metalli e gli idrocarburi policiclici aromatici. Le Regioni suddividono il territorio in zone e agglomerati, gestiscono le reti di monitoraggio e, nelle zone in cui si registrano superamenti, adottano piani di qualità dell’aria. Questi piani possono incidere direttamente sugli stabilimenti, prevedendo valori limite di emissione più severi, prescrizioni aggiuntive per i nuovi impianti o per le modifiche, e limitazioni temporanee nei periodi critici. A livello europeo, la nuova direttiva sulla qualità dell’aria del duemilaventiquattro fissa valori più stringenti da raggiungere entro il duemilatrenta, avvicinandoli alle raccomandazioni dell’Organizzazione mondiale della sanità. Per l’impresa è utile conoscere la classificazione della zona in cui si trova lo stabilimento: in una zona con superamenti le autorità tendono a imporre prescrizioni più severe, e l’informazione va considerata già in fase di progetto."
+  },
+  {
+   "t": "testo",
+   "tit": "Altezza del camino e dispersione degli inquinanti",
+   "lead": "L’effetto di un’emissione sul territorio dipende non solo dalla quantità emessa, ma anche dalle condizioni di rilascio e di dispersione.",
+   "punti": [
+    "Parametri di rilascio: altezza del camino, velocità e temperatura dei fumi, diametro allo sbocco",
+    "Lo sbocco deve superare gli edifici vicini per evitare la ricaduta nella scia degli edifici",
+    "Criteri regionali per l’altezza minima dei camini e lo sbocco verticale senza cappelli che deviano il flusso",
+    "Modelli di dispersione: stima delle concentrazioni al suolo in funzione di meteorologia e orografia",
+    "La diluizione non sostituisce la riduzione delle emissioni alla fonte"
+   ],
+   "appro": "Un camino troppo basso vicino a un edificio più alto può riportare i fumi verso finestre e prese d’aria: il problema riguarda sia i residenti sia i lavoratori dello stesso stabilimento.",
+   "rif": "D.lgs. 152/2006, art. 271 · Linee guida regionali sui camini",
+   "nar": "L’effetto di un’emissione sul territorio dipende non solo dalla quantità di inquinante emessa, ma anche dalle condizioni con cui viene rilasciata e si disperde in atmosfera. I parametri di rilascio sono l’altezza del camino, la velocità e la temperatura dei fumi e il diametro allo sbocco: fumi caldi e veloci si innalzano maggiormente prima di disperdersi. Lo sbocco del camino deve superare gli edifici vicini, perché gli edifici generano una zona di turbolenza sottovento nella quale i fumi possono essere trascinati verso il suolo. Molte Regioni stabiliscono criteri per l’altezza minima dei camini rispetto agli edifici circostanti e richiedono lo sbocco verticale, senza cappelli o deflettori che deviano il flusso verso il basso. Per valutare le ricadute si utilizzano modelli di dispersione, che stimano le concentrazioni al suolo in funzione delle condizioni meteorologiche e dell’orografia, e che sono spesso richiesti per gli impianti di maggiore rilevanza o in presenza di recettori sensibili. Occorre però ricordare un principio fondamentale: la diluizione non sostituisce la riduzione delle emissioni alla fonte. Un camino troppo basso vicino a un edificio più alto può riportare i fumi verso finestre e prese d’aria, con effetti sui residenti e sui lavoratori dello stesso stabilimento."
+  },
+  {
+   "t": "testo",
+   "tit": "Microinquinanti, deposizioni e catena alimentare",
+   "lead": "Alcuni inquinanti emessi in quantità ridotte sono rilevanti per la loro persistenza e capacità di accumulo negli organismi.",
+   "punti": [
+    "Policlorodibenzodiossine e furani (PCDD/F): formazione nei processi di combustione in presenza di cloro",
+    "Idrocarburi policiclici aromatici (IPA): combustioni incomplete; benzo[a]pirene come indicatore",
+    "Metalli (piombo, cadmio, mercurio, nichel, arsenico): processi metallurgici e combustione",
+    "Deposizione al suolo e trasferimento nella catena alimentare (foraggi, latte, uova)",
+    "Concentrazioni espresse in ng/Nm³ o in equivalenti di tossicità (I-TEQ)"
+   ],
+   "appro": "Per diossine e furani la tossicità complessiva si esprime in equivalenti della 2,3,7,8-TCDD, sommando i congeneri pesati con fattori di tossicità: è il modo per confrontare miscele diverse.",
+   "rif": "D.lgs. 152/2006, Allegato I alla Parte V · Reg. (UE) 2019/1021 (inquinanti organici persistenti)",
+   "nar": "Alcuni inquinanti, pur emessi in quantità molto ridotte, sono rilevanti per la loro tossicità, la persistenza nell’ambiente e la capacità di accumularsi negli organismi. Le policlorodibenzodiossine e i policlorodibenzofurani si formano nei processi di combustione in presenza di cloro, in particolare in determinati intervalli di temperatura durante il raffreddamento dei fumi. Gli idrocarburi policiclici aromatici derivano dalle combustioni incomplete, e il benzo-a-pirene è utilizzato come indicatore della loro presenza. I metalli, come piombo, cadmio, mercurio, nichel e arsenico, sono emessi dai processi metallurgici e dalla combustione di alcuni combustibili e rifiuti. Il profilo sanitario di queste sostanze non dipende solo dall’inalazione: depositandosi al suolo, possono entrare nella catena alimentare attraverso i foraggi, il latte e le uova, e accumularsi nei tessuti. Le concentrazioni sono espresse in nanogrammi per normal metro cubo; per diossine e furani la tossicità complessiva si esprime in equivalenti di tossicità della due-tre-sette-otto-tetraclorodibenzodiossina, sommando i diversi congeneri pesati con fattori di tossicità. Per questo le autorizzazioni degli impianti di combustione di rifiuti e di alcuni processi metallurgici prevedono limiti e controlli specifici per questi microinquinanti."
+  }
+ ]
+}

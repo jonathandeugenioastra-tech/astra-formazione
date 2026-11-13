@@ -1,0 +1,63 @@
+{
+ "dopo": "Il danno ambientale (Parte VI)",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Evento potenzialmente contaminante: le prime 24 ore",
+   "lead": "Al verificarsi di un evento che può contaminare un sito, il responsabile deve agire immediatamente con misure di prevenzione e comunicazioni.",
+   "punti": [
+    "Misure di prevenzione entro 24 ore: contenimento dello sversamento, rimozione della fonte, protezione dei tombini",
+    "Comunicazione immediata a Comune, Provincia, Regione e Prefetto, secondo l’art. 242",
+    "Indagine preliminare sui parametri oggetto dell’inquinamento",
+    "Se le CSC non sono superate: ripristino della zona e autocertificazione",
+    "Se le CSC sono superate: piano di caratterizzazione e procedura di bonifica"
+   ],
+   "appro": "La mancata comunicazione dell’evento è punita dall’art. 257: la comunicazione tempestiva tutela l’ambiente e la posizione dell’impresa.",
+   "rif": "D.lgs. 152/2006, artt. 242, 257, 304",
+   "nar": "Al verificarsi di un evento potenzialmente in grado di contaminare un sito, come lo sversamento di un serbatoio, la rottura di una tubazione o un incidente durante il trasporto di sostanze, il responsabile deve agire immediatamente. L’articolo duecentoquarantadue stabilisce che entro ventiquattro ore il responsabile metta in opera le misure di prevenzione necessarie, ad esempio il contenimento dello sversamento con materiali assorbenti, la rimozione della fonte, la protezione dei tombini e delle reti di scarico, e ne dia immediata comunicazione al Comune, alla Provincia, alla Regione e al Prefetto. Successivamente il responsabile svolge un’indagine preliminare sui parametri oggetto dell’inquinamento. Se l’indagine accerta che le concentrazioni soglia di contaminazione non sono state superate, il responsabile provvede al ripristino della zona e ne dà comunicazione con un’autocertificazione. Se invece le concentrazioni soglia risultano superate, si avvia la procedura di bonifica, con la presentazione del piano di caratterizzazione del sito. La mancata comunicazione dell’evento è punita dall’articolo duecentocinquantasette. Per l’impresa, una procedura di emergenza ambientale con kit di contenimento, responsabilità definite e modelli di comunicazione predisposti è la migliore garanzia di una reazione efficace nelle prime ore."
+  },
+  {
+   "t": "testo",
+   "tit": "Concentrazioni soglia, analisi di rischio e bonifica",
+   "lead": "La procedura di bonifica distingue tra la soglia che attiva le indagini e la soglia che rende necessario l’intervento.",
+   "punti": [
+    "CSC (concentrazioni soglia di contaminazione): valori tabellari che, se superati, richiedono caratterizzazione e analisi di rischio",
+    "Tabelle distinte per uso del suolo (verde e residenziale; commerciale e industriale) e per le acque sotterranee",
+    "Analisi di rischio sito-specifica: determina le CSR (concentrazioni soglia di rischio)",
+    "Sito contaminato: superamento delle CSR; necessità di bonifica o messa in sicurezza",
+    "Proprietario non responsabile: misure di prevenzione e onere reale sul sito (art. 245 e 253)"
+   ],
+   "appro": "L’analisi di rischio collega la contaminazione ai percorsi di esposizione delle persone (inalazione, contatto, ingestione): è il punto di incontro tra ingegneria ambientale e tossicologia.",
+   "rif": "D.lgs. 152/2006, artt. 240, 242, 245, 253 e Allegato 5 al Titolo V della Parte IV",
+   "nar": "La procedura di bonifica dei siti contaminati distingue due soglie. Le concentrazioni soglia di contaminazione sono valori tabellari, fissati per il suolo in funzione della destinazione d’uso, verde e residenziale oppure commerciale e industriale, e per le acque sotterranee: il loro superamento non significa automaticamente che il sito sia contaminato, ma rende necessarie la caratterizzazione e l’analisi di rischio. L’analisi di rischio sito-specifica considera le sorgenti di contaminazione, i percorsi di migrazione e i bersagli, cioè le persone che possono essere esposte per inalazione di vapori e polveri, per contatto cutaneo o per ingestione, e determina le concentrazioni soglia di rischio. È contaminato il sito in cui queste ultime sono superate: in tal caso occorrono la bonifica o la messa in sicurezza, secondo un progetto approvato. L’analisi di rischio è il punto di incontro tra l’ingegneria ambientale e la tossicologia, perché traduce le concentrazioni nel terreno in un rischio sanitario stimato. Il proprietario del sito che non è responsabile della contaminazione è tenuto ad adottare le misure di prevenzione; gli interventi eseguiti d’ufficio dall’amministrazione costituiscono un onere reale sul sito, con conseguenze rilevanti nelle compravendite di aree industriali."
+  },
+  {
+   "t": "testo",
+   "tit": "Esempio applicativo: lo sversamento di gasolio nel piazzale",
+   "lead": "Durante il rifornimento di un mezzo d’opera, la rottura di una tubazione provoca lo sversamento di circa 300 litri di gasolio su un piazzale in parte non pavimentato.",
+   "punti": [
+    "Immediato: arresto della pompa, contenimento con materiale assorbente, chiusura dei pozzetti",
+    "Entro 24 ore: rimozione del terreno visibilmente contaminato e comunicazione agli enti",
+    "Gestione del terreno e degli assorbenti come rifiuti, con attribuzione del codice e analisi",
+    "Indagine preliminare: campioni di terreno sul fondo e sulle pareti dello scavo, analisi degli idrocarburi",
+    "Esito sotto le CSC: ripristino e autocertificazione; esito superiore: caratterizzazione"
+   ],
+   "appro": "La sicurezza degli operatori è parte dell’intervento: vapori di idrocarburi, rischio di incendio e contatto cutaneo richiedono DPI adeguati e l’allontanamento delle fonti di innesco.",
+   "rif": "D.lgs. 152/2006, artt. 242 e 257 · D.lgs. 81/2008, Titolo IX",
+   "nar": "Si propone un esempio applicativo. Durante il rifornimento di un mezzo d’opera, la rottura di una tubazione provoca lo sversamento di circa trecento litri di gasolio su un piazzale in parte non pavimentato. L’operatore arresta immediatamente la pompa e la squadra di emergenza contiene il prodotto con materiale assorbente, chiudendo i pozzetti di raccolta delle acque meteoriche per evitare che il gasolio raggiunga la rete di scarico. La sicurezza degli operatori è parte dell’intervento: i vapori di idrocarburi e il rischio di incendio richiedono l’allontanamento delle fonti di innesco, e il contatto cutaneo con il gasolio va evitato con guanti e indumenti adeguati. Entro ventiquattro ore il terreno visibilmente contaminato viene rimosso e l’evento viene comunicato agli enti indicati dall’articolo duecentoquarantadue. Il terreno e gli assorbenti vengono gestiti come rifiuti, con attribuzione del codice dell’elenco europeo sulla base delle analisi. Segue l’indagine preliminare: si prelevano campioni di terreno sul fondo e sulle pareti dello scavo e si analizzano gli idrocarburi. Se le concentrazioni sono inferiori alle soglie di contaminazione per uso commerciale e industriale, si procede al ripristino e all’autocertificazione; se superiori, si avvia la caratterizzazione del sito. Ogni fase va documentata."
+  },
+  {
+   "t": "abbina",
+   "tit": "Esercitazione · Norme e contenuti",
+   "sott": "Associare a ciascun riferimento il contenuto corretto",
+   "coppie": [
+    ["Art. 242 D.lgs. 152/2006", "Misure di prevenzione entro 24 ore e comunicazione"],
+    ["Art. 452-terdecies c.p.", "Omessa bonifica"],
+    ["Art. 452-septies c.p.", "Impedimento del controllo"],
+    ["Art. 318-ter D.lgs. 152/2006", "Prescrizione asseverata con termine"],
+    ["Art. 25-undecies D.lgs. 231/2001", "Responsabilità dell’ente per reati ambientali"]
+   ],
+   "nar": "Esercitazione. Si associ a ciascun riferimento normativo il contenuto corretto."
+  }
+ ]
+}

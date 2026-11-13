@@ -1,0 +1,80 @@
+{
+ "dopo": "La pulizia e la verifica della sua efficacia",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Le analisi degli allergeni: metodi e limiti",
+   "lead": "Le analisi di laboratorio supportano la validazione delle procedure, ma vanno scelte e interpretate correttamente.",
+   "punti": [
+    "Metodi immunologici (ELISA, test rapidi a flusso laterale): rilevano la proteina allergenica",
+    "Metodi molecolari (PCR): rilevano il DNA della specie, utili quando la proteina è alterata dalla lavorazione",
+    "Spettrometria di massa: identifica peptidi specifici, impiegata soprattutto da laboratori specializzati",
+    "Limite di quantificazione: un risultato «non rilevato» significa sotto il limite del metodo, non assenza assoluta",
+    "Campionamento rappresentativo: superfici, primo prodotto dopo il cambio di lavorazione, prodotto finito"
+   ],
+   "appro": "Per la validazione della pulizia sono preferibili metodi che rilevano la proteina, perché è la proteina a provocare la reazione; il DNA può persistere anche quando la proteina è degradata e viceversa.",
+   "rif": "Codice di condotta Codex Alimentarius CXC 80-2020 · Comunicazione della Commissione 2022/C 355/01",
+   "nar": "Le analisi di laboratorio sono uno strumento importante per validare e verificare le procedure di gestione degli allergeni, ma vanno scelte e interpretate correttamente. I metodi più diffusi sono quelli immunologici, come i test ELISA eseguiti in laboratorio e i test rapidi a flusso laterale utilizzabili direttamente in azienda: rilevano la proteina allergenica, cioè la sostanza che provoca la reazione. I metodi molecolari, basati sulla reazione a catena della polimerasi, rilevano invece il DNA della specie da cui l’allergene deriva; sono utili quando la lavorazione altera la proteina rendendola difficile da riconoscere, ma la presenza di DNA non coincide necessariamente con quella della proteina. La spettrometria di massa identifica peptidi specifici ed è impiegata soprattutto da laboratori specializzati. Un aspetto fondamentale riguarda l’interpretazione: un risultato non rilevato significa che la concentrazione è inferiore al limite del metodo, non che l’allergene è assente in senso assoluto. Infine, il valore di un’analisi dipende dal campionamento: occorre prelevare campioni rappresentativi, ad esempio dalle superfici critiche dopo la pulizia e dal primo prodotto realizzato dopo il cambio di lavorazione. Il codice di condotta del Codex Alimentarius sulla gestione degli allergeni fornisce indicazioni di riferimento su questi aspetti."
+  },
+  {
+   "t": "testo",
+   "tit": "Il codice di condotta del Codex Alimentarius",
+   "lead": "Il Codex Alimentarius ha adottato nel 2020 un codice di condotta internazionale sulla gestione degli allergeni da parte degli operatori.",
+   "punti": [
+    "Ambito: dalla produzione primaria alla ristorazione, lungo tutta la filiera",
+    "Principi: identificazione degli allergeni, prevenzione del contatto crociato, informazione corretta",
+    "Programmi di prerequisiti: progettazione dei locali, attrezzature, pulizia, controllo dei fornitori",
+    "Formazione e consapevolezza del personale come elemento essenziale",
+    "Avvertenze precauzionali solo quando il contatto crociato non può essere evitato con le buone pratiche"
+   ],
+   "appro": "Il codice non è una norma vincolante, ma costituisce il riferimento tecnico internazionale con cui le autorità e gli operatori valutano l’adeguatezza dei sistemi di gestione.",
+   "rif": "Codex Alimentarius, CXC 80-2020",
+   "nar": "Nel duemilaventi la Commissione del Codex Alimentarius, l’organismo istituito dall’Organizzazione delle Nazioni Unite per l’alimentazione e l’agricoltura e dall’Organizzazione mondiale della sanità, ha adottato un codice di condotta sulla gestione degli allergeni alimentari per gli operatori del settore alimentare. Il codice copre l’intera filiera, dalla produzione primaria alla ristorazione, e si basa su tre principi: l’identificazione degli allergeni presenti in ingredienti e prodotti, la prevenzione del contatto crociato e la corretta informazione del consumatore. Il codice richiama l’importanza dei programmi di prerequisiti: la progettazione dei locali e il flusso delle lavorazioni, la scelta di attrezzature facilmente pulibili, le procedure di pulizia, il controllo dei fornitori e delle materie prime. Attribuisce un ruolo essenziale alla formazione e alla consapevolezza del personale, a tutti i livelli. Per quanto riguarda le avvertenze precauzionali, ribadisce che vanno utilizzate solo quando il contatto crociato non può essere evitato con le buone pratiche e dopo una valutazione del rischio. Il codice non è una norma vincolante, ma costituisce il riferimento tecnico internazionale con cui autorità e operatori valutano l’adeguatezza dei sistemi di gestione; molti dei suoi principi sono stati recepiti nelle comunicazioni della Commissione europea."
+  },
+  {
+   "t": "testo",
+   "tit": "Nuovi alimenti e possibili reazioni crociate",
+   "lead": "L’introduzione di nuovi alimenti, come gli insetti, richiede attenzione alle reazioni crociate con allergeni già noti.",
+   "punti": [
+    "I nuovi alimenti sono autorizzati nell’Unione dal Reg. (UE) 2015/2283 con specifiche condizioni d’uso",
+    "Per alcune polveri di insetti l’autorizzazione impone un’avvertenza su possibili reazioni in soggetti allergici a crostacei, molluschi e acari",
+    "Le farine di legumi alternativi (lupino, pisello, ceci) possono interessare soggetti allergici ad altri legumi",
+    "Le bevande e i prodotti vegetali possono contenere soia o frutta a guscio",
+    "Ogni nuovo ingrediente va valutato sulla scheda tecnica prima dell’introduzione nel menù o nella ricetta"
+   ],
+   "appro": "Le avvertenze imposte dagli atti di autorizzazione dei nuovi alimenti sono obbligatorie e si aggiungono a quelle dell’Allegato II.",
+   "rif": "Reg. (UE) 2015/2283 · regolamenti di esecuzione di autorizzazione dei singoli nuovi alimenti",
+   "nar": "Il mercato alimentare evolve rapidamente e l’introduzione di nuovi alimenti richiede attenzione anche sotto il profilo degli allergeni. Il regolamento duemiladuecentottantatré del duemilaquindici disciplina l’autorizzazione dei nuovi alimenti nell’Unione europea: ciascun alimento è autorizzato con un regolamento di esecuzione che ne stabilisce le specifiche e le condizioni d’uso, comprese eventuali indicazioni obbligatorie in etichetta. Un esempio significativo riguarda gli insetti: per alcune polveri e preparazioni di insetti autorizzate, l’atto di autorizzazione impone un’avvertenza sulla possibilità di reazioni allergiche nei soggetti allergici a crostacei, molluschi e acari della polvere, a causa di proteine strutturalmente simili, come la tropomiosina. Analogamente, le farine di legumi alternativi, come il lupino, il pisello o i ceci, sempre più usate in prodotti senza glutine o a base vegetale, possono interessare persone allergiche ad altri legumi. Le bevande e i prodotti di origine vegetale possono contenere soia o frutta a guscio. Il principio operativo è che ogni nuovo ingrediente va valutato sulla scheda tecnica prima di essere introdotto in una ricetta o nel menù, e che le avvertenze previste dagli atti di autorizzazione dei nuovi alimenti sono obbligatorie e si aggiungono a quelle dell’Allegato due."
+  },
+  {
+   "t": "testo",
+   "tit": "Magazzino e trasporto degli allergeni",
+   "lead": "Il Reg. (UE) 2021/382 richiama esplicitamente anche le fasi di magazzinaggio e trasporto.",
+   "punti": [
+    "Ricevimento: controllo dell’integrità di sacchi e confezioni; gestione immediata di rotture e fuoriuscite",
+    "Stoccaggio: contenitori chiusi ed etichettati, scaffali dedicati o posizione inferiore per gli allergeni",
+    "Fuoriuscite: rimozione con procedura definita, senza disperdere la polvere; valutazione dei prodotti vicini",
+    "Trasporto: veicoli e contenitori puliti e controllati se usati in precedenza per un allergene",
+    "Contenitori riutilizzabili: identificazione e pulizia documentata tra un uso e l’altro"
+   ],
+   "appro": "Un sacco di farina di frutta a guscio rotto sopra un bancale di prodotti confezionati non comporta di regola contaminazione interna, ma può contaminare le superfici esterne e gli operatori che li maneggiano.",
+   "rif": "Reg. (CE) 852/2004, Allegato II, come modificato dal Reg. (UE) 2021/382",
+   "nar": "Il regolamento trecentottantadue del duemilaventuno richiama esplicitamente le fasi di magazzinaggio e trasporto, spesso trascurate nella gestione degli allergeni. Al ricevimento si controlla l’integrità di sacchi e confezioni, perché un imballaggio danneggiato può disperdere polveri allergeniche; le rotture e le fuoriuscite vanno gestite immediatamente. Nello stoccaggio gli ingredienti allergenici sono conservati in contenitori chiusi ed etichettati, su scaffali dedicati o comunque in posizione inferiore rispetto agli altri alimenti. Le fuoriuscite vanno rimosse con una procedura definita, evitando di disperdere la polvere con scope o aria compressa, e valutando se i prodotti vicini possono essere stati interessati; un prodotto confezionato in modo integro non subisce di regola contaminazione interna, ma le superfici esterne e le mani degli operatori sì. Per il trasporto, la norma stabilisce che veicoli e contenitori utilizzati per un allergene non possono essere impiegati per alimenti che non lo contengono senza essere stati puliti e controllati almeno per l’assenza di residui visibili. Lo stesso principio vale per i contenitori riutilizzabili, come cassette e mastelli, che devono essere identificati e puliti con una procedura documentata tra un uso e l’altro. Anche un piccolo esercizio deve applicare queste regole nel proprio magazzino."
+  },
+  {
+   "t": "testo",
+   "tit": "I contenuti della formazione sugli allergeni",
+   "lead": "La formazione deve essere commisurata alla mansione: il cuoco, l’addetto di sala e il magazziniere hanno bisogno di competenze diverse.",
+   "punti": [
+    "Per tutti: le 14 sostanze, i rischi per il consumatore, il riconoscimento dell’emergenza, a chi segnalare",
+    "Cucina e produzione: ricette standardizzate, separazione, pulizia, sostituzioni vietate, etichette interne",
+    "Sala e vendita: consultazione della documentazione, procedura di servizio, comunicazione con la cucina",
+    "Magazzino e acquisti: schede tecniche, controllo al ricevimento, stoccaggio, gestione dei cambi",
+    "Responsabili: valutazione del rischio, aggiornamento della matrice, verifiche, gestione di reclami e richiami"
+   ],
+   "appro": "La verifica dell’apprendimento può consistere in brevi prove pratiche: rispondere a una richiesta simulata di un cliente o individuare gli allergeni di una ricetta.",
+   "rif": "Reg. (CE) 852/2004, Allegato II, capitolo XII · Reg. (UE) 2021/382",
+   "nar": "La formazione sugli allergeni deve essere commisurata alla mansione, perché il cuoco, l’addetto di sala e il magazziniere hanno bisogno di competenze diverse. Per tutti gli addetti la formazione comprende la conoscenza delle quattordici sostanze, i rischi per il consumatore, il riconoscimento dei segni di una reazione e la procedura di emergenza, e il canale per segnalare un’anomalia. Per la cucina e la produzione si aggiungono l’uso delle ricette standardizzate, le misure di separazione e di pulizia, il divieto di sostituzioni non autorizzate e l’etichettatura interna dei semilavorati. Per la sala e la vendita sono essenziali la consultazione della documentazione scritta, la procedura di servizio al cliente allergico e la comunicazione con la cucina. Per il magazzino e gli acquisti, la gestione delle schede tecniche, il controllo al ricevimento, lo stoccaggio e la gestione dei cambi di prodotto. I responsabili devono saper svolgere la valutazione del rischio, aggiornare la matrice, pianificare le verifiche e gestire reclami e richiami. La formazione va ripetuta periodicamente e ogni volta che cambiano procedure o menù, e la sua efficacia va verificata, ad esempio con brevi prove pratiche: rispondere a una richiesta simulata di un cliente o individuare gli allergeni di una ricetta."
+  }
+ ]
+}

@@ -235,6 +235,51 @@ window.CORSO = {
      "p": 1.3
     },
     {
+     "foto": false,
+     "t": "grafico",
+     "tit": "Grafico interattivo · Livelli di esposizione al rumore",
+     "rif": "D.lgs. 81/2008, artt. 189, 192, 193, 196",
+     "lead": "Spostare il cursore sul livello di esposizione giornaliera: per ciascuna zona compaiono gli obblighi del datore di lavoro.",
+     "grafico": {
+      "tipo": "soglie",
+      "variabile": "Livello di esposizione giornaliera LEX,8h",
+      "unita": "dB(A)",
+      "min": 70,
+      "max": 95,
+      "passo": 0.5,
+      "iniziale": 78,
+      "zone": [
+       {
+        "nome": "Sotto 80 dB(A)",
+        "fino": 80,
+        "colore": "#00B050",
+        "testo": "Sotto il valore inferiore di azione: valutazione documentata e riduzione del rischio al minimo secondo il principio generale."
+       },
+       {
+        "nome": "Azione inferiore",
+        "fino": 85,
+        "colore": "#C9A100",
+        "testo": "Tra 80 e 85 dB(A): informazione e formazione, otoprotettori messi a disposizione, sorveglianza sanitaria su richiesta del lavoratore o se il medico ne conferma l’opportunità."
+       },
+       {
+        "nome": "Azione superiore",
+        "fino": 87,
+        "colore": "#E07000",
+        "testo": "Tra 85 e 87 dB(A): uso degli otoprotettori obbligatorio, programma di misure tecniche e organizzative, segnaletica e delimitazione delle aree, sorveglianza sanitaria."
+       },
+       {
+        "nome": "Oltre 87 dB(A)",
+        "fino": 95,
+        "colore": "#C81F26",
+        "testo": "87 dB(A) è il valore limite di esposizione, da non superare tenendo conto dell’attenuazione degli otoprotettori: in caso di superamento occorrono misure immediate."
+       }
+      ]
+     },
+     "nar": "Grafico interattivo. Si sposti il cursore lungo la scala del livello di esposizione giornaliera al rumore. Il decreto ottantuno fissa un valore inferiore di azione di ottanta decibel A, un valore superiore di azione di ottantacinque decibel A e un valore limite di ottantasette decibel A, quest’ultimo da verificare tenendo conto dell’attenuazione degli otoprotettori. Per ciascuna zona compaiono gli obblighi del datore di lavoro. Si esplorino tutte le zone.",
+     "est": true,
+     "ancora": "Il danno: infortunio e malattia professionale"
+    },
+    {
      "t": "matrice",
      "tit": "Stima del rischio: il modello R = P × D",
      "sott": "Selezionare almeno tre caselle della matrice per esaminare il livello di rischio e la priorità di intervento",
@@ -2076,6 +2121,46 @@ window.CORSO = {
      ],
      "nar": "Il personale ispettivo degli organi di vigilanza riveste la qualifica di ufficiale di polizia giudiziaria. Può accedere ai luoghi di lavoro in qualsiasi momento, anche senza preavviso, esaminare la documentazione, quale il DVR, le nomine e gli attestati di formazione, e assumere informazioni dai lavoratori e dal loro rappresentante. Impartisce prescrizioni, svolge le inchieste sugli infortuni e riferisce all'autorità giudiziaria. Le ASL svolgono inoltre attività di informazione e assistenza a favore di imprese e lavoratori. Nel corso dell'ispezione è doveroso collaborare e fornire informazioni veritiere.",
      "p": 1.5
+    },
+    {
+     "foto": false,
+     "t": "grafico",
+     "tit": "Diagramma · La prescrizione dell’organo di vigilanza",
+     "rif": "D.lgs. 758/1994, artt. 20–24",
+     "lead": "Selezionare ciascuna fase della procedura di estinzione delle contravvenzioni in materia di sicurezza.",
+     "grafico": {
+      "tipo": "flusso",
+      "passi": [
+       {
+        "nome": "Accertamento",
+        "tempo": null,
+        "testo": "L’organo di vigilanza accerta una contravvenzione e ne dà notizia al pubblico ministero."
+       },
+       {
+        "nome": "Prescrizione",
+        "tempo": "termine tecnicamente necessario",
+        "testo": "Impartisce una prescrizione per eliminare la violazione, con un termine prorogabile una volta, su richiesta motivata, fino a sei mesi."
+       },
+       {
+        "nome": "Verifica",
+        "tempo": "entro 60 giorni",
+        "testo": "Entro sessanta giorni dalla scadenza del termine verifica l’adempimento."
+       },
+       {
+        "nome": "Pagamento",
+        "tempo": "entro 30 giorni",
+        "testo": "Il contravventore è ammesso a pagare un quarto del massimo dell’ammenda."
+       },
+       {
+        "nome": "Estinzione",
+        "tempo": null,
+        "testo": "Adempimento e pagamento estinguono la contravvenzione; l’esito è comunicato al pubblico ministero."
+       }
+      ]
+     },
+     "nar": "Diagramma interattivo. Si selezioni ciascuna fase della procedura con cui le contravvenzioni in materia di salute e sicurezza possono estinguersi: accertamento, prescrizione, verifica, pagamento ed estinzione.",
+     "est": true,
+     "ancora": "Funzioni e poteri dell'organo di vigilanza"
     },
     {
      "t": "testo",

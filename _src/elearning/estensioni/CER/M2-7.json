@@ -1,0 +1,50 @@
+{
+ "dopo": "Esempio applicativo: l’energia condivisa in un’ora",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Strategie per aumentare l’energia condivisa",
+   "lead": "Poiché l’incentivo si calcola sull’energia condivisa ora per ora, la gestione dei consumi dei membri incide direttamente sui benefici della comunità.",
+   "punti": [
+    "Composizione equilibrata dei membri: famiglie, attività commerciali, uffici, enti con consumi diurni",
+    "Spostamento dei carichi programmabili nelle ore di produzione: lavatrici, lavastoviglie, scaldacqua, ricarica dei veicoli",
+    "Pompe di calore e accumuli termici gestiti in funzione della produzione",
+    "Comunicazione ai membri delle fasce orarie più favorevoli, anche con avvisi giornalieri",
+    "Riparto che premia il contributo orario alla condivisione"
+   ],
+   "appro": "Lo spostamento dei carichi è la misura più economica: non richiede investimenti, ma informazione e un riparto che renda visibile il beneficio per chi partecipa.",
+   "rif": "TIAD ARERA · D.M. 414/2023",
+   "nar": "Poiché la tariffa premio si calcola sull’energia condivisa ora per ora, la gestione dei consumi dei membri incide direttamente sui benefici della comunità. La prima strategia è la composizione equilibrata della compagine: accanto alle famiglie, che consumano soprattutto la sera, conviene coinvolgere attività commerciali, uffici, scuole ed enti con consumi concentrati nelle ore diurne. La seconda strategia è lo spostamento dei carichi programmabili nelle ore di produzione: lavatrici, lavastoviglie, scaldacqua elettrici e ricarica dei veicoli elettrici possono essere avviati nelle ore centrali della giornata, anche con semplici temporizzatori. La terza riguarda le pompe di calore e gli accumuli termici, che possono essere gestiti in funzione della produzione, immagazzinando calore o freddo quando l’energia è disponibile. La quarta è la comunicazione ai membri: molte comunità inviano avvisi giornalieri sulle fasce orarie più favorevoli, basati sulle previsioni meteorologiche. Infine, il regolamento interno può prevedere un riparto dei benefici che premi il contributo orario alla condivisione, rendendo visibile il vantaggio per chi modifica le proprie abitudini. Lo spostamento dei carichi è la misura più economica a disposizione di una comunità, perché non richiede investimenti, ma soltanto informazione, consapevolezza e regole di riparto coerenti."
+  },
+  {
+   "t": "testo",
+   "tit": "Il rapporto con il produttore terzo",
+   "lead": "Gli impianti di una comunità possono essere realizzati e gestiti da un soggetto terzo, che li mette a disposizione della configurazione.",
+   "punti": [
+    "Il produttore terzo può non essere membro, ma resta soggetto alle istruzioni della comunità sull’impianto",
+    "Contratto: durata, corrispettivo, manutenzione, assicurazione, responsabilità, uscita anticipata",
+    "Corrispettivo: canone fisso, quota della tariffa premio o combinazione dei due",
+    "La quota destinata al produttore va considerata nel piano economico e nel regolamento di riparto",
+    "Verifica che la remunerazione non trasformi la comunità in uno strumento a scopo di profitto"
+   ],
+   "appro": "Il produttore terzo consente di realizzare impianti senza capitale iniziale dei membri, ma riduce la quota di benefici che resta alla comunità: la ripartizione va negoziata e resa trasparente.",
+   "rif": "D.lgs. 199/2021, art. 31 · D.M. 414/2023 · Regole operative del GSE",
+   "nar": "Gli impianti di una comunità energetica rinnovabile non devono necessariamente appartenere alla comunità o ai suoi membri: possono essere realizzati e gestiti da un produttore terzo, che li mette a disposizione della configurazione. Il produttore terzo può anche non essere membro della comunità, ma l’impianto deve restare nella disponibilità e sotto il controllo della comunità secondo le regole del decreto e delle regole operative. Il rapporto è disciplinato da un contratto, che deve definire con precisione la durata, normalmente coerente con il periodo di incentivazione, il corrispettivo, gli obblighi di manutenzione e di assicurazione, le responsabilità in caso di guasti o di mancata produzione e le condizioni di uscita anticipata. Il corrispettivo può essere un canone fisso, una quota della tariffa premio o una combinazione dei due. La quota destinata al produttore va considerata nel piano economico e nel regolamento di riparto, perché riduce i benefici disponibili per i membri. Occorre inoltre verificare che la remunerazione del produttore non trasformi di fatto la comunità in uno strumento a scopo di profitto, in contrasto con la finalità prevalente di benefici ambientali, economici e sociali. Il produttore terzo consente di realizzare impianti senza capitale iniziale dei membri, ma la ripartizione dei benefici va negoziata e resa trasparente a tutti i partecipanti."
+  },
+  {
+   "t": "testo",
+   "tit": "Esempio applicativo: il condominio con impianto comune",
+   "lead": "Un condominio di 24 unità realizza un impianto da 30 kWp sulla copertura e costituisce un gruppo di autoconsumatori.",
+   "punti": [
+    "Produzione annua stimata: circa 36.000 kWh",
+    "Aderiscono 18 condomini su 24, oltre alle utenze comuni (ascensore, illuminazione, pompe)",
+    "Energia condivisa stimata: circa 40% della produzione, cioè 14.400 kWh",
+    "Benefici annui: tariffa premio e restituzione delle componenti sull’energia condivisa, più valorizzazione dell’energia immessa",
+    "Delibera assembleare: maggioranze del codice civile; ripartizione tra spese comuni e quote ai condomini aderenti"
+   ],
+   "appro": "I valori sono indicativi: la quota di energia condivisa dipende dai profili orari reali e va stimata con i dati di misura dei condomini prima della delibera.",
+   "rif": "D.lgs. 199/2021, art. 30 · TIAD ARERA · Codice civile, artt. 1117–1139",
+   "nar": "Si propone un esempio applicativo riferito a un condominio di ventiquattro unità abitative, che realizza un impianto fotovoltaico da trenta chilowatt di picco sulla copertura comune e costituisce un gruppo di autoconsumatori di energia rinnovabile che agiscono collettivamente. La produzione annua stimata è di circa trentaseimila chilowattora. Aderiscono diciotto condomini su ventiquattro, oltre alle utenze comuni dell’edificio, come l’ascensore, l’illuminazione delle parti comuni e le pompe dell’impianto idrico. Considerati i profili di consumo prevalentemente serali delle famiglie e quelli in parte diurni delle utenze comuni, l’energia condivisa è stimata in circa il quaranta per cento della produzione, cioè circa quattordicimilaquattrocento chilowattora all’anno. Su questa energia il condominio ottiene la tariffa premio e la restituzione delle componenti tariffarie; l’energia non condivisa viene immessa in rete e valorizzata separatamente. L’assemblea delibera la realizzazione dell’impianto con le maggioranze previste dal codice civile e stabilisce come ripartire i benefici, ad esempio destinandone una parte alla riduzione delle spese comuni e una parte ai condomini aderenti in proporzione al loro contributo orario. I valori dell’esempio sono indicativi: la quota di energia condivisa dipende dai profili orari reali e va stimata con i dati di misura dei condomini prima della delibera."
+  }
+ ]
+}

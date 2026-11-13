@@ -1,0 +1,64 @@
+{
+ "dopo": "Esempio applicativo: la matrice degli allergeni di un ristorante",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Costruire la matrice degli allergeni passo per passo",
+   "lead": "La matrice collega ogni preparazione alle sostanze dell’Allegato II che contiene; è lo strumento su cui si basano tutte le informazioni al cliente.",
+   "punti": [
+    "Righe: tutti i piatti in carta e tutte le preparazioni di base (fondi, salse, impasti, panature, condimenti)",
+    "Colonne: le 14 voci dell’Allegato II, con indicazione del frutto o del cereale specifico",
+    "Compilazione dalle ricette standardizzate e dalle schede tecniche dei fornitori, non dalla memoria",
+    "Le preparazioni di base si «propagano»: un piatto eredita gli allergeni di ogni base che utilizza",
+    "Firma, data e numero di revisione; aggiornamento a ogni cambio di ricetta o di fornitore"
+   ],
+   "appro": "Accanto alla presenza come ingrediente può essere utile una colonna distinta per il rischio residuo di contaminazione crociata, risultante dalla valutazione del rischio.",
+   "rif": "Reg. (UE) 1169/2011, artt. 9 e 44 · D.lgs. 231/2017",
+   "nar": "La matrice degli allergeni è una tabella che collega ogni preparazione alle sostanze dell’Allegato due che contiene, ed è lo strumento su cui si basano tutte le informazioni fornite al cliente. La sua costruzione segue un metodo preciso. Nelle righe si inseriscono tutti i piatti presenti in carta e, soprattutto, tutte le preparazioni di base: fondi, brodi, salse, impasti, panature, condimenti, decorazioni. Nelle colonne si riportano le quattordici voci dell’Allegato due, specificando il frutto a guscio o il cereale interessato. La compilazione deve basarsi sulle ricette standardizzate e sulle schede tecniche dei fornitori, mai sulla memoria o sulle abitudini della cucina. Il principio fondamentale è la propagazione: un piatto eredita gli allergeni di tutte le preparazioni di base che utilizza; se una salsa contiene senape, ogni piatto in cui quella salsa compare contiene senape. La matrice deve riportare la data, la firma del responsabile e un numero di revisione, e va aggiornata ogni volta che cambia una ricetta, un ingrediente o un fornitore. Può essere utile prevedere una colonna distinta per il rischio residuo di contaminazione crociata, quando la valutazione del rischio ne ha evidenziato la presenza. Una matrice ben costruita consente al personale di sala di rispondere con certezza a qualsiasi richiesta del cliente."
+  },
+  {
+   "t": "testo",
+   "tit": "Schede tecniche e qualifica dei fornitori",
+   "lead": "Le informazioni sugli allergeni di un alimento dipendono da quelle dei suoi ingredienti: la catena informativa parte dal fornitore.",
+   "punti": [
+    "Richiedere per ogni prodotto la scheda tecnica con allergeni contenuti e rischio di contaminazione crociata",
+    "Verificare la corrispondenza tra scheda tecnica ed etichetta del prodotto effettivamente consegnato",
+    "Chiedere al fornitore di comunicare preventivamente ogni modifica di ricetta o di processo",
+    "Prevedere prodotti alternativi già valutati, per evitare sostituzioni improvvisate",
+    "Archiviare le schede con data di aggiornamento e collegarle alla matrice"
+   ],
+   "appro": "Ogni operatore della filiera deve fornire all’operatore successivo le informazioni necessarie perché questi possa adempiere ai propri obblighi di informazione.",
+   "rif": "Reg. (UE) 1169/2011, art. 8, parr. 6–8",
+   "nar": "Le informazioni sugli allergeni di un piatto o di un prodotto dipendono interamente da quelle dei suoi ingredienti: la catena informativa parte quindi dal fornitore. Il regolamento milleseicentosessantanove stabilisce che gli operatori della filiera devono trasmettere all’operatore successivo le informazioni necessarie perché questi possa adempiere ai propri obblighi. In pratica, per ogni prodotto acquistato si richiede una scheda tecnica che indichi gli allergeni contenuti come ingredienti e l’eventuale rischio di contaminazione crociata nello stabilimento di produzione. La scheda va confrontata con l’etichetta del prodotto effettivamente consegnato, perché non è raro che il codice articolo resti invariato mentre cambia la formulazione. È opportuno prevedere nei contratti o negli accordi di fornitura l’obbligo del fornitore di comunicare preventivamente qualsiasi modifica di ricetta o di processo. Per evitare sostituzioni improvvisate in caso di mancanza di un prodotto, si possono qualificare in anticipo prodotti alternativi, già valutati e inseriti nella matrice. Le schede tecniche vanno archiviate con la data di aggiornamento e collegate alla matrice degli allergeni, in modo che ogni revisione possa essere ricostruita in caso di controllo o di reclamo."
+  },
+  {
+   "t": "testo",
+   "tit": "Ricevimento delle merci e modifiche di ricetta",
+   "lead": "Molti incidenti nascono da un cambiamento non comunicato: un prodotto sostituito, una ricetta modificata, un fornitore diverso.",
+   "punti": [
+    "Al ricevimento: controllo di etichetta, integrità degli imballaggi e corrispondenza con l’ordine",
+    "Prodotto diverso da quello abituale: blocco, verifica degli allergeni, aggiornamento della matrice prima dell’uso",
+    "Modifica di ricetta: valutazione preventiva, revisione della matrice, informazione al personale di sala",
+    "Piatti del giorno e varianti: stesse regole dei piatti in carta, con matrice compilata prima del servizio",
+    "Registro delle modifiche, con data e responsabile"
+   ],
+   "appro": "Un controllo di ricevimento ben fatto richiede pochi secondi ma intercetta la causa più frequente di omissioni nelle informazioni sugli allergeni.",
+   "rif": "Reg. (CE) 852/2004, art. 5 · Reg. (UE) 1169/2011, art. 8",
+   "nar": "Un’analisi degli incidenti legati agli allergeni mostra che molti nascono da un cambiamento non gestito: un prodotto sostituito dal fornitore, una ricetta modificata in cucina, un fornitore diverso per indisponibilità del solito. Il controllo al ricevimento delle merci è quindi una misura di grande efficacia. Oltre alla verifica dell’integrità degli imballaggi, delle temperature e della corrispondenza con l’ordine, si controlla l’etichetta. Se il prodotto consegnato è diverso da quello abituale, anche solo per marca o formato, va bloccato fino alla verifica degli allergeni e all’aggiornamento della matrice. Analogamente, ogni modifica di ricetta deve essere valutata prima della produzione: si rivede la matrice e si informa il personale di sala, che altrimenti continuerebbe a fornire informazioni non più corrette. I piatti del giorno e le varianti richieste dai clienti seguono le stesse regole dei piatti in carta: la loro composizione va registrata prima del servizio, non ricostruita a posteriori. Ogni modifica va annotata in un registro con data e responsabile. Questo controllo richiede pochi secondi, ma intercetta la causa più frequente di omissioni nelle informazioni sugli allergeni ed è anche un elemento di prova della diligenza dell’operatore."
+  },
+  {
+   "t": "caso",
+   "tit": "Caso di studio · La salsa sostituita",
+   "scena": "Il fornitore abituale della salsa barbecue è sprovvisto; il cuoco acquista un prodotto di un’altra marca e lo utilizza nel servizio serale. La matrice degli allergeni non viene modificata. Il prodotto sostitutivo contiene senape.",
+   "domanda": "Qual è la condotta corretta?",
+   "opz": [
+    ["Nessuna azione: la salsa ha la stessa funzione in ricetta", false, "No: un ingrediente diverso può contenere allergeni diversi."],
+    ["Bloccare il prodotto, verificarne gli allergeni, aggiornare la matrice e informare la sala prima dell’uso", true, "Corretto: la sostituzione richiede valutazione preventiva e aggiornamento delle informazioni."],
+    ["Aggiornare la matrice a fine settimana", false, "No: le informazioni al cliente sarebbero errate durante il servizio."]
+   ],
+   "rif": "Reg. (UE) 1169/2011, artt. 8 e 44 · Reg. (CE) 852/2004, art. 5",
+   "appro": "La senape è una voce dell’Allegato II: un cliente allergico, informato sulla base della matrice non aggiornata, sarebbe esposto a un rischio grave.",
+   "nar": "Caso di studio. Il fornitore abituale della salsa barbecue è sprovvisto e il cuoco utilizza un prodotto di un’altra marca, senza aggiornare la matrice degli allergeni; il nuovo prodotto contiene senape. Si individui la condotta corretta."
+  }
+ ]
+}

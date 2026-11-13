@@ -1,0 +1,42 @@
+{
+ "dopo": "Incentivi per le CER e le altre configurazioni",
+ "schermate": [
+  {
+   "t": "grafico",
+   "tit": "Grafico interattivo · Tariffa premio per classe di potenza",
+   "rif": "D.M. MASE 7 dicembre 2023, n. 414, Allegato 1",
+   "lead": "Selezionare ciascuna classe di potenza: l’intervallo va dalla parte fissa al tetto massimo della tariffa premio.",
+   "grafico": {
+    "tipo": "intervalli",
+    "unita": "Tariffa premio (€/MWh), prima del fattore correttivo zonale",
+    "unita_breve": "€/MWh",
+    "max": 130,
+    "tacche": 13,
+    "voci": [
+     {
+      "nome": "Impianti fino a 200 kW",
+      "da": 80,
+      "a": 120,
+      "colore": "#0f5c6b",
+      "testo": "Parte fissa 80 €/MWh più una parte variabile legata al prezzo zonale, fino a un massimo di 120 €/MWh."
+     },
+     {
+      "nome": "Da 200 a 600 kW",
+      "da": 70,
+      "a": 110,
+      "colore": "#2b7a8a",
+      "testo": "Parte fissa 70 €/MWh, fino a un massimo di 110 €/MWh."
+     },
+     {
+      "nome": "Oltre 600 kW",
+      "da": 60,
+      "a": 100,
+      "colore": "#5a9aa6",
+      "testo": "Parte fissa 60 €/MWh, fino a un massimo di 100 €/MWh. Per il fotovoltaico si aggiunge il fattore correttivo zonale: +4 €/MWh al Centro, +10 €/MWh al Nord."
+     }
+    ]
+   },
+   "nar": "Grafico interattivo. Si selezioni ciascuna classe di potenza per visualizzare l’intervallo della tariffa premio sull’energia condivisa: dalla parte fissa, che decresce con la potenza dell’impianto, al tetto massimo. Per gli impianti fotovoltaici si aggiunge un fattore correttivo zonale per le Regioni del Centro e del Nord."
+  }
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "dopo": "La movimentazione manuale dei carichi",
+ "schermate": [
+  {
+   "t": "grafico",
+   "tit": "Simulazione · Indice di sollevamento",
+   "rif": "UNI ISO 11228-1 · D.lgs. 81/2008, Allegato XXXIII",
+   "lead": "Modificare il peso sollevato e il peso limite raccomandato calcolato per il compito: l’indice di sollevamento indica il livello di rischio.",
+   "grafico": {
+    "tipo": "calcolo",
+    "formula_testo": "IS = peso sollevato / peso limite raccomandato",
+    "formula": "p / r",
+    "ingressi": [
+     {
+      "id": "p",
+      "nome": "Peso effettivamente sollevato",
+      "min": 2,
+      "max": 30,
+      "passo": 0.5,
+      "val": 15,
+      "unita": "kg"
+     },
+     {
+      "id": "r",
+      "nome": "Peso limite raccomandato (calcolato)",
+      "min": 3,
+      "max": 25,
+      "passo": 0.5,
+      "val": 12,
+      "unita": "kg"
+     }
+    ],
+    "risultato": "Indice di sollevamento",
+    "unita": "",
+    "scala": 3,
+    "limite": 1.0,
+    "limite_testo": "IS = 1",
+    "testo_ok": "Indice non superiore a 1: rischio accettabile; sotto 0,85 area verde secondo il metodo.",
+    "testo_sup": "Indice superiore a 1: rischio presente, interventi di riprogettazione e sorveglianza sanitaria; oltre 3 interventi prioritari."
+   },
+   "nar": "Simulazione. Si modifichino il peso effettivamente sollevato e il peso limite raccomandato, calcolato con i fattori del metodo in funzione di altezza, distanza, dislocazione, angolo, presa e frequenza. Il rapporto è l’indice di sollevamento: un valore superiore a uno indica la presenza di rischio e la necessità di interventi. Si eseguano almeno tre simulazioni."
+  }
+ ]
+}

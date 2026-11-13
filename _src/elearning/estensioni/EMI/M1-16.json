@@ -1,0 +1,35 @@
+{
+ "dopo": "Valori limite, autocontrolli e comunicazioni",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Esempio applicativo: tre campionamenti e il criterio di valutazione",
+   "lead": "Il giudizio di conformità dipende dal criterio indicato nell’autorizzazione: media dei campionamenti o valutazione di ciascun risultato.",
+   "punti": [
+    "Valore limite per le polveri: 20 mg/Nm³",
+    "Risultati di tre campionamenti consecutivi di un’ora: 16, 19 e 27 mg/Nm³",
+    "Media: (16 + 19 + 27) / 3 = 20,7 mg/Nm³, superiore al limite",
+    "Il terzo valore, isolato, è nettamente superiore: indica una possibile anomalia durante la prova",
+    "Prima di concludere: verificare il criterio prescritto, l’incertezza e le condizioni di processo del terzo campionamento"
+   ],
+   "appro": "La variabilità tra campionamenti consecutivi è essa stessa un’informazione: valori molto diversi suggeriscono un funzionamento instabile del processo o del sistema di abbattimento.",
+   "rif": "D.lgs. 152/2006, Allegato VI alla Parte V · prescrizioni dell’autorizzazione",
+   "nar": "Si propone un esempio applicativo del giudizio di conformità su più campionamenti. Un camino di una linea di sabbiatura ha un valore limite per le polveri di venti milligrammi per normal metro cubo. L’autocontrollo comprende tre campionamenti consecutivi della durata di un’ora ciascuno, con risultati di sedici, diciannove e ventisette milligrammi per normal metro cubo. Se l’autorizzazione prevede il confronto della media con il valore limite, la media è pari a venti virgola sette milligrammi, superiore al limite. Se invece prevede la valutazione di ciascun risultato, il terzo campionamento supera il limite in modo evidente. In entrambi i casi il dato richiede attenzione. Prima di concludere, occorre però verificare il criterio esatto prescritto dall’autorizzazione o dalle linee guida regionali, l’incertezza di misura associata a ciascun risultato e le condizioni di processo durante il terzo campionamento: un valore isolato nettamente superiore agli altri può indicare un’anomalia, come la pulizia delle maniche in corso o un cambio di materiale abrasivo. La variabilità tra campionamenti consecutivi è essa stessa un’informazione utile: valori molto diversi suggeriscono un funzionamento instabile del processo o del sistema di abbattimento, che va indagato indipendentemente dall’esito formale del confronto con il limite."
+  },
+  {
+   "t": "testo",
+   "tit": "La gerarchia degli interventi di riduzione delle emissioni",
+   "lead": "La riduzione delle emissioni segue una gerarchia che privilegia la prevenzione alla fonte rispetto al trattamento a valle.",
+   "punti": [
+    "1. Eliminazione o sostituzione: prodotti all’acqua, a basso contenuto di solventi, vernici in polvere",
+    "2. Modifica del processo: applicazioni a maggiore efficienza di trasferimento, sistemi chiusi",
+    "3. Efficienza energetica e cambio di combustibile negli impianti termici",
+    "4. Captazione efficace alla fonte, per evitare emissioni diffuse",
+    "5. Sistemi di abbattimento adeguati, correttamente manutenuti"
+   ],
+   "appro": "La stessa gerarchia guida la prevenzione del rischio chimico per i lavoratori: sostituire un prodotto solvente riduce contemporaneamente emissioni, esposizione e rischio di incendio.",
+   "rif": "D.lgs. 152/2006, artt. 271 e 275 · D.lgs. 81/2008, art. 15",
+   "nar": "La riduzione delle emissioni segue una gerarchia di interventi che privilegia la prevenzione alla fonte rispetto al trattamento a valle. Il primo livello è l’eliminazione o la sostituzione delle sostanze che generano le emissioni: ad esempio, l’impiego di prodotti vernicianti all’acqua o ad alto residuo secco, o delle vernici in polvere, riduce drasticamente i solventi emessi. Il secondo livello è la modifica del processo: sistemi di applicazione con maggiore efficienza di trasferimento, come la verniciatura elettrostatica, riducono la quantità di prodotto necessaria; i sistemi chiusi evitano l’evaporazione. Il terzo livello riguarda gli impianti termici, dove l’efficienza energetica e il passaggio a combustibili meno inquinanti o a fonti rinnovabili riducono le emissioni di combustione e di gas a effetto serra. Il quarto livello è la captazione efficace alla fonte, che evita le emissioni diffuse e consente il trattamento. Solo al quinto livello si collocano i sistemi di abbattimento, che devono essere adeguati e correttamente manutenuti. La stessa gerarchia guida, nel decreto ottantuno, la prevenzione del rischio chimico per i lavoratori: sostituire un prodotto a base di solvente riduce contemporaneamente le emissioni in atmosfera, l’esposizione degli operatori e il rischio di incendio, con un beneficio che nessun sistema di abbattimento può offrire."
+  }
+ ]
+}

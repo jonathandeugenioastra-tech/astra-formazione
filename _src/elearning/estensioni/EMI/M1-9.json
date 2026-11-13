@@ -1,0 +1,50 @@
+{
+ "dopo": "L’autorizzazione unica ambientale (AUA)",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Il sistema europeo di scambio delle quote di emissione",
+   "lead": "Le emissioni di gas a effetto serra degli impianti di maggiori dimensioni sono soggette al sistema europeo di scambio delle quote, distinto dall’autorizzazione alle emissioni.",
+   "punti": [
+    "Ambito: attività dell’Allegato I della direttiva, tra cui combustione con potenza termica totale superiore a 20 MW",
+    "Autorizzazione a emettere gas a effetto serra e piano di monitoraggio approvato",
+    "Comunicazione annuale delle emissioni, verificata da un verificatore accreditato",
+    "Restituzione di un numero di quote pari alle emissioni dell’anno precedente",
+    "Le quote gratuite si riducono progressivamente; il prezzo del carbonio incide sui costi energetici"
+   ],
+   "appro": "Il sistema non fissa limiti per singolo impianto, ma un tetto complessivo decrescente: ogni tonnellata di anidride carbonica emessa ha un costo, che rende convenienti gli interventi di efficienza.",
+   "rif": "Dir. 2003/87/CE e successive modifiche · D.lgs. 47/2020",
+   "nar": "Le emissioni di gas a effetto serra degli impianti di maggiori dimensioni sono soggette al sistema europeo di scambio delle quote di emissione, istituito dalla direttiva duemilatre-ottantasette e attuato in Italia dal decreto legislativo quarantasette del duemilaventi. Si tratta di una disciplina distinta dall’autorizzazione alle emissioni della Parte quinta. Vi rientrano le attività elencate nell’allegato della direttiva, tra cui la combustione di combustibili in installazioni con potenza termica nominale totale superiore a venti megawatt, la produzione di cemento, calce, vetro, ceramica, acciaio, carta e prodotti chimici. Il gestore deve possedere un’autorizzazione a emettere gas a effetto serra, applicare un piano di monitoraggio approvato e comunicare ogni anno le emissioni, dopo la verifica di un verificatore accreditato. Entro i termini stabiliti deve restituire un numero di quote pari alle emissioni dell’anno precedente; le quote possono essere ricevute in parte gratuitamente, in misura progressivamente decrescente, oppure acquistate all’asta o sul mercato. Il sistema non fissa limiti per il singolo impianto, ma un tetto complessivo che si riduce ogni anno. Ogni tonnellata di anidride carbonica emessa ha quindi un costo, che rende economicamente convenienti gli interventi di efficienza energetica e di sostituzione dei combustibili fossili."
+  },
+  {
+   "t": "testo",
+   "tit": "Gas fluorurati e sostanze che riducono lo strato di ozono",
+   "lead": "Le apparecchiature di refrigerazione, condizionamento e antincendio possono rilasciare gas con elevato potenziale di riscaldamento globale, soggetti a regolamenti europei specifici.",
+   "punti": [
+    "Regolamento F-gas: controlli delle perdite in funzione delle tonnellate di CO₂ equivalente contenute",
+    "Interventi su apparecchiature eseguiti da persone e imprese certificate",
+    "Registro delle apparecchiature e comunicazione dei dati alla banca dati nazionale",
+    "Divieti progressivi di immissione sul mercato per i gas ad alto potenziale di riscaldamento",
+    "Recupero dei gas a fine vita: il rilascio intenzionale in atmosfera è vietato"
+   ],
+   "appro": "Una perdita di refrigerante non è solo un problema di efficienza dell’impianto: è un’emissione di gas a effetto serra, e i controlli periodici delle perdite sono obbligatori. Dal 2 giugno 2026 il D.lgs. 81/2026 punisce penalmente le violazioni più rilevanti in materia di sostanze ozono lesive e di gas fluorurati.",
+   "rif": "Reg. (UE) 2024/573 (gas fluorurati) · Reg. (UE) 2024/590 (sostanze che riducono lo strato di ozono) · D.P.R. 146/2018 · D.lgs. 81/2026, artt. 4–5",
+   "nar": "Le apparecchiature di refrigerazione, condizionamento, pompe di calore e alcuni sistemi antincendio contengono gas fluorurati con un elevato potenziale di riscaldamento globale, che possono essere rilasciati in atmosfera per perdite o durante la manutenzione e lo smantellamento. Questi gas sono disciplinati dal regolamento europeo duemilaventiquattro-cinquecentosettantatré, mentre le sostanze che riducono lo strato di ozono sono disciplinate dal regolamento duemilaventiquattro-cinquecentonovanta. Gli operatori delle apparecchiature devono effettuare controlli periodici delle perdite, con una frequenza che dipende dalla quantità di gas contenuta, espressa in tonnellate di anidride carbonica equivalente. Gli interventi di installazione, manutenzione, riparazione e recupero devono essere eseguiti da persone e imprese certificate. In Italia il decreto del Presidente della Repubblica centoquarantasei del duemiladiciotto prevede la registrazione delle imprese e la comunicazione dei dati degli interventi a una banca dati nazionale. Il regolamento prevede inoltre divieti progressivi di immissione sul mercato dei gas e delle apparecchiature a più alto potenziale di riscaldamento. A fine vita, i gas devono essere recuperati: il rilascio intenzionale in atmosfera è vietato. Una perdita di refrigerante non è quindi solo un problema di efficienza dell’impianto, ma un’emissione di gas a effetto serra soggetta a obblighi specifici."
+  },
+  {
+   "t": "testo",
+   "tit": "Inventari e registri delle emissioni",
+   "lead": "Oltre agli autocontrolli, molte imprese devono dichiarare periodicamente le proprie emissioni a registri regionali, nazionali ed europei.",
+   "punti": [
+    "Registro europeo delle emissioni e dei trasferimenti di inquinanti (Reg. (CE) 166/2006)",
+    "Nuovo portale europeo delle emissioni industriali (Reg. (UE) 2024/1244), che sostituisce progressivamente il precedente registro",
+    "Dichiarazione annuale per le attività e le soglie di inquinante previste",
+    "Inventari regionali delle emissioni, alimentati anche dai dati delle autorizzazioni",
+    "Coerenza tra dati dichiarati, autocontrolli e piano di gestione dei solventi"
+   ],
+   "appro": "I dati dichiarati sono pubblici e consultabili: incoerenze tra registri diversi o con gli autocontrolli sono facilmente rilevabili dagli organi di controllo e dagli stakeholder.",
+   "rif": "Reg. (CE) 166/2006 · Reg. (UE) 2024/1244 · D.P.R. 157/2011",
+   "nar": "Oltre agli autocontrolli previsti dall’autorizzazione, molte imprese devono dichiarare periodicamente le proprie emissioni a registri regionali, nazionali ed europei. Il registro europeo delle emissioni e dei trasferimenti di inquinanti, istituito dal regolamento centosessantasei del duemilasei, raccoglie ogni anno i dati delle installazioni che svolgono determinate attività e superano soglie di emissione per specifici inquinanti in aria, acqua e suolo, oltre ai trasferimenti di rifiuti. Il regolamento duemilaventiquattro-milleduecentoquarantaquattro ha istituito il nuovo portale europeo delle emissioni industriali, che sostituisce progressivamente il registro precedente ed estende le informazioni pubblicate, anche sull’uso di risorse. Le Regioni, a loro volta, elaborano inventari delle emissioni del proprio territorio, utilizzati per i piani di qualità dell’aria, e raccolgono dati dalle imprese attraverso le autorizzazioni e specifiche dichiarazioni. I dati dichiarati sono in gran parte pubblici e consultabili. Per questo è essenziale che siano coerenti tra loro: le emissioni dichiarate ai registri devono essere compatibili con i risultati degli autocontrolli, con le ore di funzionamento e con il piano di gestione dei solventi. Incoerenze tra registri diversi sono facilmente rilevabili dagli organi di controllo, dalla popolazione e dagli altri portatori di interesse."
+  }
+ ]
+}

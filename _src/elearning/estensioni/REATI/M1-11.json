@@ -1,0 +1,35 @@
+{
+ "dopo": "I delitti contro l’ambiente (L. 68/2015 e D.lgs. 81/2026)",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "La nozione di condotta abusiva",
+   "lead": "Tutti i principali delitti ambientali richiedono che la condotta sia «abusiva»: il D.lgs. 81/2026 ne ha codificato il significato.",
+   "punti": [
+    "Condotta svolta in assenza delle autorizzazioni prescritte o con autorizzazioni scadute o illegittime",
+    "Condotta in violazione di leggi statali o regionali o di prescrizioni amministrative, anche non penalmente sanzionate",
+    "Art. 452-quinquiesdecies c.p.: è abusiva anche la condotta in violazione del diritto dell’Unione o delle norme nazionali di attuazione",
+    "È abusiva la condotta svolta con un’autorizzazione ottenuta con frode, violenza, minaccia o reati contro la pubblica amministrazione",
+    "Il rispetto formale dell’autorizzazione non esclude l’abusività se sono violate altre norme di tutela"
+   ],
+   "appro": "Il possesso dell’autorizzazione non è uno scudo assoluto: rilevano anche le prescrizioni, le norme tecniche richiamate e gli obblighi europei direttamente applicabili.",
+   "rif": "Codice penale, art. 452-quinquiesdecies (D.lgs. 81/2026) · giurisprudenza della Corte di cassazione sull’art. 452-bis",
+   "nar": "Tutti i principali delitti ambientali, come l’inquinamento e il disastro ambientale e il nuovo commercio di prodotti inquinanti, richiedono che la condotta sia abusiva. Fino al duemilaventisei il significato del termine era stato chiarito dalla giurisprudenza della Corte di cassazione: è abusiva la condotta svolta in assenza delle autorizzazioni prescritte o con autorizzazioni scadute o illegittime, ma anche quella posta in essere in violazione di leggi statali o regionali o di prescrizioni amministrative, anche se non penalmente sanzionate. Il decreto legislativo ottantuno del duemilaventisei ha codificato la nozione nell’articolo quattrocentocinquantadue-quinquiesdecies del codice penale, precisando che la condotta è abusiva anche quando viola il diritto dell’Unione europea o le norme nazionali che lo attuano, oppure quando è svolta sulla base di un’autorizzazione ottenuta con frode, violenza, minaccia o mediante reati contro la pubblica amministrazione, come la corruzione. La conseguenza pratica è rilevante: il possesso dell’autorizzazione non è uno scudo assoluto. Rilevano anche le prescrizioni contenute nel titolo, le norme tecniche richiamate e gli obblighi europei direttamente applicabili, come quelli dei regolamenti sulle sostanze chimiche o sulle spedizioni di rifiuti."
+  },
+  {
+   "t": "testo",
+   "tit": "Accertamento tecnico dell’evento: «significativo e misurabile»",
+   "lead": "La prova del delitto di inquinamento ambientale richiede un accertamento tecnico rigoroso dell’alterazione della matrice ambientale.",
+   "punti": [
+    "Misurabilità: alterazione quantificabile con metodi scientifici, rispetto a uno stato di riferimento",
+    "Significatività: rilevanza dell’alterazione per estensione, intensità e durata",
+    "Stato di riferimento: condizioni ante evento, valori di fondo naturale, aree di confronto non interessate",
+    "Strumenti: campionamenti, analisi, indicatori biologici, modelli di dispersione",
+    "Il superamento di un valore limite è un indizio, non una prova automatica dell’evento"
+   ],
+   "appro": "La qualità del campionamento in contraddittorio è decisiva: catena di custodia, metodi ufficiali, aliquote per le controanalisi.",
+   "rif": "Codice penale, art. 452-bis · Codice di procedura penale, artt. 223 e 360",
+   "nar": "La prova del delitto di inquinamento ambientale richiede un accertamento tecnico rigoroso dell’alterazione della matrice ambientale. La compromissione o il deterioramento devono essere misurabili, cioè quantificabili con metodi scientifici rispetto a uno stato di riferimento, e significativi, cioè rilevanti per estensione, intensità e durata. Lo stato di riferimento può essere ricostruito con dati precedenti all’evento, con i valori di fondo naturale della zona o con il confronto con aree analoghe non interessate. Gli strumenti dell’accertamento comprendono campionamenti e analisi chimiche, indicatori biologici, come lo stato delle comunità di macroinvertebrati in un corso d’acqua, e modelli di dispersione degli inquinanti. Il superamento di un valore limite allo scarico o al camino è un indizio importante, ma non costituisce una prova automatica dell’evento: occorre dimostrare l’effetto sulla matrice ambientale. Dal punto di vista procedurale, la qualità del campionamento è decisiva: catena di custodia dei campioni, impiego di metodi ufficiali, preparazione di aliquote per le controanalisi e, quando gli accertamenti non sono ripetibili, avviso alle parti perché possano nominare propri consulenti. Per l’impresa, la presenza di un consulente tecnico fin dalle prime fasi è spesso determinante."
+  }
+ ]
+}

@@ -1,0 +1,53 @@
+{
+ "dopo": "Sistemi elettrici: motori, inverter, rifasamento, aria compressa",
+ "schermate": [
+  {
+   "t": "grafico",
+   "tit": "Simulazione · Tempo di ritorno di un intervento di efficienza",
+   "rif": "UNI CEI EN 16247-1 · D.lgs. 102/2014",
+   "lead": "Modificare investimento, energia risparmiata e prezzo dell’energia: il calcolo restituisce il tempo di ritorno semplice.",
+   "grafico": {
+    "tipo": "calcolo",
+    "formula_testo": "Tempo di ritorno (anni) = investimento / (energia risparmiata × prezzo)",
+    "formula": "i / (r * p)",
+    "ingressi": [
+     {
+      "id": "i",
+      "nome": "Investimento",
+      "min": 2000,
+      "max": 200000,
+      "passo": 1000,
+      "val": 24000,
+      "unita": "€"
+     },
+     {
+      "id": "r",
+      "nome": "Energia elettrica risparmiata",
+      "min": 5000,
+      "max": 400000,
+      "passo": 1000,
+      "val": 60000,
+      "unita": "kWh/anno"
+     },
+     {
+      "id": "p",
+      "nome": "Prezzo dell’energia",
+      "min": 0.08,
+      "max": 0.35,
+      "passo": 0.01,
+      "val": 0.2,
+      "unita": "€/kWh"
+     }
+    ],
+    "risultato": "Tempo di ritorno semplice",
+    "unita": "anni",
+    "scala": 10,
+    "limite": 3,
+    "limite_testo": "3 anni",
+    "testo_ok": "Tempo di ritorno inferiore a 3 anni: intervento generalmente prioritario.",
+    "testo_sup": "Tempo di ritorno superiore a 3 anni: valutare con VAN e TIR e con eventuali incentivi."
+   },
+   "nar": "Simulazione. Si modifichino l’investimento, l’energia risparmiata ogni anno e il prezzo dell’energia, ad esempio per l’installazione di un inverter su un motore. Il rapporto tra investimento e risparmio annuo è il tempo di ritorno semplice, primo indicatore per ordinare gli interventi individuati nella diagnosi. Per decisioni definitive si usano il valore attuale netto e il tasso interno di rendimento."
+  }
+ ]
+}

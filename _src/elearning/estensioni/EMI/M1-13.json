@@ -1,0 +1,35 @@
+{
+ "dopo": "L’autorizzazione unica ambientale (AUA)",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Il procedimento di AUA: soggetti e tempi",
+   "lead": "Il procedimento di autorizzazione unica ambientale coinvolge più amministrazioni, coordinate dallo Sportello unico per le attività produttive.",
+   "punti": [
+    "SUAP: riceve la domanda, la trasmette all’autorità competente e rilascia il titolo",
+    "Autorità competente (di norma la Provincia o l’ente individuato dalla Regione): adotta il provvedimento",
+    "Soggetti competenti per i singoli titoli: ARPA, Comune, gestore del servizio idrico per gli scarichi in fognatura",
+    "Termine di 90 giorni, o di 120 giorni quando sono compresi titoli con termini superiori, salvo richieste di integrazione",
+    "Le integrazioni richieste sospendono i termini: una domanda completa accelera il procedimento"
+   ],
+   "appro": "Le richieste di integrazione sono la principale causa di allungamento dei tempi: una relazione tecnica completa e coerente con i modelli regionali è il miglior investimento di tempo.",
+   "rif": "D.P.R. 59/2013, artt. 2–4",
+   "nar": "Il procedimento di autorizzazione unica ambientale coinvolge più amministrazioni, coordinate dallo Sportello unico per le attività produttive del Comune. Il gestore presenta la domanda allo Sportello, che la trasmette all’autorità competente, di norma la Provincia o l’ente individuato dalla legislazione regionale, e agli altri soggetti competenti per i singoli titoli compresi nell’autorizzazione, come l’Agenzia regionale per la protezione dell’ambiente, il Comune per l’impatto acustico e il gestore del servizio idrico integrato per gli scarichi in fognatura. L’autorità competente adotta il provvedimento e lo trasmette allo Sportello, che rilascia il titolo al richiedente. Il decreto cinquantanove del duemilatredici stabilisce un termine di novanta giorni, che diventa di centoventi giorni quando l’autorizzazione comprende titoli per i quali la normativa di settore prevede termini superiori, come l’autorizzazione alle emissioni ordinaria; resta salva la possibilità di convocare una conferenza di servizi. Le richieste di integrazione documentale sospendono i termini del procedimento. Per questo una domanda completa e coerente, redatta secondo i modelli regionali, con un quadro emissivo dettagliato e planimetrie leggibili, è il miglior investimento di tempo per l’impresa: le integrazioni sono la principale causa di allungamento dei tempi di rilascio."
+  },
+  {
+   "t": "testo",
+   "tit": "Esempio applicativo: il censimento delle sorgenti di emissione",
+   "lead": "Prima di qualsiasi domanda o verifica di conformità occorre un censimento completo delle sorgenti di emissione dello stabilimento.",
+   "punti": [
+    "Sopralluogo reparto per reparto, con l’elenco di macchine, impianti, cappe e aspirazioni",
+    "Per ogni aspirazione: destinazione dell’aria (esterno o ricircolo), sistema di abbattimento, camino",
+    "Impianti termici di processo e civili, con potenza termica nominale e combustibile",
+    "Sorgenti diffuse: stoccaggi, movimentazioni, operazioni a cielo aperto",
+    "Confronto con l’autorizzazione: punti autorizzati, punti in deroga, punti non censiti"
+   ],
+   "appro": "Il censimento rivela spesso aspiratori installati negli anni per motivi di sicurezza e mai inseriti nell’autorizzazione: è il momento per regolarizzarli.",
+   "rif": "D.lgs. 152/2006, artt. 269–272",
+   "nar": "Si propone un esempio applicativo di censimento delle sorgenti di emissione, attività preliminare a qualsiasi domanda di autorizzazione o verifica di conformità. In uno stabilimento di carpenteria metallica, il censimento parte da un sopralluogo reparto per reparto, con l’elenco delle macchine, degli impianti, delle cappe e delle aspirazioni presenti. Per ciascuna aspirazione si verifica la destinazione dell’aria: se viene scaricata all’esterno attraverso un camino o reimmessa nell’ambiente di lavoro, e se è presente un sistema di abbattimento. Si censiscono poi gli impianti termici di processo, come i forni di polimerizzazione delle vernici a polvere, e gli impianti termici civili, indicando la potenza termica nominale e il combustibile. Si considerano infine le sorgenti diffuse, come gli stoccaggi di materiali, le operazioni di carico e scarico e le lavorazioni all’aperto. L’elenco ottenuto si confronta con l’autorizzazione, distinguendo i punti autorizzati, quelli riconducibili ad attività in deroga e quelli non censiti. Il censimento rivela spesso aspiratori installati negli anni per motivi di sicurezza, ad esempio sopra una postazione di saldatura o di molatura, e mai inseriti nell’autorizzazione. È il momento per regolarizzarli, con una comunicazione di modifica o una domanda di aggiornamento, secondo la loro rilevanza."
+  }
+ ]
+}

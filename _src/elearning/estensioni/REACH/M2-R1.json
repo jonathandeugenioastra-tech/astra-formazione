@@ -1,0 +1,21 @@
+{
+ "dopo": "Il regolamento CLP: classi e categorie di pericolo",
+ "origine": "CHIM/M1-1.json",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Le nuove classi di pericolo: interferenti endocrini, PBT e PMT",
+   "lead": "Il Regolamento delegato (UE) 2023/707 ha introdotto nel CLP sei nuove classi di pericolo per la salute e l’ambiente.",
+   "punti": [
+    "Interferenti endocrini per la salute umana (ED HH) e per l’ambiente (ED ENV), in categorie 1 e 2",
+    "Sostanze persistenti, bioaccumulabili e tossiche (PBT) e molto persistenti e molto bioaccumulabili (vPvB)",
+    "Sostanze persistenti, mobili e tossiche (PMT) e molto persistenti e molto mobili (vPvM)",
+    "Nuove indicazioni di pericolo con codici EUH dedicati",
+    "Applicazione progressiva: sostanze già sul mercato dal 1° novembre 2026, miscele già sul mercato dal 1° maggio 2028"
+   ],
+   "appro": "Le nuove classi incidono su etichette, schede di dati di sicurezza e valutazione dei rischi, oltre che sulla classificazione dei rifiuti contenenti tali sostanze.",
+   "rif": "Reg. (CE) 1272/2008 (CLP) · Reg. delegato (UE) 2023/707",
+   "nar": "Il regolamento CLP classifica le sostanze e le miscele secondo classi di pericolo fisico, per la salute e per l’ambiente. Il regolamento delegato duemilaventitré barra settecentosette ha aggiunto sei nuove classi, che l’Unione europea ha introdotto per prima a livello mondiale. Due riguardano gli interferenti endocrini, cioè sostanze che alterano il sistema ormonale: per la salute umana, con la sigla ED HH, e per l’ambiente, con la sigla ED ENV, ciascuna articolata in categoria uno, accertata o presunta, e categoria due, sospetta. Le altre riguardano proprietà ambientali di lungo periodo: sostanze persistenti, bioaccumulabili e tossiche, molto persistenti e molto bioaccumulabili, persistenti, mobili e tossiche, molto persistenti e molto mobili. Queste ultime sono particolarmente rilevanti per la contaminazione delle acque, perché le sostanze mobili attraversano facilmente i sistemi di depurazione. A ciascuna classe corrisponde una nuova indicazione di pericolo con codice EUH. L’applicazione è progressiva: per le sostanze già presenti sul mercato le nuove classi si applicano dal primo novembre duemilaventisei, per le miscele già presenti dal primo maggio duemilaventotto. Ne derivano aggiornamenti di etichette e schede di dati di sicurezza, che vanno recepiti nella valutazione del rischio chimico."
+  }
+ ]
+}

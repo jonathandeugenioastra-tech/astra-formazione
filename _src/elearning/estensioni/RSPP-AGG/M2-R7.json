@@ -1,0 +1,21 @@
+{
+ "dopo": "La UNI EN 689: strategia di misura",
+ "origine": "CHIM/M2-3.json",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Il test statistico e la rivalutazione periodica",
+   "lead": "Con almeno sei misure la UNI EN 689 prevede un test statistico sul gruppo di esposizione similare e indica le cadenze di rivalutazione.",
+   "punti": [
+    "Almeno 6 misure sul gruppo di esposizione similare (SEG)",
+    "Verifica della distribuzione lognormale delle misure",
+    "Conformità se il limite di confidenza superiore UTL 95,70 è inferiore al valore limite",
+    "Rivalutazione periodica in funzione del rapporto tra media geometrica e valore limite",
+    "Indicazione dell’Allegato I: da 12 mesi (esposizioni vicine al limite) a 36 mesi (esposizioni molto basse)"
+   ],
+   "appro": "La rivalutazione è anticipata in caso di modifiche del processo, delle sostanze o delle misure di controllo.",
+   "rif": "UNI EN 689:2019, §§ 5.5 e 6, Allegati F e I · D.lgs. 81/2008, art. 225",
+   "nar": "Quando il test preliminare, basato su tre-cinque misure, non consente di concludere, la norma UNI EN seicentoottantanove prevede il test statistico. Si eseguono almeno sei misure rappresentative sul gruppo di esposizione similare, cioè sui lavoratori che svolgono compiti analoghi con esposizioni simili. Si verifica che le misure siano compatibili con una distribuzione lognormale e si calcola il limite superiore di tolleranza al novantacinque per cento con confidenza del settanta per cento, indicato come UTL novantacinque settanta: se è inferiore al valore limite, l’esposizione è conforme; se lo supera, l’esposizione non è conforme e occorrono misure di controllo. Il test statistico non è definito con meno di sei misure. Dopo una valutazione conforme si programma la rivalutazione periodica. L’Allegato informativo I della norma suggerisce la cadenza in funzione del rapporto tra la media geometrica delle misure e il valore limite: circa dodici mesi quando il rapporto supera la metà, diciotto mesi tra un quarto e la metà, ventiquattro mesi tra un decimo e un quarto, trentasei mesi sotto un decimo. La rivalutazione va anticipata quando cambiano il processo, le sostanze o le misure di controllo."
+  }
+ ]
+}

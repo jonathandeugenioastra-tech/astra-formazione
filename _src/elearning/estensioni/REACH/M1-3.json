@@ -1,0 +1,20 @@
+{
+ "dopo": "Autorizzazione e restrizioni",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "La restrizione sulle microplastiche aggiunte intenzionalmente",
+   "lead": "Il Regolamento (UE) 2023/2055 ha introdotto la voce 78 dell’Allegato XVII sulle microparticelle di polimeri sintetici.",
+   "punti": [
+    "Microparticelle di polimeri sintetici di dimensione inferiore a 5 mm, insolubili e non degradabili",
+    "Divieto di immissione sul mercato come tali o in miscele in concentrazione pari o superiore allo 0,01% in peso",
+    "In vigore dal 17 ottobre 2023, con periodi transitori per alcuni usi",
+    "Esempi: glitter sfusi, microsfere nei cosmetici, granuli di intaso per superfici sportive",
+    "Obblighi di istruzioni e di comunicazione annuale all’ECHA per gli usi in deroga"
+   ],
+   "appro": "La restrizione si affianca al Regolamento (UE) 2025/2365 sulla prevenzione delle perdite di pellet di plastica lungo la catena di approvvigionamento.",
+   "rif": "Reg. (CE) 1907/2006, Allegato XVII, voce 78 · Reg. (UE) 2023/2055 · Reg. (UE) 2025/2365",
+   "nar": "Le microplastiche aggiunte intenzionalmente ai prodotti si disperdono nell’ambiente e non possono essere recuperate. Il regolamento europeo duemilaventitré barra duemilacinquantacinque ha introdotto la voce settantotto dell’Allegato diciassette del regolamento REACH, che riguarda le microparticelle di polimeri sintetici: particelle di dimensione inferiore a cinque millimetri, insolubili e non biodegradabili secondo i criteri del regolamento. Dal diciassette ottobre duemilaventitré è vietato immetterle sul mercato come tali o in miscele in cui siano presenti in concentrazione pari o superiore allo zero virgola zero uno per cento in peso, quando sono aggiunte per conferire una caratteristica ricercata. Il divieto ha colpito subito, ad esempio, i glitter sfusi e le microsfere nei cosmetici da risciacquo, mentre per altri usi sono previsti periodi transitori, come per i granuli di intaso delle superfici sportive sintetiche. Alcuni usi sono esentati, ad esempio nei siti industriali, ma con obblighi di istruzioni per l’uso e di comunicazione annuale all’Agenzia europea per le sostanze chimiche. Per le imprese che producono o trasformano materie plastiche si aggiunge il regolamento duemilaventicinque barra duemilatrecentosessantacinque sulla prevenzione delle perdite di pellet."
+  }
+ ]
+}

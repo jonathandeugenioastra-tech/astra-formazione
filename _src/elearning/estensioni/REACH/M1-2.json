@@ -1,0 +1,20 @@
+{
+ "dopo": "SVHC, elenco di sostanze candidate e articoli",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Articoli con SVHC: art. 33 e banca dati SCIP",
+   "lead": "Chi fornisce articoli contenenti sostanze estremamente preoccupanti oltre lo 0,1% in peso ha obblighi di comunicazione lungo la catena.",
+   "punti": [
+    "Art. 33 c. 1: informazioni al destinatario sull’uso sicuro, almeno il nome della sostanza",
+    "Art. 33 c. 2: risposta gratuita al consumatore che lo richiede entro 45 giorni",
+    "Art. 7 c. 2: notifica all’ECHA oltre 1 tonnellata/anno, entro 6 mesi dall’inclusione nell’elenco",
+    "Banca dati SCIP: notifica all’ECHA degli articoli con SVHC dal 5 gennaio 2021",
+    "La soglia dello 0,1% si applica a ciascun articolo che compone un oggetto complesso"
+   ],
+   "appro": "L’elenco delle sostanze candidate è aggiornato due volte l’anno: ogni aggiornamento richiede di verificare di nuovo i propri articoli.",
+   "rif": "Reg. (CE) 1907/2006, artt. 7, 33 e 59 · Dir. 2008/98/CE, art. 9 · Corte di giustizia UE, C-106/14",
+   "nar": "Le sostanze estremamente preoccupanti, indicate con la sigla SVHC, sono incluse dall’Agenzia europea per le sostanze chimiche nell’elenco delle sostanze candidate all’autorizzazione, aggiornato di norma due volte l’anno. Anche chi non produce sostanze ma fornisce articoli ha obblighi precisi. L’articolo trentatré stabilisce che il fornitore di un articolo contenente una sostanza dell’elenco in concentrazione superiore allo zero virgola uno per cento in peso deve fornire al destinatario le informazioni sufficienti per un uso sicuro, comprendenti almeno il nome della sostanza; se il destinatario è un consumatore, l’informazione va fornita gratuitamente su richiesta entro quarantacinque giorni. L’articolo sette impone inoltre ai produttori e agli importatori di articoli di notificare all’Agenzia la presenza della sostanza oltre la soglia, quando la quantità complessiva supera una tonnellata all’anno, entro sei mesi dall’inclusione nell’elenco. La direttiva quadro sui rifiuti ha aggiunto, dal cinque gennaio duemilaventuno, la notifica alla banca dati SCIP, per rendere l’informazione disponibile anche agli operatori del riciclo. La Corte di giustizia ha chiarito che la soglia si applica a ciascun articolo componente di un oggetto complesso, non all’oggetto nel suo insieme."
+  }
+ ]
+}

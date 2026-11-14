@@ -1,0 +1,20 @@
+{
+ "dopo": "La registrazione",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Il rappresentante esclusivo del fabbricante extra-UE",
+   "lead": "Un fabbricante stabilito fuori dall’Unione può nominare un rappresentante esclusivo che adempie agli obblighi di registrazione al posto degli importatori.",
+   "punti": [
+    "Art. 8 REACH: nomina con accordo scritto, rappresentante stabilito nell’UE",
+    "Il rappresentante registra le sostanze e assume gli obblighi degli importatori",
+    "Gli importatori coperti sono considerati utilizzatori a valle",
+    "Il rappresentante conserva l’elenco dei clienti importatori e le quantità",
+    "Senza rappresentante: ogni importatore registra le quantità oltre 1 tonnellata/anno"
+   ],
+   "appro": "Prima di importare direttamente da un fornitore extra-UE conviene verificare se esiste un rappresentante esclusivo e se la propria importazione è coperta dalla sua registrazione.",
+   "rif": "Reg. (CE) 1907/2006 (REACH), artt. 5, 6 e 8",
+   "nar": "Il regolamento REACH impone la registrazione delle sostanze fabbricate o importate nell’Unione in quantità pari o superiori a una tonnellata all’anno per ciascun fabbricante o importatore, secondo il principio senza dati, nessun mercato. Quando la sostanza proviene da un fabbricante stabilito fuori dall’Unione, gli obblighi ricadono sugli importatori. L’articolo otto offre però un’alternativa: il fabbricante extra europeo può nominare, con un accordo scritto, una persona fisica o giuridica stabilita nell’Unione come proprio rappresentante esclusivo. Il rappresentante esclusivo registra la sostanza e assume tutti gli obblighi che spetterebbero agli importatori; gli importatori coperti dall’accordo sono considerati utilizzatori a valle e non devono registrare. Il rappresentante deve avere un’adeguata conoscenza della gestione pratica delle sostanze e conservare informazioni aggiornate sulle quantità importate e sui clienti, oltre alla scheda di dati di sicurezza aggiornata. Per l’impresa che importa direttamente da un fornitore extra europeo è quindi essenziale verificare, prima dell’acquisto, se esiste un rappresentante esclusivo e se la propria importazione rientra nella copertura della sua registrazione. In caso contrario, oltre la tonnellata annua, la registrazione è a carico dell’importatore."
+  }
+ ]
+}

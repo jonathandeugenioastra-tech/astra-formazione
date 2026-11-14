@@ -1,0 +1,20 @@
+{
+ "dopo": "Verificare la qualità di una SDS",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Le novità dell’Allegato II: Regolamento (UE) 2020/878",
+   "lead": "Dal 1° gennaio 2023 tutte le schede di dati di sicurezza devono seguire il formato aggiornato dal Regolamento (UE) 2020/878.",
+   "punti": [
+    "Sezione 1: possibilità di indicare il codice UFI della miscela",
+    "Sezioni 2, 11 e 12: informazioni sulle proprietà di interferenza endocrina",
+    "Sezione 3: limiti di concentrazione specifici, fattori M e stime della tossicità acuta",
+    "Informazioni specifiche per le nanoforme nelle sezioni pertinenti",
+    "Sezione 9 ristrutturata per stato fisico e proprietà di sicurezza"
+   ],
+   "appro": "Una scheda redatta secondo il formato precedente è oggi non conforme: è un elemento da verificare all’arrivo di ogni nuova SDS.",
+   "rif": "Reg. (CE) 1907/2006, art. 31 e Allegato II · Reg. (UE) 2020/878",
+   "nar": "Il formato e i contenuti della scheda di dati di sicurezza sono stabiliti dall’Allegato secondo del regolamento REACH, modificato dal regolamento europeo duemilaventi barra ottocentosettantotto. Dal primo gennaio duemilaventitré tutte le schede devono essere conformi alla nuova versione. Le novità principali sono diverse. Nella sezione uno è possibile indicare il codice UFI, l’identificatore unico di formula che consente ai centri antiveleni di riconoscere esattamente la miscela. Nelle sezioni due, undici e dodici vanno riportate le informazioni sulle proprietà di interferenza endocrina delle sostanze presenti. Nella sezione tre si indicano, quando disponibili, i limiti di concentrazione specifici, i fattori moltiplicatori per la tossicità acquatica e le stime della tossicità acuta. Sono richieste informazioni specifiche per le nanoforme. La sezione nove, sulle proprietà fisiche e chimiche, è stata ristrutturata per renderla coerente con le classi di pericolo fisico. All’arrivo di una nuova scheda conviene quindi verificare la data di revisione e la conformità al formato vigente: una scheda redatta secondo il formato precedente non è conforme e va richiesta aggiornata al fornitore, annotando la richiesta."
+  }
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "dopo": "L’etichetta CLP e le novità della revisione",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Il codice UFI e la notifica ai centri antiveleni",
+   "lead": "Le miscele pericolose per la salute o per i pericoli fisici sono notificate all’ECHA e identificate in etichetta con un codice UFI.",
+   "punti": [
+    "Allegato VIII del CLP: notifica armonizzata a livello europeo tramite il portale ECHA",
+    "Obbligo per importatori e utilizzatori a valle che immettono miscele sul mercato",
+    "UFI: codice alfanumerico di 16 caratteri riportato in etichetta",
+    "Applicazione completa per usi di consumo, professionali e industriali dal 1° gennaio 2025",
+    "In Italia le informazioni sono rese disponibili ai centri antiveleni tramite l’Istituto superiore di sanità"
+   ],
+   "appro": "In caso di intossicazione, il codice UFI comunicato al centro antiveleni consente di identificare la composizione esatta della miscela.",
+   "rif": "Reg. (CE) 1272/2008 (CLP), art. 45 e Allegato VIII",
+   "nar": "Quando una persona viene esposta accidentalmente a una miscela pericolosa, il centro antiveleni deve conoscerne rapidamente la composizione. L’articolo quarantacinque e l’Allegato otto del regolamento CLP hanno armonizzato a livello europeo la notifica delle informazioni sulle miscele classificate pericolose per la salute o per i pericoli fisici. Gli importatori e gli utilizzatori a valle che immettono sul mercato queste miscele presentano la notifica attraverso il portale dell’Agenzia europea per le sostanze chimiche, indicando composizione, classificazione, etichettatura e usi. A ogni miscela è associato un identificatore unico di formula, il codice UFI, composto da sedici caratteri alfanumerici, che va riportato sull’etichetta, di norma vicino agli identificatori del prodotto. Il codice collega in modo univoco il prodotto in commercio alla composizione notificata. Gli obblighi si sono applicati gradualmente e dal primo gennaio duemilaventicinque riguardano tutte le miscele, per usi di consumo, professionali e industriali. In caso di intossicazione, comunicare al centro antiveleni il codice UFI riportato sull’etichetta consente di identificare la composizione esatta e di orientare rapidamente il trattamento."
+  }
+ ]
+}

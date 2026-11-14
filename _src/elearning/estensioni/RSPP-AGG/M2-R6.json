@@ -1,0 +1,21 @@
+{
+ "dopo": "Valori limite e misurazioni dell’esposizione",
+ "origine": "CHIM/M2-2.json",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Esempio applicativo: da ppm a mg/m³",
+   "lead": "I valori limite si esprimono in mg/m³ o in ppm: saper convertire le unità evita errori nel confronto con le misure.",
+   "punti": [
+    "mg/m³ = ppm × M / 24,06 a 20 °C e 101,3 kPa (M = massa molare in g/mol)",
+    "Toluene: 50 ppm × 92,14 / 24,06 ≈ 191,5 mg/m³",
+    "Il valore coincide con il valore limite di 192 mg/m³ dell’Allegato XXXVIII",
+    "Conversione inversa: ppm = mg/m³ × 24,06 / M",
+    "Per polveri e fibre non si usano le ppm: mg/m³ o fibre/cm³"
+   ],
+   "appro": "Il volume molare di 24,06 litri vale a 20 °C; a 25 °C si usa 24,45 litri. Le condizioni di riferimento vanno sempre dichiarate.",
+   "rif": "D.lgs. 81/2008, Allegato XXXVIII · UNI EN 689:2019",
+   "nar": "I valori limite di esposizione professionale per gas e vapori sono espressi sia in milligrammi per metro cubo sia in parti per milione, cioè in volume. Per confrontare correttamente una misura con il valore limite occorre saper passare da un’unità all’altra. La relazione è semplice: la concentrazione in milligrammi per metro cubo è pari alla concentrazione in parti per milione moltiplicata per la massa molare della sostanza, espressa in grammi per mole, e divisa per il volume molare dell’aria, che a venti gradi e alla pressione di centouno virgola tre chilopascal vale ventiquattro virgola zero sei litri. Prendiamo il toluene, con massa molare di novantadue virgola quattordici. Cinquanta parti per milione corrispondono a cinquanta per novantadue virgola quattordici diviso ventiquattro virgola zero sei, cioè circa centonovantuno virgola cinque milligrammi per metro cubo: il valore coincide, arrotondato, con il valore limite di centonovantadue milligrammi per metro cubo dell’Allegato trentotto. La conversione inversa si ottiene moltiplicando i milligrammi per metro cubo per ventiquattro virgola zero sei e dividendo per la massa molare. Per polveri e fibre le parti per milione non hanno senso: si usano i milligrammi per metro cubo o le fibre per centimetro cubo. Le condizioni di riferimento vanno sempre dichiarate nel rapporto di misura."
+  }
+ ]
+}

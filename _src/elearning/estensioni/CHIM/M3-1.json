@@ -1,0 +1,20 @@
+{
+ "dopo": "DPI per il rischio chimico",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Filtri per le vie respiratorie: tipi e colori",
+   "lead": "I filtri antigas e antipolvere si scelgono in base al contaminante, identificato da una lettera e da un colore normalizzati.",
+   "punti": [
+    "Tipo A (marrone): gas e vapori organici con punto di ebollizione superiore a 65 °C",
+    "Tipo B (grigio): gas e vapori inorganici; tipo E (giallo): gas acidi come l’anidride solforosa",
+    "Tipo K (verde): ammoniaca e derivati; tipo AX (marrone): organici bassobollenti",
+    "Tipo P (bianco): particelle, nelle classi P1, P2 e P3",
+    "Classi 1, 2, 3 di capacità per i filtri antigas; filtri combinati per esposizioni miste"
+   ],
+   "appro": "Il facciale filtrante non protegge in carenza di ossigeno: in ambienti confinati o con ossigeno insufficiente servono apparecchi isolanti.",
+   "rif": "UNI EN 14387 · UNI EN 143 · UNI EN 149 · D.lgs. 81/2008, artt. 76-78",
+   "nar": "La protezione delle vie respiratorie dai contaminanti chimici richiede la scelta del filtro corretto. Le norme tecniche identificano ogni tipo con una lettera e un colore. Il tipo A, marrone, è destinato a gas e vapori organici con punto di ebollizione superiore a sessantacinque gradi, come molti solventi. Il tipo B, grigio, protegge da gas e vapori inorganici come cloro e acido solfidrico. Il tipo E, giallo, è destinato ai gas acidi come l’anidride solforosa. Il tipo K, verde, protegge da ammoniaca e derivati organici dell’ammoniaca. Il tipo AX, anch’esso marrone, è destinato ai composti organici bassobollenti. Il tipo P, bianco, protegge dalle particelle, nelle classi P uno, P due e P tre di efficienza crescente. I filtri antigas sono inoltre classificati per capacità in classi uno, due e tre. Per esposizioni miste a vapori e polveri si usano filtri combinati, come A due P tre. Il filtro va sostituito secondo le indicazioni del fabbricante e del programma aziendale, non solo quando si avverte l’odore. Va ricordato che i dispositivi a filtro non proteggono in carenza di ossigeno: negli ambienti confinati servono apparecchi isolanti."
+  }
+ ]
+}

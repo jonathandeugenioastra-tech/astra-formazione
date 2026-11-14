@@ -1,0 +1,20 @@
+{
+ "dopo": "Appalti, subappalti e cantieri",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Idoneità tecnico-professionale e costi della sicurezza",
+   "lead": "Nei contratti di appalto, d’opera o di somministrazione, l’art. 26 impone al committente verifiche preventive e la quantificazione dei costi della sicurezza.",
+   "punti": [
+    "Verifica dell’idoneità tecnico-professionale: iscrizione alla Camera di commercio e autocertificazione",
+    "Informazioni dettagliate sui rischi dell’ambiente in cui l’appaltatore opera",
+    "Cooperazione e coordinamento; DUVRI o incaricato del coordinamento",
+    "Costi della sicurezza indicati nel contratto, non soggetti a ribasso, a pena di nullità",
+    "Tessera di riconoscimento con fotografia per il personale dell’appaltatore"
+   ],
+   "appro": "Il DUVRI non è richiesto per servizi di natura intellettuale, mere forniture e lavori fino a cinque uomini-giorno senza rischi particolari (art. 26 c. 3-bis).",
+   "rif": "D.lgs. 81/2008, art. 26 e Allegato XVII",
+   "nar": "Quando il datore di lavoro affida lavori, servizi o forniture all’interno della propria azienda, l’articolo ventisei gli attribuisce precisi obblighi. Prima di tutto deve verificare l’idoneità tecnico professionale delle imprese appaltatrici e dei lavoratori autonomi, almeno attraverso l’iscrizione alla Camera di commercio e l’autocertificazione del possesso dei requisiti; nei cantieri valgono i criteri più stringenti dell’Allegato diciassette. Deve poi fornire informazioni dettagliate sui rischi specifici dell’ambiente in cui l’appaltatore opererà e sulle misure di emergenza. Committente e appaltatori cooperano all’attuazione delle misure di prevenzione e coordinano gli interventi per eliminare i rischi da interferenza, attraverso il documento unico di valutazione o, nei casi previsti, un incaricato del coordinamento. Nei contratti devono essere specificamente indicati i costi relativi alla sicurezza del lavoro con riferimento alle interferenze: non sono soggetti a ribasso e la loro mancata indicazione comporta la nullità del contratto. Il personale dell’appaltatore deve essere munito di tessera di riconoscimento con fotografia, generalità e datore di lavoro. Il documento unico non è richiesto per servizi di natura intellettuale, mere forniture di materiali e lavori di durata non superiore a cinque uomini giorno, salvo rischi particolari."
+  }
+ ]
+}

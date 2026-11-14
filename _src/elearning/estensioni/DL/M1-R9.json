@@ -1,0 +1,21 @@
+{
+ "dopo": "Gli obblighi dell'art. 18",
+ "origine": "LAV-SPEC-B/M1-2.json",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "L’impianto di terra e le verifiche periodiche",
+   "lead": "La protezione dai contatti indiretti si fonda sull’impianto di terra coordinato con gli interruttori differenziali, sottoposto a verifiche periodiche obbligatorie.",
+   "punti": [
+    "Dichiarazione di conformità dell’impianto rilasciata dall’installatore abilitato (D.M. 37/2008)",
+    "Verifica periodica dell’impianto di terra ogni 5 anni",
+    "Ogni 2 anni in cantieri, locali medici e ambienti a maggior rischio in caso di incendio",
+    "Verifica eseguita da INAIL, ASL/ARPA o organismo abilitato su richiesta del datore di lavoro",
+    "Prova periodica dell’interruttore differenziale con il tasto di prova"
+   ],
+   "appro": "Il lavoratore non interviene sull’impianto: segnala prese danneggiate, cavi con isolamento lesionato, interruttori che scattano ripetutamente.",
+   "rif": "D.P.R. 22 ottobre 2001, n. 462 · D.M. 22 gennaio 2008, n. 37 · D.lgs. 81/2008, art. 80",
+   "nar": "Negli ambienti a rischio basso il pericolo elettrico più frequente è il contatto indiretto, cioè il contatto con una parte metallica che è andata in tensione per un guasto. La protezione si basa sull’impianto di terra coordinato con gli interruttori differenziali, che interrompono l’alimentazione in una frazione di secondo. L’impianto deve essere realizzato da un’impresa abilitata, che rilascia la dichiarazione di conformità prevista dal decreto ministeriale trentasette del duemilaotto. Il decreto del Presidente della Repubblica quattrocentosessantadue del duemilauno impone poi verifiche periodiche dell’impianto di terra: ogni cinque anni nella generalità dei luoghi di lavoro, ogni due anni nei cantieri, nei locali adibiti a uso medico e negli ambienti a maggior rischio in caso di incendio. La verifica è richiesta dal datore di lavoro e svolta dall’INAIL, dalle aziende sanitarie o agenzie regionali, oppure da un organismo abilitato. Anche l’interruttore differenziale va provato periodicamente con il tasto di prova, secondo le istruzioni del costruttore. Il lavoratore non interviene sull’impianto, ma ha un ruolo importante: segnalare subito prese danneggiate, cavi con l’isolamento lesionato, interruttori che scattano ripetutamente o apparecchi che danno la scossa."
+  }
+ ]
+}

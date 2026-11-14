@@ -1,0 +1,21 @@
+{
+ "dopo": "Il dirigente: definizione, poteri e limiti",
+ "origine": "DL/M1-3.json",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "La vigilanza del datore di lavoro sui delegati",
+   "lead": "La delega di funzioni trasferisce poteri e responsabilità, ma non elimina l’obbligo di vigilanza del delegante.",
+   "punti": [
+    "Art. 16 c. 3: il delegante vigila sul corretto espletamento delle funzioni trasferite",
+    "La vigilanza riguarda l’organizzazione, non il controllo di ogni singola lavorazione",
+    "Si presume assolta con un modello di verifica e controllo efficacemente attuato (art. 30 c. 4)",
+    "Subdelega ammessa una sola volta, d’intesa con il datore di lavoro (art. 16 c. 3-bis)",
+    "Restano indelegabili la valutazione dei rischi con il DVR e la designazione dell’RSPP"
+   ],
+   "appro": "Evidenze utili: report periodici del delegato, verifiche a campione, verbali di audit, budget effettivamente disponibile e utilizzato.",
+   "rif": "D.lgs. 81/2008, artt. 16, 17 e 30",
+   "nar": "La delega di funzioni dell’articolo sedici consente al datore di lavoro di trasferire a un soggetto competente, con atto scritto, data certa, accettazione e autonomia di spesa, alcuni obblighi in materia di sicurezza. Il comma tre precisa però che la delega non esclude l’obbligo di vigilanza del datore di lavoro sul corretto espletamento delle funzioni trasferite. La giurisprudenza chiarisce che questa vigilanza riguarda la correttezza complessiva della gestione del rischio da parte del delegato, non il controllo minuto di ogni lavorazione. Lo stesso comma stabilisce che l’obbligo si intende assolto in caso di adozione ed efficace attuazione del modello di verifica e controllo previsto dall’articolo trenta, comma quattro. Il delegato può a sua volta subdelegare specifiche funzioni, una sola volta e d’intesa con il datore di lavoro, alle stesse condizioni; anche in questo caso permane la vigilanza del subdelegante. Restano comunque non delegabili, secondo l’articolo diciassette, la valutazione di tutti i rischi con l’elaborazione del documento e la designazione del responsabile del servizio di prevenzione e protezione. Per dimostrare la vigilanza contano le evidenze: report periodici del delegato, verifiche a campione, verbali di audit, disponibilità e uso effettivo del budget assegnato."
+  }
+ ]
+}

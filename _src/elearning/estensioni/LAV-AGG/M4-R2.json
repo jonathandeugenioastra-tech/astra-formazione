@@ -1,0 +1,21 @@
+{
+ "dopo": "DPI: scelta, uso, manutenzione",
+ "origine": "LAV-GEN/M1-13.json",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Le categorie dei DPI e gli obblighi del lavoratore",
+   "lead": "I DPI sono classificati dal Reg. (UE) 2016/425 in tre categorie, in funzione della gravità dei rischi da cui proteggono.",
+   "punti": [
+    "Categoria I: rischi minimi (ad esempio lesioni meccaniche superficiali, contatto con detergenti deboli)",
+    "Categoria II: rischi diversi da quelli delle categorie I e III (ad esempio caschi, occhiali, guanti per rischi meccanici)",
+    "Categoria III: rischi che possono causare conseguenze molto gravi, come morte o danni irreversibili (ad esempio respiratori, DPI anticaduta, protezione da agenti chimici, rumore nocivo)",
+    "Per i DPI di III categoria e per quelli dell’udito l’addestramento è obbligatorio",
+    "Il lavoratore utilizza i DPI conformemente a informazione, formazione e addestramento, ne ha cura e segnala difetti"
+   ],
+   "appro": "Il lavoratore non apporta modifiche di propria iniziativa ai DPI e, al termine dell’utilizzo, segue le procedure aziendali di riconsegna: un DPI alterato perde la protezione certificata.",
+   "rif": "Reg. (UE) 2016/425, art. 18 e Allegato I · D.lgs. 81/2008, artt. 77 e 78",
+   "nar": "I dispositivi di protezione individuale sono classificati dal regolamento europeo quattrocentoventicinque del duemilasedici in tre categorie, in funzione della gravità dei rischi da cui proteggono. La prima categoria comprende i dispositivi destinati a rischi minimi, come lesioni meccaniche superficiali o il contatto con prodotti detergenti deboli. La terza categoria comprende i dispositivi destinati a proteggere da rischi che possono causare conseguenze molto gravi, come la morte o danni alla salute irreversibili: ne fanno parte, ad esempio, gli apparecchi di protezione delle vie respiratorie, i dispositivi di protezione contro le cadute dall’alto, quelli contro gli agenti chimici e quelli contro il rumore nocivo. La seconda categoria comprende tutti gli altri, come caschi, occhiali e guanti per rischi meccanici. Per i dispositivi di terza categoria e per quelli di protezione dell’udito il testo unico rende obbligatorio l’addestramento. L’articolo settantotto stabilisce gli obblighi del lavoratore: utilizzare i dispositivi conformemente all’informazione, alla formazione e all’addestramento ricevuti, averne cura, non apportarvi modifiche di propria iniziativa, seguire le procedure di riconsegna e segnalare immediatamente qualsiasi difetto o inconveniente."
+  }
+ ]
+}

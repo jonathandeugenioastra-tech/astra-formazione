@@ -1,0 +1,21 @@
+{
+ "dopo": "La riunione periodica e il sistema di consultazione",
+ "origine": "DL/M2-1.json",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "La riunione periodica: contenuti e verbale",
+   "lead": "Nelle aziende con più di 15 lavoratori il datore di lavoro indice almeno una volta l’anno la riunione dell’art. 35.",
+   "punti": [
+    "Partecipanti: datore di lavoro o rappresentante, RSPP, medico competente, RLS",
+    "Esame del DVR, dell’andamento di infortuni, malattie professionali e sorveglianza sanitaria",
+    "Criteri di scelta ed efficacia dei DPI; programmi di informazione e formazione",
+    "Possibili codici di comportamento, buone prassi e obiettivi di miglioramento",
+    "Convocazione anche per variazioni significative dei rischi; verbale a disposizione dei partecipanti"
+   ],
+   "appro": "Nelle aziende fino a 15 lavoratori l’RLS può chiedere la convocazione di un’apposita riunione in presenza di variazioni significative delle condizioni di rischio.",
+   "rif": "D.lgs. 81/2008, art. 35",
+   "nar": "La riunione periodica dell’articolo trentacinque è il principale momento di confronto tra i soggetti della prevenzione. Nelle aziende e unità produttive con più di quindici lavoratori il datore di lavoro, direttamente o tramite il servizio di prevenzione e protezione, la indice almeno una volta all’anno. Vi partecipano il datore di lavoro o un suo rappresentante, il responsabile del servizio di prevenzione e protezione, il medico competente, ove nominato, e il rappresentante dei lavoratori per la sicurezza. Nel corso della riunione si esaminano il documento di valutazione dei rischi, l’andamento degli infortuni, delle malattie professionali e della sorveglianza sanitaria, i criteri di scelta, le caratteristiche tecniche e l’efficacia dei dispositivi di protezione individuale, i programmi di informazione e formazione di dirigenti, preposti e lavoratori. Si possono individuare codici di comportamento, buone prassi e obiettivi di miglioramento della sicurezza. La riunione va convocata anche quando si verificano variazioni significative delle condizioni di esposizione al rischio, ad esempio con nuove tecnologie. Della riunione si redige un verbale, tenuto a disposizione dei partecipanti per la consultazione. Nelle aziende fino a quindici lavoratori il rappresentante dei lavoratori può chiederne la convocazione in presenza di variazioni significative."
+  }
+ ]
+}

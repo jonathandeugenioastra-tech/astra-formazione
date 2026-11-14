@@ -1,0 +1,21 @@
+{
+ "dopo": "Il quadro infortunistico 2025 per chi decide",
+ "origine": "DL/M1-2.json",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Misurare le prestazioni: indicatori reattivi e proattivi",
+   "lead": "Le statistiche degli infortuni descrivono il passato; per governare la sicurezza servono anche indicatori che anticipano i problemi.",
+   "punti": [
+    "Indicatori reattivi: infortuni, giornate perse, malattie professionali, indici UNI 7249",
+    "Indice di frequenza = infortuni × 1.000.000 / ore lavorate",
+    "Indicatori proattivi: segnalazioni di quasi incidenti, sopralluoghi, azioni chiuse nei tempi",
+    "Formazione erogata rispetto al piano; esiti delle verifiche e degli audit",
+    "Obiettivi misurabili, assegnati e riesaminati nella riunione periodica"
+   ],
+   "appro": "Un numero crescente di segnalazioni di quasi incidenti è spesso il segno di una cultura della sicurezza che migliora, non di un peggioramento.",
+   "rif": "UNI 7249:2007 · UNI ISO 45001:2023, §§ 6.2 e 9.1 · D.lgs. 81/2008, art. 35",
+   "nar": "I dati infortunistici sono indispensabili, ma descrivono ciò che è già accaduto. Gli indicatori reattivi comprendono il numero di infortuni, le giornate perse, le malattie professionali denunciate e gli indici della norma UNI settemiladuecentoquarantanove: l’indice di frequenza, pari al numero di infortuni moltiplicato per un milione e diviso per le ore lavorate, e l’indice di gravità, pari alle giornate perse moltiplicate per mille e divise per le ore lavorate. Nelle piccole realtà questi numeri sono troppo bassi per indicare tendenze affidabili. Per questo chi dirige affianca indicatori proattivi, che misurano le attività di prevenzione: il numero di segnalazioni di quasi incidenti e di condizioni pericolose, i sopralluoghi svolti dai preposti, la percentuale di azioni correttive chiuse nei tempi stabiliti, la formazione erogata rispetto al piano, gli esiti delle verifiche periodiche e degli audit. La norma ISO quarantacinquemilauno chiede di fissare obiettivi misurabili, assegnare responsabilità e risorse e monitorarne il raggiungimento. Un aumento delle segnalazioni di quasi incidenti, in genere, non indica un peggioramento: segnala che i lavoratori hanno fiducia nel sistema. La riunione periodica è il momento naturale per discutere questi indicatori e riesaminare gli obiettivi."
+  }
+ ]
+}

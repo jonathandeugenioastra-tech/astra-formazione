@@ -1,0 +1,21 @@
+{
+ "dopo": "L’ispezione: poteri degli organi di vigilanza e sospensione dell’attività",
+ "origine": "DL/M1-5.json",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "La prescrizione e l’estinzione delle contravvenzioni",
+   "lead": "Le contravvenzioni in materia di sicurezza possono estinguersi con la procedura del D.lgs. 758/1994, richiamata dall’art. 301 del D.lgs. 81/2008.",
+   "punti": [
+    "L’organo di vigilanza impartisce una prescrizione con un termine per regolarizzare",
+    "Il termine è prorogabile una sola volta, su richiesta motivata, per non oltre sei mesi",
+    "Verifica dell’adempimento entro 60 giorni dalla scadenza del termine",
+    "Ammissione al pagamento di un quarto del massimo dell’ammenda entro 30 giorni",
+    "Pagamento eseguito: il reato si estingue; in caso contrario prosegue il procedimento penale"
+   ],
+   "appro": "Per gli illeciti amministrativi l’art. 301-bis consente l’estinzione con la regolarizzazione e il pagamento della sanzione in misura minima.",
+   "rif": "D.lgs. 19 dicembre 1994, n. 758, artt. 20-24 · D.lgs. 81/2008, artt. 301 e 301-bis",
+   "nar": "Gran parte delle violazioni del testo unico sono contravvenzioni punite con l’arresto o con l’ammenda. Per queste l’articolo trecentouno richiama la procedura di estinzione del decreto legislativo settecentocinquantotto del millenovecentonovantaquattro. Quando accerta una violazione, l’organo di vigilanza, nella sua veste di polizia giudiziaria, impartisce al contravventore una prescrizione, indicando le misure da adottare e un termine per la regolarizzazione, tecnicamente necessario. Il termine può essere prorogato una sola volta, su richiesta motivata, per un periodo non superiore a sei mesi. Entro sessanta giorni dalla scadenza l’organo verifica se la violazione è stata eliminata; in caso positivo ammette il contravventore a pagare, entro trenta giorni, una somma pari a un quarto del massimo dell’ammenda prevista. Con l’adempimento e il pagamento il reato si estingue. Se la prescrizione non viene rispettata o la somma non viene pagata, la notizia di reato prosegue il suo corso davanti al pubblico ministero. Per gli illeciti amministrativi l’articolo trecentouno bis consente invece l’estinzione con la regolarizzazione e il pagamento della sanzione nella misura minima. Per chi dirige l’azienda conta soprattutto il rispetto rigoroso del termine e la documentazione della regolarizzazione."
+  }
+ ]
+}

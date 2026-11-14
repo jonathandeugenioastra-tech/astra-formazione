@@ -1,0 +1,21 @@
+{
+ "dopo": "Il sistema delle fonti",
+ "origine": "DL/M1-1.json",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Norme tecniche, buone prassi e interpelli",
+   "lead": "Accanto alle norme di legge, il D.lgs. 81/2008 attribuisce un ruolo preciso a norme tecniche, buone prassi, linee guida e risposte agli interpelli.",
+   "punti": [
+    "Norme tecniche (art. 2 lett. u): specifiche approvate da organismi di normazione",
+    "Buone prassi (lett. v): soluzioni validate dalla Commissione consultiva permanente",
+    "Linee guida (lett. z): atti di indirizzo elaborati da ministeri, Regioni, INAIL",
+    "Interpelli (art. 12): le risposte costituiscono criteri interpretativi per la vigilanza",
+    "Conformità alle norme tecniche: presunzione di rispetto dei requisiti quando la legge vi rinvia"
+   ],
+   "appro": "Il D.L. 159/2025 ha previsto un Bollettino ufficiale delle norme tecniche per agevolarne la conoscenza; l’attuazione dipende dai provvedimenti applicativi.",
+   "rif": "D.lgs. 81/2008, artt. 2, 6 e 12 · D.L. 159/2025, conv. L. 198/2025",
+   "nar": "Chi decide in materia di sicurezza non può fermarsi alla lettera della legge. Il testo unico definisce, all’articolo due, altre fonti che orientano le scelte. Le norme tecniche sono specifiche approvate da organismi di normazione nazionali, europei o internazionali, come UNI, CEI, CEN e ISO; quando la legge vi rinvia, la loro applicazione fa presumere il rispetto dei requisiti. Le buone prassi sono soluzioni organizzative o procedurali coerenti con la normativa, adottate volontariamente e validate dalla Commissione consultiva permanente dell’articolo sei. Le linee guida sono atti di indirizzo elaborati da ministeri, Regioni, INAIL e altri enti, ad esempio sulla valutazione dello stress o sugli ambienti confinati. L’articolo dodici disciplina infine l’interpello: organismi associativi, enti pubblici e ordini professionali possono porre quesiti di ordine generale alla Commissione per gli interpelli, e le risposte costituiscono criteri interpretativi e direttivi per l’esercizio delle attività di vigilanza. Per l’azienda questo significa che una scelta conforme a una risposta di interpello o a una norma tecnica richiamata è difficilmente contestabile. Il decreto legge centocinquantanove del duemilaventicinque ha previsto anche un bollettino ufficiale delle norme tecniche, per agevolarne la conoscenza."
+  }
+ ]
+}

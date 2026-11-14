@@ -1,0 +1,21 @@
+{
+ "dopo": "Emergenze: le regole da ricordare",
+ "origine": "LAV-SPEC-B/M3-3.json",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "La cassetta di pronto soccorso",
+   "lead": "Il D.M. 388/2003 stabilisce le attrezzature minime di primo soccorso in funzione del gruppo di appartenenza dell’azienda.",
+   "punti": [
+    "Aziende dei gruppi A e B: cassetta di pronto soccorso (Allegato 1)",
+    "Aziende del gruppo C: pacchetto di medicazione (Allegato 2)",
+    "Contenuto: guanti sterili, garze, soluzione fisiologica e disinfettante, cerotti, forbici, ghiaccio istantaneo",
+    "Mezzo di comunicazione per attivare rapidamente il sistema di emergenza sanitaria",
+    "Controllo periodico di completezza e scadenze; reintegro dopo l’uso"
+   ],
+   "appro": "Il contenuto minimo va integrato sulla base dei rischi presenti, su indicazione del medico competente.",
+   "rif": "D.M. 15 luglio 2003, n. 388, artt. 1-2 e Allegati 1-2 · D.lgs. 81/2008, art. 45",
+   "nar": "Il decreto ministeriale trecentottantotto del duemilatré classifica le aziende in tre gruppi, A, B e C, e stabilisce le attrezzature minime di primo soccorso. Nelle aziende dei gruppi A e B deve essere presente la cassetta di pronto soccorso, custodita in un luogo facilmente accessibile e segnalata con l’apposito cartello verde. Il suo contenuto minimo, indicato nell’Allegato uno, comprende tra l’altro guanti sterili monouso, una visiera paraschizzi, soluzione cutanea disinfettante e soluzione fisiologica, compresse di garza sterile di diverse misure, teli sterili, pinzette, cotone idrofilo, cerotti, forbici, lacci emostatici, confezioni di ghiaccio istantaneo, sacchetti per i rifiuti sanitari, un termometro e un apparecchio per la misurazione della pressione arteriosa. Nelle aziende del gruppo C basta il pacchetto di medicazione dell’Allegato due, con un contenuto ridotto. In ogni caso deve essere disponibile un mezzo di comunicazione idoneo ad attivare rapidamente il sistema di emergenza del servizio sanitario nazionale. Il contenuto minimo va integrato sulla base dei rischi specifici, su indicazione del medico competente. La cassetta si controlla periodicamente, verificando completezza e scadenze, e si reintegra subito dopo ogni utilizzo."
+  }
+ ]
+}

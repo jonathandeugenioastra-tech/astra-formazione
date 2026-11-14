@@ -1,0 +1,47 @@
+{
+ "dopo": "Gli obblighi del lavoratore",
+ "origine": "LAV-SPEC-B/M3-5.json",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Il rappresentante dei lavoratori per la sicurezza",
+   "lead": "L’RLS è la figura eletta o designata dai lavoratori per rappresentarli in materia di salute e sicurezza.",
+   "punti": [
+    "Fino a 15 lavoratori: eletto direttamente dai lavoratori, oppure RLS territoriale",
+    "Oltre 15 lavoratori: eletto o designato nell’ambito delle rappresentanze sindacali",
+    "Almeno 1 RLS fino a 200 lavoratori, 3 da 201 a 1.000, 6 oltre 1.000",
+    "Consultato preventivamente sulla valutazione dei rischi e sulle designazioni",
+    "Riceve copia del DVR, accede ai luoghi di lavoro, partecipa alla riunione periodica"
+   ],
+   "appro": "L’RLS non può subire pregiudizi a causa dello svolgimento della propria attività e ha diritto a una formazione di 32 ore con aggiornamento annuale.",
+   "rif": "D.lgs. 81/2008, artt. 47, 48 e 50, art. 37 cc. 10-11",
+   "nar": "Il rappresentante dei lavoratori per la sicurezza, in sigla RLS, è la persona eletta o designata dai lavoratori per rappresentarli nei rapporti con il datore di lavoro sulle questioni di salute e sicurezza. Secondo l’articolo quarantasette, nelle aziende fino a quindici lavoratori è eletto direttamente dai lavoratori al loro interno, oppure è individuato per più aziende nell’ambito territoriale; nelle aziende con più di quindici lavoratori è eletto o designato nell’ambito delle rappresentanze sindacali. Il numero minimo è di un rappresentante fino a duecento lavoratori, tre da duecentouno a mille, sei oltre mille. L’articolo cinquanta ne definisce le attribuzioni: accede ai luoghi di lavoro, è consultato preventivamente sulla valutazione dei rischi, sulla designazione dell’RSPP, degli addetti alle emergenze e del medico competente e sull’organizzazione della formazione; riceve copia del documento di valutazione dei rischi; partecipa alla riunione periodica; formula proposte e può fare ricorso alle autorità competenti se ritiene le misure inadeguate. Il rappresentante non può subire pregiudizi a causa della propria attività e ha diritto a una formazione iniziale di trentadue ore, con un aggiornamento annuale. Conoscere il proprio RLS è utile: è il primo canale per segnalare problemi e proposte."
+  },
+  {
+   "t": "caso",
+   "tit": "Caso di studio · La lavoratrice e il magazzino",
+   "scena": "Un’impiegata amministrativa comunica al datore di lavoro di essere in gravidanza. Una volta alla settimana, oltre al lavoro d’ufficio, aiuta a scaricare in magazzino scatoloni da circa 15 kg.",
+   "domanda": "Qual è il comportamento corretto del datore di lavoro?",
+   "opz": [
+    [
+     "Nessun intervento: il sollevamento è solo settimanale",
+     false,
+     "No: il trasporto e il sollevamento di pesi sono vietati durante la gravidanza (art. 7)."
+    ],
+    [
+     "Escludere subito la lavoratrice dalle attività di scarico, mantenendo le mansioni d’ufficio, e aggiornare la valutazione dei rischi",
+     true,
+     "Corretto: modifica delle condizioni di lavoro e valutazione specifica (artt. 7, 11 e 12)."
+    ],
+    [
+     "Chiedere all’Ispettorato l’astensione anticipata immediata",
+     false,
+     "No: l’astensione anticipata è l’ultima soluzione, quando le condizioni non possono essere modificate."
+    ]
+   ],
+   "rif": "D.lgs. 151/2001, artt. 7, 11 e 12",
+   "appro": "La comunicazione tempestiva dello stato di gravidanza consente al datore di lavoro di adeguare subito l’organizzazione del lavoro.",
+   "nar": "Caso di studio. Una lavoratrice in gravidanza svolge saltuariamente attività di sollevamento in magazzino. Si scelga il comportamento corretto del datore di lavoro."
+  }
+ ]
+}

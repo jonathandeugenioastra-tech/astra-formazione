@@ -1,0 +1,21 @@
+{
+ "dopo": "Emergenze: le regole da ricordare",
+ "origine": "LAV-SPEC-B/M3-2.json",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Le esercitazioni di evacuazione",
+   "lead": "La prova di evacuazione verifica che il piano di emergenza funzioni e che tutti conoscano il proprio compito.",
+   "punti": [
+    "Esercitazione antincendio almeno una volta l’anno (D.M. 2 settembre 2021)",
+    "Si verificano allarme, percorsi di esodo, uscite, punto di raccolta e appello",
+    "Coinvolge tutti i lavoratori, compresi quelli di imprese presenti nei locali",
+    "Al termine: analisi delle criticità e aggiornamento del piano",
+    "Prova ripetuta dopo modifiche dei locali o del personale"
+   ],
+   "appro": "Durante l’esodo non si usano gli ascensori, non si torna indietro a prendere oggetti personali e si raggiunge il punto di raccolta senza correre.",
+   "rif": "D.M. 2 settembre 2021, Allegato II · D.lgs. 81/2008, artt. 43-46",
+   "nar": "Un piano di emergenza che resta sulla carta non protegge nessuno. Il decreto ministeriale del due settembre duemilaventuno, sulla gestione della sicurezza antincendio nei luoghi di lavoro, prevede che i lavoratori partecipino a esercitazioni antincendio almeno una volta l’anno, per mettere in pratica le procedure di esodo e di primo intervento. La prova verifica il funzionamento dell’allarme, la praticabilità dei percorsi di esodo, l’apertura delle uscite di emergenza, il raggiungimento del punto di raccolta e l’appello dei presenti, che consente di accertare se manca qualcuno. All’esercitazione partecipano tutti i lavoratori, compresi quelli di eventuali imprese esterne presenti nei locali, e, quando possibile, si simulano condizioni realistiche, come un percorso bloccato. Al termine il datore di lavoro, con gli addetti all’emergenza, analizza le criticità emerse e aggiorna il piano. La prova va ripetuta quando cambiano i locali, l’organizzazione o una parte significativa del personale. Durante l’esodo valgono alcune regole semplici: non usare gli ascensori, non tornare indietro per recuperare oggetti personali, chiudere le porte dietro di sé, procedere senza correre e attendere al punto di raccolta le istruzioni degli addetti."
+  }
+ ]
+}

@@ -686,6 +686,24 @@ window.CORSO = {
      "p": 1.6
     },
     {
+     "foto": false,
+     "t": "testo",
+     "tit": "Terre e rocce da scavo",
+     "lead": "Il D.P.R. 120/2017 disciplina la gestione delle terre e rocce da scavo come sottoprodotti, il loro riutilizzo nel sito e la loro gestione come rifiuti.",
+     "punti": [
+      "Esclusione dai rifiuti: suolo non contaminato riutilizzato allo stato naturale nello stesso sito",
+      "Sottoprodotto nei cantieri di grandi dimensioni soggetti a VIA o AIA: piano di utilizzo",
+      "Cantieri di piccole dimensioni (fino a 6.000 m³): dichiarazione di utilizzo almeno 15 giorni prima",
+      "Documento di trasporto e dichiarazione di avvenuto utilizzo",
+      "In mancanza dei requisiti: rifiuti con codice EER 17 05"
+     ],
+     "appro": "Prima dello scavo la caratterizzazione ambientale verifica che le concentrazioni siano inferiori alle soglie di contaminazione per la destinazione d’uso del sito.",
+     "rif": "D.P.R. 13 giugno 2017, n. 120 · D.lgs. 152/2006, artt. 184-bis e 185",
+     "nar": "Le terre e rocce da scavo sono uno dei flussi più rilevanti per quantità e uno dei più delicati sotto il profilo dei controlli. Il decreto del Presidente della Repubblica centoventi del duemiladiciassette prevede tre possibili regimi. Il primo è l’esclusione dalla disciplina dei rifiuti, prevista dall’articolo centoottantacinque del testo unico per il suolo non contaminato escavato nel corso di attività di costruzione e riutilizzato allo stato naturale nello stesso sito. Il secondo è la gestione come sottoprodotto: nei cantieri di grandi dimensioni soggetti a valutazione di impatto ambientale o ad autorizzazione integrata ambientale si presenta un piano di utilizzo; nei cantieri di piccole dimensioni, fino a seimila metri cubi, basta una dichiarazione di utilizzo, trasmessa almeno quindici giorni prima dell’inizio dei lavori di scavo. Il trasporto è accompagnato da un documento specifico e, a utilizzo completato, si rilascia la dichiarazione di avvenuto utilizzo. Il terzo regime è quello dei rifiuti, con i codici del capitolo diciassette zero cinque, quando i requisiti non sono rispettati. Prima dello scavo la caratterizzazione ambientale verifica che le concentrazioni degli inquinanti siano inferiori alle soglie di contaminazione per la destinazione d’uso del sito di utilizzo.",
+     "est": true,
+     "ancora": "Responsabilità del produttore e della filiera"
+    },
+    {
      "t": "testo",
      "tit": "Formulario di identificazione e registro di carico e scarico",
      "foto": false,

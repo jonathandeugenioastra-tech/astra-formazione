@@ -1,0 +1,21 @@
+{
+ "dopo": "Verificare l’efficacia della formazione: il modello a quattro livelli",
+ "origine": "DL/M4-2.json",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "La documentazione della formazione",
+   "lead": "Una formazione non documentata, per l’organo di vigilanza, è una formazione non erogata.",
+   "punti": [
+    "Progetto formativo con obiettivi, contenuti, durata, metodologia e docenti",
+    "Registro presenze con firme e orari; tracciamento per l’e-learning",
+    "Verifica finale di apprendimento e, per l’addestramento, prova pratica",
+    "Attestato con gli elementi minimi previsti dall’Accordo Stato-Regioni",
+    "Fascicolo formativo per lavoratore e scadenzario degli aggiornamenti"
+   ],
+   "appro": "Lo scadenzario degli aggiornamenti va collegato all’organigramma: un cambio di mansione o la nomina a preposto genera nuovi obblighi formativi.",
+   "rif": "D.lgs. 81/2008, art. 37 · Accordo Stato-Regioni 17 aprile 2025 (Rep. 59/CSR)",
+   "nar": "La formazione è uno degli obblighi più verificati e la prova del suo adempimento è documentale. Il punto di partenza è il progetto formativo, che indica obiettivi, contenuti, durata, metodologia didattica, docenti e modalità di verifica. Per la formazione in aula o in videoconferenza sincrona si conserva il registro presenze, con firme e orari di ingresso e uscita; per l’e-learning la piattaforma traccia i tempi di fruizione, gli accessi e gli esiti dei test. Al termine si svolge la verifica di apprendimento e, per l’addestramento, una prova pratica documentata. L’attestato riporta gli elementi minimi previsti dall’Accordo Stato Regioni del diciassette aprile duemilaventicinque, tra cui i dati del soggetto formatore, del partecipante, del corso, della durata e del superamento della verifica. Per ogni lavoratore conviene tenere un fascicolo formativo e uno scadenzario degli aggiornamenti: quinquennale per lavoratori e dirigenti, biennale per i preposti, annuale per i rappresentanti dei lavoratori. Lo scadenzario va collegato all’organigramma: un cambio di mansione, l’introduzione di nuove attrezzature o la nomina a preposto generano nuovi obblighi formativi che il sistema deve intercettare per tempo."
+  }
+ ]
+}

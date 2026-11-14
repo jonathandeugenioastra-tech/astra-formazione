@@ -1,0 +1,36 @@
+{
+ "dopo": "Le tappe principali",
+ "origine": "LAV-GEN/M1-1.json",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Le radici della tutela: Costituzione e Codice civile",
+   "lead": "La tutela della salute nei luoghi di lavoro poggia su principi costituzionali e su una norma del Codice civile che resta il cardine dell’intero sistema.",
+   "punti": [
+    "Art. 32 Costituzione: la salute è fondamentale diritto dell’individuo e interesse della collettività",
+    "Art. 35 Costituzione: la Repubblica tutela il lavoro in tutte le sue forme",
+    "Art. 41 Costituzione: l’iniziativa economica non può svolgersi in modo da recare danno alla salute e alla sicurezza",
+    "Art. 2087 c.c.: l’imprenditore adotta le misure necessarie secondo la particolarità del lavoro, l’esperienza e la tecnica",
+    "Dal D.lgs. 626/1994 al D.lgs. 81/2008, il Testo unico vigente"
+   ],
+   "appro": "L’art. 2087 c.c. è una norma «aperta»: obbliga a adottare anche misure non espressamente previste da leggi specifiche, se l’esperienza e la tecnica le rendono disponibili. Per questo la conformità formale ai singoli obblighi non esaurisce il dovere di sicurezza.",
+   "rif": "Costituzione, artt. 32, 35, 41 · Codice civile, art. 2087 · D.lgs. 81/2008",
+   "nar": "La tutela della salute e della sicurezza nei luoghi di lavoro poggia su principi di rango costituzionale. L’articolo trentadue della Costituzione riconosce la salute come fondamentale diritto dell’individuo e interesse della collettività. L’articolo trentacinque stabilisce che la Repubblica tutela il lavoro in tutte le sue forme e applicazioni. L’articolo quarantuno afferma che l’iniziativa economica privata è libera, ma non può svolgersi in modo da recare danno alla salute, alla sicurezza, alla libertà e alla dignità umana. Su queste basi si colloca una norma del Codice civile che resta il cardine dell’intero sistema: l’articolo duemilaottantasette, secondo il quale l’imprenditore è tenuto ad adottare le misure che, secondo la particolarità del lavoro, l’esperienza e la tecnica, sono necessarie a tutelare l’integrità fisica e la personalità morale dei prestatori di lavoro. Si tratta di una norma aperta: impone di adottare anche misure non previste da leggi specifiche, quando l’esperienza e la tecnica le rendono disponibili. La legislazione speciale si è sviluppata nel tempo, dal decreto legislativo seicentoventisei del millenovecentonovantaquattro fino al decreto legislativo ottantuno del duemilaotto, il testo unico oggi vigente, che riordina in un unico corpo le norme in materia."
+  },
+  {
+   "t": "testo",
+   "tit": "Valutare tutti i rischi: genere, età, provenienza, tipologia contrattuale",
+   "lead": "La valutazione dei rischi deve riguardare tutti i rischi, compresi quelli che interessano gruppi di lavoratori esposti a rischi particolari.",
+   "punti": [
+    "Stress lavoro-correlato, secondo i contenuti dell’Accordo europeo dell’8 ottobre 2004",
+    "Lavoratrici in stato di gravidanza (D.lgs. 151/2001)",
+    "Differenze di genere, età e provenienza da altri Paesi",
+    "Specifica tipologia contrattuale con cui è resa la prestazione",
+    "Lavoratori in somministrazione, a termine, in lavoro agile: stessi diritti di tutela"
+   ],
+   "appro": "Per i lavoratori stranieri l’informazione e la formazione devono essere comprensibili: l’art. 36 e l’art. 37 richiedono, se necessario, la verifica della comprensione della lingua utilizzata.",
+   "rif": "D.lgs. 81/2008, artt. 28, c. 1, 36, c. 4, e 37, c. 13 · D.lgs. 151/2001",
+   "nar": "L’articolo ventotto del testo unico stabilisce che la valutazione deve riguardare tutti i rischi per la sicurezza e la salute dei lavoratori, compresi quelli che interessano gruppi esposti a rischi particolari. La norma ne cita espressamente alcuni. Il primo è lo stress lavoro-correlato, da valutare secondo i contenuti dell’accordo europeo dell’otto ottobre duemilaquattro. Il secondo riguarda le lavoratrici in stato di gravidanza, per le quali si applicano anche le disposizioni del decreto legislativo centocinquantuno del duemilauno. La valutazione deve inoltre considerare le differenze di genere, l’età, la provenienza da altri Paesi e la specifica tipologia contrattuale con cui viene resa la prestazione. Un lavoratore somministrato, un lavoratore a termine o un lavoratore in modalità agile hanno diritto alla stessa tutela dei colleghi, e la valutazione deve tenere conto delle loro condizioni concrete, ad esempio la minore esperienza nel contesto aziendale. Per i lavoratori stranieri, informazione e formazione devono essere effettivamente comprensibili: il testo unico richiede, quando necessario, la verifica della comprensione della lingua utilizzata nel percorso formativo."
+  }
+ ]
+}

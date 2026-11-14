@@ -1,0 +1,36 @@
+{
+ "dopo": "Clima e lavoro: caldo estremo",
+ "origine": "LAV-SPEC-B/M2-1.json",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Il benessere termico: indici PMV e PPD",
+   "lead": "La norma UNI EN ISO 7730 valuta il benessere termico negli ambienti moderati con due indici: il voto medio previsto (PMV) e la percentuale prevista di insoddisfatti (PPD).",
+   "punti": [
+    "PMV: scala da −3 (molto freddo) a +3 (molto caldo); 0 è la neutralità termica",
+    "PPD: percentuale di persone insoddisfatte; anche a PMV = 0 resta il 5%",
+    "Variabili: temperatura dell’aria e media radiante, velocità e umidità dell’aria",
+    "Variabili personali: attività metabolica (met) e isolamento del vestiario (clo)",
+    "Categoria B (uffici): PMV tra −0,5 e +0,5, PPD inferiore al 10%"
+   ],
+   "appro": "Correnti d’aria, differenze verticali di temperatura e superfici troppo calde o fredde generano discomfort locale anche con PMV accettabile.",
+   "rif": "D.lgs. 81/2008, Allegato IV, punto 1.9 · UNI EN ISO 7730:2006 · UNI EN ISO 7726",
+   "nar": "Negli uffici e nei negozi il microclima è definito moderato: non comporta rischi per la salute, ma incide sul benessere e sull’attenzione. L’Allegato quattro del testo unico chiede una temperatura adeguata all’organismo umano, tenuto conto dei metodi di lavoro e degli sforzi fisici. Per valutarla in modo oggettivo si usa la norma UNI EN ISO settemilasettecentotrenta, che introduce due indici. Il voto medio previsto, detto PMV, esprime la sensazione termica media su una scala che va da meno tre, molto freddo, a più tre, molto caldo; lo zero corrisponde alla neutralità termica. La percentuale prevista di insoddisfatti, detta PPD, indica quante persone giudicherebbero l’ambiente non confortevole: anche nella condizione ideale resta un cinque per cento di insoddisfatti, perché le persone sono diverse. Gli indici dipendono da quattro grandezze ambientali, cioè temperatura dell’aria, temperatura media radiante, velocità e umidità dell’aria, e da due grandezze personali, l’attività metabolica espressa in met e l’isolamento del vestiario espresso in clo. Per gli uffici si assume di norma la categoria B, con PMV compreso tra meno zero virgola cinque e più zero virgola cinque e meno del dieci per cento di insoddisfatti. Contano anche le correnti d’aria e le superfici troppo calde o troppo fredde, che causano discomfort locale."
+  },
+  {
+   "t": "testo",
+   "tit": "L’illuminazione dei posti di lavoro",
+   "lead": "L’illuminazione adeguata riduce affaticamento visivo, errori e infortuni; la norma UNI EN 12464-1 indica i livelli di illuminamento per compito visivo.",
+   "punti": [
+    "Luce naturale sufficiente, integrata da luce artificiale adeguata (Allegato IV)",
+    "Scrittura, lettura ed elaborazione dati: illuminamento medio mantenuto di 500 lux",
+    "Corridoi e aree di circolazione: 100 lux; archivi: 200 lux",
+    "Assenza di abbagliamenti e riflessi sullo schermo",
+    "Illuminazione di sicurezza per l’esodo in caso di mancanza di energia"
+   ],
+   "appro": "Le superfici vetrate e i corpi illuminanti vanno mantenuti puliti: la sporcizia riduce in modo significativo l’illuminamento reale rispetto a quello di progetto.",
+   "rif": "D.lgs. 81/2008, Allegato IV, punto 1.10 e Allegato XXXIV · UNI EN 12464-1:2021",
+   "nar": "Una buona illuminazione riduce l’affaticamento visivo, gli errori e il rischio di inciampo. L’Allegato quattro del testo unico chiede che i luoghi di lavoro dispongano, per quanto possibile, di sufficiente luce naturale, integrata da un’illuminazione artificiale adeguata a salvaguardare la sicurezza, la salute e il benessere dei lavoratori. I valori di riferimento sono indicati dalla norma tecnica UNI EN dodicimilaquattrocentosessantaquattro, parte prima, che fissa l’illuminamento medio da mantenere per ciascun compito visivo. Per scrittura, lettura ed elaborazione dati il valore è di cinquecento lux sul piano di lavoro; negli archivi bastano duecento lux, nei corridoi e nelle aree di circolazione cento lux. Oltre alla quantità conta la qualità della luce: l’assenza di abbagliamento diretto, i riflessi sullo schermo del videoterminale, la resa dei colori e l’uniformità. Per questo lo schermo si colloca perpendicolare alle finestre e le tende regolabili consentono di schermare la luce solare diretta. In caso di mancanza dell’alimentazione, l’illuminazione di sicurezza deve garantire l’individuazione delle vie di esodo. Infine, vetri e apparecchi illuminanti vanno puliti regolarmente: la sporcizia riduce in modo apprezzabile l’illuminamento effettivo."
+  }
+ ]
+}

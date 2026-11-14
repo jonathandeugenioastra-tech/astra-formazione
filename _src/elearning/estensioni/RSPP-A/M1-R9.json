@@ -1,0 +1,21 @@
+{
+ "dopo": "L’ispezione: poteri degli organi di vigilanza e sospensione dell’attività",
+ "origine": "DL/M1-R7.json",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Chi vigila: ASL, Ispettorato nazionale del lavoro e altri organi",
+   "lead": "La vigilanza sull’applicazione della normativa di salute e sicurezza è affidata principalmente alle ASL e, dal 2021, anche all’Ispettorato nazionale del lavoro in tutti i settori.",
+   "punti": [
+    "Aziende sanitarie locali (servizi di prevenzione e sicurezza negli ambienti di lavoro)",
+    "Ispettorato nazionale del lavoro: competenza estesa a tutti i settori dal D.L. 146/2021",
+    "Vigili del fuoco per i profili di prevenzione incendi",
+    "Altri organi per settori specifici (ad esempio radiazioni ionizzanti, attività minerarie, trasporti)",
+    "INAIL: assicurazione, prevenzione, ricerca e supporto alle imprese, senza funzioni di vigilanza ispettiva sulla sicurezza"
+   ],
+   "appro": "Il coordinamento tra gli organi avviene a livello regionale nei comitati previsti dall’art. 7, per evitare sovrapposizioni dei controlli e programmare la vigilanza sui settori a maggior rischio.",
+   "rif": "D.lgs. 81/2008, artt. 7 e 13 · D.L. 21 ottobre 2021, n. 146",
+   "nar": "La vigilanza sull’applicazione della normativa di salute e sicurezza è disciplinata dall’articolo tredici del testo unico. È svolta principalmente dalle aziende sanitarie locali, attraverso i servizi di prevenzione e sicurezza negli ambienti di lavoro. Dal duemilaventuno, con il decreto-legge centoquarantasei, la competenza dell’Ispettorato nazionale del lavoro è stata estesa a tutti i settori di attività, mentre in precedenza era limitata ad alcuni ambiti come l’edilizia. Ai Vigili del fuoco spetta la vigilanza per i profili di prevenzione incendi. Per settori specifici, come le radiazioni ionizzanti, le attività minerarie o alcuni comparti dei trasporti, intervengono organi dedicati. L’Istituto nazionale per l’assicurazione contro gli infortuni sul lavoro svolge funzioni di assicurazione, prevenzione, ricerca e supporto alle imprese, ma non ha compiti di vigilanza ispettiva sull’applicazione delle norme di sicurezza. Il coordinamento tra gli organi avviene a livello regionale, nei comitati previsti dall’articolo sette, con l’obiettivo di evitare sovrapposizioni nei controlli e di programmare la vigilanza sui settori a maggior rischio."
+  }
+ ]
+}

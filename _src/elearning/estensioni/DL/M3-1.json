@@ -1,0 +1,20 @@
+{
+ "dopo": "Il documento di valutazione dei rischi",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Data certa, firme e aggiornamento del DVR",
+   "lead": "La validità formale del DVR e il suo aggiornamento tempestivo sono tra gli aspetti più verificati in sede ispettiva.",
+   "punti": [
+    "Data certa, o attestata dalle firme di datore di lavoro, RSPP, RLS e medico competente",
+    "Rielaborazione in caso di modifiche significative del processo, infortuni rilevanti o esiti della sorveglianza",
+    "Aggiornamento entro 30 giorni dalle cause che lo richiedono (art. 29 c. 3)",
+    "Nuova attività: valutazione immediata e documento entro 90 giorni dall’inizio",
+    "Fino a 50 lavoratori: possibili procedure standardizzate (D.I. 30 novembre 2012)"
+   ],
+   "appro": "Le misure di prevenzione vanno aggiornate subito; entro 30 giorni si completa la rielaborazione del documento.",
+   "rif": "D.lgs. 81/2008, artt. 28 e 29 · D.I. 30 novembre 2012",
+   "nar": "Il documento di valutazione dei rischi deve avere data certa, oppure essere attestata dalla sottoscrizione del datore di lavoro, del responsabile del servizio di prevenzione e protezione, del rappresentante dei lavoratori per la sicurezza e del medico competente, ove nominato. Non è un documento statico. L’articolo ventinove impone di rielaborare la valutazione in occasione di modifiche del processo produttivo o dell’organizzazione significative per la sicurezza, in relazione all’evoluzione della tecnica, a seguito di infortuni significativi o quando i risultati della sorveglianza sanitaria ne evidenziano la necessità. Le misure di prevenzione vanno aggiornate subito, e il documento rielaborato entro trenta giorni dalle rispettive cause. Per una nuova impresa il datore di lavoro effettua immediatamente la valutazione ed elabora il documento entro novanta giorni dall’inizio dell’attività, dimostrando comunque di aver adempiuto agli obblighi con documentazione idonea. Le aziende fino a cinquanta lavoratori possono utilizzare le procedure standardizzate approvate con decreto interministeriale del trenta novembre duemiladodici, salvo alcune attività a rischio elevato. In un’ispezione si verifica non solo l’esistenza del documento, ma la sua coerenza con la realtà: macchine, mansioni e sostanze effettivamente presenti."
+  }
+ ]
+}

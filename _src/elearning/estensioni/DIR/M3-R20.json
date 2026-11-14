@@ -1,0 +1,21 @@
+{
+ "dopo": "Lo stress lavoro-correlato: il metodo INAIL",
+ "origine": "DL/M3-2.json",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Lavoro notturno e a turni",
+   "lead": "Il D.lgs. 66/2003 tutela i lavoratori notturni con limiti di durata e una sorveglianza sanitaria specifica.",
+   "punti": [
+    "Lavoratore notturno: svolge almeno 3 ore nel periodo notturno con regolarità",
+    "Durata media del lavoro notturno non superiore a 8 ore nelle 24 ore",
+    "Visita preventiva e periodica almeno ogni due anni",
+    "Trasferimento al lavoro diurno se il medico ne accerta l’inidoneità",
+    "Esclusioni: gestanti fino a un anno di età del bambino; tutele per genitori di figli piccoli"
+   ],
+   "appro": "La valutazione dei rischi considera gli effetti del lavoro a turni su sonno, attenzione, salute cardiovascolare e vita familiare.",
+   "rif": "D.lgs. 8 aprile 2003, n. 66, artt. 1, 11, 13, 14 e 15 · D.lgs. 151/2001, art. 53",
+   "nar": "Il lavoro notturno e a turni è un fattore di rischio organizzativo che la valutazione dei rischi deve considerare, in quanto incide sul sonno, sull’attenzione e sulla salute cardiovascolare e metabolica, oltre che sulla vita familiare. Il decreto legislativo sessantasei del duemilatré definisce lavoratore notturno chi svolge, in via non eccezionale, almeno tre ore del proprio tempo di lavoro giornaliero durante il periodo notturno, oppure una quota minima di lavoro notturno stabilita dai contratti collettivi. L’orario di lavoro dei lavoratori notturni non può superare, in media, le otto ore nelle ventiquattro ore. Sono previsti accertamenti sanitari preventivi e periodici, almeno ogni due anni, per verificare l’assenza di controindicazioni; se il medico accerta l’inidoneità, il lavoratore è assegnato al lavoro diurno in altre mansioni equivalenti. Sono escluse dal lavoro notturno le lavoratrici dall’accertamento della gravidanza fino al compimento di un anno di età del bambino, e sono previste tutele per i genitori di figli piccoli e per chi assiste persone con disabilità. Nella progettazione dei turni conviene preferire rotazioni in avanti, limitare le notti consecutive e garantire riposi adeguati."
+  }
+ ]
+}

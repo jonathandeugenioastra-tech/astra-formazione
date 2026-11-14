@@ -1,0 +1,21 @@
+{
+ "dopo": "La responsabilità dell’ente: art. 25-septies D.lgs. 231/2001",
+ "origine": "DL/M1-4.json",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Il modello organizzativo dell’art. 30",
+   "lead": "L’art. 30 del D.lgs. 81/2008 indica i contenuti del modello di organizzazione e gestione idoneo ad avere efficacia esimente per l’ente.",
+   "punti": [
+    "Rispetto degli standard tecnico-strutturali per attrezzature, impianti, luoghi, agenti",
+    "Valutazione dei rischi, emergenze, appalti, riunioni periodiche, consultazione",
+    "Sorveglianza sanitaria, informazione e formazione, vigilanza sulle procedure",
+    "Registrazione delle attività, articolazione di funzioni e sistema disciplinare",
+    "Presunzione di conformità per i modelli basati su UNI-INAIL 2001 o BS OHSAS 18001 (oggi ISO 45001)"
+   ],
+   "appro": "Per le piccole e medie imprese il D.M. 13 febbraio 2014 ha approvato procedure semplificate per l’adozione del modello (art. 30 c. 5-bis).",
+   "rif": "D.lgs. 81/2008, art. 30 · D.lgs. 231/2001, artt. 6, 7 e 25-septies · D.M. 13 febbraio 2014",
+   "nar": "L’articolo venticinque septies del decreto duecentotrentuno del duemilauno rende l’ente responsabile per l’omicidio colposo e le lesioni gravi o gravissime commessi con violazione delle norme sulla sicurezza nel suo interesse o a suo vantaggio, anche come risparmio di costi o di tempi. L’ente può andare esente se ha adottato ed efficacemente attuato un modello di organizzazione e gestione idoneo. L’articolo trenta del testo unico ne indica i contenuti: il modello deve assicurare il rispetto degli standard tecnico strutturali di legge per attrezzature, impianti, luoghi di lavoro e agenti; la valutazione dei rischi e le conseguenti misure; la gestione delle emergenze, degli appalti, delle riunioni periodiche e della consultazione; la sorveglianza sanitaria; l’informazione e la formazione; la vigilanza sul rispetto delle procedure; l’acquisizione delle documentazioni obbligatorie e le verifiche periodiche. Il modello prevede sistemi di registrazione, un’articolazione di funzioni con competenze e poteri adeguati, un sistema disciplinare e un sistema di controllo sull’attuazione, con riesame quando emergono violazioni o cambiamenti. In sede di prima applicazione si presumono conformi i modelli basati sulle linee guida UNI INAIL o sullo standard britannico oggi sostituito dalla ISO quarantacinquemilauno. Per le piccole e medie imprese sono previste procedure semplificate."
+  }
+ ]
+}

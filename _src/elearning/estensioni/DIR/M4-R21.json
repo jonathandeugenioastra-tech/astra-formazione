@@ -1,0 +1,21 @@
+{
+ "dopo": "Consultazione e partecipazione: quando si consulta l’RLS",
+ "origine": "DL/M4-1.json",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "L’accesso dell’RLS ai documenti aziendali",
+   "lead": "Il rappresentante dei lavoratori per la sicurezza riceve le informazioni necessarie al suo ruolo, con il vincolo della riservatezza.",
+   "punti": [
+    "Copia del DVR su richiesta, per l’espletamento della funzione (art. 50 c. 4)",
+    "Consultazione del DVR esclusivamente in azienda per l’RLS territoriale",
+    "Accesso al DUVRI per gli appalti (art. 26 c. 5)",
+    "Informazioni su sostanze, macchine, impianti, organizzazione, infortuni e malattie",
+    "Obbligo di riservatezza e rispetto del segreto industriale (art. 50 c. 6)"
+   ],
+   "appro": "Negare o ritardare la consegna del DVR all’RLS è una violazione sanzionata e un segnale di relazione industriale da correggere.",
+   "rif": "D.lgs. 81/2008, artt. 18 c. 1 lett. o), 26 c. 5 e 50",
+   "nar": "Il rappresentante dei lavoratori per la sicurezza può svolgere il proprio ruolo solo se dispone delle informazioni necessarie. L’articolo cinquanta prevede che riceva le informazioni e la documentazione aziendale inerente alla valutazione dei rischi e alle misure di prevenzione, nonché quelle relative alle sostanze e alle miscele pericolose, alle macchine, agli impianti, all’organizzazione e agli ambienti di lavoro, agli infortuni e alle malattie professionali. Su sua richiesta e per l’espletamento della funzione riceve copia del documento di valutazione dei rischi; l’articolo diciotto pone a carico del datore di lavoro l’obbligo di consegnarla tempestivamente. Il rappresentante territoriale, esterno all’azienda, esercita invece il diritto consultando il documento esclusivamente in azienda. Per gli appalti, l’articolo ventisei prevede che il documento unico di valutazione dei rischi da interferenze sia messo a disposizione dei rappresentanti dei lavoratori. Il rappresentante è tenuto al rispetto delle disposizioni sulla protezione dei dati personali e del segreto industriale relativamente alle informazioni contenute nel documento e alle altre informazioni aziendali, e a usarle solo per l’esercizio della funzione. Una consegna tempestiva e completa dei documenti è anche un investimento nella qualità delle relazioni."
+  }
+ ]
+}

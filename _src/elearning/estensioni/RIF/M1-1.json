@@ -1,0 +1,35 @@
+{
+ "dopo": "Rifiuti pericolosi: caratteristiche HP e procedura di classificazione",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Voci assolute e voci a specchio",
+   "lead": "L’elenco europeo dei rifiuti distingue voci sempre pericolose, voci mai pericolose e coppie di voci «a specchio».",
+   "punti": [
+    "Voce assoluta pericolosa (con asterisco): il rifiuto è pericoloso senza ulteriori verifiche",
+    "Voce assoluta non pericolosa: il rifiuto è non pericoloso",
+    "Voci a specchio: la pericolosità dipende dalla presenza di sostanze pericolose oltre soglia",
+    "Per le voci a specchio servono informazioni sul processo, schede di sicurezza o analisi",
+    "Linee guida SNPA sulla classificazione, approvate con D.M. 47/2021"
+   ],
+   "appro": "Anche per una voce a specchio si applica il principio di precauzione: se le informazioni non consentono di escludere la pericolosità, il rifiuto va classificato pericoloso.",
+   "rif": "Decisione 2000/532/CE e s.m. · Reg. (UE) 1357/2014 · D.M. 9 agosto 2021, n. 47",
+   "nar": "Per attribuire il codice dell’elenco europeo dei rifiuti si individua prima il capitolo corrispondente all’attività che ha generato il rifiuto, poi la voce più appropriata. Le voci si dividono in tre gruppi. Le voci assolute pericolose, contrassegnate da un asterisco, indicano rifiuti sempre pericolosi, senza necessità di ulteriori verifiche: ad esempio gli oli minerali esausti. Le voci assolute non pericolose indicano rifiuti che non sono mai pericolosi. Le voci a specchio sono coppie di codici, uno pericoloso e uno non pericoloso, per lo stesso tipo di rifiuto: la scelta dipende dalla presenza di sostanze pericolose in concentrazione tale da conferire una o più caratteristiche di pericolo. Per le voci a specchio il produttore deve raccogliere informazioni sul processo, sulle materie prime e sulle relative schede di dati di sicurezza e, se necessario, far eseguire analisi chimiche mirate. Le linee guida del Sistema nazionale per la protezione dell’ambiente, approvate con il decreto ministeriale quarantasette del duemilaventuno, descrivono la procedura passo per passo. Quando le informazioni disponibili non permettono di escludere la presenza di sostanze pericolose oltre le soglie, il rifiuto va classificato come pericoloso."
+  },
+  {
+   "t": "testo",
+   "tit": "Le quindici caratteristiche di pericolo",
+   "lead": "Il Regolamento (UE) 1357/2014 ha allineato le caratteristiche di pericolo dei rifiuti (HP) alle classi del Regolamento CLP.",
+   "punti": [
+    "HP1-HP3: esplosivo, comburente, infiammabile",
+    "HP4-HP8: irritante, tossicità specifica e in caso di aspirazione, tossicità acuta, cancerogeno, corrosivo",
+    "HP9-HP13: infettivo, tossico per la riproduzione, mutageno, liberazione di gas tossici, sensibilizzante",
+    "HP14: ecotossico, con i criteri del Reg. (UE) 2017/997",
+    "HP15: rifiuto che può manifestare una caratteristica di pericolo non presente direttamente"
+   ],
+   "appro": "Per molte caratteristiche la soglia si applica alla somma delle sostanze con la stessa indicazione di pericolo; per altre, alla singola sostanza.",
+   "rif": "Dir. 2008/98/CE, Allegato III, come sostituito dal Reg. (UE) 1357/2014 e dal Reg. (UE) 2017/997",
+   "nar": "Un rifiuto è pericoloso quando presenta almeno una delle quindici caratteristiche di pericolo elencate nell’Allegato terzo della direttiva quadro, indicate con le sigle da HP uno a HP quindici. Il regolamento europeo milletrecentocinquantasette del duemilaquattordici le ha allineate alle classi di pericolo del regolamento CLP sulle sostanze chimiche. Le prime tre riguardano i pericoli fisici: esplosivo, comburente, infiammabile. Seguono le caratteristiche per la salute: irritante, tossicità specifica per organi bersaglio e in caso di aspirazione, tossicità acuta, cancerogeno, corrosivo, infettivo, tossico per la riproduzione, mutageno, liberazione di gas a tossicità acuta a contatto con acqua o acidi, sensibilizzante. La caratteristica HP quattordici, ecotossico, è definita con i criteri del regolamento duemiladiciassette barra novecentonovantasette. L’HP quindici riguarda i rifiuti che possono manifestare una caratteristica di pericolo non posseduta direttamente dal rifiuto originario. Per ciascuna caratteristica il regolamento indica le soglie di concentrazione in funzione delle indicazioni di pericolo delle sostanze presenti: in alcuni casi si sommano le sostanze con la stessa indicazione, in altri si confronta ogni singola sostanza con la soglia. Il risultato si riporta nel registro e nel formulario."
+  }
+ ]
+}

@@ -1,0 +1,21 @@
+{
+ "dopo": "I rischi specifici del Testo unico",
+ "origine": "RSPP-AGG/M2-1.json",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "La UNI EN ISO 9612:2025",
+   "lead": "La terza edizione della norma sulla determinazione dell’esposizione al rumore sostituisce l’edizione 2011 e aggiorna strategie e stima dell’incertezza.",
+   "punti": [
+    "Tre strategie: basata sui compiti, sulla mansione, sull’intera giornata",
+    "Gruppi omogenei di esposizione definiti prima del piano di misura",
+    "Nuovo metodo di stima dell’incertezza estesa U associata a LEX,8h",
+    "Media energetica dei livelli: Lp,A,eqT = 10·lg[(1/n)·Σ 10^(0,1·Lp,i)]",
+    "Rivalutazione almeno ogni quattro anni o dopo modifiche (art. 181 D.lgs. 81/2008)"
+   ],
+   "appro": "Nel confronto con i valori di azione si considera anche l’incertezza: un livello misurato appena sotto 85 dB(A) con incertezza ampia richiede cautela nelle misure adottate.",
+   "rif": "UNI EN ISO 9612:2025 · D.lgs. 81/2008, artt. 181 e 190",
+   "nar": "La norma UNI EN ISO novemilaseicentododici, nella terza edizione del duemilaventicinque, sostituisce l’edizione del duemilaundici come riferimento tecnico per la misura dell’esposizione al rumore richiamata dall’articolo centonovanta del testo unico. Conferma le tre strategie di misura: basata sui compiti, quando la giornata si scompone in attività ben definite; basata sulla mansione, con campionamenti casuali durante il lavoro di un gruppo omogeneo; basata sull’intera giornata, con dosimetri indossati per tutto il turno. Rafforza l’importanza di definire, prima del piano di misura, i gruppi omogenei di esposizione, cioè lavoratori che svolgono la stessa attività con esposizioni simili. La novità più rilevante riguarda la stima dell’incertezza estesa, ricalcolata con un approccio aggiornato che considera i contributi del campionamento, della strumentazione e della posizione del microfono. Il calcolo dei livelli continua a basarsi sulla media energetica: si convertono i livelli in energie, si mediano e si riconverte il risultato in decibel. Per questo la media energetica di ottanta e novanta decibel A non è ottantacinque, ma circa ottantasette virgola quattro. La valutazione va ripetuta almeno ogni quattro anni o quando cambiano macchine e lavorazioni. Nel confronto con i valori di azione si considera anche l’incertezza: un livello appena sotto ottantacinque con un’incertezza ampia richiede prudenza nelle misure adottate."
+  }
+ ]
+}

@@ -1,0 +1,21 @@
+{
+ "dopo": "I rischi specifici: un quadro d'insieme",
+ "origine": "RSPP-AGG/M2-3.json",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Radon nei luoghi di lavoro: obblighi del D.lgs. 101/2020",
+   "lead": "Il radon è un gas radioattivo naturale che si accumula nei locali chiusi a contatto con il suolo; il D.lgs. 101/2020 fissa un livello di riferimento di 300 Bq/m³.",
+   "punti": [
+    "Misure obbligatorie nei locali sotterranei e semisotterranei e, nelle aree prioritarie, al piano terra",
+    "Misure su base annua, con dispositivi esposti per due semestri e laboratori riconosciuti",
+    "Concentrazione media annua ponderata sui giorni di esposizione di ciascun periodo",
+    "Sotto 300 Bq/m³: ripetizione della misura ogni 8 anni",
+    "Sopra 300 Bq/m³: misure correttive e nuova misura; se il livello persiste, valutazione delle dosi con l’esperto di radioprotezione"
+   ],
+   "appro": "Il Piano nazionale d’azione per il radon (G.U. n. 43/2024) orienta le Regioni nell’individuazione delle aree prioritarie e nelle azioni di risanamento.",
+   "rif": "D.lgs. 31 luglio 2020, n. 101, artt. 16-19 e Allegato II · Piano nazionale d’azione per il radon",
+   "nar": "Il radon è un gas radioattivo di origine naturale, prodotto dal decadimento dell’uranio presente nel suolo e in alcuni materiali da costruzione. Penetra negli edifici attraverso le fessure a contatto con il terreno e si accumula nei locali chiusi poco ventilati; è la seconda causa di tumore polmonare dopo il fumo. Il decreto legislativo centouno del duemilaventi fissa per i luoghi di lavoro un livello di riferimento di trecento becquerel per metro cubo come concentrazione media annua. Le misure sono obbligatorie nei luoghi di lavoro sotterranei e semisotterranei e, nelle aree prioritarie individuate dalle Regioni, anche nei locali al piano terra. Si eseguono su base annua, di norma con dispositivi passivi esposti per due semestri consecutivi e analizzati da laboratori riconosciuti; la concentrazione media annua si ottiene ponderando le concentrazioni di ciascun periodo sui rispettivi giorni di esposizione. Se il risultato è inferiore al livello di riferimento la misura si ripete ogni otto anni, o prima in caso di lavori strutturali. Se lo supera, il datore di lavoro adotta misure correttive, con l’ausilio di un esperto in interventi di risanamento, e ripete la misura; se il livello resta elevato, l’esperto di radioprotezione valuta le dosi efficaci dei lavoratori. Il Piano nazionale d’azione per il radon, pubblicato nel duemilaventiquattro, orienta le Regioni."
+  }
+ ]
+}

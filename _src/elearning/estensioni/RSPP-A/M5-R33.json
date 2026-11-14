@@ -1,0 +1,21 @@
+{
+ "dopo": "Consultazione e partecipazione",
+ "origine": "DL/M4-3.json",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "La leadership visibile: i sopralluoghi della direzione",
+   "lead": "La presenza della direzione nei reparti, con sopralluoghi strutturati, è uno dei segnali più efficaci dell’impegno per la sicurezza.",
+   "punti": [
+    "Sopralluoghi programmati, brevi e regolari, non solo dopo un evento",
+    "Osservare, ascoltare e chiedere ai lavoratori quali rischi percepiscono",
+    "Riconoscere i comportamenti corretti, non solo correggere quelli errati",
+    "Registrare le osservazioni e assegnare azioni con responsabile e scadenza",
+    "Dare riscontro ai lavoratori su ciò che è stato fatto"
+   ],
+   "appro": "Il valore del sopralluogo dipende dal seguito: osservazioni senza azioni né riscontro riducono la fiducia nel sistema.",
+   "rif": "UNI ISO 45001:2023, § 5.1 e § 5.4 · D.lgs. 81/2008, art. 18",
+   "nar": "La cultura della sicurezza non si costruisce con le sole procedure: i lavoratori osservano ciò che la direzione fa, più di ciò che dice. Uno strumento semplice ed efficace è il sopralluogo della direzione nei reparti, spesso chiamato safety walk. Funziona se è programmato, breve e regolare, e non avviene solo dopo un infortunio. Durante il sopralluogo il dirigente osserva le condizioni di lavoro e i comportamenti, ma soprattutto ascolta: chiede ai lavoratori quali rischi percepiscono, quali difficoltà incontrano nell’applicare le procedure, quali proposte hanno. È importante riconoscere i comportamenti corretti, non solo correggere quelli errati, perché il riconoscimento rinforza le buone pratiche. Le osservazioni vanno registrate e trasformate in azioni con un responsabile e una scadenza, e ai lavoratori va dato riscontro su ciò che è stato fatto. La norma ISO quarantacinquemilauno chiede all’alta direzione di dimostrare leadership e impegno, assumendosi la responsabilità complessiva della prevenzione e promuovendo la consultazione e la partecipazione dei lavoratori. Il valore del sopralluogo dipende interamente dal seguito: osservazioni che non producono azioni né riscontri riducono la fiducia nel sistema e scoraggiano le segnalazioni."
+  }
+ ]
+}

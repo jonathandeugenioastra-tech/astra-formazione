@@ -1,0 +1,21 @@
+{
+ "dopo": "Infortuni e malattie professionali: dati e analisi",
+ "origine": "DL/M3-3.json",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Gli incentivi INAIL per la prevenzione",
+   "lead": "L’INAIL premia gli investimenti in prevenzione con la riduzione del tasso di premio e con contributi a fondo perduto.",
+   "punti": [
+    "Riduzione del tasso medio per prevenzione: domanda con il modulo dedicato entro il 28 febbraio",
+    "Interventi migliorativi ulteriori rispetto agli obblighi di legge, realizzati nell’anno precedente",
+    "Punteggio minimo previsto dal modulo e documentazione probatoria",
+    "Bandi ISI: contributi in conto capitale per progetti di miglioramento della sicurezza",
+    "Riduzione decrescente con la dimensione aziendale; più vantaggiosa per le piccole imprese"
+   ],
+   "appro": "Gli interventi tipici comprendono sistemi di gestione certificati, buone prassi validate, formazione aggiuntiva, sostituzione di attrezzature con modelli più sicuri.",
+   "rif": "D.M. 27 febbraio 2019 (tariffe dei premi), art. 23 delle modalità di applicazione · Bandi ISI INAIL",
+   "nar": "La sicurezza ha un costo, ma anche la non sicurezza costa: premi assicurativi, sanzioni, fermi, risarcimenti e danni d’immagine. L’INAIL prevede strumenti economici per incentivare chi investe nella prevenzione. Il primo è la riduzione del tasso medio di tariffa per prevenzione: le aziende che nell’anno precedente hanno effettuato interventi per il miglioramento delle condizioni di salute e sicurezza, ulteriori rispetto a quelli previsti dalla legge, possono presentare domanda entro il ventotto febbraio con il modulo dedicato, raggiungendo il punteggio minimo previsto e allegando la documentazione probatoria. Gli interventi ammessi comprendono, ad esempio, l’adozione di sistemi di gestione certificati, buone prassi validate, formazione aggiuntiva, sostituzione di attrezzature e misure per i rischi specifici. La riduzione è decrescente con la dimensione aziendale ed è quindi più vantaggiosa per le piccole imprese. Il secondo strumento sono i bandi ISI, che finanziano con contributi in conto capitale progetti di miglioramento dei livelli di salute e sicurezza, come la sostituzione di macchine obsolete, la riduzione del rischio da movimentazione manuale o la bonifica dell’amianto, secondo le percentuali e i massimali stabiliti in ciascun bando. Per chi decide, questi strumenti migliorano il ritorno economico degli investimenti in prevenzione."
+  }
+ ]
+}

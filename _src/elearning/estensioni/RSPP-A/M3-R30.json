@@ -1,0 +1,21 @@
+{
+ "dopo": "Il processo di gestione del rischio (UNI ISO 31000)",
+ "origine": "RSPP-AGG/M4-1.json",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "L’emendamento 2024 sul cambiamento climatico",
+   "lead": "Nel 2024 l’ISO ha modificato tutte le norme sui sistemi di gestione, tra cui ISO 45001, ISO 50001 e ISO 14001, inserendo il cambiamento climatico nell’analisi del contesto.",
+   "punti": [
+    "Punto 4.1: l’organizzazione determina se il cambiamento climatico è un fattore rilevante",
+    "Punto 4.2: le parti interessate possono avere requisiti legati al clima",
+    "Per la sicurezza: caldo estremo, eventi meteorologici, nuove malattie trasmesse da vettori",
+    "Effetti sulla valutazione dei rischi, sulle emergenze e sulla continuità operativa",
+    "Verifica in audit della coerenza tra analisi del contesto e misure adottate"
+   ],
+   "appro": "Il requisito non impone di considerare sempre il clima rilevante, ma di motivare la conclusione: per molte attività all’aperto o in ambienti caldi la rilevanza è evidente.",
+   "rif": "ISO 45001:2018/Amd 1:2024 · ISO 50001:2018/Amd 1:2024 · ISO 14001:2015/Amd 1:2024",
+   "nar": "Nel febbraio duemilaventiquattro l’organizzazione internazionale di normazione ha pubblicato un emendamento comune a tutte le norme sui sistemi di gestione costruite sulla struttura armonizzata, tra cui la ISO quarantacinquemilauno per la salute e sicurezza, la ISO cinquantamilauno per l’energia e la ISO quattordicimilauno per l’ambiente. L’emendamento aggiunge due frasi. Al punto quattro uno, sul contesto dell’organizzazione, richiede di determinare se il cambiamento climatico è un fattore rilevante. Al punto quattro due precisa che le parti interessate pertinenti possono avere requisiti legati al cambiamento climatico. Per un sistema di gestione della sicurezza le implicazioni sono concrete: l’aumento delle ondate di calore incide sullo stress termico dei lavoratori all’aperto e negli ambienti caldi; gli eventi meteorologici estremi incidono sulla gestione delle emergenze, sulla stabilità delle strutture e sulla continuità operativa; la diffusione di vettori come zanzare e zecche può modificare il rischio biologico. Il requisito non impone di considerare sempre rilevante il clima, ma di motivare la conclusione. In audit si verifica la coerenza tra l’analisi del contesto, la valutazione dei rischi, i piani di emergenza e le misure effettivamente adottate, ad esempio un piano di gestione del caldo."
+  }
+ ]
+}

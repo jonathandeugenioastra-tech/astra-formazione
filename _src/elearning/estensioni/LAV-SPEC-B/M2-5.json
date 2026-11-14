@@ -1,0 +1,20 @@
+{
+ "dopo": "L'etichetta dei prodotti chimici",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "La scheda di dati di sicurezza",
+   "lead": "La scheda di dati di sicurezza (SDS) accompagna le sostanze e le miscele pericolose e fornisce le informazioni per l’uso sicuro.",
+   "punti": [
+    "Prevista dall’art. 31 del Regolamento REACH, in 16 sezioni, nella lingua del Paese",
+    "Fornita gratuitamente al più tardi alla prima consegna del prodotto",
+    "Sezione 2: pericoli; sezione 4: primo soccorso; sezione 5: antincendio",
+    "Sezione 7: manipolazione e immagazzinamento; sezione 8: controllo dell’esposizione e DPI",
+    "Aggiornata quando emergono nuove informazioni su pericoli o misure"
+   ],
+   "appro": "La scheda va conservata e resa accessibile ai lavoratori che usano il prodotto; il medico competente e l’RSPP la usano nella valutazione del rischio chimico.",
+   "rif": "Reg. (CE) n. 1907/2006 (REACH), art. 31 e Allegato II (Reg. (UE) 2020/878) · D.lgs. 81/2008, art. 223",
+   "nar": "Ogni prodotto chimico pericoloso, anche un comune detergente professionale, deve essere accompagnato dalla scheda di dati di sicurezza. L’obbligo deriva dall’articolo trentuno del regolamento europeo REACH: il fornitore la consegna gratuitamente, nella lingua del Paese, al più tardi alla prima fornitura del prodotto, e la aggiorna quando emergono nuove informazioni. La scheda è organizzata in sedici sezioni con un contenuto stabilito dall’Allegato secondo del regolamento. Alcune sono particolarmente utili per chi lavora: la sezione due descrive i pericoli e riporta gli elementi dell’etichetta; la sezione quattro indica le misure di primo soccorso; la sezione cinque i mezzi di estinzione adatti; la sezione sette le precauzioni per la manipolazione e l’immagazzinamento, comprese le incompatibilità; la sezione otto i valori limite di esposizione e i dispositivi di protezione individuale da usare, come il tipo di guanti. Il datore di lavoro conserva le schede e le rende accessibili ai lavoratori che usano i prodotti. L’RSPP e il medico competente le utilizzano per la valutazione del rischio chimico prevista dall’articolo duecentoventitré del testo unico. Prima di usare un prodotto nuovo, è buona prassi leggere l’etichetta e le sezioni principali della scheda."
+  }
+ ]
+}

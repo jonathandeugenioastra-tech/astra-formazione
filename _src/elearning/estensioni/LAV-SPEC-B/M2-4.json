@@ -1,0 +1,20 @@
+{
+ "dopo": "Qualità dell'aria e agenti biologici negli ambienti chiusi",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "La legionella negli impianti idrici",
+   "lead": "La legionella si sviluppa nell’acqua tiepida stagnante e si trasmette per inalazione di aerosol: la prevenzione riguarda impianti idrici e di climatizzazione.",
+   "punti": [
+    "Acqua calda: accumulo ad almeno 60 °C e almeno 50 °C ai punti di erogazione",
+    "Acqua fredda: mantenuta sotto i 20 °C",
+    "Evitare rami morti e stagnazioni; far scorrere i terminali poco usati",
+    "Pulizia e disinfezione di torri evaporative, umidificatori e filtri",
+    "Valutazione del rischio del sistema idrico negli edifici prioritari (D.lgs. 18/2023)"
+   ],
+   "appro": "La legionellosi non si trasmette da persona a persona né bevendo l’acqua contaminata: la via di esposizione è l’inalazione di goccioline di aerosol.",
+   "rif": "Linee guida per la prevenzione e il controllo della legionellosi (Conferenza Stato-Regioni, 7 maggio 2015) · D.lgs. 23 febbraio 2023, n. 18 · D.lgs. 81/2008, Titolo X",
+   "nar": "La legionella è un batterio presente negli ambienti acquatici naturali che può colonizzare gli impianti idrici degli edifici. Si moltiplica nell’acqua tiepida e stagnante, tra venticinque e quarantacinque gradi circa, e si trasmette per inalazione di goccioline di aerosol, ad esempio da docce, rubinetti, umidificatori o torri evaporative. Non si trasmette da persona a persona né bevendo l’acqua. Le linee guida approvate dalla Conferenza Stato Regioni nel duemilaquindici indicano le principali misure: mantenere l’acqua calda accumulata ad almeno sessanta gradi e ad almeno cinquanta gradi ai punti di erogazione, mantenere l’acqua fredda al di sotto dei venti gradi, eliminare i rami morti delle tubazioni, far scorrere periodicamente l’acqua dai terminali poco utilizzati, pulire e disinfettare filtri, rompigetto, soffioni, umidificatori e torri evaporative. Il decreto legislativo diciotto del duemilaventitré, sulle acque destinate al consumo umano, ha introdotto la valutazione del rischio dei sistemi di distribuzione idrica interni negli edifici considerati prioritari. Nei luoghi di lavoro la legionella rientra nel rischio biologico del Titolo decimo del testo unico, da considerare nel documento di valutazione dei rischi."
+  }
+ ]
+}

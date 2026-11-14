@@ -1,0 +1,33 @@
+{
+ "dopo": "Campi elettromagnetici e radiazioni ottiche",
+ "schermate": [
+  {
+   "t": "abbina",
+   "tit": "Esercitazione · Rischi e riferimenti",
+   "sott": "Associare a ciascun fattore di rischio la grandezza o il valore di riferimento corretto",
+   "coppie": [
+    [
+     "Rumore",
+     "Valore superiore di azione 85 dB(A)"
+    ],
+    [
+     "Microclima moderato",
+     "Indici PMV e PPD (UNI EN ISO 7730)"
+    ],
+    [
+     "Illuminazione dell’ufficio",
+     "500 lux per scrittura e lettura"
+    ],
+    [
+     "Legionella",
+     "Acqua calda almeno 50 °C ai punti di erogazione"
+    ],
+    [
+     "Spinta e traino",
+     "Forza iniziale e forza di mantenimento"
+    ]
+   ],
+   "nar": "Esercitazione. Si associ a ciascun fattore di rischio la grandezza o il valore di riferimento corretto."
+  }
+ ]
+}

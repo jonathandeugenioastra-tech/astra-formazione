@@ -1,0 +1,53 @@
+{
+ "dopo": "La segnaletica negli ambienti a rischio basso",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Colori e forme della segnaletica di sicurezza",
+   "lead": "Il Titolo V del D.lgs. 81/2008 e l’Allegato XXV attribuiscono a colori e forme un significato univoco.",
+   "punti": [
+    "Rosso, forma rotonda: divieto; rosso, quadrato: attrezzature antincendio",
+    "Giallo, forma triangolare: avvertimento di un pericolo",
+    "Azzurro, forma rotonda: prescrizione, ad esempio l’obbligo di un DPI",
+    "Verde, forma quadrata o rettangolare: salvataggio, vie di esodo, primo soccorso",
+    "Pittogrammi uniformati secondo la norma UNI EN ISO 7010"
+   ],
+   "appro": "La segnaletica non sostituisce le misure di prevenzione: si usa per i rischi che non è stato possibile evitare o ridurre sufficientemente (art. 163).",
+   "rif": "D.lgs. 81/2008, Titolo V, art. 163 e Allegati XXIV-XXV · UNI EN ISO 7010",
+   "nar": "La segnaletica di sicurezza comunica in modo immediato, anche a chi non conosce la lingua, un divieto, un pericolo, un obbligo o un’informazione di salvataggio. Il Titolo quinto del testo unico e l’Allegato venticinque attribuiscono a ogni combinazione di colore e forma un significato preciso. Il rosso con forma rotonda indica un divieto, come il divieto di fumare o di usare l’acqua per spegnere; il rosso con forma quadrata identifica le attrezzature antincendio, come estintori e idranti. Il giallo con forma triangolare avverte di un pericolo, ad esempio la tensione elettrica o il pavimento bagnato. L’azzurro con forma rotonda esprime una prescrizione, come l’obbligo di indossare guanti o calzature di sicurezza. Il verde con forma quadrata o rettangolare indica il salvataggio: vie e uscite di emergenza, cassetta di pronto soccorso, punto di raccolta. I pittogrammi sono oggi uniformati dalla norma UNI EN ISO settemiladieci. È importante ricordare che, secondo l’articolo centosessantatré, la segnaletica non sostituisce le misure di prevenzione: si usa quando un rischio non è stato possibile evitarlo o ridurlo a sufficienza. I cartelli devono essere mantenuti puliti e leggibili e quelli non più pertinenti vanno rimossi."
+  },
+  {
+   "t": "vf",
+   "tit": "Esercitazione · Ambienti, attrezzature e segnaletica",
+   "sott": "Qualificare ciascuna affermazione come vera o falsa",
+   "voci": [
+    [
+     "Il cartello rotondo azzurro indica un obbligo, ad esempio l’uso di un DPI.",
+     true,
+     "Vero: forma rotonda e colore azzurro indicano una prescrizione."
+    ],
+    [
+     "La verifica periodica dell’impianto di terra in un ufficio è biennale.",
+     false,
+     "Falso: è quinquennale; biennale solo per cantieri, locali medici e ambienti a maggior rischio di incendio."
+    ],
+    [
+     "Su una scaffalatura con danno di livello rosso si scarica subito la zona e la si mette fuori servizio.",
+     true,
+     "Vero: UNI EN 15635."
+    ],
+    [
+     "Una scala portatile può essere usata per qualsiasi lavoro in quota, anche prolungato.",
+     false,
+     "Falso: solo per lavori di breve durata e a basso rischio (art. 111)."
+    ],
+    [
+     "Il lavoratore può rimuovere un riparo se rallenta il lavoro.",
+     false,
+     "Falso: ripari e dispositivi di sicurezza non si rimuovono né si rendono inefficaci."
+    ]
+   ],
+   "nar": "Esercitazione. Si stabilisca se ciascuna affermazione su ambienti, attrezzature e segnaletica è vera o falsa."
+  }
+ ]
+}

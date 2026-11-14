@@ -1,0 +1,20 @@
+{
+ "dopo": "Il rumore",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Il rumore: valori di azione e obblighi",
+   "lead": "Il Capo II del Titolo VIII fissa valori di azione e valori limite di esposizione al rumore e gli obblighi corrispondenti.",
+   "punti": [
+    "Valori inferiori di azione: 80 dB(A) come esposizione giornaliera; 135 dB(C) di picco",
+    "Valori superiori di azione: 85 dB(A); 137 dB(C)",
+    "Valori limite: 87 dB(A); 140 dB(C), considerando l’attenuazione dei DPI",
+    "Oltre 80 dB(A): DPI-u disponibili, informazione e formazione; oltre 85: uso obbligatorio",
+    "Valutazione aggiornata almeno ogni 4 anni"
+   ],
+   "appro": "Le aree in cui si superano i valori superiori di azione sono segnalate e, se possibile, delimitate con accesso limitato (art. 192).",
+   "rif": "D.lgs. 81/2008, artt. 181, 189, 192, 193 e 196 · UNI EN ISO 9612:2025",
+   "nar": "Nei settori a rischio basso il rumore raramente raggiunge livelli elevati, ma è importante conoscere le soglie stabilite dal testo unico. L’articolo centottantanove fissa tre coppie di valori, espresse come esposizione giornaliera e come pressione acustica di picco. I valori inferiori di azione sono ottanta decibel A e centotrentacinque decibel C di picco; i valori superiori di azione ottantacinque decibel A e centotrentasette decibel C; i valori limite ottantasette decibel A e centoquaranta decibel C, valutati tenendo conto dell’attenuazione dei dispositivi di protezione dell’udito. Oltre i valori inferiori il datore di lavoro mette a disposizione i protettori auricolari e assicura informazione e formazione; oltre i valori superiori l’uso dei protettori è obbligatorio, le aree sono segnalate e, se possibile, delimitate, e la sorveglianza sanitaria è obbligatoria. Tra ottanta e ottantacinque decibel la visita è prevista su richiesta del lavoratore o se il medico competente ne conferma l’opportunità. La valutazione si esegue con il metodo della norma UNI EN ISO novemilaseicentododici, nella nuova edizione del duemilaventicinque, e si aggiorna almeno ogni quattro anni o quando cambiano macchine e lavorazioni."
+  }
+ ]
+}

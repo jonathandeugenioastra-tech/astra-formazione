@@ -1,0 +1,20 @@
+{
+ "dopo": "Scaffalature, depositi e archivi",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Scaffalature: portata, ancoraggio e ispezioni",
+   "lead": "Le scaffalature di magazzino e archivio sono attrezzature di immagazzinaggio: la norma UNI EN 15635 ne disciplina uso, ispezione e manutenzione.",
+   "punti": [
+    "Targa di portata visibile: carico massimo per ripiano e per campata",
+    "Ancoraggio al pavimento o alla parete secondo le istruzioni del fornitore",
+    "Ispezioni visive frequenti e ispezione di un esperto almeno ogni 12 mesi",
+    "Danni classificati per livello di rischio: verde, ambra, rosso",
+    "Carichi più pesanti in basso; nessuna arrampicata sui ripiani"
+   ],
+   "appro": "Un montante piegato da un urto riduce la portata dell’intera campata: la segnalazione immediata consente di scaricare e mettere fuori servizio la zona interessata.",
+   "rif": "D.lgs. 81/2008, art. 71 · UNI EN 15635 · UNI EN 15512",
+   "nar": "Le scaffalature di magazzini e archivi sembrano semplici arredi, ma sono attrezzature di immagazzinaggio e il loro cedimento può causare infortuni gravi. La norma tecnica UNI EN quindicimilaseicentotrentacinque ne disciplina l’uso, l’ispezione e la manutenzione. Ogni scaffalatura deve riportare una targa di portata ben visibile, con il carico massimo ammesso per ripiano e per campata, e deve essere ancorata al pavimento o alla parete secondo le istruzioni del fornitore. La norma prevede ispezioni visive frequenti da parte di personale incaricato e un’ispezione approfondita di una persona esperta a intervalli non superiori a dodici mesi. I danni rilevati vengono classificati per livello di rischio: verde, da tenere sotto osservazione; ambra, da riparare in tempi brevi senza ricaricare la zona; rosso, con scarico immediato e messa fuori servizio. Nell’uso quotidiano i carichi più pesanti si collocano nei ripiani bassi, il materiale non deve sporgere e non si sale mai sui ripiani: per raggiungere quelli alti si usano scale conformi. Un montante piegato da un urto con un transpallet riduce la portata dell’intera campata; per questo ogni urto, anche lieve, va segnalato subito al preposto."
+  }
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "dopo": "La movimentazione manuale dei carichi",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Spinta, traino e trasporto di carichi",
+   "lead": "La movimentazione manuale comprende anche spingere, tirare e trasportare: la norma UNI ISO 11228-2 ne valuta le forze ammissibili.",
+   "punti": [
+    "Si misurano la forza iniziale, per avviare il carico, e la forza di mantenimento",
+    "Contano altezza delle mani, distanza percorsa, frequenza, sesso ed età",
+    "Carrelli e transpallet con ruote efficienti e pavimenti regolari riducono le forze",
+    "Meglio spingere che tirare; evitare torsioni del tronco",
+    "Trasporto a mano: limitare la massa cumulativa giornaliera e le distanze"
+   ],
+   "appro": "Il carrello manuale sovraccarico o con ruote danneggiate è una causa frequente di lombalgie e di schiacciamenti delle mani contro stipiti e scaffali.",
+   "rif": "D.lgs. 81/2008, Titolo VI e Allegato XXXIII · UNI ISO 11228-1 e 11228-2",
+   "nar": "Quando si parla di movimentazione manuale dei carichi si pensa al sollevamento, ma il Titolo sesto del testo unico comprende anche le azioni di spingere, tirare e trasportare. Per queste attività la norma tecnica UNI ISO undicimiladuecentoventotto, parte seconda, confronta le forze esercitate con valori raccomandati che tengono conto dell’altezza delle mani, della distanza percorsa, della frequenza dell’azione, del sesso e dell’età della popolazione lavorativa. Si misurano due forze: quella iniziale, necessaria per vincere l’inerzia e mettere in movimento il carrello, e quella di mantenimento, necessaria per mantenerlo in moto. Le misure di prevenzione sono spesso semplici: ruote efficienti e di diametro adeguato, pavimenti regolari e senza dislivelli, carichi non eccessivi, percorsi sgombri. Nell’azione conviene spingere piuttosto che tirare, tenendo le mani all’altezza compresa tra la vita e il torace ed evitando torsioni del tronco. Per il trasporto a mano, la parte prima della stessa norma considera la massa cumulativa giornaliera e la distanza percorsa. Un carrello sovraccarico o con una ruota bloccata richiede forze molto superiori e provoca frequentemente lombalgie e schiacciamenti delle mani contro stipiti e scaffali: è un difetto da segnalare subito."
+  }
+ ]
+}

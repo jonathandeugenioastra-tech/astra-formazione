@@ -1,0 +1,20 @@
+{
+ "dopo": "Cadute in piano e cadute dall'alto",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Le scale portatili",
+   "lead": "Le scale portatili sono attrezzature di lavoro: vanno scelte, verificate e usate secondo l’art. 113 del D.lgs. 81/2008.",
+   "punti": [
+    "Scale conformi alla norma tecnica UNI EN 131, con istruzioni del fabbricante",
+    "Piedini antisdrucciolevoli integri; ganci o appoggi superiori quando servono alla stabilità",
+    "Scala trattenuta al piede da un’altra persona se c’è pericolo di sbandamento",
+    "Salita e discesa con il viso rivolto alla scala, mani libere, un solo lavoratore per volta",
+    "Controllo a vista prima dell’uso: montanti, pioli, tiranti di sicurezza delle scale doppie"
+   ],
+   "appro": "La scala portatile si usa solo per lavori di breve durata e a basso rischio, quando l’uso di attrezzature più sicure non è giustificato dalla valutazione dei rischi (art. 111 D.lgs. 81/2008).",
+   "rif": "D.lgs. 81/2008, artt. 111 e 113 · UNI EN 131",
+   "nar": "Molte cadute negli uffici e nei magazzini avvengono da scale portatili. Il testo unico, all’articolo centotredici, considera la scala un’attrezzatura di lavoro a tutti gli effetti. Le scale portatili devono essere conformi alla norma tecnica UNI EN centotrentuno e accompagnate dalle istruzioni del fabbricante. Alle estremità inferiori dei montanti servono dispositivi antisdrucciolevoli integri; alle estremità superiori, quando necessario per la stabilità, ganci di trattenuta o appoggi antisdrucciolevoli. Se l’altezza o le condizioni d’uso comportano pericolo di sbandamento, la scala va assicurata oppure trattenuta al piede da un’altra persona. Durante l’uso si sale e si scende con il viso rivolto alla scala, con le mani libere e un solo lavoratore per volta; gli attrezzi si portano in una borsa a tracolla. Prima di ogni impiego si esegue un controllo a vista: montanti non deformati, pioli integri, tiranti o catenelle di sicurezza delle scale doppie presenti ed efficienti. L’articolo centoundici ricorda infine che la scala portatile è ammessa solo per lavori di breve durata e a basso rischio, quando la valutazione non giustifica attrezzature più sicure come i trabattelli o le piattaforme."
+  }
+ ]
+}

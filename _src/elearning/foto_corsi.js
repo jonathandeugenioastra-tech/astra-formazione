@@ -110,6 +110,7 @@ const UNIVERSALI = [
 ];
 // Argomento incendio/esplosione: fotografie fornite dal committente (nessuna immagine di repertorio), scelte per sotto-argomento
 const INCENDIO = /(incend|antincend|\bfuoc|fiamm|combustion|esplosi|ATEX|resistenza al fuoco|compartiment|reazione al fuoco)/i;
+const INCENDIO_ATTACCO = /(incend|antincend|\bfuoc|fiamm|esplosi|ATEX|resistenza al fuoco|compartiment|reazione al fuoco)/i; // nell’attacco «combustione» non basta (emissioni, energia)
 const ANTINCENDIO = new Set(['AI-1', 'AI-2', 'AI-3']); // corsi per addetti antincendio: fotografia su ogni diapositiva
 const FUOCO = [
   [/(ATEX|atmosfer[ae] esplosiv|esplosi|polveri combustibili|zone? (0|1|2|20|21|22)\b)/i, ['atex_cartello', 'atex_fiamma', 'inf_atex_triangolo', 'atex_simbolo']],
@@ -136,10 +137,11 @@ function scegli(C) {
     m.schermate.forEach((s, si) => {
       // priorità al titolo; in subordine l’attacco della schermata; mai l’intero testo (troppi richiami incidentali)
       const tl = (s.tit || '') + ' ' + (s.lead || s.scena || '');
-      if (INCENDIO.test(tl)) { sch[`${m.id}-${si}`] = univ(s.tit || '', usate) || fuoco(s.tit && INCENDIO.test(s.tit) ? s.tit : tl, usate); return; }
+      if (INCENDIO.test(s.tit || '') && !/(gas fluorurati|combustione termica|polveri di legno)/i.test(s.tit || '')) { /* foto antincendio solo se il titolo tratta l’incendio */ sch[`${m.id}-${si}`] = univ(s.tit || '', usate) || fuoco(s.tit && INCENDIO.test(s.tit) ? s.tit : tl, usate); return; }
       if (tutto) { sch[`${m.id}-${si}`] = scegliUna(s.tit || '', [], C.id, usate, si, true, true) || scegliUna(s.lead || s.scena || '', [], C.id, usate, si, true, true) || fuoco(testoMod + ' ' + tl, usate); return; }
       // nelle schermate l’immagine compare solo se un criterio specifico ne garantisce la pertinenza; altrimenti trattazione solo testuale
-      sch[`${m.id}-${si}`] = scegliUna(s.tit || '', amm, C.id, usate, mi * 7 + si, true, true) || scegliUna(s.lead || s.scena || '', amm, C.id, usate, mi * 7 + si, true, true) || NO;
+      const fl = scegliUna(s.tit || '', amm, C.id, usate, mi * 7 + si, true, true); const fa = fl ? null : scegliUna(s.lead || s.scena || '', amm, C.id, usate, mi * 7 + si, true, true);
+      sch[`${m.id}-${si}`] = fl || (/^(aula|cta|hero3)$/.test(fa || '') ? null : fa) || NO; /* l’aula di formazione solo se il titolo tratta la formazione */
     });
   });
   return { sch, mod, ammesse: amm };

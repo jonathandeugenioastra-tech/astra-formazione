@@ -1,0 +1,20 @@
+{
+ "dopo": "Autorizzazione e restrizioni",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Le sostanze dell’Allegato XIV: uso autorizzato e obblighi a valle",
+   "lead": "Le sostanze incluse nell’Allegato XIV non possono essere usate dopo la «data di scadenza» senza un’autorizzazione rilasciata dalla Commissione.",
+   "punti": [
+    "Sostanze estremamente preoccupanti prioritarie trasferite dall’elenco delle candidate all’Allegato XIV",
+    "Data di scadenza: dopo di essa uso e immissione sul mercato solo se autorizzati",
+    "Autorizzazione per usi specifici, con revisione periodica e condizioni",
+    "Utilizzatore a valle: rispetta le condizioni dell’autorizzazione del fornitore",
+    "Notifica all’ECHA entro 3 mesi dalla prima fornitura della sostanza autorizzata (art. 66)"
+   ],
+   "appro": "Il numero di autorizzazione compare in etichetta: va verificato che il proprio uso rientri tra quelli autorizzati al fornitore.",
+   "rif": "Reg. (CE) 1907/2006, artt. 56, 58, 60, 65 e 66 e Allegato XIV",
+   "nar": "L’autorizzazione è il meccanismo con cui il regolamento REACH sostituisce progressivamente le sostanze estremamente preoccupanti. Tra le sostanze dell’elenco delle candidate, l’Agenzia europea per le sostanze chimiche individua quelle prioritarie, che la Commissione inserisce nell’Allegato quattordici. Per ciascuna è fissata una data di scadenza: dopo quella data la sostanza non può essere immessa sul mercato né usata, salvo che per un uso specifico sia stata rilasciata un’autorizzazione. L’autorizzazione è concessa dalla Commissione per usi determinati, quando i rischi sono adeguatamente controllati oppure quando i benefici socioeconomici prevalgono e non esistono alternative idonee; prevede condizioni di uso e un periodo di revisione. Gli utilizzatori a valle possono usare la sostanza nell’ambito dell’autorizzazione rilasciata a un attore a monte della loro catena, rispettandone le condizioni. Il numero di autorizzazione deve comparire sull’etichetta, e l’utilizzatore a valle deve notificare l’uso all’Agenzia entro tre mesi dalla prima fornitura, secondo l’articolo sessantasei. Per l’impresa questo significa verificare che il proprio uso rientri effettivamente tra quelli autorizzati e pianificare per tempo la sostituzione delle sostanze destinate all’Allegato quattordici."
+  }
+ ]
+}

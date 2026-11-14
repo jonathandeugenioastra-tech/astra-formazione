@@ -1,0 +1,20 @@
+{
+ "dopo": "Il regolamento CLP: classi e categorie di pericolo",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "La classificazione delle miscele",
+   "lead": "Le miscele si classificano con i dati sulla miscela stessa, con i principi ponte o, più spesso, con metodi di calcolo basati sui componenti.",
+   "punti": [
+    "Primo livello: dati di prova sulla miscela, se disponibili e pertinenti",
+    "Principi ponte: estrapolazione da miscele simili già sperimentate",
+    "Metodo di calcolo: somma dei componenti classificati confrontata con limiti di concentrazione",
+    "Tossicità acuta: stima della tossicità acuta della miscela (ATEmix)",
+    "Pericoli per l’ambiente acquatico: metodo della sommatoria con i fattori M"
+   ],
+   "appro": "Ogni cambio di formula, anche di un solo componente, richiede di rivalutare la classificazione, l’etichetta, la scheda di dati di sicurezza e la notifica UFI.",
+   "rif": "Reg. (CE) 1272/2008 (CLP), artt. 9 e 10 e Allegato I",
+   "nar": "La classificazione di una miscela segue un ordine stabilito dal regolamento CLP. Se esistono dati di prova sulla miscela stessa, pertinenti e affidabili, si usano per primi, salvo per alcune classi come cancerogenicità, mutagenicità e tossicità per la riproduzione, che si valutano sui componenti. Se la miscela non è stata sperimentata ma esistono dati su miscele simili, si applicano i principi ponte, come la diluizione, l’appartenenza allo stesso lotto o la concentrazione di miscele molto pericolose. Nella maggior parte dei casi si applicano i metodi di calcolo: per molte classi di pericolo si sommano le concentrazioni dei componenti classificati e si confrontano con i limiti generici o specifici di concentrazione. Per la tossicità acuta si calcola la stima della tossicità acuta della miscela a partire dai valori dei componenti. Per i pericoli per l’ambiente acquatico si usa il metodo della sommatoria, in cui i componenti molto tossici pesano di più grazie ai fattori moltiplicatori. Ogni modifica della formula, anche di un solo componente o di una concentrazione, richiede di rivalutare la classificazione, l’etichetta, la scheda di dati di sicurezza e la notifica ai centri antiveleni con il relativo codice UFI."
+  }
+ ]
+}

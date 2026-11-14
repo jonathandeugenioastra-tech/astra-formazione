@@ -1,0 +1,21 @@
+{
+ "dopo": "Il regolamento REACH e gli obblighi dell’utilizzatore",
+ "origine": "REACH/M1-5.json",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Scenari di esposizione e SDS estesa",
+   "lead": "Per le sostanze registrate oltre 10 tonnellate all’anno e classificate pericolose, la scheda di dati di sicurezza è accompagnata dagli scenari di esposizione.",
+   "punti": [
+    "Lo scenario descrive condizioni operative e misure di gestione del rischio per un uso identificato",
+    "SDS estesa: scheda più allegato con gli scenari pertinenti",
+    "L’utilizzatore a valle verifica che il proprio uso e le proprie condizioni rientrino nello scenario",
+    "Entro 12 mesi dalla ricezione: adeguarsi, chiedere al fornitore di includere l’uso o redigere una propria valutazione",
+    "Notifica all’ECHA se si prepara una propria relazione sulla sicurezza chimica (art. 38)"
+   ],
+   "appro": "Lo scenario di esposizione è anche una fonte utile per la valutazione del rischio chimico: indica ventilazione, durate e DPI considerati sicuri.",
+   "rif": "Reg. (CE) 1907/2006, artt. 14, 31, 37 e 38",
+   "nar": "Quando una sostanza è registrata in quantità pari o superiore a dieci tonnellate all’anno e risponde ai criteri di pericolo, il registrante elabora una relazione sulla sicurezza chimica e descrive, per ogni uso identificato, uno scenario di esposizione. Lo scenario indica le condizioni operative, come durata, frequenza, quantità e temperatura, e le misure di gestione del rischio, come ventilazione localizzata e dispositivi di protezione individuale, che garantiscono un controllo adeguato dei rischi. Gli scenari pertinenti sono allegati alla scheda di dati di sicurezza, che prende il nome di scheda estesa. L’utilizzatore a valle che la riceve ha obblighi precisi: verificare che il proprio uso sia coperto e che le proprie condizioni rientrino in quelle descritte. Se non è così, entro dodici mesi deve adeguare le proprie condizioni, chiedere al fornitore di includere il proprio uso oppure redigere una propria relazione sulla sicurezza chimica, notificandolo all’Agenzia ai sensi dell’articolo trentotto. Lo scenario è anche una fonte utile per la valutazione del rischio chimico prevista dal testo unico: i parametri di ventilazione, le durate e i dispositivi indicati come sicuri si confrontano con la situazione reale del reparto."
+  }
+ ]
+}

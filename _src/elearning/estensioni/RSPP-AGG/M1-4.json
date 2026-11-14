@@ -1,0 +1,20 @@
+{
+ "dopo": "La responsabilità penale del RSPP",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Quando risponde l’RSPP",
+   "lead": "L’RSPP è consulente del datore di lavoro e non titolare di obblighi sanzionati, ma può concorrere nel reato colposo se il suo errore ha causato l’evento.",
+   "punti": [
+    "Nessuna sanzione contravvenzionale propria nel D.lgs. 81/2008 per l’RSPP",
+    "Responsabilità per omicidio o lesioni colpose in concorso, se l’errore consulenziale ha contribuito all’evento",
+    "Esempi: rischio non individuato, misura errata suggerita, mancata segnalazione di un pericolo noto",
+    "Il datore di lavoro resta responsabile delle scelte, anche se basate sul parere dell’RSPP",
+    "Tutela: documentare valutazioni, proposte e segnalazioni inviate al datore di lavoro"
+   ],
+   "appro": "La giurisprudenza di legittimità afferma costantemente che l’RSPP risponde quando l’evento è riconducibile a una situazione pericolosa che avrebbe dovuto conoscere e segnalare.",
+   "rif": "D.lgs. 81/2008, artt. 31-33 · Codice penale, artt. 40, 41, 113, 589 e 590",
+   "nar": "Il responsabile del servizio di prevenzione e protezione svolge una funzione consultiva: individua i rischi, elabora le misure e le procedure, propone i programmi di formazione, partecipa alla riunione periodica. Per questo il testo unico non prevede sanzioni contravvenzionali a suo carico per l’inadempimento dei propri compiti. Ciò non significa che l’RSPP non possa essere chiamato a rispondere penalmente. La giurisprudenza di legittimità afferma costantemente che, in caso di infortunio, l’RSPP può concorrere nel delitto di omicidio colposo o di lesioni colpose quando l’evento è riconducibile a una situazione pericolosa che egli avrebbe dovuto conoscere e segnalare, oppure a un consiglio tecnico errato. Gli esempi tipici sono un rischio non individuato nella valutazione, una misura di prevenzione inadeguata suggerita al datore di lavoro, la mancata segnalazione di un pericolo noto. Il datore di lavoro resta comunque responsabile delle proprie scelte, anche se fondate sul parere del consulente. Per l’RSPP la tutela migliore è la tracciabilità del proprio lavoro: valutazioni motivate, proposte scritte con priorità e scadenze, segnalazioni documentate delle criticità rilevate nei sopralluoghi e dei ritardi nell’attuazione delle misure."
+  }
+ ]
+}

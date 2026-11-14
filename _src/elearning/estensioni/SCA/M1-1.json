@@ -1,0 +1,20 @@
+{
+ "dopo": "Acque meteoriche di dilavamento e prima pioggia",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "La disciplina regionale delle acque meteoriche",
+   "lead": "L’art. 113 del D.lgs. 152/2006 affida alle Regioni la disciplina delle acque meteoriche di dilavamento e di prima pioggia.",
+   "punti": [
+    "Acque meteoriche non contaminate: di norma non soggette ad autorizzazione",
+    "Prima pioggia: in molte discipline regionali i primi 5 mm di precipitazione sull’intera superficie scolante",
+    "Superfici a rischio (piazzali di carico, depositi, distributori): raccolta e trattamento",
+    "Vasche di prima pioggia, dissabbiatori e disoleatori dimensionati e manutenuti",
+    "Vietato lo scarico o l’immissione diretta nelle acque sotterranee"
+   ],
+   "appro": "Le acque di seconda pioggia, successive al riempimento della vasca, possono essere scaricate se non contaminate, secondo le regole regionali.",
+   "rif": "D.lgs. 152/2006, artt. 74 e 113 · discipline regionali di attuazione",
+   "nar": "Le acque di pioggia che dilavano piazzali e coperture possono trascinare oli, idrocarburi, polveri e residui delle attività. L’articolo centotredici del testo unico affida alle Regioni la disciplina delle acque meteoriche di dilavamento e delle acque di prima pioggia, e stabilisce che le Regioni individuano i casi in cui queste acque devono essere convogliate e trattate, per le superfici in cui esiste il rischio di dilavamento di sostanze pericolose o pregiudizievoli per l’ambiente. Molte discipline regionali definiscono acque di prima pioggia quelle corrispondenti ai primi cinque millimetri di precipitazione distribuiti uniformemente sull’intera superficie scolante. Sono tipicamente considerate superfici a rischio i piazzali di carico e scarico, le aree di deposito di materiali e rifiuti, gli impianti di distribuzione di carburanti e le aree di lavaggio. Per queste superfici si prevedono vasche di prima pioggia, dissabbiatori e disoleatori, dimensionati secondo le regole regionali e soggetti a manutenzione documentata, con lo svuotamento periodico dei fanghi e degli oli come rifiuti. Le acque di seconda pioggia, che arrivano dopo il riempimento della vasca, possono di regola essere scaricate se non contaminate. Resta in ogni caso vietato lo scarico o l’immissione diretta delle acque meteoriche nelle acque sotterranee."
+  }
+ ]
+}

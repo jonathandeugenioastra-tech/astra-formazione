@@ -1,0 +1,21 @@
+{
+ "dopo": "Autorizzazione allo scarico e valori limite",
+ "origine": "SCA/M1-3.json",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Lo scarico in pubblica fognatura",
+   "lead": "Gli scarichi industriali in fognatura rispettano le norme tecniche, le prescrizioni e i valori limite stabiliti per la rete e per l’impianto di depurazione finale.",
+   "punti": [
+    "Scarichi domestici in fognatura: sempre ammessi nel rispetto del regolamento del gestore",
+    "Scarichi industriali: autorizzazione, rilasciata sentito il gestore del servizio idrico integrato",
+    "Limiti della Tabella 3 (colonna fognatura) o limiti specifici del gestore, se compatibili con il depuratore",
+    "Per le sostanze della Tabella 5 i limiti non possono essere resi meno restrittivi",
+    "Possibili pretrattamenti, misuratori di portata e pozzetti di campionamento"
+   ],
+   "appro": "Il regolamento del gestore può fissare anche la tariffa per gli scarichi industriali in funzione di quantità e qualità del refluo.",
+   "rif": "D.lgs. 152/2006, artt. 107 e 124 · Allegato 5 alla Parte III, Tabelle 3 e 5",
+   "nar": "Molte imprese scaricano in pubblica fognatura. L’articolo centosette del testo unico stabilisce che gli scarichi di acque reflue industriali in rete fognaria sono sottoposti alle norme tecniche, alle prescrizioni regolamentari e ai valori limite adottati dall’autorità d’ambito, in base alle caratteristiche dell’impianto di depurazione finale, e comunque nel rispetto della colonna fognatura della tabella tre dell’Allegato cinque. Per le sostanze pericolose della tabella cinque i limiti non possono essere resi meno restrittivi. Gli scarichi di acque reflue domestiche in fognatura sono invece sempre ammessi, purché rispettino il regolamento del gestore del servizio idrico integrato. L’autorizzazione degli scarichi industriali in fognatura viene rilasciata acquisendo il parere del gestore e, per le piccole e medie imprese, confluisce nell’autorizzazione unica ambientale. Le prescrizioni possono richiedere pretrattamenti, come la neutralizzazione o la disoleazione, misuratori di portata, pozzetti di campionamento accessibili e autocontrolli con una frequenza stabilita. Il regolamento del gestore definisce anche la tariffa per gli scarichi industriali, calcolata in funzione della quantità e della qualità del refluo. Conoscere l’autorizzazione e il regolamento è indispensabile per chi gestisce l’impianto."
+  }
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "dopo": "Sanzioni per gli scarichi",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Illeciti amministrativi e reati negli scarichi",
+   "lead": "Il D.lgs. 152/2006 distingue gli illeciti amministrativi dell’art. 133 dalle contravvenzioni penali dell’art. 137.",
+   "punti": [
+    "Scarico di acque reflue industriali senza autorizzazione: arresto da 2 mesi a 2 anni o ammenda da 1.500 a 10.000 euro",
+    "Pena aggravata se lo scarico contiene sostanze pericolose delle Tabelle 5 e 3/A",
+    "Superamento dei limiti per le sostanze della Tabella 5: contravvenzione penale",
+    "Superamento dei limiti per altri parametri: sanzione amministrativa da 3.000 a 30.000 euro",
+    "Le contravvenzioni possono essere estinte con la procedura della Parte VI-bis"
+   ],
+   "appro": "Le sostanze della Tabella 5 dell’Allegato 5 (metalli pesanti, solventi clorurati, idrocarburi e altre) sono quelle per cui la violazione ha rilievo penale.",
+   "rif": "D.lgs. 152/2006, artt. 133, 137 e 318-bis ss.",
+   "nar": "Il sistema sanzionatorio degli scarichi distingue gli illeciti amministrativi dalle contravvenzioni penali. L’articolo centotrentasette punisce come contravvenzione l’apertura o l’effettuazione di scarichi di acque reflue industriali senza autorizzazione, oppure con autorizzazione sospesa o revocata, con l’arresto da due mesi a due anni o con l’ammenda da millecinquecento a diecimila euro; la pena è più severa quando lo scarico contiene le sostanze pericolose indicate nelle tabelle cinque e tre A dell’Allegato cinque. Ha rilievo penale anche il superamento dei valori limite per le sostanze della tabella cinque, come metalli pesanti, solventi organici clorurati e idrocarburi. Il superamento dei limiti per gli altri parametri, invece, è punito dall’articolo centotrentatré con una sanzione amministrativa da tremila a trentamila euro. Per le contravvenzioni che non hanno cagionato danno o pericolo concreto e attuale di danno alle risorse ambientali si applica la procedura estintiva della Parte sesta bis: l’organo di vigilanza impartisce una prescrizione asseverata tecnicamente, e l’adempimento nei termini con il pagamento di un quarto del massimo dell’ammenda estingue il reato. Il rispetto delle prescrizioni autorizzative e gli autocontrolli documentati sono la migliore prevenzione."
+  }
+ ]
+}

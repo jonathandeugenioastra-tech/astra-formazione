@@ -1,0 +1,20 @@
+{
+ "dopo": "Rumore nell’ambiente esterno",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Classi acustiche, limiti e criterio differenziale",
+   "lead": "La L. 447/1995 e il D.P.C.M. 14 novembre 1997 regolano il rumore immesso dalle attività nell’ambiente esterno e abitativo.",
+   "punti": [
+    "Classificazione acustica comunale in sei classi, dalle aree protette (I) alle aree esclusivamente industriali (VI)",
+    "Limiti di emissione e di immissione per periodo diurno (6-22) e notturno (22-6)",
+    "Classe VI: limite assoluto di immissione di 70 dB(A) di giorno e di notte",
+    "Criterio differenziale negli ambienti abitativi: 5 dB(A) di giorno, 3 dB(A) di notte",
+    "Documentazione di previsione di impatto acustico per nuovi insediamenti produttivi"
+   ],
+   "appro": "Il criterio differenziale non si applica nelle aree esclusivamente industriali e quando il rumore misurato all’interno dell’abitazione è inferiore alle soglie di applicabilità.",
+   "rif": "L. 26 ottobre 1995, n. 447, artt. 6 e 8 · D.P.C.M. 14 novembre 1997 · D.P.R. 227/2011, art. 4",
+   "nar": "Il rumore prodotto da un’attività verso l’esterno è disciplinato dalla legge quadro quattrocentoquarantasette del millenovecentonovantacinque e dal decreto del Presidente del Consiglio dei ministri del quattordici novembre millenovecentonovantasette. Ogni comune suddivide il territorio in sei classi acustiche: dalla classe uno, aree particolarmente protette come scuole e ospedali, alla classe sei, aree esclusivamente industriali. Per ciascuna classe sono fissati valori limite di emissione, riferiti alla singola sorgente, e valori limite assoluti di immissione, riferiti al rumore complessivo, distinti per il periodo diurno, dalle sei alle ventidue, e notturno. Nella classe sei il limite di immissione è di settanta decibel A sia di giorno sia di notte. Negli ambienti abitativi vale inoltre il criterio differenziale: la differenza tra rumore ambientale e rumore residuo non deve superare cinque decibel di giorno e tre di notte. Il criterio non si applica nelle aree esclusivamente industriali né quando il rumore misurato all’interno dell’abitazione è inferiore alle soglie di applicabilità. Per i nuovi insediamenti produttivi l’articolo otto della legge quadro richiede la documentazione di previsione di impatto acustico, semplificata per le attività a bassa rumorosità dal decreto del Presidente della Repubblica duecentoventisette del duemilaundici."
+  }
+ ]
+}

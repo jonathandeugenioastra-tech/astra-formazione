@@ -1,0 +1,21 @@
+{
+ "dopo": "Autorizzazione allo scarico e valori limite",
+ "origine": "LEG-AMB/M2-3.json",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Autorizzazione, campionamento e divieti",
+   "lead": "Tutti gli scarichi devono essere preventivamente autorizzati, salvo gli scarichi domestici in fognatura, ammessi nel rispetto dei regolamenti del gestore.",
+   "punti": [
+    "Autorizzazione rilasciata al titolare dell’attività da cui origina lo scarico; per le PMI confluisce nell’AUA",
+    "Validità ordinaria di 4 anni; rinnovo da chiedere un anno prima (15 anni se in AUA)",
+    "Valori limite delle Tabelle dell’Allegato 5 alla Parte III e regolamento del gestore per la fognatura",
+    "Scarico accessibile per il campionamento nel punto assunto per la misurazione",
+    "Divieto di conseguire i limiti per diluizione con acque prelevate allo scopo"
+   ],
+   "appro": "I limiti si verificano di norma su un campione medio prelevato nell’arco di tre ore; l’autorità può motivare il prelievo istantaneo.",
+   "rif": "D.lgs. 152/2006, artt. 101, 107, 124 e Allegato 5 alla Parte III",
+   "nar": "Il principio generale dell’articolo centoventiquattro è che tutti gli scarichi devono essere preventivamente autorizzati. Fanno eccezione gli scarichi di acque reflue domestiche in rete fognaria, sempre ammessi nel rispetto dei regolamenti del gestore del servizio idrico integrato. L’autorizzazione è rilasciata al titolare dell’attività da cui origina lo scarico, ha validità di quattro anni e il rinnovo va chiesto un anno prima della scadenza; per le piccole e medie imprese confluisce nell’autorizzazione unica ambientale, che dura quindici anni. I valori limite sono fissati nelle tabelle dell’Allegato cinque alla Parte terza: la tabella tre per gli scarichi in acque superficiali e in fognatura, la tabella quattro per i casi ammessi di scarico sul suolo; per la fognatura valgono anche i limiti stabiliti dal gestore. L’articolo centouno impone che gli scarichi industriali siano resi accessibili per il campionamento nel punto assunto per la misurazione, di solito un pozzetto immediatamente a monte dell’immissione nel corpo ricettore, e vieta di raggiungere i limiti diluendo il refluo con acque prelevate esclusivamente a questo scopo. Di norma la verifica avviene su un campione medio prelevato nell’arco di tre ore."
+  }
+ ]
+}

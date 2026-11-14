@@ -1,0 +1,20 @@
+{
+ "dopo": "Il registro delle prescrizioni legali e autorizzative",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "La valutazione periodica della conformità",
+   "lead": "Individuare gli obblighi non basta: occorre verificare periodicamente di rispettarli e documentare l’esito.",
+   "punti": [
+    "Obblighi di conformità: leggi, autorizzazioni, prescrizioni, impegni volontari",
+    "Per ogni obbligo: requisito, scadenza, responsabile, evidenza",
+    "Frequenza della valutazione proporzionata al rischio e alle scadenze",
+    "Esiti registrati; non conformità gestite con azioni correttive",
+    "Aggiornamento a ogni nuova norma, autorizzazione o modifica dell’impianto"
+   ],
+   "appro": "La norma ISO 14001:2026, pubblicata ad aprile 2026, mantiene il requisito di valutazione della conformità; i certificati accreditati vanno adeguati entro il periodo di transizione.",
+   "rif": "UNI EN ISO 14001:2026, §§ 6.1.3 e 9.1.2 · Reg. (CE) 1221/2009 (EMAS)",
+   "nar": "Il registro delle prescrizioni elenca gli obblighi ambientali applicabili all’organizzazione, ma il suo valore dipende da come viene utilizzato. La norma ISO quattordicimilauno chiede di determinare gli obblighi di conformità, cioè leggi, regolamenti, autorizzazioni, prescrizioni delle autorità e impegni assunti volontariamente, e poi di valutare periodicamente se sono rispettati. Per ogni obbligo conviene indicare il requisito, la fonte, la scadenza, il responsabile interno e l’evidenza che ne dimostra il rispetto, come un certificato di analisi, una ricevuta di trasmissione o un verbale di verifica. La frequenza della valutazione è stabilita dall’organizzazione in proporzione al rischio e alle scadenze: un autocontrollo semestrale sulle emissioni richiede una verifica almeno semestrale. Gli esiti si registrano e le eventuali non conformità si gestiscono con azioni correttive, analizzandone le cause. Il registro va aggiornato a ogni nuova norma, a ogni nuova autorizzazione e a ogni modifica dell’impianto. La nuova edizione della norma, pubblicata nell’aprile duemilaventisei, mantiene questo requisito e rafforza l’attenzione al contesto e ai cambiamenti; le organizzazioni certificate devono completare la transizione entro il periodo stabilito dagli enti di accreditamento."
+  }
+ ]
+}

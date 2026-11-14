@@ -1,0 +1,50 @@
+{
+ "dopo": "Rifiuti: definizioni e classificazione",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "La gerarchia dei rifiuti",
+   "lead": "L’art. 179 del D.lgs. 152/2006 stabilisce l’ordine di priorità delle opzioni di gestione dei rifiuti.",
+   "punti": [
+    "1. Prevenzione: ridurre quantità e pericolosità dei rifiuti",
+    "2. Preparazione per il riutilizzo",
+    "3. Riciclaggio",
+    "4. Recupero di altro tipo, ad esempio il recupero di energia",
+    "5. Smaltimento, come ultima opzione"
+   ],
+   "appro": "Ci si può discostare dalla gerarchia solo per singoli flussi, quando un’analisi del ciclo di vita dimostra un risultato ambientale complessivamente migliore.",
+   "rif": "D.lgs. 152/2006, artt. 179 e 180 · Dir. 2008/98/CE, art. 4",
+   "nar": "La gestione dei rifiuti segue un ordine di priorità stabilito dalla direttiva quadro europea e recepito nell’articolo centosettantanove del testo unico ambientale. Al primo posto c’è la prevenzione, cioè l’insieme delle misure adottate prima che una sostanza o un prodotto diventi rifiuto, per ridurne la quantità, gli impatti negativi e il contenuto di sostanze pericolose. Seguono la preparazione per il riutilizzo, con operazioni di controllo, pulizia e riparazione che consentono a prodotti o componenti divenuti rifiuti di essere reimpiegati senza altro pretrattamento; il riciclaggio, che ritrasforma i materiali dei rifiuti in prodotti o materie; il recupero di altro tipo, come il recupero di energia; infine lo smaltimento, che rappresenta l’ultima opzione, ad esempio la discarica. La gerarchia non è assoluta: per singoli flussi di rifiuti ci si può discostare quando un’analisi sull’intero ciclo di vita dimostra che un’altra opzione produce il miglior risultato ambientale complessivo. Per l’impresa la gerarchia si traduce in scelte concrete: progettare imballaggi riutilizzabili, separare i rifiuti alla fonte per favorirne il riciclaggio, preferire impianti di recupero rispetto allo smaltimento nella scelta dei fornitori."
+  },
+  {
+   "t": "testo",
+   "tit": "Sottoprodotti e cessazione della qualifica di rifiuto",
+   "lead": "Non tutti i residui di produzione sono rifiuti: il sottoprodotto e l’«end of waste» sono le due vie previste dalla legge.",
+   "punti": [
+    "Sottoprodotto (art. 184-bis): residuo di un processo che non ha come scopo la sua produzione",
+    "Utilizzo certo, diretto e senza trattamenti diversi dalla normale pratica industriale",
+    "Utilizzo legale, senza impatti negativi su ambiente e salute; criteri del D.M. 264/2016",
+    "End of waste (art. 184-ter): rifiuto sottoposto a recupero che rispetta criteri specifici",
+    "Criteri fissati da regolamenti UE, decreti ministeriali o, caso per caso, nell’autorizzazione"
+   ],
+   "appro": "L’onere di dimostrare le condizioni del sottoprodotto grava su chi lo produce e lo utilizza: in assenza di prove documentali il residuo è un rifiuto.",
+   "rif": "D.lgs. 152/2006, artt. 183, 184-bis e 184-ter · D.M. 13 ottobre 2016, n. 264",
+   "nar": "Un residuo di produzione non è necessariamente un rifiuto. L’articolo centoottantaquattro bis definisce sottoprodotto la sostanza o l’oggetto che soddisfa quattro condizioni insieme: origina da un processo di produzione di cui costituisce parte integrante, ma il cui scopo primario non è la sua produzione; è certo che sarà utilizzato, nello stesso o in un successivo processo, dal produttore o da terzi; può essere utilizzato direttamente senza alcun trattamento diverso dalla normale pratica industriale; il suo utilizzo è legale, cioè rispetta i requisiti di prodotto e di tutela ambientale e sanitaria. Il decreto ministeriale duecentosessantaquattro del duemilasedici indica i mezzi di prova, come contratti di cessione e schede tecniche. L’articolo centoottantaquattro ter disciplina invece la cessazione della qualifica di rifiuto: un rifiuto smette di essere tale quando è stato sottoposto a un’operazione di recupero e soddisfa criteri specifici, stabiliti da regolamenti europei, da decreti ministeriali o, in mancanza, caso per caso nell’autorizzazione dell’impianto. In entrambi i casi l’onere della prova grava su chi invoca la deroga: senza documentazione il residuo resta un rifiuto, con tutte le conseguenze anche sanzionatorie."
+  },
+  {
+   "t": "testo",
+   "tit": "Rifiuti urbani e rifiuti speciali",
+   "lead": "Dal D.lgs. 116/2020 la distinzione tra rifiuti urbani e speciali si basa su elenchi di attività e di tipologie di rifiuti.",
+   "punti": [
+    "Urbani: domestici e rifiuti simili per natura e composizione prodotti da altre fonti (Allegati L-quater e L-quinquies)",
+    "Speciali: da attività agricole, costruzione e demolizione, lavorazioni industriali e artigianali, attività di trattamento",
+    "Le industrie con capannoni di produzione generano rifiuti speciali, salvo aree come uffici e mense",
+    "Le utenze non domestiche possono conferire gli urbani al di fuori del servizio pubblico, dimostrandone l’avvio a recupero",
+    "La classificazione di pericolosità è distinta: esistono urbani e speciali, pericolosi e non pericolosi"
+   ],
+   "appro": "La qualificazione incide sulla tassa rifiuti, sui soggetti che possono effettuare la raccolta e sugli obblighi di tracciabilità.",
+   "rif": "D.lgs. 152/2006, artt. 183 c. 1 lett. b-ter e 184 · D.lgs. 3 settembre 2020, n. 116",
+   "nar": "Il testo unico classifica i rifiuti secondo l’origine, in urbani e speciali, e secondo le caratteristiche di pericolo, in pericolosi e non pericolosi. Le due classificazioni sono indipendenti. Il decreto legislativo centosedici del duemilaventi ha ridefinito i rifiuti urbani: comprendono i rifiuti domestici e i rifiuti provenienti da altre fonti simili per natura e composizione ai domestici, individuati incrociando l’elenco delle attività dell’Allegato L quinquies con l’elenco delle tipologie di rifiuti dell’Allegato L quater. Sono invece speciali, secondo l’articolo centoottantaquattro, i rifiuti delle attività agricole, delle attività di costruzione e demolizione, delle lavorazioni industriali e artigianali, delle attività commerciali e di servizio quando non rientrano negli urbani, delle attività di recupero e smaltimento e i fanghi di depurazione. Nelle industrie i rifiuti delle aree produttive sono di regola speciali, mentre quelli di uffici, mense e servizi possono essere urbani. Le utenze non domestiche possono conferire i rifiuti urbani anche al di fuori del servizio pubblico, dimostrando di averli avviati al recupero. La corretta qualificazione incide sulla tassa rifiuti, sui soggetti abilitati alla raccolta e sugli adempimenti di tracciabilità."
+  }
+ ]
+}

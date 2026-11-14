@@ -1,0 +1,21 @@
+{
+ "dopo": "Scarichi: definizioni e tipologie",
+ "origine": "LEG-AMB/M2-2.json",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Scarico o rifiuto liquido?",
+   "lead": "La nozione di scarico richiede un sistema stabile di collettamento: in sua assenza il refluo è un rifiuto liquido.",
+   "punti": [
+    "Scarico: immissione esclusivamente tramite un sistema stabile di collettamento",
+    "Collegamento senza soluzione di continuità tra ciclo di produzione e corpo ricettore",
+    "Reflui raccolti in vasche e trasportati con autobotte: rifiuti liquidi (Parte IV)",
+    "Acque reflue domestiche, industriali e urbane: definizioni dell’art. 74",
+    "Assimilazione alle domestiche: art. 101 c. 7 e disciplina regionale"
+   ],
+   "appro": "La distinzione cambia completamente il regime: autorizzazione allo scarico e valori limite, oppure formulario, registro e impianto di trattamento rifiuti autorizzato.",
+   "rif": "D.lgs. 152/2006, artt. 74, 101 e 185 · D.P.R. 19 ottobre 2011, n. 227",
+   "nar": "La prima domanda da porsi davanti a un refluo è se si tratti di uno scarico o di un rifiuto liquido. L’articolo settantaquattro definisce scarico qualsiasi immissione effettuata esclusivamente tramite un sistema stabile di collettamento che collega senza soluzione di continuità il ciclo di produzione del refluo con il corpo ricettore, cioè acque superficiali, suolo, sottosuolo o rete fognaria. Se questo collegamento manca, perché le acque vengono raccolte in una vasca e periodicamente prelevate con un’autobotte, non c’è scarico ma un rifiuto liquido, soggetto alla Parte quarta: formulario, registro di carico e scarico, conferimento a un impianto autorizzato. Lo stesso articolo distingue le acque reflue domestiche, provenienti da insediamenti residenziali e servizi e derivanti dal metabolismo umano e dalle attività domestiche; le acque reflue industriali, scaricate da edifici in cui si svolgono attività commerciali o di produzione, diverse dalle domestiche e dalle meteoriche di dilavamento; le acque reflue urbane, miste, convogliate nelle reti fognarie. L’articolo centouno, comma sette, e il decreto del Presidente della Repubblica duecentoventisette del duemilaundici consentono di assimilare alle domestiche alcuni reflui di attività produttive con caratteristiche equivalenti, secondo i criteri regionali."
+  }
+ ]
+}

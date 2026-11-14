@@ -635,6 +635,24 @@ window.CORSO = {
      "ancora": "Esempio applicativo: un ritiro di rifiuti pericolosi con il nuovo sistema"
     },
     {
+     "foto": false,
+     "t": "testo",
+     "tit": "Rifiuti pericolosi e trasporto ADR",
+     "lead": "Un rifiuto pericoloso è spesso anche una merce pericolosa per il trasporto su strada: si applicano insieme la disciplina dei rifiuti e l’accordo ADR.",
+     "punti": [
+      "Classificazione ADR distinta dalla classificazione HP: numero ONU, classe, gruppo di imballaggio",
+      "Imballaggi omologati, etichette e pannelli arancioni secondo l’ADR",
+      "Il formulario riporta le indicazioni ADR richieste per il documento di trasporto",
+      "Esenzioni parziali per quantità limitate per unità di trasporto (punto 1.1.3.6)",
+      "Consulente per la sicurezza dei trasporti per chi spedisce, carica o trasporta merci pericolose"
+     ],
+     "appro": "Il produttore che consegna rifiuti pericolosi al trasportatore è «speditore» ai fini ADR, con obblighi propri di classificazione, imballaggio ed etichettatura.",
+     "rif": "Accordo ADR, capitoli 1.1, 1.4, 1.8.3 e 5.4 · D.lgs. 35/2010 · D.lgs. 152/2006, art. 193",
+     "nar": "Molti rifiuti pericolosi, come solventi esausti, oli, batterie al piombo o imballaggi contaminati, sono anche merci pericolose ai fini del trasporto su strada, regolato dall’accordo europeo ADR, recepito in Italia con il decreto legislativo trentacinque del duemiladieci. Le due classificazioni sono distinte: le caratteristiche di pericolo HP servono per la gestione del rifiuto, mentre per il trasporto occorre attribuire il numero ONU, la classe di pericolo e il gruppo di imballaggio secondo i criteri ADR. Ne derivano obblighi pratici: imballaggi omologati e idonei, etichette di pericolo sui colli, pannelli arancioni sui veicoli quando richiesti, documenti di trasporto con le indicazioni previste dal capitolo cinque punto quattro, che possono essere riportate nel formulario di identificazione. Il punto uno uno tre sei prevede esenzioni parziali quando le quantità per unità di trasporto non superano determinati limiti, calcolati con un sistema di punteggio. Le imprese che spediscono, caricano, imballano o trasportano merci pericolose devono designare un consulente per la sicurezza dei trasporti. Il produttore che consegna rifiuti pericolosi al trasportatore riveste il ruolo di speditore, con obblighi propri di classificazione, imballaggio ed etichettatura, distinti da quelli del trasportatore.",
+     "est": true,
+     "ancora": "Esempio applicativo: un ritiro di rifiuti pericolosi con il nuovo sistema"
+    },
+    {
      "t": "caso",
      "tit": "Esercitazione · L’impresa con 12 dipendenti",
      "scena": "Un’impresa artigiana con 12 dipendenti produce rifiuti non pericolosi di lavorazione e alcuni rifiuti pericolosi (stracci contaminati, bombolette). Non si è ancora iscritta al RENTRI.",
@@ -769,6 +787,24 @@ window.CORSO = {
      "appro": "Il MUD si compila a partire dal registro cronologico: la coerenza tra registro, formulari e dichiarazione è uno degli elementi più controllati.",
      "rif": "L. 25 gennaio 1994, n. 70 · D.lgs. 152/2006, art. 189 · D.P.C.M. 30 gennaio 2026",
      "nar": "Il modello unico di dichiarazione ambientale, istituito dalla legge settanta del millenovecentonovantaquattro, riepiloga ogni anno le quantità e le tipologie di rifiuti prodotti, trasportati, recuperati o smaltiti nell’anno precedente. Il modello per le dichiarazioni presentate nel duemilaventisei è stato approvato con il decreto del Presidente del Consiglio dei ministri del trenta gennaio duemilaventisei. La dichiarazione si presenta in via telematica entro il trenta aprile alla Camera di commercio competente per territorio. L’articolo centoottantanove del testo unico individua i soggetti obbligati: chi effettua a titolo professionale la raccolta e il trasporto di rifiuti, i commercianti e gli intermediari senza detenzione, gli impianti di recupero e smaltimento, i produttori iniziali di rifiuti pericolosi e i produttori di rifiuti speciali non pericolosi derivanti da lavorazioni industriali e artigianali e dal trattamento delle acque, quando hanno più di dieci dipendenti. Il modello comprende anche comunicazioni specifiche per i rifiuti di apparecchiature elettriche ed elettroniche, i veicoli fuori uso, gli imballaggi e i rifiuti urbani gestiti dai comuni. I dati si ricavano dal registro cronologico: la coerenza tra registro, formulari e dichiarazione annuale è uno degli aspetti più verificati dagli organi di controllo.",
+     "est": true,
+     "ancora": "Organizzazione interna e controlli"
+    },
+    {
+     "foto": false,
+     "t": "testo",
+     "tit": "I rifiuti sanitari: il D.P.R. 254/2003",
+     "lead": "I rifiuti prodotti da strutture sanitarie, studi medici e veterinari, laboratori e alcune attività di servizio seguono una disciplina specifica.",
+     "punti": [
+      "Rifiuti sanitari pericolosi a rischio infettivo: contenitori dedicati, rigidi per i taglienti",
+      "Deposito temporaneo dei rifiuti a rischio infettivo: massimo 5 giorni dalla chiusura del contenitore",
+      "Estensione fino a 30 giorni per quantità inferiori a 200 litri",
+      "Sterilizzazione come possibile trattamento prima dello smaltimento",
+      "Destinazione prevalente: termodistruzione in impianti autorizzati"
+     ],
+     "appro": "Tatuatori, centri estetici, farmacie e laboratori producono rifiuti sanitari: la classificazione e i tempi di deposito vanno verificati caso per caso.",
+     "rif": "D.P.R. 15 luglio 2003, n. 254, artt. 2 e 8 · D.lgs. 152/2006, art. 227",
+     "nar": "I rifiuti sanitari sono disciplinati dal decreto del Presidente della Repubblica duecentocinquantaquattro del duemilatré, richiamato dall’articolo duecentoventisette del testo unico ambientale. Riguardano le strutture sanitarie pubbliche e private, gli studi medici, odontoiatrici e veterinari, i laboratori di analisi, e anche alcune attività di servizio alla persona. La categoria più delicata è quella dei rifiuti sanitari pericolosi a rischio infettivo, che comprende i materiali venuti a contatto con sangue o liquidi biologici e i taglienti. Vanno raccolti in contenitori dedicati, rigidi e resistenti alla perforazione per aghi e lame, con imballaggi a perdere recanti la scritta prevista. Il deposito temporaneo dei rifiuti a rischio infettivo può durare al massimo cinque giorni dal momento della chiusura del contenitore; il termine può essere esteso fino a trenta giorni per quantitativi inferiori a duecento litri, nel rispetto dei requisiti di igiene e sicurezza. Questi rifiuti possono essere sterilizzati prima dello smaltimento e sono destinati prevalentemente alla termodistruzione in impianti autorizzati. Anche tatuatori, centri estetici, farmacie e laboratori producono rifiuti sanitari: la classificazione, i contenitori e i tempi di deposito vanno verificati caso per caso.",
      "est": true,
      "ancora": "Organizzazione interna e controlli"
     },

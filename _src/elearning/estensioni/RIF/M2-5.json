@@ -1,0 +1,20 @@
+{
+ "dopo": "Il trasporto dei rifiuti e l’Albo nazionale gestori ambientali",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Rifiuti pericolosi e trasporto ADR",
+   "lead": "Un rifiuto pericoloso è spesso anche una merce pericolosa per il trasporto su strada: si applicano insieme la disciplina dei rifiuti e l’accordo ADR.",
+   "punti": [
+    "Classificazione ADR distinta dalla classificazione HP: numero ONU, classe, gruppo di imballaggio",
+    "Imballaggi omologati, etichette e pannelli arancioni secondo l’ADR",
+    "Il formulario riporta le indicazioni ADR richieste per il documento di trasporto",
+    "Esenzioni parziali per quantità limitate per unità di trasporto (punto 1.1.3.6)",
+    "Consulente per la sicurezza dei trasporti per chi spedisce, carica o trasporta merci pericolose"
+   ],
+   "appro": "Il produttore che consegna rifiuti pericolosi al trasportatore è «speditore» ai fini ADR, con obblighi propri di classificazione, imballaggio ed etichettatura.",
+   "rif": "Accordo ADR, capitoli 1.1, 1.4, 1.8.3 e 5.4 · D.lgs. 35/2010 · D.lgs. 152/2006, art. 193",
+   "nar": "Molti rifiuti pericolosi, come solventi esausti, oli, batterie al piombo o imballaggi contaminati, sono anche merci pericolose ai fini del trasporto su strada, regolato dall’accordo europeo ADR, recepito in Italia con il decreto legislativo trentacinque del duemiladieci. Le due classificazioni sono distinte: le caratteristiche di pericolo HP servono per la gestione del rifiuto, mentre per il trasporto occorre attribuire il numero ONU, la classe di pericolo e il gruppo di imballaggio secondo i criteri ADR. Ne derivano obblighi pratici: imballaggi omologati e idonei, etichette di pericolo sui colli, pannelli arancioni sui veicoli quando richiesti, documenti di trasporto con le indicazioni previste dal capitolo cinque punto quattro, che possono essere riportate nel formulario di identificazione. Il punto uno uno tre sei prevede esenzioni parziali quando le quantità per unità di trasporto non superano determinati limiti, calcolati con un sistema di punteggio. Le imprese che spediscono, caricano, imballano o trasportano merci pericolose devono designare un consulente per la sicurezza dei trasporti. Il produttore che consegna rifiuti pericolosi al trasportatore riveste il ruolo di speditore, con obblighi propri di classificazione, imballaggio ed etichettatura, distinti da quelli del trasportatore."
+  }
+ ]
+}

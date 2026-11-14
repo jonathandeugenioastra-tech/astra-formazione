@@ -1,0 +1,72 @@
+{
+ "dopo": "Organizzazione interna e controlli",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Il quadro sanzionatorio",
+   "lead": "Le violazioni degli obblighi di tracciabilità sono sanzionate dall’art. 258 del D.lgs. 152/2006; la falsità nei documenti ha anche rilievo penale.",
+   "punti": [
+    "Omessa iscrizione, omessa o incompleta tenuta del registro e del formulario: sanzioni amministrative pecuniarie dell’art. 258",
+    "Comma 10-bis: sanzioni per la mancata o incompleta trasmissione dei dati dei formulari, applicabili dal 15 settembre 2026",
+    "Formulario con indicazioni incomplete o inesatte: sanzione amministrativa; dati falsi sulla natura del rifiuto: rilievo penale (art. 258, c. 4, con rinvio all’art. 483 c.p.)",
+    "Il trasporto senza formulario o con formulario non conforme espone anche il trasportatore",
+    "Le sanzioni si sommano alla responsabilità per la gestione illecita dei rifiuti"
+   ],
+   "appro": "Gli importi variano secondo la pericolosità del rifiuto e la dimensione dell’impresa e vanno verificati sul testo vigente dell’art. 258 al momento della contestazione. Per l’ente, le violazioni più gravi possono rilevare anche ai fini del D.lgs. 231/2001.",
+   "rif": "D.lgs. 152/2006, art. 258 · Codice penale, art. 483 · D.lgs. 231/2001, art. 25-undecies",
+   "nar": "Le violazioni degli obblighi di tracciabilità sono sanzionate dall’articolo duecentocinquantotto del codice dell’ambiente. Sono previste sanzioni amministrative pecuniarie per l’omessa iscrizione al registro elettronico, per l’omessa o incompleta tenuta del registro cronologico e per l’omessa o non corretta compilazione del formulario. Il comma dieci-bis, introdotto nel duemilaventisei, rende applicabili dal quindici settembre duemilaventisei le sanzioni per la mancata o incompleta trasmissione al registro dei dati contenuti nei formulari. Occorre distinguere l’errore dalla falsità. Un formulario con indicazioni incomplete o inesatte è sanzionato in via amministrativa; chi invece predispone o utilizza un formulario con indicazioni false sulla natura, sulla composizione o sulle caratteristiche chimico-fisiche del rifiuto risponde anche sul piano penale, in base al comma quattro dell’articolo duecentocinquantotto, che rinvia al delitto di falsità ideologica commessa dal privato in atto pubblico. Il trasporto senza formulario o con un formulario non conforme espone anche il trasportatore. Gli importi variano secondo la pericolosità del rifiuto e la dimensione dell’impresa e vanno sempre verificati sul testo vigente al momento della contestazione. Per l’ente, infine, le violazioni più gravi in materia di rifiuti possono rilevare anche ai fini della responsabilità amministrativa prevista dal decreto duecentotrentuno del duemilauno."
+  },
+  {
+   "t": "caso",
+   "tit": "Caso di studio · Il formulario cartaceo dopo il 16 settembre",
+   "scena": "Il 20 ottobre 2026 un trasportatore si presenta presso un’impresa metalmeccanica con 40 dipendenti, iscritta al RENTRI, per ritirare morchie di verniciatura (rifiuto pericoloso). L’addetto propone di compilare un formulario cartaceo «come si è sempre fatto», perché il gestionale non è ancora aggiornato. I servizi del RENTRI risultano regolarmente disponibili.",
+   "domanda": "Qual è la condotta corretta?",
+   "opz": [
+    [
+     "Compilare il formulario cartaceo: il trasportatore lo accetta comunque",
+     false,
+     "No: il periodo transitorio è terminato il 15 settembre 2026; per un produttore obbligato il formulario deve essere digitale."
+    ],
+    [
+     "Emettere il formulario digitale con i servizi di supporto del portale RENTRI e firmarlo digitalmente",
+     true,
+     "Corretto: in assenza di indisponibilità dei servizi, il produttore obbligato usa il formato digitale, anche tramite gli strumenti gratuiti del portale."
+    ],
+    [
+     "Attivare la procedura di indisponibilità prevista dal D.D. 25/2026",
+     false,
+     "No: le modalità di sicurezza si applicano solo in caso di indisponibilità accertata dei servizi."
+    ]
+   ],
+   "rif": "D.M. 59/2023, art. 7 · L. 26/2026 · D.D. MASE 5 febbraio 2026, n. 25",
+   "appro": "Il ritardo nell’aggiornamento del gestionale non giustifica il ritorno alla carta: il portale offre servizi di supporto per emettere e firmare il formulario digitale.",
+   "nar": "Caso di studio. Un’impresa iscritta al registro elettronico deve consegnare un rifiuto pericoloso dopo la fine del periodo transitorio, e l’addetto propone di usare il formulario cartaceo perché il gestionale non è aggiornato. Si individui la condotta corretta."
+  },
+  {
+   "t": "caso",
+   "tit": "Caso di studio · Il centro estetico escluso dal RENTRI",
+   "scena": "Un centro estetico con 3 addetti produce aghi e oggetti taglienti usati (EER 18 01 03*) e residui di prodotti chimici. Il titolare, informato dell’esclusione dal RENTRI prevista dalla L. 199/2025, ritiene di non avere più alcun obbligo.",
+   "domanda": "Quale affermazione descrive correttamente la situazione?",
+   "opz": [
+    [
+     "L’esclusione elimina ogni obbligo: i rifiuti possono essere conferiti con i rifiuti urbani",
+     false,
+     "No: l’esclusione riguarda l’iscrizione e il registro digitale, non la gestione dei rifiuti pericolosi."
+    ],
+    [
+     "Il centro non si iscrive al RENTRI, ma affida i rifiuti a soggetti autorizzati, con formulario e nel rispetto del deposito temporaneo",
+     true,
+     "Corretto: restano gli obblighi di corretta gestione, trasporto documentato e conferimento a impianti autorizzati."
+    ],
+    [
+     "Il centro deve comunque iscriversi perché produce rifiuti pericolosi",
+     false,
+     "No: le attività con i codici ATECO indicati dall’art. 190, c. 6, sono escluse dall’iscrizione."
+    ]
+   ],
+   "rif": "D.lgs. 152/2006, artt. 185-bis, 188-bis, c. 3-bis, 190, c. 6, e 193 · L. 199/2025",
+   "appro": "La documentazione dei conferimenti (formulari e contratti con l’operatore autorizzato) è la prova della corretta gestione in caso di controllo.",
+   "nar": "Caso di studio. Un centro estetico escluso dall’iscrizione al registro elettronico ritiene di non avere più obblighi sulla gestione degli aghi usati e dei residui chimici. Si individui l’affermazione corretta."
+  }
+ ]
+}

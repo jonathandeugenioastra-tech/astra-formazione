@@ -1,0 +1,78 @@
+{
+ "dopo": "Il registro cronologico di carico e scarico nel RENTRI",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Annotazioni, trasmissioni e conservazione: i termini",
+   "lead": "Il registro digitale funziona solo se annotazioni e trasmissioni rispettano termini precisi, fissati dal codice dell’ambiente e dal regolamento RENTRI.",
+   "punti": [
+    "Produttori iniziali: annotazione di carico e scarico almeno entro dieci giorni lavorativi dalla produzione e dallo scarico (art. 190)",
+    "Trasmissione dei dati del registro: mensile, entro la fine del mese successivo a quello dell’annotazione; nessuna trasmissione se nel mese non vi sono annotazioni",
+    "Tramite soggetto delegato: entro la fine del secondo mese successivo",
+    "Formulari di rifiuti pericolosi: trasmissione dei dati da parte di produttore, trasportatore e impianto nei termini dell’art. 15",
+    "Conservazione del registro per tre anni dall’ultima registrazione"
+   ],
+   "appro": "Il regolamento non prevede la trasmissione al RENTRI dei dati dei formulari dei rifiuti non pericolosi: per questi resta l’annotazione nel registro. Un calendario interno con le scadenze mensili evita accumuli e trasmissioni tardive.",
+   "rif": "D.lgs. 152/2006, art. 190 · D.M. 4 aprile 2023, n. 59, artt. 4 e 15",
+   "nar": "Il registro elettronico funziona solo se annotazioni e trasmissioni rispettano termini precisi. Per i produttori iniziali, l’articolo centonovanta del codice dell’ambiente prevede che le operazioni di carico e scarico siano annotate almeno entro dieci giorni lavorativi dalla produzione del rifiuto e dallo scarico. L’articolo quindici del regolamento disciplina poi la trasmissione dei dati al registro elettronico: i dati del registro cronologico sono trasmessi con cadenza mensile, entro la fine del mese successivo a quello in cui è stata effettuata l’annotazione; se nel mese non vi sono nuove annotazioni la trasmissione non è dovuta. Quando la trasmissione è affidata a un soggetto delegato, il termine si sposta alla fine del secondo mese successivo. Per i formulari dei rifiuti pericolosi il regolamento prevede inoltre la trasmissione dei relativi dati: il produttore entro dieci giorni lavorativi dallo scarico, il trasportatore entro dieci giorni lavorativi dalla consegna all’impianto, l’impianto entro due giorni lavorativi dalla presa in carico. Per i formulari dei rifiuti non pericolosi questa trasmissione non è prevista. Il registro va conservato per tre anni dalla data dell’ultima registrazione. Un calendario interno con le scadenze mensili evita accumuli e trasmissioni tardive."
+  },
+  {
+   "t": "abbina",
+   "tit": "Esercitazione · Termini e adempimenti",
+   "sott": "Associare a ciascun adempimento il termine corretto",
+   "coppie": [
+    [
+     "Annotazione di carico del produttore iniziale",
+     "Entro dieci giorni lavorativi dalla produzione"
+    ],
+    [
+     "Trasmissione mensile dei dati del registro",
+     "Entro la fine del mese successivo all’annotazione"
+    ],
+    [
+     "Trasmissione tramite soggetto delegato",
+     "Entro la fine del secondo mese successivo"
+    ],
+    [
+     "Dati del formulario di rifiuti pericolosi da parte dell’impianto",
+     "Entro due giorni lavorativi dalla presa in carico"
+    ],
+    [
+     "Conservazione del registro",
+     "Tre anni dall’ultima registrazione"
+    ]
+   ],
+   "nar": "Esercitazione. Si associ a ciascun adempimento del registro elettronico il termine previsto dalla norma."
+  },
+  {
+   "t": "testo",
+   "tit": "Le istruzioni di compilazione aggiornate",
+   "lead": "Le istruzioni per compilare registro e formulario sono adottate con decreto direttoriale e aggiornate periodicamente: l’ultimo aggiornamento è il D.D. 31 luglio 2026, n. 210.",
+   "punti": [
+    "Allegato 1: istruzioni per il registro cronologico di carico e scarico (art. 4 del D.M. 59/2023)",
+    "Allegato 2: istruzioni per il formulario di identificazione del rifiuto (art. 5 del D.M. 59/2023)",
+    "Il decreto aggiorna le precedenti istruzioni del D.D. 19 dicembre 2023, n. 251",
+    "Verificare che il gestionale aziendale recepisca le nuove regole di compilazione",
+    "Aggiornare procedure interne e formazione degli addetti"
+   ],
+   "appro": "Le istruzioni definiscono, tra l’altro, le causali delle annotazioni, la gestione delle quantità stimate e verificate a destino e i casi di trasbordo: sono il riferimento da usare in caso di dubbio, prima di qualsiasi prassi aziendale.",
+   "rif": "D.M. 4 aprile 2023, n. 59, artt. 4, 5 e 21 · D.D. MASE 31 luglio 2026, n. 210",
+   "nar": "Il regolamento affida a decreti direttoriali la definizione delle istruzioni operative per compilare il registro e il formulario, in modo da poterle aggiornare senza modificare il decreto ministeriale. Con il decreto direttoriale duecentodieci del trentuno luglio duemilaventisei il Ministero ha approvato le istruzioni aggiornate: l’allegato uno riguarda il registro cronologico di carico e scarico, previsto dall’articolo quattro del regolamento, e l’allegato due riguarda il formulario di identificazione del rifiuto, previsto dall’articolo cinque. Il provvedimento aggiorna le istruzioni precedentemente adottate con il decreto direttoriale duecentocinquantuno del diciannove dicembre duemilaventitré. Per l’impresa ciò comporta tre verifiche. La prima riguarda il gestionale: occorre accertare che recepisca le nuove regole di compilazione. La seconda riguarda le procedure interne, da allineare alle istruzioni. La terza riguarda la formazione degli addetti che annotano i movimenti e compilano i formulari. Le istruzioni definiscono, tra l’altro, le causali delle annotazioni, la gestione delle quantità stimate alla partenza e verificate a destino e i casi di trasbordo: sono il riferimento da consultare in caso di dubbio, prima di qualsiasi prassi aziendale consolidata."
+  },
+  {
+   "t": "testo",
+   "tit": "Deleghe e soggetti delegati",
+   "lead": "Il produttore può avvalersi di soggetti delegati iscritti in un’apposita sezione del RENTRI per l’iscrizione e la trasmissione dei dati.",
+   "punti": [
+    "Possono operare come delegati le associazioni imprenditoriali rappresentative sul piano nazionale e le società di servizi di loro diretta emanazione, oltre agli altri soggetti previsti dall’art. 18",
+    "La delega riguarda l’iscrizione e la trasmissione dei dati al RENTRI",
+    "La tenuta del registro e la correttezza dei dati restano in capo al produttore",
+    "Gli incaricati accedono con identità digitale e possono non avere titolo di rappresentanza",
+    "Deleghe e incarichi vanno aggiornati a ogni variazione organizzativa"
+   ],
+   "appro": "Una delega non trasferisce la responsabilità della corretta classificazione e annotazione: il produttore deve verificare periodicamente che i dati trasmessi dal delegato corrispondano ai documenti aziendali.",
+   "rif": "D.M. 4 aprile 2023, n. 59, art. 18 · Modalità operative RENTRI (D.D. 6 novembre 2023, n. 143)",
+   "nar": "L’articolo diciotto del regolamento consente ai produttori di avvalersi di soggetti delegati, iscritti in un’apposita sezione del registro elettronico. Possono operare come delegati, in particolare, le associazioni imprenditoriali rappresentative sul piano nazionale e le società di servizi di loro diretta emanazione, oltre agli altri soggetti individuati dalla norma. La delega riguarda l’iscrizione al registro e la trasmissione dei dati per conto del produttore. È importante comprenderne i limiti: la tenuta del registro e la correttezza dei dati, a partire dalla classificazione dei rifiuti e dalle quantità annotate, restano responsabilità del produttore. All’interno dell’impresa, inoltre, il legale rappresentante può individuare incaricati che accedono al portale con la propria identità digitale anche senza avere titolo di rappresentanza. Deleghe e incarichi vanno mantenuti aggiornati: un addetto che lascia l’azienda o un cambio di consulente senza revoca della delega sono situazioni frequenti di non conformità. Una buona prassi consiste nel verificare con cadenza periodica che i dati trasmessi dal delegato corrispondano ai documenti aziendali, conservando l’esito del controllo."
+  }
+ ]
+}

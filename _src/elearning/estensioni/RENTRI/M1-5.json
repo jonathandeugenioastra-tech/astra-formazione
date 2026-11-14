@@ -1,0 +1,92 @@
+{
+ "dopo": "Formulario di identificazione e registro di carico e scarico",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Il formulario digitale: emissione, vidimazione e firme",
+   "lead": "Il formulario in formato digitale è disciplinato dall’art. 7 del D.M. 59/2023: è emesso e vidimato tramite il RENTRI e firmato digitalmente dai soggetti della filiera.",
+   "punti": [
+    "Il produttore (o il trasportatore, su sua richiesta) emette il formulario con il gestionale interoperabile o con i servizi del portale",
+    "La vidimazione digitale assegna un numero identificativo univoco",
+    "Firme elettroniche con i certificati ammessi dalle modalità operative del RENTRI",
+    "Il formato è determinato dal produttore: se il produttore non è obbligato al digitale, l’intera filiera usa il formulario cartaceo",
+    "Trasportatori e destinatari devono saper gestire entrambi i formati"
+   ],
+   "appro": "Anche il formulario cartaceo si vidima esclusivamente tramite il RENTRI: le Camere di commercio non vidimano più i formulari. Il trasportatore aggiorna il formulario digitale durante il viaggio, compresi eventuali trasbordi e soste tecniche, secondo le istruzioni di compilazione.",
+   "rif": "D.lgs. 152/2006, art. 193 · D.M. 4 aprile 2023, n. 59, artt. 5 e 7 · Modalità operative RENTRI (D.D. 6 novembre 2023, n. 143)",
+   "nar": "Il formulario di identificazione del rifiuto in formato digitale è disciplinato dall’articolo sette del decreto ministeriale cinquantanove del duemilaventitré. Il documento è emesso dal produttore, oppure dal trasportatore su sua richiesta, mediante un sistema gestionale interoperabile con il registro elettronico o mediante i servizi di supporto disponibili sul portale. All’emissione segue la vidimazione digitale, che assegna al formulario un numero identificativo univoco. Il documento viene poi firmato elettronicamente dai soggetti della filiera, utilizzando i certificati di firma ammessi dalle modalità operative del registro. Un principio fondamentale riguarda la scelta del formato: è l’obbligo del produttore a determinarlo. Se il produttore è tenuto al formulario digitale, l’intera filiera lo utilizza; se il produttore non è obbligato, il formulario resta cartaceo per tutti i passaggi. Per questo motivo trasportatori e impianti di destinazione devono essere in grado di gestire entrambi i formati. Si ricordi che anche il formulario cartaceo è vidimato esclusivamente tramite il registro elettronico, e non più dalle Camere di commercio. Durante il viaggio il trasportatore aggiorna il formulario digitale, registrando eventuali trasbordi e soste tecniche secondo le istruzioni di compilazione."
+  },
+  {
+   "t": "testo",
+   "tit": "Il periodo transitorio e la fine del doppio binario",
+   "lead": "L’obbligo del formulario esclusivamente digitale, previsto dal 13 febbraio 2026, è stato differito dal D.L. 200/2025, convertito dalla L. 26/2026.",
+   "punti": [
+    "Fino al 15 settembre 2026 il formulario poteva essere emesso in formato cartaceo, in alternativa al digitale (art. 7, c. 8, D.M. 59/2023)",
+    "Dal 16 settembre 2026 gli operatori obbligati utilizzano esclusivamente il formulario digitale",
+    "Art. 258, comma 10-bis: sanzioni per la mancata o incompleta trasmissione al RENTRI dei dati dei formulari applicabili dal 15 settembre 2026",
+    "Il formato cartaceo resta per i produttori non obbligati al digitale",
+    "Ammesso il ricorso alle modalità di sicurezza solo in caso di indisponibilità accertata dei servizi"
+   ],
+   "appro": "La fine del periodo transitorio richiede di verificare che gestionali, firme digitali e personale di spedizione e pesa siano pronti: un formulario cartaceo emesso da un produttore obbligato, fuori dai casi di indisponibilità, non è conforme.",
+   "rif": "D.L. 31 dicembre 2025, n. 200, art. 13, conv. L. 27 febbraio 2026, n. 26 · D.lgs. 152/2006, art. 258, c. 10-bis · D.M. 59/2023, art. 7",
+   "nar": "Il regolamento prevedeva che dal tredici febbraio duemilaventisei gli operatori obbligati utilizzassero il formulario esclusivamente in formato digitale. Il decreto-legge duecento del trentuno dicembre duemilaventicinque, convertito dalla legge ventisei del ventisette febbraio duemilaventisei, ha introdotto un periodo transitorio: fino al quindici settembre duemilaventisei il formulario poteva continuare a essere emesso in formato cartaceo, in alternativa al formato digitale previsto dall’articolo sette del regolamento. La stessa legge ha inserito nell’articolo duecentocinquantotto del codice dell’ambiente il comma dieci-bis, in base al quale le sanzioni per la mancata o incompleta trasmissione al registro dei dati contenuti nei formulari si applicano a decorrere dal quindici settembre duemilaventisei. Dal giorno successivo, quindi, il doppio binario è terminato: gli operatori obbligati utilizzano soltanto il formulario digitale, mentre il formato cartaceo resta per i produttori non obbligati. Il ricorso alla carta da parte di un operatore obbligato è ammesso solo nei casi di indisponibilità dei servizi, secondo le modalità di sicurezza stabilite dal Ministero. Per l’impresa questo significa verificare che il gestionale sia interoperabile, che le firme digitali del personale siano valide e che gli addetti alla spedizione e alla pesa sappiano operare con i nuovi strumenti."
+  },
+  {
+   "t": "testo",
+   "tit": "Indisponibilità dei servizi: le modalità operative di sicurezza",
+   "lead": "Il Ministero ha disciplinato come operare quando i servizi del RENTRI non sono disponibili, così che l’attività di gestione dei rifiuti non si interrompa.",
+   "punti": [
+    "D.D. 5 febbraio 2026, n. 25: modalità operative per il formulario digitale in caso di indisponibilità non dovuta a manutenzione",
+    "D.D. 30 ottobre 2025, n. 319: modalità operative di sicurezza per il registro cronologico",
+    "Verificare l’effettiva indisponibilità tramite le comunicazioni ufficiali del portale",
+    "Applicare la procedura prevista (ad esempio emissione del formulario in formato cartaceo con le indicazioni richieste)",
+    "Regolarizzare annotazioni e trasmissioni al ripristino dei servizi, entro i termini indicati"
+   ],
+   "appro": "Le modalità di sicurezza sono un’eccezione documentata, non un’alternativa ordinaria: conservare l’evidenza del disservizio (comunicazione del portale, data e ora) e registrare chi ha attivato la procedura è parte integrante della conformità.",
+   "rif": "D.M. 59/2023, art. 21 · D.D. MASE 30 ottobre 2025, n. 319 · D.D. MASE 5 febbraio 2026, n. 25",
+   "nar": "Un sistema interamente digitale deve prevedere che cosa accade quando i servizi non sono disponibili. Il Ministero dell’ambiente ha disciplinato queste situazioni con due decreti direttoriali. Il decreto direttoriale trecentodiciannove del trenta ottobre duemilaventicinque definisce le modalità operative di sicurezza per il registro cronologico di carico e scarico. Il decreto direttoriale venticinque del cinque febbraio duemilaventisei definisce le modalità operative per la gestione del formulario digitale quando i servizi del registro non sono disponibili per cause diverse dalla manutenzione ordinaria o straordinaria. Il principio comune è che l’attività di gestione dei rifiuti non deve fermarsi, ma deve proseguire secondo una procedura documentata. Il primo passo consiste nel verificare l’effettiva indisponibilità attraverso le comunicazioni ufficiali pubblicate sul portale. Si applica quindi la procedura prevista, che per il formulario può comportare l’emissione in formato cartaceo con le indicazioni richieste. Al ripristino dei servizi occorre regolarizzare annotazioni e trasmissioni entro i termini stabiliti. Le modalità di sicurezza sono un’eccezione e non un’alternativa ordinaria: conservare l’evidenza del disservizio, con data e ora, e registrare chi ha attivato la procedura è parte integrante della conformità."
+  },
+  {
+   "t": "grafico",
+   "tit": "Diagramma · Il percorso del formulario digitale",
+   "rif": "D.M. 59/2023, artt. 7 e 15 · D.lgs. 152/2006, art. 193",
+   "lead": "Selezionare ciascuna fase del percorso del formulario digitale.",
+   "grafico": {
+    "tipo": "flusso",
+    "passi": [
+     {
+      "nome": "Emissione",
+      "tempo": null,
+      "testo": "Il produttore, o il trasportatore su sua richiesta, compila il formulario con il gestionale interoperabile o con i servizi del portale."
+     },
+     {
+      "nome": "Vidimazione digitale",
+      "tempo": null,
+      "testo": "Il RENTRI assegna il numero identificativo univoco del formulario."
+     },
+     {
+      "nome": "Partenza",
+      "tempo": null,
+      "testo": "Firma digitale del produttore e del trasportatore; il produttore annota lo scarico nel registro."
+     },
+     {
+      "nome": "Trasporto",
+      "tempo": null,
+      "testo": "Il trasportatore aggiorna il formulario, anche per trasbordi e soste tecniche."
+     },
+     {
+      "nome": "Consegna",
+      "tempo": null,
+      "testo": "L’impianto di destinazione verifica, accetta in tutto o in parte e firma."
+     },
+     {
+      "nome": "Trasmissione dei dati",
+      "tempo": "rifiuti pericolosi",
+      "testo": "Produttore entro 10 giorni lavorativi dallo scarico; trasportatore entro 10 giorni lavorativi dalla consegna; impianto entro 2 giorni lavorativi dalla presa in carico."
+     }
+    ]
+   },
+   "nar": "Diagramma interattivo. Si selezioni ciascuna fase del percorso del formulario digitale, dall’emissione alla trasmissione dei dati al registro elettronico."
+  }
+ ]
+}

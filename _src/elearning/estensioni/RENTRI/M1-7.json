@@ -1,0 +1,46 @@
+{
+ "dopo": "Esempio applicativo: un ritiro di rifiuti pericolosi con il nuovo sistema",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "La quarta copia e la responsabilità del produttore",
+   "lead": "Il produttore che affida i rifiuti a soggetti autorizzati è liberato dalla responsabilità per il loro corretto recupero o smaltimento solo alle condizioni dell’art. 188.",
+   "punti": [
+    "Conferimento a trasportatori iscritti all’Albo e a impianti autorizzati, previa verifica delle autorizzazioni",
+    "Ricezione del formulario controfirmato e datato in arrivo dal destinatario entro tre mesi dal conferimento",
+    "In mancanza, comunicazione all’autorità competente secondo quanto previsto dalla norma",
+    "Con il formulario digitale, la conferma di accettazione dell’impianto è disponibile tramite il RENTRI",
+    "Per le operazioni di smaltimento intermedio occorre anche l’attestazione di avvenuto smaltimento"
+   ],
+   "appro": "La verifica preventiva delle autorizzazioni (iscrizione all’Albo del trasportatore per il codice EER, autorizzazione dell’impianto per la specifica operazione) è la prima tutela del produttore e va documentata.",
+   "rif": "D.lgs. 152/2006, artt. 188, 193 e 212",
+   "nar": "Una domanda ricorrente riguarda il momento in cui il produttore è liberato dalla responsabilità per il destino dei rifiuti. L’articolo centottantotto del codice dell’ambiente prevede che il produttore che affida i rifiuti a soggetti autorizzati sia esonerato dalla responsabilità per il loro corretto recupero o smaltimento a condizioni precise. La prima è il conferimento a trasportatori iscritti all’Albo nazionale gestori ambientali e a impianti autorizzati, la cui posizione va verificata prima del ritiro. La seconda è la ricezione del formulario controfirmato e datato in arrivo dal destinatario entro tre mesi dalla data del conferimento: è la cosiddetta quarta copia del formulario cartaceo. In mancanza, il produttore deve darne comunicazione all’autorità competente secondo quanto previsto dalla norma. Con il formulario digitale, la conferma di accettazione da parte dell’impianto è resa disponibile attraverso il registro elettronico. Per le operazioni di smaltimento intermedio, inoltre, occorre anche l’attestazione dell’avvenuto smaltimento finale. La verifica preventiva delle autorizzazioni, cioè dell’iscrizione del trasportatore all’Albo per lo specifico codice e dell’autorizzazione dell’impianto per la specifica operazione, è la prima tutela del produttore e va documentata."
+  },
+  {
+   "t": "caso",
+   "tit": "Caso di studio · La conferma che non arriva",
+   "scena": "Un’impresa iscritta al RENTRI ha consegnato a luglio un carico di solventi esausti a un impianto di recupero. A metà ottobre, nel registro e nell’area RENTRI non risulta alcuna conferma di accettazione da parte dell’impianto.",
+   "domanda": "Qual è la condotta corretta del produttore?",
+   "opz": [
+    [
+     "Nessuna azione: la responsabilità è passata al trasportatore con la firma alla partenza",
+     false,
+     "No: il produttore è liberato solo alle condizioni dell’art. 188."
+    ],
+    [
+     "Verificare con trasportatore e impianto l’esito del conferimento e, decorsi i tre mesi senza conferma, effettuare la comunicazione prevista all’autorità competente",
+     true,
+     "Corretto: senza riscontro entro tre mesi il produttore deve attivarsi nei modi previsti dall’art. 188."
+    ],
+    [
+     "Annotare nel registro lo scarico una seconda volta",
+     false,
+     "No: la doppia annotazione altera il registro senza risolvere il problema."
+    ]
+   ],
+   "rif": "D.lgs. 152/2006, artt. 188 e 193",
+   "appro": "Conservare traccia delle verifiche effettuate (comunicazioni con trasportatore e impianto, esito) è essenziale per dimostrare la diligenza del produttore.",
+   "nar": "Caso di studio. A distanza di tre mesi da un conferimento di solventi esausti, il produttore non trova alcuna conferma di accettazione da parte dell’impianto. Si individui la condotta corretta."
+  }
+ ]
+}

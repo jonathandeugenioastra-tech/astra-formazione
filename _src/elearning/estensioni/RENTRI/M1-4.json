@@ -1,0 +1,35 @@
+{
+ "dopo": "L’iscrizione: unità locali, deleghe, contributo",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Prima del registro: classificazione e codice EER",
+   "lead": "Ogni annotazione e ogni formulario si fondano sulla corretta classificazione del rifiuto, che è responsabilità del produttore.",
+   "punti": [
+    "Attribuzione del codice dell’elenco europeo dei rifiuti (EER) secondo l’Allegato D alla Parte IV del D.lgs. 152/2006",
+    "Codici assoluti, voci a specchio e procedura per la valutazione della pericolosità",
+    "Caratteristiche di pericolo da HP1 a HP15 (Allegato III della Direttiva 2008/98/CE, come sostituito dal Reg. (UE) 1357/2014)",
+    "Il codice EER e le caratteristiche di pericolo determinano gli obblighi RENTRI (pericoloso o non pericoloso)",
+    "La classificazione va rivalutata quando cambiano processo o materie prime"
+   ],
+   "appro": "Le Linee guida SNPA sulla classificazione dei rifiuti (approvate con D.M. 9 agosto 2021, n. 47) sono il riferimento tecnico per le voci a specchio: descrivono come combinare informazioni sul processo, schede di sicurezza e analisi.",
+   "rif": "D.lgs. 152/2006, art. 184 e Allegato D alla Parte IV · Reg. (UE) 1357/2014 · D.M. 9 agosto 2021, n. 47",
+   "nar": "Prima di qualsiasi annotazione nel registro occorre una corretta classificazione del rifiuto, che è responsabilità del produttore. Il codice dell’elenco europeo dei rifiuti si attribuisce secondo l’allegato D alla parte quarta del codice dell’ambiente, partendo dalla fonte che ha generato il rifiuto. Alcuni codici sono assoluti, cioè pericolosi o non pericolosi per definizione; altri sono voci a specchio, per le quali la pericolosità dipende dalla presenza di sostanze pericolose oltre determinate soglie. In questi casi si valutano le caratteristiche di pericolo, identificate con le sigle da acca pi uno a acca pi quindici, definite dall’allegato tre della direttiva quadro sui rifiuti, come sostituito dal regolamento europeo milletrecentocinquantasette del duemilaquattordici. Dal risultato della classificazione dipendono gli obblighi verso il registro elettronico: un errore che trasforma un rifiuto pericoloso in non pericoloso altera l’intera catena della tracciabilità. Il riferimento tecnico per le voci a specchio sono le linee guida del Sistema nazionale per la protezione dell’ambiente, approvate con il decreto ministeriale quarantasette del nove agosto duemilaventuno, che spiegano come combinare informazioni sul processo, schede di dati di sicurezza e analisi di laboratorio. La classificazione va rivalutata ogni volta che cambiano il processo o le materie prime."
+  },
+  {
+   "t": "testo",
+   "tit": "Il deposito temporaneo prima della raccolta",
+   "lead": "Il registro annota rifiuti che, prima del ritiro, sono raggruppati nel luogo di produzione alle condizioni dell’art. 185-bis.",
+   "punti": [
+    "Raggruppamento nel luogo in cui i rifiuti sono prodotti, per categorie omogenee",
+    "Avvio a recupero o smaltimento con cadenza almeno trimestrale, oppure al raggiungimento di 30 metri cubi, di cui al massimo 10 di rifiuti pericolosi",
+    "In ogni caso il deposito non può superare un anno",
+    "Rispetto delle norme tecniche, dell’imballaggio e dell’etichettatura per i rifiuti pericolosi",
+    "Superate le condizioni, il deposito diventa stoccaggio non autorizzato"
+   ],
+   "appro": "Le date di carico nel registro sono la prova del rispetto dei limiti temporali: annotazioni puntuali permettono di dimostrare, in caso di controllo, che il criterio scelto (temporale o quantitativo) è stato rispettato.",
+   "rif": "D.lgs. 152/2006, artt. 183, c. 1, lett. bb), e 185-bis",
+   "nar": "I rifiuti annotati nel registro, prima del ritiro, sono raggruppati nel luogo in cui sono prodotti: è il deposito temporaneo, disciplinato dall’articolo centottantacinque-bis del codice dell’ambiente. Il deposito è ammesso a condizioni precise. I rifiuti vanno raggruppati per categorie omogenee e avviati a recupero o smaltimento secondo uno dei due criteri previsti: con cadenza almeno trimestrale, indipendentemente dalle quantità, oppure quando il quantitativo raggiunge complessivamente trenta metri cubi, di cui al massimo dieci metri cubi di rifiuti pericolosi. In ogni caso il deposito non può durare più di un anno. Devono inoltre essere rispettate le norme tecniche che regolano lo stoccaggio, l’imballaggio e l’etichettatura delle sostanze pericolose contenute nei rifiuti. Se queste condizioni non sono rispettate, il deposito perde la sua natura temporanea e diventa uno stoccaggio non autorizzato, con conseguenze anche penali. Il legame con il registro è diretto: le date di carico sono la prova del rispetto dei limiti temporali. Annotazioni puntuali permettono di dimostrare, in caso di controllo, che il criterio scelto è stato rispettato."
+  }
+ ]
+}

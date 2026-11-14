@@ -1,0 +1,68 @@
+{
+ "dopo": "Il RENTRI: finalità, soggetti e calendario",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Chi deve iscriversi dal 2026: la riforma dell’art. 188-bis",
+   "lead": "La legge di bilancio 2026 ha riscritto il comma 3-bis dell’art. 188-bis del D.lgs. 152/2006, ridefinendo gli operatori tenuti all’iscrizione al RENTRI dal 1° gennaio 2026.",
+   "punti": [
+    "Enti e imprese che effettuano il trattamento dei rifiuti",
+    "Produttori di rifiuti pericolosi",
+    "Enti e imprese che raccolgono o trasportano rifiuti pericolosi a titolo professionale",
+    "Commercianti e intermediari di rifiuti pericolosi",
+    "Per i rifiuti non pericolosi: i soggetti di cui all’art. 189, comma 3 (produttori iniziali da lavorazioni industriali, artigianali e da trattamento di rifiuti, acque e fumi)"
+   ],
+   "appro": "La soglia dimensionale dei dieci dipendenti rileva solo per i produttori di rifiuti non pericolosi: chi produce rifiuti pericolosi è obbligato a prescindere dal numero di addetti, salvo le esclusioni espresse.",
+   "rif": "D.lgs. 152/2006, artt. 188-bis, c. 3-bis, e 189, c. 3 · L. 30 dicembre 2025, n. 199, art. 1, c. 789",
+   "nar": "La legge di bilancio per il duemilaventisei, all’articolo uno, comma settecentottantanove, ha riscritto il comma tre-bis dell’articolo centottantotto-bis del decreto legislativo centocinquantadue del duemilasei, che individua gli operatori tenuti a iscriversi al registro elettronico nazionale per la tracciabilità dei rifiuti. Dal primo gennaio duemilaventisei sono obbligati gli enti e le imprese che effettuano il trattamento dei rifiuti, i produttori di rifiuti pericolosi, gli enti e le imprese che raccolgono o trasportano rifiuti pericolosi a titolo professionale e coloro che operano come commercianti e intermediari di rifiuti pericolosi. Per i rifiuti non pericolosi la norma rinvia all’articolo centottantanove, comma tre: sono quindi obbligati i produttori iniziali di rifiuti non pericolosi derivanti da lavorazioni industriali, da lavorazioni artigianali e dal trattamento di rifiuti, acque reflue e fumi. Per questi ultimi resta decisiva la soglia dimensionale: l’obbligo riguarda chi occupa più di dieci dipendenti. Al contrario, chi produce rifiuti pericolosi è tenuto all’iscrizione indipendentemente dal numero di addetti, salvo le esclusioni espresse che saranno illustrate nella schermata successiva. Per l’impresa il primo passo è quindi un inventario dei rifiuti prodotti in ciascuna unità locale, con la classificazione di pericolosità di ogni codice dell’elenco europeo."
+  },
+  {
+   "t": "testo",
+   "tit": "Le esclusioni e la cancellazione dal registro",
+   "lead": "Non sono tenuti all’iscrizione i consorzi dell’art. 237 e i produttori ai quali si applicano i commi 5 e 6 dell’art. 190.",
+   "punti": [
+    "Consorzi e sistemi di gestione, individuali o collettivi, di cui all’art. 237, comma 1",
+    "Imprenditori agricoli (art. 2135 c.c.) con volume d’affari annuo non superiore a 8.000 euro",
+    "Imprese che raccolgono e trasportano i propri rifiuti non pericolosi (art. 212, c. 8), salvo che siano obbligate come produttori",
+    "Produttori iniziali di soli rifiuti non pericolosi con non più di dieci dipendenti",
+    "Imprenditori agricoli produttori di rifiuti pericolosi, attività con codici ATECO 96.02.01, 96.02.02, 96.02.03 e 96.09.02 (anche per l’EER 18 01 03*) e produttori di rifiuti pericolosi non organizzati in ente o impresa"
+   ],
+   "appro": "L’esclusione riguarda l’iscrizione e il registro digitale, non la corretta gestione: i rifiuti vanno comunque affidati a soggetti autorizzati, accompagnati dal formulario e gestiti nel rispetto del deposito temporaneo. Gli iscritti che ricadono nelle esclusioni dovevano chiedere la cancellazione dal portale secondo le indicazioni ministeriali del gennaio 2026.",
+   "rif": "D.lgs. 152/2006, artt. 188-bis, c. 3-bis, 190, cc. 5 e 6, 212, c. 8, 237 · L. 199/2025, art. 1, c. 789",
+   "nar": "La stessa riforma ha precisato chi non è tenuto all’iscrizione. Sono esclusi i consorzi e i sistemi di gestione, in forma individuale o collettiva, previsti dall’articolo duecentotrentasette, comma uno, e i produttori ai quali si applicano i commi cinque e sei dell’articolo centonovanta. Rientrano nel comma cinque gli imprenditori agricoli con un volume d’affari annuo non superiore a ottomila euro, le imprese che raccolgono e trasportano i propri rifiuti non pericolosi, che restano però obbligate quando lo sono come produttori, e i produttori iniziali di soli rifiuti non pericolosi con non più di dieci dipendenti. Rientrano nel comma sei gli imprenditori agricoli produttori di rifiuti pericolosi, le attività di acconciatura, estetica, manicure e pedicure, tatuaggio e piercing, identificate dai rispettivi codici di attività economica, anche per gli aghi e gli oggetti taglienti usati, e i produttori di rifiuti pericolosi che non sono organizzati in forma di ente o impresa. Occorre però evitare un equivoco: l’esclusione riguarda l’iscrizione e la tenuta del registro in formato digitale, non la gestione dei rifiuti. Questi soggetti devono comunque affidare i rifiuti a operatori autorizzati, usare il formulario per il trasporto e rispettare le condizioni del deposito temporaneo. Chi era già iscritto e ricade nelle esclusioni ha dovuto presentare la richiesta di cancellazione dal portale secondo le indicazioni pubblicate dal Ministero nel gennaio duemilaventisei."
+  },
+  {
+   "t": "vf",
+   "tit": "Esercitazione · Obbligati ed esclusi",
+   "sott": "Qualificare ciascuna affermazione come vera o falsa",
+   "voci": [
+    [
+     "Un’officina con 6 dipendenti che produce oli esausti (rifiuto pericoloso) deve iscriversi al RENTRI.",
+     true,
+     "Vero: per i rifiuti pericolosi l’obbligo non dipende dal numero di dipendenti."
+    ],
+    [
+     "Una falegnameria con 8 dipendenti che produce solo rifiuti non pericolosi deve iscriversi al RENTRI.",
+     false,
+     "Falso: i produttori iniziali di soli rifiuti non pericolosi fino a dieci dipendenti sono esclusi."
+    ],
+    [
+     "Un centro estetico escluso dal RENTRI può conferire gli aghi usati insieme ai rifiuti urbani.",
+     false,
+     "Falso: l’esclusione riguarda l’iscrizione; i rifiuti pericolosi vanno affidati a soggetti autorizzati."
+    ],
+    [
+     "Un impianto di trattamento di rifiuti non pericolosi è tenuto all’iscrizione.",
+     true,
+     "Vero: sono obbligati gli enti e le imprese che effettuano il trattamento dei rifiuti."
+    ],
+    [
+     "I consorzi dell’art. 237 sono tenuti all’iscrizione dal 2026.",
+     false,
+     "Falso: la L. 199/2025 li ha esclusi."
+    ]
+   ],
+   "nar": "Esercitazione. Si stabilisca, per ciascun caso, se l’affermazione sugli obblighi di iscrizione al registro elettronico è vera o falsa."
+  }
+ ]
+}

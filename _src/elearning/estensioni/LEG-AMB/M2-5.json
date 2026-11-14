@@ -1,0 +1,20 @@
+{
+ "dopo": "Emissioni in atmosfera: autorizzazione e attività in deroga",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Le emissioni odorigene",
+   "lead": "L’art. 272-bis del D.lgs. 152/2006 consente di prevedere misure specifiche per le emissioni odorigene degli stabilimenti.",
+   "punti": [
+    "Le Regioni e le autorizzazioni possono prevedere valori limite, prescrizioni impiantistiche e gestionali",
+    "Criteri per la localizzazione rispetto ai recettori sensibili",
+    "Linee guida nazionali per la caratterizzazione e il monitoraggio (D.D. MASE n. 309 del 28 giugno 2023)",
+    "Olfattometria dinamica (UNI EN 13725) e modelli di dispersione",
+    "Gestione delle segnalazioni dei cittadini e piani di contenimento"
+   ],
+   "appro": "Le molestie olfattive sono tra le principali cause di esposti contro le imprese: un piano di gestione degli odori riduce conflitti e contenziosi.",
+   "rif": "D.lgs. 152/2006, art. 272-bis · D.D. MASE 28 giugno 2023, n. 309 · UNI EN 13725",
+   "nar": "Le emissioni odorigene, come quelle di impianti di trattamento rifiuti, allevamenti, industrie alimentari, verniciature e depuratori, sono tra le principali cause di conflitto tra imprese e cittadini. L’articolo duecentosettantadue bis del testo unico consente alla normativa regionale e alle autorizzazioni di prevedere misure specifiche per la prevenzione e la limitazione delle emissioni odorigene degli stabilimenti: valori limite espressi in unità odorimetriche, prescrizioni impiantistiche e gestionali, criteri di localizzazione rispetto ai recettori sensibili, procedure per gli eventi di disturbo. Le linee guida nazionali, adottate con decreto direttoriale del Ministero dell’ambiente numero trecentonove del ventotto giugno duemilaventitré, forniscono indirizzi per la caratterizzazione delle sorgenti, il monitoraggio e la valutazione dell’impatto. Gli strumenti tecnici principali sono l’olfattometria dinamica secondo la norma UNI EN tredicimilasettecentoventicinque, che misura la concentrazione di odore con un panel di valutatori, e i modelli di dispersione, che stimano la frequenza con cui la concentrazione presso i recettori supera determinate soglie. Un piano di gestione degli odori, con interventi sulle sorgenti, sistemi di abbattimento e un registro delle segnalazioni, riduce conflitti e contenziosi."
+  }
+ ]
+}

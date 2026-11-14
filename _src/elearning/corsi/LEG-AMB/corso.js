@@ -411,6 +411,42 @@ window.CORSO = {
      "ancora": "AIA, VIA e VAS"
     },
     {
+     "foto": false,
+     "t": "testo",
+     "tit": "VIA: verifica di assoggettabilità e provvedimento unico",
+     "lead": "La valutazione di impatto ambientale si applica ai progetti degli allegati alla Parte II, con una fase preliminare di verifica per quelli di minore entità.",
+     "punti": [
+      "Progetti degli Allegati II e III: VIA obbligatoria, di competenza statale o regionale",
+      "Progetti degli Allegati II-bis e IV: verifica di assoggettabilità («screening», art. 19)",
+      "Studio di impatto ambientale e consultazione del pubblico",
+      "Provvedimento autorizzatorio unico regionale (PAUR, art. 27-bis) che riunisce i titoli necessari",
+      "Validità del provvedimento di VIA: almeno 5 anni per la realizzazione del progetto"
+     ],
+     "appro": "Le modifiche di impianti esistenti possono richiedere la verifica di assoggettabilità: va valutato prima di progettare un ampliamento.",
+     "rif": "D.lgs. 152/2006, Parte II, artt. 19, 23, 25 e 27-bis e Allegati II-IV",
+     "nar": "La valutazione di impatto ambientale è il procedimento con cui l’autorità competente valuta, prima della realizzazione, gli effetti significativi di un progetto sull’ambiente. Si applica ai progetti elencati negli allegati alla Parte seconda del testo unico: quelli degli Allegati due e tre sono sottoposti a valutazione obbligatoria, di competenza rispettivamente statale e regionale; quelli degli Allegati due bis e quattro, generalmente di minore entità, sono sottoposti a una fase preliminare di verifica di assoggettabilità, disciplinata dall’articolo diciannove e spesso chiamata screening, che stabilisce se serve la valutazione completa. Nella valutazione il proponente presenta uno studio di impatto ambientale, il pubblico può presentare osservazioni e l’autorità conclude con un provvedimento motivato, che indica anche le condizioni ambientali da rispettare e fissa un termine per la realizzazione del progetto, non inferiore a cinque anni. Per i progetti di competenza regionale l’articolo ventisette bis prevede il provvedimento autorizzatorio unico regionale, che riunisce in un solo procedimento la valutazione e gli altri titoli necessari. Anche le modifiche o gli ampliamenti di impianti esistenti possono rientrare negli allegati: la verifica va fatta prima di progettare l’intervento.",
+     "est": true,
+     "ancora": "AIA, VIA e VAS"
+    },
+    {
+     "foto": false,
+     "t": "testo",
+     "tit": "Seveso III: gli stabilimenti a rischio di incidente rilevante",
+     "lead": "Il D.lgs. 105/2015 si applica agli stabilimenti in cui sono presenti sostanze pericolose oltre le soglie dell’Allegato 1.",
+     "punti": [
+      "Soglia inferiore e soglia superiore in funzione delle quantità di sostanze pericolose",
+      "Notifica per tutti gli stabilimenti soggetti, aggiornata a ogni modifica",
+      "Politica di prevenzione degli incidenti rilevanti e sistema di gestione della sicurezza",
+      "Soglia superiore: rapporto di sicurezza, riesaminato almeno ogni 5 anni, e piano di emergenza interna",
+      "Ispezioni periodiche: almeno annuali per la soglia superiore, triennali per la soglia inferiore"
+     ],
+     "appro": "La regola della sommatoria conta anche sostanze presenti in quantità inferiori alle singole soglie: va verificata a ogni variazione dei depositi.",
+     "rif": "D.lgs. 26 giugno 2015, n. 105 · Dir. 2012/18/UE (Seveso III)",
+     "nar": "La direttiva Seveso tre, recepita con il decreto legislativo centocinque del duemilaquindici, riguarda gli stabilimenti in cui sono presenti sostanze pericolose in quantità tali da poter dare luogo a incidenti rilevanti, come incendi, esplosioni o rilasci tossici. L’Allegato uno individua le categorie di pericolo e le sostanze specificate, con due soglie: gli stabilimenti di soglia inferiore e quelli di soglia superiore. Per verificare l’assoggettabilità si applica anche la regola della sommatoria, che considera insieme sostanze presenti in quantità inferiori alle singole soglie. Tutti gli stabilimenti soggetti presentano la notifica, da aggiornare a ogni modifica, e adottano una politica di prevenzione degli incidenti rilevanti attuata con un sistema di gestione della sicurezza proporzionato ai pericoli. Gli stabilimenti di soglia superiore redigono inoltre il rapporto di sicurezza, da riesaminare almeno ogni cinque anni, e il piano di emergenza interna, che si coordina con il piano di emergenza esterna predisposto dal prefetto. Le autorità effettuano ispezioni periodiche: almeno ogni anno per gli stabilimenti di soglia superiore e ogni tre anni per quelli di soglia inferiore. Ogni variazione dei depositi, anche temporanea, va verificata rispetto alle soglie prima di essere attuata.",
+     "est": true,
+     "ancora": "AIA, VIA e VAS"
+    },
+    {
      "t": "testo",
      "tit": "Il registro delle prescrizioni legali e autorizzative",
      "foto": false,
@@ -835,6 +871,24 @@ window.CORSO = {
      "rif": "D.lgs. 152/2006, Parte V, artt. 268-272 e Allegato IV",
      "nar": "La Parte quinta del decreto 152 regola le emissioni in atmosfera. Gli stabilimenti devono essere autorizzati, di norma nell’ambito dell’AUA o dell’AIA. Le attività con emissioni scarsamente rilevanti sono in deroga; altre attività aderiscono alle autorizzazioni generali regionali. L’autorizzazione fissa limiti, metodi e frequenze degli autocontrolli.",
      "p": 1.6
+    },
+    {
+     "foto": false,
+     "t": "testo",
+     "tit": "Le emissioni odorigene",
+     "lead": "L’art. 272-bis del D.lgs. 152/2006 consente di prevedere misure specifiche per le emissioni odorigene degli stabilimenti.",
+     "punti": [
+      "Le Regioni e le autorizzazioni possono prevedere valori limite, prescrizioni impiantistiche e gestionali",
+      "Criteri per la localizzazione rispetto ai recettori sensibili",
+      "Linee guida nazionali per la caratterizzazione e il monitoraggio (D.D. MASE n. 309 del 28 giugno 2023)",
+      "Olfattometria dinamica (UNI EN 13725) e modelli di dispersione",
+      "Gestione delle segnalazioni dei cittadini e piani di contenimento"
+     ],
+     "appro": "Le molestie olfattive sono tra le principali cause di esposti contro le imprese: un piano di gestione degli odori riduce conflitti e contenziosi.",
+     "rif": "D.lgs. 152/2006, art. 272-bis · D.D. MASE 28 giugno 2023, n. 309 · UNI EN 13725",
+     "nar": "Le emissioni odorigene, come quelle di impianti di trattamento rifiuti, allevamenti, industrie alimentari, verniciature e depuratori, sono tra le principali cause di conflitto tra imprese e cittadini. L’articolo duecentosettantadue bis del testo unico consente alla normativa regionale e alle autorizzazioni di prevedere misure specifiche per la prevenzione e la limitazione delle emissioni odorigene degli stabilimenti: valori limite espressi in unità odorimetriche, prescrizioni impiantistiche e gestionali, criteri di localizzazione rispetto ai recettori sensibili, procedure per gli eventi di disturbo. Le linee guida nazionali, adottate con decreto direttoriale del Ministero dell’ambiente numero trecentonove del ventotto giugno duemilaventitré, forniscono indirizzi per la caratterizzazione delle sorgenti, il monitoraggio e la valutazione dell’impatto. Gli strumenti tecnici principali sono l’olfattometria dinamica secondo la norma UNI EN tredicimilasettecentoventicinque, che misura la concentrazione di odore con un panel di valutatori, e i modelli di dispersione, che stimano la frequenza con cui la concentrazione presso i recettori supera determinate soglie. Un piano di gestione degli odori, con interventi sulle sorgenti, sistemi di abbattimento e un registro delle segnalazioni, riduce conflitti e contenziosi.",
+     "est": true,
+     "ancora": "Emissioni in atmosfera: autorizzazione e attività in deroga"
     },
     {
      "foto": false,

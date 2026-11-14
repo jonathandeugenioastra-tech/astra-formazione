@@ -1,0 +1,20 @@
+{
+ "dopo": "Atmosfere esplosive: classificazione delle zone e apparecchiature",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Le nuove edizioni delle norme CEI EN IEC 60079",
+   "lead": "Le norme sugli impianti elettrici nei luoghi con pericolo di esplosione sono state aggiornate: le edizioni precedenti restano utilizzabili solo fino alla fine dei periodi di coesistenza.",
+   "punti": [
+    "Classificazione dei luoghi per gas: CEI EN IEC 60079-10-1, edizione 2021",
+    "Progettazione e installazione degli impianti: CEI EN IEC 60079-14:2024, coesistenza con l’edizione 2014 fino al 4 ottobre 2027",
+    "Verifica e manutenzione: CEI EN IEC 60079-17:2024, coesistenza fino al 5 gennaio 2027",
+    "Rilevatori di gas infiammabili: CEI EN IEC 60079-29-0, coesistenza fino al 31 gennaio 2029",
+    "Il documento sulla protezione contro le esplosioni si aggiorna a ogni modifica rilevante"
+   ],
+   "appro": "Le verifiche degli impianti elettrici nelle zone classificate sono biennali ai sensi del D.P.R. 462/2001 e si integrano con le ispezioni periodiche della 60079-17.",
+   "rif": "D.lgs. 81/2008, Titolo XI e Allegato XLIX · CEI EN IEC 60079-10-1, -14, -17, -29-0 · D.P.R. 462/2001",
+   "nar": "Il Titolo undicesimo del testo unico impone al datore di lavoro di classificare le aree in cui possono formarsi atmosfere esplosive e di redigere il documento sulla protezione contro le esplosioni. Per farlo si utilizzano le norme tecniche della serie sessantamilasettantanove, recentemente aggiornate. La classificazione dei luoghi con presenza di gas, vapori e nebbie si esegue con la norma sessantamilasettantanove dieci uno, nell’edizione del duemilaventuno, che stima la portata di rilascio, il grado di diluizione e la disponibilità della ventilazione per definire il tipo e l’estensione delle zone. La progettazione e l’installazione degli impianti elettrici seguono la nuova edizione duemilaventiquattro della parte quattordici, che coesiste con quella del duemilaquattordici fino al quattro ottobre duemilaventisette. La verifica e la manutenzione seguono la nuova parte diciassette, con coesistenza fino al cinque gennaio duemilaventisette. Per i rilevatori di gas infiammabili è stata pubblicata la nuova parte ventinove zero, che coesisterà con la precedente fino al trentuno gennaio duemilaventinove. Alla scadenza dei periodi di coesistenza le nuove edizioni diventano lo stato dell’arte. Il documento va aggiornato a ogni modifica rilevante, e gli impianti nelle zone classificate sono soggetti a verifica biennale secondo il decreto del Presidente della Repubblica quattrocentosessantadue del duemilauno."
+  }
+ ]
+}

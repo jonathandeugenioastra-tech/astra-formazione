@@ -1,0 +1,20 @@
+{
+ "dopo": "Condurre un audit: la UNI EN ISO 19011",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Esempio applicativo: dalla non conformità alla priorità dell’azione",
+   "lead": "Gli esiti di un audit vanno tradotti in priorità di intervento, combinando la gravità del rilievo con l’importanza del requisito.",
+   "punti": [
+    "Esiti: conforme, deviazione minore (DM), non conformità (NC), non applicabile",
+    "Importanza del requisito: alta (obbligo di legge con sanzione penale), media, bassa",
+    "NC su requisito ad alta importanza: priorità ALTA",
+    "NC su requisito di media importanza o DM su requisito ad alta importanza: priorità MEDIO ALTA",
+    "NC su requisito a bassa importanza: MEDIO BASSA; DM su requisito a bassa importanza e conformità: BASSA"
+   ],
+   "appro": "Il criterio rende confrontabili audit diversi e consente di pianificare risorse e tempi delle azioni correttive in modo trasparente per la direzione.",
+   "rif": "UNI EN ISO 19011 · UNI ISO 45001:2023, § 10.2",
+   "nar": "Un audit produce un elenco di rilievi, ma la direzione ha bisogno di sapere da dove cominciare. Un criterio trasparente combina due elementi: l’esito della verifica e l’importanza del requisito. Gli esiti sono quattro: conforme, deviazione minore, quando il requisito è sostanzialmente rispettato con carenze puntuali, non conformità, quando il requisito non è rispettato, e non applicabile. L’importanza del requisito si gradua in alta, ad esempio un obbligo di legge presidiato da sanzione penale come la valutazione dei rischi o la formazione, media e bassa. Incrociando i due elementi si ottiene la priorità dell’azione. Una non conformità su un requisito ad alta importanza ha priorità alta e richiede un intervento immediato. Una non conformità su un requisito di media importanza, o una deviazione minore su un requisito ad alta importanza, ha priorità medio alta. Una non conformità su un requisito a bassa importanza ha priorità medio bassa. Una deviazione minore su un requisito a bassa importanza, come pure la conformità, ha priorità bassa, da gestire come opportunità di miglioramento. Questo criterio rende confrontabili audit diversi nel tempo e tra siti, e consente di pianificare le azioni correttive con responsabili, tempi e risorse coerenti con la gravità."
+  }
+ ]
+}

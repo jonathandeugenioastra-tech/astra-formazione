@@ -1,0 +1,20 @@
+{
+ "dopo": "Microclima: comfort e stress termico",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Ambienti severi caldi: l’indice WBGT",
+   "lead": "Negli ambienti caldi la prima valutazione si esegue con l’indice WBGT della UNI EN ISO 7243; se i valori di riferimento sono superati si passa all’analisi di dettaglio.",
+   "punti": [
+    "WBGT in ambienti interni = 0,7 · Tnw + 0,3 · Tg",
+    "Tnw: temperatura di bulbo umido a ventilazione naturale; Tg: temperatura di globotermometro",
+    "Valori di riferimento in funzione del metabolismo e dell’acclimatamento",
+    "Superamento: analisi di dettaglio con il metodo PHS (UNI EN ISO 7933)",
+    "Strumenti conformi alla UNI EN ISO 7726, nuova edizione 2025"
+   ],
+   "appro": "Le ondate di calore rendono severi anche ambienti normalmente moderati: piani di gestione del caldo con pause, idratazione, turni e sorveglianza dei lavoratori più sensibili.",
+   "rif": "UNI EN ISO 7243:2017 · UNI EN ISO 7933 · UNI EN ISO 7726:2025 · D.lgs. 81/2008, art. 180",
+   "nar": "Quando l’ambiente è caldo, ad esempio in fonderie, cucine industriali, serre o cantieri estivi, il comfort non è più l’obiettivo: occorre valutare lo stress termico. La norma UNI EN ISO settemiladuecentoquarantatré propone come primo livello l’indice WBGT, la temperatura di bulbo umido e globotermometro. Negli ambienti interni, o all’esterno senza irraggiamento solare, si calcola come zero virgola sette volte la temperatura di bulbo umido a ventilazione naturale più zero virgola tre volte la temperatura del globotermometro. Il bulbo umido naturale rappresenta l’effetto combinato di temperatura, umidità e movimento dell’aria; il globotermometro quello della radiazione termica. Il valore ottenuto si confronta con valori di riferimento che dipendono dal metabolismo dell’attività e dall’acclimatamento dei lavoratori. Se i valori sono superati, si passa all’analisi di dettaglio con il metodo della sollecitazione termica prevedibile della norma UNI EN ISO settemilanovecentotrentatré, che stima la temperatura rettale e la perdita di acqua e indica i tempi massimi di esposizione. Gli strumenti devono rispettare la norma UNI EN ISO settemilasettecentoventisei, aggiornata nel duemilaventicinque. Le ondate di calore rendono severi anche ambienti normalmente moderati: servono piani di gestione del caldo con pause, idratazione, rotazioni e attenzione ai lavoratori più sensibili."
+  }
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "dopo": "Sovraccarico biomeccanico: strumenti aggiornati",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Il limite di peso raccomandato: i fattori della UNI ISO 11228-1",
+   "lead": "Il metodo NIOSH, recepito dalla UNI ISO 11228-1:2022, calcola il limite di peso raccomandato moltiplicando la massa di riferimento per fattori demoltiplicativi.",
+   "punti": [
+    "Distanza orizzontale: HM = 25/H (H in cm); oltre 63 cm il fattore vale 0",
+    "Altezza: VM = 1 − 0,003·|V − 75|",
+    "Dislocazione verticale: DM = 0,82 + 4,5/D",
+    "Asimmetria: AM = 1 − 0,0032·A (A in gradi); presa scarsa: fattore 0,90",
+    "Indice di sollevamento LI = peso sollevato / limite raccomandato; per compiti multipli CLI e VLI"
+   ],
+   "appro": "In condizioni ottimali tutti i fattori valgono 1 e il limite raccomandato coincide con la massa di riferimento della popolazione considerata.",
+   "rif": "UNI ISO 11228-1:2022 · D.lgs. 81/2008, Titolo VI e Allegato XXXIII",
+   "nar": "Il metodo di riferimento per i sollevamenti manuali è il modello NIOSH, ripreso dalla norma UNI ISO undicimiladuecentoventotto, parte prima, nell’edizione del duemilaventidue. Il limite di peso raccomandato si ottiene moltiplicando una massa di riferimento, che dipende da sesso ed età della popolazione lavorativa, per una serie di fattori compresi tra zero e uno. Il fattore distanza orizzontale vale venticinque diviso la distanza in centimetri tra le mani e il punto medio delle caviglie: a cinquanta centimetri vale zero virgola cinque, e oltre sessantatré centimetri vale zero, perché il sollevamento non è accettabile. Il fattore altezza vale uno meno zero virgola zero zero tre per la differenza, in valore assoluto, tra l’altezza delle mani e settantacinque centimetri: a terra vale zero virgola settantotto. Il fattore dislocazione verticale vale zero virgola ottantadue più quattro virgola cinque diviso lo spostamento; quello di asimmetria uno meno zero virgola zero zero trentadue per l’angolo di torsione in gradi; una presa scarsa riduce il limite del dieci per cento. Il fattore frequenza dipende da numero di atti al minuto e durata. Il rapporto tra peso sollevato e limite raccomandato è l’indice di sollevamento; per compiti multipli si usano l’indice composito e l’indice variabile. In condizioni ottimali tutti i fattori valgono uno e il limite coincide con la massa di riferimento."
+  }
+ ]
+}

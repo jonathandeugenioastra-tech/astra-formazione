@@ -1,0 +1,20 @@
+{
+ "dopo": "Esempio applicativo: l’esposizione a vibrazioni mano-braccio",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "A(8), classi di esposizione e rischio di vasculopatia",
+   "lead": "Il valore A(8) si confronta con i valori di azione e limite; la ISO 5349-1 consente di stimare il tempo di comparsa del fenomeno di Raynaud.",
+   "punti": [
+    "A(8) = √[(1/T0) · Σ a²hv,i · Ti], con T0 = 8 ore",
+    "Mano-braccio: valore di azione 2,5 m/s², valore limite 5 m/s²",
+    "Corpo intero: valore di azione 0,5 m/s², valore limite 1,0 m/s²",
+    "Esempio: 5,1 m/s² supera il limite; 2,5 m/s² è pari al valore di azione",
+    "ISO 5349-1: con A(8) = 4 m/s² circa 7 anni per il 10% di esposti con dita bianche"
+   ],
+   "appro": "Il superamento del valore limite impone misure immediate per riportare l’esposizione al di sotto (art. 203); oltre il valore di azione si attua un programma di riduzione.",
+   "rif": "D.lgs. 81/2008, artt. 201-204 e Allegato XXXV · UNI EN ISO 5349-1 e -2 · UNI ISO 2631-1",
+   "nar": "Per le vibrazioni trasmesse al sistema mano-braccio l’esposizione giornaliera si esprime con il valore A otto, calcolato come radice quadrata della somma dei quadrati delle accelerazioni dei singoli utensili, ciascuna moltiplicata per il tempo di uso, divisa per otto ore. L’articolo duecentouno fissa per il sistema mano-braccio un valore di azione di due virgola cinque metri al secondo quadrato e un valore limite di cinque; per il corpo intero zero virgola cinque e uno. Le classi si leggono in modo semplice: un valore pari a due virgola cinque coincide con il valore di azione e non lo supera; un valore compreso tra due virgola cinque e cinque richiede un programma di misure tecniche e organizzative e la sorveglianza sanitaria; un valore di cinque virgola uno supera il valore limite e impone misure immediate per riportare l’esposizione al di sotto, individuando le cause del superamento. La norma ISO cinquemilatrecentoquarantanove, parte prima, offre anche una relazione tra esposizione ed effetti: con un A otto di quattro metri al secondo quadrato, circa il dieci per cento degli esposti potrebbe sviluppare il fenomeno delle dita bianche dopo circa sette anni di esposizione. È un dato utile in formazione e nella comunicazione con la direzione, perché traduce un valore tecnico in una conseguenza comprensibile."
+  }
+ ]
+}

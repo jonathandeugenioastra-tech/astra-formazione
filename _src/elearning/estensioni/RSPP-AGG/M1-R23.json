@@ -1,0 +1,36 @@
+{
+ "dopo": "Il quadro infortunistico 2025 per chi decide",
+ "origine": "RSPP-A/M3-2.json",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Analizzare un infortunio: il modello «Infor.MO»",
+   "lead": "Il modello Infor.MO, sviluppato da INAIL e servizi di prevenzione delle ASL, ricostruisce la dinamica dell’infortunio e i fattori che lo hanno determinato.",
+   "punti": [
+    "Dinamica: incidente, cioè l’evento anomalo, e modalità di accadimento della lesione",
+    "Fattori di rischio: attività dell’infortunato e di terzi, utensili e macchine, materiali, ambiente, DPI",
+    "Determinanti: fattori che hanno causato l’evento; modulatori: fattori che ne hanno aggravato o ridotto il danno",
+    "Problemi di sicurezza: errore di procedura, uso improprio, carenza strutturale, assenza di protezioni",
+    "Dalle cause alle misure: tecniche, organizzative, formative e procedurali"
+   ],
+   "appro": "L’analisi serve a prevenire, non a cercare colpevoli: un infortunio ha quasi sempre più cause concomitanti, spesso organizzative.",
+   "rif": "INAIL, modello di analisi Infor.MO · D.lgs. 81/2008, artt. 28 e 29",
+   "nar": "Dopo un infortunio o un quasi incidente, l’analisi delle cause è indispensabile per evitare che si ripeta. Un metodo strutturato, diffuso in Italia, è il modello Infor.MO, sviluppato dall’INAIL con i servizi di prevenzione delle aziende sanitarie per l’analisi degli infortuni gravi e mortali. Il modello ricostruisce prima la dinamica, distinguendo l’incidente, cioè l’evento anomalo che interrompe il normale svolgimento del lavoro, dalla modalità con cui si produce la lesione. Poi individua i fattori di rischio, raggruppati in sei categorie: l’attività dell’infortunato, l’attività di terzi, gli utensili, le macchine e gli impianti, i materiali, l’ambiente e i dispositivi di protezione. Ogni fattore è classificato come determinante, se ha causato l’evento, o come modulatore, se ne ha aggravato o ridotto le conseguenze, e per ciascuno si indica il problema di sicurezza: un errore di procedura, un uso improprio, una carenza strutturale, l’assenza di protezioni o di dispositivi. Dalle cause si passa alle misure, tecniche, organizzative, formative e procedurali. L’analisi serve a prevenire, non a cercare un colpevole: la quasi totalità degli infortuni ha più cause concomitanti, spesso legate all’organizzazione del lavoro più che al singolo comportamento."
+  },
+  {
+   "t": "testo",
+   "tit": "Malattie professionali: sistema tabellare e sistema misto",
+   "lead": "La tutela INAIL delle malattie professionali si basa sulle tabelle di legge, integrate dalla possibilità di dimostrare l’origine professionale di malattie non tabellate.",
+   "punti": [
+    "Malattie tabellate: presunzione legale di origine professionale se la lavorazione e la malattia sono in tabella",
+    "Rispetto del periodo massimo di indennizzabilità dalla cessazione dell’esposizione",
+    "Sistema misto (Corte costituzionale, sentenza 179/1988): tutela anche delle malattie non tabellate",
+    "Per le non tabellate l’onere di provare il nesso causale grava sul lavoratore",
+    "Obbligo di denuncia del medico per le malattie dell’elenco dell’art. 139 del D.P.R. 1124/1965"
+   ],
+   "appro": "Le malattie muscoloscheletriche rappresentano la parte più consistente delle denunce: un dato che orienta la valutazione dei rischi ergonomici.",
+   "rif": "D.P.R. 1124/1965, artt. 3, 139 e 211 · Corte cost., sent. 18 febbraio 1988, n. 179 · D.M. 9 aprile 2008 (tabelle)",
+   "nar": "La malattia professionale è una patologia contratta nell’esercizio e a causa della lavorazione, per effetto di un’azione lenta e protratta nel tempo. La tutela dell’INAIL si basa sulle tabelle allegate al testo unico del millenovecentosessantacinque, aggiornate con decreto ministeriale: per le malattie elencate, contratte nell’esercizio delle lavorazioni indicate ed entro il periodo massimo di indennizzabilità dalla cessazione dell’esposizione, opera una presunzione legale di origine professionale, e il lavoratore non deve dimostrare il nesso causale. Con la sentenza centosettantanove del millenovecentoottantotto la Corte costituzionale ha introdotto il cosiddetto sistema misto: sono tutelate anche le malattie non comprese nelle tabelle, a condizione che il lavoratore dimostri la loro origine professionale. Accanto alle tabelle esiste l’elenco delle malattie per le quali, ai sensi dell’articolo centotrentanove, il medico che ne riconosce l’esistenza ha l’obbligo di denuncia, a fini epidemiologici e di prevenzione. Le malattie del sistema osteomuscolare e del tessuto connettivo rappresentano da anni la parte più consistente delle denunce, seguite dalle malattie del sistema nervoso e dell’orecchio: un dato che orienta la valutazione dei rischi ergonomici e da rumore."
+  }
+ ]
+}

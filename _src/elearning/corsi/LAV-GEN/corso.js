@@ -107,6 +107,42 @@ window.CORSO = {
      "p": 1.2
     },
     {
+     "foto": false,
+     "t": "testo",
+     "tit": "Le radici della tutela: Costituzione e Codice civile",
+     "lead": "La tutela della salute nei luoghi di lavoro poggia su principi costituzionali e su una norma del Codice civile che resta il cardine dell’intero sistema.",
+     "punti": [
+      "Art. 32 Costituzione: la salute è fondamentale diritto dell’individuo e interesse della collettività",
+      "Art. 35 Costituzione: la Repubblica tutela il lavoro in tutte le sue forme",
+      "Art. 41 Costituzione: l’iniziativa economica non può svolgersi in modo da recare danno alla salute e alla sicurezza",
+      "Art. 2087 c.c.: l’imprenditore adotta le misure necessarie secondo la particolarità del lavoro, l’esperienza e la tecnica",
+      "Dal D.lgs. 626/1994 al D.lgs. 81/2008, il Testo unico vigente"
+     ],
+     "appro": "L’art. 2087 c.c. è una norma «aperta»: obbliga a adottare anche misure non espressamente previste da leggi specifiche, se l’esperienza e la tecnica le rendono disponibili. Per questo la conformità formale ai singoli obblighi non esaurisce il dovere di sicurezza.",
+     "rif": "Costituzione, artt. 32, 35, 41 · Codice civile, art. 2087 · D.lgs. 81/2008",
+     "nar": "La tutela della salute e della sicurezza nei luoghi di lavoro poggia su principi di rango costituzionale. L’articolo trentadue della Costituzione riconosce la salute come fondamentale diritto dell’individuo e interesse della collettività. L’articolo trentacinque stabilisce che la Repubblica tutela il lavoro in tutte le sue forme e applicazioni. L’articolo quarantuno afferma che l’iniziativa economica privata è libera, ma non può svolgersi in modo da recare danno alla salute, alla sicurezza, alla libertà e alla dignità umana. Su queste basi si colloca una norma del Codice civile che resta il cardine dell’intero sistema: l’articolo duemilaottantasette, secondo il quale l’imprenditore è tenuto ad adottare le misure che, secondo la particolarità del lavoro, l’esperienza e la tecnica, sono necessarie a tutelare l’integrità fisica e la personalità morale dei prestatori di lavoro. Si tratta di una norma aperta: impone di adottare anche misure non previste da leggi specifiche, quando l’esperienza e la tecnica le rendono disponibili. La legislazione speciale si è sviluppata nel tempo, dal decreto legislativo seicentoventisei del millenovecentonovantaquattro fino al decreto legislativo ottantuno del duemilaotto, il testo unico oggi vigente, che riordina in un unico corpo le norme in materia.",
+     "est": true,
+     "ancora": "La salute e la sicurezza come valore giuridico e sociale"
+    },
+    {
+     "foto": false,
+     "t": "testo",
+     "tit": "Valutare tutti i rischi: genere, età, provenienza, tipologia contrattuale",
+     "lead": "La valutazione dei rischi deve riguardare tutti i rischi, compresi quelli che interessano gruppi di lavoratori esposti a rischi particolari.",
+     "punti": [
+      "Stress lavoro-correlato, secondo i contenuti dell’Accordo europeo dell’8 ottobre 2004",
+      "Lavoratrici in stato di gravidanza (D.lgs. 151/2001)",
+      "Differenze di genere, età e provenienza da altri Paesi",
+      "Specifica tipologia contrattuale con cui è resa la prestazione",
+      "Lavoratori in somministrazione, a termine, in lavoro agile: stessi diritti di tutela"
+     ],
+     "appro": "Per i lavoratori stranieri l’informazione e la formazione devono essere comprensibili: l’art. 36 e l’art. 37 richiedono, se necessario, la verifica della comprensione della lingua utilizzata.",
+     "rif": "D.lgs. 81/2008, artt. 28, c. 1, 36, c. 4, e 37, c. 13 · D.lgs. 151/2001",
+     "nar": "L’articolo ventotto del testo unico stabilisce che la valutazione deve riguardare tutti i rischi per la sicurezza e la salute dei lavoratori, compresi quelli che interessano gruppi esposti a rischi particolari. La norma ne cita espressamente alcuni. Il primo è lo stress lavoro-correlato, da valutare secondo i contenuti dell’accordo europeo dell’otto ottobre duemilaquattro. Il secondo riguarda le lavoratrici in stato di gravidanza, per le quali si applicano anche le disposizioni del decreto legislativo centocinquantuno del duemilauno. La valutazione deve inoltre considerare le differenze di genere, l’età, la provenienza da altri Paesi e la specifica tipologia contrattuale con cui viene resa la prestazione. Un lavoratore somministrato, un lavoratore a termine o un lavoratore in modalità agile hanno diritto alla stessa tutela dei colleghi, e la valutazione deve tenere conto delle loro condizioni concrete, ad esempio la minore esperienza nel contesto aziendale. Per i lavoratori stranieri, informazione e formazione devono essere effettivamente comprensibili: il testo unico richiede, quando necessario, la verifica della comprensione della lingua utilizzata nel percorso formativo.",
+     "est": true,
+     "ancora": "La salute e la sicurezza come valore giuridico e sociale"
+    },
+    {
      "t": "figure",
      "tit": "Il fenomeno in Italia: i dati INAIL 2025",
      "sott": "Relazione annuale INAIL 2025, presentata alla Camera dei deputati il 22 settembre 2026",
@@ -452,6 +488,24 @@ window.CORSO = {
      ],
      "nar": "I dispositivi di protezione individuale, o DPI, sono le attrezzature destinate a essere indossate dal lavoratore allo scopo di proteggerlo contro uno o più rischi: elmetti, guanti, occhiali, otoprotettori, calzature, imbracature, facciali filtranti. Si impiegano quando i rischi non possono essere evitati o sufficientemente ridotti con altre misure. Devono recare la marcatura CE ed essere adeguati al rischio. Il datore di lavoro li fornisce gratuitamente e assicura la formazione e, per i DPI di terza categoria e per quelli dell'udito, l'addestramento. Il lavoratore è tenuto a utilizzarli correttamente, ad averne cura e a segnalarne senza indugio ogni difetto.",
      "p": 1.4
+    },
+    {
+     "foto": false,
+     "t": "testo",
+     "tit": "Le categorie dei DPI e gli obblighi del lavoratore",
+     "lead": "I DPI sono classificati dal Reg. (UE) 2016/425 in tre categorie, in funzione della gravità dei rischi da cui proteggono.",
+     "punti": [
+      "Categoria I: rischi minimi (ad esempio lesioni meccaniche superficiali, contatto con detergenti deboli)",
+      "Categoria II: rischi diversi da quelli delle categorie I e III (ad esempio caschi, occhiali, guanti per rischi meccanici)",
+      "Categoria III: rischi che possono causare conseguenze molto gravi, come morte o danni irreversibili (ad esempio respiratori, DPI anticaduta, protezione da agenti chimici, rumore nocivo)",
+      "Per i DPI di III categoria e per quelli dell’udito l’addestramento è obbligatorio",
+      "Il lavoratore utilizza i DPI conformemente a informazione, formazione e addestramento, ne ha cura e segnala difetti"
+     ],
+     "appro": "Il lavoratore non apporta modifiche di propria iniziativa ai DPI e, al termine dell’utilizzo, segue le procedure aziendali di riconsegna: un DPI alterato perde la protezione certificata.",
+     "rif": "Reg. (UE) 2016/425, art. 18 e Allegato I · D.lgs. 81/2008, artt. 77 e 78",
+     "nar": "I dispositivi di protezione individuale sono classificati dal regolamento europeo quattrocentoventicinque del duemilasedici in tre categorie, in funzione della gravità dei rischi da cui proteggono. La prima categoria comprende i dispositivi destinati a rischi minimi, come lesioni meccaniche superficiali o il contatto con prodotti detergenti deboli. La terza categoria comprende i dispositivi destinati a proteggere da rischi che possono causare conseguenze molto gravi, come la morte o danni alla salute irreversibili: ne fanno parte, ad esempio, gli apparecchi di protezione delle vie respiratorie, i dispositivi di protezione contro le cadute dall’alto, quelli contro gli agenti chimici e quelli contro il rumore nocivo. La seconda categoria comprende tutti gli altri, come caschi, occhiali e guanti per rischi meccanici. Per i dispositivi di terza categoria e per quelli di protezione dell’udito il testo unico rende obbligatorio l’addestramento. L’articolo settantotto stabilisce gli obblighi del lavoratore: utilizzare i dispositivi conformemente all’informazione, alla formazione e all’addestramento ricevuti, averne cura, non apportarvi modifiche di propria iniziativa, seguire le procedure di riconsegna e segnalare immediatamente qualsiasi difetto o inconveniente.",
+     "est": true,
+     "ancora": "I dispositivi di protezione individuale"
     },
     {
      "t": "iceberg",
@@ -1144,6 +1198,24 @@ window.CORSO = {
      "p": 2
     },
     {
+     "foto": false,
+     "t": "testo",
+     "tit": "Il preposto dopo la riforma del 2021",
+     "lead": "La L. 215/2021 ha rafforzato il ruolo del preposto: individuazione obbligatoria, poteri di intervento e formazione specifica.",
+     "punti": [
+      "Il datore di lavoro e i dirigenti individuano il preposto o i preposti per l’effettuazione delle attività di vigilanza (art. 18, c. 1, lett. b-bis)",
+      "Il preposto sovrintende e vigila sull’osservanza degli obblighi e, in caso di comportamenti non conformi, interviene per modificarli",
+      "In caso di mancata attuazione delle disposizioni o di persistenza dell’inosservanza interrompe l’attività del lavoratore e informa i superiori",
+      "In caso di deficienze dei mezzi o di condizioni di pericolo interrompe temporaneamente l’attività, se necessario, e segnala tempestivamente",
+      "Formazione specifica in presenza e aggiornamento periodico secondo l’Accordo Stato-Regioni"
+     ],
+     "appro": "Il preposto può essere anche «di fatto»: chi esercita in concreto poteri di sovrintendenza ne assume la posizione di garanzia, anche senza nomina formale (art. 299 D.lgs. 81/2008).",
+     "rif": "D.lgs. 81/2008, artt. 18, c. 1, lett. b-bis), 19 e 299 · L. 17 dicembre 2021, n. 215 · Accordo Stato-Regioni 17 aprile 2025",
+     "nar": "La legge duecentoquindici del diciassette dicembre duemilaventuno ha rafforzato in modo significativo il ruolo del preposto. Il datore di lavoro e i dirigenti devono individuare espressamente il preposto o i preposti incaricati delle attività di vigilanza, come prevede la lettera b-bis del comma uno dell’articolo diciotto. L’articolo diciannove ne definisce gli obblighi. Il preposto sovrintende e vigila sull’osservanza, da parte dei lavoratori, degli obblighi di legge e delle disposizioni aziendali e, in caso di comportamenti non conformi, interviene per modificarli fornendo le necessarie indicazioni di sicurezza. Se le disposizioni non vengono attuate o l’inosservanza persiste, interrompe l’attività del lavoratore e informa i superiori diretti. Quando rileva deficienze dei mezzi, delle attrezzature o qualsiasi condizione di pericolo, se necessario interrompe temporaneamente l’attività e segnala tempestivamente le non conformità. Il preposto riceve una formazione specifica, svolta in presenza, con aggiornamento periodico secondo l’accordo tra Stato e Regioni. Va ricordato che il preposto può essere anche di fatto: in base all’articolo duecentonovantanove, chi esercita in concreto poteri di sovrintendenza assume la relativa posizione di garanzia, anche in assenza di una nomina formale.",
+     "est": true,
+     "ancora": "Gli obblighi del preposto"
+    },
+    {
      "t": "articolo",
      "tit": "Gli obblighi dei lavoratori",
      "art": "Art. 20 D.lgs. 81/2008",
@@ -1209,6 +1281,24 @@ window.CORSO = {
      ],
      "nar": "L'articolo 21 riguarda i componenti dell'impresa familiare e i lavoratori autonomi, quali artigiani e piccoli commercianti. Anch'essi devono utilizzare attrezzature conformi, munirsi dei dispositivi di protezione individuale e utilizzarli correttamente, ed esporre la tessera di riconoscimento nell'ambito degli appalti. Hanno inoltre facoltà, con oneri a proprio carico, di beneficiare della sorveglianza sanitaria e di partecipare a corsi di formazione.",
      "p": 1.1
+    },
+    {
+     "foto": false,
+     "t": "testo",
+     "tit": "Appalti e interferenze: il ruolo del lavoratore",
+     "lead": "Quando nello stesso luogo operano lavoratori di imprese diverse, i rischi da interferenza devono essere valutati e gestiti.",
+     "punti": [
+      "Il committente verifica l’idoneità tecnico-professionale di appaltatori e lavoratori autonomi",
+      "Fornisce informazioni sui rischi specifici dell’ambiente e sulle misure di emergenza",
+      "Committente e appaltatori cooperano e coordinano le misure di prevenzione",
+      "Il DUVRI indica le misure per eliminare o ridurre al minimo i rischi da interferenza",
+      "Il personale delle imprese appaltatrici espone la tessera di riconoscimento con fotografia, generalità e datore di lavoro"
+     ],
+     "appro": "Per il lavoratore, la regola pratica è non intervenire su attrezzature o aree di un’altra impresa e segnalare al preposto ogni lavorazione esterna non annunciata o non coordinata.",
+     "rif": "D.lgs. 81/2008, art. 26 · art. 18, c. 1, lett. u)",
+     "nar": "Quando nello stesso luogo di lavoro operano lavoratori di imprese diverse, nascono rischi che nessuna delle imprese, da sola, conosce per intero: sono i rischi da interferenza. L’articolo ventisei del testo unico ne disciplina la gestione. Il datore di lavoro committente verifica l’idoneità tecnico-professionale delle imprese appaltatrici e dei lavoratori autonomi e fornisce loro informazioni dettagliate sui rischi specifici dell’ambiente in cui opereranno e sulle misure di prevenzione e di emergenza adottate. Committente e appaltatori cooperano all’attuazione delle misure di prevenzione e coordinano gli interventi, informandosi reciprocamente. Il committente elabora, nei casi previsti, il documento unico di valutazione dei rischi da interferenze, che indica le misure per eliminare o ridurre al minimo tali rischi. Il personale delle imprese appaltatrici deve essere munito di apposita tessera di riconoscimento, con fotografia, generalità del lavoratore e indicazione del datore di lavoro. Per il singolo lavoratore la regola pratica è semplice: non intervenire su attrezzature o aree affidate a un’altra impresa e segnalare al preposto ogni lavorazione esterna non annunciata o non coordinata.",
+     "est": true,
+     "ancora": "Componenti dell'impresa familiare e lavoratori autonomi"
     },
     {
      "t": "processo",
@@ -1290,6 +1380,24 @@ window.CORSO = {
      "appro": "Giudizi di idoneità (art. 41, c. 6): idoneità; idoneità parziale, temporanea o permanente, con prescrizioni o limitazioni; inidoneità temporanea, con indicazione dei limiti temporali; inidoneità permanente. Il giudizio è comunicato per iscritto al lavoratore e al datore di lavoro. Contro il giudizio è ammesso ricorso all'organo di vigilanza territorialmente competente entro 30 giorni dalla comunicazione. Il medico competente, tra l'altro, visita gli ambienti di lavoro almeno una volta l'anno o con cadenza diversa stabilita in base alla valutazione dei rischi (art. 25).",
      "nar": "Il medico competente collabora alla valutazione dei rischi ed effettua la sorveglianza sanitaria, che comprende diverse tipologie di visita: preventiva, anche in fase preassuntiva; periodica, di norma annuale; su richiesta del lavoratore; in occasione del cambio di mansione; alla cessazione del rapporto, nei casi previsti; precedente alla ripresa del lavoro dopo un'assenza per motivi di salute superiore a sessanta giorni continuativi. Al termine della visita il medico esprime per iscritto il giudizio di idoneità alla mansione, avverso il quale il lavoratore può proporre ricorso all'organo di vigilanza entro trenta giorni. Le visite non possono in alcun caso essere effettuate per accertare stati di gravidanza.",
      "p": 2
+    },
+    {
+     "foto": false,
+     "t": "testo",
+     "tit": "Le visite mediche e il giudizio di idoneità",
+     "lead": "La sorveglianza sanitaria comprende visite di diverso tipo e si conclude con un giudizio di idoneità alla mansione specifica, contro il quale è ammesso ricorso.",
+     "punti": [
+      "Visita preventiva, anche in fase preassuntiva, e visita periodica",
+      "Visita su richiesta del lavoratore, se correlata ai rischi professionali",
+      "Visita in occasione del cambio di mansione e alla cessazione del rapporto, nei casi previsti",
+      "Visita precedente la ripresa del lavoro dopo assenza per motivi di salute superiore a sessanta giorni continuativi",
+      "Giudizi: idoneità, idoneità parziale con prescrizioni o limitazioni, inidoneità temporanea o permanente; ricorso all’organo di vigilanza entro trenta giorni"
+     ],
+     "appro": "Il giudizio di idoneità è comunicato per iscritto al lavoratore e al datore di lavoro; il datore di lavoro attua le misure indicate dal medico competente e, in caso di inidoneità, adibisce il lavoratore, ove possibile, a mansioni compatibili.",
+     "rif": "D.lgs. 81/2008, artt. 41 e 42",
+     "nar": "La sorveglianza sanitaria, disciplinata dall’articolo quarantuno del testo unico, è svolta dal medico competente nei casi previsti dalla normativa. Comprende diverse tipologie di visita. La visita preventiva, che può essere effettuata anche in fase preassuntiva, verifica l’assenza di controindicazioni alla mansione; la visita periodica controlla nel tempo lo stato di salute. Il lavoratore può chiedere una visita quando la richiesta è correlata ai rischi professionali. Sono previste inoltre la visita in occasione del cambio di mansione, quella alla cessazione del rapporto nei casi stabiliti dalla norma e la visita precedente la ripresa del lavoro dopo un’assenza per motivi di salute superiore a sessanta giorni continuativi. Ogni visita si conclude con un giudizio relativo alla mansione specifica: idoneità, idoneità parziale con prescrizioni o limitazioni, inidoneità temporanea o permanente. Il giudizio è comunicato per iscritto al lavoratore e al datore di lavoro. Contro il giudizio è ammesso ricorso all’organo di vigilanza territorialmente competente entro trenta giorni dalla comunicazione. In caso di inidoneità, l’articolo quarantadue prevede che il datore di lavoro adibisca il lavoratore, ove possibile, a mansioni equivalenti o inferiori compatibili con il suo stato di salute.",
+     "est": true,
+     "ancora": "Il medico competente e la sorveglianza sanitaria"
     },
     {
      "t": "testo",
@@ -1410,6 +1518,24 @@ window.CORSO = {
      ],
      "nar": "Ogni azienda deve essere in grado di gestire le situazioni di emergenza. Il datore di lavoro organizza i rapporti con i servizi pubblici di soccorso, designa gli addetti alla prevenzione incendi, all'evacuazione e al primo soccorso e ne cura la formazione. I lavoratori designati non possono rifiutare l'incarico se non per giustificato motivo. Il piano di emergenza indica i percorsi di esodo, i punti di raccolta e i compiti di ciascuno ed è verificato mediante esercitazioni periodiche. Ogni lavoratore è tenuto a conoscere il piano, i nominativi degli addetti e il punto di raccolta.",
      "p": 1.4
+    },
+    {
+     "foto": false,
+     "t": "testo",
+     "tit": "Primo soccorso e antincendio: gli addetti",
+     "lead": "Il datore di lavoro designa i lavoratori incaricati del primo soccorso e della lotta antincendio, che ricevono una formazione specifica.",
+     "punti": [
+      "Primo soccorso: aziende classificate nei gruppi A, B e C secondo il D.M. 388/2003",
+      "Contenuto minimo della cassetta di pronto soccorso o del pacchetto di medicazione",
+      "Antincendio: formazione degli addetti secondo i livelli 1, 2 e 3 del D.M. 2 settembre 2021",
+      "I lavoratori designati non possono rifiutare l’incarico se non per giustificato motivo",
+      "Tutti i lavoratori conoscono il piano di emergenza, le vie di esodo e il punto di raccolta"
+     ],
+     "appro": "L’efficacia della gestione delle emergenze si verifica con le prove di evacuazione, che vanno svolte almeno una volta l’anno nei luoghi di lavoro in cui è previsto il piano di emergenza.",
+     "rif": "D.lgs. 81/2008, artt. 18, 43 e 45 · D.M. 15 luglio 2003, n. 388 · D.M. 2 settembre 2021",
+     "nar": "La gestione delle emergenze richiede persone preparate. Il testo unico prevede che il datore di lavoro designi preventivamente i lavoratori incaricati del primo soccorso e della prevenzione incendi, lotta antincendio ed evacuazione. Per il primo soccorso il decreto ministeriale trecentottantotto del duemilatré classifica le aziende in tre gruppi, A, B e C, in base all’attività svolta, al numero di lavoratori e agli indici infortunistici, e definisce la durata della formazione degli addetti e il contenuto minimo della cassetta di pronto soccorso o del pacchetto di medicazione. Per l’antincendio il decreto ministeriale del due settembre duemilaventuno stabilisce la formazione degli addetti secondo tre livelli, in funzione del rischio di incendio dell’attività. I lavoratori designati non possono rifiutare l’incarico se non per giustificato motivo. Tutti gli altri lavoratori devono comunque conoscere il piano di emergenza, le vie di esodo, le uscite e il punto di raccolta, e sapere come dare l’allarme. L’efficacia dell’organizzazione si verifica con le prove di evacuazione, che vanno svolte almeno una volta l’anno nei luoghi di lavoro in cui è previsto il piano di emergenza.",
+     "est": true,
+     "ancora": "Gestione delle emergenze"
     },
     {
      "t": "testo",
@@ -1720,6 +1846,24 @@ window.CORSO = {
      "p": 1.5
     },
     {
+     "foto": false,
+     "t": "testo",
+     "tit": "Infortunio: denuncia, comunicazione e infortunio in itinere",
+     "lead": "Quando si verifica un infortunio la legge prevede adempimenti precisi da parte del lavoratore e del datore di lavoro.",
+     "punti": [
+      "Il lavoratore informa immediatamente il datore di lavoro di qualsiasi infortunio, anche di lieve entità",
+      "Il datore di lavoro denuncia all’INAIL l’infortunio con prognosi superiore a tre giorni entro due giorni dalla ricezione del certificato medico",
+      "Comunicazione all’INAIL, a fini statistici e informativi, degli infortuni che comportano l’assenza dal lavoro di almeno un giorno, escluso quello dell’evento, entro 48 ore",
+      "L’infortunio in itinere, nel normale percorso tra abitazione e lavoro, è tutelato dall’INAIL",
+      "Analisi delle cause e aggiornamento della valutazione dei rischi dopo infortuni significativi"
+     ],
+     "appro": "L’analisi dell’infortunio non serve a cercare un colpevole, ma a capire quali misure tecniche, organizzative o formative non hanno funzionato: è il primo strumento per prevenire il successivo.",
+     "rif": "D.P.R. 1124/1965, artt. 52 e 53 · D.lgs. 81/2008, artt. 18, c. 1, lett. r), e 29, c. 3 · D.lgs. 38/2000, art. 12",
+     "nar": "Quando si verifica un infortunio, la legge prevede adempimenti precisi. Il lavoratore deve informare immediatamente il proprio datore di lavoro di qualsiasi infortunio, anche di lieve entità. Il datore di lavoro, in base al testo unico sull’assicurazione contro gli infortuni, deve denunciare all’Istituto nazionale per l’assicurazione contro gli infortuni sul lavoro l’infortunio con prognosi superiore a tre giorni entro due giorni dalla ricezione del certificato medico. Il testo unico di sicurezza prevede inoltre la comunicazione all’Istituto, a fini statistici e informativi, degli infortuni che comportano l’assenza dal lavoro di almeno un giorno, escluso quello dell’evento, entro quarantotto ore dalla ricezione del certificato. È tutelato anche l’infortunio in itinere, cioè quello che avviene nel normale percorso di andata e ritorno tra l’abitazione e il luogo di lavoro. Dopo un infortunio significativo, l’articolo ventinove richiede di rielaborare la valutazione dei rischi quando i risultati della sorveglianza o gli eventi infortunistici ne evidenziano la necessità. L’analisi dell’infortunio non serve a cercare un colpevole, ma a capire quali misure tecniche, organizzative o formative non hanno funzionato.",
+     "est": true,
+     "ancora": "La posizione di garanzia"
+    },
+    {
      "t": "testo",
      "tit": "La condotta del lavoratore e l’area di rischio",
      "foto": false,
@@ -1926,6 +2070,42 @@ window.CORSO = {
      "p": 1.5
     },
     {
+     "foto": false,
+     "t": "vf",
+     "tit": "Esercitazione · Preposto, appalti e vigilanza",
+     "sott": "Qualificare ciascuna affermazione come vera o falsa",
+     "voci": [
+      [
+       "Il preposto, in caso di inosservanza persistente, interrompe l’attività del lavoratore e informa i superiori.",
+       true,
+       "Vero: art. 19 D.lgs. 81/2008."
+      ],
+      [
+       "Chi esercita di fatto poteri di sovrintendenza non ha responsabilità se non è stato nominato.",
+       false,
+       "Falso: art. 299, posizione di garanzia di fatto."
+      ],
+      [
+       "Il personale delle imprese appaltatrici deve esporre la tessera di riconoscimento.",
+       true,
+       "Vero: art. 26, c. 8."
+      ],
+      [
+       "L’INAIL svolge la vigilanza ispettiva sulla sicurezza in tutti i settori.",
+       false,
+       "Falso: la vigilanza spetta ad ASL e Ispettorato nazionale del lavoro."
+      ],
+      [
+       "La mancata formazione dei lavoratori può giustificare la sospensione dell’attività.",
+       true,
+       "Vero: rientra nelle gravi violazioni dell’Allegato I."
+      ]
+     ],
+     "nar": "Esercitazione. Si stabilisca se ciascuna affermazione su preposto, appalti e organi di vigilanza è vera o falsa.",
+     "est": true,
+     "ancora": "Esercitazione 6 · Affermazioni vere o false"
+    },
+    {
      "t": "caso",
      "tit": "Esercitazione 7 · Caso di studio",
      "scena": "Durante un travaso in reparto si sviluppa improvvisamente un forte odore di gas e un collega accusa capogiri. Il capo reparto è in un altro stabilimento e non risponde al telefono.",
@@ -2124,6 +2304,24 @@ window.CORSO = {
     },
     {
      "foto": false,
+     "t": "testo",
+     "tit": "Chi vigila: ASL, Ispettorato nazionale del lavoro e altri organi",
+     "lead": "La vigilanza sull’applicazione della normativa di salute e sicurezza è affidata principalmente alle ASL e, dal 2021, anche all’Ispettorato nazionale del lavoro in tutti i settori.",
+     "punti": [
+      "Aziende sanitarie locali (servizi di prevenzione e sicurezza negli ambienti di lavoro)",
+      "Ispettorato nazionale del lavoro: competenza estesa a tutti i settori dal D.L. 146/2021",
+      "Vigili del fuoco per i profili di prevenzione incendi",
+      "Altri organi per settori specifici (ad esempio radiazioni ionizzanti, attività minerarie, trasporti)",
+      "INAIL: assicurazione, prevenzione, ricerca e supporto alle imprese, senza funzioni di vigilanza ispettiva sulla sicurezza"
+     ],
+     "appro": "Il coordinamento tra gli organi avviene a livello regionale nei comitati previsti dall’art. 7, per evitare sovrapposizioni dei controlli e programmare la vigilanza sui settori a maggior rischio.",
+     "rif": "D.lgs. 81/2008, artt. 7 e 13 · D.L. 21 ottobre 2021, n. 146",
+     "nar": "La vigilanza sull’applicazione della normativa di salute e sicurezza è disciplinata dall’articolo tredici del testo unico. È svolta principalmente dalle aziende sanitarie locali, attraverso i servizi di prevenzione e sicurezza negli ambienti di lavoro. Dal duemilaventuno, con il decreto-legge centoquarantasei, la competenza dell’Ispettorato nazionale del lavoro è stata estesa a tutti i settori di attività, mentre in precedenza era limitata ad alcuni ambiti come l’edilizia. Ai Vigili del fuoco spetta la vigilanza per i profili di prevenzione incendi. Per settori specifici, come le radiazioni ionizzanti, le attività minerarie o alcuni comparti dei trasporti, intervengono organi dedicati. L’Istituto nazionale per l’assicurazione contro gli infortuni sul lavoro svolge funzioni di assicurazione, prevenzione, ricerca e supporto alle imprese, ma non ha compiti di vigilanza ispettiva sull’applicazione delle norme di sicurezza. Il coordinamento tra gli organi avviene a livello regionale, nei comitati previsti dall’articolo sette, con l’obiettivo di evitare sovrapposizioni nei controlli e di programmare la vigilanza sui settori a maggior rischio.",
+     "est": true,
+     "ancora": "Funzioni e poteri dell'organo di vigilanza"
+    },
+    {
+     "foto": false,
      "t": "grafico",
      "tit": "Diagramma · La prescrizione dell’organo di vigilanza",
      "rif": "D.lgs. 758/1994, artt. 20–24",
@@ -2176,6 +2374,24 @@ window.CORSO = {
      ],
      "nar": "L'articolo 14 disciplina il provvedimento di sospensione dell'attività imprenditoriale. L'Ispettorato del lavoro e, per le materie di competenza, le ASL lo adottano in presenza di lavoratori irregolari oltre la soglia di legge oppure di gravi violazioni in materia di sicurezza, quali la mancata elaborazione del DVR, l'omessa formazione e addestramento o l'assenza di protezioni contro le cadute dall'alto. La sospensione riguarda la parte dell'attività interessata dalle violazioni ed è revocata soltanto a seguito della regolarizzazione, del ripristino delle condizioni di sicurezza e del pagamento di una somma aggiuntiva.",
      "p": 1.3
+    },
+    {
+     "foto": false,
+     "t": "testo",
+     "tit": "Lavoro irregolare e gravi violazioni: la sospensione dell’art. 14",
+     "lead": "L’art. 14 del D.lgs. 81/2008, riscritto dal D.L. 146/2021, consente all’Ispettorato nazionale del lavoro e alle ASL di sospendere l’attività imprenditoriale.",
+     "punti": [
+      "Presupposto: almeno il 10% dei lavoratori presenti sul luogo di lavoro impiegati senza preventiva comunicazione di instaurazione del rapporto",
+      "Presupposto: gravi violazioni in materia di salute e sicurezza individuate nell’Allegato I al D.lgs. 81/2008",
+      "La sospensione riguarda la parte dell’attività interessata dalle violazioni",
+      "Revoca subordinata alla regolarizzazione, al ripristino delle condizioni di sicurezza e al pagamento di una somma aggiuntiva",
+      "Durante la sospensione l’impresa non può contrattare con la pubblica amministrazione"
+     ],
+     "appro": "Le gravi violazioni dell’Allegato I comprendono, ad esempio, la mancata elaborazione del documento di valutazione dei rischi, la mancata formazione e addestramento, la mancanza di protezioni contro le cadute dall’alto e l’assenza di DPI contro le cadute dall’alto.",
+     "rif": "D.lgs. 81/2008, art. 14 e Allegato I · D.L. 21 ottobre 2021, n. 146, conv. L. 215/2021",
+     "nar": "L’articolo quattordici del testo unico, riscritto dal decreto-legge centoquarantasei del duemilaventuno, disciplina il provvedimento di sospensione dell’attività imprenditoriale. Lo possono adottare l’Ispettorato nazionale del lavoro e, per i profili di salute e sicurezza, i servizi delle aziende sanitarie locali. I presupposti sono due. Il primo riguarda il lavoro irregolare: la sospensione scatta quando almeno il dieci per cento dei lavoratori presenti sul luogo di lavoro risulta occupato senza la preventiva comunicazione di instaurazione del rapporto. Il secondo riguarda le gravi violazioni in materia di salute e sicurezza elencate nell’allegato uno al testo unico, tra cui la mancata elaborazione del documento di valutazione dei rischi, la mancata formazione e addestramento dei lavoratori e la mancanza di protezioni contro le cadute dall’alto. La sospensione riguarda la parte dell’attività interessata dalle violazioni. La revoca è subordinata alla regolarizzazione dei lavoratori, al ripristino delle condizioni di sicurezza e al pagamento di una somma aggiuntiva. Durante il periodo di sospensione l’impresa non può contrattare con la pubblica amministrazione. Per il lavoratore questo strumento ha un significato preciso: le carenze di formazione e di valutazione dei rischi sono considerate così gravi da poter fermare l’attività.",
+     "est": true,
+     "ancora": "Il provvedimento di sospensione dell'attività"
     },
     {
      "t": "testo",

@@ -1,0 +1,20 @@
+{
+ "dopo": "Comunicazione del rischio",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "La breve riunione di sicurezza in reparto",
+   "lead": "Gli incontri brevi e frequenti in reparto, guidati dal preposto, mantengono viva l’attenzione su rischi e comportamenti.",
+   "punti": [
+    "Durata di 5-15 minuti, all’inizio del turno o prima di un lavoro particolare",
+    "Un solo tema concreto: un quasi incidente, una nuova attrezzatura, un rischio stagionale",
+    "Partecipazione attiva: domande ai lavoratori, esempi dal reparto",
+    "Chiusura con un messaggio chiave e, se serve, un’azione da verificare",
+    "Registrazione sintetica: data, tema, partecipanti, eventuali segnalazioni"
+   ],
+   "appro": "La breve riunione non sostituisce la formazione prevista dall’Accordo, ma ne rafforza gli effetti e documenta l’attività di vigilanza del preposto.",
+   "rif": "D.lgs. 81/2008, artt. 19 e 36 · UNI ISO 45001:2023, §§ 7.4 e 5.4",
+   "nar": "Tra gli strumenti di comunicazione del rischio, uno dei più efficaci è la breve riunione di sicurezza in reparto, spesso chiamata toolbox talk. Si tratta di un incontro di cinque-quindici minuti, all’inizio del turno o prima di un lavoro particolare, guidato dal preposto o dal capo squadra. Funziona se affronta un solo tema concreto: un quasi incidente avvenuto la settimana precedente, l’arrivo di una nuova attrezzatura, un rischio stagionale come il caldo, una procedura spesso disattesa. È importante che sia partecipativa: il preposto pone domande, chiede ai lavoratori come svolgono effettivamente l’operazione, raccoglie difficoltà e proposte, usa esempi tratti dal reparto e non casi generici. L’incontro si chiude con un messaggio chiave, facile da ricordare, e, se necessario, con un’azione concreta da verificare nei giorni successivi. Una registrazione sintetica con data, tema, partecipanti ed eventuali segnalazioni rende l’attività tracciabile. La breve riunione non sostituisce la formazione prevista dall’Accordo Stato Regioni, ma ne rafforza gli effetti nel tempo e costituisce anche una prova dell’attività di vigilanza e di informazione svolta dal preposto."
+  }
+ ]
+}

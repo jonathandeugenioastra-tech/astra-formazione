@@ -1,0 +1,36 @@
+{
+ "dopo": "Gli addetti antincendio: il D.M. 2 settembre 2021",
+ "origine": "RSPP-AGG/M5-3.json",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Il codice di prevenzione incendi",
+   "lead": "Il D.M. 3 agosto 2015 ha introdotto una metodologia prestazionale basata su profili di rischio e strategia antincendio articolata in dieci misure.",
+   "punti": [
+    "Profili di rischio: vita (Rvita), beni (Rbeni), ambiente (Rambiente)",
+    "Strategia: dieci misure da S.1 reazione al fuoco a S.10 sicurezza degli impianti tecnologici",
+    "Per ogni misura: livelli di prestazione e soluzioni conformi, alternative o in deroga",
+    "Regole tecniche verticali per attività specifiche: uffici, autorimesse, scuole, depositi",
+    "Metodo unico di riferimento per la progettazione delle attività soggette, salvo regole tradizionali residue"
+   ],
+   "appro": "Il codice si integra con il D.M. 3 settembre 2021: per i luoghi di lavoro a basso rischio non soggetti si applica il «minicodice» con criteri semplificati.",
+   "rif": "D.M. 3 agosto 2015 e s.m. · D.M. 3 settembre 2021 · D.P.R. 151/2011",
+   "nar": "Il codice di prevenzione incendi, approvato con il decreto ministeriale del tre agosto duemilaquindici e più volte aggiornato, ha cambiato l’approccio alla progettazione antincendio, passando da prescrizioni rigide a una metodologia prestazionale. Il progettista attribuisce all’attività tre profili di rischio: per la vita umana, indicato come R vita, che dipende dalle caratteristiche degli occupanti e dalla velocità di crescita dell’incendio; per i beni, R beni, legato al valore strategico e storico; per l’ambiente, R ambiente. Sulla base dei profili si definisce la strategia antincendio, articolata in dieci misure: reazione al fuoco, resistenza al fuoco, compartimentazione, esodo, gestione della sicurezza antincendio, controllo dell’incendio, rivelazione ed allarme, controllo di fumi e calore, operatività antincendio e sicurezza degli impianti tecnologici. Per ogni misura il codice indica livelli di prestazione e soluzioni progettuali, che possono essere conformi, alternative o in deroga. Le regole tecniche verticali completano il quadro per attività specifiche, come uffici, autorimesse, scuole e attività commerciali. Per i luoghi di lavoro a basso rischio di incendio non soggetti ai controlli dei Vigili del fuoco, il decreto del tre settembre duemilaventuno ha introdotto il cosiddetto minicodice, con criteri semplificati coerenti con la stessa logica."
+  },
+  {
+   "t": "testo",
+   "tit": "Le attività soggette: il D.P.R. 151/2011",
+   "lead": "Il D.P.R. 151/2011 individua le attività soggette ai controlli dei Vigili del fuoco e le suddivide in tre categorie con procedimenti diversi.",
+   "punti": [
+    "Allegato I: 80 attività soggette, ciascuna classificata in categoria A, B o C",
+    "Categorie A e B: SCIA prima dell’avvio dell’attività; controlli a campione (A) o sopralluogo (B)",
+    "Categoria C: parere preventivo sul progetto e SCIA, con sopralluogo entro 60 giorni",
+    "Categorie B e C: valutazione del progetto prima della realizzazione",
+    "Attestazione di rinnovo periodico della conformità antincendio, di norma ogni 5 anni"
+   ],
+   "appro": "Ogni modifica che comporti un aggravio delle condizioni di sicurezza richiede un nuovo procedimento: va valutata prima di intervenire su lavorazioni, depositi o layout.",
+   "rif": "D.P.R. 1° agosto 2011, n. 151, artt. 3-5 e Allegato I · D.M. 7 agosto 2012",
+   "nar": "Il regolamento di prevenzione incendi, decreto del Presidente della Repubblica centocinquantuno del duemilaundici, individua nell’Allegato uno ottanta attività soggette ai controlli dei Vigili del fuoco, come depositi di liquidi infiammabili, officine con più di un certo numero di addetti, impianti di produzione di calore oltre centosedici chilowatt, autorimesse e attività commerciali di grandi dimensioni. Ogni attività è classificata, in base alla dimensione e alla complessità, in tre categorie con procedimenti diversi. Per le attività di categoria A, a rischio più basso, si presenta la segnalazione certificata di inizio attività prima dell’avvio, e i controlli avvengono a campione. Per la categoria B si presenta preventivamente il progetto per la valutazione, poi la segnalazione, con controlli anche a campione. Per la categoria C, la più complessa, oltre alla valutazione del progetto, dopo la segnalazione i Vigili del fuoco eseguono un sopralluogo entro sessanta giorni e rilasciano il certificato di prevenzione incendi. Il titolare deve inoltre presentare periodicamente l’attestazione di rinnovo della conformità antincendio, di norma ogni cinque anni. Ogni modifica che comporti un aggravio delle condizioni di sicurezza richiede un nuovo procedimento: va valutata prima di intervenire su lavorazioni, depositi o disposizione dei locali."
+  }
+ ]
+}

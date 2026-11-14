@@ -1,0 +1,20 @@
+{
+ "dopo": "Gas a effetto serra e CO₂ equivalente",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Il potenziale di riscaldamento globale (GWP)",
+   "lead": "Per sommare gas diversi si moltiplica la massa di ciascun gas per il suo potenziale di riscaldamento globale su 100 anni.",
+   "punti": [
+    "CO₂: GWP pari a 1 per definizione",
+    "Metano: 28 secondo il quinto rapporto IPCC (AR5); circa 27-30 nel sesto (AR6), distinguendo l’origine fossile",
+    "Protossido di azoto: 265 (AR5); 273 (AR6)",
+    "Gas fluorurati: da centinaia a decine di migliaia, secondo il composto",
+    "Indicare sempre il rapporto IPCC usato e mantenerlo coerente nel tempo"
+   ],
+   "appro": "Cambiare la serie di GWP modifica i risultati: in caso di aggiornamento conviene ricalcolare anche l’anno base per mantenere confrontabile la serie storica.",
+   "rif": "IPCC, Fifth e Sixth Assessment Report · UNI EN ISO 14064-1:2019 · GHG Protocol",
+   "nar": "Le emissioni di gas serra si esprimono in tonnellate di anidride carbonica equivalente, per poter sommare gas che hanno effetti diversi sul clima. La conversione si ottiene moltiplicando la massa emessa di ciascun gas per il suo potenziale di riscaldamento globale, che esprime quanto calore quel gas trattiene nell’atmosfera rispetto alla stessa massa di anidride carbonica, di norma su un orizzonte di cento anni. L’anidride carbonica ha per definizione un potenziale pari a uno. Il metano ha un potenziale di ventotto secondo il quinto rapporto di valutazione del gruppo intergovernativo sul cambiamento climatico, e di circa ventisette-trenta nel sesto rapporto, che distingue il metano di origine fossile da quello biogenico. Il protossido di azoto ha un potenziale di duecentosessantacinque nel quinto rapporto e di duecentosettantatré nel sesto. I gas fluorurati hanno potenziali che vanno da alcune centinaia a decine di migliaia, secondo il composto. Nella rendicontazione bisogna indicare quale serie di valori si è usata e mantenerla coerente nel tempo, perché cambiare serie modifica i risultati anche a parità di emissioni fisiche. Quando si passa a una serie aggiornata conviene ricalcolare anche l’anno base, per mantenere confrontabile l’andamento."
+  }
+ ]
+}

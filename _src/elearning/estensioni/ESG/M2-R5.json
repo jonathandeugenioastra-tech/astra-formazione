@@ -1,0 +1,21 @@
+{
+ "dopo": "Raccolta dei dati ambientali",
+ "origine": "CFP/M1-5.json",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Confini organizzativi e anno base",
+   "lead": "Prima di calcolare occorre stabilire quali entità e impianti includere e quale anno usare come riferimento per misurare la riduzione.",
+   "punti": [
+    "Approccio del controllo operativo: si includono le attività di cui si gestiscono le politiche operative",
+    "Approccio del controllo finanziario o della quota di partecipazione al capitale",
+    "Scelta documentata e applicata in modo coerente a tutte le entità",
+    "Anno base: primo anno con dati affidabili e completi, riferimento per gli obiettivi",
+    "Politica di ricalcolo: acquisizioni, cessioni, cambi di metodo o errori significativi"
+   ],
+   "appro": "Senza una politica di ricalcolo dell’anno base, una cessione di stabilimento può apparire come una riduzione delle emissioni che in realtà non è avvenuta.",
+   "rif": "GHG Protocol, Corporate Standard, capitoli 3 e 5 · UNI EN ISO 14064-1:2019, § 5",
+   "nar": "Prima di raccogliere i dati occorre definire i confini dell’inventario. I confini organizzativi stabiliscono quali società, stabilimenti e attività includere. Il GHG Protocol e la norma ISO quattordicimilasessantaquattro propongono due approcci. Con l’approccio del controllo, che può essere operativo o finanziario, si includono il cento per cento delle emissioni delle attività controllate; con il controllo operativo, il più usato, si considerano le attività di cui l’organizzazione ha l’autorità di introdurre e attuare le politiche operative. Con l’approccio della quota di partecipazione si include una quota delle emissioni proporzionale alla partecipazione al capitale. La scelta va documentata e applicata in modo coerente. Si definisce poi l’anno base, cioè il primo anno per cui sono disponibili dati affidabili e completi, che diventa il riferimento per gli obiettivi di riduzione. Occorre anche una politica di ricalcolo: in caso di acquisizioni, cessioni, esternalizzazioni, cambi di metodo o scoperta di errori significativi, l’anno base va ricalcolato quando la variazione supera una soglia di significatività stabilita. Senza questa regola, la cessione di uno stabilimento potrebbe apparire come una riduzione delle emissioni che in realtà non è avvenuta, e il confronto nel tempo perderebbe significato."
+  }
+ ]
+}

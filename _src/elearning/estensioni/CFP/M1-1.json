@@ -1,0 +1,20 @@
+{
+ "dopo": "Gas a effetto serra e CO₂ equivalente",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Gas fluorurati: il Regolamento (UE) 2024/573",
+   "lead": "Gli idrofluorocarburi usati come refrigeranti hanno potenziali di riscaldamento globale molto elevati: il nuovo regolamento ne prevede l’eliminazione progressiva.",
+   "punti": [
+    "Riduzione progressiva degli HFC immessi sul mercato fino all’azzeramento nel 2050",
+    "Nuovi divieti di immissione sul mercato per apparecchiature con gas ad alto GWP",
+    "Controlli delle perdite a partire da 5 t di CO₂ equivalente: ogni 12 mesi",
+    "Da 50 t: ogni 6 mesi; da 500 t: ogni 3 mesi; frequenze dimezzate con sistema di rilevamento",
+    "Dichiarazione annuale alla Banca dati F-gas entro il 31 maggio (D.P.R. 146/2018)"
+   ],
+   "appro": "Le perdite di refrigerante sono emissioni dirette di Scope 1: si stimano dai reintegri registrati moltiplicati per il GWP del gas.",
+   "rif": "Reg. (UE) 2024/573 · D.P.R. 16 novembre 2018, n. 146",
+   "nar": "Gli idrofluorocarburi, usati come refrigeranti negli impianti di condizionamento e refrigerazione, sono gas fluorurati con un potenziale di riscaldamento globale da centinaia a migliaia di volte superiore a quello dell’anidride carbonica. Il regolamento europeo duemilaventiquattro barra cinquecentosettantatré ha abrogato il precedente regolamento del duemilaquattordici e prevede la riduzione progressiva delle quantità immesse sul mercato fino all’azzeramento nel duemilacinquanta, oltre a nuovi divieti di immissione sul mercato di apparecchiature che usano gas ad alto potenziale. Per gli operatori delle apparecchiature restano centrali i controlli delle perdite, eseguiti da personale certificato: ogni dodici mesi per le apparecchiature che contengono gas in quantità pari o superiore a cinque tonnellate di anidride carbonica equivalente, ogni sei mesi da cinquanta tonnellate, ogni tre mesi da cinquecento tonnellate; con un sistema di rilevamento delle perdite le frequenze si dimezzano. I dati degli interventi confluiscono nella Banca dati nazionale e l’operatore presenta la dichiarazione annuale entro il trentuno maggio, secondo il decreto del Presidente della Repubblica centoquarantasei del duemiladiciotto. Nell’inventario delle emissioni le perdite sono emissioni dirette di Scope uno: si stimano dai reintegri di refrigerante moltiplicati per il potenziale di riscaldamento del gas."
+  }
+ ]
+}

@@ -1,0 +1,35 @@
+{
+ "dopo": "Tassonomia e finanza sostenibile: perché le banche chiedono dati",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "CBAM: il meccanismo di adeguamento del carbonio alle frontiere",
+   "lead": "Dal 1° gennaio 2026 il CBAM è entrato nel periodo definitivo: gli importatori di alcune merci acquistano certificati corrispondenti alle emissioni incorporate.",
+   "punti": [
+    "Merci interessate: ferro e acciaio, alluminio, cemento, fertilizzanti, idrogeno, energia elettrica",
+    "Soglia «de minimis» di 50 tonnellate all’anno per ferro e acciaio, alluminio, fertilizzanti e cemento",
+    "Solo dichiaranti CBAM autorizzati possono importare oltre soglia",
+    "Acquisto dei certificati dal 1° febbraio 2027 per le importazioni del 2026",
+    "Prima dichiarazione annuale e restituzione dei certificati entro il 30 settembre 2027"
+   ],
+   "appro": "Dal 2027 il dichiarante deve detenere ogni trimestre certificati pari ad almeno il 50% delle emissioni incorporate nelle merci importate dall’inizio dell’anno.",
+   "rif": "Reg. (UE) 2023/956, come modificato dal Reg. (UE) 2025/2083, e atti di esecuzione",
+   "nar": "Il meccanismo di adeguamento del carbonio alle frontiere, in sigla CBAM, applica alle importazioni di alcune merci un costo del carbonio equivalente a quello sostenuto dai produttori europei nel sistema di scambio delle quote di emissione. Dopo la fase transitoria di sola rendicontazione, dal primo gennaio duemilaventisei il meccanismo è entrato nel periodo definitivo. Le merci interessate sono ferro e acciaio, alluminio, cemento, fertilizzanti, idrogeno ed energia elettrica, compresi alcuni prodotti derivati. Il regolamento duemilaventicinque barra duemilaottantatré ha introdotto una soglia de minimis di cinquanta tonnellate all’anno per ferro e acciaio, alluminio, fertilizzanti e cemento, che esenta la maggior parte dei piccoli importatori. Oltre la soglia, solo un dichiarante CBAM autorizzato può importare. I certificati relativi alle importazioni del duemilaventisei si acquistano a partire dal primo febbraio duemilaventisette, e la prima dichiarazione annuale, con la restituzione dei certificati, va presentata entro il trenta settembre duemilaventisette. Dal duemilaventisette il dichiarante deve inoltre detenere, alla fine di ogni trimestre, certificati pari ad almeno la metà delle emissioni incorporate nelle merci importate. Per l’impresa importatrice diventa essenziale ottenere dai fornitori extra europei i dati effettivi sulle emissioni."
+  },
+  {
+   "t": "testo",
+   "tit": "EUDR: prodotti a deforestazione zero",
+   "lead": "Il Regolamento (UE) 2023/1115 vieta l’immissione sul mercato di prodotti legati alla deforestazione e impone la dovuta diligenza.",
+   "punti": [
+    "Materie prime: bovini, cacao, caffè, palma da olio, gomma, soia e legno, e prodotti derivati",
+    "Prodotti conformi solo se a deforestazione zero e prodotti legalmente",
+    "Dichiarazione di dovuta diligenza con la geolocalizzazione degli appezzamenti",
+    "Applicazione dal 30 dicembre 2026 per operatori grandi e medi",
+    "Dal 30 giugno 2027 per le micro e piccole imprese"
+   ],
+   "appro": "Per molte imprese il tema riguarda imballaggi in carta e cartone, pallet, mobili, pneumatici e articoli in gomma o cuoio.",
+   "rif": "Reg. (UE) 2023/1115, come modificato dal Reg. (UE) 2025/2650",
+   "nar": "Il regolamento europeo duemilaventitré barra millecentoquindici, noto come EUDR, vieta di immettere sul mercato europeo o di esportare prodotti che contribuiscono alla deforestazione o al degrado forestale. Riguarda sette materie prime, cioè bovini, cacao, caffè, palma da olio, gomma, soia e legno, e numerosi prodotti derivati, come cuoio, cioccolato, mobili, carta e pneumatici. Un prodotto può essere immesso sul mercato solo se è a deforestazione zero, cioè proveniente da terreni non deforestati dopo il trentuno dicembre duemilaventi, se è stato prodotto nel rispetto della legislazione del Paese di produzione e se è coperto da una dichiarazione di dovuta diligenza. La dovuta diligenza richiede di raccogliere informazioni, compresa la geolocalizzazione degli appezzamenti di produzione, valutare il rischio e, se necessario, attenuarlo. Dopo i rinvii, il regolamento duemilaventicinque barra duemilaseicentocinquanta ha fissato l’applicazione al trenta dicembre duemilaventisei per gli operatori grandi e medi e al trenta giugno duemilaventisette per le micro e piccole imprese. Per molte imprese il tema riguarda anche acquisti non immediatamente associati alla deforestazione, come imballaggi in carta e cartone, pallet in legno, mobili e articoli in gomma o cuoio."
+  }
+ ]
+}

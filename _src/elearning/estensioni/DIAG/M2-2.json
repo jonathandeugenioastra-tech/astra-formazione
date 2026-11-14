@@ -1,0 +1,20 @@
+{
+ "dopo": "Dopo la diagnosi: attuazione e verifica dei risparmi",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Misura e verifica dei risparmi (ISO 50015 e ISO 50047)",
+   "lead": "I risparmi energetici non si misurano direttamente: si stimano confrontando il consumo effettivo con quello che si sarebbe avuto senza l’intervento.",
+   "punti": [
+    "Piano di misura e verifica prima dell’intervento",
+    "Confine di misura: singola macchina, impianto o intero sito",
+    "Periodo di riferimento e periodo di rendicontazione con le stesse condizioni normalizzate",
+    "Aggiustamenti per variabili rilevanti e fattori statici",
+    "Incertezza dichiarata; metodi coerenti con quelli richiesti dagli schemi di incentivo"
+   ],
+   "appro": "La ISO 50047 descrive i metodi per determinare i risparmi a livello di organizzazione, di impianto o di singolo intervento.",
+   "rif": "ISO 50015:2014 · ISO 50047:2016 · ISO 50006:2023",
+   "nar": "Il risparmio energetico è, per definizione, un’energia non consumata: non si può misurare direttamente, ma si stima confrontando il consumo effettivo dopo l’intervento con il consumo che si sarebbe avuto senza di esso, nelle stesse condizioni. Le norme ISO cinquantamilaquindici e cinquantamilaquarantasette descrivono i principi della misura e verifica. Il punto di partenza è un piano, preparato prima dell’intervento, che definisce il confine di misura, cioè la singola macchina, l’impianto o l’intero sito, le grandezze da misurare, gli strumenti, il periodo di riferimento e il periodo di rendicontazione. Il consumo del periodo di riferimento viene riportato alle condizioni del periodo di rendicontazione attraverso aggiustamenti per le variabili rilevanti, come la produzione e le condizioni climatiche, e per eventuali variazioni dei fattori statici. Il risultato va accompagnato da una stima dell’incertezza. Un piano di misura ben costruito è indispensabile anche per accedere agli incentivi, come i certificati bianchi, che richiedono metodi coerenti e documentati. La verifica dei risparmi chiude il ciclo della diagnosi: consente di confermare le stime, correggere gli errori e aggiornare la linea di base."
+  }
+ ]
+}

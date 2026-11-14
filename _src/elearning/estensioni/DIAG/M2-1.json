@@ -1,0 +1,20 @@
+{
+ "dopo": "Strategia di monitoraggio e modello energetico",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Baseline e indicatori di prestazione energetica (ISO 50006)",
+   "lead": "La norma ISO 50006 spiega come costruire una linea di base energetica e indicatori normalizzati per misurare i miglioramenti.",
+   "punti": [
+    "Linea di base energetica (EnB): riferimento quantitativo per un periodo definito",
+    "Indicatori di prestazione energetica (EnPI): consumo specifico, consumo normalizzato, modelli",
+    "Variabili rilevanti: produzione, gradi giorno, ore di funzionamento",
+    "Normalizzazione con modelli di regressione verificati statisticamente",
+    "Fattori statici e condizioni per l’aggiornamento della baseline"
+   ],
+   "appro": "Un semplice rapporto tra energia e produzione può essere fuorviante se una parte rilevante dei consumi è fissa: la regressione separa la quota fissa da quella variabile.",
+   "rif": "ISO 50006:2023 · UNI CEI EN ISO 50001:2018 e Amd 1:2024",
+   "nar": "Per sapere se un intervento ha davvero migliorato la prestazione energetica occorre un riferimento. La norma ISO cinquantamilasei descrive come costruire la linea di base energetica, cioè il riferimento quantitativo dei consumi in un periodo definito, e gli indicatori di prestazione energetica. L’indicatore più semplice è il consumo specifico, ad esempio i chilowattora per tonnellata prodotta, ma può essere fuorviante quando una parte rilevante dei consumi è fissa, come illuminazione, perdite di aria compressa o climatizzazione: al calare della produzione il consumo specifico cresce anche senza alcun peggioramento. Per questo la norma raccomanda di individuare le variabili rilevanti, come la produzione, i gradi giorno di riscaldamento o raffrescamento e le ore di funzionamento, e di costruire modelli di regressione che separano la quota fissa da quella variabile, verificandone la significatività statistica. Vanno anche registrati i fattori statici, come la superficie climatizzata o il numero di turni, il cui cambiamento richiede di aggiornare la linea di base. Con un modello affidabile si confronta il consumo effettivo con quello atteso nelle stesse condizioni, e la differenza misura il miglioramento reale."
+  }
+ ]
+}

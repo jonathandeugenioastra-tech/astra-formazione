@@ -215,7 +215,7 @@
     $('span', tm).textContent = completo(i) ? '✓' : `${Math.floor(rest / 60)}:${String(rest % 60).padStart(2, '0')}`;
     let r = '';
     if (!completo(i) && s.t !== 'testfinale') {
-      if (MV.pend) r = (Date.now() - MV.pend.t > 30000) ? 'Conteggio del tempo sospeso: rispondere alla verifica immediata' : 'Rispondere alla verifica immediata';
+      if (MV.pend) r = (Date.now() - MV.pend.t > 30000) ? 'Conteggio del tempo sospeso: svolgere l’esercitazione' : 'Svolgere l’esercitazione in corso';
       else if (obbligo && !obbligo.fatto()) r = obbligo.testo;
       else if (rest > 0) r = 'Tempo minimo di permanenza in corso';
       else if (!narFine && audio) r = 'Attendi la fine della narrazione';
@@ -259,49 +259,94 @@
     return [v * 2, v / 2, v * 3, v + (v >= 10 ? 10 : 1)].map(x => fmt(x) + m[2] + m[3]);
   };
   const mischia = a => a.map(x => [Math.random(), x]).sort((p, q) => p[0] - q[0]).map(x => x[1]);
+  const USATE = new Set();
+  const candidati = () => {
+    const i = st.c, out = [S[i]];
+    for (let k = i - 1; k >= 0 && out.length < 16; k--) if (S[k].mod === S[i].mod && S[k].t === 'testo') out.push(S[k]);
+    S.forEach(x => { if (x.t === 'testo' && x !== S[i] && out.length < 40 && S.indexOf(x) < i) out.push(x); });
+    return out;
+  };
+  const distrattori = (t, f) => {
+    const c = classeTok(t); if (!c) return [];
+    let alt = mischia([...(corpus()[c] || [])].filter(x => x !== t && !f.includes(x)));
+    if (alt.length < 2) alt = alt.concat(varianti(t).filter(x => !f.includes(x) && !alt.includes(x)));
+    return alt;
+  };
+  const coppie = cand => { // frasi con dato tecnico o normativo, non ancora usate
+    const r = [];
+    for (const s of cand) for (const f of mischia(frasi(s))) for (const t of mischia(tokens(f))) {
+      const alt = distrattori(t, f); if (alt.length < 2) continue;
+      r.push({ s, f, t, alt }); break;
+    }
+    return r;
+  };
   const generaMicro = () => {
-    const i = st.c, cand = [S[i]];
-    for (let k = i - 1; k >= 0 && cand.length < 12; k--) if (S[k].mod === S[i].mod && S[k].t === 'testo') cand.push(S[k]);
-    const C2 = corpus();
-    for (const s of cand) {
-      const fr = mischia(frasi(s));
-      for (const f of fr) {
-        const tk = mischia(tokens(f));
-        for (const t of tk) {
-          const c = classeTok(t); if (!c) continue;
-          let alt = mischia([...(C2[c] || [])].filter(x => x !== t && !f.includes(x)));
-          if (alt.length < 2) alt = alt.concat(varianti(t).filter(x => !f.includes(x) && !alt.includes(x)));
-          if (alt.length < 2) continue;
-          return { tipo: 'completa', fonte: s, testo: f.replace(t, '______'), giusta: t, opz: mischia([t, alt[0], alt[1]]), frase: f };
-        }
+    const cand = candidati(), cp = mischia(coppie(cand)).filter(x => !USATE.has(x.f));
+    // esercitazioni redatte nel corso (verifiche intermedie, vero/falso, casi) dei moduli già affrontati
+    const banca = [];
+    S.slice(0, st.c + 1).forEach((x, k) => {
+      if (x.t === 'verifica') (x.domande || []).forEach((d, j) => banca.push({ tipo: 'domanda', fonte: x, testo: d[0], giusta: d[1][d[2]], opz: mischia(d[1].slice()), frase: d[3] || '', chiave: 'D' + k + '-' + j }));
+      if (x.t === 'vf') (x.voci || []).forEach((v, j) => banca.push({ tipo: 'vf', fonte: x, testo: v[0], giusta: v[1] ? 'Vero' : 'Falso', opz: ['Vero', 'Falso'], frase: v[2] || '', chiave: 'V' + k + '-' + j }));
+      if (x.t === 'caso' && k !== st.c) banca.push({ tipo: 'caso', fonte: x, testo: x.scena + ' ' + x.domanda, giusta: (x.opz.find(o => o[1]) || [])[0], opz: mischia(x.opz.map(o => o[0])), frase: (x.opz.find(o => o[1]) || [])[2] || '', chiave: 'C' + k });
+    });
+    const libere = mischia(banca.filter(b => !USATE.has(b.chiave)));
+    if (libere.length && Math.random() < 0.45) { USATE.add(libere[0].chiave); return libere[0]; }
+    const tipi = mischia(['completa', 'vf', 'abbina', 'completa', 'vf', 'riconosci']);
+    for (const tipo of tipi) {
+      if (tipo === 'completa' && cp.length) { const x = cp[0]; USATE.add(x.f); return { tipo, fonte: x.s, testo: x.f.replace(x.t, '______'), giusta: x.t, opz: mischia([x.t, x.alt[0], x.alt[1]]), frase: x.f }; }
+      if (tipo === 'vf' && cp.length) {
+        const x = cp[0]; USATE.add(x.f); const vero = Math.random() < 0.5;
+        return { tipo, fonte: x.s, testo: vero ? x.f : x.f.replace(x.t, x.alt[0]), giusta: vero ? 'Vero' : 'Falso', opz: ['Vero', 'Falso'], frase: x.f };
+      }
+      if (tipo === 'abbina' && cp.length >= 3) {
+        const sel = []; for (const x of cp) if (!sel.some(y => y.t === x.t)) { sel.push(x); if (sel.length === 3) break; }
+        if (sel.length < 3) continue; sel.forEach(x => USATE.add(x.f));
+        return { tipo, fonte: sel[0].s, voci: sel.map(x => ({ testo: x.f.replace(x.t, '______'), giusta: x.t, frase: x.f })), opz: mischia(sel.map(x => x.t)) };
+      }
+      if (tipo === 'riconosci') {
+        const s = S[st.c], propri = frasi(s).filter(f => !USATE.has('R' + f)); if (!propri.length) continue;
+        const altri = mischia(S.filter(x => x.mod !== s.mod && x.t === 'testo').flatMap(frasi)).slice(0, 2); if (altri.length < 2) continue;
+        const g = propri[Math.floor(Math.random() * propri.length)]; USATE.add('R' + g);
+        return { tipo, fonte: s, testo: `Quale dei seguenti contenuti è trattato nella schermata «${s.tit}»?`, giusta: g, opz: mischia([g, ...altri]), frase: g };
       }
     }
-    // riconoscimento: quale contenuto è trattato nella schermata
-    const s = S[i], propri = frasi(s); if (!propri.length) return null;
-    const altri = mischia(S.filter(x => x.mod !== s.mod && x.t === 'testo').flatMap(frasi)).slice(0, 2);
-    if (altri.length < 2) return null;
-    const g = propri[Math.floor(Math.random() * propri.length)];
-    return { tipo: 'riconosci', fonte: s, testo: `Quale dei seguenti contenuti è trattato nella schermata «${s.tit}»?`, giusta: g, opz: mischia([g, ...altri]), frase: g };
+    if (USATE.size) { USATE.clear(); return generaMicro.ripeti ? null : (generaMicro.ripeti = 1, (() => { const q = generaMicro(); generaMicro.ripeti = 0; return q; })()); }
+    return null;
   };
   const microBox = () => $('#micro');
+  const ETICH = { domanda: 'Rispondere alla domanda', caso: 'Analizzare il caso e scegliere la condotta corretta', completa: 'Completare con il dato corretto', vf: 'Stabilire se l’affermazione è vera o falsa', abbina: 'Associare a ciascuna frase il dato corretto', riconosci: 'Riconoscere il contenuto' };
   const mostraMicro = () => {
     const q = generaMicro(); if (!q) { MV.prossima = 0; return; }
     MV.pend = { q, t: Date.now() };
-    const b = microBox();
-    b.innerHTML = `<div class="mv-testa">${ico('FaCircleQuestion')}<b>Verifica immediata</b><span>${q.tipo === 'completa' ? (q.fonte === S[st.c] ? 'Completare con il dato corretto' : 'Ripasso · ' + esc(q.fonte.tit)) : 'Riconoscere il contenuto'}</span><em id="mv-cnt">30 s</em></div><p class="mv-q">${q.tipo === 'completa' ? '«' + esc(q.testo) + '»' : esc(q.testo)}</p><div class="mv-opz">${q.opz.map((o, k) => `<button class="mv-o" data-k="${k}">${esc(o)}</button>`).join('')}</div><p class="mv-esito" id="mv-esito"></p>`;
-    b.classList.add('on');
-    $$('.mv-o', b).forEach(bt => bt.onclick = () => {
-      const ok = q.opz[+bt.dataset.k] === q.giusta;
+    const b = microBox(), n = MV.fatte + 1;
+    const testa = `<div class="mv-testa">${ico('FaCircleQuestion')}<b>Esercitazione ${n}</b><span>${ETICH[q.tipo]}${q.fonte !== S[st.c] ? ' · ripasso: ' + esc(q.fonte.tit) : ''}</span><em id="mv-cnt">30 s</em></div>`;
+    const chiudi = (ok, testoEsito) => {
       MV.fatte++; if (ok) MV.giuste++;
-      $$('.mv-o', b).forEach(x => { x.disabled = true; if (q.opz[+x.dataset.k] === q.giusta) x.classList.add('giusta'); });
-      if (!ok) bt.classList.add('errata');
-      $('#mv-esito', b).textContent = (ok ? 'Corretto. ' : 'Risposta non corretta. ') + (q.tipo === 'completa' ? 'Testo di riferimento: «' + q.frase + '»' : '');
+      $('#mv-esito', b).textContent = testoEsito;
       const cn = $('#mv-cnt', b); if (cn) cn.textContent = ok ? 'corretto' : 'registrata';
-      MV.pend = null; MV.prossima = Date.now() + 25000;
+      MV.pend = null; MV.prossima = Date.now() + (ok ? 5000 : 10000); // l’esercitazione successiva segue senza pause morte
       st.mv = [MV.fatte, MV.giuste];
-      setTimeout(() => { if (!MV.pend) b.classList.remove('on'); }, ok ? 4500 : 9000);
       aggiorna();
-    });
+    };
+    if (q.tipo === 'abbina') {
+      b.innerHTML = testa + q.voci.map((v, k) => `<div class="mv-ab"><p class="mv-q">«${esc(v.testo)}»</p><select class="mv-sel" data-k="${k}"><option value="">— scegliere —</option>${q.opz.map(o => `<option>${esc(o)}</option>`).join('')}</select></div>`).join('') + `<div class="mv-opz"><button class="mv-o" id="mv-ver" disabled>Verifica</button></div><p class="mv-esito" id="mv-esito"></p>`;
+      const sels = $$('.mv-sel', b), ver = $('#mv-ver', b);
+      sels.forEach(x => x.onchange = () => { ver.disabled = sels.some(y => !y.value); if (MV.pend) MV.pend.t = Date.now(); });
+      ver.onclick = () => {
+        let giuste = 0; sels.forEach(x => { const v = q.voci[+x.dataset.k]; const ok = x.value === v.giusta; if (ok) giuste++; x.classList.add(ok ? 'giusta' : 'errata'); x.disabled = true; });
+        ver.disabled = true;
+        chiudi(giuste === 3, `${giuste} associazioni corrette su 3. ` + q.voci.map(v => '«' + v.frase + '»').join(' '));
+      };
+    } else {
+      b.innerHTML = testa + `<p class="mv-q">${['riconosci', 'domanda', 'caso'].includes(q.tipo) || q.chiave ? esc(q.testo) : '«' + esc(q.testo) + '»'}</p><div class="mv-opz">${q.opz.map((o, k) => `<button class="mv-o" data-k="${k}">${esc(o)}</button>`).join('')}</div><p class="mv-esito" id="mv-esito"></p>`;
+      $$('.mv-o', b).forEach(bt => bt.onclick = () => {
+        const ok = q.opz[+bt.dataset.k] === q.giusta;
+        $$('.mv-o', b).forEach(x => { x.disabled = true; if (q.opz[+x.dataset.k] === q.giusta) x.classList.add('giusta'); });
+        if (!ok) bt.classList.add('errata');
+        chiudi(ok, (ok ? 'Corretto. ' : 'Risposta non corretta. ') + (q.tipo === 'riconosci' || !q.frase ? '' : (q.tipo === 'completa' || (q.tipo === 'vf' && !q.chiave) ? 'Testo di riferimento: «' + q.frase + '»' : q.frase)) + (ok || q.tipo === 'vf' ? '' : ' Risposta corretta: ' + q.giusta + '.'));
+      });
+    }
+    b.classList.add('on');
   };
   const chiudiMicro = () => { MV.pend = null; MV.prossima = 0; const b = microBox(); if (b) { b.classList.remove('on'); b.innerHTML = ''; } };
   /* restituisce false se il conteggio del tempo va sospeso */
@@ -314,10 +359,9 @@
       return r > 0;
     }
     const rest = s.sec * FATTORE - st.t[i];
-    if (rest <= 12 || (!narFine && audio)) { MV.prossima = 0; return true; }
+    if (rest <= 8 || (!narFine && audio)) { MV.prossima = 0; return true; }
     if (obbligo && !obbligo.fatto()) return true; // il corsista sta svolgendo l’attività obbligatoria della schermata
-    if (!MV.prossima) MV.prossima = now + 20000;
-    if (now - MV.ultimoClic < 15000 && MV.prossima - now < 8000) MV.prossima = now + 8000;
+    if (!MV.prossima) MV.prossima = now + (s.t === 'testo' ? 12000 : 4000); // breve tempo di lettura, poi esercitazione continua
     if (now >= MV.prossima) mostraMicro();
     return true;
   };

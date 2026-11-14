@@ -501,3 +501,5 @@ button:disabled{cursor:not-allowed}
 /* infografiche: mostrate per intero, senza ritaglio né movimento */
 .full .foto.inf{background-size:contain;background-repeat:no-repeat;background-color:#fff;animation:none;transform:none}
 .foto-sl.inf{background:#fff}.foto-sl.inf img{object-fit:contain;animation:none}.foto-sl.inf::after{display:none}
+
+.mv-ab{margin:6px 0}.mv-ab .mv-q{margin:0 0 4px}.mv-sel{font:inherit;padding:6px 8px;border:1px solid var(--linea,#c9d3d8);border-radius:6px;max-width:100%}.mv-sel.giusta{border-color:#00B050;background:#eafaf0}.mv-sel.errata{border-color:#EE0000;background:#fdeaea}

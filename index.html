@@ -87,7 +87,230 @@
   </div>
 </header>
 
-<main id="app" tabindex="-1"></main>
+<main id="app" tabindex="-1">
+    <section class="hero" aria-label="Presentazione">
+      <div class="slide on"><picture><source type="image/webp" srcset="img/hero1-640.webp 640w, img/hero1-1024.webp 1024w, img/hero1-1600.webp 1600w, img/hero1-2560.webp 2560w" sizes="100vw"><img class="" src="img/hero1-1280.jpg" srcset="img/hero1-1280.jpg 1280w, img/hero1-2560.jpg 2560w" sizes="100vw" alt="Operai con elmetto e imbracatura al lavoro su un'armatura in cantiere" width="3482" height="2536" fetchpriority="high" decoding="async"></picture></div><div class="slide"><picture><source type="image/webp" srcset="img/hero2-640.webp 640w, img/hero2-1024.webp 1024w, img/hero2-1600.webp 1600w, img/hero2-2560.webp 2560w, img/hero2-3840.webp 3840w" sizes="100vw"><img class="" src="img/hero2-1280.jpg" srcset="img/hero2-1280.jpg 1280w, img/hero2-2560.jpg 2560w" sizes="100vw" alt="Tecnici di laboratorio in camice durante le analisi" width="3840" height="2561" loading="lazy" decoding="async"></picture></div><div class="slide"><picture><source type="image/webp" srcset="img/hero3-640.webp 640w, img/hero3-1024.webp 1024w, img/hero3-1600.webp 1600w, img/hero3-2560.webp 2560w, img/hero3-3840.webp 3840w" sizes="100vw"><img class="" src="img/hero3-1280.jpg" srcset="img/hero3-1280.jpg 1280w, img/hero3-2560.jpg 2560w" sizes="100vw" alt="Aula di formazione con docente e partecipanti" width="3840" height="2560" loading="lazy" decoding="async"></picture></div>
+      <div class="wrap">
+        <div>
+          <span class="occhiello">Centro di Formazione AiFOS · Teramo</span>
+          <h1 class="slogan"><span class="marchio">Astra <span class="ac">Academy</span></span><span class="filetto" aria-hidden="true"></span><span class="claim">Alta formazione per la prevenzione, l'ambiente e l'energia</span></h1>
+          <p class="sotto">Piattaforma accreditata per l'erogazione di percorsi formativi qualificati in materia di salute e sicurezza nei luoghi di lavoro, tutela ambientale, transizione energetica e igiene degli alimenti. La didattica è flessibile e fruibile in aula, in videoconferenza sincrona e in modalità e-learning, nel pieno rispetto dei quadri normativi di riferimento.</p>
+          <form class="cerca-hero" role="search" id="cerca-hero">
+            <label><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.5-3.5"></path></svg><span class="sr">Ricerca nel catalogo</span><input name="q" placeholder="Titolo o codice del corso" autocomplete="off"></label>
+            <button class="btn btn-rosso">Cerca</button>
+          </form>
+          <div class="cta">
+            <a class="btn btn-vetro" href="#/catalogo">Catalogo dei corsi <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+            <a class="btn btn-vetro" href="#/aziende">Servizi per le aziende</a>
+          </div>
+        </div>
+        <aside class="hero-card" aria-labelledby="h-prox">
+          <h2 id="h-prox"><span class="live" aria-hidden="true"></span>Prossime edizioni</h2>
+          <ol>
+            <li><a href="corsi/preposti/"><span class="data-box"><b>18</b><span>nov</span></span>
+              <span><span class="t">Preposti</span><br><span class="m">Videoconferenza · Online · 12 h</span></span></a></li>
+            <li><a href="corsi/rappresentante-dei-lavoratori-per-la-sicurezza/"><span class="data-box"><b>19</b><span>nov</span></span>
+              <span><span class="t">Rappresentante dei lavoratori per la sicurezza</span><br><span class="m">Videoconferenza · Online · 32 h</span></span></a></li>
+            <li><a href="corsi/addetti-antincendio-livello-2/"><span class="data-box"><b>24</b><span>nov</span></span>
+              <span><span class="t">Addetti antincendio – Livello 2</span><br><span class="m">Aula · ASTRA – Teramo · 8 h</span></span></a></li>
+            <li><a href="corsi/preposti/"><span class="data-box"><b>26</b><span>nov</span></span>
+              <span><span class="t">Preposti</span><br><span class="m">Aula · ASTRA – Teramo · 12 h</span></span></a></li>
+          </ol>
+          <a class="btn btn-vetro btn-s" style="margin-top:14px;width:100%" href="#/calendario">Calendario delle edizioni</a>
+        </aside>
+      </div>
+      <div class="punti" role="tablist" aria-label="Immagini"><button role="tab" aria-label="Immagine 1" class="on" data-i="0"></button><button role="tab" aria-label="Immagine 2" class="" data-i="1"></button><button role="tab" aria-label="Immagine 3" class="" data-i="2"></button></div>
+    </section>
+
+    <section class="banda-cerca" aria-labelledby="h-cerca"><div class="wrap"><h2 id="h-cerca">Ricerca dei corsi</h2>
+    <form class="cerca-av" id="cerca-av" role="search" aria-label="Ricerca avanzata dei corsi">
+      <label><span>Destinatari</span><select name="fig"><option value="">Tutte le figure</option><option value="lav">Lavoratori</option><option value="prep">Preposti</option><option value="dir">Dirigenti</option><option value="dl">Datori di lavoro / DL-SPP</option><option value="rspp">RSPP / ASPP</option><option value="rls">RLS</option><option value="ai">Addetti antincendio</option><option value="ps">Addetti primo soccorso</option><option value="attr">Operatori di attrezzature (carrelli, PLE, gru, MMT)</option><option value="quota">Lavori in quota e ambienti confinati</option><option value="ele">Addetti ai lavori elettrici</option><option value="hse">HSE manager e tecnici della prevenzione</option><option value="form">Formatori per la sicurezza</option><option value="amb">Responsabili e tecnici ambientali</option><option value="aud">Auditor e sistemi di gestione</option><option value="ege">Energy manager ed EGE</option><option value="esg">Sustainability / ESG manager</option><option value="ali">Alimentaristi</option><option value="rhaccp">Responsabili HACCP e qualità alimentare</option></select></label>
+      <label><span>Tipologia</span><select name="tipo"><option value="">Tutte le tipologie</option><option>Base</option><option>Aggiornamento</option><option>Abilitazione</option><option>Specialistico</option></select></label>
+      <label><span>Area formativa</span><select name="ambito"><option value="">Tutte le aree</option><option value="sicurezza">Salute e sicurezza</option><option value="ambiente">Ambiente</option><option value="energia">Energia</option><option value="haccp">Igiene degli alimenti</option></select></label>
+      <label><span>Modalità di erogazione</span><select name="mod"><option value="">Tutte le modalità</option><option value="EL">E-learning</option><option value="VCS">Videoconferenza</option><option value="P">Aula</option></select></label>
+      <label><span>Durata</span><select name="dur"><option value="">Qualsiasi</option><option value="4">Fino a 4 ore</option><option value="8">Da 5 a 8 ore</option><option value="16">Da 9 a 16 ore</option><option value="99">Oltre 16 ore</option></select></label>
+      <label class="q"><span>Parola chiave</span><input name="q" type="search" placeholder="Titolo, codice o norma"></label>
+      <button class="btn btn-rosso"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.5-3.5"></path></svg> Cerca</button>
+    </form></div></section>
+
+    <section class="numeri" aria-label="ASTRA in numeri">
+      <div class="wrap">
+        <div class="numero rivela vista"><b data-conta="39">39</b><span>anni di consulenza alle imprese, dal 1987</span></div>
+        <div class="numero rivela ritardo-1 vista"><b data-conta="12000" data-suffisso="+">12.000<small>+</small></b><span>analisi annue nel laboratorio accreditato</span></div>
+        <div class="numero rivela ritardo-2 vista"><b data-conta="68">68</b><span>corsi a catalogo in 4 aree tematiche</span></div>
+        <div class="numero rivela ritardo-3 vista"><b data-conta="3">3</b><span>modalità di erogazione: aula, videoconferenza, e-learning</span></div>
+      </div>
+    </section>
+
+    <section class="sez">
+      <div class="wrap">
+        <div class="intest rivela vista"><div><span class="k">Le aree</span><h2>Aree formative</h2>
+          <p>Formazione in materia di salute e sicurezza sul lavoro, tutela dell'ambiente, gestione dell'energia e igiene degli alimenti.</p></div>
+          <a class="btn btn-bordo" href="#/catalogo">Catalogo completo <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a></div>
+        <div class="ambiti">
+          <a class="ambito rivela ritardo-0 vista" href="#/catalogo?ambito=sicurezza"><picture><source type="image/webp" srcset="img/sicurezza-640.webp 640w, img/sicurezza-1024.webp 1024w, img/sicurezza-1600.webp 1600w, img/sicurezza-2560.webp 2560w, img/sicurezza-3840.webp 3840w" sizes="(max-width:640px) 100vw, (max-width:1024px) 50vw, 25vw"><img class="" src="img/sicurezza-1280.jpg" srcset="img/sicurezza-1280.jpg 1280w, img/sicurezza-2560.jpg 2560w" sizes="(max-width:640px) 100vw, (max-width:1024px) 50vw, 25vw" alt="Lavoratori con elmetto e indumenti ad alta visibilità in cantiere" width="3840" height="2543" loading="lazy" decoding="async"></picture>
+            <div class="in"><span class="tag" style="background:#C81F26">42 corsi</span>
+              <h3>Salute e sicurezza</h3><p>D.lgs. 81/2008 · Accordo Stato-Regioni 17/04/2025</p>
+              <span class="vai">Consulta i corsi <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></span></div></a>
+          <a class="ambito rivela ritardo-1 vista" href="#/catalogo?ambito=ambiente"><picture><source type="image/webp" srcset="img/ambiente-640.webp 640w, img/ambiente-1024.webp 1024w, img/ambiente-1600.webp 1600w, img/ambiente-2560.webp 2560w" sizes="(max-width:640px) 100vw, (max-width:1024px) 50vw, 25vw"><img class="" src="img/ambiente-1280.jpg" srcset="img/ambiente-1280.jpg 1280w, img/ambiente-2560.jpg 2560w" sizes="(max-width:640px) 100vw, (max-width:1024px) 50vw, 25vw" alt="Globo di cristallo nella natura controluce" width="2560" height="1706" loading="lazy" decoding="async"></picture>
+            <div class="in"><span class="tag" style="background:#2E7D4F">17 corsi</span>
+              <h3>Ambiente</h3><p>D.lgs. 152/2006 · normativa europea</p>
+              <span class="vai">Consulta i corsi <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></span></div></a>
+          <a class="ambito rivela ritardo-2 vista" href="#/catalogo?ambito=energia"><picture><source type="image/webp" srcset="img/energia-640.webp 640w, img/energia-1024.webp 1024w, img/energia-1600.webp 1600w, img/energia-2560.webp 2560w" sizes="(max-width:640px) 100vw, (max-width:1024px) 50vw, 25vw"><img class="" src="img/energia-1280.jpg" srcset="img/energia-1280.jpg 1280w, img/energia-2560.jpg 2560w" sizes="(max-width:640px) 100vw, (max-width:1024px) 50vw, 25vw" alt="Impianto fotovoltaico su prato" width="2560" height="1640" loading="lazy" decoding="async"></picture>
+            <div class="in"><span class="tag" style="background:#9A6400">4 corsi</span>
+              <h3>Energia</h3><p>D.lgs. 102/2014 · UNI CEI 11339 · ISO 50001</p>
+              <span class="vai">Consulta i corsi <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></span></div></a>
+          <a class="ambito rivela ritardo-3 vista" href="#/catalogo?ambito=haccp"><picture><source type="image/webp" srcset="img/haccp-640.webp 640w, img/haccp-1024.webp 1024w, img/haccp-1600.webp 1600w, img/haccp-2560.webp 2560w" sizes="(max-width:640px) 100vw, (max-width:1024px) 50vw, 25vw"><img class="" src="img/haccp-1280.jpg" srcset="img/haccp-1280.jpg 1280w, img/haccp-2560.jpg 2560w" sizes="(max-width:640px) 100vw, (max-width:1024px) 50vw, 25vw" alt="Cesto di verdure fresche" width="2560" height="1752" loading="lazy" decoding="async"></picture>
+            <div class="in"><span class="tag" style="background:#1F5FA8">5 corsi</span>
+              <h3>Igiene degli alimenti</h3><p>Reg. CE 852/2004 · DGR Regione Abruzzo</p>
+              <span class="vai">Consulta i corsi <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></span></div></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="sez grigia">
+      <div class="wrap">
+        <div class="intest rivela vista"><div><span class="k">Didattica</span><h2>Modalità di erogazione</h2>
+          <p>Per ciascun corso sono proposte esclusivamente le modalità di erogazione ammesse dalla normativa vigente.</p></div></div>
+        <div class="modalita">
+          
+          <article class="mod-card rivela ritardo-0 vista"><span class="mod-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="5" width="16" height="11" rx="1.5"></rect><path d="M2 19h20"></path></svg></span><span class="chip EL" style="width:max-content">EL</span>
+            <h3>E-learning</h3><p>Fruizione asincrona su piattaforma dedicata, con tracciamento dei tempi e degli esiti conforme allo standard SCORM.</p><ul><li>Accessibilità continuativa della piattaforma</li><li>Tracciamento della fruizione e verifica finale dell'apprendimento</li><li>Tutoraggio didattico e assistenza tecnica</li></ul></article>
+          <article class="mod-card rivela ritardo-1 vista"><span class="mod-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="6" width="13" height="12" rx="2"></rect><path d="m16 10 5-3v10l-5-3"></path></svg></span><span class="chip VCS" style="width:max-content">VCS</span>
+            <h3>Videoconferenza sincrona</h3><p>Lezione sincrona con il docente, identificazione dei partecipanti e registrazione automatica delle presenze.</p><ul><li>Interazione sincrona con il docente</li><li>Identificazione dei partecipanti e registro elettronico delle presenze</li><li>Partecipazione da personal computer o tablet</li></ul></article>
+          <article class="mod-card rivela ritardo-2 vista"><span class="mod-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="8" cy="8" r="3"></circle><path d="M3 20a5 5 0 0 1 10 0M14 5h7v8h-5"></path></svg></span><span class="chip P" style="width:max-content">P</span>
+            <h3>Aula</h3><p>Didattica frontale presso la sede ASTRA o presso la sede del committente, previo accordo.</p><ul><li>Sede ASTRA di Teramo, nelle date a calendario</li><li>Sede del committente, previo accordo</li><li>Edizioni presso il committente: +39 389 5644048</li></ul></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="sez">
+      <div class="wrap">
+        <div class="intest rivela vista"><div><span class="k">Selezione</span><h2>Corsi in evidenza</h2></div>
+          <a class="btn btn-bordo" href="#/catalogo">Catalogo completo <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a></div>
+        <div class="griglia home-evid"><a class="corso rivela ritardo-0 vista" href="corsi/preposti/">
+      <span class="fascia" style="background:#C81F26"></span>
+      <div class="in">
+        <div class="meta"><span class="chip amb" style="background:#C81F26">Salute e sicurezza</span><span class="codice">PREP</span></div>
+        <h3>Preposti</h3>
+        <div class="chips"><span class="chip VCS" title="Videoconferenza sincrona">VCS</span><span class="chip P" title="Aula">P</span></div>
+        <span class="ore"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 2"></path></svg>12 ore · Base</span>
+      </div>
+      <div class="piede"><span class="prezzo"><small style="display:inline">da </small>€ 191<small>per partecipante · IVA esclusa</small></span><span class="freccia"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></span></div>
+    </a><a class="corso rivela ritardo-1 vista" href="corsi/datori-di-lavoro/">
+      <span class="fascia" style="background:#C81F26"></span>
+      <div class="in">
+        <div class="meta"><span class="chip amb" style="background:#C81F26">Salute e sicurezza</span><span class="codice">DL</span></div>
+        <h3>Datori di lavoro</h3>
+        <div class="chips"><span class="chip EL" title="E-learning">EL</span><span class="chip VCS" title="Videoconferenza sincrona">VCS</span><span class="chip P" title="Aula">P</span></div>
+        <span class="ore"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 2"></path></svg>16 ore · Base</span>
+      </div>
+      <div class="piede"><span class="prezzo"><small style="display:inline">da </small>€ 181<small>per partecipante · IVA esclusa</small></span><span class="freccia"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></span></div>
+    </a><a class="corso rivela ritardo-2 vista" href="corsi/lavoratori-aggiornamento/">
+      <span class="fascia" style="background:#C81F26"></span>
+      <div class="in">
+        <div class="meta"><span class="chip amb" style="background:#C81F26">Salute e sicurezza</span><span class="codice">LAV-AGG</span></div>
+        <h3>Lavoratori – Aggiornamento</h3>
+        <div class="chips"><span class="chip EL" title="E-learning">EL</span><span class="chip VCS" title="Videoconferenza sincrona">VCS</span><span class="chip P" title="Aula">P</span></div>
+        <span class="ore"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 2"></path></svg>6 ore · Aggiornamento</span>
+      </div>
+      <div class="piede"><span class="prezzo"><small style="display:inline">da </small>€ 39<small>per partecipante · IVA esclusa</small></span><span class="freccia"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></span></div>
+    </a><a class="corso rivela ritardo-3 vista" href="corsi/addetti-antincendio-livello-2/">
+      <span class="fascia" style="background:#C81F26"></span>
+      <div class="in">
+        <div class="meta"><span class="chip amb" style="background:#C81F26">Salute e sicurezza</span><span class="codice">AI-2</span></div>
+        <h3>Addetti antincendio – Livello 2</h3>
+        <div class="chips"><span class="chip P" title="Aula">P</span><span class="chip aula-sola">Solo in aula</span></div>
+        <span class="ore"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 2"></path></svg>8 ore · Base</span>
+      </div>
+      <div class="piede"><span class="prezzo"><small style="display:inline">da </small>€ 175<small>per partecipante · IVA esclusa</small></span><span class="freccia"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></span></div>
+    </a><a class="corso rivela ritardo-0 vista" href="corsi/campionamento-dei-rifiuti-secondo-la-uni-10802-2023/">
+      <span class="fascia" style="background:#2E7D4F"></span>
+      <div class="in">
+        <div class="meta"><span class="chip amb" style="background:#2E7D4F">Ambiente</span><span class="codice">CAMP-RIF</span></div>
+        <h3>Campionamento dei rifiuti secondo la UNI 10802:2023</h3>
+        <div class="chips"><span class="chip VCS" title="Videoconferenza sincrona">VCS</span><span class="chip P" title="Aula">P</span></div>
+        <span class="ore"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 2"></path></svg>8 ore · Specialistico</span>
+      </div>
+      <div class="piede"><span class="prezzo"><small style="display:inline">da </small>€ 220<small>per partecipante · IVA esclusa</small></span><span class="freccia"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></span></div>
+    </a><a class="corso rivela ritardo-1 vista" href="corsi/rentri-funzionamento-e-aspetti-operativi/">
+      <span class="fascia" style="background:#2E7D4F"></span>
+      <div class="in">
+        <div class="meta"><span class="chip amb" style="background:#2E7D4F">Ambiente</span><span class="codice">RENTRI</span></div>
+        <h3>RENTRI: funzionamento e aspetti operativi</h3>
+        <div class="chips"><span class="chip EL" title="E-learning">EL</span><span class="chip VCS" title="Videoconferenza sincrona">VCS</span></div>
+        <span class="ore"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 2"></path></svg>4 ore · Specialistico</span>
+      </div>
+      <div class="piede"><span class="prezzo"><small style="display:inline">da </small>€ 60<small>per partecipante · IVA esclusa</small></span><span class="freccia"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></span></div>
+    </a><a class="corso rivela ritardo-2 vista" href="corsi/rspp-aggiornamento/">
+      <span class="fascia" style="background:#C81F26"></span>
+      <div class="in">
+        <div class="meta"><span class="chip amb" style="background:#C81F26">Salute e sicurezza</span><span class="codice">RSPP-AGG</span></div>
+        <h3>RSPP – Aggiornamento</h3>
+        <div class="chips"><span class="chip EL" title="E-learning">EL</span><span class="chip VCS" title="Videoconferenza sincrona">VCS</span><span class="chip P" title="Aula">P</span></div>
+        <span class="ore"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 2"></path></svg>40 ore · Aggiornamento</span>
+      </div>
+      <div class="piede"><span class="prezzo"><small style="display:inline">da </small>€ 255<small>per partecipante · IVA esclusa</small></span><span class="freccia"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></span></div>
+    </a><a class="corso rivela ritardo-3 vista" href="corsi/carrelli-elevatori-semoventi-con-conducente-a-bordo/">
+      <span class="fascia" style="background:#C81F26"></span>
+      <div class="in">
+        <div class="meta"><span class="chip amb" style="background:#C81F26">Salute e sicurezza</span><span class="codice">CAR</span></div>
+        <h3>Carrelli elevatori semoventi con conducente a bordo</h3>
+        <div class="chips"><span class="chip P" title="Aula">P</span><span class="chip aula-sola">Solo in aula</span></div>
+        <span class="ore"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 2"></path></svg>12 ore · Abilitazione</span>
+      </div>
+      <div class="piede"><span class="prezzo"><small style="display:inline">da </small>€ 245<small>per partecipante · IVA esclusa</small></span><span class="freccia"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></span></div>
+    </a></div>
+        <div class="legenda" aria-label="Legenda"><b>Legenda:</b>
+    <span><span class="chip EL">EL</span> e-learning</span>
+    <span><span class="chip VCS">VCS</span> videoconferenza sincrona</span>
+    <span><span class="chip P">P</span> presenza</span>
+    <span><span class="chip aula-sola">Solo in aula</span> e-learning e videoconferenza non ammessi</span></div>
+      </div>
+    </section>
+
+    <section class="sez grigia">
+      <div class="wrap split">
+        <div class="foto-tonda rivela vista"><picture><source type="image/webp" srcset="img/aziende-640.webp 640w, img/aziende-1024.webp 1024w, img/aziende-1600.webp 1600w, img/aziende-2560.webp 2560w" sizes="(max-width:1024px) 100vw, 50vw"><img class="" src="img/aziende-1280.jpg" srcset="img/aziende-1280.jpg 1280w, img/aziende-2560.jpg 2560w" sizes="(max-width:1024px) 100vw, 50vw" alt="Riunione di lavoro in azienda davanti a una lavagna" width="3600" height="2400" loading="lazy" decoding="async"></picture>
+          <div class="flottante"><b>-15%</b><span>riduzione a partire da 20 partecipanti, con assegnazione nominativa dei posti</span></div></div>
+        <div class="rivela ritardo-1 vista">
+          <div class="intest" style="margin-bottom:0"><div><span class="k">Per le aziende</span><h2>Gestione centralizzata della formazione del personale</h2></div></div>
+          <ul class="elenco-check">
+            <li><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="8" r="3.2"></circle><path d="M3 20a6 6 0 0 1 12 0"></path><circle cx="17" cy="9" r="2.4"></circle><path d="M16 14a5 5 0 0 1 5 5"></path></svg></span><div><b>Acquisto di più posti</b><span>L'azienda acquista i posti necessari e li assegna ai dipendenti indicandone nominativo e codice fiscale.</span></div></li>
+            <li><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20V4M4 20h16M8 16v-4M12 16V8M16 16v-6"></path></svg></span><div><b>Monitoraggio dell'avanzamento</b><span>Il referente aziendale verifica lo stato di avanzamento di ciascun partecipante e acquisisce gli attestati rilasciati.</span></div></li>
+            <li><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 16V11a6 6 0 0 1 12 0v5l2 2H4z"></path><path d="M10 21h4"></path></svg></span><div><b>Scadenzario degli obblighi formativi</b><span>Notifiche preventive a 120, 60 e 30 giorni dalla scadenza degli aggiornamenti obbligatori.</span></div></li>
+          </ul>
+          <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:30px"><a class="btn btn-rosso" href="#/aziende">Modalità del servizio</a><a class="btn btn-bordo" href="#/area-azienda">Dimostrazione dell'area azienda</a></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sez">
+      <div class="wrap">
+        <div class="intest rivela vista"><div><span class="k">Normativa</span><h2>Aggiornamenti normativi</h2></div><a class="btn btn-bordo" href="#/normativa">Tutti gli aggiornamenti <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a></div>
+        <div class="news">
+    <article class="notizia rivela ritardo-0 vista"><span class="area" style="color:#C81F26">Salute e sicurezza</span>
+      <h3>Datori di lavoro: il nuovo corso obbligatorio di 16 ore</h3><p>L'Accordo Stato-Regioni del 17 aprile 2025 introduce un percorso di 16 ore dedicato ai datori di lavoro, con aggiornamento di 6 ore ogni cinque anni. Il corso può essere erogato in aula, in videoconferenza sincrona o in e-learning. I datori di lavoro già in carica sono tenuti a completarlo entro 24 mesi dall'entrata in vigore dell'Accordo.</p><span class="rif">Riferimento: Accordo Stato-Regioni 17/04/2025</span></article>
+    <article class="notizia rivela ritardo-1 vista"><span class="area" style="color:#C81F26">Salute e sicurezza</span>
+      <h3>Preposti: aggiornamento ogni due anni, solo in aula o in videoconferenza</h3><p>Per i preposti l'e-learning non è ammesso né per il corso base di 12 ore né per l'aggiornamento di 6 ore, che diventa biennale. In videoconferenza la webcam deve restare attiva e la presenza è registrata dalla piattaforma.</p><span class="rif">Riferimento: D.lgs. 81/2008 art. 37 · Accordo Stato-Regioni 17/04/2025</span></article>
+    <article class="notizia rivela ritardo-2 vista"><span class="area" style="color:#C81F26">Salute e sicurezza</span>
+      <h3>Attrezzature e ambienti confinati: formazione solo in presenza</h3><p>Per le abilitazioni all'uso delle attrezzature (carrelli, PLE, gru, macchine movimento terra) e per gli ambienti confinati la teoria non può essere svolta a distanza: corso e prove pratiche si tengono in presenza.</p><span class="rif">Riferimento: Accordo Stato-Regioni 17/04/2025</span></article></div>
+      </div>
+    </section>
+
+    <section class="sez sez-cert" style="padding-top:72px;padding-bottom:72px">
+      <div class="wrap">
+        <div class="intest rivela vista"><div><span class="k">Qualità certificata</span><h2>Sistemi di gestione e accreditamenti</h2></div></div>
+        <div class="cert"><div class="rivela ritardo-0 vista"><a class="cert-link" href="https://www.astrastudio.it/riconoscimenti/" target="_blank" rel="noopener" title="Apri le certificazioni sul sito ufficiale ASTRA"><span class="marchio"><img src="loghi/cert/certiquality-iso9001.png" alt="Marchio di certificazione UNI EN ISO 9001:2015 – ASTRA S.r.l." loading="eager"></span><b>UNI EN ISO 9001:2015</b><span>Sistema di gestione per la qualità</span><span class="ente">CISQ/CERTIQUALITY · cert. n. 3466</span></a></div><div class="rivela ritardo-1 vista"><a class="cert-link" href="https://www.astrastudio.it/riconoscimenti/" target="_blank" rel="noopener" title="Apri le certificazioni sul sito ufficiale ASTRA"><span class="marchio"><img src="loghi/cert/tuv-rheinland-iso14001-iso45001.jpg?v=2" alt="Marchio di certificazione UNI EN ISO 14001:2015 – ASTRA S.r.l." loading="eager"></span><b>UNI EN ISO 14001:2015</b><span>Sistema di gestione ambientale</span><span class="ente">TÜV Rheinland · cert. n. 01 104 2217518</span></a></div><div class="rivela ritardo-2 vista"><a class="cert-link" href="https://www.astrastudio.it/riconoscimenti/" target="_blank" rel="noopener" title="Apri le certificazioni sul sito ufficiale ASTRA"><span class="marchio"><img src="loghi/cert/tuv-rheinland-iso14001-iso45001.jpg?v=2" alt="Marchio di certificazione UNI ISO 45001:2018 – ASTRA S.r.l." loading="eager"></span><b>UNI ISO 45001:2018</b><span>Salute e sicurezza sul lavoro</span><span class="ente">TÜV Rheinland · cert. n. 01 213 2217518</span></a></div><div class="rivela ritardo-3 vista"><a class="cert-link" href="https://www.astrastudio.it/riconoscimenti/" target="_blank" rel="noopener" title="Apri le certificazioni sul sito ufficiale ASTRA"><span class="marchio"><img src="loghi/cert/mscert-pdr125.png" alt="Marchio di certificazione UNI/PdR 125:2022 – ASTRA S.r.l." loading="eager"></span><b>UNI/PdR 125:2022</b><span>Parità di genere</span><span class="ente">MSCert · cert. n. 68/PdR 125</span></a></div></div>
+      </div>
+    </section>
+
+    <section class="sez" style="padding-top:72px">
+      <div class="wrap"><div class="cta-banda rivela vista"><picture><source type="image/webp" srcset="img/cta-640.webp 640w, img/cta-1024.webp 1024w, img/cta-1600.webp 1600w, img/cta-2560.webp 2560w, img/cta-3840.webp 3840w" sizes="100vw"><img class="" src="img/cta-1280.jpg" srcset="img/cta-1280.jpg 1280w, img/cta-2560.jpg 2560w" sizes="100vw" alt="Sessione formativa in azienda con computer portatili" width="3840" height="2560" loading="lazy" decoding="async"></picture>
+        <div><h2>Piani formativi aziendali</h2><p>ASTRA effettua l'analisi dei fabbisogni formativi sulla base delle mansioni, della valutazione dei rischi e delle scadenze, e predispone un piano formativo dedicato, erogabile anche presso la sede del committente.</p></div>
+        <div class="azioni"><a class="btn btn-bianco" href="#/contatti">Richiesta di preventivo</a><a class="btn btn-vetro" href="tel:0861413103"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"></path></svg> 0861 413103</a></div>
+      </div></div>
+    </section></main>
 
 <footer class="piede">
   <div class="wrap">

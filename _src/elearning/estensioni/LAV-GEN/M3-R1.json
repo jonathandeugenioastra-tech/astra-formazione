@@ -1,0 +1,21 @@
+{
+ "dopo": "La posizione di garanzia",
+ "origine": "LAV-AGG/M2-1.json",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Il rischio stradale nel lavoro",
+   "lead": "Una quota rilevante degli infortuni mortali sul lavoro avviene sulla strada, durante il lavoro o nel tragitto tra casa e lavoro.",
+   "punti": [
+    "Infortuni in occasione di lavoro con mezzo di trasporto e infortuni in itinere",
+    "L’infortunio in itinere è tutelato dall’INAIL nel percorso normale tra abitazione e lavoro",
+    "Uso del mezzo privato tutelato se necessario o giustificato (orari, assenza di mezzi pubblici)",
+    "Fattori di rischio: velocità, stanchezza, distrazione da telefono, alcol, condizioni meteo",
+    "Misure aziendali: pianificazione dei viaggi, manutenzione dei mezzi, formazione alla guida sicura"
+   ],
+   "appro": "Il telefono alla guida moltiplica il rischio di incidente: le chiamate di lavoro durante la guida vanno evitate anche con il vivavoce, se impegnative.",
+   "rif": "D.P.R. 1124/1965, artt. 2 e 210 · D.lgs. 81/2008, art. 28 · Codice della strada, art. 173",
+   "nar": "Quando si pensa agli infortuni sul lavoro si immaginano macchine e cantieri, ma una quota rilevante degli infortuni mortali avviene sulla strada. Si distinguono gli infortuni in occasione di lavoro con mezzo di trasporto, come quelli di autisti, rappresentanti, manutentori e addetti alle consegne, e gli infortuni in itinere, che avvengono nel normale percorso tra l’abitazione e il luogo di lavoro. L’infortunio in itinere è tutelato dall’INAIL; l’uso del mezzo privato è coperto quando è necessario o giustificato, ad esempio per l’assenza di mezzi pubblici compatibili con l’orario di lavoro, mentre deviazioni e interruzioni non necessarie possono escludere la tutela. I principali fattori di rischio sono la velocità, la stanchezza, la distrazione dovuta al telefono e ai dispositivi, l’alcol e le condizioni meteorologiche. Il rischio stradale va considerato nella valutazione dei rischi quando la guida fa parte dell’attività lavorativa. Le misure aziendali comprendono la pianificazione dei viaggi con tempi realistici e pause, la manutenzione dei veicoli aziendali, la formazione alla guida sicura e regole chiare sull’uso del telefono. Le chiamate di lavoro durante la guida vanno evitate, perché anche con il vivavoce una conversazione impegnativa riduce l’attenzione."
+  }
+ ]
+}

@@ -1,0 +1,21 @@
+{
+ "dopo": "Microclima e illuminazione",
+ "origine": "LAV-AGG/M3-1.json",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Caldo estremo: misure organizzative e strumenti di tutela",
+   "lead": "Nelle giornate di caldo intenso la prevenzione si basa su organizzazione del lavoro, informazione e attenzione ai segnali di malessere.",
+   "punti": [
+    "Pianificare le attività più faticose nelle ore più fresche; pause in zone ombreggiate",
+    "Acqua disponibile e idratazione frequente, anche senza sete",
+    "Abiti chiari e traspiranti, copricapo, protezione solare; mai lavorare da soli",
+    "Riconoscere crampi, esaurimento e colpo di calore: il colpo di calore è un’emergenza",
+    "Ordinanze regionali sul lavoro all’aperto e cassa integrazione per temperature oltre 35 °C, anche percepite"
+   ],
+   "appro": "I lavoratori non acclimatati, quelli più anziani o con particolari condizioni di salute sono più vulnerabili: il medico competente può fornire indicazioni specifiche.",
+   "rif": "D.lgs. 81/2008, artt. 15, 28 e 180 · INPS, indicazioni sulla CIGO per eventi meteo · ordinanze regionali",
+   "nar": "Le ondate di calore sono sempre più frequenti e intense, e l’esposizione al caldo è un rischio concreto per chi lavora all’aperto, in edilizia e agricoltura, e per chi opera in ambienti chiusi poco ventilati. La prevenzione inizia dall’organizzazione: le attività più faticose vanno pianificate nelle ore più fresche, con pause regolari in zone ombreggiate o climatizzate e una rotazione dei compiti. L’acqua deve essere disponibile vicino al posto di lavoro, e conviene bere spesso, anche senza avvertire sete. Abiti chiari e traspiranti, copricapo e protezione solare riducono il carico termico; è importante non lavorare da soli, per potersi accorgere dei malesseri dei colleghi. Occorre saper riconoscere i segnali: crampi, debolezza, nausea, mal di testa e sudorazione intensa indicano un esaurimento da calore; confusione, pelle calda e secca, perdita di coscienza indicano un colpo di calore, che è un’emergenza e richiede la chiamata immediata del centododici e il raffreddamento della persona. Molte Regioni adottano ordinanze che limitano il lavoro all’aperto nelle ore più calde nei giorni a rischio, e l’INPS riconosce la cassa integrazione ordinaria quando le temperature superano i trentacinque gradi, anche come temperatura percepita."
+  }
+ ]
+}

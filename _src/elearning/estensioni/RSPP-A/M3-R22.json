@@ -1,0 +1,21 @@
+{
+ "dopo": "Metodi qualitativi, semiquantitativi e strumentali",
+ "origine": "LAV-SPEC-B/M1-3.json",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Marcatura CE e requisiti delle attrezzature",
+   "lead": "Il datore di lavoro mette a disposizione attrezzature conformi e idonee; il lavoratore le usa secondo informazione, formazione e addestramento ricevuti.",
+   "punti": [
+    "Macchine nuove: marcatura CE, dichiarazione di conformità e istruzioni in lingua italiana",
+    "Attrezzature costruite prima delle direttive: requisiti dell’Allegato V",
+    "Ripari e dispositivi di sicurezza mai rimossi né resi inefficaci",
+    "Manutenzione e controlli periodici registrati e conservati almeno 3 anni",
+    "Per alcune attrezzature, verifiche periodiche dell’Allegato VII"
+   ],
+   "appro": "Dal 20 gennaio 2027 il nuovo Regolamento (UE) 2023/1230 sostituisce la Direttiva macchine 2006/42/CE per le macchine immesse sul mercato.",
+   "rif": "D.lgs. 81/2008, artt. 70, 71 e Allegati V, VI, VII · D.lgs. 17/2010 · Reg. (UE) 2023/1230",
+   "nar": "Anche in un ufficio o in un negozio si usano attrezzature di lavoro: taglierine, distruggidocumenti, piccoli elettroutensili, transpallet manuali. L’articolo settanta del testo unico stabilisce che le attrezzature messe a disposizione dei lavoratori devono essere conformi alle disposizioni di recepimento delle direttive di prodotto. Per le macchine nuove questo significa marcatura CE, dichiarazione di conformità e istruzioni in lingua italiana; per le attrezzature costruite prima delle direttive valgono i requisiti dell’Allegato cinque. L’articolo settantuno impone al datore di lavoro di scegliere attrezzature idonee al lavoro, di mantenerle in efficienza con un’adeguata manutenzione e di sottoporre a controllo quelle la cui sicurezza dipende dall’installazione o da condizioni che possono deteriorarsi; i risultati dei controlli vanno registrati e conservati per almeno tre anni. Per alcune attrezzature, come apparecchi di sollevamento e recipienti a pressione, sono previste verifiche periodiche secondo l’Allegato sette. Il lavoratore, da parte sua, usa l’attrezzatura solo dopo informazione, formazione e addestramento, non rimuove né rende inefficaci ripari e dispositivi di sicurezza e segnala ogni difetto. Dal venti gennaio duemilaventisette il regolamento europeo duemilaventitré barra milleduecentotrenta sostituirà la direttiva macchine per le macchine nuove."
+  }
+ ]
+}

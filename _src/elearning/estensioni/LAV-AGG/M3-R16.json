@@ -1,0 +1,21 @@
+{
+ "dopo": "Rischi psicosociali, violenza e molestie",
+ "origine": "RSPP-AGG/M3-5.json",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Il burnout nella classificazione dell’OMS",
+   "lead": "Dal 2022 l’ICD-11 descrive il burnout come fenomeno occupazionale legato a uno stress cronico sul lavoro non gestito con successo.",
+   "punti": [
+    "Codice QD85 dell’ICD-11, tra i fattori che influenzano lo stato di salute",
+    "Non è classificato come condizione medica, ma come fenomeno legato al contesto lavorativo",
+    "Tre dimensioni: esaurimento delle energie, distanza mentale o cinismo, ridotta efficacia professionale",
+    "Riguarda specificamente il contesto lavorativo, non altri ambiti della vita",
+    "Prevenzione organizzativa: carichi, autonomia, riconoscimento, equità, supporto"
+   ],
+   "appro": "La valutazione dello stress lavoro-correlato è lo strumento per intercettare i fattori organizzativi che, se non gestiti, possono condurre al burnout.",
+   "rif": "OMS, ICD-11, codice QD85 · D.lgs. 81/2008, art. 28 · UNI ISO 45003",
+   "nar": "Il termine burnout è usato spesso in modo generico. L’Organizzazione mondiale della sanità, nell’undicesima revisione della classificazione internazionale delle malattie, in vigore dal duemilaventidue, lo descrive con il codice QD ottantacinque, nel capitolo dei fattori che influenzano lo stato di salute, e non come una condizione medica. Il burnout è definito come una sindrome derivante da uno stress cronico sul posto di lavoro che non è stato gestito con successo. Si caratterizza per tre dimensioni: una sensazione di esaurimento delle energie, una maggiore distanza mentale dal proprio lavoro, con sentimenti di negativismo o cinismo, e una ridotta efficacia professionale. L’Organizzazione precisa che il termine si riferisce specificamente ai fenomeni nel contesto lavorativo e non dovrebbe essere usato per descrivere esperienze in altri ambiti della vita. Per la prevenzione questa impostazione è importante: le cause vanno cercate nell’organizzazione del lavoro, come carichi eccessivi, scarsa autonomia, mancanza di riconoscimento, iniquità, conflitti di valori e scarso supporto. La valutazione dello stress lavoro correlato, prevista dall’articolo ventotto, è lo strumento per individuare questi fattori e intervenire prima che producano danni. La linea guida ISO quarantacinquemilatré offre un quadro per la gestione dei rischi psicosociali nel sistema di gestione."
+  }
+ ]
+}

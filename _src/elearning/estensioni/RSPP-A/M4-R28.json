@@ -1,0 +1,21 @@
+{
+ "dopo": "La sorveglianza sanitaria",
+ "origine": "LAV-GEN/M2-13.json",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Le visite mediche e il giudizio di idoneità",
+   "lead": "La sorveglianza sanitaria comprende visite di diverso tipo e si conclude con un giudizio di idoneità alla mansione specifica, contro il quale è ammesso ricorso.",
+   "punti": [
+    "Visita preventiva, anche in fase preassuntiva, e visita periodica",
+    "Visita su richiesta del lavoratore, se correlata ai rischi professionali",
+    "Visita in occasione del cambio di mansione e alla cessazione del rapporto, nei casi previsti",
+    "Visita precedente la ripresa del lavoro dopo assenza per motivi di salute superiore a sessanta giorni continuativi",
+    "Giudizi: idoneità, idoneità parziale con prescrizioni o limitazioni, inidoneità temporanea o permanente; ricorso all’organo di vigilanza entro trenta giorni"
+   ],
+   "appro": "Il giudizio di idoneità è comunicato per iscritto al lavoratore e al datore di lavoro; il datore di lavoro attua le misure indicate dal medico competente e, in caso di inidoneità, adibisce il lavoratore, ove possibile, a mansioni compatibili.",
+   "rif": "D.lgs. 81/2008, artt. 41 e 42",
+   "nar": "La sorveglianza sanitaria, disciplinata dall’articolo quarantuno del testo unico, è svolta dal medico competente nei casi previsti dalla normativa. Comprende diverse tipologie di visita. La visita preventiva, che può essere effettuata anche in fase preassuntiva, verifica l’assenza di controindicazioni alla mansione; la visita periodica controlla nel tempo lo stato di salute. Il lavoratore può chiedere una visita quando la richiesta è correlata ai rischi professionali. Sono previste inoltre la visita in occasione del cambio di mansione, quella alla cessazione del rapporto nei casi stabiliti dalla norma e la visita precedente la ripresa del lavoro dopo un’assenza per motivi di salute superiore a sessanta giorni continuativi. Ogni visita si conclude con un giudizio relativo alla mansione specifica: idoneità, idoneità parziale con prescrizioni o limitazioni, inidoneità temporanea o permanente. Il giudizio è comunicato per iscritto al lavoratore e al datore di lavoro. Contro il giudizio è ammesso ricorso all’organo di vigilanza territorialmente competente entro trenta giorni dalla comunicazione. In caso di inidoneità, l’articolo quarantadue prevede che il datore di lavoro adibisca il lavoratore, ove possibile, a mansioni equivalenti o inferiori compatibili con il suo stato di salute."
+  }
+ ]
+}

@@ -1,0 +1,21 @@
+{
+ "dopo": "Prevenzione incendi e emergenze: il quadro dei tre decreti",
+ "origine": "DL/M2-3.json",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Controlli e manutenzioni antincendio: il D.M. 1 settembre 2021",
+   "lead": "Il «decreto controlli» stabilisce come mantenere efficienti impianti, attrezzature e sistemi di sicurezza antincendio.",
+   "punti": [
+    "Sorveglianza periodica: controllo visivo svolto da personale interno formato",
+    "Controllo periodico e manutenzione secondo norme tecniche e istruzioni del fabbricante",
+    "Interventi eseguiti da tecnici manutentori qualificati secondo l’Allegato II",
+    "Registro dei controlli con gli esiti, a disposizione degli organi di controllo",
+    "Estintori: controllo semestrale secondo la norma UNI 9994-1"
+   ],
+   "appro": "La qualificazione dei tecnici manutentori si consegue con un percorso formativo e un esame davanti ai Vigili del fuoco.",
+   "rif": "D.M. 1 settembre 2021 · D.M. 2 settembre 2021 · UNI 9994-1",
+   "nar": "Il decreto ministeriale del primo settembre duemilaventuno, in vigore dal venticinque settembre duemilaventidue, disciplina i controlli e la manutenzione degli impianti, delle attrezzature e degli altri sistemi di sicurezza antincendio. Prevede tre livelli di attività. La sorveglianza è un controllo visivo periodico, svolto da personale interno adeguatamente formato, per verificare che estintori, idranti, porte tagliafuoco e illuminazione di sicurezza siano presenti, accessibili e senza danni evidenti. Il controllo periodico e la manutenzione si eseguono con la frequenza indicata dalle norme tecniche, dalle istruzioni del fabbricante e dalla regola dell’arte: per gli estintori portatili, ad esempio, la norma UNI novemilanovecentonovantaquattro prevede un controllo semestrale, oltre a revisioni e collaudi periodici. Gli interventi di manutenzione e controllo sono affidati a tecnici manutentori qualificati, che conseguono la qualificazione con un percorso formativo e un esame svolto presso i Vigili del fuoco, secondo l’Allegato secondo del decreto. Gli esiti si annotano nel registro dei controlli, da tenere aggiornato e a disposizione degli organi di vigilanza. Il datore di lavoro deve quindi verificare che il contratto di manutenzione preveda tecnici qualificati e che il registro sia completo."
+  }
+ ]
+}

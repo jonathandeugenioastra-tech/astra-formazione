@@ -1,0 +1,35 @@
+{
+ "dopo": "Esempio applicativo: il pozzetto e l’autocontrollo",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Campionamento e rapporto di prova",
+   "lead": "La validità di un autocontrollo dipende dalla correttezza del campionamento e dalla completezza del rapporto di prova.",
+   "punti": [
+    "Campione medio composito nell’arco di tre ore, salvo diversa prescrizione motivata",
+    "Verbale di campionamento: data, ora, punto, modalità, condizioni di processo",
+    "Catena di custodia e conservazione del campione fino al laboratorio",
+    "Rapporto di prova: parametri, metodi, unità di misura, limiti di quantificazione, incertezza",
+    "Laboratorio accreditato UNI CEI EN ISO/IEC 17025 quando richiesto dall’autorizzazione"
+   ],
+   "appro": "Il campionamento in un momento di fermo produttivo non è rappresentativo: va eseguito nelle condizioni di normale funzionamento, annotandole nel verbale.",
+   "rif": "D.lgs. 152/2006, art. 101 e Allegato 5 alla Parte III · Metodi analitici APAT-IRSA CNR · UNI CEI EN ISO/IEC 17025",
+   "nar": "Gli autocontrolli prescritti dall’autorizzazione allo scarico servono a dimostrare il rispetto dei limiti, ma solo se sono eseguiti correttamente. Il primo elemento è il campionamento. Di norma i limiti si riferiscono a un campione medio composito prelevato nell’arco di tre ore, ottenuto riunendo aliquote prelevate a intervalli regolari, salvo che l’autorizzazione o l’autorità motivino un prelievo istantaneo. Il campione va prelevato nel pozzetto individuato come punto di misura, in condizioni di normale funzionamento dell’impianto: un prelievo durante un fermo produttivo non è rappresentativo. Il verbale di campionamento riporta data, ora, punto di prelievo, modalità, contenitori, conservanti e condizioni di processo, e il campione viaggia fino al laboratorio con una catena di custodia documentata e alla temperatura prevista. Il secondo elemento è il rapporto di prova, che deve indicare i parametri determinati, i metodi analitici, le unità di misura, i limiti di quantificazione e l’incertezza di misura. Molte autorizzazioni richiedono un laboratorio accreditato secondo la norma UNI CEI EN ISO IEC diciassettemilaventicinque per le prove eseguite. Chi riceve il rapporto verifica che i parametri siano quelli prescritti, che i limiti di quantificazione siano inferiori ai valori limite e che il confronto con i limiti sia corretto, conservando i rapporti per i controlli."
+  },
+  {
+   "t": "testo",
+   "tit": "Gli impianti di trattamento dei reflui industriali",
+   "lead": "La scelta del trattamento dipende dalla natura degli inquinanti: chimico-fisico per metalli e solidi, biologico per la sostanza organica biodegradabile.",
+   "punti": [
+    "Equalizzazione e omogeneizzazione delle portate e dei carichi",
+    "Trattamento chimico-fisico: neutralizzazione, coagulazione, flocculazione, sedimentazione",
+    "Trattamento biologico a fanghi attivi per la sostanza organica (COD e BOD₅)",
+    "Affinamento: filtrazione su sabbia, carboni attivi, membrane",
+    "Fanghi prodotti: rifiuti da classificare con il codice EER dell’attività di origine"
+   ],
+   "appro": "Un registro di gestione dell’impianto, con dosaggi, controlli di processo, manutenzioni e anomalie, dimostra la diligenza del gestore anche in caso di superamenti occasionali.",
+   "rif": "D.lgs. 152/2006, artt. 101 e 124 · D.lgs. 152/2006, Parte IV, Allegato D",
+   "nar": "Quando i reflui di processo non rispettano i limiti, l’impresa installa un impianto di trattamento, la cui configurazione dipende dagli inquinanti. Il primo stadio è spesso una vasca di equalizzazione, che omogeneizza portate e concentrazioni e protegge i trattamenti successivi dai picchi. Il trattamento chimico fisico è adatto a metalli, solidi sospesi e inquinanti non biodegradabili: prevede la correzione del pH con neutralizzazione, l’aggiunta di coagulanti e flocculanti che aggregano le particelle, la sedimentazione o la flottazione dei fiocchi formati. Il trattamento biologico a fanghi attivi sfrutta i microrganismi per degradare la sostanza organica, misurata come domanda chimica e biochimica di ossigeno, e richiede controllo dell’ossigeno, del carico e dell’età del fango. Seguono eventuali trattamenti di affinamento, come filtrazione su sabbia, carboni attivi o membrane. Ogni impianto produce fanghi, che sono rifiuti da classificare con il codice dell’elenco europeo corrispondente all’attività di origine, verificandone la pericolosità. Un registro di gestione con dosaggi dei reagenti, controlli di processo, manutenzioni, anomalie e interventi correttivi dimostra la diligenza del gestore, anche nel caso di superamenti occasionali dei limiti."
+  }
+ ]
+}

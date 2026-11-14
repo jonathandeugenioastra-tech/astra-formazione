@@ -973,6 +973,24 @@ window.CORSO = {
      "ancora": "Scarichi: definizioni e tipologie"
     },
     {
+     "foto": false,
+     "t": "testo",
+     "tit": "La nuova direttiva sulle acque reflue urbane",
+     "lead": "La Direttiva (UE) 2024/3019 rifonde la disciplina delle acque reflue urbane e introduce la responsabilità estesa per i produttori di farmaci e cosmetici.",
+     "punti": [
+      "Recepimento negli Stati membri entro il 31 luglio 2027",
+      "Trattamento quaternario per rimuovere i microinquinanti negli impianti di maggiori dimensioni",
+      "Responsabilità estesa: produttori di farmaci e cosmetici coprono almeno l’80% dei costi del trattamento aggiuntivo",
+      "Obiettivo di neutralità energetica degli impianti di depurazione",
+      "Monitoraggio di parametri sanitari, come virus e resistenze antimicrobiche"
+     ],
+     "appro": "Per le imprese che scaricano in fognatura la direttiva può tradursi in requisiti più stringenti del gestore e in una maggiore attenzione alle sostanze immesse.",
+     "rif": "Dir. (UE) 2024/3019 · D.lgs. 152/2006, Parte III",
+     "nar": "La gestione delle acque reflue urbane, cioè di quelle convogliate nelle reti fognarie e trattate negli impianti di depurazione pubblici, è stata riformata dalla direttiva europea duemilaventiquattro barra tremiladiciannove, che rifonde la direttiva del millenovecentonovantuno. Gli Stati membri devono recepirla entro il trentuno luglio duemilaventisette, con scadenze di attuazione scaglionate fino al duemilaquarantacinque. Le novità principali sono quattro. La prima è il trattamento quaternario, cioè uno stadio aggiuntivo per rimuovere i microinquinanti, come residui di farmaci e cosmetici, negli impianti di maggiori dimensioni e in quelli che scaricano in aree sensibili. La seconda è la responsabilità estesa del produttore: i produttori di medicinali per uso umano e di cosmetici dovranno coprire almeno l’ottanta per cento dei costi del trattamento aggiuntivo. La terza è l’obiettivo di neutralità energetica degli impianti di depurazione, da raggiungere progressivamente con efficienza e produzione di energia rinnovabile. La quarta riguarda il monitoraggio di parametri di interesse sanitario, come virus e resistenze antimicrobiche. Per le imprese che scaricano in fognatura la riforma può tradursi in requisiti più stringenti da parte dei gestori e in una maggiore attenzione alle sostanze immesse nella rete.",
+     "est": true,
+     "ancora": "Scarichi: definizioni e tipologie"
+    },
+    {
      "t": "testo",
      "tit": "Autorizzazione allo scarico e valori limite",
      "foto": false,
@@ -1062,6 +1080,24 @@ window.CORSO = {
      "appro": "Il regolamento del gestore può fissare anche la tariffa per gli scarichi industriali in funzione di quantità e qualità del refluo.",
      "rif": "D.lgs. 152/2006, artt. 107 e 124 · Allegato 5 alla Parte III, Tabelle 3 e 5",
      "nar": "Molte imprese scaricano in pubblica fognatura. L’articolo centosette del testo unico stabilisce che gli scarichi di acque reflue industriali in rete fognaria sono sottoposti alle norme tecniche, alle prescrizioni regolamentari e ai valori limite adottati dall’autorità d’ambito, in base alle caratteristiche dell’impianto di depurazione finale, e comunque nel rispetto della colonna fognatura della tabella tre dell’Allegato cinque. Per le sostanze pericolose della tabella cinque i limiti non possono essere resi meno restrittivi. Gli scarichi di acque reflue domestiche in fognatura sono invece sempre ammessi, purché rispettino il regolamento del gestore del servizio idrico integrato. L’autorizzazione degli scarichi industriali in fognatura viene rilasciata acquisendo il parere del gestore e, per le piccole e medie imprese, confluisce nell’autorizzazione unica ambientale. Le prescrizioni possono richiedere pretrattamenti, come la neutralizzazione o la disoleazione, misuratori di portata, pozzetti di campionamento accessibili e autocontrolli con una frequenza stabilita. Il regolamento del gestore definisce anche la tariffa per gli scarichi industriali, calcolata in funzione della quantità e della qualità del refluo. Conoscere l’autorizzazione e il regolamento è indispensabile per chi gestisce l’impianto.",
+     "est": true,
+     "ancora": "Autorizzazione allo scarico e valori limite"
+    },
+    {
+     "foto": false,
+     "t": "testo",
+     "tit": "Prelievi idrici e riutilizzo delle acque reflue",
+     "lead": "La gestione dell’acqua in azienda comprende anche i prelievi da pozzo e le opportunità di riutilizzo dei reflui depurati.",
+     "punti": [
+      "Pozzi e derivazioni: concessione o autorizzazione secondo il R.D. 1775/1933 e le norme regionali",
+      "Misuratori dei volumi prelevati e canone di concessione",
+      "Riutilizzo di acque reflue depurate: norme tecniche del D.M. 185/2003",
+      "Riutilizzo irriguo in agricoltura: Regolamento (UE) 2020/741, applicabile dal 26 giugno 2023",
+      "Ricircolo interno nei processi: riduce prelievi, scarichi e costi"
+     ],
+     "appro": "Un prelievo da pozzo senza titolo è un illecito, e i volumi prelevati entrano nei bilanci idrici e negli indicatori di sostenibilità richiesti da clienti e banche.",
+     "rif": "R.D. 11 dicembre 1933, n. 1775 · D.M. 12 giugno 2003, n. 185 · Reg. (UE) 2020/741",
+     "nar": "La gestione dell’acqua non riguarda solo lo scarico. Molte imprese si approvvigionano da pozzi o da derivazioni superficiali, che richiedono un titolo: la concessione di derivazione di acque pubbliche prevista dal regio decreto millesettecentosettantacinque del millenovecentotrentatré e dalle norme regionali, o l’autorizzazione per i piccoli prelievi nei casi ammessi. Il titolo indica la portata massima, gli usi consentiti e gli obblighi di misura: i volumi prelevati vanno misurati con contatori e comunicati, e sono soggetti a un canone. Dall’altro lato del ciclo c’è il riutilizzo. Il decreto ministeriale centoottantacinque del duemilatré stabilisce le norme tecniche per il riutilizzo delle acque reflue depurate per usi irrigui, civili e industriali, con requisiti di qualità specifici. Per il riutilizzo irriguo in agricoltura si applica il regolamento europeo duemilaventi barra settecentoquarantuno, dal ventisei giugno duemilaventitré, che fissa prescrizioni minime di qualità e di monitoraggio e richiede un piano di gestione dei rischi. Anche il ricircolo interno, ad esempio delle acque di raffreddamento o di lavaggio, riduce prelievi, scarichi e costi. I volumi prelevati e scaricati entrano inoltre negli indicatori ambientali richiesti nei rendiconti di sostenibilità.",
      "est": true,
      "ancora": "Autorizzazione allo scarico e valori limite"
     },

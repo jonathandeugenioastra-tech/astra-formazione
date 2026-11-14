@@ -1,0 +1,66 @@
+{
+ "dopo": "Il regime sanzionatorio dei rifiuti",
+ "schermate": [
+  {
+   "t": "vf",
+   "tit": "Esercitazione · Classificazione, trasporto e flussi",
+   "sott": "Qualificare ciascuna affermazione come vera o falsa",
+   "voci": [
+    [
+     "Un rifiuto con voce assoluta pericolosa richiede comunque analisi per essere classificato pericoloso.",
+     false,
+     "Falso: la voce con asterisco assoluta è sempre pericolosa."
+    ],
+    [
+     "Per le voci a specchio, se le informazioni non escludono la pericolosità, il rifiuto si classifica pericoloso.",
+     true,
+     "Vero: principio di precauzione."
+    ],
+    [
+     "La categoria 2-bis dell’Albo consente al produttore di trasportare i propri rifiuti non pericolosi.",
+     true,
+     "Vero, e i pericolosi fino a 30 kg o 30 litri al giorno."
+    ],
+    [
+     "Il MUD si presenta entro il 30 giugno.",
+     false,
+     "Falso: entro il 30 aprile."
+    ],
+    [
+     "Gli oli usati possono essere miscelati con i solventi esausti per ridurre i contenitori.",
+     false,
+     "Falso: vanno depositati separatamente, senza miscelazione."
+    ]
+   ],
+   "nar": "Esercitazione. Si stabilisca se ciascuna affermazione è vera o falsa."
+  },
+  {
+   "t": "abbina",
+   "tit": "Esercitazione · Norme e contenuti",
+   "sott": "Associare a ciascun riferimento il contenuto corretto",
+   "coppie": [
+    [
+     "Art. 184-bis D.lgs. 152/2006",
+     "Sottoprodotto"
+    ],
+    [
+     "Art. 184-ter D.lgs. 152/2006",
+     "Cessazione della qualifica di rifiuto"
+    ],
+    [
+     "D.P.R. 120/2017",
+     "Terre e rocce da scavo"
+    ],
+    [
+     "D.M. 120/2014",
+     "Albo nazionale gestori ambientali"
+    ],
+    [
+     "Reg. (UE) 1357/2014",
+     "Caratteristiche di pericolo HP"
+    ]
+   ],
+   "nar": "Esercitazione. Si associ a ciascun riferimento normativo il contenuto corretto."
+  }
+ ]
+}

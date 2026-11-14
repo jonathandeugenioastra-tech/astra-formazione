@@ -1,20 +1,20 @@
 {
- "dopo": "Acque meteoriche di dilavamento e prima pioggia",
+ "dopo": "Scarichi: definizioni e tipologie",
  "schermate": [
   {
    "t": "testo",
-   "tit": "La disciplina regionale delle acque meteoriche",
-   "lead": "L’art. 113 del D.lgs. 152/2006 affida alle Regioni la disciplina delle acque meteoriche di dilavamento e di prima pioggia.",
+   "tit": "La nuova direttiva sulle acque reflue urbane",
+   "lead": "La Direttiva (UE) 2024/3019 rifonde la disciplina delle acque reflue urbane e introduce la responsabilità estesa per i produttori di farmaci e cosmetici.",
    "punti": [
-    "Acque meteoriche non contaminate: di norma non soggette ad autorizzazione",
-    "Prima pioggia: in molte discipline regionali i primi 5 mm di precipitazione sull’intera superficie scolante",
-    "Superfici a rischio (piazzali di carico, depositi, distributori): raccolta e trattamento",
-    "Vasche di prima pioggia, dissabbiatori e disoleatori dimensionati e manutenuti",
-    "Vietato lo scarico o l’immissione diretta nelle acque sotterranee"
+    "Recepimento negli Stati membri entro il 31 luglio 2027",
+    "Trattamento quaternario per rimuovere i microinquinanti negli impianti di maggiori dimensioni",
+    "Responsabilità estesa: produttori di farmaci e cosmetici coprono almeno l’80% dei costi del trattamento aggiuntivo",
+    "Obiettivo di neutralità energetica degli impianti di depurazione",
+    "Monitoraggio di parametri sanitari, come virus e resistenze antimicrobiche"
    ],
-   "appro": "Le acque di seconda pioggia, successive al riempimento della vasca, possono essere scaricate se non contaminate, secondo le regole regionali.",
-   "rif": "D.lgs. 152/2006, artt. 74 e 113 · discipline regionali di attuazione",
-   "nar": "Le acque di pioggia che dilavano piazzali e coperture possono trascinare oli, idrocarburi, polveri e residui delle attività. L’articolo centotredici del testo unico affida alle Regioni la disciplina delle acque meteoriche di dilavamento e delle acque di prima pioggia, e stabilisce che le Regioni individuano i casi in cui queste acque devono essere convogliate e trattate, per le superfici in cui esiste il rischio di dilavamento di sostanze pericolose o pregiudizievoli per l’ambiente. Molte discipline regionali definiscono acque di prima pioggia quelle corrispondenti ai primi cinque millimetri di precipitazione distribuiti uniformemente sull’intera superficie scolante. Sono tipicamente considerate superfici a rischio i piazzali di carico e scarico, le aree di deposito di materiali e rifiuti, gli impianti di distribuzione di carburanti e le aree di lavaggio. Per queste superfici si prevedono vasche di prima pioggia, dissabbiatori e disoleatori, dimensionati secondo le regole regionali e soggetti a manutenzione documentata, con lo svuotamento periodico dei fanghi e degli oli come rifiuti. Le acque di seconda pioggia, che arrivano dopo il riempimento della vasca, possono di regola essere scaricate se non contaminate. Resta in ogni caso vietato lo scarico o l’immissione diretta delle acque meteoriche nelle acque sotterranee."
+   "appro": "Per le imprese che scaricano in fognatura la direttiva può tradursi in requisiti più stringenti del gestore e in una maggiore attenzione alle sostanze immesse.",
+   "rif": "Dir. (UE) 2024/3019 · D.lgs. 152/2006, Parte III",
+   "nar": "La gestione delle acque reflue urbane, cioè di quelle convogliate nelle reti fognarie e trattate negli impianti di depurazione pubblici, è stata riformata dalla direttiva europea duemilaventiquattro barra tremiladiciannove, che rifonde la direttiva del millenovecentonovantuno. Gli Stati membri devono recepirla entro il trentuno luglio duemilaventisette, con scadenze di attuazione scaglionate fino al duemilaquarantacinque. Le novità principali sono quattro. La prima è il trattamento quaternario, cioè uno stadio aggiuntivo per rimuovere i microinquinanti, come residui di farmaci e cosmetici, negli impianti di maggiori dimensioni e in quelli che scaricano in aree sensibili. La seconda è la responsabilità estesa del produttore: i produttori di medicinali per uso umano e di cosmetici dovranno coprire almeno l’ottanta per cento dei costi del trattamento aggiuntivo. La terza è l’obiettivo di neutralità energetica degli impianti di depurazione, da raggiungere progressivamente con efficienza e produzione di energia rinnovabile. La quarta riguarda il monitoraggio di parametri di interesse sanitario, come virus e resistenze antimicrobiche. Per le imprese che scaricano in fognatura la riforma può tradursi in requisiti più stringenti da parte dei gestori e in una maggiore attenzione alle sostanze immesse nella rete."
   }
  ]
 }

@@ -1,0 +1,21 @@
+{
+ "dopo": "Autorizzazione allo scarico e valori limite",
+ "origine": "SCA/M1-5.json",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Prelievi idrici e riutilizzo delle acque reflue",
+   "lead": "La gestione dell’acqua in azienda comprende anche i prelievi da pozzo e le opportunità di riutilizzo dei reflui depurati.",
+   "punti": [
+    "Pozzi e derivazioni: concessione o autorizzazione secondo il R.D. 1775/1933 e le norme regionali",
+    "Misuratori dei volumi prelevati e canone di concessione",
+    "Riutilizzo di acque reflue depurate: norme tecniche del D.M. 185/2003",
+    "Riutilizzo irriguo in agricoltura: Regolamento (UE) 2020/741, applicabile dal 26 giugno 2023",
+    "Ricircolo interno nei processi: riduce prelievi, scarichi e costi"
+   ],
+   "appro": "Un prelievo da pozzo senza titolo è un illecito, e i volumi prelevati entrano nei bilanci idrici e negli indicatori di sostenibilità richiesti da clienti e banche.",
+   "rif": "R.D. 11 dicembre 1933, n. 1775 · D.M. 12 giugno 2003, n. 185 · Reg. (UE) 2020/741",
+   "nar": "La gestione dell’acqua non riguarda solo lo scarico. Molte imprese si approvvigionano da pozzi o da derivazioni superficiali, che richiedono un titolo: la concessione di derivazione di acque pubbliche prevista dal regio decreto millesettecentosettantacinque del millenovecentotrentatré e dalle norme regionali, o l’autorizzazione per i piccoli prelievi nei casi ammessi. Il titolo indica la portata massima, gli usi consentiti e gli obblighi di misura: i volumi prelevati vanno misurati con contatori e comunicati, e sono soggetti a un canone. Dall’altro lato del ciclo c’è il riutilizzo. Il decreto ministeriale centoottantacinque del duemilatré stabilisce le norme tecniche per il riutilizzo delle acque reflue depurate per usi irrigui, civili e industriali, con requisiti di qualità specifici. Per il riutilizzo irriguo in agricoltura si applica il regolamento europeo duemilaventi barra settecentoquarantuno, dal ventisei giugno duemilaventitré, che fissa prescrizioni minime di qualità e di monitoraggio e richiede un piano di gestione dei rischi. Anche il ricircolo interno, ad esempio delle acque di raffreddamento o di lavaggio, riduce prelievi, scarichi e costi. I volumi prelevati e scaricati entrano inoltre negli indicatori ambientali richiesti nei rendiconti di sostenibilità."
+  }
+ ]
+}

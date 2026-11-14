@@ -1,0 +1,38 @@
+{
+ "dopo": "Controlli e sanzioni in Italia",
+ "schermate": [
+  {
+   "t": "vf",
+   "tit": "Esercitazione · REACH e CLP",
+   "sott": "Qualificare ciascuna affermazione come vera o falsa",
+   "voci": [
+    [
+     "L’obbligo di informazione dell’art. 33 scatta oltre lo 0,1% in peso di una SVHC nell’articolo.",
+     true,
+     "Vero."
+    ],
+    [
+     "Il consumatore che chiede informazioni su una SVHC deve ricevere risposta entro 45 giorni.",
+     true,
+     "Vero: art. 33 c. 2."
+    ],
+    [
+     "Il rappresentante esclusivo può essere stabilito fuori dall’Unione europea.",
+     false,
+     "Falso: deve essere stabilito nell’UE (art. 8)."
+    ],
+    [
+     "Il codice UFI è composto da 16 caratteri alfanumerici.",
+     true,
+     "Vero."
+    ],
+    [
+     "Una SDS nel formato precedente al Reg. (UE) 2020/878 è ancora conforme.",
+     false,
+     "Falso: dal 1° gennaio 2023 vale il nuovo formato."
+    ]
+   ],
+   "nar": "Esercitazione. Si stabilisca se ciascuna affermazione su REACH e CLP è vera o falsa."
+  }
+ ]
+}

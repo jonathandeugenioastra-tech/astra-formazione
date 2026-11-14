@@ -1,0 +1,38 @@
+{
+ "dopo": "Integrazione con i sistemi di gestione",
+ "schermate": [
+  {
+   "t": "vf",
+   "tit": "Esercitazione · Quadro europeo e catena del valore",
+   "sott": "Qualificare ciascuna affermazione come vera o falsa",
+   "voci": [
+    [
+     "Dopo l’Omnibus I la CSRD riguarda le imprese con oltre 1.000 dipendenti e 450 milioni di ricavi.",
+     true,
+     "Vero."
+    ],
+    [
+     "Una grande impresa può chiedere a un fornitore PMI qualunque informazione oltre il VSME.",
+     false,
+     "Falso: vale il tetto della catena del valore."
+    ],
+    [
+     "Il CBAM esenta gli importatori sotto 50 t/anno di ferro, acciaio, alluminio, fertilizzanti e cemento.",
+     true,
+     "Vero: soglia de minimis."
+    ],
+    [
+     "L’EUDR si applica alle micro e piccole imprese dal 30 dicembre 2026.",
+     false,
+     "Falso: dal 30 giugno 2027."
+    ],
+    [
+     "Il modulo base VSME comprende le informative da B1 a B11.",
+     true,
+     "Vero."
+    ]
+   ],
+   "nar": "Esercitazione. Si stabilisca se ciascuna affermazione è vera o falsa."
+  }
+ ]
+}

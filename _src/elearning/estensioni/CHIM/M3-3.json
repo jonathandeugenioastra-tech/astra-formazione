@@ -1,0 +1,66 @@
+{
+ "dopo": "Emergenze, sorveglianza sanitaria e informazione",
+ "schermate": [
+  {
+   "t": "abbina",
+   "tit": "Esercitazione · Filtri e contaminanti",
+   "sott": "Associare a ciascun tipo di filtro il contaminante corretto",
+   "coppie": [
+    [
+     "A (marrone)",
+     "Vapori organici con ebollizione oltre 65 °C"
+    ],
+    [
+     "B (grigio)",
+     "Gas e vapori inorganici"
+    ],
+    [
+     "E (giallo)",
+     "Gas acidi, come l’anidride solforosa"
+    ],
+    [
+     "K (verde)",
+     "Ammoniaca e derivati"
+    ],
+    [
+     "P (bianco)",
+     "Particelle"
+    ]
+   ],
+   "nar": "Esercitazione. Si associ a ciascun tipo di filtro il contaminante per cui è destinato."
+  },
+  {
+   "t": "vf",
+   "tit": "Esercitazione · Rischio chimico",
+   "sott": "Qualificare ciascuna affermazione come vera o falsa",
+   "voci": [
+    [
+     "Con almeno sei misure la UNI EN 689 prevede il test statistico con UTL 95,70.",
+     true,
+     "Vero."
+    ],
+    [
+     "Per gli agenti cancerogeni si può concludere per un rischio irrilevante per la salute.",
+     false,
+     "Falso: la soglia di irrilevanza dell’art. 224 non si applica al Capo II."
+    ],
+    [
+     "50 ppm di toluene corrispondono a circa 192 mg/m³.",
+     true,
+     "Vero, a 20 °C e 101,3 kPa."
+    ],
+    [
+     "Le cartelle sanitarie degli esposti a cancerogeni si conservano per almeno 40 anni.",
+     true,
+     "Vero: art. 243."
+    ],
+    [
+     "Dal 24 agosto 2023 i prodotti con diisocianati oltre lo 0,1% richiedono formazione specifica.",
+     true,
+     "Vero: voce 74 dell’Allegato XVII REACH."
+    ]
+   ],
+   "nar": "Esercitazione. Si stabilisca se ciascuna affermazione sul rischio chimico è vera o falsa."
+  }
+ ]
+}

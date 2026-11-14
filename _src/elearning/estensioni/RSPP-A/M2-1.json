@@ -1,0 +1,20 @@
+{
+ "dopo": "Gli altri soggetti",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Progettisti, fabbricanti, fornitori e installatori",
+   "lead": "La tutela inizia prima che l’attrezzatura o il luogo di lavoro arrivino in azienda: gli artt. 22-24 attribuiscono obblighi a chi progetta, fornisce e installa.",
+   "punti": [
+    "Progettisti di luoghi, posti di lavoro e impianti: rispetto dei principi generali di prevenzione (art. 22)",
+    "Fabbricanti e fornitori: divieto di vendere, noleggiare o concedere in uso attrezzature non conformi (art. 23)",
+    "In caso di locazione finanziaria: attrezzature conformi accompagnate dalle istruzioni",
+    "Installatori e montatori: installazione secondo le istruzioni del fabbricante (art. 24)",
+    "Responsabilità concorrenti con quelle del datore di lavoro in caso di infortunio"
+   ],
+   "appro": "La conformità dichiarata dal fabbricante non esonera il datore di lavoro dalla verifica dell’idoneità dell’attrezzatura all’uso specifico.",
+   "rif": "D.lgs. 81/2008, artt. 22, 23 e 24",
+   "nar": "Il sistema di prevenzione non riguarda solo l’azienda. Gli articoli dal ventidue al ventiquattro del testo unico attribuiscono obblighi precisi ai soggetti che intervengono prima che un luogo di lavoro o un’attrezzatura entrino in uso. I progettisti dei luoghi e dei posti di lavoro e degli impianti devono rispettare i principi generali di prevenzione in materia di salute e sicurezza al momento delle scelte progettuali e tecniche, e scegliere attrezzature, componenti e dispositivi di protezione rispondenti alle disposizioni vigenti. I fabbricanti e i fornitori non possono vendere, noleggiare o concedere in uso attrezzature di lavoro, dispositivi di protezione individuale e impianti non rispondenti alle disposizioni legislative e regolamentari; nella locazione finanziaria i beni devono essere accompagnati dalle certificazioni e dalle istruzioni. Gli installatori e i montatori di impianti, attrezzature e altri mezzi tecnici devono attenersi alle norme di salute e sicurezza e alle istruzioni dei fabbricanti. In caso di infortunio, la giurisprudenza riconosce spesso responsabilità concorrenti, ad esempio del fabbricante di una macchina priva di protezioni e del datore di lavoro che l’ha messa in uso. La conformità dichiarata non esonera infatti il datore di lavoro dal verificare l’idoneità dell’attrezzatura all’uso concreto."
+  }
+ ]
+}

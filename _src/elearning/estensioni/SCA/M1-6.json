@@ -1,0 +1,92 @@
+{
+ "dopo": "Sanzioni per gli scarichi",
+ "schermate": [
+  {
+   "t": "vf",
+   "tit": "Esercitazione · Scarichi e acque",
+   "sott": "Qualificare ciascuna affermazione come vera o falsa",
+   "voci": [
+    [
+     "Le acque raccolte in una vasca e prelevate con autobotte costituiscono uno scarico.",
+     false,
+     "Falso: senza sistema stabile di collettamento sono rifiuti liquidi (art. 74)."
+    ],
+    [
+     "Gli scarichi domestici in fognatura sono sempre ammessi nel rispetto del regolamento del gestore.",
+     true,
+     "Vero: art. 124 e 107."
+    ],
+    [
+     "È consentito diluire il refluo con acqua di rete per rispettare i limiti.",
+     false,
+     "Falso: la diluizione con acque prelevate allo scopo è vietata (art. 101 c. 5)."
+    ],
+    [
+     "Lo scarico di acque reflue industriali senza autorizzazione è una contravvenzione penale.",
+     true,
+     "Vero: art. 137 c. 1."
+    ],
+    [
+     "Il superamento dei limiti per parametri non compresi nella Tabella 5 è punito con sanzione amministrativa.",
+     true,
+     "Vero: art. 133 c. 1."
+    ]
+   ],
+   "nar": "Esercitazione. Si stabilisca se ciascuna affermazione sugli scarichi è vera o falsa."
+  },
+  {
+   "t": "abbina",
+   "tit": "Esercitazione · Trattamenti e funzioni",
+   "sott": "Associare a ciascun trattamento la funzione principale",
+   "coppie": [
+    [
+     "Equalizzazione",
+     "Omogeneizzare portate e concentrazioni"
+    ],
+    [
+     "Neutralizzazione",
+     "Correggere il pH"
+    ],
+    [
+     "Coagulazione e flocculazione",
+     "Aggregare le particelle in fiocchi sedimentabili"
+    ],
+    [
+     "Fanghi attivi",
+     "Degradare la sostanza organica con microrganismi"
+    ],
+    [
+     "Carboni attivi",
+     "Adsorbire inquinanti organici residui"
+    ]
+   ],
+   "nar": "Esercitazione. Si associ a ciascun trattamento delle acque reflue la sua funzione principale."
+  },
+  {
+   "t": "caso",
+   "tit": "Caso di studio · Il campione del lunedì mattina",
+   "scena": "Il responsabile ambientale fa prelevare il campione di autocontrollo alle 7:30 di lunedì, prima dell’avvio delle linee, con un unico prelievo istantaneo. Il rapporto di prova riporta valori molto bassi.",
+   "domanda": "Come va valutato l’autocontrollo?",
+   "opz": [
+    [
+     "È valido: i valori sono conformi",
+     false,
+     "No: un campione prelevato a impianto fermo non è rappresentativo."
+    ],
+    [
+     "Non è rappresentativo: va ripetuto in condizioni di normale funzionamento, con campione medio di tre ore se non diversamente prescritto",
+     true,
+     "Corretto: rappresentatività e modalità prescritte sono condizioni di validità."
+    ],
+    [
+     "Basta allegare una dichiarazione del responsabile",
+     false,
+     "No: la dichiarazione non sostituisce un campionamento corretto."
+    ]
+   ],
+   "rif": "D.lgs. 152/2006, Allegato 5 alla Parte III",
+   "appro": "Il verbale di campionamento deve documentare le condizioni di processo al momento del prelievo.",
+   "nar": "Caso di studio. Si valuti un autocontrollo eseguito a impianto fermo."
+  }
+ ]
+}

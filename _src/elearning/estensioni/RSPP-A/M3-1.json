@@ -1,0 +1,20 @@
+{
+ "dopo": "Metodi qualitativi, semiquantitativi e strumentali",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Esempio applicativo: un metodo a indici per il rischio chimico per la sicurezza",
+   "lead": "Il metodo della nota tecnica NTP 330 dell’INSHT stima il rischio a partire dalle carenze rilevate con una lista di controllo.",
+   "punti": [
+    "Livello di deficienza LD dalla lista di controllo: 10 molto carente, 6 carente, 2 migliorabile, 0 accettabile",
+    "Livello di probabilità LP = LD × LE (livello di esposizione da 1 a 4)",
+    "LP 24: probabilità molto alta; LP 8: probabilità media",
+    "Livello di rischio LR = LP × LC (livello delle conseguenze)",
+    "Classi: LR 600 → classe I; 500 → II; 120 → III; 20 → IV"
+   ],
+   "appro": "Le voci «non applicabile» si escludono dal calcolo; un solo requisito «molto carente» porta il livello di deficienza a 10.",
+   "rif": "NTP 330 INSHT · D.lgs. 81/2008, artt. 28 e 223",
+   "nar": "I metodi a indici traducono osservazioni qualitative in un punteggio, rendendo esplicito il criterio di valutazione. Un metodo molto diffuso per il rischio di infortunio, applicato anche al rischio chimico per la sicurezza, è quello della nota tecnica trecentotrenta dell’istituto spagnolo per la sicurezza sul lavoro. Si parte da una lista di controllo sulle condizioni di stoccaggio, manipolazione, ventilazione e procedure. Dalle risposte si ricava il livello di deficienza: dieci se anche un solo requisito è molto carente o se la maggioranza è carente, sei se c’è almeno un requisito carente o se la maggioranza è migliorabile, due se c’è almeno un requisito migliorabile, zero se tutto è accettabile; le voci non applicabili si escludono. Il livello di probabilità si ottiene moltiplicando il livello di deficienza per il livello di esposizione, da uno, sporadica, a quattro, continuata: ad esempio ventiquattro corrisponde a probabilità molto alta, otto a probabilità media. Il livello di rischio è il prodotto della probabilità per il livello delle conseguenze. Le classi vanno dalla prima, situazione critica con correzione urgente, alla quarta, che non richiede interventi: un livello di seicento ricade nella classe uno, cinquecento nella classe due, centoventi nella classe tre, venti nella classe quattro."
+  }
+ ]
+}

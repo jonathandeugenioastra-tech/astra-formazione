@@ -1,0 +1,38 @@
+{
+ "dopo": "Dopo la diagnosi: attuazione e verifica dei risparmi",
+ "schermate": [
+  {
+   "t": "vf",
+   "tit": "Esercitazione · Diagnosi e prestazione energetica",
+   "sott": "Qualificare ciascuna affermazione come vera o falsa",
+   "voci": [
+    [
+     "La prossima scadenza delle diagnosi obbligatorie ai sensi del D.lgs. 102/2014 è il 5 dicembre 2027.",
+     true,
+     "Vero."
+    ],
+    [
+     "La Direttiva (UE) 2023/1791 è già stata recepita in Italia con il D.lgs. 136/2026.",
+     false,
+     "Falso: il D.lgs. 136/2026 attua la direttiva sul gas."
+    ],
+    [
+     "L’energy manager è obbligatorio nell’industria oltre 10.000 tep/anno.",
+     true,
+     "Vero: art. 19 L. 10/1991."
+    ],
+    [
+     "Il consumo specifico è sempre l’indicatore migliore, anche con molti consumi fissi.",
+     false,
+     "Falso: la quota fissa distorce l’indicatore; servono modelli di regressione."
+    ],
+    [
+     "I risparmi energetici si misurano direttamente con un contatore.",
+     false,
+     "Falso: si stimano confrontando consumo effettivo e consumo atteso (ISO 50015)."
+    ]
+   ],
+   "nar": "Esercitazione. Si stabilisca se ciascuna affermazione è vera o falsa."
+  }
+ ]
+}

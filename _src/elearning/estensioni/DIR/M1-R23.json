@@ -1,0 +1,21 @@
+{
+ "dopo": "Responsabilità penale, civile, amministrativa",
+ "origine": "RSPP-A/M1-2.json",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Infortunio e responsabilità civile: esonero, regresso e danno differenziale",
+   "lead": "L’assicurazione INAIL esonera in parte il datore di lavoro dalla responsabilità civile, ma non quando il fatto costituisce reato.",
+   "punti": [
+    "Art. 10 D.P.R. 1124/1965: esonero dalla responsabilità civile per i danni indennizzati dall’INAIL",
+    "L’esonero non opera se il datore di lavoro è responsabile penalmente del fatto",
+    "Art. 11: azione di regresso dell’INAIL per le somme pagate al lavoratore",
+    "Danno differenziale: la parte del danno non coperta dall’indennizzo INAIL",
+    "Art. 2087 c.c.: obbligo di adottare le misure suggerite da particolarità del lavoro, esperienza e tecnica"
+   ],
+   "appro": "In caso di infortunio con violazione di norme di sicurezza, ai costi penali si sommano il regresso INAIL e il risarcimento del danno differenziale.",
+   "rif": "D.P.R. 30 giugno 1965, n. 1124, artt. 10 e 11 · Codice civile, art. 2087",
+   "nar": "Quando un lavoratore subisce un infortunio, interviene l’assicurazione obbligatoria gestita dall’INAIL, che eroga le prestazioni economiche e sanitarie. L’articolo dieci del testo unico del millenovecentosessantacinque prevede che l’assicurazione esoneri il datore di lavoro dalla responsabilità civile per i danni indennizzati. L’esonero però non opera quando il datore di lavoro, o chi è preposto alla direzione e sorveglianza del lavoro, è riconosciuto responsabile penalmente del fatto, ad esempio per lesioni colpose commesse con violazione delle norme di sicurezza. In questo caso l’articolo undici consente all’INAIL di agire in regresso contro il datore di lavoro per recuperare le somme pagate al lavoratore. Inoltre il lavoratore può chiedere il risarcimento del cosiddetto danno differenziale, cioè della parte del danno non coperta dall’indennizzo, come alcune componenti del danno biologico e il danno morale. Il fondamento della responsabilità civile è l’articolo duemilaottantasette del codice civile, che impone all’imprenditore di adottare le misure che, secondo la particolarità del lavoro, l’esperienza e la tecnica, sono necessarie a tutelare l’integrità fisica e la personalità morale dei lavoratori. Per l’azienda, un infortunio con violazioni comporta quindi costi penali, il regresso e il risarcimento del danno differenziale."
+  }
+ ]
+}

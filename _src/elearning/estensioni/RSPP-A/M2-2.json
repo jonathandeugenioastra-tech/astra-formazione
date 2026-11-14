@@ -1,0 +1,20 @@
+{
+ "dopo": "Medico competente e RLS",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Il medico competente: titoli e obblighi",
+   "lead": "Il medico competente è nominato dal datore di lavoro nei casi in cui è prevista la sorveglianza sanitaria e collabora alla valutazione dei rischi.",
+   "punti": [
+    "Titoli dell’art. 38: specializzazione in medicina del lavoro o titoli equipollenti; iscrizione nell’elenco nazionale",
+    "Collabora alla valutazione dei rischi e alla predisposizione delle misure (art. 25)",
+    "Programma ed effettua la sorveglianza sanitaria; istituisce e custodisce le cartelle sanitarie e di rischio",
+    "Visita gli ambienti di lavoro almeno una volta l’anno o con cadenza diversa stabilita in base alla valutazione",
+    "Trasmette all’INAIL entro il 31 marzo i dati aggregati dell’Allegato 3B (art. 40)"
+   ],
+   "appro": "Il medico competente partecipa alla riunione periodica e comunica per iscritto i risultati anonimi collettivi della sorveglianza sanitaria.",
+   "rif": "D.lgs. 81/2008, artt. 25, 38, 39, 40 e 41",
+   "nar": "Il medico competente è il medico in possesso dei titoli previsti dall’articolo trentotto, tra cui la specializzazione in medicina del lavoro o in medicina preventiva dei lavoratori, oppure la docenza o la specializzazione in discipline affini con il percorso formativo previsto, e iscritto nell’elenco nazionale tenuto dal Ministero della salute. È nominato dal datore di lavoro quando la valutazione dei rischi evidenzia l’obbligo di sorveglianza sanitaria. L’articolo venticinque ne elenca gli obblighi: collabora con il datore di lavoro e con il servizio di prevenzione alla valutazione dei rischi e alla predisposizione delle misure, anche ai fini della programmazione della sorveglianza sanitaria, della formazione e dell’organizzazione del primo soccorso; programma ed effettua la sorveglianza sanitaria secondo protocolli definiti; istituisce, aggiorna e custodisce le cartelle sanitarie e di rischio; informa i lavoratori sul significato degli accertamenti; comunica per iscritto, in occasione della riunione periodica, i risultati anonimi collettivi; visita gli ambienti di lavoro almeno una volta all’anno, o con cadenza diversa stabilita in base alla valutazione dei rischi. Entro il trentuno marzo di ogni anno trasmette all’INAIL, in via telematica, le informazioni aggregate sanitarie e di rischio dei lavoratori sottoposti a sorveglianza, previste dall’Allegato tre B."
+  }
+ ]
+}

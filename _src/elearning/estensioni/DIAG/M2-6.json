@@ -1,0 +1,20 @@
+{
+ "dopo": "Valutazione tecnico-economica degli interventi",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "VAN, TIR e tempo di ritorno",
+   "lead": "La scelta tra interventi di efficienza si basa su indicatori finanziari che considerano il valore del denaro nel tempo.",
+   "punti": [
+    "Tempo di ritorno semplice: investimento diviso risparmio annuo; ignora il valore del denaro nel tempo",
+    "Valore attuale netto (VAN): somma dei flussi attualizzati meno l’investimento iniziale",
+    "Attualizzazione: ogni flusso diviso per (1 + i) elevato all’anno t",
+    "Tasso interno di rendimento (TIR): tasso che rende nullo il VAN",
+    "Costo del ciclo di vita: investimento, energia, manutenzione e valore residuo"
+   ],
+   "appro": "Un intervento con tempo di ritorno più lungo può avere un VAN maggiore se i risparmi durano molti anni: per questo l’Allegato 2 privilegia l’analisi del ciclo di vita.",
+   "rif": "D.lgs. 102/2014, Allegato 2 · UNI CEI EN 16247-1:2022 · UNI EN 15459",
+   "nar": "Per confrontare gli interventi di efficienza energetica servono indicatori economici. Il più semplice è il tempo di ritorno semplice, ottenuto dividendo l’investimento per il risparmio annuo: un investimento di trentamila euro che fa risparmiare diecimila euro all’anno si ripaga in tre anni. Il limite è che ignora il valore del denaro nel tempo e i benefici successivi al ritorno. Il valore attuale netto supera questo limite: si somma ogni flusso di cassa annuo diviso per uno più il tasso di attualizzazione elevato al numero dell’anno, e si sottrae l’investimento iniziale. Un valore positivo indica che l’intervento crea valore al tasso considerato. Il tasso interno di rendimento è il tasso che rende nullo il valore attuale netto e si confronta con il costo del capitale dell’impresa. L’analisi del costo del ciclo di vita considera investimento, costi energetici, manutenzione e valore residuo lungo tutta la vita utile. Per questo un intervento con un tempo di ritorno più lungo, come la sostituzione di un generatore di calore o di un motore, può risultare più conveniente di uno con ritorno rapido ma vita breve. Gli incentivi disponibili e la loro tempistica vanno inseriti nei flussi di cassa, e i risultati vanno accompagnati da un’analisi di sensibilità sul prezzo dell’energia."
+  }
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "dopo": "Lo standard VSME: modulo base e modulo completo",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Le informative sociali e di governance del modulo base",
+   "lead": "Il modulo base del VSME comprende, oltre alle informative ambientali, quattro informative su forza lavoro e condotta d’impresa.",
+   "punti": [
+    "B8: caratteristiche della forza lavoro, per tipo di contratto e genere; tasso di turnover nelle imprese più grandi",
+    "B9: salute e sicurezza, con numero e tasso di infortuni registrabili e decessi",
+    "B10: retribuzione, contrattazione collettiva, divario retributivo di genere e ore di formazione",
+    "B11: condanne e sanzioni per corruzione e concussione",
+    "Dati coerenti con libro unico, registro infortuni INAIL e piani formativi"
+   ],
+   "appro": "Le informative sociali si costruiscono con documenti che l’impresa già possiede: è decisivo usare definizioni coerenti tra un anno e l’altro.",
+   "rif": "Raccomandazione (UE) 2025/1710 (VSME), modulo base B8-B11",
+   "nar": "Il modulo base dello standard VSME non si limita all’ambiente. L’informativa B otto descrive le caratteristiche della forza lavoro: numero di dipendenti per tipo di contratto, a tempo determinato e indeterminato, per genere e per Paese, e, per le imprese più grandi, il tasso di avvicendamento. L’informativa B nove riguarda la salute e la sicurezza: il numero e il tasso degli infortuni sul lavoro registrabili e il numero dei decessi dovuti a infortuni e malattie professionali. L’informativa B dieci tratta la retribuzione, la contrattazione collettiva e la formazione: se i dipendenti percepiscono almeno il salario minimo applicabile, il divario retributivo di genere quando previsto, la percentuale di dipendenti coperti da contratti collettivi e il numero medio di ore di formazione per dipendente, distinto per genere. L’informativa B undici chiede infine di indicare le condanne e le sanzioni per corruzione e concussione. Tutti questi dati si ricavano da documenti già esistenti, come il libro unico del lavoro, le denunce di infortunio, il registro della formazione e i contratti applicati. La qualità dell’informazione dipende soprattutto dalla coerenza delle definizioni e dei metodi di calcolo da un anno all’altro, che va documentata."
+  }
+ ]
+}

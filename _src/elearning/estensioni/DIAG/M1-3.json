@@ -1,0 +1,35 @@
+{
+ "dopo": "Che cos’è una diagnosi energetica",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "I criteri minimi dell’Allegato 2 al D.lgs. 102/2014",
+   "lead": "Una diagnosi è valida ai fini dell’obbligo solo se rispetta i criteri minimi dell’Allegato 2.",
+   "punti": [
+    "Dati operativi di consumo aggiornati, misurati e tracciabili; per l’energia elettrica, profili di carico",
+    "Esame dettagliato del profilo di consumo di edifici, attività o impianti industriali, compresi i trasporti",
+    "Analisi del costo del ciclo di vita, invece del solo tempo di ritorno semplice, quando possibile",
+    "Proporzionalità e rappresentatività: un quadro fedele della prestazione energetica complessiva",
+    "Individuazione affidabile delle opportunità di miglioramento più significative"
+   ],
+   "appro": "La rappresentatività è il criterio più spesso carente: un modello energetico che non chiude il bilancio con le bollette non soddisfa l’Allegato 2.",
+   "rif": "D.lgs. 102/2014, art. 8 e Allegato 2 · UNI CEI EN 16247-1:2022",
+   "nar": "Il decreto legislativo centodue del duemilaquattordici non lascia libera la forma della diagnosi energetica: l’Allegato due ne fissa i criteri minimi. La diagnosi deve basarsi su dati operativi relativi al consumo di energia aggiornati, misurati e tracciabili e, per l’energia elettrica, sui profili di carico, cioè sull’andamento dei prelievi nel tempo. Deve comprendere un esame dettagliato del profilo di consumo energetico di edifici, attività o impianti industriali, compreso il trasporto. Le valutazioni economiche devono basarsi, se possibile, sull’analisi del costo del ciclo di vita, invece che sul semplice tempo di ritorno, in modo da tenere conto dei risparmi di lungo periodo, dei valori residuali degli investimenti e dei tassi di sconto. La diagnosi deve essere proporzionata e sufficientemente rappresentativa da consentire di tracciare un quadro fedele della prestazione energetica globale e di individuare in modo affidabile le opportunità di miglioramento più significative. Nella pratica il criterio più spesso carente è proprio la rappresentatività: un modello energetico che ripartisce i consumi per aree funzionali e servizi ausiliari deve chiudere il bilancio con i consumi fatturati, con uno scarto contenuto e motivato. Solo così le opportunità individuate sono credibili."
+  },
+  {
+   "t": "testo",
+   "tit": "Chi esegue la diagnosi",
+   "lead": "Le diagnosi obbligatorie sono eseguite da soggetti certificati da organismi accreditati, secondo le norme tecniche di riferimento.",
+   "punti": [
+    "Società di servizi energetici (ESCo) certificate secondo la UNI CEI 11352",
+    "Esperti in gestione dell’energia (EGE) certificati secondo la UNI CEI 11339",
+    "Auditor energetici certificati secondo la UNI CEI EN 16247-5",
+    "Esenzione per le imprese con sistema ISO 50001 certificato, se comprende una diagnosi conforme all’Allegato 2",
+    "Le parti della UNI CEI EN 16247: 1 requisiti generali, 2 edifici, 3 processi, 4 trasporti, 5 competenze"
+   ],
+   "appro": "Le imprese con certificazione ISO 14001 o registrazione EMAS sono esentate solo se il sistema include una diagnosi conforme ai criteri minimi.",
+   "rif": "D.lgs. 102/2014, art. 8 · UNI CEI 11352 · UNI CEI 11339 · UNI CEI EN 16247-1, -2, -3, -4, -5",
+   "nar": "Per le diagnosi energetiche obbligatorie l’articolo otto del decreto legislativo centodue richiede che siano eseguite da soggetti certificati da organismi accreditati. Possono svolgerle le società che forniscono servizi energetici, certificate secondo la norma UNI CEI undicimilatrecentocinquantadue, gli esperti in gestione dell’energia certificati secondo la norma UNI CEI undicimilatrecentotrentanove e gli auditor energetici certificati secondo la norma UNI CEI EN sedicimiladuecentoquarantasette, parte quinta. La norma sedicimiladuecentoquarantasette è articolata in cinque parti: la prima stabilisce i requisiti generali e il processo della diagnosi, la seconda riguarda gli edifici, la terza i processi industriali, la quarta i trasporti, la quinta le competenze degli auditor. Le imprese che hanno adottato un sistema di gestione dell’energia certificato secondo la ISO cinquantamilauno non sono soggette all’obbligo, a condizione che il sistema comprenda una diagnosi conforme ai criteri minimi dell’Allegato due; lo stesso vale per le imprese con un sistema di gestione ambientale certificato o registrato EMAS, solo se questo include una diagnosi conforme. Per la grande impresa la scelta del soggetto incaricato e la verifica della sua certificazione sono quindi il primo passo per un adempimento valido."
+  }
+ ]
+}

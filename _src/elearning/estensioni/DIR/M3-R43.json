@@ -1,0 +1,21 @@
+{
+ "dopo": "Il processo di valutazione dei rischi",
+ "origine": "RSPP-A/M3-3.json",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "La gestione del cambiamento",
+   "lead": "Ogni modifica di impianti, processi, sostanze, organizzazione o personale può introdurre nuovi rischi: va valutata prima di essere attuata.",
+   "punti": [
+    "Cambiamenti tecnici: nuove macchine, modifiche di impianti, nuove sostanze",
+    "Cambiamenti organizzativi: turni, appalti, riduzione di organico, nuove mansioni",
+    "Valutazione preventiva con RSPP, medico competente e consultazione dell’RLS",
+    "Aggiornamento di DVR, procedure, formazione e segnaletica prima dell’avvio",
+    "Verifica dopo l’avvio e registrazione delle decisioni"
+   ],
+   "appro": "La gestione del cambiamento è un requisito esplicito della ISO 45001 (§ 8.1.3) e un obbligo implicito dell’art. 29 c. 3 del D.lgs. 81/2008.",
+   "rif": "UNI ISO 45001:2023, § 8.1.3 · D.lgs. 81/2008, art. 29 c. 3 · UNI ISO 31000",
+   "nar": "Molti infortuni gravi avvengono subito dopo un cambiamento: una macchina modificata, un nuovo prodotto chimico, un turno riorganizzato, un lavoratore spostato su una mansione nuova, un appalto affidato a un’impresa sconosciuta. La gestione del cambiamento è il processo con cui ogni modifica viene valutata prima di essere attuata. Riguarda cambiamenti tecnici, come l’installazione o la modifica di macchine e impianti e l’introduzione di nuove sostanze, e cambiamenti organizzativi, come la variazione dei turni, la riduzione dell’organico o l’esternalizzazione di attività. La procedura prevede una richiesta formale, la valutazione dei rischi introdotti con il contributo del responsabile del servizio di prevenzione, del medico competente e la consultazione del rappresentante dei lavoratori, la definizione delle misure, l’aggiornamento dei documenti, delle procedure, della formazione e della segnaletica prima dell’avvio, e una verifica dopo l’avvio. Le decisioni vengono registrate. La norma ISO quarantacinquemilauno la richiede esplicitamente al punto otto uno tre, e il testo unico la impone di fatto all’articolo ventinove, che prevede la rielaborazione della valutazione in occasione di modifiche significative del processo o dell’organizzazione del lavoro."
+  }
+ ]
+}

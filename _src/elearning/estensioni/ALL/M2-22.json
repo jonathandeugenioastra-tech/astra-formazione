@@ -1,0 +1,35 @@
+{
+ "dopo": "La rintracciabilità secondo il Reg. (CE) 178/2002",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Alimenti di origine animale: il Reg. (UE) 931/2011",
+   "lead": "Per gli alimenti di origine animale il Reg. di esecuzione (UE) 931/2011 precisa le informazioni di rintracciabilità da mettere a disposizione degli operatori a valle e dell’autorità.",
+   "punti": [
+    "Descrizione accurata dell’alimento",
+    "Volume o quantità dell’alimento",
+    "Nome e indirizzo dell’operatore che ha spedito l’alimento e di quello a cui è stato spedito",
+    "Riferimento che identifica la partita o la spedizione (lotto)",
+    "Data di spedizione; informazioni aggiornate quotidianamente e disponibili almeno fino a quando si possa ragionevolmente presumere che l’alimento sia stato consumato"
+   ],
+   "appro": "Il principio «un passo indietro e un passo avanti» del Reg. (CE) 178/2002 si traduce, per i prodotti di origine animale, in dati puntuali e strutturati: registrazioni incomplete rendono inefficace un ritiro mirato e costringono a ritirare quantità molto maggiori.",
+   "rif": "Reg. (CE) 178/2002, art. 18 · Reg. di esecuzione (UE) 931/2011",
+   "nar": "Per gli alimenti di origine animale, il principio generale della rintracciabilità stabilito dall’articolo diciotto del regolamento centosettantotto del duemiladue è precisato dal regolamento di esecuzione novecentotrentuno del duemilaundici. Il regolamento elenca le informazioni che l’operatore deve mettere a disposizione dell’operatore che riceve l’alimento e, su richiesta, dell’autorità competente. Si tratta della descrizione accurata dell’alimento, del volume o della quantità, del nome e dell’indirizzo dell’operatore che ha spedito l’alimento e di quello al quale è stato spedito, del riferimento che identifica la partita o la spedizione, cioè il lotto, e della data di spedizione. Le informazioni devono essere aggiornate quotidianamente e restare disponibili almeno fino a quando si possa ragionevolmente presumere che l’alimento sia stato consumato. Il principio del passo indietro e del passo avanti si traduce così, per questi prodotti, in dati puntuali e strutturati. La qualità delle registrazioni ha un effetto pratico immediato: registrazioni incomplete rendono impossibile un ritiro mirato e costringono l’operatore a ritirare quantità di prodotto molto maggiori del necessario, con costi e danni d’immagine evitabili."
+  },
+  {
+   "t": "testo",
+   "tit": "Termine minimo di conservazione e data di scadenza",
+   "lead": "La corretta scelta tra «da consumarsi preferibilmente entro» e «da consumarsi entro» è parte della sicurezza alimentare e incide sulla gestione di ritiri e richiami.",
+   "punti": [
+    "Termine minimo di conservazione (TMC): data fino alla quale il prodotto conserva le sue proprietà specifiche in adeguate condizioni di conservazione",
+    "Data di scadenza: per alimenti molto deperibili dal punto di vista microbiologico, che dopo breve tempo possono costituire un pericolo per la salute",
+    "Dopo la data di scadenza l’alimento è considerato a rischio (art. 24 del Reg. (UE) 1169/2011)",
+    "Le condizioni di conservazione devono essere indicate quando necessarie",
+    "Il lotto consente di associare date e registrazioni di produzione"
+   ],
+   "appro": "La scelta della dicitura e della durata va fondata su studi di shelf-life documentati; l’EFSA ha pubblicato un parere scientifico (2020) che propone un albero decisionale per scegliere tra le due indicazioni.",
+   "rif": "Reg. (UE) 1169/2011, artt. 9 e 24 e Allegato X · Reg. (CE) 2073/2005",
+   "nar": "Un tema strettamente collegato alla rintracciabilità è la corretta indicazione della durata del prodotto. Il regolamento europeo sull’informazione ai consumatori distingue due diciture. Il termine minimo di conservazione, espresso con la formula da consumarsi preferibilmente entro, indica la data fino alla quale l’alimento conserva le sue proprietà specifiche, in adeguate condizioni di conservazione. La data di scadenza, espressa con la formula da consumarsi entro, si applica invece agli alimenti molto deperibili dal punto di vista microbiologico, che dopo un breve periodo possono costituire un pericolo immediato per la salute umana. Secondo l’articolo ventiquattro del regolamento, dopo la data di scadenza l’alimento è considerato a rischio e non può essere immesso sul mercato. Quando necessario, devono essere indicate anche le condizioni di conservazione, ad esempio la temperatura. La scelta della dicitura e della durata va fondata su studi di conservabilità documentati, che tengano conto dei criteri microbiologici applicabili. L’Autorità europea per la sicurezza alimentare ha pubblicato nel duemilaventi un parere scientifico che propone un albero decisionale per scegliere tra le due indicazioni."
+  }
+ ]
+}

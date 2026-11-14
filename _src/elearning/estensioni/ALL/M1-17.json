@@ -1,0 +1,35 @@
+{
+ "dopo": "Soia, sedano, senape, sesamo e lupini",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Anidride solforosa e solfiti",
+   "lead": "L’anidride solforosa e i solfiti sono l’unico allergene dell’Allegato II definito da una soglia: vanno dichiarati in concentrazioni superiori a 10 mg/kg o 10 mg/litro, espressi come SO₂.",
+   "punti": [
+    "Soglia: oltre 10 mg/kg o 10 mg/litro in termini di SO₂ totale, per i prodotti pronti per il consumo o ricostituiti secondo le istruzioni",
+    "Additivi da E220 a E228 usati come conservanti e antiossidanti",
+    "Presenti in vino, frutta secca, conserve, succhi, prodotti a base di patate, crostacei",
+    "Possono provocare reazioni nei soggetti sensibili, in particolare asmatici",
+    "Nella somministrazione l’informazione va resa anche per vino e bevande servite al bicchiere"
+   ],
+   "appro": "La soglia si riferisce al prodotto così come consumato: per un ingrediente utilizzato in una ricetta occorre stimare il contributo di SO₂ nel prodotto finito, sulla base delle schede tecniche dei fornitori.",
+   "rif": "Reg. (UE) 1169/2011, Allegato II, punto 12 · Reg. (CE) 1333/2008",
+   "nar": "Tra le quattordici sostanze dell’allegato due del regolamento europeo sull’informazione ai consumatori, l’anidride solforosa e i solfiti sono l’unico caso definito da una soglia di concentrazione. L’obbligo di indicazione scatta per concentrazioni superiori a dieci milligrammi per chilogrammo o dieci milligrammi per litro, espressi come anidride solforosa totale, riferite ai prodotti pronti per il consumo oppure ricostituiti secondo le istruzioni del fabbricante. I solfiti sono additivi impiegati come conservanti e antiossidanti, identificati dalle sigle comprese tra e duecentoventi ed e duecentoventotto. Si trovano tipicamente nel vino, nella frutta secca, nelle conserve vegetali, nei succhi, in alcuni prodotti a base di patate e nei crostacei, dove impediscono l’annerimento. Nei soggetti sensibili, in particolare nelle persone asmatiche, possono provocare reazioni anche importanti, come broncospasmo. Nella somministrazione l’informazione deve essere resa anche per il vino e le bevande servite al bicchiere. La soglia si riferisce al prodotto così come viene consumato: quando un ingrediente contenente solfiti entra in una ricetta, occorre stimare il contributo di anidride solforosa nel prodotto finito, sulla base delle schede tecniche dei fornitori."
+  },
+  {
+   "t": "testo",
+   "tit": "Il vino: solfiti e coadiuvanti derivati da uova e latte",
+   "lead": "Per i vini l’indicazione degli allergeni segue le regole generali del Reg. (UE) 1169/2011 e quelle specifiche della normativa vitivinicola.",
+   "punti": [
+    "Indicazione «contiene solfiti» quando l’anidride solforosa supera la soglia di 10 mg/litro",
+    "Prodotti a base di uova e di latte impiegati come chiarificanti (ad esempio albumina e caseina) vanno indicati se un residuo è rilevabile nel prodotto finito",
+    "Le indicazioni sono accompagnate dai pittogrammi previsti dalla normativa del settore",
+    "Dal dicembre 2023 i vini etichettati riportano anche l’elenco degli ingredienti e la dichiarazione nutrizionale, anche tramite mezzi elettronici, ferma restando l’indicazione degli allergeni in etichetta",
+    "Nella somministrazione al calice l’informazione è resa con le modalità previste per gli alimenti non preimballati"
+   ],
+   "appro": "Anche quando l’elenco degli ingredienti è reso disponibile tramite un codice QR, le sostanze allergeniche devono comparire direttamente sull’etichetta fisica.",
+   "rif": "Reg. (UE) 1169/2011, art. 9 e Allegato II · Reg. (UE) 1308/2013, art. 119 · Reg. delegato (UE) 2019/33",
+   "nar": "Il vino merita un approfondimento, perché le regole generali sull’informazione ai consumatori si combinano con quelle specifiche del settore vitivinicolo. La prima indicazione riguarda i solfiti: quando l’anidride solforosa supera i dieci milligrammi per litro, in etichetta compare la dicitura contiene solfiti. La seconda riguarda i coadiuvanti di chiarifica derivati da uova e da latte, come l’albumina e la caseina: devono essere indicati quando un loro residuo è rilevabile nel prodotto finito. Queste indicazioni sono accompagnate dai pittogrammi previsti dalla normativa del settore. Dall’otto dicembre duemilaventitré, inoltre, i vini etichettati riportano l’elenco degli ingredienti e la dichiarazione nutrizionale, che possono essere resi disponibili anche tramite mezzi elettronici, come un codice di risposta rapida. Su questo punto occorre attenzione: anche quando l’elenco completo degli ingredienti è consultabile online, le sostanze allergeniche devono comparire direttamente sull’etichetta fisica. Nella somministrazione al calice, infine, l’informazione sugli allergeni è resa con le stesse modalità previste per gli alimenti non preimballati, ad esempio tramite la carta dei vini o un registro consultabile dal cliente."
+  }
+ ]
+}

@@ -1,0 +1,64 @@
+{
+ "dopo": "Esercitazione · Norme e contenuti",
+ "schermate": [
+  {
+   "t": "caso",
+   "tit": "Caso di studio · Il vino al calice",
+   "scena": "Un’enoteca con cucina serve vini al calice. Nella carta dei vini sono indicati soltanto denominazione e annata; un cliente asmatico chiede se i vini contengono solfiti.",
+   "domanda": "Qual è la gestione corretta?",
+   "opz": [
+    [
+     "Rispondere a voce che «tutti i vini contengono solfiti» senza altra informazione",
+     false,
+     "No: l’informazione sugli allergeni deve essere resa con le modalità previste e riferita al prodotto servito."
+    ],
+    [
+     "Rendere disponibile per ciascun vino l’informazione su solfiti e, se pertinente, su chiarificanti da uova e latte, nella carta o in un registro consultabile",
+     true,
+     "Corretto: nella somministrazione l’informazione sugli allergeni segue le modalità degli alimenti non preimballati."
+    ],
+    [
+     "Nessuna informazione è dovuta per le bevande alcoliche",
+     false,
+     "No: l’obbligo di indicare gli allergeni si applica anche alle bevande alcoliche."
+    ]
+   ],
+   "rif": "Reg. (UE) 1169/2011, artt. 9, 44 e Allegato II · D.lgs. 231/2017",
+   "appro": "Le informazioni si ricavano dalle etichette e dalle schede dei produttori: una tabella aggiornata a ogni cambio di annata evita risposte approssimative.",
+   "nar": "Caso di studio. In un’enoteca con cucina un cliente asmatico chiede se i vini serviti al calice contengono solfiti. Si individui la gestione corretta dell’informazione."
+  },
+  {
+   "t": "vf",
+   "tit": "Esercitazione · Solfiti, date e rintracciabilità",
+   "sott": "Qualificare ciascuna affermazione come vera o falsa",
+   "voci": [
+    [
+     "I solfiti vanno dichiarati se superano 10 mg/kg o 10 mg/litro espressi come SO₂.",
+     true,
+     "Vero: Allegato II, punto 12, Reg. (UE) 1169/2011."
+    ],
+    [
+     "Se l’elenco ingredienti del vino è disponibile con un codice QR, gli allergeni possono essere indicati solo online.",
+     false,
+     "Falso: gli allergeni devono comparire sull’etichetta fisica."
+    ],
+    [
+     "Dopo la data di scadenza l’alimento è considerato a rischio.",
+     true,
+     "Vero: art. 24 Reg. (UE) 1169/2011."
+    ],
+    [
+     "Per gli alimenti di origine animale le informazioni di rintracciabilità comprendono anche il lotto e la data di spedizione.",
+     true,
+     "Vero: Reg. di esecuzione (UE) 931/2011."
+    ],
+    [
+     "Il termine minimo di conservazione si usa per gli alimenti molto deperibili dal punto di vista microbiologico.",
+     false,
+     "Falso: per questi si usa la data di scadenza."
+    ]
+   ],
+   "nar": "Esercitazione. Si stabilisca se ciascuna affermazione su solfiti, date di consumo e rintracciabilità è vera o falsa."
+  }
+ ]
+}

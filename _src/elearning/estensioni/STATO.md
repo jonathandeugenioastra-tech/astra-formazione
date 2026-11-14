@@ -26,3 +26,4 @@ Stima lezioni ancora da scrivere per voce ≈50% del tempo: circa 3.200 su 20 co
 14/11/2026 (sera) – Regola del committente: nessuna consegna parziale; voce generata in un’unica volta a fine lavoro (piano Azure da adeguare al momento, con conferma del committente).
 - CER: aggiunta M2-28 (modifiche PNRR 2025-2026: D.M. 127/2025, D.L. 19/2026 art. 27).
 - LAV-GEN: aggiunte 6 lezioni (Costituzione e art. 2087 c.c.; rischi di gruppi particolari art. 28; categorie DPI Reg. 2016/425 e art. 78; visite e giudizio di idoneità artt. 41-42; addetti emergenze D.M. 388/2003 e D.M. 2/9/2021; denuncia e comunicazione infortuni). Prossimi: preposto (L. 215/2021), sospensione art. 14, INL/ASL, appalti art. 26, lavoro agile, esercitazioni.
+- LAV-GEN: +5 (preposto L. 215/2021, sospensione art. 14, appalti art. 26, organi di vigilanza, VF).

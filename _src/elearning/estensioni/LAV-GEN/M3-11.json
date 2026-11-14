@@ -1,0 +1,38 @@
+{
+ "dopo": "Esercitazione 6 · Affermazioni vere o false",
+ "schermate": [
+  {
+   "t": "vf",
+   "tit": "Esercitazione · Preposto, appalti e vigilanza",
+   "sott": "Qualificare ciascuna affermazione come vera o falsa",
+   "voci": [
+    [
+     "Il preposto, in caso di inosservanza persistente, interrompe l’attività del lavoratore e informa i superiori.",
+     true,
+     "Vero: art. 19 D.lgs. 81/2008."
+    ],
+    [
+     "Chi esercita di fatto poteri di sovrintendenza non ha responsabilità se non è stato nominato.",
+     false,
+     "Falso: art. 299, posizione di garanzia di fatto."
+    ],
+    [
+     "Il personale delle imprese appaltatrici deve esporre la tessera di riconoscimento.",
+     true,
+     "Vero: art. 26, c. 8."
+    ],
+    [
+     "L’INAIL svolge la vigilanza ispettiva sulla sicurezza in tutti i settori.",
+     false,
+     "Falso: la vigilanza spetta ad ASL e Ispettorato nazionale del lavoro."
+    ],
+    [
+     "La mancata formazione dei lavoratori può giustificare la sospensione dell’attività.",
+     true,
+     "Vero: rientra nelle gravi violazioni dell’Allegato I."
+    ]
+   ],
+   "nar": "Esercitazione. Si stabilisca se ciascuna affermazione su preposto, appalti e organi di vigilanza è vera o falsa."
+  }
+ ]
+}

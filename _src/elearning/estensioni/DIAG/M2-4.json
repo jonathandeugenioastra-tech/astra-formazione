@@ -1,0 +1,35 @@
+{
+ "dopo": "Sistemi elettrici: motori, inverter, rifasamento, aria compressa",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Motori elettrici: le classi di efficienza IE",
+   "lead": "Il Regolamento (UE) 2019/1781 fissa i requisiti minimi di efficienza dei motori elettrici immessi sul mercato.",
+   "punti": [
+    "Classi IE1-IE5 secondo la norma IEC 60034-30-1",
+    "Dal 1° luglio 2021: almeno IE3 per i motori da 0,75 a 1.000 kW",
+    "Dal 1° luglio 2023: almeno IE4 per i motori da 75 a 200 kW",
+    "Requisiti anche per gli azionamenti a velocità variabile (classi IE degli inverter)",
+    "Il costo dell’energia nella vita utile supera di molto il prezzo di acquisto del motore"
+   ],
+   "appro": "Nella sostituzione di un motore guasto conviene valutare il motore ad alta efficienza e l’eventuale inverter, invece del semplice riavvolgimento.",
+   "rif": "Reg. (UE) 2019/1781 · IEC 60034-30-1",
+   "nar": "I motori elettrici assorbono una quota molto rilevante dei consumi elettrici industriali, perché azionano pompe, ventilatori, compressori e nastri. Il regolamento europeo duemiladiciannove barra millesettecentoottantuno stabilisce i requisiti minimi di efficienza per i motori immessi sul mercato, usando le classi di efficienza da IE uno a IE cinque definite dalla norma internazionale sessantamilatrentaquattro, parte trenta uno. Dal primo luglio duemilaventuno i motori trifase con potenza da zero virgola settantacinque a mille chilowatt devono raggiungere almeno la classe IE tre; dal primo luglio duemilaventitré quelli da settantacinque a duecento chilowatt devono raggiungere la classe IE quattro. Il regolamento fissa requisiti anche per gli azionamenti a velocità variabile, cioè gli inverter. Nella valutazione economica conta il costo del ciclo di vita: per un motore che funziona molte ore all’anno, il costo dell’energia consumata in dieci anni supera di molte volte il prezzo di acquisto. Per questo, quando un motore si guasta, conviene confrontare il riavvolgimento con la sostituzione con un motore ad alta efficienza, valutando anche l’installazione di un inverter se il carico è variabile, come nelle pompe e nei ventilatori."
+  },
+  {
+   "t": "testo",
+   "tit": "Aria compressa: perdite, pressione e recupero di calore",
+   "lead": "L’aria compressa è uno dei vettori energetici più costosi: gran parte dell’energia assorbita dal compressore si trasforma in calore.",
+   "punti": [
+    "Perdite nella rete spesso pari al 20-30% dell’aria prodotta",
+    "Ricerca periodica delle perdite con rilevatori a ultrasuoni",
+    "Riduzione della pressione di rete al minimo necessario: circa 6-7% di energia per ogni bar in meno",
+    "Compressori a velocità variabile e gestione coordinata di più macchine",
+    "Recupero del calore di compressione per acqua calda o riscaldamento"
+   ],
+   "appro": "Gli usi impropri, come la pulizia di indumenti e banchi con l’aria compressa, sono sprechi e anche rischi per la sicurezza.",
+   "rif": "UNI CEI EN 16247-3 · ISO 11011",
+   "nar": "L’aria compressa è un vettore energetico comodo ma costoso: della energia elettrica assorbita dal compressore solo una piccola parte diventa lavoro utile, mentre la maggior parte si trasforma in calore. Nelle diagnosi energetiche le perdite della rete di distribuzione risultano spesso pari al venti o trenta per cento dell’aria prodotta, attraverso raccordi, valvole, tubi danneggiati e utilizzatori dimenticati aperti. La ricerca periodica delle perdite con rilevatori a ultrasuoni, seguita da riparazioni tempestive, è uno degli interventi con il ritorno più rapido. Un secondo intervento riguarda la pressione: si stima un risparmio dell’ordine del sei o sette per cento dell’energia per ogni bar di riduzione della pressione di mandata, che va quindi portata al minimo necessario per l’utenza più esigente, eventualmente servita con un circuito dedicato. I compressori a velocità variabile e la gestione coordinata di più macchine evitano i funzionamenti a vuoto. Il calore di compressione può essere recuperato per produrre acqua calda o riscaldare ambienti. Infine vanno eliminati gli usi impropri, come la pulizia di indumenti e banchi con il getto d’aria, che sono sprechi e anche un rischio per la sicurezza."
+  }
+ ]
+}

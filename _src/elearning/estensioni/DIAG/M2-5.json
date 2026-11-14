@@ -1,0 +1,20 @@
+{
+ "dopo": "Sistemi termici, recupero di calore e cogenerazione",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "La cogenerazione ad alto rendimento",
+   "lead": "La produzione combinata di energia elettrica e calore è «ad alto rendimento» quando garantisce un risparmio di energia primaria significativo rispetto alla produzione separata.",
+   "punti": [
+    "Indicatore: risparmio di energia primaria (PES) rispetto a produzione separata di riferimento",
+    "Unità oltre 1 MW: PES almeno del 10% per la qualifica di alto rendimento",
+    "Piccola e micro cogenerazione: è sufficiente un PES positivo",
+    "Il calore deve essere utilmente impiegato: senza utenza termica il beneficio si annulla",
+    "Benefici: titoli di efficienza energetica e condizioni agevolate secondo la disciplina vigente"
+   ],
+   "appro": "Il dimensionamento si basa sulla curva di domanda termica: un cogeneratore sovradimensionato lavora a carico ridotto o dissipa calore, perdendo la qualifica.",
+   "rif": "D.lgs. 8 febbraio 2007, n. 20 · D.M. 4 agosto 2011 · D.M. 5 settembre 2011",
+   "nar": "La cogenerazione produce contemporaneamente energia elettrica e calore utile a partire da un unico combustibile, ad esempio con un motore a gas il cui calore dei fumi e del circuito di raffreddamento viene recuperato. Il vantaggio rispetto alla produzione separata, con una centrale elettrica e una caldaia, si misura con il risparmio di energia primaria, indicato con la sigla PES. Secondo la disciplina europea e italiana, la cogenerazione è ad alto rendimento quando il risparmio di energia primaria è almeno del dieci per cento per le unità di potenza superiore a un megawatt, mentre per la piccola e la micro cogenerazione è sufficiente un risparmio positivo. Il presupposto essenziale è che il calore sia utilmente impiegato: se l’impianto produce calore che nessuno usa e viene dissipato, il beneficio si annulla e la qualifica non si ottiene. Per questo il dimensionamento si basa sulla curva della domanda termica dello stabilimento nelle diverse ore e stagioni, non sulla domanda elettrica. Un cogeneratore sovradimensionato lavora a carico ridotto o dissipa calore. La qualifica di alto rendimento dà accesso ai titoli di efficienza energetica dedicati e ad altre condizioni agevolate, secondo la disciplina vigente da verificare al momento della decisione."
+  }
+ ]
+}

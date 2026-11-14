@@ -1,0 +1,20 @@
+{
+ "dopo": "Raccolta dei dati ambientali",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Le informative ambientali del modulo base VSME",
+   "lead": "Il modulo base dello standard VSME chiede alla PMI un insieme essenziale di dati ambientali, misurabili con i documenti già disponibili.",
+   "punti": [
+    "B3: consumo totale di energia, con quota rinnovabile, ed emissioni di gas serra Scope 1 e Scope 2",
+    "B4: emissioni di inquinanti in aria, acqua e suolo se già comunicate per obbligo di legge",
+    "B5: siti in o vicino ad aree sensibili per la biodiversità",
+    "B6: prelievi idrici totali e, se rilevante, consumi in aree a stress idrico",
+    "B7: uso delle risorse, economia circolare, rifiuti prodotti per tipologia e destinazione"
+   ],
+   "appro": "Le fonti dei dati sono fatture energetiche, letture dei contatori, registro dei rifiuti e MUD, autorizzazioni e autocontrolli: la qualità dipende dalla tracciabilità.",
+   "rif": "Raccomandazione (UE) 2025/1710 (VSME), modulo base B3-B7",
+   "nar": "Il modulo base dello standard volontario per le piccole e medie imprese comprende cinque informative ambientali, pensate per essere compilate con dati che l’impresa normalmente possiede. L’informativa B tre chiede il consumo totale di energia, distinguendo, se possibile, la quota da fonti rinnovabili, e le emissioni di gas serra di Scope uno e di Scope due, calcolate con fattori riconosciuti. L’informativa B quattro riguarda le emissioni di inquinanti in aria, acqua e suolo, quando l’impresa è già tenuta a comunicarle per legge, ad esempio in base all’autorizzazione. La B cinque chiede di indicare i siti situati in aree sensibili per la biodiversità o nelle loro vicinanze. La B sei riguarda i prelievi idrici totali e, se rilevante, il consumo di acqua nelle aree a stress idrico. La B sette tratta l’uso delle risorse, i principi di economia circolare adottati e i rifiuti prodotti, distinti per tipologia, pericolosità e destinazione a recupero o smaltimento. Le fonti dei dati sono quelle già usate per gli obblighi di legge: fatture energetiche, letture dei contatori, registro cronologico dei rifiuti e dichiarazione annuale, autorizzazioni e autocontrolli. Conviene documentare per ogni dato la fonte, il periodo e il metodo di calcolo."
+  }
+ ]
+}

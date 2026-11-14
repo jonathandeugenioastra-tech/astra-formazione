@@ -1,0 +1,21 @@
+{
+ "dopo": "Esempio applicativo: un ritiro di rifiuti pericolosi con il nuovo sistema",
+ "origine": "RIF/M2-1.json",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Le categorie dell’Albo gestori ambientali",
+   "lead": "Chi trasporta rifiuti, anche propri, deve essere iscritto all’Albo nazionale gestori ambientali nella categoria corrispondente.",
+   "punti": [
+    "Categoria 2-bis: produttori iniziali che trasportano i propri rifiuti non pericolosi, e pericolosi fino a 30 kg o 30 litri al giorno",
+    "Categoria 4: raccolta e trasporto di rifiuti speciali non pericolosi prodotti da terzi",
+    "Categoria 5: raccolta e trasporto di rifiuti speciali pericolosi",
+    "Categoria 8: intermediazione e commercio di rifiuti senza detenzione",
+    "Categorie 9 e 10: bonifica dei siti e bonifica dei beni contenenti amianto"
+   ],
+   "appro": "Prima di affidare i rifiuti si verifica sul sito dell’Albo che l’iscrizione sia valida per il codice EER e per il veicolo usato.",
+   "rif": "D.lgs. 152/2006, art. 212 · D.M. 3 giugno 2014, n. 120",
+   "nar": "Il trasporto di rifiuti richiede l’iscrizione all’Albo nazionale dei gestori ambientali, disciplinato dall’articolo duecentododici del testo unico e dal decreto ministeriale centoventi del duemilaquattordici. L’iscrizione è articolata in categorie e classi. La categoria due bis è riservata ai produttori iniziali che trasportano i propri rifiuti non pericolosi e i propri rifiuti pericolosi in quantità non eccedenti trenta chilogrammi o trenta litri al giorno: è un’iscrizione semplificata, ma necessaria, ad esempio per l’impresa edile che porta all’impianto i propri scarti di cantiere. La categoria quattro riguarda la raccolta e il trasporto di rifiuti speciali non pericolosi prodotti da terzi, la categoria cinque quella dei rifiuti speciali pericolosi. La categoria otto è dedicata all’intermediazione e al commercio di rifiuti senza detenzione. Le categorie nove e dieci riguardano la bonifica dei siti e dei beni contenenti amianto. Le classi indicano le quantità annue gestibili o la popolazione servita. Per il produttore che affida i rifiuti a terzi è essenziale verificare, sul portale dell’Albo, che l’iscrizione sia in corso di validità e comprenda il codice dell’elenco europeo dei rifiuti affidato e la targa del veicolo che effettua il trasporto."
+  }
+ ]
+}

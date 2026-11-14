@@ -1,0 +1,21 @@
+{
+ "dopo": "Cancerogeni, mutageni e reprotossici: obblighi specifici",
+ "origine": "CHIM/M3-2.json",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Sorveglianza sanitaria ed esposizione a cancerogeni",
+   "lead": "Per gli esposti a cancerogeni e mutageni il D.lgs. 81/2008 prevede la sorveglianza sanitaria e un registro di esposizione conservato a lungo.",
+   "punti": [
+    "Sorveglianza sanitaria per gli esposti ad agenti chimici pericolosi non irrilevanti (art. 229)",
+    "Registro degli esposti ad agenti cancerogeni e mutageni (art. 243)",
+    "Cartelle sanitarie e di rischio conservate per almeno 40 anni dalla cessazione dell’esposizione",
+    "Comunicazione dei dati del registro all’INAIL e alle ASL competenti",
+    "Informazione dei lavoratori sui risultati anonimi collettivi e sul significato degli accertamenti"
+   ],
+   "appro": "Gli effetti dei cancerogeni possono manifestarsi decenni dopo l’esposizione: la conservazione documentale è essenziale per il riconoscimento delle malattie professionali.",
+   "rif": "D.lgs. 81/2008, artt. 229, 230, 243 e 244",
+   "nar": "Quando la valutazione non conclude per un rischio irrilevante per la salute, i lavoratori esposti ad agenti chimici pericolosi sono sottoposti alla sorveglianza sanitaria dell’articolo duecentoventinove: visita preventiva, visite periodiche, di norma annuali o con la periodicità stabilita dal medico competente, e visita alla cessazione del rapporto di lavoro, quando il medico ne ravvisa l’opportunità, con le indicazioni sulla prosecuzione dei controlli. Per gli agenti cancerogeni e mutageni le tutele sono più ampie. L’articolo duecentoquarantatré prevede che i lavoratori esposti siano iscritti in un registro, nel quale sono riportati l’attività svolta, l’agente utilizzato e, ove noto, il valore dell’esposizione. Il registro è istituito e aggiornato dal datore di lavoro, che ne cura la tenuta per il tramite del medico competente, e i dati sono comunicati all’INAIL e all’azienda sanitaria competente. Le cartelle sanitarie e di rischio sono conservate per almeno quarant’anni dalla cessazione di ogni attività che espone ad agenti cancerogeni. La ragione è semplice: gli effetti possono manifestarsi molti anni dopo, e la documentazione è indispensabile per ricostruire l’esposizione e per il riconoscimento della malattia professionale."
+  }
+ ]
+}

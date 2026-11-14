@@ -1,0 +1,21 @@
+{
+ "dopo": "Organizzazione interna e controlli",
+ "origine": "RIF/M1-2.json",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Il MUD: soggetti obbligati e scadenze",
+   "lead": "Il modello unico di dichiarazione ambientale riepiloga ogni anno i rifiuti prodotti e gestiti nell’anno precedente.",
+   "punti": [
+    "Base: L. 70/1994; modello per il 2026 approvato con D.P.C.M. 30 gennaio 2026",
+    "Presentazione entro il 30 aprile, alla Camera di commercio competente",
+    "Obbligati: gestori, trasportatori, intermediari e produttori iniziali di rifiuti pericolosi",
+    "Produttori di rifiuti speciali non pericolosi da attività industriali e artigianali con più di 10 dipendenti",
+    "Comunicazioni specifiche per RAEE, veicoli fuori uso, imballaggi e rifiuti urbani"
+   ],
+   "appro": "Il MUD si compila a partire dal registro cronologico: la coerenza tra registro, formulari e dichiarazione è uno degli elementi più controllati.",
+   "rif": "L. 25 gennaio 1994, n. 70 · D.lgs. 152/2006, art. 189 · D.P.C.M. 30 gennaio 2026",
+   "nar": "Il modello unico di dichiarazione ambientale, istituito dalla legge settanta del millenovecentonovantaquattro, riepiloga ogni anno le quantità e le tipologie di rifiuti prodotti, trasportati, recuperati o smaltiti nell’anno precedente. Il modello per le dichiarazioni presentate nel duemilaventisei è stato approvato con il decreto del Presidente del Consiglio dei ministri del trenta gennaio duemilaventisei. La dichiarazione si presenta in via telematica entro il trenta aprile alla Camera di commercio competente per territorio. L’articolo centoottantanove del testo unico individua i soggetti obbligati: chi effettua a titolo professionale la raccolta e il trasporto di rifiuti, i commercianti e gli intermediari senza detenzione, gli impianti di recupero e smaltimento, i produttori iniziali di rifiuti pericolosi e i produttori di rifiuti speciali non pericolosi derivanti da lavorazioni industriali e artigianali e dal trattamento delle acque, quando hanno più di dieci dipendenti. Il modello comprende anche comunicazioni specifiche per i rifiuti di apparecchiature elettriche ed elettroniche, i veicoli fuori uso, gli imballaggi e i rifiuti urbani gestiti dai comuni. I dati si ricavano dal registro cronologico: la coerenza tra registro, formulari e dichiarazione annuale è uno degli aspetti più verificati dagli organi di controllo."
+  }
+ ]
+}

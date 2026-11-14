@@ -1,0 +1,20 @@
+{
+ "dopo": "Lavori elettrici e lavori in prossimità di linee elettriche",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Profili di qualificazione e distanze di sicurezza",
+   "lead": "I lavori elettrici richiedono personale qualificato secondo la norma CEI 11-27; i lavori non elettrici vicino a linee in tensione rispettano le distanze dell’Allegato IX.",
+   "punti": [
+    "PES: persona esperta; PAV: persona avvertita; PEC: persona comune (CEI 11-27, ed. 2021)",
+    "Qualifica attribuita per iscritto dal datore di lavoro, sulla base di formazione ed esperienza",
+    "Lavori sotto tensione in bassa tensione solo con procedure e personale idoneo (art. 82)",
+    "Allegato IX: 3 m fino a 1 kV; 3,5 m fino a 30 kV; 5 m fino a 132 kV; 7 m oltre",
+    "Gru, piattaforme e ponteggi vicino a linee aeree: valutazione specifica e misure organizzative"
+   ],
+   "appro": "Le distanze dell’Allegato IX si misurano dalla parte attiva più vicina considerando anche gli sbandamenti dei carichi e le oscillazioni dei conduttori.",
+   "rif": "D.lgs. 81/2008, artt. 82, 83 e 117, Allegato IX · Norma CEI 11-27:2021 · CEI EN 50110-1",
+   "nar": "Il rischio elettrico nei lavori riguarda due situazioni diverse. La prima sono i lavori elettrici veri e propri, cioè interventi su impianti elettrici, fuori tensione, in prossimità o sotto tensione. La norma CEI undici ventisette, nella quinta edizione del duemilaventuno, definisce i profili del personale: la persona esperta, con istruzione, conoscenza ed esperienza tali da analizzare i rischi e evitare i pericoli dell’elettricità; la persona avvertita, adeguatamente informata da persone esperte; la persona comune, che non possiede questi requisiti. Il profilo è attribuito per iscritto dal datore di lavoro sulla base della formazione e dell’esperienza. L’articolo ottantadue consente i lavori sotto tensione in bassa tensione solo con procedure conformi alle norme tecniche e personale riconosciuto idoneo. La seconda situazione sono i lavori non elettrici in prossimità di linee elettriche, ad esempio con gru, piattaforme di lavoro elevabili o ponteggi. L’articolo ottantatré vieta di eseguire lavori a distanze inferiori a quelle della tabella dell’Allegato nove: tre metri fino a un chilovolt, tre metri e mezzo fino a trenta chilovolt, cinque metri fino a centotrentadue, sette metri oltre. Le distanze vanno valutate considerando anche gli sbandamenti dei carichi e le oscillazioni dei conduttori."
+  }
+ ]
+}

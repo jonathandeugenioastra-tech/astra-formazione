@@ -1,0 +1,20 @@
+{
+ "dopo": "Sistemi di protezione contro le cadute dall’alto",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Arresto caduta: tirante d’aria, ancoraggi e soccorso",
+   "lead": "Quando non è possibile una protezione collettiva, il sistema di arresto caduta deve essere scelto e installato considerando lo spazio libero sotto il lavoratore e il piano di soccorso.",
+   "punti": [
+    "Priorità alle protezioni collettive: parapetti, reti, impalcati (art. 111)",
+    "Sistema di arresto caduta: imbracatura, connettori, assorbitore di energia, ancoraggio",
+    "Dispositivi di ancoraggio secondo la UNI EN 795 e linee di ancoraggio progettate",
+    "Tirante d’aria: spazio libero necessario sotto il punto di ancoraggio per arrestare la caduta senza urti",
+    "Piano di soccorso: il lavoratore sospeso va recuperato rapidamente per il rischio da sospensione inerte"
+   ],
+   "appro": "L’uso dei sistemi di arresto caduta richiede addestramento: sono DPI di III categoria (art. 77 c. 5).",
+   "rif": "D.lgs. 81/2008, artt. 111, 115 e 77 · UNI EN 363 · UNI EN 795",
+   "nar": "Le cadute dall’alto sono tra le prime cause di infortunio mortale. Il testo unico, all’articolo centoundici, impone di privilegiare le misure di protezione collettiva, come parapetti, reti e impalcati, rispetto a quelle individuali. Quando la protezione collettiva non è realizzabile, l’articolo centoquindici prevede l’uso di sistemi di protezione individuale contro le cadute, composti da imbracatura per il corpo, cordino con assorbitore di energia o dispositivo retrattile, connettori e un punto o una linea di ancoraggio idonei. I dispositivi di ancoraggio sono classificati dalla norma UNI EN settecentonovantacinque e le linee di ancoraggio permanenti vanno progettate e installate secondo le istruzioni. Un aspetto spesso trascurato è il tirante d’aria, cioè lo spazio libero necessario sotto il punto di ancoraggio perché il sistema arresti la caduta senza che il lavoratore urti il suolo o un ostacolo: considera la lunghezza del cordino, l’allungamento dell’assorbitore, l’altezza del lavoratore e un margine di sicurezza. Infine serve sempre un piano di soccorso: un lavoratore rimasto sospeso nell’imbracatura deve essere recuperato rapidamente, perché la sospensione inerte prolungata può causare gravi disturbi circolatori. I sistemi di arresto caduta sono dispositivi di terza categoria e il loro uso richiede addestramento."
+  }
+ ]
+}

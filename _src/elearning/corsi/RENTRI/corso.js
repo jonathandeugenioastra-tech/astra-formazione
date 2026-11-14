@@ -68,6 +68,60 @@ window.CORSO = {
      "p": 1.6
     },
     {
+     "foto": false,
+     "t": "testo",
+     "tit": "La gerarchia dei rifiuti",
+     "lead": "L’art. 179 del D.lgs. 152/2006 stabilisce l’ordine di priorità delle opzioni di gestione dei rifiuti.",
+     "punti": [
+      "1. Prevenzione: ridurre quantità e pericolosità dei rifiuti",
+      "2. Preparazione per il riutilizzo",
+      "3. Riciclaggio",
+      "4. Recupero di altro tipo, ad esempio il recupero di energia",
+      "5. Smaltimento, come ultima opzione"
+     ],
+     "appro": "Ci si può discostare dalla gerarchia solo per singoli flussi, quando un’analisi del ciclo di vita dimostra un risultato ambientale complessivamente migliore.",
+     "rif": "D.lgs. 152/2006, artt. 179 e 180 · Dir. 2008/98/CE, art. 4",
+     "nar": "La gestione dei rifiuti segue un ordine di priorità stabilito dalla direttiva quadro europea e recepito nell’articolo centosettantanove del testo unico ambientale. Al primo posto c’è la prevenzione, cioè l’insieme delle misure adottate prima che una sostanza o un prodotto diventi rifiuto, per ridurne la quantità, gli impatti negativi e il contenuto di sostanze pericolose. Seguono la preparazione per il riutilizzo, con operazioni di controllo, pulizia e riparazione che consentono a prodotti o componenti divenuti rifiuti di essere reimpiegati senza altro pretrattamento; il riciclaggio, che ritrasforma i materiali dei rifiuti in prodotti o materie; il recupero di altro tipo, come il recupero di energia; infine lo smaltimento, che rappresenta l’ultima opzione, ad esempio la discarica. La gerarchia non è assoluta: per singoli flussi di rifiuti ci si può discostare quando un’analisi sull’intero ciclo di vita dimostra che un’altra opzione produce il miglior risultato ambientale complessivo. Per l’impresa la gerarchia si traduce in scelte concrete: progettare imballaggi riutilizzabili, separare i rifiuti alla fonte per favorirne il riciclaggio, preferire impianti di recupero rispetto allo smaltimento nella scelta dei fornitori.",
+     "est": true,
+     "ancora": "Perché il RENTRI"
+    },
+    {
+     "foto": false,
+     "t": "testo",
+     "tit": "Sottoprodotti e cessazione della qualifica di rifiuto",
+     "lead": "Non tutti i residui di produzione sono rifiuti: il sottoprodotto e l’«end of waste» sono le due vie previste dalla legge.",
+     "punti": [
+      "Sottoprodotto (art. 184-bis): residuo di un processo che non ha come scopo la sua produzione",
+      "Utilizzo certo, diretto e senza trattamenti diversi dalla normale pratica industriale",
+      "Utilizzo legale, senza impatti negativi su ambiente e salute; criteri del D.M. 264/2016",
+      "End of waste (art. 184-ter): rifiuto sottoposto a recupero che rispetta criteri specifici",
+      "Criteri fissati da regolamenti UE, decreti ministeriali o, caso per caso, nell’autorizzazione"
+     ],
+     "appro": "L’onere di dimostrare le condizioni del sottoprodotto grava su chi lo produce e lo utilizza: in assenza di prove documentali il residuo è un rifiuto.",
+     "rif": "D.lgs. 152/2006, artt. 183, 184-bis e 184-ter · D.M. 13 ottobre 2016, n. 264",
+     "nar": "Un residuo di produzione non è necessariamente un rifiuto. L’articolo centoottantaquattro bis definisce sottoprodotto la sostanza o l’oggetto che soddisfa quattro condizioni insieme: origina da un processo di produzione di cui costituisce parte integrante, ma il cui scopo primario non è la sua produzione; è certo che sarà utilizzato, nello stesso o in un successivo processo, dal produttore o da terzi; può essere utilizzato direttamente senza alcun trattamento diverso dalla normale pratica industriale; il suo utilizzo è legale, cioè rispetta i requisiti di prodotto e di tutela ambientale e sanitaria. Il decreto ministeriale duecentosessantaquattro del duemilasedici indica i mezzi di prova, come contratti di cessione e schede tecniche. L’articolo centoottantaquattro ter disciplina invece la cessazione della qualifica di rifiuto: un rifiuto smette di essere tale quando è stato sottoposto a un’operazione di recupero e soddisfa criteri specifici, stabiliti da regolamenti europei, da decreti ministeriali o, in mancanza, caso per caso nell’autorizzazione dell’impianto. In entrambi i casi l’onere della prova grava su chi invoca la deroga: senza documentazione il residuo resta un rifiuto, con tutte le conseguenze anche sanzionatorie.",
+     "est": true,
+     "ancora": "Perché il RENTRI"
+    },
+    {
+     "foto": false,
+     "t": "testo",
+     "tit": "Rifiuti urbani e rifiuti speciali",
+     "lead": "Dal D.lgs. 116/2020 la distinzione tra rifiuti urbani e speciali si basa su elenchi di attività e di tipologie di rifiuti.",
+     "punti": [
+      "Urbani: domestici e rifiuti simili per natura e composizione prodotti da altre fonti (Allegati L-quater e L-quinquies)",
+      "Speciali: da attività agricole, costruzione e demolizione, lavorazioni industriali e artigianali, attività di trattamento",
+      "Le industrie con capannoni di produzione generano rifiuti speciali, salvo aree come uffici e mense",
+      "Le utenze non domestiche possono conferire gli urbani al di fuori del servizio pubblico, dimostrandone l’avvio a recupero",
+      "La classificazione di pericolosità è distinta: esistono urbani e speciali, pericolosi e non pericolosi"
+     ],
+     "appro": "La qualificazione incide sulla tassa rifiuti, sui soggetti che possono effettuare la raccolta e sugli obblighi di tracciabilità.",
+     "rif": "D.lgs. 152/2006, artt. 183 c. 1 lett. b-ter e 184 · D.lgs. 3 settembre 2020, n. 116",
+     "nar": "Il testo unico classifica i rifiuti secondo l’origine, in urbani e speciali, e secondo le caratteristiche di pericolo, in pericolosi e non pericolosi. Le due classificazioni sono indipendenti. Il decreto legislativo centosedici del duemilaventi ha ridefinito i rifiuti urbani: comprendono i rifiuti domestici e i rifiuti provenienti da altre fonti simili per natura e composizione ai domestici, individuati incrociando l’elenco delle attività dell’Allegato L quinquies con l’elenco delle tipologie di rifiuti dell’Allegato L quater. Sono invece speciali, secondo l’articolo centoottantaquattro, i rifiuti delle attività agricole, delle attività di costruzione e demolizione, delle lavorazioni industriali e artigianali, delle attività commerciali e di servizio quando non rientrano negli urbani, delle attività di recupero e smaltimento e i fanghi di depurazione. Nelle industrie i rifiuti delle aree produttive sono di regola speciali, mentre quelli di uffici, mense e servizi possono essere urbani. Le utenze non domestiche possono conferire i rifiuti urbani anche al di fuori del servizio pubblico, dimostrando di averli avviati al recupero. La corretta qualificazione incide sulla tassa rifiuti, sui soggetti abilitati alla raccolta e sugli adempimenti di tracciabilità.",
+     "est": true,
+     "ancora": "Perché il RENTRI"
+    },
+    {
      "t": "testo",
      "tit": "Il RENTRI: finalità, soggetti e calendario",
      "foto": false,
@@ -241,6 +295,42 @@ window.CORSO = {
      "appro": "Le date di carico nel registro sono la prova del rispetto dei limiti temporali: annotazioni puntuali permettono di dimostrare, in caso di controllo, che il criterio scelto (temporale o quantitativo) è stato rispettato.",
      "rif": "D.lgs. 152/2006, artt. 183, c. 1, lett. bb), e 185-bis",
      "nar": "I rifiuti annotati nel registro, prima del ritiro, sono raggruppati nel luogo in cui sono prodotti: è il deposito temporaneo, disciplinato dall’articolo centottantacinque-bis del codice dell’ambiente. Il deposito è ammesso a condizioni precise. I rifiuti vanno raggruppati per categorie omogenee e avviati a recupero o smaltimento secondo uno dei due criteri previsti: con cadenza almeno trimestrale, indipendentemente dalle quantità, oppure quando il quantitativo raggiunge complessivamente trenta metri cubi, di cui al massimo dieci metri cubi di rifiuti pericolosi. In ogni caso il deposito non può durare più di un anno. Devono inoltre essere rispettate le norme tecniche che regolano lo stoccaggio, l’imballaggio e l’etichettatura delle sostanze pericolose contenute nei rifiuti. Se queste condizioni non sono rispettate, il deposito perde la sua natura temporanea e diventa uno stoccaggio non autorizzato, con conseguenze anche penali. Il legame con il registro è diretto: le date di carico sono la prova del rispetto dei limiti temporali. Annotazioni puntuali permettono di dimostrare, in caso di controllo, che il criterio scelto è stato rispettato.",
+     "est": true,
+     "ancora": "L’iscrizione: unità locali, deleghe, contributo"
+    },
+    {
+     "foto": false,
+     "t": "testo",
+     "tit": "Voci assolute e voci a specchio",
+     "lead": "L’elenco europeo dei rifiuti distingue voci sempre pericolose, voci mai pericolose e coppie di voci «a specchio».",
+     "punti": [
+      "Voce assoluta pericolosa (con asterisco): il rifiuto è pericoloso senza ulteriori verifiche",
+      "Voce assoluta non pericolosa: il rifiuto è non pericoloso",
+      "Voci a specchio: la pericolosità dipende dalla presenza di sostanze pericolose oltre soglia",
+      "Per le voci a specchio servono informazioni sul processo, schede di sicurezza o analisi",
+      "Linee guida SNPA sulla classificazione, approvate con D.M. 47/2021"
+     ],
+     "appro": "Anche per una voce a specchio si applica il principio di precauzione: se le informazioni non consentono di escludere la pericolosità, il rifiuto va classificato pericoloso.",
+     "rif": "Decisione 2000/532/CE e s.m. · Reg. (UE) 1357/2014 · D.M. 9 agosto 2021, n. 47",
+     "nar": "Per attribuire il codice dell’elenco europeo dei rifiuti si individua prima il capitolo corrispondente all’attività che ha generato il rifiuto, poi la voce più appropriata. Le voci si dividono in tre gruppi. Le voci assolute pericolose, contrassegnate da un asterisco, indicano rifiuti sempre pericolosi, senza necessità di ulteriori verifiche: ad esempio gli oli minerali esausti. Le voci assolute non pericolose indicano rifiuti che non sono mai pericolosi. Le voci a specchio sono coppie di codici, uno pericoloso e uno non pericoloso, per lo stesso tipo di rifiuto: la scelta dipende dalla presenza di sostanze pericolose in concentrazione tale da conferire una o più caratteristiche di pericolo. Per le voci a specchio il produttore deve raccogliere informazioni sul processo, sulle materie prime e sulle relative schede di dati di sicurezza e, se necessario, far eseguire analisi chimiche mirate. Le linee guida del Sistema nazionale per la protezione dell’ambiente, approvate con il decreto ministeriale quarantasette del duemilaventuno, descrivono la procedura passo per passo. Quando le informazioni disponibili non permettono di escludere la presenza di sostanze pericolose oltre le soglie, il rifiuto va classificato come pericoloso.",
+     "est": true,
+     "ancora": "L’iscrizione: unità locali, deleghe, contributo"
+    },
+    {
+     "foto": false,
+     "t": "testo",
+     "tit": "Le quindici caratteristiche di pericolo",
+     "lead": "Il Regolamento (UE) 1357/2014 ha allineato le caratteristiche di pericolo dei rifiuti (HP) alle classi del Regolamento CLP.",
+     "punti": [
+      "HP1-HP3: esplosivo, comburente, infiammabile",
+      "HP4-HP8: irritante, tossicità specifica e in caso di aspirazione, tossicità acuta, cancerogeno, corrosivo",
+      "HP9-HP13: infettivo, tossico per la riproduzione, mutageno, liberazione di gas tossici, sensibilizzante",
+      "HP14: ecotossico, con i criteri del Reg. (UE) 2017/997",
+      "HP15: rifiuto che può manifestare una caratteristica di pericolo non presente direttamente"
+     ],
+     "appro": "Per molte caratteristiche la soglia si applica alla somma delle sostanze con la stessa indicazione di pericolo; per altre, alla singola sostanza.",
+     "rif": "Dir. 2008/98/CE, Allegato III, come sostituito dal Reg. (UE) 1357/2014 e dal Reg. (UE) 2017/997",
+     "nar": "Un rifiuto è pericoloso quando presenta almeno una delle quindici caratteristiche di pericolo elencate nell’Allegato terzo della direttiva quadro, indicate con le sigle da HP uno a HP quindici. Il regolamento europeo milletrecentocinquantasette del duemilaquattordici le ha allineate alle classi di pericolo del regolamento CLP sulle sostanze chimiche. Le prime tre riguardano i pericoli fisici: esplosivo, comburente, infiammabile. Seguono le caratteristiche per la salute: irritante, tossicità specifica per organi bersaglio e in caso di aspirazione, tossicità acuta, cancerogeno, corrosivo, infettivo, tossico per la riproduzione, mutageno, liberazione di gas a tossicità acuta a contatto con acqua o acidi, sensibilizzante. La caratteristica HP quattordici, ecotossico, è definita con i criteri del regolamento duemiladiciassette barra novecentonovantasette. L’HP quindici riguarda i rifiuti che possono manifestare una caratteristica di pericolo non posseduta direttamente dal rifiuto originario. Per ciascuna caratteristica il regolamento indica le soglie di concentrazione in funzione delle indicazioni di pericolo delle sostanze presenti: in alcuni casi si sommano le sostanze con la stessa indicazione, in altri si confronta ogni singola sostanza con la soglia. Il risultato si riporta nel registro e nel formulario.",
      "est": true,
      "ancora": "L’iscrizione: unità locali, deleghe, contributo"
     },
@@ -527,6 +617,24 @@ window.CORSO = {
      "ancora": "Esempio applicativo: un ritiro di rifiuti pericolosi con il nuovo sistema"
     },
     {
+     "foto": false,
+     "t": "testo",
+     "tit": "Le categorie dell’Albo gestori ambientali",
+     "lead": "Chi trasporta rifiuti, anche propri, deve essere iscritto all’Albo nazionale gestori ambientali nella categoria corrispondente.",
+     "punti": [
+      "Categoria 2-bis: produttori iniziali che trasportano i propri rifiuti non pericolosi, e pericolosi fino a 30 kg o 30 litri al giorno",
+      "Categoria 4: raccolta e trasporto di rifiuti speciali non pericolosi prodotti da terzi",
+      "Categoria 5: raccolta e trasporto di rifiuti speciali pericolosi",
+      "Categoria 8: intermediazione e commercio di rifiuti senza detenzione",
+      "Categorie 9 e 10: bonifica dei siti e bonifica dei beni contenenti amianto"
+     ],
+     "appro": "Prima di affidare i rifiuti si verifica sul sito dell’Albo che l’iscrizione sia valida per il codice EER e per il veicolo usato.",
+     "rif": "D.lgs. 152/2006, art. 212 · D.M. 3 giugno 2014, n. 120",
+     "nar": "Il trasporto di rifiuti richiede l’iscrizione all’Albo nazionale dei gestori ambientali, disciplinato dall’articolo duecentododici del testo unico e dal decreto ministeriale centoventi del duemilaquattordici. L’iscrizione è articolata in categorie e classi. La categoria due bis è riservata ai produttori iniziali che trasportano i propri rifiuti non pericolosi e i propri rifiuti pericolosi in quantità non eccedenti trenta chilogrammi o trenta litri al giorno: è un’iscrizione semplificata, ma necessaria, ad esempio per l’impresa edile che porta all’impianto i propri scarti di cantiere. La categoria quattro riguarda la raccolta e il trasporto di rifiuti speciali non pericolosi prodotti da terzi, la categoria cinque quella dei rifiuti speciali pericolosi. La categoria otto è dedicata all’intermediazione e al commercio di rifiuti senza detenzione. Le categorie nove e dieci riguardano la bonifica dei siti e dei beni contenenti amianto. Le classi indicano le quantità annue gestibili o la popolazione servita. Per il produttore che affida i rifiuti a terzi è essenziale verificare, sul portale dell’Albo, che l’iscrizione sia in corso di validità e comprenda il codice dell’elenco europeo dei rifiuti affidato e la targa del veicolo che effettua il trasporto.",
+     "est": true,
+     "ancora": "Esempio applicativo: un ritiro di rifiuti pericolosi con il nuovo sistema"
+    },
+    {
      "t": "caso",
      "tit": "Esercitazione · L’impresa con 12 dipendenti",
      "scena": "Un’impresa artigiana con 12 dipendenti produce rifiuti non pericolosi di lavorazione e alcuni rifiuti pericolosi (stracci contaminati, bombolette). Non si è ancora iscritta al RENTRI.",
@@ -643,6 +751,24 @@ window.CORSO = {
      "rif": "D.lgs. 152/2006, artt. 185-bis, 188-bis, c. 3-bis, 190, c. 6, e 193 · L. 199/2025",
      "appro": "La documentazione dei conferimenti (formulari e contratti con l’operatore autorizzato) è la prova della corretta gestione in caso di controllo.",
      "nar": "Caso di studio. Un centro estetico escluso dall’iscrizione al registro elettronico ritiene di non avere più obblighi sulla gestione degli aghi usati e dei residui chimici. Si individui l’affermazione corretta.",
+     "est": true,
+     "ancora": "Organizzazione interna e controlli"
+    },
+    {
+     "foto": false,
+     "t": "testo",
+     "tit": "Il MUD: soggetti obbligati e scadenze",
+     "lead": "Il modello unico di dichiarazione ambientale riepiloga ogni anno i rifiuti prodotti e gestiti nell’anno precedente.",
+     "punti": [
+      "Base: L. 70/1994; modello per il 2026 approvato con D.P.C.M. 30 gennaio 2026",
+      "Presentazione entro il 30 aprile, alla Camera di commercio competente",
+      "Obbligati: gestori, trasportatori, intermediari e produttori iniziali di rifiuti pericolosi",
+      "Produttori di rifiuti speciali non pericolosi da attività industriali e artigianali con più di 10 dipendenti",
+      "Comunicazioni specifiche per RAEE, veicoli fuori uso, imballaggi e rifiuti urbani"
+     ],
+     "appro": "Il MUD si compila a partire dal registro cronologico: la coerenza tra registro, formulari e dichiarazione è uno degli elementi più controllati.",
+     "rif": "L. 25 gennaio 1994, n. 70 · D.lgs. 152/2006, art. 189 · D.P.C.M. 30 gennaio 2026",
+     "nar": "Il modello unico di dichiarazione ambientale, istituito dalla legge settanta del millenovecentonovantaquattro, riepiloga ogni anno le quantità e le tipologie di rifiuti prodotti, trasportati, recuperati o smaltiti nell’anno precedente. Il modello per le dichiarazioni presentate nel duemilaventisei è stato approvato con il decreto del Presidente del Consiglio dei ministri del trenta gennaio duemilaventisei. La dichiarazione si presenta in via telematica entro il trenta aprile alla Camera di commercio competente per territorio. L’articolo centoottantanove del testo unico individua i soggetti obbligati: chi effettua a titolo professionale la raccolta e il trasporto di rifiuti, i commercianti e gli intermediari senza detenzione, gli impianti di recupero e smaltimento, i produttori iniziali di rifiuti pericolosi e i produttori di rifiuti speciali non pericolosi derivanti da lavorazioni industriali e artigianali e dal trattamento delle acque, quando hanno più di dieci dipendenti. Il modello comprende anche comunicazioni specifiche per i rifiuti di apparecchiature elettriche ed elettroniche, i veicoli fuori uso, gli imballaggi e i rifiuti urbani gestiti dai comuni. I dati si ricavano dal registro cronologico: la coerenza tra registro, formulari e dichiarazione annuale è uno degli aspetti più verificati dagli organi di controllo.",
      "est": true,
      "ancora": "Organizzazione interna e controlli"
     },

@@ -1,0 +1,21 @@
+{
+ "dopo": "Valori limite e misurazioni dell’esposizione",
+ "origine": "CHIM/M2-1.json",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Rischio «basso per la sicurezza» e «irrilevante per la salute»",
+   "lead": "L’art. 224 c. 2 consente di non applicare alcune misure specifiche quando la valutazione dimostra un rischio basso per la sicurezza e irrilevante per la salute.",
+   "punti": [
+    "Valutazione basata su tipo, quantità e frequenza di esposizione, proprietà pericolose e condizioni d’uso",
+    "Misure generali dell’art. 224 c. 1 sempre applicate",
+    "Se il rischio è basso e irrilevante: non si applicano gli artt. 225, 226, 229, 230",
+    "Altrimenti: misure specifiche, emergenze, sorveglianza sanitaria e cartelle di rischio",
+    "Agenti cancerogeni e mutageni: il Capo II si applica sempre, senza soglia di irrilevanza"
+   ],
+   "appro": "La conclusione di irrilevanza va motivata nel DVR con criteri espliciti, ad esempio con modelli di stima e, se necessario, misure.",
+   "rif": "D.lgs. 81/2008, artt. 223 e 224",
+   "nar": "La valutazione del rischio chimico considera le proprietà pericolose degli agenti, le informazioni delle schede di dati di sicurezza, il livello, il tipo e la durata dell’esposizione, le circostanze in cui si svolge il lavoro, comprese le quantità, i valori limite e gli effetti delle misure adottate. L’articolo duecentoventiquattro impone sempre misure generali di prevenzione: progettazione e organizzazione del lavoro, attrezzature idonee, riduzione al minimo del numero di lavoratori esposti, della durata e dell’intensità dell’esposizione, quantità di agenti limitate a quanto necessario, igiene e metodi di lavoro appropriati. Il comma due prevede però una possibilità importante: se la valutazione dimostra che, in relazione al tipo e alle quantità degli agenti e alle modalità e frequenze di esposizione, il rischio è basso per la sicurezza e irrilevante per la salute, e che le misure generali sono sufficienti, non si applicano le misure specifiche dell’articolo duecentoventicinque, le disposizioni sugli incidenti e le emergenze, la sorveglianza sanitaria e le cartelle sanitarie e di rischio. La conclusione va motivata con criteri espliciti, ad esempio con un modello di stima a indici e, se necessario, con misure. Per gli agenti cancerogeni e mutageni del Capo secondo questa soglia non esiste."
+  }
+ ]
+}

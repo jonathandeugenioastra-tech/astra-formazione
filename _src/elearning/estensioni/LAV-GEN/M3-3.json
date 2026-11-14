@@ -1,0 +1,20 @@
+{
+ "dopo": "La posizione di garanzia",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Infortunio: denuncia, comunicazione e infortunio in itinere",
+   "lead": "Quando si verifica un infortunio la legge prevede adempimenti precisi da parte del lavoratore e del datore di lavoro.",
+   "punti": [
+    "Il lavoratore informa immediatamente il datore di lavoro di qualsiasi infortunio, anche di lieve entità",
+    "Il datore di lavoro denuncia all’INAIL l’infortunio con prognosi superiore a tre giorni entro due giorni dalla ricezione del certificato medico",
+    "Comunicazione all’INAIL, a fini statistici e informativi, degli infortuni che comportano l’assenza dal lavoro di almeno un giorno, escluso quello dell’evento, entro 48 ore",
+    "L’infortunio in itinere, nel normale percorso tra abitazione e lavoro, è tutelato dall’INAIL",
+    "Analisi delle cause e aggiornamento della valutazione dei rischi dopo infortuni significativi"
+   ],
+   "appro": "L’analisi dell’infortunio non serve a cercare un colpevole, ma a capire quali misure tecniche, organizzative o formative non hanno funzionato: è il primo strumento per prevenire il successivo.",
+   "rif": "D.P.R. 1124/1965, artt. 52 e 53 · D.lgs. 81/2008, artt. 18, c. 1, lett. r), e 29, c. 3 · D.lgs. 38/2000, art. 12",
+   "nar": "Quando si verifica un infortunio, la legge prevede adempimenti precisi. Il lavoratore deve informare immediatamente il proprio datore di lavoro di qualsiasi infortunio, anche di lieve entità. Il datore di lavoro, in base al testo unico sull’assicurazione contro gli infortuni, deve denunciare all’Istituto nazionale per l’assicurazione contro gli infortuni sul lavoro l’infortunio con prognosi superiore a tre giorni entro due giorni dalla ricezione del certificato medico. Il testo unico di sicurezza prevede inoltre la comunicazione all’Istituto, a fini statistici e informativi, degli infortuni che comportano l’assenza dal lavoro di almeno un giorno, escluso quello dell’evento, entro quarantotto ore dalla ricezione del certificato. È tutelato anche l’infortunio in itinere, cioè quello che avviene nel normale percorso di andata e ritorno tra l’abitazione e il luogo di lavoro. Dopo un infortunio significativo, l’articolo ventinove richiede di rielaborare la valutazione dei rischi quando i risultati della sorveglianza o gli eventi infortunistici ne evidenziano la necessità. L’analisi dell’infortunio non serve a cercare un colpevole, ma a capire quali misure tecniche, organizzative o formative non hanno funzionato."
+  }
+ ]
+}

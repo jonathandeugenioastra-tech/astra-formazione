@@ -24,7 +24,8 @@
     };
   })();
   const qs = new URLSearchParams(location.search);
-  const ANTEPRIMA = !SC.lms && qs.has('anteprima');
+  const PROVA = !!C.prova && !SC.lms; // prova gratuita pubblicata sul sito: introduzione e primo modulo
+  const ANTEPRIMA = !SC.lms && (qs.has('anteprima') || PROVA);
   const FATTORE = ANTEPRIMA ? 1 / 40 : 1; // in anteprima i tempi sono ridotti per la revisione dei contenuti
 
   /* ───────── elenco schermate e tempi minimi ───────── */
@@ -79,7 +80,8 @@
     });
     S[S.length - m.schermate.length + ultima].sec = TM - somma;
   });
-  S.push({ t: 'testfinale', tit: 'Test finale di apprendimento', mi: C.moduli.length, mod: { id: 'TF', titolo: 'Test finale' }, sec: 0, nar: 'Si accede al test finale. Il test comprende ' + C.testFinale.domande + ' domande estratte casualmente, con le risposte in ordine casuale. Il superamento richiede almeno il ' + C.testFinale.soglia + ' per cento di risposte corrette. Sono disponibili ' + C.testFinale.tentativi + ' tentativi.' });
+  if (PROVA) S.push({ t: 'testfinale', tit: 'Fine della prova gratuita', mi: C.moduli.length, mod: { id: 'TF', titolo: 'Prova gratuita' }, sec: 0, nar: '' });
+  else S.push({ t: 'testfinale', tit: 'Test finale di apprendimento', mi: C.moduli.length, mod: { id: 'TF', titolo: 'Test finale' }, sec: 0, nar: 'Si accede al test finale. Il test comprende ' + C.testFinale.domande + ' domande estratte casualmente, con le risposte in ordine casuale. Il superamento richiede almeno il ' + C.testFinale.soglia + ' per cento di risposte corrette. Sono disponibili ' + C.testFinale.tentativi + ' tentativi.' });
   const TOT_SEC = S.reduce((a, s) => a + s.sec, 0);
 
   /* ───────── stato ───────── */
@@ -134,7 +136,7 @@
   <aside class="pannello dx trascr" id="p-tr"><h3>Trascrizione</h3><div class="cont" id="tr"></div></aside>
   <div class="ov" id="ov-pres"><div class="box"><h3>Conferma della presenza</h3><p>Per garantire la tracciabilità della fruizione prevista dall'Accordo Stato-Regioni, è richiesto di premere il pulsante recante il codice indicato.</p><div class="codice" id="pres-cod"></div><div id="pres-bt" style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap"></div><div class="count" id="pres-cnt"></div></div></div>
   <div class="ov" id="ov-msg"><div class="box"><h3 id="msg-t"></h3><p id="msg-p"></p><button class="btn prim" id="msg-ok">Ho capito</button></div></div>
-  ${ANTEPRIMA ? '<div class="badge-ant">Anteprima di revisione · tempi ridotti</div>' : ''}`;
+  ${PROVA ? '<div class="badge-ant">Prova gratuita · introduzione e primo modulo</div>' : ANTEPRIMA ? '<div class="badge-ant">Anteprima di revisione · tempi ridotti</div>' : ''}`;
 
   const palco = $('#palco'), bAv = $('#b-av'), bInd = $('#b-ind2'), req = $('#req');
   const msg = (t, p) => { $('#msg-t').textContent = t; $('#msg-p').textContent = p; $('#ov-msg').classList.add('on'); };
@@ -450,7 +452,7 @@
   };
 
   /* ───────── rendering ───────── */
-  const testa = (s, extra = '') => `<div class="sch-testa an" data-subito><div><div class="mod">${esc(s.mod.id === 'M0' ? 'Introduzione' : s.mod.id === 'TF' ? 'Verifica finale' : (/^(Modulo|Unità|UD)/.test(s.mod.titolo) ? s.mod.titolo : 'Modulo ' + s.mod.id.slice(1) + ' · ' + s.mod.titolo))}</div><h2>${esc(s.tit)}</h2>${s.sott ? `<div class="sott">${esc(s.sott)}</div>` : ''}</div>${s.rif ? `<div class="rif">${esc(s.rif)}</div>` : ''}${extra}</div>`;
+  const testa = (s, extra = '') => `<div class="sch-testa an" data-subito><div><div class="mod">${esc(s.mod.id === 'M0' ? 'Introduzione' : s.mod.id === 'TF' ? (PROVA ? 'Prova gratuita' : 'Verifica finale') : (/^(Modulo|Unità|UD)/.test(s.mod.titolo) ? s.mod.titolo : 'Modulo ' + s.mod.id.slice(1) + ' · ' + s.mod.titolo))}</div><h2>${esc(s.tit)}</h2>${s.sott ? `<div class="sott">${esc(s.sott)}</div>` : ''}</div>${s.rif ? `<div class="rif">${esc(s.rif)}</div>` : ''}${extra}</div>`;
   const foto = n => `img/${n}.jpg`;
   const fondo = n => (!n || n === '-') ? '<div class="foto nofoto"></div>' : `<div class="foto${/^inf_/.test(n) ? ' inf' : ''}" style="background-image:url(${foto(n)})"></div>`;
   const FOTO = (window.FOTO_CORSO && window.FOTO_CORSO.length) ? window.FOTO_CORSO : ['sicurezza', 'sicurezza2', 'sicurezza3', 'hero1', 'chi', 'aziende'];
@@ -756,6 +758,7 @@
   /* ───────── test finale ───────── */
   const testFinale = el => {
     const T = C.testFinale, box = $('#tf', el);
+    if (PROVA) { box.innerHTML = `<div class="info"><div class="big">${C.ore}</div><p>ore di durata del corso completo</p></div><div><p class="an vis" style="margin-top:0">La prova comprende l'introduzione e il primo modulo del corso, con la stessa voce narrante, le stesse esercitazioni e le stesse verifiche della versione completa. Nel corso completo seguono gli altri moduli, il test finale di apprendimento e il rilascio dell'attestato con codice univoco e QR di verifica.</p><p class="an vis">Il corso completo si attiva dalla scheda del corso sul sito, scegliendo la modalità e-learning.</p></div>`; return; }
     const tuttoFatto = S.slice(0, -1).every((x, i) => completo(i));
     const pannelloInfo = extra => `<div class="info"><div class="big">${T.domande}</div><p>domande estratte casualmente da una banca di ${T.banca.length} quesiti, con risposte in ordine casuale.</p><p>Soglia di superamento: <b style="color:#fff">${T.soglia}%</b> (almeno ${Math.ceil(T.domande * T.soglia / 100)} risposte corrette).</p><p>Tentativi disponibili: <b style="color:#fff">${Math.max(0, T.tentativi - st.tf.n)}</b> di ${T.tentativi}.</p>${extra || ''}</div>`;
     if (st.tf.ok) return fine(box);

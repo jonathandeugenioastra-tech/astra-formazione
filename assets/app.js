@@ -402,7 +402,7 @@
     const ed = D.edizioni.filter(e => e.corso === c.id);
     const correlati = D.corsi.filter(x => x.ambito === c.ambito && x.id !== c.id).slice(0, 3);
     const primo = ['EL', 'VCS', 'P'].find(m => c.mod.includes(m));
-    const edP = ed.filter(e => e.mod === 'P' && e.posti > 0);
+    const edP = ed.filter(e => e.mod === 'P' && e.posti > 0), edV = ed.filter(e => e.mod === 'VCS' && e.posti > 0);
     return testa(c.titolo, `${esc(a.nome)} · ${c.ore} ore · ${esc(c.tipo)} · codice ${c.id}`,
       `<a href="#/catalogo">Catalogo</a><span aria-hidden="true">›</span><a href="#/catalogo?ambito=${c.ambito}">${esc(a.nome)}</a><span aria-hidden="true">›</span><b>${esc(c.titolo)}</b>`, fotoArea(c)) + `
     <div class="wrap dettaglio">
@@ -449,7 +449,9 @@
               ${testoNonAmmesse(c) ? `<div class="avviso giallo" style="margin-bottom:10px">${I.info}<span>${testoNonAmmesse(c)}</span></div>` : ''}
               <div class="scelte">${['EL', 'VCS'].filter(m => c.mod.includes(m)).map(m => `
                 <label class="scelta"><input type="radio" name="mod" value="${m}" ${m === primo ? 'checked' : ''}>
-                  <span><span class="t">${MOD[m].nome}</span><span class="d">${MOD[m].desc}</span></span></label>`).join('')}
+                  <span><span class="t">${MOD[m].nome}</span><span class="d">${MOD[m].desc}</span></span></label>${m === 'VCS' ? `
+                <div class="date-aula" id="date-vcs">${edV.length ? `<label class="campo">Data dell'edizione<select name="edv">${edV.map(e => `<option value="${e.data}">${periodo(e)} · ${esc(e.orario)}</option>`).join('')}<option value="">Altra data, da concordare</option></select></label>`
+                  : `<p>Nessuna edizione in videoconferenza a calendario: la segreteria propone la prima data utile al raggiungimento del numero minimo di iscritti.</p><input type="hidden" name="edv" value="">`}</div>` : ''}`).join('')}
                 ${c.mod.includes('P') ? `
                 <label class="scelta"><input type="radio" name="mod" value="P" ${primo === 'P' ? 'checked' : ''}>
                   <span><span class="t">In aula presso ASTRA</span><span class="d">Sede ASTRA di Teramo, nelle date a calendario</span></span></label>
@@ -466,6 +468,7 @@
             <button class="btn btn-rosso" style="width:100%">${I.carrello} Aggiungi al carrello</button>
             </div>
             ${c.mod.includes('P') ? boxRPF('nascosto') : ''}
+${c.mod.includes('EL') ? `<div class="box-prova" style="border:1px solid var(--linea, #D9E3E6);border-radius:14px;padding:16px 18px"><h3 class="tit-attiva" style="margin:0 0 6px">Prova gratuita in e-learning</h3><p style="margin:0 0 14px;font-size:13.5px;line-height:1.5">L'introduzione e il primo modulo del corso, con voce narrante, esercitazioni e verifiche identiche alla versione completa, senza registrazione.</p><a class="btn btn-bordo" style="width:100%" href="elearning/${c.id}/index.html" target="_blank" rel="noopener">Avvia la prova del corso</a></div>` : ''}
             <h3 class="tit-attiva">Condizioni di attivazione</h3>${attivazione(c, 'compatta')}
             <div class="avviso blu" style="margin-top:12px">${I.info}<span>${fasceAula(c)}</span></div>
           </div>
@@ -486,14 +489,19 @@
     $$('.indice-scheda button').forEach(b => b.addEventListener('click', () => { const t = $('#s-' + b.dataset.sez); t && window.scrollTo({ top: t.getBoundingClientRect().top + scrollY - 150, behavior: 'smooth' }); }));
     const aggiornaMod = () => { const m = (f.querySelector('input[name="mod"]:checked') || {}).value;
       const da = $('#date-aula'); if (da) da.hidden = m !== 'P';
+      const dv = $('#date-vcs'); if (dv) dv.hidden = m !== 'VCS';
       $('#blocco-acq').hidden = m === 'PC';
       const b = $('.box-rpf', f); if (b) b.classList.toggle('nascosto', m !== 'PC'); agg(); };
+    const qp = new URLSearchParams((location.hash.split('?')[1]) || '');
+    if (qp.get('mod')) { const r = f.querySelector(`input[name="mod"][value="${qp.get('mod')}"]`); if (r) r.checked = true;
+      const sel = qp.get('mod') === 'P' ? f.ed : qp.get('mod') === 'VCS' ? f.edv : null; if (sel && sel.tagName === 'SELECT' && qp.get('ed')) sel.value = qp.get('ed'); }
     $$('input[name="mod"]', f).forEach(r => r.addEventListener('change', aggiornaMod)); aggiornaMod();
     f.addEventListener('submit', e => { e.preventDefault(); agg(); const m = f.querySelector('input[name="mod"]:checked').value;
-      if (m === 'PC') return; aggiungi(f.dataset.id, m, parseInt(q.value), m === 'P' && f.ed ? f.ed.value : null); });
+      if (m === 'PC') return; aggiungi(f.dataset.id, m, parseInt(q.value), m === 'P' && f.ed ? f.ed.value : m === 'VCS' && f.edv ? f.edv.value : null); });
     $$('.edizione a[data-mod]').forEach(a => a.addEventListener('click', e => { e.preventDefault();
       const r = f.querySelector(`input[name="mod"][value="${a.dataset.mod}"]`); if (r) { r.checked = true; aggiornaMod(); }
       if (a.dataset.mod === 'P' && f.ed && a.dataset.data) f.ed.value = a.dataset.data;
+      if (a.dataset.mod === 'VCS' && f.edv && a.dataset.data) f.edv.value = a.dataset.data;
       f.scrollIntoView({ behavior: 'smooth', block: 'center' }); }));
   }
 
@@ -503,7 +511,7 @@
     return `<div class="edizione"><span class="data-box"><b>${d.g}</b><span>${d.m}</span></span>
       <div><h3>${esc(e.titolo || c.titolo)}</h3><div class="m"><span class="chip ${e.mod}">${e.mod}</span><span>${periodo(e)}</span><span>${esc(e.orario)}</span><span>${esc(e.sede)}</span><span>${c.ore} h</span></div></div>
       <span class="posti"><i style="background:${col}"></i>${lab}</span>
-      ${e.posti ? `<a class="btn btn-petrolio btn-s" href="#/corso/${c.id}" data-mod="${e.mod}" data-data="${e.data}">Iscrizione</a>` : `<a class="btn btn-bordo btn-s" href="#/contatti?corso=${c.id}">Lista d'attesa</a>`}</div>`;
+      ${e.posti ? `<a class="btn btn-petrolio btn-s" href="#/corso/${c.id}?mod=${e.mod}&ed=${e.data}" data-mod="${e.mod}" data-data="${e.data}">Iscrizione</a>` : `<a class="btn btn-bordo btn-s" href="#/contatti?corso=${c.id}">Lista d'attesa</a>`}</div>`;
   };
   P.calendario = () => {
     const per = {};
@@ -558,7 +566,7 @@
   function disegnaCarrello() {
     const k = calcoli();
     $('#righe').innerHTML = `<h2>Corsi selezionati</h2>` + k.righe.map((r, i) => `
-      <div class="riga"><div><h3><a href="#/corso/${r.id}">${esc(r.c.titolo)}</a></h3><div class="m"><span class="chip ${r.mod}">${r.mod}</span>${r.mod === 'P' ? 'Aula presso ASTRA – ' + (r.ed ? dataLunga(r.ed) : 'data da concordare') : MOD[r.mod].breve} · ${r.c.ore} h · ${euro(PM(r.c, r.mod))} a posto${r.s ? ` · <b style="color:var(--amb)">sconto ${r.s}%</b>` : ''}</div></div>
+      <div class="riga"><div><h3><a href="#/corso/${r.id}">${esc(r.c.titolo)}</a></h3><div class="m"><span class="chip ${r.mod}">${r.mod}</span>${r.mod === 'P' ? 'Aula presso ASTRA – ' + (r.ed ? dataLunga(r.ed) : 'data da concordare') : r.mod === 'VCS' ? MOD[r.mod].breve + ' – ' + (r.ed ? dataLunga(r.ed) : 'data da concordare') : MOD[r.mod].breve} · ${r.c.ore} h · ${euro(PM(r.c, r.mod))} a posto${r.s ? ` · <b style="color:var(--amb)">sconto ${r.s}%</b>` : ''}</div></div>
         <div class="qta" role="group" aria-label="Partecipanti"><button type="button" data-i="${i}" data-d="-1" aria-label="Diminuisci">−</button><input value="${r.qta}" data-i="${i}" type="number" min="1" aria-label="Partecipanti"><button type="button" data-i="${i}" data-d="1" aria-label="Aumenta">+</button></div>
         <b style="color:var(--petrolio);min-width:90px;text-align:right">${euro(r.netto)}</b>
         <button class="togli" data-x="${i}" aria-label="Rimuovi ${esc(r.c.titolo)}">${I.cestino}</button></div>`).join('');
@@ -585,7 +593,7 @@
       e.preventDefault();
       const fd = new FormData(e.target), k = calcoli();
       const dati = [...fd.entries()].filter(([n]) => !['privacy', 'cond'].includes(n)).map(([n, v]) => `${n}: ${v}`).join('\n');
-      const corsi = k.righe.map(r => `- ${r.c.id} ${r.c.titolo} – ${r.mod === 'P' ? 'Aula presso ASTRA, ' + (r.ed ? dataLunga(r.ed) : 'data da concordare') : MOD[r.mod].nome} – ${r.qta} partecipanti – ${euro(r.netto)}`).join('\n');
+      const corsi = k.righe.map(r => `- ${r.c.id} ${r.c.titolo} – ${r.mod === 'P' ? 'Aula presso ASTRA, ' + (r.ed ? dataLunga(r.ed) : 'data da concordare') : r.mod === 'VCS' ? MOD[r.mod].nome + ', ' + (r.ed ? dataLunga(r.ed) : 'data da concordare') : MOD[r.mod].nome} – ${r.qta} partecipanti – ${euro(r.netto)}`).join('\n');
       const corpo = `Richiesta d'iscrizione dal sito\n\nCORSI\n${corsi}\n\nImponibile ${euro(k.imp)} – Totale con IVA ${euro(k.tot)} (indicativo)\n\nDATI\n${dati}`;
       location.href = `mailto:${A.email}?subject=${encodeURIComponent('Richiesta iscrizione corsi')}&body=${encodeURIComponent(corpo)}`;
       toast('Si sta aprendo il programma di posta con la richiesta già compilata');

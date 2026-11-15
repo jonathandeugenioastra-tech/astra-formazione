@@ -508,10 +508,10 @@ nav.menu li.sec{display:none}
 
 /* Aula presso il cliente */
 .chip.aula-sola{background:#FFF1DC;color:#7A4A00;box-shadow:inset 0 0 0 1px #F0C98A}
-.date-aula{padding:4px 4px 6px 46px}
+.date-aula{padding:4px 4px 6px 30px}
 .date-aula[hidden]{display:none}
 .date-aula p{font-size:13.5px;color:var(--testo-3)}
-.date-aula select{height:44px}
+.date-aula select{height:44px;font-size:14px}
 #blocco-acq[hidden]{display:none!important}
 .box-rpf{display:flex;flex-direction:column;gap:6px;padding:18px;border-radius:16px;background:var(--nebbia);border:1px solid var(--linea)}
 .box-rpf.nascosto{display:none}

@@ -503,3 +503,14 @@ button:disabled{cursor:not-allowed}
 .foto-sl.inf{background:#fff}.foto-sl.inf img{object-fit:contain;animation:none}.foto-sl.inf::after{display:none}
 
 .mv-ab{margin:6px 0}.mv-ab .mv-q{margin:0 0 4px}.mv-sel{font:inherit;padding:6px 8px;border:1px solid var(--linea,#c9d3d8);border-radius:6px;max-width:100%}.mv-sel.giusta{border-color:#00B050;background:#eafaf0}.mv-sel.errata{border-color:#EE0000;background:#fdeaea}
+/* smartphone e finestre verticali: la slide occupa solo lo spazio tra testata e comandi e scorre al suo interno */
+@media (max-width:820px),(max-aspect-ratio:1/1){
+  #app{grid-template-rows:56px minmax(0,1fr) 84px}
+  .palco-wrap{display:flex;min-height:0;overflow:hidden}
+  .palco-col{flex:1;min-height:0;height:auto;width:100%}
+  .palco{flex:1 1 0;min-height:0;overflow-y:auto;-webkit-overflow-scrolling:touch;overscroll-behavior:contain}
+}
+@media (max-width:820px),(max-aspect-ratio:1/1){
+  .schermata:not(.full) .appro-btn{position:static;align-self:flex-start;margin-top:16px;box-shadow:none}
+  .schermata:not(.full) .piede-sl{order:99}
+}

@@ -29,18 +29,37 @@
 
   /* ───────── elenco schermate e tempi minimi ───────── */
   const S = [];
+  const SERVIZIO = { copertina: 1, obiettivi: 1, sezione: 1, sintesi: 1 };
+  /* un modulo composto solo da schermate di servizio (es. M0: copertina e obiettivi) cede il tempo eccedente
+     al modulo successivo: il monte ore complessivo del corso resta invariato */
+  const voceSch = (m, si) => { const a = window.AUDIO && window.AUDIO.schermate[`${m.id}-${si}`]; return a ? (Array.isArray(a) ? a.reduce((x, y) => x + y.d, 0) : a.d) : 0; };
+  const SEC_MOD = C.moduli.map(m => m.min * 60);
+  C.moduli.forEach((m, mi) => {
+    if (m.schermate.some(s => !SERVIZIO[s.t])) return;
+    const dest = mi + 1 < C.moduli.length ? mi + 1 : mi - 1; if (dest < 0) return;
+    const proprio = m.schermate.reduce((a, s, si) => a + Math.ceil((voceSch(m, si) + 15) / 5) * 5, 0);
+    if (proprio < SEC_MOD[mi]) { SEC_MOD[dest] += SEC_MOD[mi] - proprio; SEC_MOD[mi] = proprio; }
+  });
   C.moduli.forEach((m, mi) => {
     /* tempo minimo proporzionale alla durata della voce più il tempo di lettura o di attività della schermata */
     const ATT = { grafico: 60, testo: 25, articolo: 40, caso: 60, vf: 60, abbina: 60, ordina: 60, matrice: 60, verifica: 90, pittogrammi: 60, definizioni: 45, figure: 45 };
     const base = m.schermate.map((s, si) => { const a = window.AUDIO && window.AUDIO.schermate[`${m.id}-${si}`]; const d = a ? (Array.isArray(a) ? a.reduce((x, y) => x + y.d, 0) : a.d) : (s.nar ? s.nar.split(/\s+/).length / 2.4 : 0); return Math.max(20, d + (ATT[s.t] || 20)) * (s.p && !a ? s.p : 1); });
-    const tot = base.reduce((a, b) => a + b, 0);
+    /* R1 – schermate di servizio (copertina, obiettivi, apertura modulo, sintesi): tempo minimo = voce + 15 s;
+       il tempo del modulo si ripartisce sulle schermate di contenuto, così il monte ore resta invariato */
+    const voceS = si => voceSch(m, si), TM = SEC_MOD[mi];
+    const cont = m.schermate.map((s, si) => si).filter(si => !SERVIZIO[m.schermate[si].t]);
+    const fisso = m.schermate.map((s, si) => SERVIZIO[s.t] ? Math.ceil((voceS(si) + 15) / 5) * 5 : 0);
+    const disp = TM - fisso.reduce((a, b) => a + b, 0);
+    const tot = (cont.length ? cont : m.schermate.map((s, si) => si)).reduce((a, si) => a + base[si], 0);
+    const ultima = cont.length ? cont[cont.length - 1] : m.schermate.length - 1;
     let somma = 0;
     m.schermate.forEach((s, si) => {
-      let sec = Math.round((m.min * 60) * base[si] / tot / 5) * 5;
-      if (si === m.schermate.length - 1) sec = m.min * 60 - somma;
+      let sec = fisso[si] || Math.round(disp * base[si] / tot / 5) * 5;
+      if (si === ultima) sec = 0;
       somma += sec;
       S.push(Object.assign({}, s, { mi, si, mod: m, sec }));
     });
+    S[S.length - m.schermate.length + ultima].sec = TM - somma;
   });
   S.push({ t: 'testfinale', tit: 'Test finale di apprendimento', mi: C.moduli.length, mod: { id: 'TF', titolo: 'Test finale' }, sec: 0, nar: 'Si accede al test finale. Il test comprende ' + C.testFinale.domande + ' domande estratte casualmente, con le risposte in ordine casuale. Il superamento richiede almeno il ' + C.testFinale.soglia + ' per cento di risposte corrette. Sono disponibili ' + C.testFinale.tentativi + ' tentativi.' });
   const TOT_SEC = S.reduce((a, s) => a + s.sec, 0);
@@ -177,12 +196,15 @@
 
   /* ───────── rivelazione progressiva sincronizzata con la narrazione ───────── */
   let rivela = [], timersSch = [];
+  const MOBILE = matchMedia('(max-width:820px),(max-aspect-ratio:1/1)');
   const progRivela = frac => { const n = Math.ceil(frac * rivela.length + 0.0001); rivela.slice(0, n).forEach(el => mostra(el)); };
   const mostra = el => {
     if (el.classList.contains('vis')) return;
     el.classList.add('vis');
     const sc = el.closest('.scroll'); if (sc && el.offsetTop > sc.scrollTop + sc.clientHeight - el.offsetHeight) sc.scrollTo({ top: el.offsetTop - 20, behavior: 'smooth' });
     $$('.commi li.corrente', palco).forEach(x => x.classList.remove('corrente')); if (el.matches('.commi li')) el.classList.add('corrente');
+    // smartphone: la slide scorre in verticale e segue il contenuto che compare con la narrazione
+    if (MOBILE.matches && !el.closest('.full')) { const p = palco.getBoundingClientRect(), r = el.getBoundingClientRect(); if (r.bottom > p.bottom - 12) palco.scrollTo({ top: palco.scrollTop + r.bottom - p.bottom + 24, behavior: 'smooth' }); }
   };
   const avviaRivela = () => {
     rivela = $$('.an,.an-s', palco);
@@ -353,7 +375,7 @@
   const cicloMicro = () => {
     if (ANTEPRIMA) return true;
     const i = st.c, s = S[i], now = Date.now();
-    if (completo(i) || s.t === 'testfinale') { if (MV.pend) chiudiMicro(); return true; }
+    if (completo(i) || s.t === 'testfinale' || SERVIZIO[s.t]) { if (MV.pend) chiudiMicro(); return true; } // R1: nessuna micro-verifica sulle schermate di servizio
     if (MV.pend) {
       const r = 30 - Math.floor((now - MV.pend.t) / 1000); const c = $('#mv-cnt'); if (c) c.textContent = r > 0 ? r + ' s' : 'tempo sospeso';
       return r > 0;

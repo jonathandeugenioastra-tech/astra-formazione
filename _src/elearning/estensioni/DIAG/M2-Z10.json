@@ -1,0 +1,55 @@
+{
+ "dopo": "Titoli di efficienza energetica e incentivi",
+ "schermate": [
+  {
+   "t": "classifica",
+   "tit": "Quale strumento?",
+   "lead": "Seleziona un intervento, poi lo strumento di incentivazione tipico.",
+   "colonne": [
+    "Certificati bianchi",
+    "Conto termico",
+    "Autoconsumo e comunità energetiche"
+   ],
+   "schede": [
+    [
+     "Risparmio misurato su un processo industriale con un progetto a consuntivo",
+     0,
+     "I certificati bianchi premiano risparmi addizionali misurati.",
+     "Corretto."
+    ],
+    [
+     "Sostituzione di una caldaia con una pompa di calore in un edificio",
+     1,
+     "È un intervento tipico del conto termico.",
+     "Corretto."
+    ],
+    [
+     "Impianto fotovoltaico condiviso con imprese vicine",
+     2,
+     "Rientra negli incentivi per l’autoconsumo diffuso.",
+     "Corretto."
+    ],
+    [
+     "Solare termico per l’acqua calda sanitaria",
+     1,
+     "Produzione di energia termica da rinnovabili.",
+     "Corretto."
+    ],
+    [
+     "Recupero di calore da un forno industriale",
+     0,
+     "Risparmio industriale misurabile.",
+     "Corretto."
+    ],
+    [
+     "Configurazione di autoconsumo collettivo in un condominio",
+     2,
+     "È autoconsumo collettivo.",
+     "Corretto."
+    ]
+   ],
+   "nar": "Sei interventi. Indica lo strumento di incentivazione tipicamente collegato, ricordando di verificare sempre i requisiti dei bandi vigenti.",
+   "rif": "GSE · D.M. 21 dicembre 2017 · D.M. 7 dicembre 2023"
+  }
+ ]
+}

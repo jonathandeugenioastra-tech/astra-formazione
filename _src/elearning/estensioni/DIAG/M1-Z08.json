@@ -1,0 +1,56 @@
+{
+ "dopo": "La metodologia UNI CEI EN 16247",
+ "schermate": [
+  {
+   "t": "classifica",
+   "tit": "In quale fase della diagnosi?",
+   "lead": "Seleziona un’attività, poi la fase della UNI CEI EN 16247.",
+   "colonne": [
+    "Avvio",
+    "Raccolta dati e attività in campo",
+    "Analisi",
+    "Rapporto e incontro finale"
+   ],
+   "schede": [
+    [
+     "Concordare obiettivi, perimetro e criteri di valutazione degli interventi",
+     0,
+     "Si definiscono nel contatto preliminare e nell’incontro di avvio.",
+     "Corretto."
+    ],
+    [
+     "Installare analizzatori di rete sulle utenze significative",
+     1,
+     "È attività in campo.",
+     "Corretto."
+    ],
+    [
+     "Costruire il modello energetico e calcolare gli indicatori",
+     2,
+     "È analisi.",
+     "Corretto."
+    ],
+    [
+     "Presentare alla direzione gli interventi prioritari",
+     3,
+     "Avviene nell’incontro finale.",
+     "Corretto."
+    ],
+    [
+     "Intervistare i responsabili di produzione sugli orari",
+     1,
+     "Fa parte della raccolta dati.",
+     "Corretto."
+    ],
+    [
+     "Stimare risparmi e costi degli interventi",
+     2,
+     "È analisi.",
+     "Corretto."
+    ]
+   ],
+   "nar": "Sei attività di una diagnosi energetica. Collocale nella fase giusta della metodologia.",
+   "rif": "UNI CEI EN 16247-1"
+  }
+ ]
+}

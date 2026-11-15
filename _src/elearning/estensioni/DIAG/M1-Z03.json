@@ -1,0 +1,75 @@
+{
+ "dopo": "Chi esegue la diagnosi",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "Il tecnico interno",
+   "scena": "Un’impresa obbligata vuole far eseguire la diagnosi al proprio responsabile tecnico, ingegnere esperto ma non certificato.",
+   "decisioni": [
+    {
+     "dom": "La diagnosi sarà valida?",
+     "opz": [
+      [
+       "No: per gli obbligati serve un soggetto certificato, come un EGE secondo la UNI CEI 11339",
+       true,
+       "Corretto: ESCo, EGE o auditor certificati."
+      ],
+      [
+       "Sì, basta la laurea in ingegneria",
+       false,
+       "La norma richiede la certificazione."
+      ],
+      [
+       "Sì, se firma il legale rappresentante",
+       false,
+       "Non sostituisce la certificazione."
+      ]
+     ]
+    },
+    {
+     "dom": "Qual è una soluzione?",
+     "opz": [
+      [
+       "Il tecnico ottiene la certificazione EGE, oppure si affianca a un soggetto certificato che firma la diagnosi",
+       true,
+       "Corretto: le competenze interne restano preziose."
+      ],
+      [
+       "Si rinvia la diagnosi",
+       false,
+       "La scadenza va rispettata."
+      ],
+      [
+       "Si usa la diagnosi di quattro anni prima",
+       false,
+       "La diagnosi va rifatta."
+      ]
+     ]
+    },
+    {
+     "dom": "L’impresa ha un sistema ISO 50001 certificato. Cambia qualcosa?",
+     "opz": [
+      [
+       "Sì: è esentata se il sistema comprende una diagnosi conforme ai criteri minimi",
+       true,
+       "Corretto."
+      ],
+      [
+       "No, nessuna esenzione",
+       false,
+       "L’esenzione esiste."
+      ],
+      [
+       "È esentata anche senza diagnosi nel sistema",
+       false,
+       "Il sistema deve includere la diagnosi."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "Soggetti certificati per eseguire le diagnosi, competenze interne valorizzate, esenzione con ISO 50001 solo se il sistema include la diagnosi.",
+   "nar": "Chi può firmare la diagnosi? Valuta le opzioni.",
+   "rif": "Art. 8 D.lgs. 102/2014"
+  }
+ ]
+}

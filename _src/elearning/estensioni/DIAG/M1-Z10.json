@@ -1,0 +1,83 @@
+{
+ "dopo": "Il rapporto di diagnosi e la comunicazione all’ENEA",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Rivedere un rapporto di diagnosi",
+   "lead": "Fai la revisione di un rapporto di diagnosi prima del caricamento sul portale ENEA.",
+   "dossier": [
+    [
+     "Periodo",
+     "anno 2026"
+    ],
+    [
+     "Modello energetico",
+     "solo consumi totali per vettore"
+    ],
+    [
+     "Indicatori",
+     "consumo per addetto"
+    ],
+    [
+     "Interventi",
+     "8 interventi elencati, senza costi né risparmi"
+    ],
+    [
+     "Monitoraggio",
+     "non descritto"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Elenca le carenze del rapporto.",
+     "min": 6,
+     "modello": "Manca la ripartizione per aree funzionali e utenze significative; l’indicatore per addetto non rappresenta la produzione; gli interventi non hanno costi, risparmi, tempi di ritorno e priorità; manca la strategia di monitoraggio richiesta dalle linee guida ENEA.",
+     "criteri": [
+      "Ho rilevato il modello incompleto",
+      "Ho criticato l’indicatore",
+      "Ho rilevato interventi e monitoraggio mancanti"
+     ]
+    },
+    {
+     "q": "Quali indicatori proporresti per uno stabilimento produttivo?",
+     "min": 5,
+     "modello": "Consumo specifico per unità di prodotto, ad esempio MWh per tonnellata, per vettore e per area funzionale; indicatori dei servizi ausiliari, come kWh per metro cubo di aria compressa; normalizzazione rispetto a produzione e gradi giorno.",
+     "criteri": [
+      "Ho proposto il consumo specifico",
+      "Ho proposto indicatori dei servizi ausiliari",
+      "Ho previsto la normalizzazione"
+     ]
+    },
+    {
+     "q": "Come completeresti la scheda di un intervento?",
+     "min": 6,
+     "modello": "Descrizione tecnica, situazione attuale e futura, risparmio energetico ed economico annuo, investimento, tempo di ritorno, VAN e analisi del ciclo di vita, incentivi applicabili, priorità e modalità di misura e verifica.",
+     "criteri": [
+      "Ho indicato risparmi e investimento",
+      "Ho indicato gli indicatori economici",
+      "Ho previsto misura e verifica"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio rivedi un rapporto di diagnosi prima del caricamento sul portale ENEA. Individua le carenze, proponi indicatori adatti e completa la scheda di un intervento, poi confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "D.lgs. 102/2014, Allegato 2 · linee guida ENEA"
+  },
+  {
+   "t": "applica",
+   "tit": "La diagnosi nella tua organizzazione",
+   "lead": "Fai il punto sulla situazione energetica della tua organizzazione.",
+   "voci": [
+    "Conosco i consumi per vettore",
+    "Esistono contatori sulle utenze principali",
+    "Abbiamo un indicatore di consumo specifico",
+    "Siamo obbligati alla diagnosi",
+    "Abbiamo nominato l’energy manager",
+    "Gli interventi della diagnosi sono monitorati"
+   ],
+   "campo": "Il primo dato che ti manca e come lo otterresti",
+   "esempio": "Es.: consumo dell’aria compressa → analizzatore di rete sul compressore per due settimane",
+   "min": 3,
+   "nar": "Fai il punto sulla situazione energetica della tua organizzazione e indica il primo dato che ti manca."
+  }
+ ]
+}

@@ -1,0 +1,75 @@
+{
+ "dopo": "L’obbligo di diagnosi energetica (art. 8 D.lgs. 102/2014)",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "La scadenza dimenticata",
+   "scena": "A metà dicembre un’impresa a forte consumo di energia scopre di non aver caricato la diagnosi sul portale ENEA entro il 5 dicembre.",
+   "decisioni": [
+    {
+     "dom": "Che cosa fa subito?",
+     "opz": [
+      [
+       "Completa la diagnosi con un soggetto certificato e la carica al più presto, documentando il ritardo",
+       true,
+       "Corretto: l’obbligo resta e il ritardo va sanato."
+      ],
+      [
+       "Aspetta la prossima scadenza fra quattro anni",
+       false,
+       "L’obbligo non si sposta."
+      ],
+      [
+       "Carica la diagnosi precedente",
+       false,
+       "Non è conforme."
+      ]
+     ]
+    },
+    {
+     "dom": "A che cosa si espone l’impresa?",
+     "opz": [
+      [
+       "Alle sanzioni amministrative dell’art. 16 e ai controlli ENEA, con l’obbligo di eseguire comunque la diagnosi",
+       true,
+       "Corretto."
+      ],
+      [
+       "A nulla",
+       false,
+       "Le sanzioni sono previste."
+      ],
+      [
+       "Solo a un richiamo verbale",
+       false,
+       "Le sanzioni sono pecuniarie."
+      ]
+     ]
+    },
+    {
+     "dom": "Come evita che succeda di nuovo?",
+     "opz": [
+      [
+       "Scadenzario con avvio dell’incarico almeno un anno prima e un responsabile interno",
+       true,
+       "Corretto: la diagnosi richiede mesi di lavoro."
+      ],
+      [
+       "Un promemoria il 1° dicembre",
+       false,
+       "Troppo tardi."
+      ],
+      [
+       "Delegare tutto al consulente senza controllo",
+       false,
+       "La responsabilità resta dell’impresa."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "La diagnosi richiede mesi: chi la avvia per tempo rispetta la scadenza, chi la dimentica deve sanare il ritardo e si espone alle sanzioni.",
+   "nar": "Una scadenza ENEA mancata. Gestisci le conseguenze.",
+   "rif": "Artt. 8 e 16 D.lgs. 102/2014"
+  }
+ ]
+}

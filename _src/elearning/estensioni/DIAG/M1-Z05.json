@@ -1,0 +1,39 @@
+{
+ "dopo": "La nuova direttiva sull’efficienza energetica e il quadro italiano",
+ "schermate": [
+  {
+   "t": "esempio",
+   "tit": "Esempio guidato · Le soglie di 10 e 85 TJ in pratica",
+   "lead": "Dai consumi annui alle soglie della direttiva.",
+   "passi": [
+    [
+     "I consumi",
+     "Energia elettrica 1.800 MWh; gas naturale 250.000 Sm³.",
+     "1.800 MWh · 250.000 Sm³"
+    ],
+    [
+     "Il gas in MWh",
+     "Con circa 9,6 kWh per Sm³: 250.000 × 9,6 = 2.400 MWh.",
+     "2.400 MWh"
+    ],
+    [
+     "Il totale",
+     "1.800 + 2.400 = 4.200 MWh; 1 MWh = 3,6 GJ.",
+     "4.200 × 3,6 = 15.120 GJ ≈ 15,1 TJ"
+    ],
+    [
+     "Le soglie",
+     "Oltre 10 TJ: diagnosi quadriennale; oltre 85 TJ: sistema di gestione dell’energia.",
+     "10 < 15,1 < 85"
+    ],
+    [
+     "La conclusione",
+     "Con il recepimento l’impresa sarebbe tenuta alla diagnosi, non al sistema di gestione.",
+     "Diagnosi sì · ISO 50001 no"
+    ]
+   ],
+   "nar": "Applichiamo le soglie della nuova direttiva. L’impresa consuma milleottocento megawattora di elettricità e duecentocinquantamila metri cubi standard di gas, circa duemilaquattrocento megawattora. Il totale è quattromiladuecento megawattora, circa quindici terajoule. Supera i dieci terajoule, quindi sarebbe tenuta alla diagnosi; resta sotto gli ottantacinque, quindi non al sistema di gestione.",
+   "rif": "Direttiva (UE) 2023/1791, art. 11"
+  }
+ ]
+}

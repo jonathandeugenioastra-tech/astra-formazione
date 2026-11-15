@@ -1,0 +1,75 @@
+{
+ "dopo": "Misura e verifica dei risparmi (ISO 50015 e ISO 50047)",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Il piano di misura e verifica",
+   "lead": "Prepari il piano di misura e verifica per l’installazione di un inverter sul ventilatore di un forno.",
+   "dossier": [
+    [
+     "Prima dell’intervento",
+     "3 mesi di misure: assorbimento medio 30 kW, produzione 500 t al mese"
+    ],
+    [
+     "Dopo l’intervento",
+     "3 mesi di misure: assorbimento medio 21 kW, produzione 560 t al mese"
+    ],
+    [
+     "Ore di funzionamento",
+     "500 al mese, invariate"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Definisci confine di misura, periodi e variabili.",
+     "min": 5,
+     "modello": "Confine: il ventilatore del forno con il suo azionamento. Periodo di riferimento: tre mesi prima; periodo di rendicontazione: tre mesi dopo. Variabili: produzione e ore di funzionamento; fattori statici: configurazione del forno.",
+     "criteri": [
+      "Ho definito il confine",
+      "Ho definito i periodi",
+      "Ho indicato variabili e fattori statici"
+     ]
+    },
+    {
+     "q": "Calcola il risparmio mensile normalizzato, ipotizzando che il consumo del ventilatore cresca in proporzione alla produzione.",
+     "min": 7,
+     "modello": "Consumo di riferimento normalizzato: 30 kW × 500 h × 560/500 = 16.800 kWh. Consumo effettivo: 21 × 500 = 10.500 kWh. Risparmio: 6.300 kWh al mese. Senza normalizzazione si sarebbe stimato 4.500 kWh: la normalizzazione cambia il risultato.",
+     "criteri": [
+      "Ho normalizzato sulla produzione",
+      "Ho calcolato 6.300 kWh",
+      "Ho confrontato con il valore non normalizzato"
+     ]
+    },
+    {
+     "q": "Come dichiari l’incertezza e documenti il risultato?",
+     "min": 5,
+     "modello": "Si indicano la precisione degli strumenti, la rappresentatività dei periodi e l’ipotesi di proporzionalità; si documentano dati, metodo e aggiustamenti in un rapporto coerente con la ISO 50015, utile anche per eventuali incentivi.",
+     "criteri": [
+      "Ho indicato le fonti di incertezza",
+      "Ho documentato metodo e aggiustamenti"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio prepari il piano di misura e verifica di un inverter su un ventilatore. Definisci confine, periodi e variabili, calcola il risparmio normalizzato e indica come dichiarare l’incertezza, poi confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "UNI CEI EN ISO 50015 · ISO 50047"
+  },
+  {
+   "t": "applica",
+   "tit": "Il tuo primo intervento di efficienza",
+   "lead": "Scegli l’intervento da proporre per primo nella tua organizzazione.",
+   "voci": [
+    "Ricerca delle perdite di aria compressa",
+    "Riduzione della pressione di rete",
+    "Inverter su pompe e ventilatori",
+    "Illuminazione LED con sensori",
+    "Recupero di calore",
+    "Spegnimento delle utenze a vuoto",
+    "Piano di misura sulle utenze significative"
+   ],
+   "campo": "L’intervento scelto, il risparmio atteso e come lo verificherai",
+   "esempio": "Es.: ricerca perdite, 15% dell’energia dei compressori, verifica con prova a impianto fermo",
+   "min": 3,
+   "nar": "Scegli il primo intervento di efficienza da proporre nella tua organizzazione e indica risparmio atteso e modalità di verifica."
+  }
+ ]
+}

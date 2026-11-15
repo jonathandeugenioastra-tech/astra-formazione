@@ -1,0 +1,58 @@
+{
+ "dopo": "Strategia di monitoraggio e modello energetico",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Il piano di misura",
+   "lead": "Prepari il piano di misura di uno stabilimento di stampaggio plastico.",
+   "dossier": [
+    [
+     "Contatori presenti",
+     "contatore generale elettrico; contatore gas generale"
+    ],
+    [
+     "Utenze significative",
+     "presse a iniezione, compressori, gruppi frigo, centrale termica"
+    ],
+    [
+     "Budget",
+     "limitato: 8 punti di misura"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Dove installi gli 8 punti di misura e perché?",
+     "min": 7,
+     "modello": "Presse a iniezione, raggruppate per linea, perché sono l’attività principale; compressori, frigo e centrale termica, perché sono servizi ausiliari significativi; un punto per i servizi generali; il resto per differenza. Priorità alle utenze con consumo maggiore e a quelle con potenziale di risparmio.",
+     "criteri": [
+      "Ho coperto le attività principali",
+      "Ho coperto i servizi ausiliari",
+      "Ho motivato le priorità"
+     ]
+    },
+    {
+     "q": "Quali variabili rilevanti registri insieme ai consumi?",
+     "min": 5,
+     "modello": "Produzione in tonnellate o pezzi, ore di funzionamento, gradi giorno per la climatizzazione, temperatura dell’acqua di raffreddamento, pressione della rete dell’aria compressa.",
+     "criteri": [
+      "Ho indicato la produzione",
+      "Ho indicato i gradi giorno",
+      "Ho indicato variabili di processo"
+     ]
+    },
+    {
+     "q": "Come verifichi la chiusura del bilancio?",
+     "min": 5,
+     "modello": "Si confronta la somma dei consumi misurati e stimati con il contatore generale: lo scostamento dovrebbe restare entro pochi punti percentuali, ad esempio sotto il 5%; se è maggiore si cercano utenze non censite o errori di stima.",
+     "criteri": [
+      "Ho confrontato con il contatore generale",
+      "Ho indicato una soglia di scostamento",
+      "Ho previsto la ricerca delle cause"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio prepari il piano di misura di uno stabilimento con un budget limitato. Scegli dove misurare, quali variabili rilevanti registrare e come verificare la chiusura del bilancio, poi confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "Linee guida ENEA · UNI CEI EN 16247-3"
+  }
+ ]
+}

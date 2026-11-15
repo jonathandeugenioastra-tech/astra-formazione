@@ -1,0 +1,75 @@
+{
+ "dopo": "Sistemi termici, recupero di calore e cogenerazione",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "Il calore del compressore",
+   "scena": "Un’impresa ha compressori raffreddati ad aria per 150 kW elettrici complessivi e una caldaia a gas che produce acqua calda di processo a 60 °C tutto l’anno.",
+   "decisioni": [
+    {
+     "dom": "Che cosa proponi?",
+     "opz": [
+      [
+       "Recuperare il calore dei compressori per preriscaldare l’acqua di processo",
+       true,
+       "Corretto: gran parte dell’energia assorbita da un compressore diventa calore recuperabile."
+      ],
+      [
+       "Aumentare la potenza della caldaia",
+       false,
+       "Aumenta i consumi."
+      ],
+      [
+       "Raffreddare di più i compressori",
+       false,
+       "Spreca il calore."
+      ]
+     ]
+    },
+    {
+     "dom": "Perché l’intervento è particolarmente adatto qui?",
+     "opz": [
+      [
+       "Perché c’è un’utenza termica costante tutto l’anno a temperatura compatibile",
+       true,
+       "Corretto: la contemporaneità tra calore disponibile e domanda decide il risparmio."
+      ],
+      [
+       "Perché il gas è gratuito",
+       false,
+       "Non è così."
+      ],
+      [
+       "Non è adatto",
+       false,
+       "Le condizioni sono favorevoli."
+      ]
+     ]
+    },
+    {
+     "dom": "Come verifichi il risparmio dopo l’intervento?",
+     "opz": [
+      [
+       "Misurando il calore recuperato con un contatore di energia termica e il minor consumo di gas, normalizzato sulla produzione",
+       true,
+       "Corretto: misura e verifica con variabili normalizzate."
+      ],
+      [
+       "Con la bolletta di un mese",
+       false,
+       "Non tiene conto delle variabili."
+      ],
+      [
+       "Non serve verificare",
+       false,
+       "La verifica è essenziale, anche per gli incentivi."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "Calore disponibile e domanda termica contemporanea fanno del recupero dai compressori uno degli interventi più convenienti, da verificare con misure normalizzate.",
+   "nar": "Compressori e caldaia nello stesso stabilimento. Trova l’opportunità.",
+   "rif": "UNI CEI EN 16247-3 · UNI CEI EN ISO 50015"
+  }
+ ]
+}

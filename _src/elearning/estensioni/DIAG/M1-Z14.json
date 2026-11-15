@@ -1,0 +1,54 @@
+{
+ "dopo": "La metodologia UNI CEI EN 16247",
+ "schermate": [
+  {
+   "t": "classifica",
+   "tit": "Variabile rilevante o fattore statico?",
+   "lead": "Seleziona un elemento, poi la colonna.",
+   "colonne": [
+    "Variabile rilevante",
+    "Fattore statico"
+   ],
+   "schede": [
+    [
+     "Tonnellate prodotte al mese",
+     0,
+     "Cambia di routine e influenza il consumo.",
+     "Corretto."
+    ],
+    [
+     "Gradi giorno di riscaldamento",
+     0,
+     "Variano con il clima.",
+     "Corretto."
+    ],
+    [
+     "Superficie riscaldata dello stabilimento",
+     1,
+     "Di norma non cambia: se cambia, si aggiusta la baseline.",
+     "Corretto."
+    ],
+    [
+     "Numero di turni di lavoro stabilito",
+     1,
+     "È una condizione stabile; se cambia serve un aggiustamento.",
+     "Corretto."
+    ],
+    [
+     "Ore di funzionamento delle linee",
+     0,
+     "Variano e influenzano il consumo.",
+     "Corretto."
+    ],
+    [
+     "Tipologia di prodotto realizzato",
+     1,
+     "Se il mix cambia radicalmente serve un aggiustamento.",
+     "Corretto."
+    ]
+   ],
+   "nar": "Sei elementi che influenzano i consumi. Distingui le variabili rilevanti dai fattori statici.",
+   "rif": "UNI ISO 50006"
+  }
+ ]
+}

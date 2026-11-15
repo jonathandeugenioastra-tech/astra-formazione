@@ -1,0 +1,66 @@
+{
+ "dopo": "Aria compressa: perdite, pressione e recupero di calore",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · La caccia alle perdite",
+   "lead": "Valuti la rete dell’aria compressa di uno stabilimento.",
+   "dossier": [
+    [
+     "Compressore",
+     "75 kW, a velocità fissa, pressione di rete 8 bar"
+    ],
+    [
+     "Prova a impianto fermo",
+     "nel fine settimana, con produzione ferma, il compressore lavora a carico per il 35% del tempo"
+    ],
+    [
+     "Ore annue di funzionamento della rete",
+     "6.000"
+    ],
+    [
+     "Prezzo dell’energia",
+     "0,20 €/kWh"
+    ],
+    [
+     "Utenza più esigente",
+     "6 bar"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Stima il costo annuo delle perdite.",
+     "min": 7,
+     "modello": "A impianto fermo il compressore alimenta solo le perdite: circa 35% di 75 kW ≈ 26 kW. Su 6.000 ore: 26 × 6.000 ≈ 158.000 kWh, circa 31.500 € l’anno.",
+     "criteri": [
+      "Ho usato la prova a impianto fermo",
+      "Ho calcolato circa 158 MWh",
+      "Ho calcolato il costo"
+     ]
+    },
+    {
+     "q": "Quanto vale ridurre la pressione da 8 a 7 bar?",
+     "min": 5,
+     "modello": "Circa 6-7% di energia per bar: sul consumo del compressore, ad esempio 300 MWh l’anno, circa 20 MWh, cioè 4.000 € l’anno, se l’utenza a 6 bar resta servita con margine.",
+     "criteri": [
+      "Ho applicato il 6-7% per bar",
+      "Ho stimato il risparmio",
+      "Ho verificato l’utenza più esigente"
+     ]
+    },
+    {
+     "q": "Proponi un piano d’intervento.",
+     "min": 6,
+     "modello": "Ricerca delle perdite con ultrasuoni e riparazione, ripetuta periodicamente; riduzione della pressione; chiusura delle linee non usate; compressore a velocità variabile o gestione coordinata; recupero di calore per acqua calda o riscaldamento; misura continua dei consumi.",
+     "criteri": [
+      "Ho previsto la ricerca periodica delle perdite",
+      "Ho previsto pressione e regolazione",
+      "Ho previsto il recupero di calore"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio valuti la rete dell’aria compressa. Stima il costo delle perdite con la prova a impianto fermo, calcola il valore della riduzione di pressione e proponi un piano d’intervento, poi confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "Linee guida ENEA · buone pratiche di efficienza energetica"
+  }
+ ]
+}

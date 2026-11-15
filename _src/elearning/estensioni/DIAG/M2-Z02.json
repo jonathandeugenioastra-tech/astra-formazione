@@ -1,0 +1,58 @@
+{
+ "dopo": "Baseline e indicatori di prestazione energetica (ISO 50006)",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Normalizzare il consumo",
+   "lead": "Uno stabilimento ha una baseline elettrica ricavata dalla regressione dei dati mensili: E = 120 MWh + 0,35 MWh/t × produzione.",
+   "dossier": [
+    [
+     "Mese in esame",
+     "produzione 900 t; consumo effettivo 470 MWh"
+    ],
+    [
+     "Mese di confronto dell’anno precedente",
+     "produzione 700 t; consumo 365 MWh"
+    ],
+    [
+     "Coefficiente R²",
+     "0,86"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Calcola il consumo atteso del mese in esame e lo scostamento.",
+     "min": 6,
+     "modello": "Atteso: 120 + 0,35 × 900 = 435 MWh. Scostamento: 470 − 435 = +35 MWh, circa +8%: la prestazione è peggiorata rispetto alla baseline.",
+     "criteri": [
+      "Ho calcolato 435 MWh",
+      "Ho calcolato +35 MWh",
+      "Ho interpretato il peggioramento"
+     ]
+    },
+    {
+     "q": "Perché il semplice confronto con l’anno precedente è fuorviante?",
+     "min": 5,
+     "modello": "Perché la produzione è diversa: 470 contro 365 MWh sembrerebbe un peggioramento del 29%, ma gran parte dipende dalle 200 t in più. Solo la normalizzazione separa l’effetto della produzione da quello dell’efficienza. Inoltre il consumo specifico cala con la produzione per effetto della quota fissa di 120 MWh.",
+     "criteri": [
+      "Ho spiegato l’effetto della produzione",
+      "Ho citato la quota fissa",
+      "Ho motivato la normalizzazione"
+     ]
+    },
+    {
+     "q": "Il modello è affidabile? Che cosa controlli?",
+     "min": 5,
+     "modello": "Un R² di 0,86 indica un buon adattamento; si verificano anche il numero di dati, la significatività dei coefficienti, i residui e che le condizioni del mese siano nel campo di validità del modello. Il modello va aggiornato se cambiano impianti o processi.",
+     "criteri": [
+      "Ho interpretato R²",
+      "Ho citato altri controlli statistici",
+      "Ho previsto l’aggiornamento del modello"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio usi una baseline ottenuta per regressione per valutare la prestazione di un mese. Calcola il consumo atteso e lo scostamento, spiega perché il confronto semplice è fuorviante e verifica l’affidabilità del modello, poi confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "UNI ISO 50006"
+  }
+ ]
+}

@@ -1,0 +1,55 @@
+{
+ "dopo": "Che cos’è una diagnosi energetica",
+ "schermate": [
+  {
+   "t": "classifica",
+   "tit": "Diagnosi, APE o sistema di gestione?",
+   "lead": "Seleziona una caratteristica, poi lo strumento a cui appartiene.",
+   "colonne": [
+    "Diagnosi energetica",
+    "Attestato di prestazione energetica",
+    "Sistema di gestione ISO 50001"
+   ],
+   "schede": [
+    [
+     "Valuta interventi con risparmi e costi sull’intero sito produttivo",
+     0,
+     "È il risultato tipico della diagnosi.",
+     "Corretto."
+    ],
+    [
+     "Classifica l’edificio in condizioni standard",
+     1,
+     "L’APE certifica l’edificio in condizioni convenzionali.",
+     "Corretto."
+    ],
+    [
+     "Prevede obiettivi annuali, audit interni e riesame della direzione",
+     2,
+     "È un sistema di gestione continuo.",
+     "Corretto."
+    ],
+    [
+     "Si esegue ogni quattro anni per gli obbligati",
+     0,
+     "Periodicità dell’art. 8.",
+     "Corretto."
+    ],
+    [
+     "Serve per vendere o affittare un immobile",
+     1,
+     "È il campo dell’APE.",
+     "Corretto."
+    ],
+    [
+     "Richiede la certificazione di parte terza del sistema",
+     2,
+     "Riguarda la ISO 50001.",
+     "Corretto."
+    ]
+   ],
+   "nar": "Sei caratteristiche. Attribuiscile alla diagnosi energetica, all’attestato di prestazione energetica o al sistema di gestione dell’energia.",
+   "rif": "D.lgs. 102/2014 · UNI CEI EN 16247-1 · UNI CEI EN ISO 50001"
+  }
+ ]
+}

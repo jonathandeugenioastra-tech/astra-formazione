@@ -1,0 +1,61 @@
+{
+ "dopo": "L’obbligo di diagnosi energetica (art. 8 D.lgs. 102/2014)",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Chi è obbligato?",
+   "lead": "Verifica l’obbligo di diagnosi per tre imprese clienti.",
+   "dossier": [
+    [
+     "Impresa A",
+     "180 occupati, fatturato 62 milioni, bilancio 48 milioni"
+    ],
+    [
+     "Impresa B",
+     "310 occupati, fatturato 40 milioni"
+    ],
+    [
+     "Impresa C",
+     "90 occupati, iscritta nell’elenco CSEA delle imprese a forte consumo di energia"
+    ],
+    [
+     "Impresa D",
+     "120 occupati, fatturato 30 milioni, non iscritta alla CSEA"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Stabilisci per ciascuna se è obbligata e perché.",
+     "min": 7,
+     "modello": "A: grande impresa, perché fatturato oltre 50 milioni e bilancio oltre 43 milioni, anche con meno di 250 occupati: obbligata. B: grande impresa per numero di occupati: obbligata. C: impresa a forte consumo iscritta alla CSEA: obbligata. D: non è grande impresa né energivora: non obbligata dal D.lgs. 102/2014.",
+     "criteri": [
+      "Ho applicato i criteri di grande impresa",
+      "Ho considerato l’iscrizione CSEA",
+      "Ho escluso correttamente l’impresa D"
+     ]
+    },
+    {
+     "q": "Entro quando e come si adempie?",
+     "min": 5,
+     "modello": "Diagnosi ogni quattro anni, eseguita da un soggetto certificato, caricata sul portale ENEA entro il 5 dicembre dell’anno d’obbligo; la prossima scadenza è il 5 dicembre 2027.",
+     "criteri": [
+      "Ho indicato la periodicità",
+      "Ho indicato il portale ENEA e il 5 dicembre",
+      "Ho indicato il 2027"
+     ]
+    },
+    {
+     "q": "Quale obbligo aggiuntivo ha l’impresa C?",
+     "min": 5,
+     "modello": "Come energivora deve attuare almeno uno degli interventi individuati nella diagnosi oppure adottare un sistema di gestione ISO 50001. La nuova direttiva introdurrà soglie basate sui consumi, da 10 TJ l’anno, quando sarà recepita.",
+     "criteri": [
+      "Ho indicato l’obbligo di attuare un intervento o la ISO 50001",
+      "Ho richiamato le soglie della nuova direttiva"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio verifichi l’obbligo di diagnosi per quattro imprese. Applica i criteri di grande impresa e di impresa energivora, indica scadenze e modalità e l’obbligo aggiuntivo degli energivori, poi confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "Art. 8 D.lgs. 102/2014 · Racc. 2003/361/CE"
+  }
+ ]
+}

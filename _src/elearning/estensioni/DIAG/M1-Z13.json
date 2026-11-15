@@ -1,0 +1,75 @@
+{
+ "dopo": "Grandi imprese, energivori e imprese multisito",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "L’energivora e gli interventi",
+   "scena": "Un’impresa iscritta alla CSEA ha consegnato la diagnosi con dodici interventi, ma non ne ha realizzato nessuno.",
+   "decisioni": [
+    {
+     "dom": "È in regola?",
+     "opz": [
+      [
+       "No: l’impresa energivora deve attuare almeno uno degli interventi individuati oppure adottare un sistema ISO 50001",
+       true,
+       "Corretto."
+      ],
+      [
+       "Sì, la diagnosi basta",
+       false,
+       "Per le energivore c’è un obbligo ulteriore."
+      ],
+      [
+       "Sì, se gli interventi sono costosi",
+       false,
+       "Non è un’esimente."
+      ]
+     ]
+    },
+    {
+     "dom": "Quale intervento sceglieresti di attuare per primo?",
+     "opz": [
+      [
+       "Uno con tempo di ritorno breve, risparmio verificabile e basso rischio tecnico",
+       true,
+       "Corretto: ad esempio perdite dell’aria compressa o inverter."
+      ],
+      [
+       "Il più costoso, per dimostrare impegno",
+       false,
+       "Non è un criterio."
+      ],
+      [
+       "Uno qualsiasi, senza misure",
+       false,
+       "Il risparmio va dimostrato."
+      ]
+     ]
+    },
+    {
+     "dom": "Come lo dimostri?",
+     "opz": [
+      [
+       "Con un piano di misura e verifica e la documentazione dell’intervento",
+       true,
+       "Corretto."
+      ],
+      [
+       "Con una dichiarazione del fornitore",
+       false,
+       "Non basta."
+      ],
+      [
+       "Non serve dimostrarlo",
+       false,
+       "Va documentato."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "Per le imprese energivore la diagnosi non basta: almeno un intervento va realizzato e documentato, oppure va adottato un sistema di gestione certificato.",
+   "nar": "Un’impresa energivora che non ha attuato nulla. Valuta e decidi.",
+   "rif": "Art. 8, c. 3, D.lgs. 102/2014"
+  }
+ ]
+}

@@ -1,0 +1,39 @@
+{
+ "dopo": "La cogenerazione ad alto rendimento",
+ "schermate": [
+  {
+   "t": "esempio",
+   "tit": "Esempio guidato · Il risparmio di energia primaria (PES)",
+   "lead": "Un cogeneratore a gas da 1,5 MW elettrici.",
+   "passi": [
+    [
+     "I rendimenti",
+     "Rendimento elettrico 38%, rendimento termico utile 45%.",
+     "ηel 0,38 · ηth 0,45"
+    ],
+    [
+     "I riferimenti",
+     "Rendimenti di riferimento indicativi della produzione separata: 53% per l’elettricità, 92% per il calore.",
+     "0,53 · 0,92"
+    ],
+    [
+     "Il calcolo",
+     "PES = 1 − 1 / (0,45/0,92 + 0,38/0,53) = 1 − 1 / (0,489 + 0,717).",
+     "1 − 1/1,206"
+    ],
+    [
+     "Il risultato",
+     "PES ≈ 17%.",
+     "≈ 17%"
+    ],
+    [
+     "La qualifica",
+     "Sopra 1 MW serve un PES di almeno il 10%: l’unità è ad alto rendimento, a condizione che il calore sia utilmente impiegato.",
+     "CAR se il calore è usato"
+    ]
+   ],
+   "nar": "Calcoliamo il risparmio di energia primaria di un cogeneratore da un megawatt e mezzo. Con rendimento elettrico del trentotto per cento e termico del quarantacinque, e riferimenti indicativi del cinquantatré e del novantadue per cento, il PES vale circa diciassette per cento. Sopra un megawatt serve almeno il dieci: l’unità è ad alto rendimento, purché il calore sia davvero utilizzato.",
+   "rif": "D.lgs. 20/2007 · D.M. 4 agosto 2011 · Reg. delegato (UE) 2015/2402"
+  }
+ ]
+}

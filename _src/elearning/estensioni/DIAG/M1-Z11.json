@@ -1,0 +1,58 @@
+{
+ "dopo": "La metodologia UNI CEI EN 16247",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Pianificare la diagnosi",
+   "lead": "Sei l’EGE incaricato della diagnosi di uno stabilimento alimentare obbligato, con scadenza il 5 dicembre 2027.",
+   "dossier": [
+    [
+     "Stabilimento",
+     "produzione di sughi pronti, 3 turni, cottura a vapore, celle frigorifere, linee di confezionamento"
+    ],
+    [
+     "Dati disponibili",
+     "bollette mensili, un contatore sulla centrale frigorifera"
+    ],
+    [
+     "Incarico",
+     "firmato a febbraio 2027"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Prepara il calendario delle fasi con i mesi indicativi.",
+     "min": 6,
+     "modello": "Febbraio: incontro di avvio con obiettivi, perimetro e criteri economici. Marzo-maggio: raccolta dati e campagna di misure su vapore, frigo, aria compressa e linee. Giugno-agosto: modello energetico, indicatori, interventi. Settembre: rapporto e incontro finale. Ottobre-novembre: margine per correzioni e caricamento sul portale ENEA prima del 5 dicembre.",
+     "criteri": [
+      "Ho seguito le fasi della norma",
+      "Ho previsto una campagna di misure",
+      "Ho lasciato margine prima della scadenza"
+     ]
+    },
+    {
+     "q": "Quali dati e documenti chiedi all’impresa?",
+     "min": 6,
+     "modello": "Consumi per vettore dell’anno di riferimento con profili orari elettrici; dati di produzione mensili; schemi degli impianti e potenze; ore di funzionamento; contratti di fornitura; interventi già realizzati; eventuali diagnosi precedenti.",
+     "criteri": [
+      "Ho chiesto consumi e profili",
+      "Ho chiesto dati di produzione",
+      "Ho chiesto dati impiantistici"
+     ]
+    },
+    {
+     "q": "Quali utenze misuri durante la campagna e perché?",
+     "min": 5,
+     "modello": "Generatore di vapore e utenze di cottura, celle frigorifere e compressori frigoriferi, aria compressa, linee di confezionamento: sono le utenze significative di un’industria alimentare e dove si concentrano i risparmi.",
+     "criteri": [
+      "Ho individuato le utenze termiche",
+      "Ho individuato il freddo",
+      "Ho motivato la scelta"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio pianifichi una diagnosi in uno stabilimento alimentare. Prepara il calendario delle fasi, la richiesta di dati e la campagna di misure, poi confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "UNI CEI EN 16247-1 e 16247-3"
+  }
+ ]
+}

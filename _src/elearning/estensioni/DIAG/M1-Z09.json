@@ -1,0 +1,58 @@
+{
+ "dopo": "Diagnosi energetica e sistema di gestione dell’energia: elementi distintivi",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Diagnosi o ISO 50001?",
+   "lead": "Consigli la direzione di un gruppo industriale sulla strategia energetica.",
+   "dossier": [
+    [
+     "Consumi",
+     "circa 120 TJ l’anno su due stabilimenti"
+    ],
+    [
+     "Situazione",
+     "diagnosi eseguite nel 2019 e nel 2023, interventi attuati solo in parte"
+    ],
+    [
+     "Obiettivi",
+     "ridurre i costi e rendicontare la sostenibilità"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Con la nuova direttiva che cosa sarà richiesto al gruppo?",
+     "min": 5,
+     "modello": "Con consumi oltre 85 TJ l’anno la direttiva prevede l’obbligo di un sistema di gestione dell’energia certificato; il sistema, se include una diagnosi conforme, esenta dalla diagnosi quadriennale.",
+     "criteri": [
+      "Ho applicato la soglia di 85 TJ",
+      "Ho indicato il sistema di gestione",
+      "Ho indicato l’esenzione"
+     ]
+    },
+    {
+     "q": "Quali vantaggi ha il sistema rispetto alle sole diagnosi?",
+     "min": 6,
+     "modello": "Gestione continua invece di una fotografia ogni quattro anni; obiettivi e indicatori annuali; responsabilità e risorse definite; audit interni e riesame; migliore attuazione degli interventi; dati affidabili per la rendicontazione di sostenibilità.",
+     "criteri": [
+      "Ho indicato la continuità",
+      "Ho indicato obiettivi e responsabilità",
+      "Ho collegato la rendicontazione"
+     ]
+    },
+    {
+     "q": "Proponi un percorso in tre tappe.",
+     "min": 6,
+     "modello": "1: analisi iniziale e politica energetica, partendo dalla diagnosi 2023; 2: piano di misura, indicatori e baseline, obiettivi e piano d’azione; 3: audit interno, riesame e certificazione di parte terza, con il primo ciclo di miglioramento.",
+     "criteri": [
+      "Ho previsto l’analisi iniziale",
+      "Ho previsto indicatori e baseline",
+      "Ho previsto audit e certificazione"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio consigli la direzione di un gruppo industriale che consuma centoventi terajoule l’anno. Stabilisci che cosa richiederà la nuova direttiva, i vantaggi del sistema di gestione e un percorso in tre tappe, poi confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "Direttiva (UE) 2023/1791 · UNI CEI EN ISO 50001"
+  }
+ ]
+}

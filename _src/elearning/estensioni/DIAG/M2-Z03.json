@@ -1,0 +1,62 @@
+{
+ "dopo": "Esempio applicativo: il modello energetico di uno stabilimento",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Il modello energetico di una cartotecnica",
+   "lead": "Costruisci il modello energetico elettrico di una cartotecnica.",
+   "dossier": [
+    [
+     "Totale annuo",
+     "1.600 MWh dal contatore generale"
+    ],
+    [
+     "Misurati",
+     "linee di stampa 620 MWh; fustellatrici 240 MWh; aria compressa 210 MWh"
+    ],
+    [
+     "Stimati",
+     "aspirazione rifili 180 MWh; illuminazione 150 MWh; climatizzazione uffici 70 MWh; altro 60 MWh"
+    ],
+    [
+     "Produzione",
+     "4.000 t"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Ripartisci i consumi nelle tre aree funzionali con le percentuali.",
+     "min": 6,
+     "modello": "Attività principali, stampa e fustellatura: 860 MWh, circa 54%. Servizi ausiliari, aria compressa e aspirazione: 390 MWh, circa 24%. Servizi generali, illuminazione, climatizzazione e altro: 280 MWh, circa 18%. Totale 1.530 MWh.",
+     "criteri": [
+      "Ho raggruppato per aree funzionali",
+      "Ho calcolato le percentuali",
+      "Ho sommato 1.530 MWh"
+     ]
+    },
+    {
+     "q": "Verifica la chiusura del bilancio e calcola l’indicatore.",
+     "min": 5,
+     "modello": "Scostamento: 1.600 − 1.530 = 70 MWh, circa 4,4%: accettabile se sotto il 5%. Indicatore: 1.600 MWh / 4.000 t = 0,40 MWh/t.",
+     "criteri": [
+      "Ho calcolato lo scostamento",
+      "Ho confrontato con la soglia",
+      "Ho calcolato 0,40 MWh/t"
+     ]
+    },
+    {
+     "q": "Dove cercheresti per primi i risparmi?",
+     "min": 6,
+     "modello": "Aria compressa e aspirazione, che insieme fanno un quarto dei consumi e hanno spesso margini ampi: perdite, pressione, inverter sui ventilatori e regolazione in base all’uso. Poi l’illuminazione con LED e sensori. Infine i consumi a vuoto delle linee nelle pause.",
+     "criteri": [
+      "Ho indicato i servizi ausiliari",
+      "Ho proposto interventi concreti",
+      "Ho considerato i consumi a vuoto"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio costruisci il modello energetico elettrico di una cartotecnica. Ripartisci i consumi per aree funzionali, verifica la chiusura del bilancio e calcola l’indicatore, poi individua dove cercare i risparmi. Confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "UNI CEI EN 16247-3 · linee guida ENEA"
+  }
+ ]
+}

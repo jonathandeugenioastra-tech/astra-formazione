@@ -1,0 +1,83 @@
+{
+ "dopo": "Sistemi elettrici: motori, inverter, rifasamento, aria compressa",
+ "schermate": [
+  {
+   "t": "classifica",
+   "tit": "Quale legge di affinità?",
+   "lead": "Seleziona una grandezza, poi come varia con la velocità di una pompa centrifuga.",
+   "colonne": [
+    "Proporzionale alla velocità",
+    "Al quadrato della velocità",
+    "Al cubo della velocità"
+   ],
+   "schede": [
+    [
+     "Portata",
+     0,
+     "Q è proporzionale a n.",
+     "Corretto."
+    ],
+    [
+     "Prevalenza",
+     1,
+     "H è proporzionale a n².",
+     "Corretto."
+    ],
+    [
+     "Potenza assorbita",
+     2,
+     "P è proporzionale a n³.",
+     "Corretto."
+    ],
+    [
+     "Con velocità all’80%: la potenza scende a circa il 51%",
+     2,
+     "0,8³ ≈ 0,51.",
+     "Corretto."
+    ],
+    [
+     "Con velocità all’80%: la prevalenza scende al 64%",
+     1,
+     "0,8² = 0,64.",
+     "Corretto."
+    ],
+    [
+     "Con velocità all’80%: la portata scende all’80%",
+     0,
+     "Varia linearmente.",
+     "Corretto."
+    ]
+   ],
+   "nar": "Sei relazioni tra velocità e grandezze di una pompa centrifuga. Collocale nella legge di affinità corretta.",
+   "rif": "Leggi di affinità delle turbomacchine"
+  },
+  {
+   "t": "vf",
+   "tit": "Ripasso · Efficienza industriale",
+   "voci": [
+    [
+     "Ridurre la pressione dell’aria compressa di 1 bar fa risparmiare circa il 6-7% dell’energia del compressore.",
+     true,
+     "Vero."
+    ],
+    [
+     "Il tempo di ritorno semplice tiene conto del valore del denaro nel tempo.",
+     false,
+     "Falso: lo fa il VAN."
+    ],
+    [
+     "Un cogeneratore oltre 1 MW è ad alto rendimento con un PES di almeno il 10%.",
+     true,
+     "Vero."
+    ],
+    [
+     "L’inverter fa risparmiare anche su una pompa sempre a portata nominale.",
+     false,
+     "Falso: senza riduzione di velocità il risparmio è nullo o minimo."
+    ]
+   ],
+   "nar": "Ripasso: quattro affermazioni sull’efficienza industriale.",
+   "rif": "D.lgs. 102/2014 · UNI CEI EN 16247"
+  }
+ ]
+}

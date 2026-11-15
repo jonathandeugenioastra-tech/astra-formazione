@@ -1,0 +1,65 @@
+{
+ "dopo": "VAN, TIR e tempo di ritorno",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Valutare un intervento con VAN e TIR",
+   "lead": "Valuti un intervento di efficienza per la direzione.",
+   "dossier": [
+    [
+     "Investimento",
+     "40.000 €"
+    ],
+    [
+     "Risparmio annuo netto",
+     "9.000 €"
+    ],
+    [
+     "Vita utile",
+     "8 anni"
+    ],
+    [
+     "Tasso di attualizzazione",
+     "6%"
+    ],
+    [
+     "Fattore di attualizzazione di una rendita a 8 anni al 6%",
+     "6,210"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Calcola il tempo di ritorno semplice.",
+     "min": 4,
+     "modello": "40.000 / 9.000 ≈ 4,4 anni.",
+     "criteri": [
+      "Ho diviso investimento per risparmio",
+      "Ho ottenuto circa 4,4 anni"
+     ]
+    },
+    {
+     "q": "Calcola il VAN e interpretalo.",
+     "min": 7,
+     "modello": "Valore attuale dei risparmi: 9.000 × 6,210 = 55.890 €. VAN = 55.890 − 40.000 = 15.890 €. Essendo positivo, l’intervento crea valore al tasso del 6%.",
+     "criteri": [
+      "Ho attualizzato i risparmi",
+      "Ho calcolato circa 15.900 €",
+      "Ho interpretato il segno del VAN"
+     ]
+    },
+    {
+     "q": "Stima il TIR e formula una raccomandazione.",
+     "min": 6,
+     "modello": "Il TIR è il tasso per cui il valore attuale dei risparmi è 40.000 €, cioè fattore di rendita 4,44: a 8 anni corrisponde a circa il 15%. È ben superiore al 6%: l’intervento è raccomandabile, verificando incentivi, manutenzione e incertezza dei risparmi.",
+     "criteri": [
+      "Ho impostato il TIR",
+      "Ho stimato circa il 15%",
+      "Ho formulato una raccomandazione"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio valuti economicamente un intervento di efficienza. Calcola il tempo di ritorno, il valore attuale netto e una stima del tasso interno di rendimento, poi formula una raccomandazione. Confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "UNI CEI EN 16247-1 · D.lgs. 102/2014, Allegato 2"
+  }
+ ]
+}

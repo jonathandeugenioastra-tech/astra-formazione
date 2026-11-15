@@ -1,0 +1,75 @@
+{
+ "dopo": "I criteri minimi dell’Allegato 2 al D.lgs. 102/2014",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "La diagnosi fatta sulle bollette",
+   "scena": "Un consulente propone una diagnosi basata solo sulle bollette mensili di energia elettrica e gas, senza misure né profili di carico, con interventi valutati solo con il tempo di ritorno.",
+   "decisioni": [
+    {
+     "dom": "La diagnosi rispetta i criteri minimi?",
+     "opz": [
+      [
+       "No: servono dati operativi misurati e tracciabili e, per l’elettricità, profili di carico",
+       true,
+       "Corretto: è il primo criterio dell’Allegato 2."
+      ],
+      [
+       "Sì, le bollette sono dati ufficiali",
+       false,
+       "Non bastano a ripartire i consumi per uso."
+      ],
+      [
+       "Sì, se il consulente è certificato",
+       false,
+       "La certificazione non sostituisce i criteri minimi."
+      ]
+     ]
+    },
+    {
+     "dom": "Come vanno valutati gli interventi?",
+     "opz": [
+      [
+       "Con l’analisi del costo del ciclo di vita, quando possibile, e non solo con il tempo di ritorno semplice",
+       true,
+       "Corretto: l’Allegato 2 lo richiede."
+      ],
+      [
+       "Solo con il tempo di ritorno",
+       false,
+       "È un indicatore parziale."
+      ],
+      [
+       "Senza valutazione economica",
+       false,
+       "La valutazione economica è necessaria."
+      ]
+     ]
+    },
+    {
+     "dom": "Che cosa chiedi al consulente?",
+     "opz": [
+      [
+       "Un piano di misure sulle utenze significative e un modello energetico per aree funzionali",
+       true,
+       "Corretto: servono a costruire una diagnosi conforme."
+      ],
+      [
+       "Uno sconto",
+       false,
+       "Non risolve la conformità."
+      ],
+      [
+       "Di firmare comunque il rapporto",
+       false,
+       "Il rapporto sarebbe non conforme."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "Dati misurati e profili di carico, modello energetico per aree funzionali e analisi del ciclo di vita: senza questi elementi una diagnosi non rispetta i criteri minimi.",
+   "nar": "Una proposta di diagnosi molto semplificata. Valutane la conformità.",
+   "rif": "D.lgs. 102/2014, Allegato 2"
+  }
+ ]
+}

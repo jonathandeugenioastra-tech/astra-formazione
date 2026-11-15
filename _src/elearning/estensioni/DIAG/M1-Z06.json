@@ -1,0 +1,69 @@
+{
+ "dopo": "Grandi imprese, energivori e imprese multisito",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · L’impresa con molti siti",
+   "lead": "Una grande impresa di logistica ha sette siti e deve organizzare la diagnosi.",
+   "dossier": [
+    [
+     "Sito 1",
+     "magazzino refrigerato, 4.800 MWh"
+    ],
+    [
+     "Sito 2",
+     "magazzino refrigerato, 3.100 MWh"
+    ],
+    [
+     "Sito 3",
+     "hub di smistamento, 1.200 MWh"
+    ],
+    [
+     "Siti 4-6",
+     "depositi, 150-300 MWh ciascuno"
+    ],
+    [
+     "Sito 7",
+     "ufficio, 40 MWh"
+    ],
+    [
+     "Flotta",
+     "35 veicoli pesanti di proprietà"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Come imposti la selezione dei siti?",
+     "min": 6,
+     "modello": "Si ordinano i siti per consumo e si applicano i criteri di selezione e di copertura minima delle linee guida ENEA vigenti; i siti più energivori, qui 1 e 2, vanno sempre inclusi; i siti con consumi molto bassi possono essere esclusi secondo i chiarimenti ministeriali e ENEA.",
+     "criteri": [
+      "Ho ordinato i siti per consumo",
+      "Ho richiamato i criteri ENEA",
+      "Ho incluso i siti principali"
+     ]
+    },
+    {
+     "q": "La flotta rientra nel perimetro? Come la tratti?",
+     "min": 6,
+     "modello": "Sì: la diagnosi comprende anche i trasporti. Si raccolgono consumi di carburante per veicolo, chilometri e carichi, si calcolano indicatori come litri per 100 km o per tonnellata-chilometro e si valutano interventi come formazione alla guida, rinnovo dei mezzi e ottimizzazione dei percorsi.",
+     "criteri": [
+      "Ho incluso i trasporti",
+      "Ho proposto indicatori della flotta",
+      "Ho proposto interventi"
+     ]
+    },
+    {
+     "q": "Quali sono i rischi di una diagnosi non conforme?",
+     "min": 5,
+     "modello": "Sanzioni amministrative dell’art. 16 del D.lgs. 102/2014 e obbligo di eseguire comunque una diagnosi conforme; per gli energivori, possibili effetti sulle agevolazioni legate all’iscrizione.",
+     "criteri": [
+      "Ho indicato le sanzioni dell’art. 16",
+      "Ho indicato l’obbligo di rifare la diagnosi"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio organizzi la diagnosi di un’impresa di logistica con sette siti e una flotta. Imposta la selezione dei siti, tratta la flotta nel perimetro e valuta i rischi di una diagnosi non conforme, poi confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "Art. 8 e art. 16 D.lgs. 102/2014 · linee guida ENEA"
+  }
+ ]
+}

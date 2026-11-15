@@ -1,0 +1,75 @@
+{
+ "dopo": "Sistemi elettrici: motori, inverter, rifasamento, aria compressa",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "L’illuminazione del magazzino",
+   "scena": "Un magazzino di 4.000 m² ha lampade a scarica accese 24 ore su 24; è frequentato solo a tratti dai carrellisti.",
+   "decisioni": [
+    {
+     "dom": "Quale intervento proponi?",
+     "opz": [
+      [
+       "Apparecchi LED con sensori di presenza e regolazione in base alla luce naturale",
+       true,
+       "Corretto: riduce potenza e ore di accensione."
+      ],
+      [
+       "Spegnere tutto di notte",
+       false,
+       "I carrellisti lavorano anche di notte."
+      ],
+      [
+       "Lampade più potenti",
+       false,
+       "Aumentano i consumi."
+      ]
+     ]
+    },
+    {
+     "dom": "Come stimi il risparmio?",
+     "opz": [
+      [
+       "Potenza attuale e futura, ore di accensione effettive stimate con i sensori, prezzo dell’energia",
+       true,
+       "Corretto: si stimano sia la riduzione di potenza sia quella delle ore."
+      ],
+      [
+       "Con la potenza nominale e basta",
+       false,
+       "Le ore contano quanto la potenza."
+      ],
+      [
+       "Con la bolletta di un mese",
+       false,
+       "Non separa l’illuminazione."
+      ]
+     ]
+    },
+    {
+     "dom": "Che cosa verifichi per la sicurezza?",
+     "opz": [
+      [
+       "Che l’illuminamento rispetti i valori necessari per i compiti e l’illuminazione di emergenza",
+       true,
+       "Corretto: l’efficienza non deve ridurre la sicurezza."
+      ],
+      [
+       "Nulla",
+       false,
+       "L’illuminazione è anche un requisito di sicurezza."
+      ],
+      [
+       "Solo il colore della luce",
+       false,
+       "Non basta."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "LED, sensori e regolazione riducono potenza e ore; la stima va fatta su entrambe e la sicurezza visiva va sempre verificata.",
+   "nar": "Un magazzino illuminato giorno e notte. Proponi l’intervento.",
+   "rif": "UNI EN 12464-1 · Allegato IV D.lgs. 81/2008"
+  }
+ ]
+}

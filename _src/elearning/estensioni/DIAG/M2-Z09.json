@@ -1,0 +1,75 @@
+{
+ "dopo": "Esempio applicativo: inverter su una pompa",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "Il fornitore che promette il 50%",
+   "scena": "Un fornitore propone inverter su tutte le pompe dello stabilimento promettendo «almeno il 50% di risparmio».",
+   "decisioni": [
+    {
+     "dom": "Che cosa verifichi prima?",
+     "opz": [
+      [
+       "Se le pompe lavorano a carico variabile o sono regolate con valvole di strozzamento",
+       true,
+       "Corretto: l’inverter rende quando la portata richiesta varia."
+      ],
+      [
+       "Solo il prezzo",
+       false,
+       "Il risparmio dipende dal funzionamento."
+      ],
+      [
+       "Niente, la promessa è scritta",
+       false,
+       "Va verificata con misure."
+      ]
+     ]
+    },
+    {
+     "dom": "Una pompa lavora sempre a portata costante e nominale. Conviene l’inverter?",
+     "opz": [
+      [
+       "Poco o nulla: senza riduzione di velocità non c’è risparmio, e l’inverter ha perdite proprie",
+       true,
+       "Corretto."
+      ],
+      [
+       "Sì, sempre il 50%",
+       false,
+       "Non è così."
+      ],
+      [
+       "Sì, perché riduce la potenza installata",
+       false,
+       "La potenza assorbita dipende dal punto di lavoro."
+      ]
+     ]
+    },
+    {
+     "dom": "Come imposti la valutazione corretta?",
+     "opz": [
+      [
+       "Misure di potenza e portata per alcune settimane, stima con le leggi di affinità e piano di misura e verifica",
+       true,
+       "Corretto."
+      ],
+      [
+       "Una sola lettura al mattino",
+       false,
+       "Non rappresenta il profilo."
+      ],
+      [
+       "La scheda del fornitore",
+       false,
+       "Va verificata."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "Le leggi di affinità promettono molto solo dove la portata varia: misure, stima e verifica separano gli interventi utili da quelli venduti con promesse generiche.",
+   "nar": "Una proposta commerciale molto ottimista. Valutala con metodo.",
+   "rif": "Leggi di affinità · UNI CEI EN ISO 50015"
+  }
+ ]
+}

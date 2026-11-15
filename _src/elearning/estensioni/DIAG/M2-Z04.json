@@ -1,0 +1,39 @@
+{
+ "dopo": "Motori elettrici: le classi di efficienza IE",
+ "schermate": [
+  {
+   "t": "esempio",
+   "tit": "Esempio guidato · Sostituire un motore IE2 con un IE4",
+   "lead": "Il risparmio di un motore più efficiente.",
+   "passi": [
+    [
+     "Il motore",
+     "55 kW, carico medio 75%, 6.000 ore l’anno; rendimento IE2 indicativo 93,5%.",
+     "Potenza resa 41,25 kW"
+    ],
+    [
+     "Assorbimento attuale",
+     "41,25 / 0,935 ≈ 44,1 kW.",
+     "44,1 kW"
+    ],
+    [
+     "Con IE4",
+     "Rendimento indicativo 95,8%: 41,25 / 0,958 ≈ 43,1 kW.",
+     "43,1 kW"
+    ],
+    [
+     "Il risparmio",
+     "Circa 1,0 kW × 6.000 h ≈ 6.100 kWh l’anno; a 0,20 €/kWh circa 1.220 €.",
+     "≈ 6,1 MWh · ≈ 1.220 €/anno"
+    ],
+    [
+     "La decisione",
+     "Conviene soprattutto alla sostituzione per guasto o fine vita, valutando anche l’inverter se il carico varia.",
+     "Sostituzione programmata"
+    ]
+   ],
+   "nar": "Valutiamo la sostituzione di un motore da cinquantacinque chilowatt che lavora al settantacinque per cento per seimila ore. Con un rendimento indicativo del novantatré e mezzo per cento assorbe circa quarantaquattro chilowatt; con un IE quattro circa quarantatré. Il risparmio è di circa seimila chilowattora l’anno, milleduecento euro. Conviene soprattutto quando il motore va comunque sostituito, valutando anche un inverter se il carico varia.",
+   "rif": "Reg. (UE) 2019/1781 · IEC 60034-30-1"
+  }
+ ]
+}

@@ -1,0 +1,66 @@
+{
+ "dopo": "Che cos’è una diagnosi energetica",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · La diagnosi della flotta",
+   "lead": "Analizzi i consumi della flotta di un’impresa di trasporti nell’ambito della diagnosi.",
+   "dossier": [
+    [
+     "Flotta",
+     "35 veicoli pesanti"
+    ],
+    [
+     "Percorrenza annua",
+     "3.150.000 km"
+    ],
+    [
+     "Gasolio",
+     "1.008.000 litri"
+    ],
+    [
+     "Veicolo 12",
+     "62.000 km, 23.600 litri"
+    ],
+    [
+     "Prezzo indicativo",
+     "1,70 € al litro"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Calcola l’indicatore medio della flotta e quello del veicolo 12.",
+     "min": 5,
+     "modello": "Flotta: 1.008.000 / 3.150.000 × 100 = 32 litri per 100 km. Veicolo 12: 23.600 / 62.000 × 100 ≈ 38 litri per 100 km, circa il 19% in più della media.",
+     "criteri": [
+      "Ho calcolato 32 l/100 km",
+      "Ho calcolato circa 38 l/100 km",
+      "Ho confrontato con la media"
+     ]
+    },
+    {
+     "q": "Quali cause indaghi per il veicolo 12?",
+     "min": 6,
+     "modello": "Stile di guida, percorsi e carichi diversi dagli altri, manutenzione e pressione degli pneumatici, età e classe del veicolo, tempi di minimo con motore acceso. Prima di concludere si confrontano veicoli con missioni simili.",
+     "criteri": [
+      "Ho considerato guida e manutenzione",
+      "Ho considerato missioni e carichi",
+      "Ho previsto confronti omogenei"
+     ]
+    },
+    {
+     "q": "Stima il beneficio di una riduzione del 5% dei consumi con formazione alla guida e telematica.",
+     "min": 6,
+     "modello": "5% di 1.008.000 litri = 50.400 litri l’anno; a 1,70 € circa 85.700 €. Con circa 3,15 kg di CO₂ per kg di gasolio e una densità di circa 0,835 kg/l, cioè circa 2,63 kg di CO₂ per litro, la riduzione vale circa 133 t CO₂ l’anno.",
+     "criteri": [
+      "Ho calcolato 50.400 litri",
+      "Ho calcolato il risparmio economico",
+      "Ho stimato le emissioni evitate"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio analizzi i consumi di una flotta di trentacinque veicoli pesanti. Calcola gli indicatori, individua le cause dell’anomalia di un veicolo e stima il beneficio di una riduzione dei consumi, poi confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "UNI CEI EN 16247-4 · D.lgs. 102/2014"
+  }
+ ]
+}

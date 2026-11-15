@@ -1,0 +1,56 @@
+{
+ "dopo": "Sovraccarico biomeccanico: strumenti aggiornati",
+ "schermate": [
+  {
+   "t": "classifica",
+   "tit": "Quale norma tecnica?",
+   "lead": "Seleziona una situazione, poi la norma tecnica di riferimento.",
+   "colonne": [
+    "UNI ISO 11228-1 · sollevamento",
+    "UNI ISO 11228-2 · traino e spinta",
+    "UNI ISO 11228-3 · movimenti ripetitivi",
+    "UNI ISO 11226 · posture statiche"
+   ],
+   "schede": [
+    [
+     "Scarico di sacchi da 20 kg da un bancale",
+     0,
+     "Sollevamento e trasporto.",
+     "Corretto."
+    ],
+    [
+     "Spinta di carrelli porta-teglie in un panificio",
+     1,
+     "Traino e spinta.",
+     "Corretto."
+    ],
+    [
+     "Confezionamento manuale di caramelle con cicli di 10 secondi",
+     2,
+     "Movimenti ripetitivi degli arti superiori.",
+     "Corretto."
+    ],
+    [
+     "Controllo visivo con il collo flesso per lunghi periodi",
+     3,
+     "Posture di lavoro statiche.",
+     "Corretto."
+    ],
+    [
+     "Traino di un transpallet manuale carico",
+     1,
+     "Traino.",
+     "Corretto."
+    ],
+    [
+     "Avvitatura ripetitiva in linea di montaggio",
+     2,
+     "Movimenti ripetitivi.",
+     "Corretto."
+    ]
+   ],
+   "nar": "Sei situazioni di sovraccarico biomeccanico. Individua la norma tecnica di riferimento.",
+   "rif": "Allegato XXXIII D.lgs. 81/2008 · serie UNI ISO 11228 · UNI ISO 11226"
+  }
+ ]
+}

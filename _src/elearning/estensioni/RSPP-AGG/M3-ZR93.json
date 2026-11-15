@@ -1,0 +1,75 @@
+{
+ "dopo": "Lavoro agile, telelavoro e lavoro da remoto",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "Telelavoro o lavoro agile?",
+   "scena": "Un’impresa vuole far lavorare un gruppo di impiegati sempre da casa, con postazione fornita dall’azienda e orari fissi.",
+   "decisioni": [
+    {
+     "dom": "Di quale modalità si tratta?",
+     "opz": [
+      [
+       "Telelavoro: postazione fissa fuori dall’azienda, con applicazione delle norme sui videoterminali",
+       true,
+       "Corretto: art. 3, comma 10."
+      ],
+      [
+       "Lavoro agile",
+       false,
+       "Il lavoro agile non ha una postazione fissa e alterna sedi."
+      ],
+      [
+       "Lavoro autonomo",
+       false,
+       "Restano dipendenti."
+      ]
+     ]
+    },
+    {
+     "dom": "Quali obblighi ha il datore di lavoro?",
+     "opz": [
+      [
+       "Verificare la postazione, anche accedendo con preavviso e consenso, e applicare il Titolo VII sui videoterminali",
+       true,
+       "Corretto."
+      ],
+      [
+       "Nessuno, la casa è del lavoratore",
+       false,
+       "Gli obblighi restano."
+      ],
+      [
+       "Solo inviare un opuscolo",
+       false,
+       "Non basta."
+      ]
+     ]
+    },
+    {
+     "dom": "Che cosa cambia per l’isolamento sociale?",
+     "opz": [
+      [
+       "Va valutato e mitigato con contatti regolari con i colleghi e informazioni aziendali",
+       true,
+       "Corretto."
+      ],
+      [
+       "Non è un rischio",
+       false,
+       "È un fattore da considerare."
+      ],
+      [
+       "Si risolve con più straordinari",
+       false,
+       "No."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "Il telelavoro ha una postazione fissa e porta con sé gli obblighi sui videoterminali; il lavoro agile ha regole proprie: distinguere le modalità evita errori di valutazione.",
+   "nar": "Una modalità di lavoro da casa. Qualificala e applica gli obblighi.",
+   "rif": "Art. 3, c. 10, D.lgs. 81/2008 · L. 81/2017"
+  }
+ ]
+}

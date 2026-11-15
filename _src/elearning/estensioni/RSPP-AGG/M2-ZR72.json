@@ -1,0 +1,67 @@
+{
+ "dopo": "Agenti biologici: gruppi e livelli di contenimento",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Il rischio biologico in un laboratorio di analisi",
+   "lead": "Imposti la valutazione del rischio biologico in un laboratorio di analisi microbiologiche alimentari.",
+   "dossier": [
+    [
+     "Attività",
+     "ricerca di Salmonella, Listeria monocytogenes ed Escherichia coli nei campioni di alimenti; colture e arricchimenti"
+    ],
+    [
+     "Personale",
+     "5 tecnici"
+    ],
+    [
+     "Strutture",
+     "una cappa di sicurezza microbiologica di classe II; autoclave"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "A quale gruppo appartengono gli agenti e che cosa comporta?",
+     "min": 7,
+     "modello": "Salmonella, Listeria monocytogenes ed Escherichia coli sono in genere agenti del gruppo 2, con l’eccezione di alcuni sierotipi, come Salmonella Typhi, del gruppo 3. L’uso deliberato richiede misure di contenimento almeno di livello 2 e la comunicazione all’organo di vigilanza almeno 30 giorni prima dell’inizio.",
+     "criteri": [
+      "Ho classificato gli agenti",
+      "Ho indicato il livello 2",
+      "Ho indicato la comunicazione preventiva"
+     ]
+    },
+    {
+     "q": "Quali misure di contenimento e organizzative prevedi?",
+     "min": 8,
+     "modello": "Manipolazione delle colture sotto cappa di classe II; accesso limitato e segnaletica di rischio biologico; superfici lavabili e disinfettabili; inattivazione dei rifiuti in autoclave; procedure per spandimenti; divieto di mangiare e bere; indumenti dedicati.",
+     "criteri": [
+      "Ho previsto cappa e accesso limitato",
+      "Ho previsto gestione dei rifiuti e spandimenti",
+      "Ho previsto regole igieniche"
+     ],
+     "minc": 120
+    },
+    {
+     "q": "Quale sorveglianza sanitaria e quali registrazioni?",
+     "min": 6,
+     "modello": "Sorveglianza sanitaria con il medico competente; informazione su eventuali vaccinazioni disponibili; registro degli esposti per gli agenti dei gruppi 3 e 4, se manipolati; registrazione degli incidenti con esposizione.",
+     "criteri": [
+      "Ho previsto la sorveglianza",
+      "Ho indicato quando serve il registro"
+     ]
+    },
+    {
+     "q": "Come gestisci un incidente con rottura di una piastra fuori cappa?",
+     "min": 6,
+     "modello": "Allontanamento dall’area, attesa per la sedimentazione degli aerosol, decontaminazione con disinfettante adeguato e DPI, smaltimento come rifiuto a rischio infettivo, registrazione e valutazione da parte del medico competente.",
+     "criteri": [
+      "Ho previsto allontanamento e decontaminazione",
+      "Ho previsto registrazione e medico competente"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio imposti la valutazione del rischio biologico in un laboratorio di analisi alimentari: classificazione degli agenti, contenimento, sorveglianza e gestione di un incidente. Confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "Titolo X e Allegati XLVI-XLVII D.lgs. 81/2008"
+  }
+ ]
+}

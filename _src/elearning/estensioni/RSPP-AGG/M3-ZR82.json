@@ -1,0 +1,65 @@
+{
+ "dopo": "Esempio applicativo: il calcolo dell’indice di sollevamento",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Riprogettare la pallettizzazione",
+   "lead": "Riprogetti una postazione di pallettizzazione manuale di scatole da 14 kg.",
+   "dossier": [
+    [
+     "Situazione",
+     "prelievo dal nastro a 90 cm; deposito sul bancale da 10 a 150 cm di altezza; distanza orizzontale media 50 cm; torsione di 60°"
+    ],
+    [
+     "Frequenza",
+     "3 sollevamenti al minuto per 2 ore"
+    ],
+    [
+     "Calcolo attuale",
+     "indice di sollevamento LI ≈ 1,9 per le file più basse e più alte"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Quali fattori pesano di più sull’indice?",
+     "min": 7,
+     "modello": "La distanza orizzontale di 50 cm (HM = 0,5), l’altezza di deposito lontana da 75 cm nelle file estreme, la torsione di 60° (AM ≈ 0,81) e la frequenza elevata.",
+     "criteri": [
+      "Ho individuato HM e altezza",
+      "Ho considerato torsione e frequenza"
+     ]
+    },
+    {
+     "q": "Proponi tre modifiche della postazione.",
+     "min": 7,
+     "modello": "Tavola elevatrice e girevole sotto il bancale, per mantenere il piano di deposito tra 70 e 100 cm e ridurre la torsione; avvicinare il nastro al bancale per ridurre la distanza orizzontale; rotazione con mansioni leggere.",
+     "criteri": [
+      "Ho proposto la tavola elevatrice",
+      "Ho ridotto la distanza",
+      "Ho proposto la rotazione"
+     ]
+    },
+    {
+     "q": "Stima l’effetto delle modifiche sull’indice.",
+     "min": 7,
+     "modello": "Con distanza a 30 cm (HM ≈ 0,83), altezza vicino a 75 cm (VM ≈ 1), torsione eliminata (AM = 1), l’indice scende all’incirca a un terzo o meno del valore attuale, sotto 1, a parità di frequenza.",
+     "criteri": [
+      "Ho ricalcolato i fattori",
+      "Ho stimato un LI sotto 1"
+     ]
+    },
+    {
+     "q": "Come verifichi la soluzione?",
+     "min": 6,
+     "modello": "Nuovo calcolo dell’indice con i dati reali dopo gli interventi; osservazione delle posture; riscontro degli addetti e del medico competente.",
+     "criteri": [
+      "Ho previsto il ricalcolo",
+      "Ho coinvolto addetti e medico"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio riprogetti una postazione di pallettizzazione con indice di sollevamento elevato: fattori critici, modifiche, stima del nuovo indice e verifica. Confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "UNI ISO 11228-1 · Allegato XXXIII D.lgs. 81/2008"
+  }
+ ]
+}

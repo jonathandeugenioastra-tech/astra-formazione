@@ -1,0 +1,75 @@
+{
+ "dopo": "Il preposto: individuazione obbligatoria ed emolumento",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "La lettera di individuazione",
+   "scena": "Un’impresa decide di individuare formalmente i capisquadra come preposti. Uno di loro teme di assumersi responsabilità senza benefici.",
+   "decisioni": [
+    {
+     "dom": "Che cosa deve contenere la lettera?",
+     "opz": [
+      [
+       "Compiti di vigilanza, area e lavoratori di riferimento, obbligo di formazione e riferimenti per segnalare",
+       true,
+       "Corretto."
+      ],
+      [
+       "Solo il nome",
+       false,
+       "Non basta."
+      ],
+      [
+       "Una rinuncia alle responsabilità",
+       false,
+       "Non ha valore."
+      ]
+     ]
+    },
+    {
+     "dom": "Il caposquadra ha diritto a un compenso?",
+     "opz": [
+      [
+       "I contratti collettivi possono stabilire un emolumento; in ogni caso non può subire pregiudizi per lo svolgimento dell’attività",
+       true,
+       "Corretto."
+      ],
+      [
+       "Sempre un compenso fissato per legge",
+       false,
+       "Lo stabilisce la contrattazione."
+      ],
+      [
+       "Mai",
+       false,
+       "La contrattazione può prevederlo."
+      ]
+     ]
+    },
+    {
+     "dom": "Se rifiutasse l’individuazione, la sua posizione cambierebbe?",
+     "opz": [
+      [
+       "No, se di fatto continua a sovrintendere: per il principio di effettività resterebbe preposto",
+       true,
+       "Corretto."
+      ],
+      [
+       "Sì, non avrebbe alcuna responsabilità",
+       false,
+       "Conta l’esercizio effettivo."
+      ],
+      [
+       "Sì, diventerebbe dirigente",
+       false,
+       "Non è così."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "L’individuazione del preposto è obbligatoria e va fatta con compiti chiari; il compenso è materia contrattuale e conta comunque l’esercizio effettivo della funzione.",
+   "nar": "Un caposquadra teme la nomina a preposto. Rispondi ai suoi dubbi.",
+   "rif": "Art. 18, c. 1, lett. b-bis), e art. 19 D.lgs. 81/2008"
+  }
+ ]
+}

@@ -1,0 +1,75 @@
+{
+ "dopo": "Radiazioni ionizzanti e radon",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "Il controllo radiografico in officina",
+   "scena": "Un’impresa di carpenteria esegue controlli non distruttivi delle saldature con un apparecchio radiografico.",
+   "decisioni": [
+    {
+     "dom": "Quale figura professionale serve?",
+     "opz": [
+      [
+       "L’esperto di radioprotezione, incaricato dal datore di lavoro",
+       true,
+       "Corretto: D.lgs. 101/2020."
+      ],
+      [
+       "Il solo RSPP",
+       false,
+       "Serve una figura abilitata."
+      ],
+      [
+       "Il medico di famiglia",
+       false,
+       "Non è pertinente."
+      ]
+     ]
+    },
+    {
+     "dom": "Come si classificano i lavoratori e le aree?",
+     "opz": [
+      [
+       "Secondo la valutazione dell’esperto: lavoratori esposti di categoria A o B e zone controllate o sorvegliate",
+       true,
+       "Corretto."
+      ],
+      [
+       "Tutti uguali",
+       false,
+       "La classificazione dipende dalle dosi."
+      ],
+      [
+       "Non si classificano",
+       false,
+       "La classificazione è prevista."
+      ]
+     ]
+    },
+    {
+     "dom": "Chi sorveglia la salute dei lavoratori esposti?",
+     "opz": [
+      [
+       "Il medico autorizzato per i lavoratori di categoria A; per la categoria B, il medico autorizzato o il medico competente, secondo la disciplina",
+       true,
+       "Corretto."
+      ],
+      [
+       "Nessuno",
+       false,
+       "La sorveglianza è prevista."
+      ],
+      [
+       "Solo l’esperto di radioprotezione",
+       false,
+       "Non è un medico."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "Le radiazioni ionizzanti hanno una disciplina propria: esperto di radioprotezione, classificazione di lavoratori e aree, sorveglianza medica dedicata.",
+   "nar": "Controlli radiografici in officina. Organizza la radioprotezione.",
+   "rif": "D.lgs. 101/2020"
+  }
+ ]
+}

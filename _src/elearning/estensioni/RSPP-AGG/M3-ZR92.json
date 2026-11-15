@@ -1,0 +1,55 @@
+{
+ "dopo": "Nuove tecnologie: robot collaborativi, automazione e intelligenza artificiale",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Il robot collaborativo in linea",
+   "lead": "Valuti l’introduzione di un robot collaborativo in una linea di avvitatura.",
+   "dossier": [
+    [
+     "Applicazione",
+     "robot che avvita componenti mentre l’operatore inserisce i pezzi nella stessa area"
+    ],
+    [
+     "Modalità",
+     "limitazione di forza e potenza"
+    ],
+    [
+     "Preoccupazioni",
+     "contatti con le mani, ritmo imposto, monitoraggio delle prestazioni con software"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Quali rischi meccanici valuti?",
+     "min": 7,
+     "modello": "Contatti e schiacciamenti delle mani tra utensile e pezzo; urti con parti del robot; rischi dell’utensile. La valutazione dell’applicazione, non solo del robot, verifica forze e pressioni rispetto ai limiti per le parti del corpo.",
+     "criteri": [
+      "Ho considerato l’applicazione completa",
+      "Ho considerato forze e pressioni"
+     ]
+    },
+    {
+     "q": "Quali rischi organizzativi e psicosociali?",
+     "min": 7,
+     "modello": "Ritmo dettato dalla macchina; riduzione dell’autonomia; monitoraggio delle prestazioni con possibili implicazioni di controllo; carico cognitivo; necessità di competenze nuove.",
+     "criteri": [
+      "Ho considerato ritmo e autonomia",
+      "Ho considerato il monitoraggio"
+     ]
+    },
+    {
+     "q": "Quali misure e quali riferimenti?",
+     "min": 7,
+     "modello": "Valutazione secondo le norme sulla sicurezza dei robot industriali e dell’applicazione collaborativa; dispositivi di arresto; formazione; coinvolgimento dell’RLS; regole sull’uso dei dati delle prestazioni nel rispetto delle norme sui controlli a distanza; verifica del regolamento macchine per i sistemi con funzioni evolutive.",
+     "criteri": [
+      "Ho citato norme e formazione",
+      "Ho considerato l’uso dei dati"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio valuti l’introduzione di un robot collaborativo: rischi meccanici, organizzativi e psicosociali, misure e riferimenti. Confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "UNI EN ISO 10218 · Reg. (UE) 2023/1230 · art. 4 L. 300/1970"
+  }
+ ]
+}

@@ -1,0 +1,62 @@
+{
+ "dopo": "Rischi psicosociali: dallo stress alla ISO 45003",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Gestire i rischi psicosociali con la ISO 45003",
+   "lead": "Applichi la ISO 45003 in un’impresa di servizi informatici con 120 dipendenti.",
+   "dossier": [
+    [
+     "Segnali",
+     "turnover del 22%, straordinari frequenti, lavoro da remoto senza regole sugli orari, conflitti tra team"
+    ],
+    [
+     "Valutazione stress",
+     "effettuata quattro anni fa con esito «rischio basso»"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Quali fattori di rischio psicosociale individui?",
+     "min": 7,
+     "modello": "Carico e ritmi elevati; orari estesi e difficoltà di disconnessione nel lavoro da remoto; relazioni e conflitti tra gruppi; scarso riconoscimento; incertezza sui ruoli. Il turnover alto è un segnale coerente.",
+     "criteri": [
+      "Ho individuato carico e orari",
+      "Ho individuato relazioni e ruoli"
+     ]
+    },
+    {
+     "q": "Perché la valutazione di quattro anni fa non basta?",
+     "min": 6,
+     "modello": "Le condizioni sono cambiate, con lavoro da remoto e crescita; i segnali attuali contraddicono l’esito; la valutazione va aggiornata quando cambiano organizzazione e indicatori.",
+     "criteri": [
+      "Ho collegato il cambiamento organizzativo",
+      "Ho collegato gli indicatori"
+     ]
+    },
+    {
+     "q": "Quali misure organizzative proponi secondo la ISO 45003?",
+     "min": 8,
+     "modello": "Pianificazione dei carichi e delle priorità; regole su orari e diritto alla disconnessione; chiarezza dei ruoli; formazione dei responsabili alla gestione delle persone; canali di ascolto e supporto; partecipazione dei lavoratori nella definizione delle misure.",
+     "criteri": [
+      "Ho proposto misure su carichi e orari",
+      "Ho previsto formazione dei responsabili",
+      "Ho previsto partecipazione e supporto"
+     ],
+     "minc": 120
+    },
+    {
+     "q": "Come monitori i risultati?",
+     "min": 6,
+     "modello": "Indicatori come turnover, assenze, straordinari, segnalazioni; indagini periodiche sul benessere; riesame annuale con RSPP, medico competente e RLS.",
+     "criteri": [
+      "Ho proposto indicatori",
+      "Ho previsto il riesame"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio applichi la ISO 45003 ai rischi psicosociali di un’impresa di servizi informatici: fattori, aggiornamento della valutazione, misure e monitoraggio. Confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "UNI ISO 45003 · art. 28 D.lgs. 81/2008"
+  }
+ ]
+}

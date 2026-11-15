@@ -1,0 +1,75 @@
+{
+ "dopo": "Le tutele penali per il personale sanitario",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "L’aggressione all’infermiere",
+   "scena": "Un familiare di un paziente colpisce un infermiere durante il turno, causando lesioni guaribili in 10 giorni.",
+   "decisioni": [
+    {
+     "dom": "Che cosa prevede la legge per le lesioni al personale sanitario?",
+     "opz": [
+      [
+       "Pene aggravate e procedibilità d’ufficio per le lesioni al personale sanitario e socio-sanitario nell’esercizio delle funzioni",
+       true,
+       "Corretto: L. 113/2020."
+      ],
+      [
+       "Nessuna tutela specifica",
+       false,
+       "La legge prevede tutele specifiche."
+      ],
+      [
+       "Solo una sanzione amministrativa",
+       false,
+       "Sono reati."
+      ]
+     ]
+    },
+    {
+     "dom": "Che cosa fa la struttura dopo l’evento?",
+     "opz": [
+      [
+       "Supporto all’infermiere, registrazione dell’evento, analisi delle cause e aggiornamento delle misure",
+       true,
+       "Corretto."
+      ],
+      [
+       "Nulla, è un fatto penale",
+       false,
+       "Riguarda anche la prevenzione."
+      ],
+      [
+       "Sposta l’infermiere senza analisi",
+       false,
+       "Non risolve le cause."
+      ]
+     ]
+    },
+    {
+     "dom": "L’evento è un infortunio sul lavoro?",
+     "opz": [
+      [
+       "Sì: va denunciato all’INAIL se la prognosi supera tre giorni",
+       true,
+       "Corretto."
+      ],
+      [
+       "No, è stato causato da terzi",
+       false,
+       "È comunque in occasione di lavoro."
+      ],
+      [
+       "Solo se c’è una condanna",
+       false,
+       "Non serve."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "Le aggressioni al personale sanitario sono reati aggravati e procedibili d’ufficio, ma anche infortuni sul lavoro da denunciare e analizzare per prevenire.",
+   "nar": "Un infermiere aggredito in reparto. Gestisci le conseguenze.",
+   "rif": "L. 113/2020 · D.P.R. 1124/1965"
+  }
+ ]
+}

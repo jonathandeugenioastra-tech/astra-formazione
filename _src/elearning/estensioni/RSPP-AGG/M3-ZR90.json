@@ -1,0 +1,51 @@
+{
+ "dopo": "Alcol e sostanze: quadro normativo e controlli",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · La procedura alcol e sostanze",
+   "lead": "Prepari la procedura aziendale su alcol e sostanze per un’impresa di trasporti e logistica.",
+   "dossier": [
+    [
+     "Mansioni",
+     "autisti di mezzi pesanti con patente C; carrellisti; impiegati"
+    ],
+    [
+     "Situazione",
+     "nessuna procedura; un episodio sospetto il mese scorso"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Quali mansioni rientrano nei controlli e quali?",
+     "min": 7,
+     "modello": "Autisti con patente C e carrellisti sono tra le mansioni a rischio per l’alcol; gli autisti con patente C rientrano anche negli accertamenti per sostanze stupefacenti. Gli impiegati non rientrano. I controlli sono svolti dal medico competente secondo le procedure previste.",
+     "criteri": [
+      "Ho individuato le mansioni a rischio",
+      "Ho indicato il medico competente"
+     ]
+    },
+    {
+     "q": "Che cosa prevede la procedura in caso di sospetta alterazione?",
+     "min": 7,
+     "modello": "Il preposto allontana il lavoratore dalla mansione a rischio, informa il datore di lavoro e il medico competente, documenta i fatti in modo oggettivo; il lavoratore non riprende la mansione fino alla valutazione.",
+     "criteri": [
+      "Ho previsto l’allontanamento",
+      "Ho previsto la documentazione oggettiva"
+     ]
+    },
+    {
+     "q": "Quali misure di prevenzione e supporto aggiungi?",
+     "min": 7,
+     "modello": "Divieto di somministrazione e assunzione di alcol per le mansioni a rischio; informazione e formazione; accesso a percorsi di supporto e riabilitazione; riservatezza delle informazioni sanitarie.",
+     "criteri": [
+      "Ho previsto divieti e formazione",
+      "Ho previsto supporto e riservatezza"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio prepari la procedura su alcol e sostanze per un’impresa di trasporti: mansioni e controlli, gestione della sospetta alterazione, prevenzione e supporto. Confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "L. 125/2001 · Intesa Stato-Regioni 16 marzo 2006 · art. 41 D.lgs. 81/2008"
+  }
+ ]
+}

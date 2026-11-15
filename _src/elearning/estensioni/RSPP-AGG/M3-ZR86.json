@@ -1,0 +1,75 @@
+{
+ "dopo": "Burnout, mobbing e straining",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "La segnalazione di mobbing",
+   "scena": "Un’impiegata segnala all’RSPP di essere isolata dai colleghi, esclusa dalle riunioni e assegnata a compiti inferiori da mesi.",
+   "decisioni": [
+    {
+     "dom": "Come qualifichi la situazione in via preliminare?",
+     "opz": [
+      [
+       "Possibile mobbing o straining, da verificare: condotte vessatorie ripetute nel tempo o un’azione ostile con effetti duraturi",
+       true,
+       "Corretto: la qualificazione richiede accertamenti."
+      ],
+      [
+       "Un normale conflitto, da ignorare",
+       false,
+       "Va approfondito."
+      ],
+      [
+       "Mobbing certo",
+       false,
+       "Serve una verifica."
+      ]
+     ]
+    },
+    {
+     "dom": "A chi indirizzi la lavoratrice e chi coinvolgi?",
+     "opz": [
+      [
+       "Medico competente per gli aspetti di salute, canali aziendali di segnalazione e la direzione per la verifica dei fatti",
+       true,
+       "Corretto."
+      ],
+      [
+       "Solo ai colleghi",
+       false,
+       "Non è il canale corretto."
+      ],
+      [
+       "A nessuno",
+       false,
+       "La segnalazione va gestita."
+      ]
+     ]
+    },
+    {
+     "dom": "Che cosa aggiungi alla valutazione dei rischi?",
+     "opz": [
+      [
+       "I rischi di violenza e molestie e una procedura di prevenzione e gestione delle segnalazioni",
+       true,
+       "Corretto."
+      ],
+      [
+       "Nulla",
+       false,
+       "Il caso evidenzia una lacuna."
+      ],
+      [
+       "Un questionario una tantum",
+       false,
+       "Serve una procedura stabile."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "Le segnalazioni di mobbing vanno accolte, verificate e gestite con medico competente e canali dedicati, e la prevenzione entra nella valutazione dei rischi.",
+   "nar": "Una lavoratrice segnala isolamento e demansionamento. Gestisci la segnalazione.",
+   "rif": "Art. 28 D.lgs. 81/2008 · Convenzione OIL n. 190"
+  }
+ ]
+}

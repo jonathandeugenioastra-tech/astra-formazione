@@ -1,0 +1,55 @@
+{
+ "dopo": "La valutazione approfondita: lo strumento indicatore INAIL",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · La valutazione approfondita",
+   "lead": "Organizzi la valutazione approfondita dello stress in un call center dopo una valutazione preliminare con esito «rischio medio».",
+   "dossier": [
+    [
+     "Gruppi omogenei",
+     "operatori inbound, operatori outbound, team leader"
+    ],
+    [
+     "Lavoratori",
+     "90"
+    ],
+    [
+     "Clima",
+     "diffidenza verso i questionari"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Come organizzi la somministrazione del questionario strumento indicatore?",
+     "min": 7,
+     "modello": "Somministrazione anonima per gruppi omogenei, con un numero minimo di rispondenti per gruppo che tuteli l’anonimato; comunicazione preventiva degli scopi; coinvolgimento dell’RLS; tempi dedicati in orario di lavoro.",
+     "criteri": [
+      "Ho previsto anonimato e gruppi",
+      "Ho previsto comunicazione e RLS"
+     ]
+    },
+    {
+     "q": "Come affianchi il questionario con altri strumenti?",
+     "min": 7,
+     "modello": "Focus group per gruppo omogeneo, per approfondire i risultati e raccogliere proposte; confronto con gli indicatori oggettivi della valutazione preliminare.",
+     "criteri": [
+      "Ho previsto i focus group",
+      "Ho collegato gli indicatori"
+     ]
+    },
+    {
+     "q": "Come restituisci i risultati e trasformi in azioni?",
+     "min": 7,
+     "modello": "Restituzione ai lavoratori dei risultati aggregati; piano d’azione con misure, responsabili e tempi; verifica dell’efficacia con una nuova rilevazione.",
+     "criteri": [
+      "Ho previsto la restituzione",
+      "Ho previsto il piano d’azione e la verifica"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio organizzi la valutazione approfondita dello stress lavoro-correlato in un call center: questionario, focus group, restituzione e azioni. Confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "Metodologia INAIL per la valutazione dello stress lavoro-correlato"
+  }
+ ]
+}

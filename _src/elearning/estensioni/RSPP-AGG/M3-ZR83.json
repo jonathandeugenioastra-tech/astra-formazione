@@ -1,0 +1,65 @@
+{
+ "dopo": "Movimenti ripetitivi degli arti superiori: il metodo OCRA",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · La check-list OCRA",
+   "lead": "Applichi la check-list OCRA a una postazione di assemblaggio di piccoli componenti.",
+   "dossier": [
+    [
+     "Turno",
+     "8 ore con 450 minuti di lavoro ripetitivo, moltiplicatore di durata 1"
+    ],
+    [
+     "Punteggi parziali",
+     "recupero 4; frequenza 6; forza 2; postura 5; fattori complementari 1"
+    ],
+    [
+     "Fasce",
+     "fino a 7,5 verde; 7,6-11 giallo; 11,1-14 rosso lieve; 14,1-22,5 rosso medio; oltre 22,5 viola"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Calcola il punteggio della check-list e la fascia.",
+     "min": 6,
+     "modello": "(4 + 6 + 2 + 5 + 1) × 1 = 18: fascia rossa media.",
+     "criteri": [
+      "Ho sommato i fattori",
+      "Ho applicato il moltiplicatore",
+      "Ho individuato la fascia"
+     ]
+    },
+    {
+     "q": "Su quali fattori intervieni prima?",
+     "min": 7,
+     "modello": "Frequenza e postura, che pesano di più: ridurre le azioni tecniche con attrezzi e alimentatori, migliorare la disposizione dei componenti per evitare posture estreme del polso e della spalla. Poi recupero, con pause meglio distribuite.",
+     "criteri": [
+      "Ho scelto i fattori dominanti",
+      "Ho proposto misure concrete"
+     ]
+    },
+    {
+     "q": "Stima il nuovo punteggio dopo gli interventi.",
+     "min": 6,
+     "modello": "Ad esempio frequenza da 6 a 3, postura da 5 a 2, recupero da 4 a 2: (2 + 3 + 2 + 2 + 1) × 1 = 10, fascia gialla. Servono ulteriori interventi o rotazioni per arrivare al verde.",
+     "criteri": [
+      "Ho ricalcolato il punteggio",
+      "Ho interpretato il risultato"
+     ]
+    },
+    {
+     "q": "Quali altre azioni prevedi?",
+     "min": 6,
+     "modello": "Sorveglianza sanitaria degli addetti; formazione; rotazione con postazioni non ripetitive; verifica con il metodo OCRA completo se necessario.",
+     "criteri": [
+      "Ho previsto sorveglianza e rotazione",
+      "Ho previsto un’analisi più approfondita"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio applichi la check-list OCRA a una postazione di assemblaggio: punteggio, fattori su cui intervenire, nuovo punteggio e azioni. Confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "UNI ISO 11228-3 · metodo OCRA"
+  }
+ ]
+}

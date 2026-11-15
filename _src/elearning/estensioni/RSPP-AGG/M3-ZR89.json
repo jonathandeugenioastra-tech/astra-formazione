@@ -1,0 +1,54 @@
+{
+ "dopo": "Rischi emergenti",
+ "schermate": [
+  {
+   "t": "classifica",
+   "tit": "Rischio emergente o tradizionale?",
+   "lead": "Seleziona un rischio, poi la colonna.",
+   "colonne": [
+    "Emergente",
+    "Tradizionale ben noto"
+   ],
+   "schede": [
+    [
+     "Interazione con robot collaborativi",
+     0,
+     "Nuova tecnologia.",
+     "Corretto."
+    ],
+    [
+     "Rumore di una pressa",
+     1,
+     "Rischio noto e normato da tempo.",
+     "Corretto."
+    ],
+    [
+     "Gestione algoritmica del lavoro e controllo digitale",
+     0,
+     "Fattore psicosociale emergente.",
+     "Corretto."
+    ],
+    [
+     "Caduta da una scala",
+     1,
+     "Rischio tradizionale.",
+     "Corretto."
+    ],
+    [
+     "Ondate di calore più frequenti per il cambiamento climatico",
+     0,
+     "Rischio emergente o in crescita.",
+     "Corretto."
+    ],
+    [
+     "Nanomateriali in produzione",
+     0,
+     "Rischio emergente.",
+     "Corretto."
+    ]
+   ],
+   "nar": "Sei rischi. Distingui quelli emergenti da quelli tradizionali ben noti.",
+   "rif": "EU-OSHA · art. 28 D.lgs. 81/2008"
+  }
+ ]
+}

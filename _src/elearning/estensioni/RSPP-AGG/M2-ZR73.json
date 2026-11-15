@@ -1,0 +1,66 @@
+{
+ "dopo": "Legionella, vaccinazioni e ferite da taglienti",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Il piano di controllo della Legionella",
+   "lead": "Imposti il piano di controllo della Legionella per uno stabilimento con spogliatoi, docce e una torre evaporativa.",
+   "dossier": [
+    [
+     "Impianti",
+     "acqua calda sanitaria con bollitore centralizzato; 40 docce negli spogliatoi; torre evaporativa per il raffreddamento di processo"
+    ],
+    [
+     "Situazione",
+     "docce poco usate nel periodo estivo; nessun piano"
+    ],
+    [
+     "Riferimento",
+     "Linee guida nazionali per la prevenzione e il controllo della legionellosi del 2015"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Quali sono i punti critici?",
+     "min": 6,
+     "modello": "Ristagni nelle docce poco usate e nei rami morti; temperature dell’acqua calda nell’intervallo favorevole alla crescita; aerosol della torre evaporativa che può diffondersi all’esterno.",
+     "criteri": [
+      "Ho individuato ristagni e temperature",
+      "Ho considerato la torre evaporativa"
+     ]
+    },
+    {
+     "q": "Quali misure di gestione prevedi?",
+     "min": 8,
+     "modello": "Valutazione del rischio per ogni impianto; mantenimento dell’acqua calda a temperature che limitano la crescita, con produzione e ricircolo adeguati, e dell’acqua fredda bassa; scorrimento periodico dei punti poco usati; pulizia e disinfezione dei soffioni; manutenzione e trattamento della torre secondo le linee guida; registro degli interventi.",
+     "criteri": [
+      "Ho previsto temperature e scorrimento",
+      "Ho previsto manutenzione della torre",
+      "Ho previsto il registro"
+     ],
+     "minc": 120
+    },
+    {
+     "q": "Come organizzi i campionamenti e le risposte agli esiti?",
+     "min": 7,
+     "modello": "Piano di campionamento con punti rappresentativi e frequenza definita nella valutazione; laboratorio qualificato; azioni graduate in funzione delle concentrazioni secondo le soglie delle linee guida, dalla verifica fino alla disinfezione e all’interdizione dell’uso.",
+     "criteri": [
+      "Ho previsto punti e frequenze",
+      "Ho previsto azioni graduate"
+     ]
+    },
+    {
+     "q": "Chi è responsabile e come si documenta?",
+     "min": 5,
+     "modello": "Il datore di lavoro, con un responsabile designato per la gestione degli impianti; documento di valutazione e piano di controllo, registro di manutenzione e risultati dei campionamenti.",
+     "criteri": [
+      "Ho indicato il responsabile",
+      "Ho indicato i documenti"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio imposti il piano di controllo della Legionella per docce e torre evaporativa: punti critici, misure, campionamenti e responsabilità. Confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "Linee guida per la prevenzione e il controllo della legionellosi, 7 maggio 2015 · Titolo X D.lgs. 81/2008"
+  }
+ ]
+}

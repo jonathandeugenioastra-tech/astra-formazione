@@ -1,0 +1,23 @@
+{
+ "dopo": "Esercitazione 2 · Diisocianati",
+ "schermate": [
+  {
+   "t": "applica",
+   "tit": "Agenti chimici, fisici e biologici nella tua realtà",
+   "lead": "Verifica lo stato delle valutazioni degli agenti.",
+   "voci": [
+    "Valutazione chimica aggiornata con le SDS",
+    "Misure secondo UNI EN 689 dove necessarie",
+    "Valutazione del rumore secondo UNI EN ISO 9612:2025",
+    "Valutazione delle vibrazioni",
+    "Valutazione di ROA e campi elettromagnetici",
+    "Misure del radon nei locali interrati",
+    "Piano di controllo della Legionella"
+   ],
+   "campo": "La valutazione da aggiornare per prima e perché",
+   "esempio": "Es.: rumore, per l’arrivo di una nuova linea",
+   "min": 3,
+   "nar": "Verifica lo stato delle valutazioni di agenti chimici, fisici e biologici e indica quella da aggiornare per prima."
+  }
+ ]
+}

@@ -1,0 +1,65 @@
+{
+ "dopo": "Attività su strada: segnaletica temporanea e formazione",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Il cantiere stradale",
+   "lead": "Organizzi un intervento di manutenzione del verde lungo una strada extraurbana con traffico.",
+   "dossier": [
+    [
+     "Intervento",
+     "sfalcio delle banchine per 3 km, di giorno"
+    ],
+    [
+     "Squadra",
+     "4 operai e un preposto"
+    ],
+    [
+     "Situazione",
+     "nessuna formazione specifica sulla segnaletica temporanea"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Quale formazione serve?",
+     "min": 6,
+     "modello": "Il corso specifico per l’attività in presenza di traffico veicolare: per i lavoratori 8 ore con moduli giuridico, tecnico e pratico; per i preposti 12 ore; aggiornamento periodico.",
+     "criteri": [
+      "Ho indicato i corsi per lavoratori e preposti",
+      "Ho ricordato l’aggiornamento"
+     ]
+    },
+    {
+     "q": "Come posizioni la segnaletica?",
+     "min": 7,
+     "modello": "Secondo gli schemi segnaletici del disciplinare: segnali di preavviso, di pericolo e di limitazione a distanze adeguate alla velocità della strada; cantiere mobile con veicolo segnalatore; installazione e rimozione seguendo la sequenza prevista.",
+     "criteri": [
+      "Ho previsto preavviso e pericolo",
+      "Ho previsto il veicolo segnalatore",
+      "Ho previsto la sequenza"
+     ]
+    },
+    {
+     "q": "Quali DPI e regole operative?",
+     "min": 6,
+     "modello": "Indumenti ad alta visibilità di classe adeguata; operare sempre rivolti al traffico quando possibile; comunicazione tra operatori; sospensione in caso di scarsa visibilità.",
+     "criteri": [
+      "Ho previsto l’alta visibilità",
+      "Ho previsto regole operative"
+     ]
+    },
+    {
+     "q": "Che cosa fa il preposto?",
+     "min": 6,
+     "modello": "Verifica la segnaletica prima dell’inizio e durante i lavori, vigila sul rispetto delle procedure, interrompe l’attività in caso di pericolo e coordina la rimozione finale.",
+     "criteri": [
+      "Ho descritto verifica e vigilanza",
+      "Ho previsto l’interruzione"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio organizzi un intervento lungo una strada con traffico: formazione, segnaletica, DPI e ruolo del preposto. Confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "D.I. 22 gennaio 2019 · Codice della strada · art. 161 D.lgs. 81/2008"
+  }
+ ]
+}

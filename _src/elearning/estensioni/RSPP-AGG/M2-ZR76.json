@@ -1,0 +1,75 @@
+{
+ "dopo": "Microclima: comfort e stress termico",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "L’ufficio troppo caldo",
+   "scena": "In un ufficio open space d’estate la temperatura arriva a 30 °C e le lamentele crescono. Il condizionatore è sottodimensionato.",
+   "decisioni": [
+    {
+     "dom": "Che tipo di ambiente è e quale metodo usi?",
+     "opz": [
+      [
+       "Ambiente moderato: valutazione del comfort con PMV e PPD",
+       true,
+       "Corretto: UNI EN ISO 7730."
+      ],
+      [
+       "Ambiente severo caldo con WBGT",
+       false,
+       "L’ufficio non è un ambiente severo."
+      ],
+      [
+       "Non serve alcuna valutazione",
+       false,
+       "Le lamentele indicano discomfort."
+      ]
+     ]
+    },
+    {
+     "dom": "Quali misure immediate proponi?",
+     "opz": [
+      [
+       "Schermature solari, ventilazione, regolazione degli orari e accesso all’acqua",
+       true,
+       "Corretto."
+      ],
+      [
+       "Chiudere le finestre e basta",
+       false,
+       "Non risolve."
+      ],
+      [
+       "Ridurre l’illuminazione al buio",
+       false,
+       "Non è una misura microclimatica adeguata."
+      ]
+     ]
+    },
+    {
+     "dom": "E a medio termine?",
+     "opz": [
+      [
+       "Adeguamento dell’impianto di climatizzazione con progetto e manutenzione",
+       true,
+       "Corretto."
+      ],
+      [
+       "Un ventilatore per persona",
+       false,
+       "Soluzione parziale."
+      ],
+      [
+       "Nulla",
+       false,
+       "Il problema si ripresenta ogni estate."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "Negli ambienti moderati si valuta il comfort con PMV e PPD; schermature, ventilazione e organizzazione aiutano subito, l’impianto adeguato risolve.",
+   "nar": "Un ufficio troppo caldo d’estate. Valuta e intervieni.",
+   "rif": "Allegato IV D.lgs. 81/2008 · UNI EN ISO 7730"
+  }
+ ]
+}

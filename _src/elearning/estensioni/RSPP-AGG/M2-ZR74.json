@@ -1,0 +1,55 @@
+{
+ "dopo": "La UNI EN ISO 9612:2025",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · La strategia di misura del rumore",
+   "lead": "Scegli la strategia di misura per tre gruppi omogenei di esposizione in una falegnameria.",
+   "dossier": [
+    [
+     "Gruppo 1",
+     "sezionatori: compiti ben definiti e ripetitivi (taglio, carico, pausa)"
+    ],
+    [
+     "Gruppo 2",
+     "manutentori: attività variabili e imprevedibili durante la giornata"
+    ],
+    [
+     "Gruppo 3",
+     "addetti al montaggio: mansione stabile con piccole variazioni"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Quale strategia scegli per ciascun gruppo e perché?",
+     "min": 7,
+     "modello": "Sezionatori: strategia basata sui compiti, perché i compiti sono definibili con durate note. Manutentori: strategia a giornata intera, per l’imprevedibilità delle attività. Montaggio: strategia basata sulla mansione, con campionamenti casuali sulla giornata.",
+     "criteri": [
+      "Ho scelto le tre strategie",
+      "Ho motivato le scelte"
+     ]
+    },
+    {
+     "q": "Come imposti le misure per i sezionatori?",
+     "min": 7,
+     "modello": "Analisi del lavoro con durate dei compiti; per ciascun compito un numero adeguato di misure rappresentative, con durata sufficiente a coprire le variazioni; registrazione delle condizioni operative e delle macchine.",
+     "criteri": [
+      "Ho previsto l’analisi del lavoro",
+      "Ho previsto più misure per compito"
+     ]
+    },
+    {
+     "q": "Perché l’incertezza è importante e come la usi?",
+     "min": 6,
+     "modello": "Il risultato si esprime con l’incertezza estesa U, stimata con il metodo della norma aggiornata: il confronto con i valori di azione e limite tiene conto di U, e una U elevata indica che servono più misure o una strategia diversa.",
+     "criteri": [
+      "Ho spiegato il ruolo dell’incertezza",
+      "Ho collegato U alle decisioni"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio scegli la strategia di misura del rumore per tre gruppi di una falegnameria, imposti le misure e usi l’incertezza estesa. Confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "UNI EN ISO 9612:2025 · art. 190 D.lgs. 81/2008"
+  }
+ ]
+}

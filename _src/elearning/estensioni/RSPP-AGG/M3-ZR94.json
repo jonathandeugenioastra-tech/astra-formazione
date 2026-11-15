@@ -1,0 +1,23 @@
+{
+ "dopo": "Esercitazione 3 · Affermazioni vere o false",
+ "schermate": [
+  {
+   "t": "applica",
+   "tit": "Rischi ergonomici, psicosociali ed emergenti nella tua realtà",
+   "lead": "Verifica lo stato delle valutazioni.",
+   "voci": [
+    "Valutazione della movimentazione dei carichi aggiornata",
+    "Valutazione dei movimenti ripetitivi",
+    "Valutazione dello stress negli ultimi tre anni",
+    "Procedura contro violenza e molestie",
+    "Procedura alcol e sostanze",
+    "Regole per lavoro agile e disconnessione",
+    "Valutazione delle nuove tecnologie introdotte"
+   ],
+   "campo": "La valutazione da aggiornare per prima e perché",
+   "esempio": "Es.: stress lavoro-correlato dopo la riorganizzazione dei turni",
+   "min": 3,
+   "nar": "Verifica lo stato delle valutazioni dei rischi ergonomici, psicosociali ed emergenti e indica quella da aggiornare per prima."
+  }
+ ]
+}

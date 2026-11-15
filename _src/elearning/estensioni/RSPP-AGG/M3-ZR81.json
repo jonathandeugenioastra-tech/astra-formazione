@@ -1,0 +1,69 @@
+{
+ "dopo": "Traino, spinta e posture di lavoro",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Traino, spinta e posture in un ospedale",
+   "lead": "Valuti le attività di movimentazione del personale ausiliario di un ospedale.",
+   "dossier": [
+    [
+     "Attività 1",
+     "spinta di carrelli della biancheria fino a 250 kg per corridoi con rampe"
+    ],
+    [
+     "Attività 2",
+     "traino di carrelli dei pasti con ruote usurate"
+    ],
+    [
+     "Attività 3",
+     "rifacimento dei letti con il busto flesso per lunghi periodi"
+    ],
+    [
+     "Lamentele",
+     "dolori a spalle e schiena"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Quali fattori aumentano le forze di spinta e traino?",
+     "min": 7,
+     "modello": "Massa del carico, stato delle ruote e dei cuscinetti, pavimenti e pendenze delle rampe, frequenza e distanza dei tragitti, maniglie e altezza di presa, necessità di frenare in discesa.",
+     "criteri": [
+      "Ho elencato i fattori del carrello",
+      "Ho elencato i fattori del percorso"
+     ]
+    },
+    {
+     "q": "Come imposti la valutazione secondo la UNI ISO 11228-2?",
+     "min": 7,
+     "modello": "Misura delle forze iniziali e di mantenimento con un dinamometro sui percorsi reali, confronto con i valori di riferimento per la popolazione lavorativa, considerando frequenza e distanza.",
+     "criteri": [
+      "Ho previsto la misura delle forze",
+      "Ho previsto il confronto con i riferimenti"
+     ]
+    },
+    {
+     "q": "Come valuti le posture nel rifacimento dei letti?",
+     "min": 7,
+     "modello": "Con la UNI ISO 11226: angoli del tronco e durata delle posture statiche; il busto flesso a lungo è da considerare non accettabile oltre certi angoli e tempi. Misure: letti ad altezza regolabile e lavoro in coppia.",
+     "criteri": [
+      "Ho collegato la UNI ISO 11226",
+      "Ho proposto letti regolabili"
+     ]
+    },
+    {
+     "q": "Proponi un piano di miglioramento.",
+     "min": 7,
+     "modello": "Manutenzione programmata delle ruote; carrelli motorizzati per i carichi più pesanti; riduzione del carico per viaggio; rampe meno ripide o percorsi alternativi; letti regolabili; formazione sulle tecniche; nuova misura delle forze dopo gli interventi.",
+     "criteri": [
+      "Ho previsto interventi tecnici",
+      "Ho previsto interventi organizzativi",
+      "Ho previsto la verifica"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio valuti traino, spinta e posture del personale ausiliario di un ospedale: fattori delle forze, metodo di valutazione, posture e piano di miglioramento. Confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "UNI ISO 11228-2 · UNI ISO 11226 · Titolo VI D.lgs. 81/2008"
+  }
+ ]
+}

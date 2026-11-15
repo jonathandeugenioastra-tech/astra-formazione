@@ -1,0 +1,64 @@
+{
+ "dopo": "Aggressioni al personale: il caso della sanità e dei servizi al pubblico",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Prevenire le aggressioni in un pronto soccorso",
+   "lead": "Imposti le misure contro le aggressioni al personale di un pronto soccorso.",
+   "dossier": [
+    [
+     "Eventi",
+     "14 aggressioni verbali e 3 fisiche in un anno, soprattutto di notte e durante le attese lunghe"
+    ],
+    [
+     "Ambiente",
+     "sala d’attesa affollata, triage esposto, nessun servizio di vigilanza notturno"
+    ],
+    [
+     "Personale",
+     "infermieri e medici, molti neoassunti"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Quali fattori di rischio individui?",
+     "min": 7,
+     "modello": "Attese lunghe senza informazioni; affollamento; turni notturni con poco personale; postazione di triage esposta; assenza di vigilanza; inesperienza nella gestione dei conflitti.",
+     "criteri": [
+      "Ho individuato fattori organizzativi",
+      "Ho individuato fattori ambientali"
+     ]
+    },
+    {
+     "q": "Proponi misure strutturali.",
+     "min": 7,
+     "modello": "Postazione di triage protetta con via di fuga; pulsanti di allarme collegati; videosorveglianza; vigilanza nelle fasce critiche; sala d’attesa con informazioni sui tempi.",
+     "criteri": [
+      "Ho proposto protezioni e allarmi",
+      "Ho proposto vigilanza e informazione"
+     ]
+    },
+    {
+     "q": "Proponi misure organizzative e formative.",
+     "min": 7,
+     "modello": "Comunicazione periodica dei tempi di attesa; personale adeguato di notte; formazione alla gestione dei conflitti e alla de-escalation; procedura di segnalazione e supporto alle vittime.",
+     "criteri": [
+      "Ho previsto formazione specifica",
+      "Ho previsto segnalazione e supporto"
+     ]
+    },
+    {
+     "q": "Come misuri l’efficacia?",
+     "min": 6,
+     "modello": "Registro degli episodi per gravità e fascia oraria; confronto prima e dopo; questionari sul senso di sicurezza del personale; riesame con RLS e medico competente.",
+     "criteri": [
+      "Ho previsto il registro",
+      "Ho previsto il confronto prima e dopo"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio imposti la prevenzione delle aggressioni in un pronto soccorso: fattori di rischio, misure strutturali, organizzative e formative, indicatori di efficacia. Confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "Art. 28 D.lgs. 81/2008 · Raccomandazione ministeriale n. 8"
+  }
+ ]
+}

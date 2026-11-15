@@ -1,0 +1,54 @@
+{
+ "dopo": "Giurisprudenza: posizioni di garanzia e RSPP",
+ "schermate": [
+  {
+   "t": "classifica",
+   "tit": "Principio corretto o errato?",
+   "lead": "Seleziona un’affermazione, poi la colonna.",
+   "colonne": [
+    "Coerente con la giurisprudenza consolidata",
+    "Non coerente"
+   ],
+   "schede": [
+    [
+     "Rileva l’esercizio concreto dei poteri, non la qualifica formale",
+     0,
+     "Principio di effettività.",
+     "Corretto."
+    ],
+    [
+     "L’RSPP non può mai rispondere di un infortunio",
+     1,
+     "Può rispondere in concorso.",
+     "Corretto."
+    ],
+    [
+     "La delega senza autonomia di spesa non trasferisce la posizione di garanzia",
+     0,
+     "Corretto.",
+     "Corretto."
+    ],
+    [
+     "Qualsiasi imprudenza del lavoratore esclude la responsabilità del datore di lavoro",
+     1,
+     "Solo il comportamento abnorme.",
+     "Corretto."
+    ],
+    [
+     "Il committente risponde se sceglie un appaltatore senza verificarne l’idoneità",
+     0,
+     "Culpa in eligendo.",
+     "Corretto."
+    ],
+    [
+     "Il preposto che tollera prassi scorrette non ha colpa se non ha dato ordini",
+     1,
+     "Le prassi tollerate provano la colpa.",
+     "Corretto."
+    ]
+   ],
+   "nar": "Sei affermazioni sulle posizioni di garanzia. Distingui quelle coerenti con la giurisprudenza consolidata.",
+   "rif": "Artt. 16, 18, 19, 26 e 299 D.lgs. 81/2008"
+  }
+ ]
+}

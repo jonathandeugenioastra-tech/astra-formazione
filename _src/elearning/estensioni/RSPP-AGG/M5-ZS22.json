@@ -1,0 +1,54 @@
+{
+ "dopo": "L’addestramento e il suo tracciamento",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · La scheda di addestramento",
+   "lead": "Progetti la scheda di registrazione dell’addestramento all’uso della piattaforma di lavoro elevabile.",
+   "dossier": [
+    [
+     "Attrezzatura",
+     "piattaforma di lavoro mobile elevabile a braccio"
+    ],
+    [
+     "Addestrati",
+     "manutentori già abilitati"
+    ],
+    [
+     "Contesto",
+     "nuovo modello acquistato"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Quali campi deve contenere la scheda?",
+     "min": 6,
+     "modello": "Dati del lavoratore; attrezzatura e modello; istruttore esperto; data e durata; contenuti; prova pratica con lista di controllo; esito; firme.",
+     "criteri": [
+      "Ho previsto i campi essenziali"
+     ]
+    },
+    {
+     "q": "Quali punti chiave verifichi nella prova pratica?",
+     "min": 8,
+     "modello": "Controlli prima dell’uso; stabilizzazione e verifica del terreno; uso dell’imbracatura con cordino corto nel cestello; comandi e discesa di emergenza; distanza da linee elettriche; procedura di recupero dal basso.",
+     "criteri": [
+      "Ho incluso controlli e stabilità",
+      "Ho incluso imbracatura ed emergenza"
+     ],
+     "minc": 100
+    },
+    {
+     "q": "Perché l’addestramento serve anche se sono già abilitati?",
+     "min": 6,
+     "modello": "L’abilitazione riguarda la categoria di attrezzatura; l’addestramento riguarda il modello specifico, i suoi comandi e le sue procedure di emergenza.",
+     "criteri": [
+      "Ho distinto abilitazione e addestramento"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio progetti la scheda di addestramento per un nuovo modello di piattaforma elevabile: campi, punti chiave della prova pratica e rapporto con l’abilitazione. Confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "Artt. 37 e 73 D.lgs. 81/2008 · Accordo 17 aprile 2025"
+  }
+ ]
+}

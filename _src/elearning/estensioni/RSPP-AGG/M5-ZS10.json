@@ -1,0 +1,55 @@
+{
+ "dopo": "Atmosfere esplosive: classificazione delle zone e apparecchiature",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Classificare le zone e scegliere le apparecchiature",
+   "lead": "Classifichi le zone di un locale di miscelazione di vernici a solvente e di un silo di farina.",
+   "dossier": [
+    [
+     "Locale vernici",
+     "fusti aperti durante la miscelazione; ventilazione naturale"
+    ],
+    [
+     "Silo",
+     "interno del silo e zona del filtro; scarico con manichetta"
+    ],
+    [
+     "Apparecchiature",
+     "motori e illuminazione da scegliere"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Classifica le zone principali.",
+     "min": 7,
+     "modello": "Interno dei fusti aperti: zona 0. Intorno alle bocche durante la miscelazione: zona 1. Resto del locale con perdite improbabili: zona 2, da verificare con il grado di ventilazione. Interno del silo: zona 20; intorno allo scarico: zona 21 o 22 secondo frequenza e durata.",
+     "criteri": [
+      "Ho classificato le zone per i vapori",
+      "Ho classificato le zone per le polveri"
+     ]
+    },
+    {
+     "q": "Quali categorie di apparecchiature servono?",
+     "min": 6,
+     "modello": "Categoria 1 per zone 0 e 20; categoria 2 per zone 1 e 21; categoria 3 per zone 2 e 22, con il gruppo e la classe di temperatura adatti alla sostanza.",
+     "criteri": [
+      "Ho associato le categorie alle zone",
+      "Ho considerato classe di temperatura"
+     ]
+    },
+    {
+     "q": "Quali documenti e misure organizzative completano la protezione?",
+     "min": 7,
+     "modello": "Documento sulla protezione contro le esplosioni; segnaletica delle zone; permessi di lavoro per lavori a caldo; formazione; abbigliamento e attrezzi idonei; verifiche degli impianti elettrici nelle zone classificate.",
+     "criteri": [
+      "Ho citato il documento",
+      "Ho previsto permessi e verifiche"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio classifichi le zone di un locale vernici e di un silo di farina e scegli le categorie di apparecchiature, completando con documenti e misure organizzative. Confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "Titolo XI D.lgs. 81/2008 · CEI EN IEC 60079-10-1 e 60079-10-2 · D.lgs. 85/2016"
+  }
+ ]
+}

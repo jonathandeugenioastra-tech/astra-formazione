@@ -1,0 +1,55 @@
+{
+ "dopo": "Esempio applicativo: il carico di incendio specifico",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Il carico di incendio di un magazzino",
+   "lead": "Calcoli il carico di incendio specifico di un magazzino di imballaggi.",
+   "dossier": [
+    [
+     "Superficie",
+     "400 m²"
+    ],
+    [
+     "Materiali",
+     "4.000 kg di legno (H ≈ 17,5 MJ/kg); 1.000 kg di polietilene (H ≈ 44 MJ/kg)"
+    ],
+    [
+     "Ipotesi",
+     "mi = 1 e ψi = 1, stima cautelativa"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Calcola il carico di incendio specifico qf.",
+     "min": 7,
+     "modello": "Q = 4.000 × 17,5 + 1.000 × 44 = 70.000 + 44.000 = 114.000 MJ. qf = 114.000 / 400 = 285 MJ/m².",
+     "criteri": [
+      "Ho calcolato Q",
+      "Ho calcolato 285 MJ/m²"
+     ]
+    },
+    {
+     "q": "Come si passa al valore di progetto?",
+     "min": 6,
+     "modello": "Il carico di progetto si ottiene moltiplicando qf per fattori che tengono conto del rischio di incendio legato a superficie e attività e delle misure di protezione presenti, secondo il Codice di prevenzione incendi.",
+     "criteri": [
+      "Ho spiegato i fattori correttivi",
+      "Ho citato il Codice"
+     ]
+    },
+    {
+     "q": "Come puoi ridurre il carico di incendio?",
+     "min": 7,
+     "modello": "Ridurre le scorte di imballaggi in plastica; separare i materiali in compartimenti; usare materiali meno combustibili; installare protezioni attive che migliorano i fattori di progetto.",
+     "criteri": [
+      "Ho proposto riduzione e separazione",
+      "Ho considerato le protezioni attive"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio calcoli il carico di incendio specifico di un magazzino di imballaggi, spieghi il passaggio al valore di progetto e proponi come ridurlo. Confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "D.M. 3 agosto 2015, Codice di prevenzione incendi"
+  }
+ ]
+}

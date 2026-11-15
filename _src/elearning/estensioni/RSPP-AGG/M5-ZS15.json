@@ -1,0 +1,47 @@
+{
+ "dopo": "Formazione a distanza: e-learning e videoconferenza sincrona",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Scegliere la modalità di erogazione",
+   "lead": "Scegli la modalità di erogazione per cinque corsi di un piano formativo.",
+   "dossier": [
+    [
+     "Corsi",
+     "formazione generale dei lavoratori; formazione specifica rischio alto; corso preposti; aggiornamento RSPP; corso per addetti al carrello elevatore"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Indica per ciascun corso le modalità ammesse.",
+     "min": 8,
+     "modello": "Generale: e-learning ammesso, anche videoconferenza sincrona o presenza. Specifica rischio alto: non in e-learning; presenza o videoconferenza sincrona per la teoria. Preposti: presenza o videoconferenza sincrona, non e-learning. Aggiornamento RSPP: e-learning ammesso secondo l’Accordo. Carrello elevatore: pratica in presenza; teoria secondo le regole dell’Accordo.",
+     "criteri": [
+      "Ho rispettato i divieti di e-learning",
+      "Ho previsto la pratica in presenza"
+     ],
+     "minc": 120
+    },
+    {
+     "q": "Quali requisiti deve avere la piattaforma e-learning?",
+     "min": 6,
+     "modello": "Tracciamento di tempi, accessi e avanzamento; tutor di contenuto; test intermedi e finale; conservazione dei dati; contenuti non saltabili; identificazione del partecipante.",
+     "criteri": [
+      "Ho elencato tracciamento e tutor",
+      "Ho previsto test e conservazione"
+     ]
+    },
+    {
+     "q": "Quali regole per la videoconferenza sincrona?",
+     "min": 6,
+     "modello": "Un dispositivo per partecipante, niente smartphone, webcam attiva, tutor, registro delle presenze e verifica dell’identità.",
+     "criteri": [
+      "Ho elencato le regole"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio scegli la modalità di erogazione per cinque corsi e definisci i requisiti di e-learning e videoconferenza sincrona. Confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "Accordo Stato-Regioni 17 aprile 2025"
+  }
+ ]
+}

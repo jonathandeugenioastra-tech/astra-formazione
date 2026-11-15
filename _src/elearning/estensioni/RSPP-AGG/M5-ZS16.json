@@ -1,0 +1,75 @@
+{
+ "dopo": "Il docente formatore: i requisiti del D.I. 6 marzo 2013",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "Il nuovo docente",
+   "scena": "Un ingegnere con dieci anni di esperienza come RSPP, senza esperienza di docenza, vuole tenere corsi per lavoratori.",
+   "decisioni": [
+    {
+     "dom": "Che cosa verifichi?",
+     "opz": [
+      [
+       "Il prerequisito del diploma e il soddisfacimento di almeno uno dei criteri del decreto per l’area tematica",
+       true,
+       "Corretto."
+      ],
+      [
+       "Solo la laurea",
+       false,
+       "Servono i criteri del decreto."
+      ],
+      [
+       "Nulla, l’esperienza basta",
+       false,
+       "Va verificata la combinazione richiesta."
+      ]
+     ]
+    },
+    {
+     "dom": "Quale percorso può completare i requisiti?",
+     "opz": [
+      [
+       "Un percorso formativo per formatori abbinato all’esperienza professionale nell’area, secondo i criteri",
+       true,
+       "Corretto."
+      ],
+      [
+       "Un solo webinar",
+       false,
+       "Non basta."
+      ],
+      [
+       "Nessuno",
+       false,
+       "I criteri prevedono percorsi."
+      ]
+     ]
+    },
+    {
+     "dom": "Come mantiene la qualificazione?",
+     "opz": [
+      [
+       "Con l’aggiornamento periodico previsto per i formatori",
+       true,
+       "Corretto."
+      ],
+      [
+       "Non serve aggiornarsi",
+       false,
+       "L’aggiornamento è richiesto."
+      ],
+      [
+       "Facendo un corso ogni dieci anni",
+       false,
+       "La periodicità è più frequente."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "Il docente formatore deve avere il prerequisito e almeno uno dei criteri del decreto, e mantenere la qualificazione con l’aggiornamento.",
+   "nar": "Un esperto vuole diventare docente. Verifica i requisiti.",
+   "rif": "D.I. 6 marzo 2013"
+  }
+ ]
+}

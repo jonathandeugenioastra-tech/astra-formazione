@@ -1,0 +1,65 @@
+{
+ "dopo": "Rischi emergenti",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Il piano per il caldo estremo",
+   "lead": "Prepari il piano per le ondate di calore di un’impresa edile con cantieri all’aperto.",
+   "dossier": [
+    [
+     "Cantieri",
+     "3 cantieri stradali ed edili, 35 operai"
+    ],
+    [
+     "Problemi",
+     "due malori da calore l’estate scorsa; lavori in copertura"
+    ],
+    [
+     "Strumenti",
+     "bollettini e mappe del rischio calore; ordinanze regionali nei giorni critici"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Quali fonti di informazione usi e come?",
+     "min": 6,
+     "modello": "Bollettini e previsioni del rischio calore consultati ogni giorno nei mesi estivi; ordinanze regionali che possono vietare il lavoro nelle ore più calde; misure in cantiere, ad esempio con l’indice WBGT dove utile.",
+     "criteri": [
+      "Ho previsto il monitoraggio quotidiano",
+      "Ho considerato le ordinanze"
+     ]
+    },
+    {
+     "q": "Quali misure organizzative prevedi?",
+     "min": 8,
+     "modello": "Spostamento delle attività pesanti al mattino presto; sospensione nelle ore più calde nei giorni a rischio alto; pause in zone ombreggiate; rotazione; acclimatamento graduale dei nuovi e di chi rientra; lavoro in coppia.",
+     "criteri": [
+      "Ho previsto orari e sospensioni",
+      "Ho previsto pause e acclimatamento"
+     ],
+     "minc": 120
+    },
+    {
+     "q": "Quali misure per le persone e le emergenze?",
+     "min": 7,
+     "modello": "Acqua fresca disponibile; indumenti leggeri e protezione del capo; formazione su sintomi del colpo di calore; procedura di primo soccorso con chiamata al 112; attenzione ai lavoratori con condizioni di salute particolari indicate dal medico competente.",
+     "criteri": [
+      "Ho previsto acqua e indumenti",
+      "Ho previsto formazione e primo soccorso"
+     ]
+    },
+    {
+     "q": "Come documenti e verifichi il piano?",
+     "min": 6,
+     "modello": "Integrazione nel DVR e nei POS; registro dei giorni a rischio e delle misure adottate; analisi dei malori; riesame a fine estate con RLS e medico competente.",
+     "criteri": [
+      "Ho previsto DVR e POS",
+      "Ho previsto il riesame"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio prepari il piano per le ondate di calore di un’impresa edile: fonti di informazione, misure organizzative e personali, documentazione. Confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "Art. 28 D.lgs. 81/2008 · ordinanze regionali sul caldo"
+  }
+ ]
+}

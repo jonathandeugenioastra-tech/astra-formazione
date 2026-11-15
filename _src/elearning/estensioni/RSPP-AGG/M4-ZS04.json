@@ -1,0 +1,75 @@
+{
+ "dopo": "Modelli semplificati per le PMI e asseverazione",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "L’asseverazione del modello",
+   "scena": "Una PMI edile ha adottato un modello organizzativo semplificato e chiede che cosa le porti l’asseverazione.",
+   "decisioni": [
+    {
+     "dom": "Chi può asseverare l’adozione e l’efficace attuazione del modello?",
+     "opz": [
+      [
+       "Gli organismi paritetici, secondo quanto previsto dall’art. 51",
+       true,
+       "Corretto."
+      ],
+      [
+       "Solo un notaio",
+       false,
+       "Non è previsto."
+      ],
+      [
+       "L’ASL",
+       false,
+       "Non è un’asseverazione dell’ASL."
+      ]
+     ]
+    },
+    {
+     "dom": "Quale effetto ha l’asseverazione?",
+     "opz": [
+      [
+       "Gli organi di vigilanza possono tenerne conto nella programmazione delle proprie attività",
+       true,
+       "Corretto: art. 51, comma 3-bis."
+      ],
+      [
+       "Esenta da ogni controllo",
+       false,
+       "Non esenta."
+      ],
+      [
+       "Sostituisce il DVR",
+       false,
+       "Non lo sostituisce."
+      ]
+     ]
+    },
+    {
+     "dom": "Il modello semplificato garantisce l’esimente 231?",
+     "opz": [
+      [
+       "Può contribuire, ma conta l’efficace attuazione, che il giudice valuta in concreto",
+       true,
+       "Corretto."
+      ],
+      [
+       "Sì, automaticamente",
+       false,
+       "Non c’è automatismo."
+      ],
+      [
+       "No, mai",
+       false,
+       "Può avere valore esimente."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "L’asseverazione degli organismi paritetici dà visibilità al modello presso la vigilanza, ma l’esimente dipende sempre dall’efficace attuazione.",
+   "nar": "Una PMI chiede dell’asseverazione. Rispondi con precisione.",
+   "rif": "Artt. 30 e 51 D.lgs. 81/2008 · D.M. 13 febbraio 2014"
+  }
+ ]
+}

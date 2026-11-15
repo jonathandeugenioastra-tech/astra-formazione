@@ -1,0 +1,55 @@
+{
+ "dopo": "La percezione del rischio",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Contrastare la normalizzazione della devianza",
+   "lead": "In un magazzino si usano le forche del carrello per sollevare un collega fino agli scaffali alti: «si è sempre fatto, mai successo niente».",
+   "dossier": [
+    [
+     "Prassi",
+     "sollevamento di persone su un pallet sulle forche"
+    ],
+    [
+     "Percezione",
+     "rischio considerato basso per familiarità"
+    ],
+    [
+     "Alternative disponibili",
+     "piattaforma di lavoro elevabile in un altro reparto"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Quali meccanismi di percezione spiegano la prassi?",
+     "min": 6,
+     "modello": "Normalizzazione della devianza: lo scostamento che non ha prodotto danni diventa normale; familiarità con il compito; bias di ottimismo; percezione di controllo.",
+     "criteri": [
+      "Ho riconosciuto la normalizzazione della devianza",
+      "Ho citato almeno due bias"
+     ]
+    },
+    {
+     "q": "Come intervieni sulla percezione?",
+     "min": 7,
+     "modello": "Racconto di casi reali di cadute da forche; spiegazione del meccanismo di caduta e delle conseguenze; coinvolgimento dei lavoratori nella ricerca di soluzioni; esempio coerente dei responsabili.",
+     "criteri": [
+      "Ho usato casi concreti",
+      "Ho coinvolto i lavoratori"
+     ]
+    },
+    {
+     "q": "Quali misure concrete accompagnano la comunicazione?",
+     "min": 6,
+     "modello": "Divieto chiaro e vigilanza dei preposti; piattaforma elevabile disponibile dove serve; procedura per i prelievi in quota; riconoscimento dei comportamenti corretti.",
+     "criteri": [
+      "Ho previsto divieto e alternativa",
+      "Ho previsto vigilanza"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio affronti una prassi pericolosa normalizzata in un magazzino: meccanismi di percezione, intervento sulla percezione e misure concrete. Confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "Art. 71 D.lgs. 81/2008 · letteratura sulla percezione del rischio"
+  }
+ ]
+}

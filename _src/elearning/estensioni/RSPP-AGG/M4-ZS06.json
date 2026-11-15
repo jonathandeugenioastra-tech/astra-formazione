@@ -1,0 +1,59 @@
+{
+ "dopo": "Appalti e interferenze",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Il coordinamento di tre appalti contemporanei",
+   "lead": "Uno stabilimento ha nello stesso mese tre appalti: manutenzione del tetto, pulizie industriali e installazione di una nuova linea.",
+   "dossier": [
+    [
+     "Tetto",
+     "impresa A, lavori in quota sopra il reparto produttivo"
+    ],
+    [
+     "Pulizie",
+     "impresa B, uso di macchine lavapavimenti e detergenti"
+    ],
+    [
+     "Linea",
+     "impresa C, montaggio con gru mobile e saldature"
+    ],
+    [
+     "Produzione",
+     "attiva su due turni"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Individua le interferenze tra imprese e con la produzione.",
+     "min": 7,
+     "modello": "Caduta di materiali dal tetto sulle aree di lavoro di B, C e della produzione; incendio da saldature di C vicino ai detergenti di B e a materiali combustibili; movimentazione della gru di C nelle vie di transito; pavimenti bagnati da B nelle aree di montaggio.",
+     "criteri": [
+      "Ho individuato interferenze tra imprese",
+      "Ho considerato la produzione"
+     ]
+    },
+    {
+     "q": "Come organizzi DUVRI e coordinamento?",
+     "min": 7,
+     "modello": "DUVRI unico aggiornato con le tre imprese; cronoprogramma che separa nel tempo e nello spazio le attività incompatibili; riunione di coordinamento iniziale e settimanale; permessi di lavoro per quota e lavori a caldo; referente del committente.",
+     "criteri": [
+      "Ho previsto il DUVRI aggiornato",
+      "Ho previsto cronoprogramma e permessi"
+     ]
+    },
+    {
+     "q": "Come verifichi in corso d’opera?",
+     "min": 7,
+     "modello": "Sopralluoghi quotidiani del referente; verifica dei preposti delle imprese indicati al committente; sospensione delle attività in caso di interferenze non gestite; registro delle verifiche.",
+     "criteri": [
+      "Ho previsto sopralluoghi",
+      "Ho previsto la sospensione"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio coordini tre appalti contemporanei: interferenze, DUVRI e coordinamento, verifiche in corso d’opera. Confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "Art. 26 D.lgs. 81/2008"
+  }
+ ]
+}

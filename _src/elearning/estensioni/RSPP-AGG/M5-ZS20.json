@@ -1,0 +1,51 @@
+{
+ "dopo": "Le nuove edizioni delle norme CEI EN IEC 60079",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Il documento sulla protezione contro le esplosioni",
+   "lead": "Imposti l’indice del documento sulla protezione contro le esplosioni di un impianto di verniciatura.",
+   "dossier": [
+    [
+     "Impianto",
+     "cabina di verniciatura a solvente, locale miscelazione, deposito vernici"
+    ],
+    [
+     "Situazione",
+     "classificazione delle zone fatta dieci anni fa; nuove apparecchiature installate"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Quali capitoli deve contenere il documento?",
+     "min": 7,
+     "modello": "Descrizione dei luoghi e delle sostanze; individuazione e valutazione dei rischi di esplosione; classificazione delle zone con planimetrie; misure tecniche e organizzative; apparecchiature e loro idoneità; formazione, permessi e procedure; verifiche e aggiornamento.",
+     "criteri": [
+      "Ho previsto classificazione e planimetrie",
+      "Ho previsto misure e apparecchiature"
+     ]
+    },
+    {
+     "q": "Perché la classificazione va rivista?",
+     "min": 7,
+     "modello": "Sono cambiate apparecchiature e forse quantità e ventilazione; le norme di classificazione sono state aggiornate; il documento va rivisto in caso di modifiche significative.",
+     "criteri": [
+      "Ho collegato le modifiche",
+      "Ho citato l’aggiornamento delle norme"
+     ]
+    },
+    {
+     "q": "Quali verifiche periodiche prevedi?",
+     "min": 7,
+     "modello": "Verifiche degli impianti elettrici nei luoghi con pericolo di esplosione ogni due anni da organismo abilitato; ispezioni delle apparecchiature secondo le norme di installazione e manutenzione; controllo della ventilazione.",
+     "criteri": [
+      "Ho indicato le verifiche biennali",
+      "Ho previsto ispezioni e ventilazione"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio imposti il documento sulla protezione contro le esplosioni di un impianto di verniciatura: capitoli, revisione della classificazione e verifiche periodiche. Confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "Art. 294 D.lgs. 81/2008 · D.P.R. 462/2001 · CEI EN IEC 60079"
+  }
+ ]
+}

@@ -1,0 +1,52 @@
+{
+ "dopo": "Il codice di prevenzione incendi",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · La strategia antincendio con il Codice",
+   "lead": "Imposti la strategia antincendio di un’attività con il Codice di prevenzione incendi.",
+   "dossier": [
+    [
+     "Attività",
+     "laboratorio artigianale di falegnameria con 15 addetti e un piccolo deposito di vernici"
+    ],
+    [
+     "Edificio",
+     "un piano, 800 m²"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Come determini i profili di rischio?",
+     "min": 6,
+     "modello": "Rvita in base alla tipologia degli occupanti, che sono svegli e hanno familiarità con l’edificio, e alla velocità di crescita dell’incendio; Rbeni in base al valore e al carattere dell’edificio; Rambiente in base agli effetti sull’ambiente.",
+     "criteri": [
+      "Ho descritto Rvita",
+      "Ho descritto Rbeni e Rambiente"
+     ]
+    },
+    {
+     "q": "Quali misure della strategia ritieni più rilevanti?",
+     "min": 8,
+     "modello": "S.2 resistenza al fuoco e S.3 compartimentazione per il deposito di vernici; S.4 esodo; S.5 gestione della sicurezza antincendio; S.6 controllo dell’incendio con estintori adeguati; S.7 rivelazione e allarme; S.8 controllo di fumi e calore; S.10 sicurezza degli impianti.",
+     "criteri": [
+      "Ho selezionato le misure",
+      "Ho collegato il deposito di vernici"
+     ],
+     "minc": 120
+    },
+    {
+     "q": "Come scegli i livelli di prestazione e le soluzioni?",
+     "min": 6,
+     "modello": "Per ogni misura si attribuisce il livello di prestazione secondo i criteri del Codice e si sceglie una soluzione conforme, alternativa o in deroga, documentando le scelte.",
+     "criteri": [
+      "Ho descritto livelli e soluzioni",
+      "Ho previsto la documentazione"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio imposti la strategia antincendio di una falegnameria con il Codice di prevenzione incendi: profili di rischio, misure rilevanti, livelli di prestazione e soluzioni. Confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "D.M. 3 agosto 2015 e s.m.i."
+  }
+ ]
+}

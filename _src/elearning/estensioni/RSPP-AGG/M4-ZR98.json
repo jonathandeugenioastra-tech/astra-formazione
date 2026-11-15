@@ -1,0 +1,54 @@
+{
+ "dopo": "Bow-tie: le barriere preventive e mitigative",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Il bow-tie dello sversamento",
+   "lead": "Costruisci il diagramma bow-tie per l’evento «perdita di contenimento di un serbatoio di acido».",
+   "dossier": [
+    [
+     "Serbatoio",
+     "acido cloridrico in un’area di stoccaggio"
+    ],
+    [
+     "Minacce",
+     "corrosione, urto di un carrello, sovrariempimento"
+    ],
+    [
+     "Conseguenze",
+     "ustioni a lavoratori, vapori tossici, contaminazione del suolo"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Individua una barriera preventiva per ciascuna minaccia.",
+     "min": 7,
+     "modello": "Corrosione: ispezioni e spessimetrie periodiche. Urto: barriere fisiche e percorsi separati per i carrelli. Sovrariempimento: allarme e blocco di alto livello.",
+     "criteri": [
+      "Ho associato una barriera a ogni minaccia"
+     ]
+    },
+    {
+     "q": "Individua le barriere mitigative per le conseguenze.",
+     "min": 7,
+     "modello": "Bacino di contenimento; doccia e lavaocchi; procedura di emergenza con DPI; neutralizzazione e materiali assorbenti; sistema di rilevazione dei vapori.",
+     "criteri": [
+      "Ho previsto contenimento e presidi",
+      "Ho previsto la procedura di emergenza"
+     ]
+    },
+    {
+     "q": "Come verifichi che le barriere funzionino?",
+     "min": 7,
+     "modello": "Ogni barriera ha un responsabile, un controllo periodico e un indicatore: ad esempio prove dell’allarme di livello, verifica del bacino, esercitazioni di sversamento.",
+     "criteri": [
+      "Ho assegnato responsabili e controlli",
+      "Ho previsto indicatori"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio costruisci il diagramma bow-tie per la perdita di un serbatoio di acido: barriere preventive, mitigative e verifica della loro efficacia. Confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "UNI ISO 31010"
+  }
+ ]
+}

@@ -1,0 +1,55 @@
+{
+ "dopo": "Analisi dei fabbisogni formativi",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · L’analisi dei fabbisogni formativi",
+   "lead": "Analizzi i fabbisogni formativi di un reparto di produzione dopo un anno con molti quasi incidenti.",
+   "dossier": [
+    [
+     "Dati",
+     "20 quasi incidenti, 12 legati a carrelli e pedoni; 3 infortuni da taglio con coltelli"
+    ],
+    [
+     "Organico",
+     "25 lavoratori, di cui 8 neoassunti e 6 di lingua straniera"
+    ],
+    [
+     "Osservazioni dei preposti",
+     "uso discontinuo dei guanti antitaglio; percorsi pedonali non rispettati"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Analizza i fabbisogni a livello organizzativo, di ruolo e individuale.",
+     "min": 8,
+     "modello": "Organizzativo: separare pedoni e carrelli è anzitutto un problema di layout, non solo di formazione. Ruolo: carrellisti, addetti al taglio e preposti hanno bisogni diversi. Individuale: neoassunti e lavoratori stranieri richiedono formazione iniziale e verifica della lingua.",
+     "criteri": [
+      "Ho distinto i tre livelli",
+      "Ho separato problemi organizzativi e formativi"
+     ],
+     "minc": 120
+    },
+    {
+     "q": "Quali interventi formativi proponi?",
+     "min": 7,
+     "modello": "Addestramento pratico per i carrellisti sulla circolazione; addestramento all’uso dei guanti antitaglio e dei coltelli di sicurezza; percorsi per i neoassunti con verifica della comprensione; formazione dei preposti sull’intervento e sul riconoscimento dei comportamenti.",
+     "criteri": [
+      "Ho proposto interventi per ruolo",
+      "Ho incluso i preposti"
+     ]
+    },
+    {
+     "q": "Quali interventi non formativi servono insieme?",
+     "min": 6,
+     "modello": "Percorsi pedonali protetti; coltelli di sicurezza; guanti più confortevoli scelti con gli addetti; segnaletica; vigilanza dei preposti.",
+     "criteri": [
+      "Ho proposto interventi tecnici e organizzativi"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio analizzi i fabbisogni formativi di un reparto dopo molti quasi incidenti, distinguendo i livelli e separando ciò che la formazione può risolvere da ciò che richiede altri interventi. Confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "Art. 37 D.lgs. 81/2008 · Accordo 17 aprile 2025"
+  }
+ ]
+}

@@ -1,0 +1,58 @@
+{
+ "dopo": "Sistemi di gestione: novità",
+ "schermate": [
+  {
+   "t": "classifica",
+   "tit": "Quale punto della ISO 45001?",
+   "lead": "Seleziona un requisito, poi il punto della norma.",
+   "colonne": [
+    "4 · Contesto",
+    "5 · Leadership e partecipazione",
+    "6 · Pianificazione",
+    "8 · Attività operative",
+    "9 · Valutazione delle prestazioni",
+    "10 · Miglioramento"
+   ],
+   "schede": [
+    [
+     "Determinare i fattori interni ed esterni, incluso il cambiamento climatico",
+     0,
+     "Punto 4.1.",
+     "Corretto."
+    ],
+    [
+     "Consultazione e partecipazione dei lavoratori",
+     1,
+     "Punto 5.4.",
+     "Corretto."
+    ],
+    [
+     "Valutare rischi e opportunità e pianificare le azioni",
+     2,
+     "Punto 6.1.",
+     "Corretto."
+    ],
+    [
+     "Gestire gli appalti e il cambiamento",
+     3,
+     "Punto 8.1.",
+     "Corretto."
+    ],
+    [
+     "Audit interno e riesame della direzione",
+     4,
+     "Punti 9.2 e 9.3.",
+     "Corretto."
+    ],
+    [
+     "Incidenti, non conformità e azioni correttive",
+     5,
+     "Punto 10.2.",
+     "Corretto."
+    ]
+   ],
+   "nar": "Sei requisiti del sistema di gestione. Collocali nel punto della UNI EN ISO 45001.",
+   "rif": "UNI EN ISO 45001:2023"
+  }
+ ]
+}

@@ -1,0 +1,75 @@
+{
+ "dopo": "Prevenzione incendi e emergenze: il quadro dei tre decreti",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "Quale decreto?",
+   "scena": "Un’impresa deve aggiornare la gestione antincendio: manutenzione degli estintori, formazione degli addetti e progettazione di un nuovo magazzino a basso rischio.",
+   "decisioni": [
+    {
+     "dom": "Per manutenzione e qualificazione dei manutentori?",
+     "opz": [
+      [
+       "D.M. 1 settembre 2021, con le modifiche recenti",
+       true,
+       "Corretto."
+      ],
+      [
+       "D.M. 2 settembre 2021",
+       false,
+       "Riguarda la gestione dell’emergenza."
+      ],
+      [
+       "D.M. 3 settembre 2021",
+       false,
+       "Riguarda la progettazione."
+      ]
+     ]
+    },
+    {
+     "dom": "Per la formazione degli addetti e il piano di emergenza?",
+     "opz": [
+      [
+       "D.M. 2 settembre 2021",
+       true,
+       "Corretto."
+      ],
+      [
+       "D.M. 1 settembre 2021",
+       false,
+       "Riguarda i controlli."
+      ],
+      [
+       "D.P.R. 151/2011",
+       false,
+       "Riguarda le attività soggette."
+      ]
+     ]
+    },
+    {
+     "dom": "Per i criteri di progettazione del magazzino a basso rischio?",
+     "opz": [
+      [
+       "D.M. 3 settembre 2021",
+       true,
+       "Corretto: criteri generali per i luoghi di lavoro."
+      ],
+      [
+       "D.M. 2 settembre 2021",
+       false,
+       "Riguarda l’emergenza."
+      ],
+      [
+       "Nessun decreto",
+       false,
+       "Il decreto esiste."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "Tre decreti, tre materie: controlli e manutenzione, gestione dell’emergenza e formazione, criteri di progettazione e gestione della sicurezza antincendio.",
+   "nar": "Tre esigenze antincendio. Collegale al decreto giusto.",
+   "rif": "D.M. 1, 2 e 3 settembre 2021"
+  }
+ ]
+}

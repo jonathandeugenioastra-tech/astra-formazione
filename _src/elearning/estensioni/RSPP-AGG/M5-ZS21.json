@@ -1,0 +1,55 @@
+{
+ "dopo": "Formare lavoratori stranieri",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Il corso per lavoratori stranieri",
+   "lead": "Progetti la formazione specifica di 10 nuovi addetti di un’impresa agricola, di quattro nazionalità e con italiano limitato.",
+   "dossier": [
+    [
+     "Rischi",
+     "macchine agricole, prodotti fitosanitari, caldo, movimentazione"
+    ],
+    [
+     "Lingue",
+     "inglese, francese, punjabi, rumeno"
+    ],
+    [
+     "Tempi",
+     "inizio dei lavori fra una settimana"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Come verifichi la comprensione della lingua?",
+     "min": 6,
+     "modello": "Colloquio iniziale con domande pratiche e immagini; registrazione dell’esito; scelta della lingua veicolare o del supporto di mediatori.",
+     "criteri": [
+      "Ho previsto una verifica documentata"
+     ]
+    },
+    {
+     "q": "Come progetti contenuti e metodi?",
+     "min": 8,
+     "modello": "Gruppi per lingua o mediatori culturali; materiali con pittogrammi e immagini; dimostrazioni pratiche sulle macchine e sui DPI; istruzioni brevi tradotte; schede dei fitosanitari spiegate con i simboli di pericolo.",
+     "criteri": [
+      "Ho previsto mediatori e immagini",
+      "Ho previsto pratica"
+     ],
+     "minc": 120
+    },
+    {
+     "q": "Come verifichi l’apprendimento e il trasferimento?",
+     "min": 6,
+     "modello": "Prove pratiche con lista di controllo; domande nella lingua compresa; osservazione del preposto nei primi giorni; affiancamento iniziale.",
+     "criteri": [
+      "Ho previsto prove pratiche",
+      "Ho previsto osservazione e affiancamento"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio progetti la formazione di nuovi addetti stranieri in un’impresa agricola: verifica della lingua, contenuti e metodi, verifica dell’apprendimento. Confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "Art. 37, c. 13, D.lgs. 81/2008"
+  }
+ ]
+}

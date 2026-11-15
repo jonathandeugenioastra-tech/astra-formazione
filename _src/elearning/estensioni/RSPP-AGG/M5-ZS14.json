@@ -1,0 +1,56 @@
+{
+ "dopo": "Costruire un buon test di verifica",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Riscrivere domande di verifica",
+   "lead": "Correggi tre domande di un test di verifica e scrivine una nuova.",
+   "dossier": [
+    [
+     "Domanda 1",
+     "«Non è vero che il preposto non debba vigilare?» con risposte sì/no"
+    ],
+    [
+     "Domanda 2",
+     "«Quale DPI si usa?» con risposte: A) guanti B) tutte le precedenti C) nessuna delle precedenti"
+    ],
+    [
+     "Domanda 3",
+     "«L’art. 37 è al comma 13?» con risposte vero/falso"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Riscrivi la domanda 1 eliminando i difetti.",
+     "min": 5,
+     "modello": "«Quale compito spetta al preposto quando un lavoratore non usa i DPI previsti?» con distrattori plausibili, ad esempio annotarlo a fine turno, chiedere al collega di intervenire, interrompere l’attività se l’inosservanza persiste.",
+     "criteri": [
+      "Ho eliminato la doppia negazione",
+      "Ho reso la domanda applicativa"
+     ]
+    },
+    {
+     "q": "Riscrivi la domanda 2.",
+     "min": 5,
+     "modello": "Domanda contestualizzata: «Per la molatura di pezzi con proiezione di schegge quale DPI per gli occhi è adeguato?» con distrattori omogenei, senza «tutte» o «nessuna delle precedenti».",
+     "criteri": [
+      "Ho contestualizzato la domanda",
+      "Ho eliminato le opzioni vietate"
+     ]
+    },
+    {
+     "q": "Scrivi una nuova domanda applicativa con calcolo.",
+     "min": 8,
+     "modello": "«Un addetto è esposto a 92 dB(A) per 2 ore e a 85 dB(A) per 4 ore, il resto in silenzio. Il suo LEX,8h è circa:» A) 85 dB(A) B) 87,5 dB(A) C) 92 dB(A) D) 89 dB(A). Corretta B.",
+     "criteri": [
+      "Ho scritto una domanda di calcolo",
+      "Ho previsto distrattori plausibili"
+     ],
+     "minc": 80
+    }
+   ],
+   "nar": "Nel laboratorio correggi tre domande di un test di verifica e ne scrivi una nuova applicativa, seguendo le regole per un buon test. Confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "Accordo 17 aprile 2025, punto 6"
+  }
+ ]
+}

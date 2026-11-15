@@ -1,0 +1,75 @@
+{
+ "dopo": "Le attività soggette: il D.P.R. 151/2011",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "La nuova attività soggetta",
+   "scena": "Un’impresa amplia il deposito di materiali combustibili oltre la soglia che lo rende attività soggetta ai controlli dei Vigili del fuoco.",
+   "decisioni": [
+    {
+     "dom": "Che cosa deve fare prima di esercitare l’attività ampliata?",
+     "opz": [
+      [
+       "Verificare la categoria nell’Allegato I e seguire il procedimento previsto, con SCIA prima dell’avvio",
+       true,
+       "Corretto."
+      ],
+      [
+       "Nulla, basta l’assicurazione",
+       false,
+       "L’attività soggetta richiede il procedimento."
+      ],
+      [
+       "Aspettare il controllo dei Vigili del fuoco",
+       false,
+       "L’iniziativa è dell’impresa."
+      ]
+     ]
+    },
+    {
+     "dom": "Se l’attività è in categoria B o C, che cosa serve prima?",
+     "opz": [
+      [
+       "La valutazione del progetto da parte del Comando dei Vigili del fuoco",
+       true,
+       "Corretto."
+      ],
+      [
+       "Nulla",
+       false,
+       "Serve la valutazione del progetto."
+      ],
+      [
+       "Solo un’autocertificazione",
+       false,
+       "Non basta."
+      ]
+     ]
+    },
+    {
+     "dom": "Ogni quanto si rinnova la conformità antincendio?",
+     "opz": [
+      [
+       "Con l’attestazione periodica di rinnovo nei tempi previsti, di norma ogni cinque anni",
+       true,
+       "Corretto."
+      ],
+      [
+       "Mai",
+       false,
+       "Il rinnovo è periodico."
+      ],
+      [
+       "Ogni anno",
+       false,
+       "Non è la regola generale."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "Le attività soggette seguono un procedimento graduato per categoria: valutazione del progetto per B e C, SCIA prima dell’avvio e rinnovo periodico.",
+   "nar": "Un deposito diventa attività soggetta. Imposta il procedimento.",
+   "rif": "D.P.R. 151/2011"
+  }
+ ]
+}

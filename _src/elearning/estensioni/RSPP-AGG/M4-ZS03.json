@@ -1,0 +1,75 @@
+{
+ "dopo": "Ambienti confinati: il nuovo corso",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "Il corso per gli ambienti confinati",
+   "scena": "Un’impresa di spurghi deve formare 8 operatori che entrano in fosse e cisterne.",
+   "decisioni": [
+    {
+     "dom": "Quale corso prevede l’Accordo 2025?",
+     "opz": [
+      [
+       "Un corso specifico per ambienti confinati o sospetti di inquinamento di 12 ore, con parte pratica",
+       true,
+       "Corretto."
+      ],
+      [
+       "Il solo corso generale di 4 ore",
+       false,
+       "Non basta."
+      ],
+      [
+       "Nessun corso specifico",
+       false,
+       "L’Accordo lo prevede."
+      ]
+     ]
+    },
+    {
+     "dom": "Che cosa deve comprendere la parte pratica?",
+     "opz": [
+      [
+       "Uso di rilevatori di gas, DPI respiratori, sistemi di recupero e simulazione del soccorso",
+       true,
+       "Corretto."
+      ],
+      [
+       "Solo un video",
+       false,
+       "Serve pratica reale."
+      ],
+      [
+       "La guida del mezzo",
+       false,
+       "Non è pertinente."
+      ]
+     ]
+    },
+    {
+     "dom": "La formazione basta per entrare?",
+     "opz": [
+      [
+       "No: servono anche la procedura di lavoro, le misure dell’atmosfera, il permesso e il soccorso organizzato",
+       true,
+       "Corretto."
+      ],
+      [
+       "Sì",
+       false,
+       "La formazione è uno degli elementi."
+      ],
+      [
+       "Sì, se c’è un collega fuori",
+       false,
+       "Il soccorso deve essere organizzato e attrezzato."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "Il corso di dodici ore con parte pratica è necessario ma non sufficiente: ogni ingresso richiede procedura, misure, permesso e soccorso organizzato.",
+   "nar": "Formare operatori che entrano in cisterne. Definisci il percorso.",
+   "rif": "Accordo 17 aprile 2025 · D.P.R. 177/2011"
+  }
+ ]
+}

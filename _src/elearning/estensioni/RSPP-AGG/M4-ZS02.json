@@ -1,0 +1,56 @@
+{
+ "dopo": "Lavori elettrici e lavori in prossimità di linee elettriche",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Organizzare un lavoro elettrico",
+   "lead": "Organizzi la sostituzione di un interruttore in un quadro di distribuzione di uno stabilimento.",
+   "dossier": [
+    [
+     "Quadro",
+     "bassa tensione, alimenta due reparti"
+    ],
+    [
+     "Squadra",
+     "un elettricista esperto e un aiutante non formato"
+    ],
+    [
+     "Vincolo",
+     "la produzione vorrebbe evitare il fuori servizio"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Quale modalità di lavoro scegli e perché?",
+     "min": 6,
+     "modello": "Lavoro fuori tensione come regola: le esigenze produttive non giustificano il lavoro sotto tensione, che è ammesso solo nei casi e con le condizioni previste dalle norme e da personale idoneo.",
+     "criteri": [
+      "Ho scelto il lavoro fuori tensione",
+      "Ho motivato la scelta"
+     ]
+    },
+    {
+     "q": "Quali sono i passaggi per mettere fuori tensione in sicurezza?",
+     "min": 8,
+     "modello": "Individuazione del circuito; sezionamento; blocco e cartellonistica contro la richiusura; verifica dell’assenza di tensione; messa a terra e in cortocircuito se necessaria; protezione verso parti vicine in tensione; consegna dell’impianto con documento.",
+     "criteri": [
+      "Ho elencato i passaggi",
+      "Ho incluso blocco e verifica di assenza di tensione"
+     ],
+     "minc": 120
+    },
+    {
+     "q": "Che ruolo può avere l’aiutante?",
+     "min": 6,
+     "modello": "Senza formazione e qualifica non può operare sulle parti elettriche: può svolgere compiti non elettrici sotto supervisione. Le qualifiche di persona esperta o avvertita sono attribuite dal datore di lavoro dopo la formazione prevista.",
+     "criteri": [
+      "Ho limitato i compiti dell’aiutante",
+      "Ho citato le qualifiche"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio organizzi la sostituzione di un interruttore in un quadro: modalità di lavoro, passaggi di messa fuori tensione e ruolo dell’aiutante. Confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "Artt. 82-83 D.lgs. 81/2008 · CEI EN 50110-1 · CEI 11-27"
+  }
+ ]
+}

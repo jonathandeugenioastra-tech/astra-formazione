@@ -1,0 +1,22 @@
+{
+ "dopo": "Esercitazione 5 · Decreto e contenuto",
+ "schermate": [
+  {
+   "t": "applica",
+   "tit": "La formazione e la comunicazione nella tua attività di RSPP",
+   "lead": "Verifica la qualità della formazione e della comunicazione che curi.",
+   "voci": [
+    "Analisi dei fabbisogni documentata",
+    "Test con domande applicative",
+    "Verifica dell’efficacia a 30-90 giorni",
+    "Regole dell’Accordo 2025 applicate",
+    "Brevi riunioni di reparto",
+    "Comunicazione dei risultati delle misure ai lavoratori"
+   ],
+   "campo": "L’aspetto che migliorerai nel prossimo corso",
+   "esempio": "Es.: domande di verifica basate su casi reali",
+   "min": 3,
+   "nar": "Verifica la qualità della formazione e della comunicazione che curi e indica che cosa migliorerai nel prossimo corso."
+  }
+ ]
+}

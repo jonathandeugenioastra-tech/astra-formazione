@@ -1,0 +1,22 @@
+{
+ "dopo": "Esercitazione 4 · Ingresso in una vasca",
+ "schermate": [
+  {
+   "t": "applica",
+   "tit": "Sistemi di gestione e lavori ad alto rischio nella tua realtà",
+   "lead": "Verifica come sono gestiti i lavori ad alto rischio.",
+   "voci": [
+    "Permessi di lavoro per lavori a caldo",
+    "Procedura per ambienti confinati",
+    "Procedura di blocco delle energie",
+    "Sistemi anticaduta con piano di soccorso",
+    "Qualifiche per lavori elettrici",
+    "Audit interni programmati"
+   ],
+   "campo": "Il lavoro ad alto rischio meno controllato e la prima azione",
+   "esempio": "Es.: lavori in copertura senza piano di soccorso",
+   "min": 3,
+   "nar": "Verifica come sono gestiti i lavori ad alto rischio e indica quello meno controllato con la prima azione."
+  }
+ ]
+}

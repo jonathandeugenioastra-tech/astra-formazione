@@ -1,0 +1,60 @@
+{
+ "dopo": "Esempio applicativo: l’albero dei guasti",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · L’albero dei guasti",
+   "lead": "Costruisci un semplice albero dei guasti per l’evento «avvio improvviso della pressa durante la manutenzione».",
+   "dossier": [
+    [
+     "Cause possibili",
+     "manutentore non applica il lucchetto (probabilità annua stimata 0,05); collega avvia la pressa senza controllo (0,02); guasto del sezionatore (0,001)"
+    ],
+    [
+     "Logica",
+     "l’evento accade se il sezionatore guasta, oppure se manca il lucchetto e contemporaneamente un collega avvia la pressa"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Disegna la logica con porte E e O.",
+     "min": 7,
+     "modello": "Evento di vertice con porta O. Ramo 1: guasto del sezionatore. Ramo 2: porta E tra mancata applicazione del lucchetto e avvio da parte del collega.",
+     "criteri": [
+      "Ho usato una porta O al vertice",
+      "Ho usato una porta E nel ramo 2"
+     ]
+    },
+    {
+     "q": "Calcola la probabilità dell’evento di vertice.",
+     "min": 7,
+     "modello": "Ramo 2: 0,05 × 0,02 = 0,001. Vertice, con eventi rari: circa 0,001 + 0,001 = 0,002 l’anno.",
+     "criteri": [
+      "Ho moltiplicato nella porta E",
+      "Ho sommato nella porta O"
+     ]
+    },
+    {
+     "q": "Quale intervento riduce di più la probabilità?",
+     "min": 7,
+     "modello": "I due rami pesano allo stesso modo. Una procedura di blocco con lucchetti personali e verifica dell’energia zero riduce il ramo 2; un sezionatore affidabile con manutenzione e prova periodica riduce il ramo 1. Servono entrambi.",
+     "criteri": [
+      "Ho confrontato i rami",
+      "Ho proposto interventi su entrambi"
+     ]
+    },
+    {
+     "q": "Quali limiti ha l’analisi?",
+     "min": 5,
+     "modello": "Le probabilità sono stime; possono esistere cause comuni che rendono gli eventi non indipendenti, come la fretta; l’albero va aggiornato con dati di campo.",
+     "criteri": [
+      "Ho indicato stime e dipendenze",
+      "Ho previsto l’aggiornamento"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio costruisci un albero dei guasti per l’avvio improvviso di una pressa: logica, calcolo della probabilità, interventi e limiti. Confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "CEI EN 61025 · UNI ISO 31010"
+  }
+ ]
+}

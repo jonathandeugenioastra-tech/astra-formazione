@@ -1,0 +1,55 @@
+{
+ "dopo": "Arresto caduta: tirante d’aria, ancoraggi e soccorso",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Il tirante d’aria",
+   "lead": "Verifichi un sistema di arresto caduta per un lavoro su un soppalco alto 5 metri.",
+   "dossier": [
+    [
+     "Sistema",
+     "cordino da 2 m con assorbitore di energia; ancoraggio a livello dei piedi del lavoratore"
+    ],
+    [
+     "Dati del fabbricante",
+     "allungamento massimo dell’assorbitore 1,75 m"
+    ],
+    [
+     "Ipotesi",
+     "distanza tra punto di attacco dell’imbracatura e piedi 1,5 m; margine di sicurezza 1 m"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Calcola il tirante d’aria necessario.",
+     "min": 7,
+     "modello": "Con ancoraggio ai piedi la caduta libera è di circa 2 m più la distanza dell’attacco: nel calcolo semplificato, lunghezza del cordino 2 m + allungamento 1,75 m + distanza attacco-piedi 1,5 m + margine 1 m = 6,25 m, oltre a eventuali spostamenti dell’ancoraggio.",
+     "criteri": [
+      "Ho sommato le componenti",
+      "Ho ottenuto circa 6,25 m"
+     ]
+    },
+    {
+     "q": "Il sistema è adatto ai 5 m disponibili?",
+     "min": 6,
+     "modello": "No: il tirante necessario supera l’altezza disponibile, il lavoratore urterebbe il suolo. Servono ancoraggio più alto, cordino più corto, dispositivo retrattile adatto o sistema di trattenuta che impedisce di raggiungere il bordo.",
+     "criteri": [
+      "Ho concluso che non è adatto",
+      "Ho proposto alternative"
+     ]
+    },
+    {
+     "q": "Che cosa prevede il piano di soccorso?",
+     "min": 7,
+     "modello": "Recupero rapido della persona sospesa per evitare la sindrome da sospensione inerte; attrezzatura di soccorso disponibile; persone addestrate presenti; esercitazioni periodiche.",
+     "criteri": [
+      "Ho previsto il recupero rapido",
+      "Ho previsto addestramento e attrezzature"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio verifichi un sistema di arresto caduta su un soppalco di cinque metri: tirante d’aria, adeguatezza del sistema e piano di soccorso. Confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "Artt. 111 e 115 D.lgs. 81/2008 · UNI EN 363 · UNI EN 355"
+  }
+ ]
+}

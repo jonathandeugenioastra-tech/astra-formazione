@@ -1,0 +1,54 @@
+{
+ "dopo": "Formazione: le regole operative dell'Accordo 2025",
+ "schermate": [
+  {
+   "t": "classifica",
+   "tit": "Regola rispettata o no?",
+   "lead": "Seleziona una situazione d’aula, poi la colonna.",
+   "colonne": [
+    "Conforme all’Accordo 2025",
+    "Non conforme"
+   ],
+   "schede": [
+    [
+     "Corso con 28 partecipanti",
+     0,
+     "Il massimo è 30.",
+     "Corretto."
+    ],
+    [
+     "Prova pratica con un istruttore ogni 10 allievi",
+     1,
+     "Il rapporto nelle attività pratiche è 1:6.",
+     "Corretto."
+    ],
+    [
+     "Partecipante con frequenza dell’85%",
+     1,
+     "Serve almeno il 90%.",
+     "Corretto."
+    ],
+    [
+     "Videoconferenza seguita da smartphone",
+     1,
+     "Non ammessa.",
+     "Corretto."
+    ],
+    [
+     "Test finale di 30 domande con soglia del 70%",
+     0,
+     "Conforme per un corso base.",
+     "Corretto."
+    ],
+    [
+     "Fascicolo conservato per 10 anni",
+     0,
+     "Conforme.",
+     "Corretto."
+    ]
+   ],
+   "nar": "Sei situazioni d’aula. Distingui quelle conformi alle regole operative dell’Accordo 2025.",
+   "rif": "Accordo Stato-Regioni 17 aprile 2025"
+  }
+ ]
+}

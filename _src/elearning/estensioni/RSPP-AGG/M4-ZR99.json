@@ -1,0 +1,64 @@
+{
+ "dopo": "Condurre un audit: la UNI EN ISO 19011",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Pianificare e condurre un audit interno",
+   "lead": "Pianifichi l’audit interno del sistema di gestione della sicurezza di uno stabilimento di 150 lavoratori.",
+   "dossier": [
+    [
+     "Ambito",
+     "produzione, manutenzione, magazzino, appalti"
+    ],
+    [
+     "Tempo",
+     "2 giornate"
+    ],
+    [
+     "Auditor",
+     "tu e un collega di un altro stabilimento"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Scrivi il programma dell’audit.",
+     "min": 7,
+     "modello": "Obiettivi e criteri: requisiti della ISO 45001 e obblighi di legge; ambito: le quattro aree; calendario con riunione di apertura, interviste, sopralluoghi ed esame dei documenti per area; riunione di chiusura.",
+     "criteri": [
+      "Ho definito obiettivi, criteri e ambito",
+      "Ho previsto apertura e chiusura"
+     ]
+    },
+    {
+     "q": "Quali evidenze raccogli negli appalti?",
+     "min": 7,
+     "modello": "DUVRI e loro aggiornamento; verifica dell’idoneità degli appaltatori; permessi di lavoro; verbali delle riunioni di coordinamento; interviste a preposti delle imprese esterne; osservazione di un lavoro in corso.",
+     "criteri": [
+      "Ho previsto documenti e interviste",
+      "Ho previsto l’osservazione sul campo"
+     ]
+    },
+    {
+     "q": "Come formuli una non conformità?",
+     "min": 7,
+     "modello": "Con requisito, evidenza oggettiva e scostamento: ad esempio, requisito 8.1.4.2; evidenza: due permessi di lavoro a caldo senza firma del preposto; non conformità: il controllo dei lavori a caldo non è applicato in modo sistematico.",
+     "criteri": [
+      "Ho indicato requisito ed evidenza",
+      "Ho formulato lo scostamento"
+     ]
+    },
+    {
+     "q": "Come assicuri l’imparzialità?",
+     "min": 5,
+     "modello": "Auditor che non verificano il proprio lavoro; collega di un altro stabilimento; decisioni basate su evidenze; riservatezza.",
+     "criteri": [
+      "Ho garantito indipendenza",
+      "Ho basato le conclusioni sulle evidenze"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio pianifichi e conduci un audit interno secondo la UNI EN ISO 19011: programma, evidenze sugli appalti, formulazione delle non conformità e imparzialità. Confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "UNI EN ISO 19011 · UNI EN ISO 45001"
+  }
+ ]
+}

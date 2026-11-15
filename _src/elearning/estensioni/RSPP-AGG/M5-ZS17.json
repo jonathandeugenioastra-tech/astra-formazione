@@ -1,0 +1,55 @@
+{
+ "dopo": "Comunicazione del rischio",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Comunicare un rischio ai lavoratori",
+   "lead": "Prepari la comunicazione dei risultati delle misure di silice in un laboratorio di lapidei.",
+   "dossier": [
+    [
+     "Risultati",
+     "esposizione al taglio pari a circa la metà del valore limite; sotto il limite ma non trascurabile"
+    ],
+    [
+     "Destinatari",
+     "12 lavoratori, alcuni preoccupati, altri indifferenti"
+    ],
+    [
+     "Misure decise",
+     "taglio ad acqua su tutte le macchine, pulizia a umido, sorveglianza sanitaria"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Scrivi il messaggio chiave in linguaggio semplice.",
+     "min": 6,
+     "modello": "«Le misure mostrano che respiriamo polvere di silice in quantità inferiori al limite, ma non trascurabili. La silice può danneggiare i polmoni nel tempo. Per questo introduciamo il taglio ad acqua e la pulizia a umido.»",
+     "criteri": [
+      "Ho usato linguaggio semplice",
+      "Ho evitato di minimizzare o allarmare"
+     ]
+    },
+    {
+     "q": "Come presenti i dati?",
+     "min": 6,
+     "modello": "Con un grafico semplice che confronta i valori misurati con il limite e con l’obiettivo; spiegazione di che cosa significa «sotto il limite»; risposta alle domande.",
+     "criteri": [
+      "Ho previsto una visualizzazione semplice",
+      "Ho previsto spazio per le domande"
+     ]
+    },
+    {
+     "q": "Come rendi coerenti messaggi e comportamenti?",
+     "min": 6,
+     "modello": "La direzione partecipa all’incontro; le misure partono subito; il preposto verifica l’uso del taglio ad acqua; i lavoratori ricevono il riscontro sui risultati dopo gli interventi.",
+     "criteri": [
+      "Ho previsto coerenza della direzione",
+      "Ho previsto il riscontro"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio prepari la comunicazione dei risultati delle misure di silice: messaggio chiave, presentazione dei dati e coerenza tra messaggi e comportamenti. Confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "Art. 36 D.lgs. 81/2008"
+  }
+ ]
+}

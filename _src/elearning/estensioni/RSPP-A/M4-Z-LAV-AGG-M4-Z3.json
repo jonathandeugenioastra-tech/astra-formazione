@@ -1,0 +1,71 @@
+{
+ "dopo": "Le esercitazioni di evacuazione",
+ "schermate": [
+  {
+   "t": "classifica",
+   "tit": "Chi lo fa in emergenza?",
+   "lead": "Seleziona un compito, poi chi lo svolge.",
+   "colonne": [
+    "Tutti i lavoratori",
+    "Addetti alle emergenze"
+   ],
+   "schede": [
+    [
+     "Dare l’allarme quando si scopre un incendio",
+     0,
+     "Chiunque scopra un pericolo dà l’allarme.",
+     "Corretto."
+    ],
+    [
+     "Usare l’estintore su un principio di incendio, se addestrato e senza rischi",
+     1,
+     "È un compito degli addetti antincendio formati.",
+     "Corretto."
+    ],
+    [
+     "Seguire il percorso di esodo fino al punto di raccolta",
+     0,
+     "È un dovere di tutti.",
+     "Corretto."
+    ],
+    [
+     "Verificare che nessuno sia rimasto nei locali",
+     1,
+     "Lo fanno gli addetti secondo il piano.",
+     "Corretto."
+    ],
+    [
+     "Prestare il primo soccorso con la cassetta",
+     1,
+     "È un compito degli addetti al primo soccorso.",
+     "Corretto."
+    ],
+    [
+     "Chiamare il 112 e dare informazioni chiare",
+     0,
+     "Chiunque può e deve farlo, secondo il piano.",
+     "Corretto."
+    ]
+   ],
+   "nar": "Sei compiti in emergenza. Indica se spettano a tutti i lavoratori o agli addetti designati.",
+   "rif": "Artt. 43-46 D.lgs. 81/2008 · D.M. 2 settembre 2021"
+  },
+  {
+   "t": "applica",
+   "tit": "Diritti e doveri nel tuo lavoro",
+   "lead": "Fai il punto sui tuoi diritti e doveri.",
+   "voci": [
+    "Conosco il mio preposto",
+    "Conosco il mio RLS",
+    "So come segnalare un pericolo",
+    "Ho la formazione aggiornata",
+    "Conosco il mio giudizio di idoneità",
+    "Ho i DPI adatti e so usarli"
+   ],
+   "campo": "Una cosa che farai diversamente dopo questo corso",
+   "esempio": "Es.: segnalerò i quasi incidenti anche quando nessuno si fa male",
+   "min": 3,
+   "nar": "Fai il punto sui tuoi diritti e doveri in materia di sicurezza e scrivi una cosa che farai diversamente dopo il corso."
+  }
+ ]
+}

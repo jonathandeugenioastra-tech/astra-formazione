@@ -1,0 +1,75 @@
+{
+ "dopo": "Le segnalazioni di illeciti: il D.lgs. 24/2023",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "La segnalazione del magazziniere",
+   "scena": "Un magazziniere nota che fusti di solvente esausto vengono caricati su un furgone senza formulario. Teme ritorsioni.",
+   "decisioni": [
+    {
+     "dom": "Che cosa può fare?",
+     "opz": [
+      [
+       "Nulla: non è affar suo",
+       false,
+       "Il D.lgs. 24/2023 tutela chi segnala violazioni nel contesto lavorativo."
+      ],
+      [
+       "Usare il canale di segnalazione interno dell’impresa",
+       true,
+       "Corretto: il canale interno garantisce la riservatezza dell’identità del segnalante."
+      ],
+      [
+       "Pubblicare subito un video sui social",
+       false,
+       "La divulgazione pubblica è tutelata solo in condizioni specifiche, dopo i canali interni ed esterni o in caso di pericolo imminente."
+      ]
+     ]
+    },
+    {
+     "dom": "Chi gestisce la segnalazione?",
+     "opz": [
+      [
+       "Il responsabile del magazzino coinvolto",
+       false,
+       "Chi gestisce le segnalazioni deve essere autonomo e formato, non coinvolto nei fatti."
+      ],
+      [
+       "Il gestore del canale individuato dall’impresa, che dà riscontro nei termini previsti",
+       true,
+       "Corretto: avviso di ricevimento entro 7 giorni e riscontro entro 3 mesi."
+      ],
+      [
+       "Nessuno: le segnalazioni anonime si archiviano",
+       false,
+       "Le segnalazioni vanno gestite secondo la procedura."
+      ]
+     ]
+    },
+    {
+     "dom": "Dopo la segnalazione il magazziniere viene trasferito a un turno sgradito. Che cosa prevede la legge?",
+     "opz": [
+      [
+       "È una ritorsione vietata, che può essere comunicata all’ANAC",
+       true,
+       "Corretto: il D.lgs. 24/2023 vieta le ritorsioni e prevede sanzioni."
+      ],
+      [
+       "È legittimo se deciso dal capo reparto",
+       false,
+       "Le misure ritorsive sono nulle."
+      ],
+      [
+       "Il segnalante perde la tutela",
+       false,
+       "La tutela resta se la segnalazione è fatta in buona fede."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "Canale interno, riservatezza, riscontro nei tempi e divieto di ritorsioni: sono le garanzie che rendono utile la segnalazione anche per prevenire reati ambientali.",
+   "nar": "Un lavoratore vede una gestione irregolare dei rifiuti. Accompagnalo nella segnalazione.",
+   "rif": "D.lgs. 24/2023"
+  }
+ ]
+}

@@ -1,0 +1,62 @@
+{
+ "dopo": "Consegna, uso e cura dei DPI",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · I DPI del reparto verniciatura",
+   "lead": "Prepari la scheda dei dispositivi di protezione per un nuovo addetto alla verniciatura.",
+   "dossier": [
+    [
+     "Attività",
+     "preparazione e applicazione di vernici a solvente"
+    ],
+    [
+     "Rumore",
+     "LEX,8h 88 dB(A) vicino al compressore"
+    ],
+    [
+     "Agenti",
+     "vapori di solventi organici, polveri di carteggiatura"
+    ],
+    [
+     "Altri rischi",
+     "schizzi negli occhi, contatto cutaneo"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Quali DPI servono e con quali caratteristiche?",
+     "min": 7,
+     "modello": "Semimaschera con filtri per vapori organici, tipo A, combinati con filtro antipolvere per la carteggiatura; guanti resistenti ai prodotti chimici secondo la UNI EN ISO 374, scelti per il solvente usato; occhiali a tenuta o visiera; tuta protettiva; otoprotettori.",
+     "criteri": [
+      "Ho indicato filtri per vapori organici e polveri",
+      "Ho scelto i guanti per il prodotto specifico",
+      "Ho previsto la protezione di occhi e udito"
+     ]
+    },
+    {
+     "q": "Gli otoprotettori sono obbligatori? Motiva con i valori di azione.",
+     "min": 5,
+     "modello": "Sì. Con 88 dB(A) si supera il valore superiore di azione di 85 dB(A): l’uso dei DPI dell’udito è obbligatorio. Con i DPI non va superato il valore limite di 87 dB(A) all’orecchio.",
+     "criteri": [
+      "Ho confrontato 88 con 85 dB(A)",
+      "Ho indicato l’obbligo d’uso",
+      "Ho citato il valore limite di 87 dB(A)"
+     ]
+    },
+    {
+     "q": "Che cosa controlla l’addetto prima di ogni uso e come conserva i DPI?",
+     "min": 6,
+     "modello": "Integrità di maschera e valvole, scadenza e stato dei filtri, tenuta con la prova del facciale, guanti senza tagli o rigonfiamenti, otoprotettori puliti. Conservazione in luogo pulito, lontano dai solventi; sostituzione dei filtri secondo le istruzioni; segnalazione immediata dei difetti.",
+     "criteri": [
+      "Ho previsto i controlli prima dell’uso",
+      "Ho previsto la conservazione corretta",
+      "Ho previsto la segnalazione dei difetti"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio prepari la scheda dei dispositivi di protezione per un addetto alla verniciatura. Scegli i dispositivi, verifica l’obbligo degli otoprotettori con i valori di azione e indica i controlli prima dell’uso, poi confronta le tue risposte con la soluzione di riferimento.",
+   "rif": "Artt. 74-79 e 189-193 D.lgs. 81/2008"
+  }
+ ]
+}

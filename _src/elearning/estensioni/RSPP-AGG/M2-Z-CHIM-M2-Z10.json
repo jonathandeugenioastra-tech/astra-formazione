@@ -1,0 +1,62 @@
+{
+ "dopo": "La UNI EN 689: strategia di misura",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · La silice nel laboratorio del marmo",
+   "lead": "Imposti la strategia di misura della silice cristallina respirabile in un laboratorio che taglia e lucida lastre di marmo e quarzo agglomerato.",
+   "dossier": [
+    [
+     "Agente",
+     "silice cristallina respirabile, valore limite 0,1 mg/m³ (Allegato XLIII)"
+    ],
+    [
+     "Mansioni",
+     "3 addetti al taglio, 2 alla lucidatura, 1 addetto all’ufficio tecnico"
+    ],
+    [
+     "Misure precedenti",
+     "taglio: 0,012 · 0,018 · 0,025 mg/m³"
+    ],
+    [
+     "Presidi",
+     "taglio ad acqua solo su una macchina; pulizia a secco con scopa"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Definisci i gruppi di esposizione similare e il metodo di campionamento.",
+     "min": 6,
+     "modello": "Due gruppi distinti: taglio e lucidatura; l’addetto dell’ufficio tecnico va valutato a parte. Campionamento personale della frazione respirabile, con selettore ciclonico, rappresentativo dell’intero turno, con analisi della silice cristallina secondo metodi riconosciuti.",
+     "criteri": [
+      "Ho separato taglio e lucidatura",
+      "Ho indicato il campionamento personale della frazione respirabile",
+      "Ho considerato la durata del turno"
+     ]
+    },
+    {
+     "q": "Interpreta le misure del taglio.",
+     "min": 6,
+     "modello": "Il 10% del valore limite è 0,01 mg/m³: tutte e tre le misure lo superano, quindi il test preliminare non dimostra la conformità; nessuna supera il limite. Si passa al test statistico con almeno sei misure. Trattandosi di un cancerogeno, l’esposizione va comunque ridotta al livello più basso tecnicamente possibile.",
+     "criteri": [
+      "Ho applicato il test preliminare",
+      "Ho indicato il test statistico",
+      "Ho richiamato il principio del minimo tecnicamente possibile"
+     ]
+    },
+    {
+     "q": "Quali misure proponi subito?",
+     "min": 6,
+     "modello": "Taglio ad acqua su tutte le macchine; aspirazione localizzata sulla lucidatura; pulizia a umido o con aspiratori di classe H, mai a secco; separazione delle aree; protezione respiratoria adeguata nelle fasi critiche; registro degli esposti e sorveglianza sanitaria.",
+     "criteri": [
+      "Ho previsto lavorazioni ad umido",
+      "Ho vietato la pulizia a secco",
+      "Ho previsto registro e sorveglianza"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio imposti la strategia di misura della silice cristallina in un laboratorio del marmo. Definisci i gruppi e il campionamento, interpreta le misure e proponi le misure immediate, poi confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "UNI EN 689 · Allegati XLII e XLIII D.lgs. 81/2008"
+  }
+ ]
+}

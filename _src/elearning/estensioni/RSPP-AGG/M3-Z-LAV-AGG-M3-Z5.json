@@ -1,0 +1,75 @@
+{
+ "dopo": "Alcol, sostanze e mansioni a rischio: le regole",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "Il collega dopo il pranzo",
+   "scena": "Dopo la pausa pranzo un carrellista rientra con l’alito che sa di vino e ride senza motivo. Deve riprendere a guidare il carrello.",
+   "decisioni": [
+    {
+     "dom": "Che cosa fai?",
+     "opz": [
+      [
+       "Niente, non sono affari tuoi",
+       false,
+       "Ognuno si prende cura anche della sicurezza degli altri."
+      ],
+      [
+       "Avvisi subito il preposto",
+       true,
+       "Corretto: il preposto valuta e, se necessario, allontana il lavoratore dalla mansione."
+      ],
+      [
+       "Gli dai un caffè e lo lasci guidare",
+       false,
+       "Il caffè non elimina gli effetti dell’alcol."
+      ]
+     ]
+    },
+    {
+     "dom": "La conduzione di carrelli rientra tra le mansioni a rischio?",
+     "opz": [
+      [
+       "Sì: è nell’elenco dell’Intesa del 2006 e vale il divieto di assunzione di alcol",
+       true,
+       "Corretto."
+      ],
+      [
+       "No, solo gli autisti di camion",
+       false,
+       "Anche la conduzione di carrelli elevatori è nell’elenco."
+      ],
+      [
+       "Dipende dal contratto",
+       false,
+       "Il divieto deriva dalla legge."
+      ]
+     ]
+    },
+    {
+     "dom": "Che cosa può succedere dopo?",
+     "opz": [
+      [
+       "Il medico competente può svolgere gli accertamenti previsti e valutare l’idoneità",
+       true,
+       "Corretto: nelle mansioni a rischio sono previsti controlli."
+      ],
+      [
+       "Il collega viene licenziato in automatico",
+       false,
+       "Non c’è automatismo."
+      ],
+      [
+       "Nulla",
+       false,
+       "La situazione va gestita."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "Avvisare il preposto, conoscere le mansioni a rischio, lasciare al medico competente gli accertamenti: aiutare il collega significa non coprirlo.",
+   "nar": "Un collega sembra aver bevuto e deve guidare il carrello. Decidi come comportarti.",
+   "rif": "L. 125/2001, art. 15 · Intesa Stato-Regioni 16 marzo 2006"
+  }
+ ]
+}

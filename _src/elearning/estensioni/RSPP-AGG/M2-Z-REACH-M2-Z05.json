@@ -1,0 +1,70 @@
+{
+ "dopo": "Le novità dell’Allegato II: Regolamento (UE) 2020/878",
+ "schermate": [
+  {
+   "t": "classifica",
+   "tit": "In quale sezione della SDS?",
+   "lead": "Seleziona un’informazione, poi la sezione della scheda.",
+   "colonne": [
+    "Sezione 2",
+    "Sezione 3",
+    "Sezione 7",
+    "Sezione 8",
+    "Sezione 9",
+    "Sezione 14"
+   ],
+   "schede": [
+    [
+     "Pittogrammi e indicazioni di pericolo",
+     0,
+     "Identificazione dei pericoli.",
+     "Corretto."
+    ],
+    [
+     "Concentrazioni dei componenti e fattori M",
+     1,
+     "Composizione.",
+     "Corretto."
+    ],
+    [
+     "Incompatibilità di stoccaggio",
+     2,
+     "Manipolazione e immagazzinamento.",
+     "Corretto."
+    ],
+    [
+     "Tipo di guanto e di filtro respiratorio",
+     3,
+     "Controllo dell’esposizione e protezione individuale.",
+     "Corretto."
+    ],
+    [
+     "Punto di infiammabilità",
+     4,
+     "Proprietà fisiche e chimiche.",
+     "Corretto."
+    ],
+    [
+     "Numero ONU e classe ADR",
+     5,
+     "Informazioni sul trasporto.",
+     "Corretto."
+    ],
+    [
+     "Valori limite di esposizione professionale",
+     3,
+     "Sezione 8.",
+     "Corretto."
+    ],
+    [
+     "Stime della tossicità acuta dei componenti",
+     1,
+     "Con il Reg. (UE) 2020/878 vanno in sezione 3.",
+     "Corretto."
+    ]
+   ],
+   "nar": "Otto informazioni della scheda di dati di sicurezza. Indica in quale sezione si trovano.",
+   "rif": "Reg. (UE) 2020/878"
+  }
+ ]
+}

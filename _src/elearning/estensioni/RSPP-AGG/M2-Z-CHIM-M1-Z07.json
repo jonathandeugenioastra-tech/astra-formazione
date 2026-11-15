@@ -1,0 +1,75 @@
+{
+ "dopo": "La restrizione sui diisocianati: formazione obbligatoria",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "La schiuma poliuretanica in cantiere",
+   "scena": "Un’impresa di serramenti usa schiume poliuretaniche monocomponenti con diisocianati oltre lo 0,1% per sigillare gli infissi.",
+   "decisioni": [
+    {
+     "dom": "Che cosa serve prima dell’uso professionale?",
+     "opz": [
+      [
+       "Nulla di particolare",
+       false,
+       "La restrizione della voce 74 impone una formazione specifica."
+      ],
+      [
+       "La formazione specifica sull’uso sicuro dei diisocianati, completata con esito positivo",
+       true,
+       "Corretto: è obbligatoria dal 24 agosto 2023."
+      ],
+      [
+       "Solo il certificato medico",
+       false,
+       "Non sostituisce la formazione."
+      ]
+     ]
+    },
+    {
+     "dom": "Ogni quanto si rinnova la formazione?",
+     "opz": [
+      [
+       "Almeno ogni cinque anni",
+       true,
+       "Corretto."
+      ],
+      [
+       "Ogni anno",
+       false,
+       "La periodicità minima è quinquennale."
+      ],
+      [
+       "Mai",
+       false,
+       "Va rinnovata."
+      ]
+     ]
+    },
+    {
+     "dom": "Un nuovo addetto non ha ancora la formazione. Che cosa fai?",
+     "opz": [
+      [
+       "Lo fai lavorare affiancato",
+       false,
+       "L’uso professionale richiede la formazione completata."
+      ],
+      [
+       "Non lo adibisci all’uso finché non completa la formazione, e lo documenti",
+       true,
+       "Corretto: l’impresa deve poter dimostrare la formazione."
+      ],
+      [
+       "Gli dai un DPI in più",
+       false,
+       "Non sostituisce la formazione."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "Formazione specifica prima dell’uso, rinnovo almeno quinquennale e documentazione: la restrizione sui diisocianati si applica a ogni utilizzatore professionale.",
+   "nar": "Schiume con diisocianati usate in cantiere. Verifica gli obblighi.",
+   "rif": "Reg. (CE) 1907/2006, Allegato XVII, voce 74"
+  }
+ ]
+}

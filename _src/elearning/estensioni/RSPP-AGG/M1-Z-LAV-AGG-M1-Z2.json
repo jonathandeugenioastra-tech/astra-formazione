@@ -1,0 +1,66 @@
+{
+ "dopo": "I chiarimenti ministeriali del 27 marzo 2026",
+ "schermate": [
+  {
+   "t": "classifica",
+   "tit": "Regola corretta o sbagliata?",
+   "lead": "Seleziona un’affermazione, poi la colonna.",
+   "colonne": [
+    "Corretta secondo l’Accordo 2025 e le FAQ",
+    "Non corretta"
+   ],
+   "schede": [
+    [
+     "La formazione dei lavoratori si eroga in occasione dell’assunzione",
+     0,
+     "FAQ n. 9 e n. 32.",
+     "Corretto."
+    ],
+    [
+     "La formazione si può completare entro sessanta giorni dall’assunzione",
+     1,
+     "Le FAQ chiariscono che va erogata in occasione dell’assunzione.",
+     "Corretto."
+    ],
+    [
+     "Anche il corso di aggiornamento termina con una verifica di apprendimento",
+     0,
+     "FAQ n. 51.",
+     "Corretto."
+    ],
+    [
+     "L’aggiornamento dei lavoratori è di almeno 6 ore ogni cinque anni",
+     0,
+     "È la durata minima prevista.",
+     "Corretto."
+    ],
+    [
+     "L’attestato deve riportare il codice ATECO dell’azienda",
+     1,
+     "FAQ n. 5: il codice ATECO non va riportato.",
+     "Corretto."
+    ],
+    [
+     "Il fascicolo del corso si conserva per almeno dieci anni",
+     0,
+     "È il periodo di conservazione indicato.",
+     "Corretto."
+    ],
+    [
+     "Il datore di lavoro non può mai essere soggetto formatore",
+     1,
+     "FAQ n. 31: può esserlo per lavoratori, preposti e dirigenti, con docenti qualificati.",
+     "Corretto."
+    ],
+    [
+     "Videoconferenza ed e-learning hanno requisiti tecnici e di tracciamento",
+     0,
+     "L’Accordo li disciplina.",
+     "Corretto."
+    ]
+   ],
+   "nar": "Otto affermazioni sulla formazione dopo l’Accordo del 2025 e i chiarimenti del marzo 2026. Distingui quelle corrette da quelle sbagliate.",
+   "rif": "Accordo Stato-Regioni 17 aprile 2025 · FAQ Ministero del Lavoro 27 marzo 2026"
+  }
+ ]
+}

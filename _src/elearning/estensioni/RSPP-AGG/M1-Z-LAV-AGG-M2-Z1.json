@@ -1,0 +1,39 @@
+{
+ "dopo": "Infortunio: denuncia, comunicazione e infortunio in itinere",
+ "schermate": [
+  {
+   "t": "esempio",
+   "tit": "Esempio guidato · Dall’infortunio alla denuncia",
+   "lead": "Le scadenze di un caso concreto.",
+   "passi": [
+    [
+     "Lunedì, ore 10",
+     "Un operaio si ferisce a una mano. Informa subito il preposto, anche se la ferita sembra lieve.",
+     "Informare subito"
+    ],
+    [
+     "Lunedì pomeriggio",
+     "Il pronto soccorso rilascia il certificato con prognosi di 8 giorni.",
+     "Prognosi > 3 giorni"
+    ],
+    [
+     "Martedì",
+     "Il datore di lavoro riceve i dati del certificato.",
+     "Inizio del termine"
+    ],
+    [
+     "Entro giovedì",
+     "Denuncia all’INAIL entro due giorni dalla ricezione dei dati del certificato.",
+     "Denuncia telematica"
+    ],
+    [
+     "Nei giorni successivi",
+     "Analisi delle cause e, se necessario, aggiornamento della valutazione dei rischi.",
+     "Imparare dall’evento"
+    ]
+   ],
+   "nar": "Seguiamo un infortunio. Lunedì mattina un operaio si ferisce a una mano e informa subito il preposto. Il pronto soccorso rilascia un certificato con prognosi di otto giorni. Ricevuti i dati martedì, il datore di lavoro deve inviare la denuncia all’INAIL entro due giorni, quindi entro giovedì. Poi si analizzano le cause e, se serve, si aggiorna la valutazione dei rischi.",
+   "rif": "Art. 53 D.P.R. 1124/1965 · art. 18 D.lgs. 81/2008"
+  }
+ ]
+}

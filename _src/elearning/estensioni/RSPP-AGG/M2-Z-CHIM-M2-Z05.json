@@ -1,0 +1,58 @@
+{
+ "dopo": "Esempio applicativo: il test preliminare della UNI EN 689",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Il test preliminare dei verniciatori",
+   "lead": "Valuti le misure di un gruppo di esposizione similare di tre verniciatori.",
+   "dossier": [
+    [
+     "Agente",
+     "toluene, valore limite 192 mg/m³"
+    ],
+    [
+     "Misure personali su 8 ore",
+     "12 mg/m³ · 15 mg/m³ · 21 mg/m³"
+    ],
+    [
+     "Gruppo",
+     "3 verniciatori con stessi compiti, cabina e prodotti"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Applica il test preliminare con tre misure.",
+     "min": 6,
+     "modello": "Il 10% del valore limite è 19,2 mg/m³. Una misura, 21 mg/m³, supera questa soglia: il test preliminare non dimostra la conformità. Nessuna misura supera il valore limite, quindi non c’è non conformità.",
+     "criteri": [
+      "Ho calcolato il 10% del limite",
+      "Ho confrontato le tre misure",
+      "Ho distinto mancata conformità e non conformità"
+     ]
+    },
+    {
+     "q": "Che cosa fai ora?",
+     "min": 6,
+     "modello": "Si passa al test statistico raccogliendo almeno sei misure sul gruppo, si verifica la distribuzione lognormale e si confronta il limite di confidenza superiore con il valore limite. Nel frattempo si mantengono le misure di prevenzione.",
+     "criteri": [
+      "Ho indicato almeno sei misure",
+      "Ho richiamato la verifica statistica",
+      "Ho previsto il mantenimento delle misure"
+     ]
+    },
+    {
+     "q": "Il gruppo è davvero omogeneo? Che cosa controlli?",
+     "min": 5,
+     "modello": "Che i tre lavoratori svolgano compiti, durate e processi analoghi e che una misura non sia anomala per una condizione particolare; se un lavoratore ha un profilo diverso, il gruppo va ridefinito.",
+     "criteri": [
+      "Ho verificato compiti e durate",
+      "Ho considerato le misure anomale",
+      "Ho previsto la ridefinizione del gruppo"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio applichi il test preliminare della UNI EN 689 a tre misure di toluene. Verifica il risultato, decidi i passi successivi e controlla l’omogeneità del gruppo, poi confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "UNI EN 689:2019"
+  }
+ ]
+}

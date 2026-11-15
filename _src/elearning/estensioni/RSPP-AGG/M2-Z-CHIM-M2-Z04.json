@@ -1,0 +1,39 @@
+{
+ "dopo": "Il test statistico e la rivalutazione periodica",
+ "schermate": [
+  {
+   "t": "esempio",
+   "tit": "Esempio guidato · Ogni quanto rimisurare?",
+   "lead": "La rivalutazione periodica secondo la UNI EN 689.",
+   "passi": [
+    [
+     "Il risultato",
+     "Il test statistico conclude per la conformità del gruppo di esposizione similare.",
+     "Conformità"
+    ],
+    [
+     "La media geometrica",
+     "La media geometrica delle misure è 0,3 volte il valore limite.",
+     "MG = 0,3 × VL"
+    ],
+    [
+     "L’intervallo",
+     "Con MG tra 0,25 e 0,5 VL la norma suggerisce una nuova misura entro 18 mesi.",
+     "18 mesi"
+    ],
+    [
+     "I confronti",
+     "Sotto 0,1 VL: 36 mesi; tra 0,1 e 0,25: 24 mesi; da 0,5 VL in su: 12 mesi.",
+     "36 · 24 · 18 · 12 mesi"
+    ],
+    [
+     "Le eccezioni",
+     "Ogni modifica di processo, prodotto o misure richiede una nuova valutazione, indipendentemente dalla scadenza.",
+     "Modifiche → nuova valutazione"
+    ]
+   ],
+   "nar": "Vediamo la rivalutazione periodica. Il gruppo è conforme e la media geometrica delle misure vale zero virgola tre volte il valore limite. In questa fascia la norma suggerisce di rimisurare entro diciotto mesi; sotto un decimo del limite si arriva a trentasei mesi, mentre da metà del limite in su si scende a dodici. Qualsiasi modifica del processo richiede comunque una nuova valutazione.",
+   "rif": "UNI EN 689:2019, Allegato I"
+  }
+ ]
+}

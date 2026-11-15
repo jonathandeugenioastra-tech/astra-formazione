@@ -1,0 +1,75 @@
+{
+ "dopo": "Rischio «basso per la sicurezza» e «irrilevante per la salute»",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "Il laboratorio di controllo qualità",
+   "scena": "In un laboratorio di controllo qualità si usano piccole quantità di acetone e acidi diluiti per pochi minuti al giorno, sotto cappa.",
+   "decisioni": [
+    {
+     "dom": "Il rischio può essere «irrilevante per la salute»?",
+     "opz": [
+      [
+       "Sì, se la valutazione su quantità, frequenza, proprietà e condizioni d’uso lo dimostra e viene documentata",
+       true,
+       "Corretto: la conclusione va motivata nel documento."
+      ],
+      [
+       "Sì, sempre, perché sono quantità piccole",
+       false,
+       "La conclusione deve essere motivata."
+      ],
+      [
+       "No, mai in un laboratorio",
+       false,
+       "Dipende dalla valutazione."
+      ]
+     ]
+    },
+    {
+     "dom": "Se il rischio è irrilevante, che cosa si applica comunque?",
+     "opz": [
+      [
+       "Le misure generali dell’art. 224, comma 1",
+       true,
+       "Corretto: valgono sempre."
+      ],
+      [
+       "Nessuna misura",
+       false,
+       "Le misure generali si applicano sempre."
+      ],
+      [
+       "La sorveglianza sanitaria",
+       false,
+       "Non è obbligatoria in caso di rischio irrilevante."
+      ]
+     ]
+    },
+    {
+     "dom": "Il laboratorio introduce un solvente classificato tossico per la riproduzione. Che cosa cambia?",
+     "opz": [
+      [
+       "Nulla",
+       false,
+       "Cambia l’ambito di applicazione."
+      ],
+      [
+       "Si applica il Capo II: sostituzione, sistema chiuso o esposizione al livello più basso possibile, registro degli esposti",
+       true,
+       "Corretto: dopo il D.lgs. 135/2024 i reprotossici 1A e 1B rientrano nel Capo II."
+      ],
+      [
+       "Basta un guanto in più",
+       false,
+       "Non basta."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "Il rischio irrilevante va dimostrato e documentato, le misure generali valgono sempre, e un agente reprotossico porta la valutazione nel Capo II.",
+   "nar": "Un laboratorio con piccole quantità di prodotti. Valuta il livello di rischio.",
+   "rif": "Artt. 223-224 e 234 D.lgs. 81/2008"
+  }
+ ]
+}

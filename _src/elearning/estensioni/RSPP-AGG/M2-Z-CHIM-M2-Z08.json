@@ -1,0 +1,39 @@
+{
+ "dopo": "Piombo e diisocianati: la Direttiva (UE) 2024/869",
+ "schermate": [
+  {
+   "t": "esempio",
+   "tit": "Esempio guidato · Il piombo nel sangue",
+   "lead": "Confronto con il nuovo valore limite biologico.",
+   "passi": [
+    [
+     "Il risultato",
+     "Il monitoraggio biologico di un addetto alla fusione rileva 22 µg di piombo per 100 ml di sangue.",
+     "22 µg/100 ml"
+    ],
+    [
+     "Il riferimento",
+     "Il nuovo valore limite biologico è di 15 µg/100 ml.",
+     "22 > 15"
+    ],
+    [
+     "La lettura",
+     "Il valore è superato: l’esposizione non è adeguatamente controllata.",
+     "Superamento"
+    ],
+    [
+     "Le azioni",
+     "Il medico competente informa il lavoratore e il datore di lavoro; si rivedono misure tecniche e igieniche, come l’aspirazione e il divieto di mangiare in reparto.",
+     "Rivalutazione delle misure"
+    ],
+    [
+     "La verifica",
+     "Nuovo monitoraggio dopo gli interventi per verificarne l’efficacia.",
+     "Controllo di efficacia"
+    ]
+   ],
+   "nar": "Un addetto alla fusione ha ventidue microgrammi di piombo per cento millilitri di sangue. Il nuovo valore limite biologico è quindici: il valore è superato e l’esposizione non è sotto controllo. Il medico competente informa lavoratore e datore di lavoro, si rivedono aspirazione e misure igieniche, come il divieto di mangiare in reparto, e si ripete il monitoraggio per verificare l’efficacia degli interventi.",
+   "rif": "Dir. (UE) 2024/869 · Allegato XXXIX D.lgs. 81/2008"
+  }
+ ]
+}

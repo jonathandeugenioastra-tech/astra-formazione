@@ -13,3 +13,10 @@ json.dump(d,open('REACH/M2-Z-CHIM-M1-Z04.json','w'),ensure_ascii=False,indent=1)
 PY
 for c in DIR DL; do cp LAV-AGG/M1-Z1.json $c/M1-Z-LAV-AGG-M1-Z1.json; cp LAV-AGG/M2-Z1.json $c/M1-Z-LAV-AGG-M2-Z1.json; cp LAV-AGG/M4-Z1.json $c/M2-Z-LAV-AGG-M4-Z1.json; cp REATI/M1-N5.json $c/M1-Z-REATI-M1-N5.json; done
 cp LAV-AGG/M4-Z4.json DL/M4-Z-LAV-AGG-M4-Z4.json
+python3 /tmp/claude-0/rip/autoriuso.py RSPP-A RSPP-AGG
+python3 - <<'PY'
+import json,glob
+for f in glob.glob('*/M*-Z-REATI-M1-N5.json'):
+    if f.split('/')[0] in ('DIR','DL','RSPP-A','RSPP-AGG'):
+        d=json.load(open(f)); d['schermate']=[s for s in d['schermate'] if s['t']=='scenario']; json.dump(d,open(f,'w'),ensure_ascii=False,indent=1)
+PY

@@ -1,0 +1,55 @@
+{
+ "dopo": "Le nuove edizioni delle norme CEI EN IEC 60079",
+ "schermate": [
+  {
+   "t": "classifica",
+   "tit": "Quale zona?",
+   "lead": "Seleziona una situazione, poi la zona di pericolo per gas e vapori.",
+   "colonne": [
+    "Zona 0",
+    "Zona 1",
+    "Zona 2"
+   ],
+   "schede": [
+    [
+     "Interno di un serbatoio di solvente, sopra il liquido",
+     0,
+     "Atmosfera esplosiva presente continuamente o per lunghi periodi.",
+     "Corretto."
+    ],
+    [
+     "Intorno a una bocca di riempimento aperta durante i travasi",
+     1,
+     "Atmosfera esplosiva probabile durante il normale funzionamento.",
+     "Corretto."
+    ],
+    [
+     "Intorno a flange e valvole in buono stato",
+     2,
+     "Atmosfera esplosiva improbabile e, se si forma, di breve durata.",
+     "Corretto."
+    ],
+    [
+     "Interno di una cabina di verniciatura durante la spruzzatura",
+     1,
+     "Probabile durante il normale funzionamento.",
+     "Corretto."
+    ],
+    [
+     "Locale pompe ben ventilato, con perdite solo in caso di guasto",
+     2,
+     "Formazione solo in caso di anomalia, di breve durata.",
+     "Corretto."
+    ],
+    [
+     "Spazio di testa di un fusto aperto di solvente",
+     0,
+     "Presenza continua.",
+     "Corretto."
+    ]
+   ],
+   "nar": "Sei situazioni con gas e vapori infiammabili. Assegna la zona di pericolo secondo la classificazione dei luoghi.",
+   "rif": "Allegato XLIX D.lgs. 81/2008 · CEI EN IEC 60079-10-1"
+  }
+ ]
+}

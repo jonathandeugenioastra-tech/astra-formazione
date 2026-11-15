@@ -1,0 +1,56 @@
+{
+ "dopo": "La UNI EN 689: strategia di misura",
+ "schermate": [
+  {
+   "t": "classifica",
+   "tit": "Quale allegato del D.lgs. 81/2008?",
+   "lead": "Seleziona un riferimento, poi l’allegato.",
+   "colonne": [
+    "XXXVIII · valori limite professionali",
+    "XXXIX · valori limite biologici",
+    "XLII · lavorazioni cancerogene",
+    "XLIII · valori limite di cancerogeni e mutageni"
+   ],
+   "schede": [
+    [
+     "Valore limite del toluene",
+     0,
+     "Allegato XXXVIII.",
+     "Corretto."
+    ],
+    [
+     "Piombo nel sangue",
+     1,
+     "Allegato XXXIX.",
+     "Corretto."
+    ],
+    [
+     "Lavori che espongono a polvere di silice cristallina respirabile",
+     2,
+     "Allegato XLII.",
+     "Corretto."
+    ],
+    [
+     "Valore limite del benzene",
+     3,
+     "Allegato XLIII.",
+     "Corretto."
+    ],
+    [
+     "Lavori che espongono a polveri di legno duro",
+     2,
+     "Allegato XLII.",
+     "Corretto."
+    ],
+    [
+     "Valore limite dell’acetone",
+     0,
+     "Allegato XXXVIII.",
+     "Corretto."
+    ]
+   ],
+   "nar": "Sei riferimenti normativi. Individua l’allegato del Titolo IX che li contiene.",
+   "rif": "D.lgs. 81/2008, Titolo IX"
+  }
+ ]
+}

@@ -24,25 +24,64 @@
     };
   })();
   const qs = new URLSearchParams(location.search);
-  const ANTEPRIMA = !SC.lms && qs.has('anteprima');
+  const PROVA = !!C.prova && !SC.lms; // prova gratuita pubblicata sul sito: introduzione e primo modulo
+  const ANTEPRIMA = !SC.lms && (qs.has('anteprima') || PROVA);
   const FATTORE = ANTEPRIMA ? 1 / 40 : 1; // in anteprima i tempi sono ridotti per la revisione dei contenuti
 
   /* ───────── elenco schermate e tempi minimi ───────── */
   const S = [];
+  const SERVIZIO = { copertina: 1, obiettivi: 1, sezione: 1, sintesi: 1 };
+  /* un modulo composto solo da schermate di servizio (es. M0: copertina e obiettivi) cede il tempo eccedente
+     al modulo successivo: il monte ore complessivo del corso resta invariato */
+  const voceSch = (m, si) => { const a = window.AUDIO && window.AUDIO.schermate[`${m.id}-${si}`]; return a ? (Array.isArray(a) ? a.reduce((x, y) => x + y.d, 0) : a.d) : 0; };
+  const SEC_MOD = C.moduli.map(m => m.min * 60);
+  C.moduli.forEach((m, mi) => {
+    if (m.schermate.some(s => !SERVIZIO[s.t])) return;
+    const dest = mi + 1 < C.moduli.length ? mi + 1 : mi - 1; if (dest < 0) return;
+    const proprio = m.schermate.reduce((a, s, si) => a + Math.ceil((voceSch(m, si) + 15) / 5) * 5, 0);
+    if (proprio < SEC_MOD[mi]) { SEC_MOD[dest] += SEC_MOD[mi] - proprio; SEC_MOD[mi] = proprio; }
+  });
   C.moduli.forEach((m, mi) => {
     /* tempo minimo proporzionale alla durata della voce più il tempo di lettura o di attività della schermata */
-    const ATT = { grafico: 60, testo: 25, articolo: 40, caso: 60, vf: 60, abbina: 60, ordina: 60, matrice: 60, verifica: 90, pittogrammi: 60, definizioni: 45, figure: 45 };
-    const base = m.schermate.map((s, si) => { const a = window.AUDIO && window.AUDIO.schermate[`${m.id}-${si}`]; const d = a ? (Array.isArray(a) ? a.reduce((x, y) => x + y.d, 0) : a.d) : (s.nar ? s.nar.split(/\s+/).length / 2.4 : 0); return Math.max(20, d + (ATT[s.t] || 20)) * (s.p && !a ? s.p : 1); });
-    const tot = base.reduce((a, b) => a + b, 0);
+    const ATT = { grafico: 60, testo: 25, articolo: 40, caso: 60, vf: 60, abbina: 60, ordina: 60, matrice: 60, verifica: 90, pittogrammi: 60, definizioni: 45, figure: 45, esempio: 240, classifica: 300, scenario: 480, applica: 300, laboratorio: 900 };
+
+    /* tempo dell'attività calcolato sul contenuto reale della schermata (piano di riprogettazione, par. 4.3) */
+    const parole = x => String(x || '').split(/\s+/).filter(Boolean).length;
+    const attivita = s => {
+      switch (s.t) {
+        case 'verifica': return 45 * ((s.domande || []).length || 2);
+        case 'vf': return 30 * ((s.voci || []).length || 2);
+        case 'classifica': return 40 * s.schede.length;
+        case 'scenario': return 150 * s.decisioni.length;
+        case 'esempio': return 60 * s.passi.length;
+        case 'applica': return 300;
+        case 'laboratorio': return s.compiti.reduce((a, c) => a + (c.min || 5) * 60, 0);
+        case 'definizioni': return 30 * ((s.voci || []).length || 2);
+        case 'grafico': return s.grafico && s.grafico.tipo === 'calcolo' ? (s.grafico.risultati ? 360 : 180) : 120;
+        case 'testo': return 15 + Math.round((parole(s.lead) + (s.punti || []).reduce((a, x) => a + parole(x), 0)) / 3.3);
+        default: return ATT[s.t] || 20;
+      }
+    };
+    const base = m.schermate.map((s, si) => { const a = window.AUDIO && window.AUDIO.schermate[`${m.id}-${si}`]; const d = a ? (Array.isArray(a) ? a.reduce((x, y) => x + y.d, 0) : a.d) : (s.nar ? s.nar.split(/\s+/).length / 2.4 : 0); return Math.max(20, d + attivita(s)) * (s.p && !a ? s.p : 1); });
+    /* R1 – schermate di servizio (copertina, obiettivi, apertura modulo, sintesi): tempo minimo = voce + 15 s;
+       il tempo del modulo si ripartisce sulle schermate di contenuto, così il monte ore resta invariato */
+    const voceS = si => voceSch(m, si), TM = SEC_MOD[mi];
+    const cont = m.schermate.map((s, si) => si).filter(si => !SERVIZIO[m.schermate[si].t]);
+    const fisso = m.schermate.map((s, si) => SERVIZIO[s.t] ? Math.ceil((voceS(si) + 15) / 5) * 5 : 0);
+    const disp = TM - fisso.reduce((a, b) => a + b, 0);
+    const tot = (cont.length ? cont : m.schermate.map((s, si) => si)).reduce((a, si) => a + base[si], 0);
+    const ultima = cont.length ? cont[cont.length - 1] : m.schermate.length - 1;
     let somma = 0;
     m.schermate.forEach((s, si) => {
-      let sec = Math.round((m.min * 60) * base[si] / tot / 5) * 5;
-      if (si === m.schermate.length - 1) sec = m.min * 60 - somma;
+      let sec = fisso[si] || Math.round(disp * base[si] / tot / 5) * 5;
+      if (si === ultima) sec = 0;
       somma += sec;
       S.push(Object.assign({}, s, { mi, si, mod: m, sec }));
     });
+    S[S.length - m.schermate.length + ultima].sec = TM - somma;
   });
-  S.push({ t: 'testfinale', tit: 'Test finale di apprendimento', mi: C.moduli.length, mod: { id: 'TF', titolo: 'Test finale' }, sec: 0, nar: 'Si accede al test finale. Il test comprende ' + C.testFinale.domande + ' domande estratte casualmente, con le risposte in ordine casuale. Il superamento richiede almeno il ' + C.testFinale.soglia + ' per cento di risposte corrette. Sono disponibili ' + C.testFinale.tentativi + ' tentativi.' });
+  if (PROVA) S.push({ t: 'testfinale', tit: 'Fine della prova gratuita', mi: C.moduli.length, mod: { id: 'TF', titolo: 'Prova gratuita' }, sec: 0, nar: '' });
+  else S.push({ t: 'testfinale', tit: 'Test finale di apprendimento', mi: C.moduli.length, mod: { id: 'TF', titolo: 'Test finale' }, sec: 0, nar: 'Si accede al test finale. Il test comprende ' + C.testFinale.domande + ' domande estratte casualmente, con le risposte in ordine casuale. Il superamento richiede almeno il ' + C.testFinale.soglia + ' per cento di risposte corrette. Sono disponibili ' + C.testFinale.tentativi + ' tentativi.' });
   const TOT_SEC = S.reduce((a, s) => a + s.sec, 0);
 
   /* ───────── stato ───────── */
@@ -97,7 +136,7 @@
   <aside class="pannello dx trascr" id="p-tr"><h3>Trascrizione</h3><div class="cont" id="tr"></div></aside>
   <div class="ov" id="ov-pres"><div class="box"><h3>Conferma della presenza</h3><p>Per garantire la tracciabilità della fruizione prevista dall'Accordo Stato-Regioni, è richiesto di premere il pulsante recante il codice indicato.</p><div class="codice" id="pres-cod"></div><div id="pres-bt" style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap"></div><div class="count" id="pres-cnt"></div></div></div>
   <div class="ov" id="ov-msg"><div class="box"><h3 id="msg-t"></h3><p id="msg-p"></p><button class="btn prim" id="msg-ok">Ho capito</button></div></div>
-  ${ANTEPRIMA ? '<div class="badge-ant">Anteprima di revisione · tempi ridotti</div>' : ''}`;
+  ${PROVA ? '<div class="badge-ant">Prova gratuita · introduzione e primo modulo</div>' : ANTEPRIMA ? '<div class="badge-ant">Anteprima di revisione · tempi ridotti</div>' : ''}`;
 
   const palco = $('#palco'), bAv = $('#b-av'), bInd = $('#b-ind2'), req = $('#req');
   const msg = (t, p) => { $('#msg-t').textContent = t; $('#msg-p').textContent = p; $('#ov-msg').classList.add('on'); };
@@ -148,16 +187,13 @@
       };
       return via();
     }
-    if (!tts) return fine();
+    // nessuna voce sintetica del dispositivo: senza registrazione della voce ufficiale si mostrano solo i sottotitoli
     const via = () => {
       if (gen !== narGen) return;
       if (i >= frasi.length) return fine();
-      const u = new SpeechSynthesisUtterance(frasi[i]);
-      u.lang = 'it-IT'; if (voce) u.voice = voce; u.rate = 1; u.pitch = 1;
       evid(i);
-      u.onend = () => { if (gen !== narGen) return; i++; if (onSegno) onSegno(i / frasi.length); via(); };
-      u.onerror = () => fine();
-      tts.speak(u);
+      const tm = setTimeout(() => { if (gen !== narGen) return; i++; if (onSegno) onSegno(i / frasi.length); via(); }, ANTEPRIMA ? 400 : durata(frasi[i]) * 1000);
+      timersSch.push(tm);
     };
     via();
   };
@@ -177,12 +213,15 @@
 
   /* ───────── rivelazione progressiva sincronizzata con la narrazione ───────── */
   let rivela = [], timersSch = [];
+  const MOBILE = matchMedia('(max-width:820px),(max-aspect-ratio:1/1)');
   const progRivela = frac => { const n = Math.ceil(frac * rivela.length + 0.0001); rivela.slice(0, n).forEach(el => mostra(el)); };
   const mostra = el => {
     if (el.classList.contains('vis')) return;
     el.classList.add('vis');
     const sc = el.closest('.scroll'); if (sc && el.offsetTop > sc.scrollTop + sc.clientHeight - el.offsetHeight) sc.scrollTo({ top: el.offsetTop - 20, behavior: 'smooth' });
     $$('.commi li.corrente', palco).forEach(x => x.classList.remove('corrente')); if (el.matches('.commi li')) el.classList.add('corrente');
+    // smartphone: la slide scorre in verticale e segue il contenuto che compare con la narrazione
+    if (MOBILE.matches && !el.closest('.full')) { const p = palco.getBoundingClientRect(), r = el.getBoundingClientRect(); if (r.bottom > p.bottom - 12) palco.scrollTo({ top: palco.scrollTop + r.bottom - p.bottom + 24, behavior: 'smooth' }); }
   };
   const avviaRivela = () => {
     rivela = $$('.an,.an-s', palco);
@@ -215,7 +254,7 @@
     $('span', tm).textContent = completo(i) ? '✓' : `${Math.floor(rest / 60)}:${String(rest % 60).padStart(2, '0')}`;
     let r = '';
     if (!completo(i) && s.t !== 'testfinale') {
-      if (MV.pend) r = (Date.now() - MV.pend.t > 30000) ? 'Conteggio del tempo sospeso: rispondere alla verifica immediata' : 'Rispondere alla verifica immediata';
+      if (MV.pend) r = (Date.now() - MV.pend.t > 30000) ? 'Conteggio del tempo sospeso: svolgere l’esercitazione' : 'Svolgere l’esercitazione in corso';
       else if (obbligo && !obbligo.fatto()) r = obbligo.testo;
       else if (rest > 0) r = 'Tempo minimo di permanenza in corso';
       else if (!narFine && audio) r = 'Attendi la fine della narrazione';
@@ -259,65 +298,109 @@
     return [v * 2, v / 2, v * 3, v + (v >= 10 ? 10 : 1)].map(x => fmt(x) + m[2] + m[3]);
   };
   const mischia = a => a.map(x => [Math.random(), x]).sort((p, q) => p[0] - q[0]).map(x => x[1]);
+  const USATE = new Set();
+  const candidati = () => {
+    const i = st.c, out = [S[i]];
+    for (let k = i - 1; k >= 0 && out.length < 16; k--) if (S[k].mod === S[i].mod && S[k].t === 'testo') out.push(S[k]);
+    S.forEach(x => { if (x.t === 'testo' && x !== S[i] && out.length < 40 && S.indexOf(x) < i) out.push(x); });
+    return out;
+  };
+  const distrattori = (t, f) => {
+    const c = classeTok(t); if (!c) return [];
+    let alt = mischia([...(corpus()[c] || [])].filter(x => x !== t && !f.includes(x)));
+    if (alt.length < 2) alt = alt.concat(varianti(t).filter(x => !f.includes(x) && !alt.includes(x)));
+    return alt;
+  };
+  const coppie = cand => { // frasi con dato tecnico o normativo, non ancora usate
+    const r = [];
+    for (const s of cand) for (const f of mischia(frasi(s))) for (const t of mischia(tokens(f))) {
+      const alt = distrattori(t, f); if (alt.length < 2) continue;
+      r.push({ s, f, t, alt }); break;
+    }
+    return r;
+  };
   const generaMicro = () => {
-    const i = st.c, cand = [S[i]];
-    for (let k = i - 1; k >= 0 && cand.length < 12; k--) if (S[k].mod === S[i].mod && S[k].t === 'testo') cand.push(S[k]);
-    const C2 = corpus();
-    for (const s of cand) {
-      const fr = mischia(frasi(s));
-      for (const f of fr) {
-        const tk = mischia(tokens(f));
-        for (const t of tk) {
-          const c = classeTok(t); if (!c) continue;
-          let alt = mischia([...(C2[c] || [])].filter(x => x !== t && !f.includes(x)));
-          if (alt.length < 2) alt = alt.concat(varianti(t).filter(x => !f.includes(x) && !alt.includes(x)));
-          if (alt.length < 2) continue;
-          return { tipo: 'completa', fonte: s, testo: f.replace(t, '______'), giusta: t, opz: mischia([t, alt[0], alt[1]]), frase: f };
-        }
+    const cand = candidati(), cp = mischia(coppie(cand)).filter(x => !USATE.has(x.f));
+    // esercitazioni redatte nel corso (verifiche intermedie, vero/falso, casi) dei moduli già affrontati
+    const banca = [];
+    S.slice(0, st.c + 1).forEach((x, k) => {
+      if (x.t === 'verifica') (x.domande || []).forEach((d, j) => banca.push({ tipo: 'domanda', fonte: x, testo: d[0], giusta: d[1][d[2]], opz: mischia(d[1].slice()), frase: d[3] || '', chiave: 'D' + k + '-' + j }));
+      if (x.t === 'vf') (x.voci || []).forEach((v, j) => banca.push({ tipo: 'vf', fonte: x, testo: v[0], giusta: v[1] ? 'Vero' : 'Falso', opz: ['Vero', 'Falso'], frase: v[2] || '', chiave: 'V' + k + '-' + j }));
+      if (x.t === 'caso' && k !== st.c) banca.push({ tipo: 'caso', fonte: x, testo: x.scena + ' ' + x.domanda, giusta: (x.opz.find(o => o[1]) || [])[0], opz: mischia(x.opz.map(o => o[0])), frase: (x.opz.find(o => o[1]) || [])[2] || '', chiave: 'C' + k });
+    });
+    const libere = mischia(banca.filter(b => !USATE.has(b.chiave)));
+    if (libere.length && Math.random() < 0.45) { USATE.add(libere[0].chiave); return libere[0]; }
+    const tipi = mischia(['completa', 'vf', 'abbina', 'completa', 'vf', 'riconosci']);
+    for (const tipo of tipi) {
+      if (tipo === 'completa' && cp.length) { const x = cp[0]; USATE.add(x.f); return { tipo, fonte: x.s, testo: x.f.replace(x.t, '______'), giusta: x.t, opz: mischia([x.t, x.alt[0], x.alt[1]]), frase: x.f }; }
+      if (tipo === 'vf' && cp.length) {
+        const x = cp[0]; USATE.add(x.f); const vero = Math.random() < 0.5;
+        return { tipo, fonte: x.s, testo: vero ? x.f : x.f.replace(x.t, x.alt[0]), giusta: vero ? 'Vero' : 'Falso', opz: ['Vero', 'Falso'], frase: x.f };
+      }
+      if (tipo === 'abbina' && cp.length >= 3) {
+        const sel = []; for (const x of cp) if (!sel.some(y => y.t === x.t)) { sel.push(x); if (sel.length === 3) break; }
+        if (sel.length < 3) continue; sel.forEach(x => USATE.add(x.f));
+        return { tipo, fonte: sel[0].s, voci: sel.map(x => ({ testo: x.f.replace(x.t, '______'), giusta: x.t, frase: x.f })), opz: mischia(sel.map(x => x.t)) };
+      }
+      if (tipo === 'riconosci') {
+        const s = S[st.c], propri = frasi(s).filter(f => !USATE.has('R' + f)); if (!propri.length) continue;
+        const altri = mischia(S.filter(x => x.mod !== s.mod && x.t === 'testo').flatMap(frasi)).slice(0, 2); if (altri.length < 2) continue;
+        const g = propri[Math.floor(Math.random() * propri.length)]; USATE.add('R' + g);
+        return { tipo, fonte: s, testo: `Quale dei seguenti contenuti è trattato nella schermata «${s.tit}»?`, giusta: g, opz: mischia([g, ...altri]), frase: g };
       }
     }
-    // riconoscimento: quale contenuto è trattato nella schermata
-    const s = S[i], propri = frasi(s); if (!propri.length) return null;
-    const altri = mischia(S.filter(x => x.mod !== s.mod && x.t === 'testo').flatMap(frasi)).slice(0, 2);
-    if (altri.length < 2) return null;
-    const g = propri[Math.floor(Math.random() * propri.length)];
-    return { tipo: 'riconosci', fonte: s, testo: `Quale dei seguenti contenuti è trattato nella schermata «${s.tit}»?`, giusta: g, opz: mischia([g, ...altri]), frase: g };
+    if (USATE.size) { USATE.clear(); return generaMicro.ripeti ? null : (generaMicro.ripeti = 1, (() => { const q = generaMicro(); generaMicro.ripeti = 0; return q; })()); }
+    return null;
   };
   const microBox = () => $('#micro');
+  const ETICH = { domanda: 'Rispondere alla domanda', caso: 'Analizzare il caso e scegliere la condotta corretta', completa: 'Completare con il dato corretto', vf: 'Stabilire se l’affermazione è vera o falsa', abbina: 'Associare a ciascuna frase il dato corretto', riconosci: 'Riconoscere il contenuto' };
   const mostraMicro = () => {
     const q = generaMicro(); if (!q) { MV.prossima = 0; return; }
     MV.pend = { q, t: Date.now() };
-    const b = microBox();
-    b.innerHTML = `<div class="mv-testa">${ico('FaCircleQuestion')}<b>Verifica immediata</b><span>${q.tipo === 'completa' ? (q.fonte === S[st.c] ? 'Completare con il dato corretto' : 'Ripasso · ' + esc(q.fonte.tit)) : 'Riconoscere il contenuto'}</span><em id="mv-cnt">30 s</em></div><p class="mv-q">${q.tipo === 'completa' ? '«' + esc(q.testo) + '»' : esc(q.testo)}</p><div class="mv-opz">${q.opz.map((o, k) => `<button class="mv-o" data-k="${k}">${esc(o)}</button>`).join('')}</div><p class="mv-esito" id="mv-esito"></p>`;
-    b.classList.add('on');
-    $$('.mv-o', b).forEach(bt => bt.onclick = () => {
-      const ok = q.opz[+bt.dataset.k] === q.giusta;
+    const b = microBox(), n = MV.fatte + 1;
+    const testa = `<div class="mv-testa">${ico('FaCircleQuestion')}<b>Esercitazione ${n}</b><span>${ETICH[q.tipo]}${q.fonte !== S[st.c] ? ' · ripasso: ' + esc(q.fonte.tit) : ''}</span><em id="mv-cnt">30 s</em></div>`;
+    const chiudi = (ok, testoEsito) => {
       MV.fatte++; if (ok) MV.giuste++;
-      $$('.mv-o', b).forEach(x => { x.disabled = true; if (q.opz[+x.dataset.k] === q.giusta) x.classList.add('giusta'); });
-      if (!ok) bt.classList.add('errata');
-      $('#mv-esito', b).textContent = (ok ? 'Corretto. ' : 'Risposta non corretta. ') + (q.tipo === 'completa' ? 'Testo di riferimento: «' + q.frase + '»' : '');
+      $('#mv-esito', b).textContent = testoEsito;
       const cn = $('#mv-cnt', b); if (cn) cn.textContent = ok ? 'corretto' : 'registrata';
-      MV.pend = null; MV.prossima = Date.now() + 25000;
+      MV.pend = null; MV.prossima = Date.now() + (ok ? 5000 : 10000); // l’esercitazione successiva segue senza pause morte
       st.mv = [MV.fatte, MV.giuste];
-      setTimeout(() => { if (!MV.pend) b.classList.remove('on'); }, ok ? 4500 : 9000);
       aggiorna();
-    });
+    };
+    if (q.tipo === 'abbina') {
+      b.innerHTML = testa + q.voci.map((v, k) => `<div class="mv-ab"><p class="mv-q">«${esc(v.testo)}»</p><select class="mv-sel" data-k="${k}"><option value="">— scegliere —</option>${q.opz.map(o => `<option>${esc(o)}</option>`).join('')}</select></div>`).join('') + `<div class="mv-opz"><button class="mv-o" id="mv-ver" disabled>Verifica</button></div><p class="mv-esito" id="mv-esito"></p>`;
+      const sels = $$('.mv-sel', b), ver = $('#mv-ver', b);
+      sels.forEach(x => x.onchange = () => { ver.disabled = sels.some(y => !y.value); if (MV.pend) MV.pend.t = Date.now(); });
+      ver.onclick = () => {
+        let giuste = 0; sels.forEach(x => { const v = q.voci[+x.dataset.k]; const ok = x.value === v.giusta; if (ok) giuste++; x.classList.add(ok ? 'giusta' : 'errata'); x.disabled = true; });
+        ver.disabled = true;
+        chiudi(giuste === 3, `${giuste} associazioni corrette su 3. ` + q.voci.map(v => '«' + v.frase + '»').join(' '));
+      };
+    } else {
+      b.innerHTML = testa + `<p class="mv-q">${['riconosci', 'domanda', 'caso'].includes(q.tipo) || q.chiave ? esc(q.testo) : '«' + esc(q.testo) + '»'}</p><div class="mv-opz">${q.opz.map((o, k) => `<button class="mv-o" data-k="${k}">${esc(o)}</button>`).join('')}</div><p class="mv-esito" id="mv-esito"></p>`;
+      $$('.mv-o', b).forEach(bt => bt.onclick = () => {
+        const ok = q.opz[+bt.dataset.k] === q.giusta;
+        $$('.mv-o', b).forEach(x => { x.disabled = true; if (q.opz[+x.dataset.k] === q.giusta) x.classList.add('giusta'); });
+        if (!ok) bt.classList.add('errata');
+        chiudi(ok, (ok ? 'Corretto. ' : 'Risposta non corretta. ') + (q.tipo === 'riconosci' || !q.frase ? '' : (q.tipo === 'completa' || (q.tipo === 'vf' && !q.chiave) ? 'Testo di riferimento: «' + q.frase + '»' : q.frase)) + (ok || q.tipo === 'vf' ? '' : ' Risposta corretta: ' + q.giusta + '.'));
+      });
+    }
+    b.classList.add('on');
   };
   const chiudiMicro = () => { MV.pend = null; MV.prossima = 0; const b = microBox(); if (b) { b.classList.remove('on'); b.innerHTML = ''; } };
   /* restituisce false se il conteggio del tempo va sospeso */
   const cicloMicro = () => {
     if (ANTEPRIMA) return true;
     const i = st.c, s = S[i], now = Date.now();
-    if (completo(i) || s.t === 'testfinale') { if (MV.pend) chiudiMicro(); return true; }
+    if (completo(i) || s.t === 'testfinale' || SERVIZIO[s.t]) { if (MV.pend) chiudiMicro(); return true; } // R1: nessuna micro-verifica sulle schermate di servizio
     if (MV.pend) {
       const r = 30 - Math.floor((now - MV.pend.t) / 1000); const c = $('#mv-cnt'); if (c) c.textContent = r > 0 ? r + ' s' : 'tempo sospeso';
       return r > 0;
     }
     const rest = s.sec * FATTORE - st.t[i];
-    if (rest <= 12 || (!narFine && audio)) { MV.prossima = 0; return true; }
+    if (rest <= 8 || (!narFine && audio)) { MV.prossima = 0; return true; }
     if (obbligo && !obbligo.fatto()) return true; // il corsista sta svolgendo l’attività obbligatoria della schermata
-    if (!MV.prossima) MV.prossima = now + 20000;
-    if (now - MV.ultimoClic < 15000 && MV.prossima - now < 8000) MV.prossima = now + 8000;
+    if (!MV.prossima) MV.prossima = now + (s.t === 'testo' ? 12000 : 4000); // breve tempo di lettura, poi esercitazione continua
     if (now >= MV.prossima) mostraMicro();
     return true;
   };
@@ -369,9 +452,9 @@
   };
 
   /* ───────── rendering ───────── */
-  const testa = (s, extra = '') => `<div class="sch-testa an" data-subito><div><div class="mod">${esc(s.mod.id === 'M0' ? 'Introduzione' : s.mod.id === 'TF' ? 'Verifica finale' : (/^(Modulo|Unità|UD)/.test(s.mod.titolo) ? s.mod.titolo : 'Modulo ' + s.mod.id.slice(1) + ' · ' + s.mod.titolo))}</div><h2>${esc(s.tit)}</h2>${s.sott ? `<div class="sott">${esc(s.sott)}</div>` : ''}</div>${s.rif ? `<div class="rif">${esc(s.rif)}</div>` : ''}${extra}</div>`;
+  const testa = (s, extra = '') => `<div class="sch-testa an" data-subito><div><div class="mod">${esc(s.mod.id === 'M0' ? 'Introduzione' : s.mod.id === 'TF' ? (PROVA ? 'Prova gratuita' : 'Verifica finale') : (/^(Modulo|Unità|UD)/.test(s.mod.titolo) ? s.mod.titolo : 'Modulo ' + s.mod.id.slice(1) + ' · ' + s.mod.titolo))}</div><h2>${esc(s.tit)}</h2>${s.sott ? `<div class="sott">${esc(s.sott)}</div>` : ''}</div>${s.rif ? `<div class="rif">${esc(s.rif)}</div>` : ''}${extra}</div>`;
   const foto = n => `img/${n}.jpg`;
-  const fondo = n => (!n || n === '-') ? '<div class="foto nofoto"></div>' : `<div class="foto" style="background-image:url(${foto(n)})"></div>`;
+  const fondo = n => (!n || n === '-') ? '<div class="foto nofoto"></div>' : `<div class="foto${/^inf_/.test(n) ? ' inf' : ''}" style="background-image:url(${foto(n)})"></div>`;
   const FOTO = (window.FOTO_CORSO && window.FOTO_CORSO.length) ? window.FOTO_CORSO : ['sicurezza', 'sicurezza2', 'sicurezza3', 'hero1', 'chi', 'aziende'];
   const shuffle = a => { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
   const svgISO = c => ISO[c] || '';
@@ -393,7 +476,7 @@
   GR.calcolo = s => {
     const g = s.grafico;
     return `<div class="gr-box"><div class="gr-formula">${esc(g.formula_testo)}</div>${g.ingressi.map(i => `<label class="gr-sl"><span>${esc(i.nome)}</span><input type="range" data-id="${i.id}" min="${i.min}" max="${i.max}" step="${i.passo || 1}" value="${i.val}"><b data-v="${i.id}"></b></label>`).join('')}
-      <div class="gr-ris"><span>${esc(g.risultato)}</span><b id="gr-out"></b></div><div class="gr-barra"><div id="gr-bar"></div>${g.limite ? `<i style="left:${100 * g.limite / g.scala}%"></i><em style="left:${100 * g.limite / g.scala}%">${esc(g.limite_testo || 'limite')} ${fmtN(g.limite)}</em>` : ''}</div><div class="gr-esito" id="gr-esito"></div><div class="gr-avanz" id="gr-avanz"></div></div>`;
+      ${g.risultati ? `<div class="gr-multi">${g.risultati.map((r, k) => `<div class="gr-ris"><span>${esc(r.nome)}</span><b data-out="${k}"></b></div>`).join('')}</div><div class="gr-quote" id="gr-quote"></div>` : `<div class="gr-ris"><span>${esc(g.risultato)}</span><b id="gr-out"></b></div>`}<div class="gr-barra"><div id="gr-bar"></div>${g.limite ? `<i style="left:${100 * g.limite / g.scala}%"></i><em style="left:${100 * g.limite / g.scala}%">${esc(g.limite_testo || 'limite')} ${fmtN(g.limite)}</em>` : ''}</div><div class="gr-esito" id="gr-esito"></div><div class="gr-avanz" id="gr-avanz"></div></div>`;
   };
   GR.flusso = s => `<div class="gr-box"><ol class="gr-flusso">${s.grafico.passi.map((p, k) => `<li><button class="gr-nodo" data-k="${k}"><span class="n">${k + 1}</span><b>${esc(p.nome)}</b>${p.tempo ? `<em>${esc(p.tempo)}</em>` : ''}</button></li>`).join('')}</ol><div class="gr-dett" id="gr-dett">Selezionare ciascuna fase per visualizzarne il contenuto.</div><div class="gr-avanz" id="gr-avanz"></div></div>`;
   GR.intervalli = s => {
@@ -413,9 +496,12 @@
       inp.oninput = up; up(); obbligo = { fatto: () => viste.size >= g.zone.length, testo: 'Spostare il cursore in tutte le zone del grafico' };
     },
     calcolo: (s, el) => {
-      const g = s.grafico, f = new Function(...g.ingressi.map(i => i.id), 'return (' + g.formula + ');'); let mosse = 0;
+      const g = s.grafico, ids = g.ingressi.map(i => i.id), fn = x => new Function(...ids, 'return (' + x + ');'), f = fn(g.formula || (g.risultati ? g.risultati[0].formula : '0')); let mosse = 0;
+      const FR = (g.risultati || []).map(r => fn(r.formula)), QF = (g.quote || []).map(q => [q.nome, fn(q.formula)]);
       const up = (conta) => { const v = g.ingressi.map(i => +$(`input[data-id="${i.id}"]`, el).value); g.ingressi.forEach((i, k) => $(`[data-v="${i.id}"]`, el).textContent = fmtN(v[k], 2) + ' ' + (i.unita || ''));
-        const r = f(...v); $('#gr-out', el).textContent = fmtN(r, 1) + ' ' + (g.unita || ''); const pc = Math.min(100, 100 * r / g.scala), sup = g.limite && r > g.limite;
+        if (g.risultati) { g.risultati.forEach((rr, k) => { $(`[data-out="${k}"]`, el).textContent = Number(FR[k](...v)).toLocaleString('it-IT', { minimumFractionDigits: 1, maximumFractionDigits: 1 }) + ' ' + (rr.unita || g.unita || ''); });
+          if (g.quote) { const q = g.quote.map(x => [x.nome, QF.find(y => y[0] === x.nome)[1](...v)]), tot = q.reduce((a, b) => a + b[1], 0) || 1; $('#gr-quote', el).innerHTML = q.map(x => `<div><span>${esc(x[0])}</span><i style="width:${(100 * x[1] / tot).toFixed(1)}%"></i><b>${fmtN(x[1], 1)} ${esc(g.unita || '')}</b></div>`).join(''); } }
+        const r = f(...v); if (!g.risultati) $('#gr-out', el).textContent = fmtN(r, 1) + ' ' + (g.unita || ''); const pc = Math.min(100, 100 * r / g.scala), sup = g.limite && r > g.limite;
         const bar = $('#gr-bar', el); bar.style.width = pc + '%'; bar.classList.toggle('sup', !!sup);
         $('#gr-esito', el).textContent = g.limite ? (sup ? (g.testo_sup || 'Valore superiore al limite') : (g.testo_ok || 'Valore entro il limite')) : '';
         if (conta) mosse++; $('#gr-avanz', el).textContent = `Simulazioni eseguite: ${Math.min(mosse, 3)} / 3`; aggiorna(); };
@@ -448,7 +534,7 @@
     guida: s => `<div class="schermata">${testa(s)}<div class="corpo"><div class="guida">${s.voci.map(v => `<div class="g an"><div class="cerchio">${ico(v[0])}</div><b>${esc(v[1])}</b><p>${esc(v[2])}</p></div>`).join('')}</div></div></div>`,
     obiettivi: s => `<div class="schermata">${testa(s)}<div class="corpo"><ul class="check">${s.voci.map(v => `<li class="an">${ico('FaCircleCheck')}<span>${esc(v)}</span></li>`).join('')}</ul></div></div>`,
     sintesi: s => `<div class="schermata">${testa(s)}<div class="corpo sintesi-wrap"><ul class="check">${s.voci.map(v => `<li class="an">${ico('FaCircleCheck')}<span>${esc(v)}</span></li>`).join('')}</ul><div class="badge an-s"><div><div><b>${esc(s.mod.id.slice(1))}</b><span>modulo<br>completato</span></div></div></div></div></div>`,
-    testo: s => { const nf = (window.FOTO_SCH && window.FOTO_SCH[`${s.mod.id}-${s.si}`]) || FOTO[(s.mi * 7 + s.si) % FOTO.length]; return `<div class="schermata">${testa(s)}<div class="corpo ${nf === '-' ? 'testo-solo' : 'testo-foto'}">${nf === '-' ? '' : `<figure class="foto-sl an" data-subito><img src="img/${nf}.jpg" alt=""></figure>`}<div class="scroll">${s.lead ? `<p class="lead an">${esc(s.lead)}</p>` : ''}<ul class="punti">${s.punti.map((p, i) => `<li class="an"><span class="n">${i + 1}</span><span>${esc(p)}</span></li>`).join('')}</ul></div></div></div>`; },
+    testo: s => { const nf = (window.FOTO_SCH && window.FOTO_SCH[`${s.mod.id}-${s.si}`]) || FOTO[(s.mi * 7 + s.si) % FOTO.length]; return `<div class="schermata">${testa(s)}<div class="corpo ${nf === '-' ? 'testo-solo' : 'testo-foto'}">${nf === '-' ? '' : `<figure class="foto-sl an${/^inf_/.test(nf) ? ' inf' : ''}" data-subito><img src="img/${nf}.jpg" alt=""></figure>`}<div class="scroll">${s.lead ? `<p class="lead an">${esc(s.lead)}</p>` : ''}<ul class="punti">${s.punti.map((p, i) => `<li class="an"><span class="n">${i + 1}</span><span>${esc(p)}</span></li>`).join('')}</ul></div></div></div>`; },
     definizioni: s => `<div class="schermata">${testa(s)}<div class="corpo"><div class="def-griglia" style="grid-template-columns:repeat(${s.voci.length > 4 ? 3 : 2},1fr)">${s.voci.map((v, i) => `<div class="def an-s" data-i="${i}" role="button" tabindex="0" aria-label="${esc(v[1])}"><div class="in"><div class="fr"><span class="lett">${/^[a-z]{1,2}$/.test(v[0]) ? 'Art. 2 · lett. ' + esc(v[0]) + ')' : esc(v[0])}</span><span class="ter">${esc(v[1])}</span><span class="clic">${ico('FaHandPointer')} Consulta</span></div><div class="re"><div class="ter">${esc(v[1])}</div><p>${esc(v[2])}</p></div></div></div>`).join('')}</div></div></div>`,
     articolo: s => `<div class="schermata">${testa(Object.assign({}, s, { rif: '' }))}<div class="corpo art"><div class="targa an" data-subito><div><div class="num">${esc(s.art)}</div>${s.sott ? `<div class="sott">${esc(s.sott)}</div>` : ''}</div>${s.nota ? `<div class="nota">${esc(s.nota)}</div>` : ''}</div><div class="scroll"><ul class="commi">${s.commi.map(c => `<li class="an"><span class="l">${esc(c[0])}${/^[a-z]/.test(c[0]) && c[0].length < 7 && !/^c\./.test(c[0]) ? ')' : ''}</span><span>${esc(c[1])}</span></li>`).join('')}</ul></div></div></div>`,
     figure: s => `<div class="schermata">${testa(s)}<div class="corpo"><div class="fig-griglia ${s.voci.length % 3 === 0 && s.voci.length < 8 ? 'tre' : ''}">${s.voci.map((v, i) => `<button class="fig an-s" data-i="${i}"><span class="cerchio">${ico(v[0])}</span><b>${esc(v[1])}</b></button>`).join('')}</div><div class="dettaglio an" id="det">${ico('FaHandPointer')}<div><b>Selezionare una scheda</b>Per proseguire è necessario consultare tutte le schede.</div></div></div></div>`,
@@ -465,7 +551,17 @@
     caso: s => `<div class="schermata">${testa(s)}<div class="corpo caso"><div class="scena an" data-subito><span class="tag">Caso di studio</span><p>${esc(s.scena)}</p></div><div><p class="dom an">${esc(s.domanda)}</p><div class="opz">${s.opz.map((o, i) => `<button class="an" data-i="${i}"><span class="lt">${L(i).toUpperCase()}</span><span>${esc(o[0])}</span></button>`).join('')}</div><div class="fb" id="fb"></div></div></div></div>`,
     abbina: s => { const dest = shuffle(s.coppie.map(c => c[1])); return `<div class="schermata">${testa(s)}<div class="corpo"><div class="abb">${s.coppie.map((c, i) => `<div class="r an" data-i="${i}"><b>${esc(c[0])}</b><select aria-label="${esc(c[0])}"><option value="">Selezionare il compito…</option>${dest.map(d => `<option>${esc(d)}</option>`).join('')}</select></div>`).join('')}</div><div style="margin-top:1.8cqh;display:flex;gap:1.4cqh;align-items:center"><button class="btn prim" id="ver">Verifica</button><span class="fb" id="fb" style="margin:0"></span></div></div></div>`; },
     verifica: s => `<div class="schermata">${testa(s, `<div class="rif">Soglia: ${s.soglia}/${s.domande.length}</div>`)}<div class="corpo"><div class="scroll"><div class="ver" id="ver-q"></div><div style="margin:1.8cqh 0 1cqh;display:flex;gap:1.4cqh;align-items:center"><button class="btn prim" id="ver">Conferma le risposte</button></div><div id="ver-es"></div></div></div></div>`,
-    testfinale: s => `<div class="schermata">${testa(s)}<div class="corpo tf" id="tf"></div></div>`
+    testfinale: s => `<div class="schermata">${testa(s)}<div class="corpo tf" id="tf"></div></div>`,
+    /* esempio guidato: i passaggi si aprono uno alla volta */
+    esempio: s => `<div class="schermata">${testa(s)}<div class="corpo"><div class="scroll alto">${s.lead ? `<p class="lead an" data-subito>${esc(s.lead)}</p>` : ''}<ol class="es-passi">${s.passi.map((p, i) => `<li class="es-p${i ? '' : ' aperto'}" data-i="${i}"><span class="n">${i + 1}</span><div><b>${esc(p[0])}</b><p>${esc(p[1])}</p>${p[2] ? `<div class="es-calc">${esc(p[2])}</div>` : ''}</div></li>`).join('')}</ol><div class="es-com"><button class="btn prim" id="es-av">Passaggio successivo</button><span class="gr-avanz" id="es-n"></span></div></div></div></div>`,
+    /* classificazione: si sceglie una scheda e poi la colonna di destinazione */
+    classifica: s => `<div class="schermata">${testa(s)}<div class="corpo"><div class="scroll alto">${s.lead ? `<p class="lead an" data-subito>${esc(s.lead)}</p>` : ''}<div class="cl-pool" id="cl-pool">${shuffle(s.schede.map((c, i) => [c, i])).map(([c, i]) => `<button class="cl-sch" data-i="${i}">${esc(c[0])}</button>`).join('')}</div><div class="cl-col" style="grid-template-columns:repeat(${s.colonne.length},minmax(0,1fr))">${s.colonne.map((c, k) => `<div class="cl-c" data-k="${k}" role="button" tabindex="0"><div class="cl-t">${esc(c)}</div><div class="cl-in"></div></div>`).join('')}</div><div class="fb" id="fb"></div><div class="gr-avanz" id="cl-n"></div></div></div></div>`,
+    /* scenario ramificato: decisioni in sequenza con conseguenze */
+    scenario: s => `<div class="schermata">${testa(s)}<div class="corpo caso"><div class="scena an" data-subito><span class="tag">Scenario</span><p>${esc(s.scena)}</p><div class="sc-tappe">${s.decisioni.map((d, k) => `<i data-k="${k}"></i>`).join('')}</div></div><div class="scroll"><div id="sc-dec"></div></div></div></div>`,
+    /* laboratorio: dossier del caso, compiti con elaborato del corsista, confronto con la soluzione di riferimento e autovalutazione */
+    laboratorio: s => `<div class="schermata">${testa(s)}<div class="corpo caso"><div class="scena an lb-dos" data-subito><span class="tag">Dossier del caso</span>${s.lead ? `<p>${esc(s.lead)}</p>` : ''}${s.dossier && s.dossier.length ? `<dl>${s.dossier.map(d => `<dt>${esc(d[0])}</dt><dd>${esc(d[1])}</dd>`).join('')}</dl>` : ''}<div class="sc-tappe">${s.compiti.map((c, k) => `<i data-k="${k}"></i>`).join('')}</div></div><div class="scroll"><div id="lb-c"></div></div></div></div>`,
+    /* applicazione al proprio contesto */
+    applica: s => `<div class="schermata">${testa(s)}<div class="corpo"><div class="scroll alto">${s.lead ? `<p class="lead an" data-subito>${esc(s.lead)}</p>` : ''}<div class="ap-voci">${s.voci.map((v, i) => `<label class="ap-v"><input type="checkbox" data-i="${i}"><span>${esc(v)}</span></label>`).join('')}<label class="ap-v nessuna"><input type="checkbox" data-i="-1"><span>${esc(s.nessuna || 'Nessuna delle voci elencate')}</span></label></div><label class="ap-campo"><b>${esc(s.campo)}</b><textarea id="ap-t" maxlength="240" rows="3" placeholder="${esc(s.esempio || '')}"></textarea></label><div class="gr-avanz" id="ap-n"></div></div></div></div>`
   };
 
   /* ───────── comportamenti interattivi ───────── */
@@ -579,12 +675,90 @@
       disegna();
       obbligo = { fatto: () => ok, testo: `Superamento della verifica (almeno ${s.soglia} risposte corrette)` };
     },
-    testfinale: (s, el) => testFinale(el)
+    testfinale: (s, el) => testFinale(el),
+    esempio: (s, el) => {
+      let n = 1; const bt = $('#es-av', el), lab = $('#es-n', el);
+      const up = () => { lab.textContent = `Passaggi: ${n} / ${s.passi.length}`; if (n >= s.passi.length) { bt.disabled = true; bt.textContent = 'Esempio completato'; } aggiorna(); };
+      bt.onclick = () => { const li = $(`.es-p[data-i="${n}"]`, el); if (li) { li.classList.add('aperto'); const sc = li.closest('.scroll'); if (sc) sc.scrollTo({ top: li.offsetTop - 20, behavior: 'smooth' }); } n++; up(); };
+      up(); obbligo = { fatto: () => n >= s.passi.length, testo: 'Aprire tutti i passaggi dell’esempio' };
+    },
+    classifica: (s, el) => {
+      let sel = null; const fatte = new Set(), fb = $('#fb', el), lab = $('#cl-n', el);
+      const up = () => { lab.textContent = `Schede collocate: ${fatte.size} / ${s.schede.length}`; aggiorna(); };
+      $$('.cl-sch', el).forEach(b => b.onclick = () => { if (b.disabled) return; $$('.cl-sch', el).forEach(x => x.classList.toggle('sel', x === b)); sel = b; fb.className = 'fb'; });
+      $$('.cl-c', el).forEach(c => { const metti = () => {
+        if (!sel) { fb.className = 'fb ko'; fb.textContent = 'Seleziona prima una scheda, poi la colonna.'; return; }
+        const i = +sel.dataset.i, sc = s.schede[i], k = +c.dataset.k;
+        if (sc[1] === k) { sel.classList.remove('sel'); sel.classList.add('ok'); sel.disabled = true; $('.cl-in', c).appendChild(sel); fatte.add(i); fb.className = 'fb ok'; fb.textContent = sc[3] || 'Corretto.'; sel = null; }
+        else { const bk = sel; bk.classList.add('ko'); setTimeout(() => bk.classList.remove('ko'), 600); fb.className = 'fb ko'; fb.textContent = sc[2]; }
+        up(); };
+        c.onclick = metti; c.onkeydown = e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); metti(); } }; });
+      up(); obbligo = { fatto: () => fatte.size >= s.schede.length, testo: 'Collocare correttamente tutte le schede' };
+    },
+    scenario: (s, el) => {
+      let k = 0, fine = false; const box = $('#sc-dec', el);
+      const tappe = () => $$('.sc-tappe i', el).forEach((t, j) => { t.className = j < k ? 'ok' : j === k ? 'cur' : ''; });
+      const mostra = () => {
+        if (k >= s.decisioni.length) { fine = true; tappe(); box.innerHTML = `<div class="fb ok">${esc(s.chiusura)}</div>`; aggiorna(); return; }
+        const d = s.decisioni[k]; tappe();
+        box.innerHTML = `<p class="dom">Decisione ${k + 1} di ${s.decisioni.length} · ${esc(d.dom)}</p><div class="opz">${d.opz.map((o, i) => `<button data-i="${i}"><span class="lt">${L(i).toUpperCase()}</span><span>${esc(o[0])}</span></button>`).join('')}</div><div class="fb" id="sc-fb"></div>`;
+        $$('.opz button', box).forEach(b => b.onclick = () => { const o = d.opz[b.dataset.i], f = $('#sc-fb', box);
+          b.classList.add(o[1] ? 'ok' : 'ko'); f.className = 'fb ' + (o[1] ? 'ok' : 'ko'); f.textContent = o[2];
+          if (o[1]) { $$('.opz button', box).forEach(x => x.disabled = true); const av = document.createElement('button'); av.className = 'btn prim sc-av'; av.textContent = k + 1 < s.decisioni.length ? 'Decisione successiva' : 'Concludi lo scenario'; av.onclick = () => { k++; mostra(); }; f.after(av); }
+          else b.disabled = true;
+          if (SC.lms) { const n = +SC.get('cmi.interactions._count') || 0; SC.set(`cmi.interactions.${n}.id`, `${s.mod.id}-${s.si}-d${k + 1}`); SC.set(`cmi.interactions.${n}.type`, 'choice'); SC.set(`cmi.interactions.${n}.student_response`, L(+b.dataset.i)); SC.set(`cmi.interactions.${n}.result`, o[1] ? 'correct' : 'wrong'); }
+          aggiorna(); });
+      };
+      mostra(); obbligo = { fatto: () => fine, testo: 'Completare tutte le decisioni dello scenario' };
+    },
+    laboratorio: (s, el) => {
+      const chiave = `astra-lb-${C.id}-${s.mod.id}-${s.si}`, box = $('#lb-c', el);
+      let dati = { r: [], v: [], k: 0 }; try { dati = Object.assign(dati, JSON.parse(localStorage.getItem(chiave) || '{}')); } catch (e) {}
+      const salva = () => { try { localStorage.setItem(chiave, JSON.stringify(dati)); } catch (e) {} };
+      const fine = () => dati.k >= s.compiti.length;
+      const tappe = () => $$('.sc-tappe i', el).forEach((t, j) => { t.className = j < dati.k ? 'ok' : j === dati.k ? 'cur' : ''; });
+      const mostra = () => {
+        tappe();
+        if (fine()) { box.innerHTML = `<div class="fb ok">${esc(s.chiusura || 'Laboratorio completato. Le elaborazioni restano salvate su questo dispositivo; una sintesi è registrata nel tracciamento del corso.')}</div>` + s.compiti.map((c, j) => `<details class="lb-rev"><summary>Compito ${j + 1} · ${esc(c.q)}</summary><p class="lb-tuo">${esc(dati.r[j] || '')}</p><div class="lb-mod"><b>Soluzione di riferimento</b><p>${esc(c.modello)}</p></div></details>`).join(''); aggiorna(); return; }
+        const k = dati.k, c = s.compiti[k], conf = !!dati.v[k], MINC = c.minc || 40;
+        box.innerHTML = `<p class="dom">Compito ${k + 1} di ${s.compiti.length} · circa ${c.min || 5} minuti</p><p class="lb-q">${esc(c.q)}</p><label class="ap-campo"><textarea id="lb-t" maxlength="4000" rows="${c.min >= 10 ? 9 : 5}" placeholder="${esc(c.traccia || 'Scrivi qui la tua elaborazione')}"></textarea></label><div class="gr-avanz" id="lb-n"></div><div id="lb-m"></div>`;
+        const t = $('#lb-t', box), n = $('#lb-n', box), m = $('#lb-m', box);
+        t.value = dati.r[k] || '';
+        const rivela = () => {
+          t.readOnly = true;
+          m.innerHTML = `<div class="lb-mod"><b>Soluzione di riferimento</b><p>${esc(c.modello)}</p>${c.criteri && c.criteri.length ? `<p class="lb-cr-t">Autovalutazione: spunta gli elementi presenti nella tua elaborazione</p><div class="lb-cr">${c.criteri.map((x, j) => `<label class="ap-v"><input type="checkbox" data-j="${j}"><span>${esc(x)}</span></label>`).join('')}</div>` : ''}</div>`;
+          const av = document.createElement('button'); av.className = 'btn prim sc-av'; av.textContent = k + 1 < s.compiti.length ? 'Compito successivo' : 'Concludi il laboratorio';
+          av.onclick = () => { const sp = $$('.lb-cr input', m).filter(x => x.checked).length;
+            if (SC.lms) { const q = +SC.get('cmi.interactions._count') || 0; SC.set(`cmi.interactions.${q}.id`, `${s.mod.id}-${s.si}-lab${k + 1}`); SC.set(`cmi.interactions.${q}.type`, 'fill-in'); SC.set(`cmi.interactions.${q}.student_response`, (sp + '/' + ((c.criteri || []).length) + ' | ' + dati.r[k]).slice(0, 255)); SC.commit(); }
+            dati.k++; salva(); mostra(); };
+          m.appendChild(av);
+        };
+        const up = () => { dati.r[k] = t.value; salva(); const l = t.value.trim().length;
+          n.innerHTML = conf ? '' : l >= MINC ? '<button class="btn sec" id="lb-v">Confronta con la soluzione di riferimento</button>' : `Scrivi la tua elaborazione (almeno ${MINC} caratteri), poi confrontala con la soluzione di riferimento.`;
+          const v = $('#lb-v', n); if (v) v.onclick = () => { dati.v[k] = 1; salva(); n.innerHTML = ''; rivela(); }; };
+        t.oninput = up; up(); if (conf) rivela();
+      };
+      mostra(); obbligo = { fatto: fine, testo: 'Completare tutti i compiti del laboratorio' };
+    },
+    applica: (s, el) => {
+      const chiave = `astra-ap-${C.id}-${s.mod.id}-${s.si}`, t = $('#ap-t', el), lab = $('#ap-n', el), min = s.min || 3;
+      let dati = {}; try { dati = JSON.parse(localStorage.getItem(chiave) || '{}'); } catch (e) { dati = {}; }
+      $$('.ap-v input', el).forEach(c => { c.checked = !!(dati.v || []).includes(+c.dataset.i); });
+      t.value = dati.t || '';
+      const conta = () => $$('.ap-v input:checked', el).length, nessuna = () => $('.ap-v.nessuna input', el).checked;
+      const ok = () => (conta() >= min || nessuna()) && t.value.trim().length >= 3;
+      const up = () => { dati = { v: $$('.ap-v input:checked', el).map(c => +c.dataset.i), t: t.value }; try { localStorage.setItem(chiave, JSON.stringify(dati)); } catch (e) {}
+        lab.textContent = ok() ? 'Attività completata: le risposte sono visibili al tutor.' : `Seleziona almeno ${min} voci (oppure «Nessuna») e scrivi almeno una riga.`; aggiorna(); };
+      $$('.ap-v input', el).forEach(c => c.onchange = up); t.oninput = up;
+      t.onblur = () => { if (SC.lms && ok()) { const n = +SC.get('cmi.interactions._count') || 0; SC.set(`cmi.interactions.${n}.id`, `${s.mod.id}-${s.si}-applica`); SC.set(`cmi.interactions.${n}.type`, 'fill-in'); SC.set(`cmi.interactions.${n}.student_response`, (dati.v.join(',') + ' | ' + t.value).slice(0, 255)); SC.commit(); } };
+      up(); obbligo = { fatto: ok, testo: 'Completare la scheda sul proprio contesto' };
+    }
   };
 
   /* ───────── test finale ───────── */
   const testFinale = el => {
     const T = C.testFinale, box = $('#tf', el);
+    if (PROVA) { box.innerHTML = `<div class="info"><div class="big">${C.ore}</div><p>ore di durata del corso completo</p></div><div><p class="an vis" style="margin-top:0">La prova comprende l'introduzione e il primo modulo del corso, con la stessa voce narrante, le stesse esercitazioni e le stesse verifiche della versione completa. Nel corso completo seguono gli altri moduli, il test finale di apprendimento e il rilascio dell'attestato con codice univoco e QR di verifica.</p><p class="an vis">Il corso completo si attiva dalla scheda del corso sul sito, scegliendo la modalità e-learning.</p></div>`; return; }
     const tuttoFatto = S.slice(0, -1).every((x, i) => completo(i));
     const pannelloInfo = extra => `<div class="info"><div class="big">${T.domande}</div><p>domande estratte casualmente da una banca di ${T.banca.length} quesiti, con risposte in ordine casuale.</p><p>Soglia di superamento: <b style="color:#fff">${T.soglia}%</b> (almeno ${Math.ceil(T.domande * T.soglia / 100)} risposte corrette).</p><p>Tentativi disponibili: <b style="color:#fff">${Math.max(0, T.tentativi - st.tf.n)}</b> di ${T.tentativi}.</p>${extra || ''}</div>`;
     if (st.tf.ok) return fine(box);

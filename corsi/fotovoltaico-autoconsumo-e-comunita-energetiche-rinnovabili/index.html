@@ -28,7 +28,7 @@
 <meta name="apple-mobile-web-app-title" content="ASTRA">
 <link rel="preload" href="fonts/Inter-400.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="fonts/InterTight-800.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="assets/app.css?v=23">
+<link rel="stylesheet" href="assets/app.css?v=24">
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"EducationalOrganization","name":"ASTRA S.r.l.","description":"Centro di Formazione AiFOS","address":{"@type":"PostalAddress","streetAddress":"Via Potito Randi, 6","postalCode":"64100","addressLocality":"Teramo","addressRegion":"TE","addressCountry":"IT"},"telephone":"+39 0861 413103","email":"info@astrastudio.it","vatID":"IT00665240677","foundingDate":"1987"}
 </script>
@@ -147,6 +147,7 @@
                   <span><span class="t">E-learning</span><span class="d">Fruizione asincrona su piattaforma dedicata, con tracciamento dei tempi e degli esiti conforme allo standard SCORM</span></span></label>
                 <label class="scelta"><input type="radio" name="mod" value="VCS">
                   <span><span class="t">Videoconferenza sincrona</span><span class="d">Lezione sincrona con il docente, identificazione dei partecipanti e registrazione automatica delle presenze</span></span></label>
+                <div class="date-aula" id="date-vcs" hidden=""><p>Nessuna edizione in videoconferenza a calendario: la segreteria propone la prima data utile al raggiungimento del numero minimo di iscritti.</p><input type="hidden" name="edv" value=""></div>
                 
               </div></fieldset>
             <div id="blocco-acq" style="display:flex;flex-direction:column;gap:16px">
@@ -157,6 +158,7 @@
             <button class="btn btn-rosso" style="width:100%"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 4h2l2.4 11.2a2 2 0 0 0 2 1.6h7.7a2 2 0 0 0 2-1.5L21 8H6.2"></path><circle cx="10" cy="20" r="1.4"></circle><circle cx="17" cy="20" r="1.4"></circle></svg> Aggiungi al carrello</button>
             </div>
             
+<div class="box-prova" style="border:1px solid var(--linea, #D9E3E6);border-radius:14px;padding:16px 18px"><h3 class="tit-attiva" style="margin:0 0 6px">Prova gratuita in e-learning</h3><p style="margin:0 0 14px;font-size:13.5px;line-height:1.5">L'introduzione e il primo modulo del corso, con voce narrante, esercitazioni e verifiche identiche alla versione completa, senza registrazione.</p><a class="btn btn-bordo" style="width:100%" href="elearning/CER/index.html" target="_blank" rel="noopener">Avvia la prova del corso</a></div>
             <h3 class="tit-attiva">Condizioni di attivazione</h3><div class="attiva compatta"><div class="attiva-r"><div class="attiva-t"><span class="chip EL">EL</span><b>E-learning</b></div><strong>Sempre attivabile</strong><span>L'accesso è abilitato alla conferma del pagamento; il corso è fruito in autonomia, senza vincoli di data né numero minimo di iscritti.</span></div><div class="attiva-r"><div class="attiva-t"><span class="chip VCS">VCS</span><b>Videoconferenza sincrona</b></div><strong>Avvio con almeno 3 iscritti</strong><span>In difetto, la segreteria propone la prima edizione utile ovvero il rimborso integrale della quota versata.</span></div></div>
             <div class="avviso blu" style="margin-top:12px"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M12 11v6M12 7.5v.5"></path></svg><span><b>Edizioni riservate all'azienda</b>: riduzione del 10% da 11 partecipanti, riduzione del 15% da 21 partecipanti. <a href="#/condizioni">Condizioni Generali di Contratto</a>.</span></div>
           </div>
@@ -284,7 +286,7 @@
 <script src="assets/data.js?v=23"></script>
 <script src="assets/listino.js?v=23"></script>
 <script src="assets/foto.js?v=23"></script>
-<script src="assets/app.js?v=23"></script>
+<script src="assets/app.js?v=24"></script>
 <script>if ('serviceWorker' in navigator && location.protocol !== 'file:') addEventListener('load', () => navigator.serviceWorker.register('sw.js').catch(() => {}));</script>
 </body>
 </html>

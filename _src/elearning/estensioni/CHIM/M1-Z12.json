@@ -1,0 +1,54 @@
+{
+ "dopo": "Il regolamento CLP: classi e categorie di pericolo",
+ "schermate": [
+  {
+   "t": "classifica",
+   "tit": "Indicazione di pericolo o consiglio di prudenza?",
+   "lead": "Seleziona una frase, poi la colonna.",
+   "colonne": [
+    "Indicazione di pericolo (H)",
+    "Consiglio di prudenza (P)"
+   ],
+   "schede": [
+    [
+     "Provoca gravi ustioni cutanee e gravi lesioni oculari",
+     0,
+     "Descrive il pericolo: H314.",
+     "Corretto."
+    ],
+    [
+     "Indossare guanti protettivi",
+     1,
+     "È un comportamento da seguire: P280.",
+     "Corretto."
+    ],
+    [
+     "Liquido e vapori facilmente infiammabili",
+     0,
+     "H225.",
+     "Corretto."
+    ],
+    [
+     "Tenere lontano da fonti di calore e scintille",
+     1,
+     "P210.",
+     "Corretto."
+    ],
+    [
+     "Può provocare il cancro",
+     0,
+     "H350.",
+     "Corretto."
+    ],
+    [
+     "In caso di contatto con gli occhi sciacquare accuratamente",
+     1,
+     "P305+P351+P338.",
+     "Corretto."
+    ]
+   ],
+   "nar": "Sei frasi di un’etichetta. Distingui le indicazioni di pericolo dai consigli di prudenza.",
+   "rif": "Reg. (CE) 1272/2008, Allegati III e IV"
+  }
+ ]
+}

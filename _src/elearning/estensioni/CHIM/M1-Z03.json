@@ -1,0 +1,39 @@
+{
+ "dopo": "La classificazione delle miscele",
+ "schermate": [
+  {
+   "t": "esempio",
+   "tit": "Esempio guidato · Classificare una miscela con il metodo di calcolo",
+   "lead": "Corrosione e irritazione cutanea di un detergente.",
+   "passi": [
+    [
+     "I componenti",
+     "La miscela contiene il 3% di un componente Skin Corr. 1 e l’8% di un componente Skin Irrit. 2.",
+     "3% Corr. 1 · 8% Irrit. 2"
+    ],
+    [
+     "Corrosione",
+     "Si classifica Skin Corr. 1 se la somma dei componenti corrosivi è almeno il 5%.",
+     "3% < 5% → non corrosiva"
+    ],
+    [
+     "Irritazione",
+     "Si classifica Skin Irrit. 2 se 10 × (corrosivi) + (irritanti) è almeno il 10%.",
+     "10 × 3 + 8 = 38% ≥ 10%"
+    ],
+    [
+     "Il risultato",
+     "La miscela è classificata irritante per la pelle, categoria 2.",
+     "Skin Irrit. 2 · H315"
+    ],
+    [
+     "L’etichetta",
+     "Pittogramma GHS07, avvertenza «Attenzione».",
+     "GHS07 · Attenzione"
+    ]
+   ],
+   "nar": "Classifichiamo un detergente con il metodo di calcolo. Contiene il tre per cento di un componente corrosivo e l’otto per cento di un irritante. Per la corrosione servirebbe almeno il cinque per cento di componenti corrosivi: non basta. Per l’irritazione si somma dieci volte la quota dei corrosivi più quella degli irritanti: trenta più otto fa trentotto, oltre la soglia del dieci per cento. La miscela è quindi irritante per la pelle, categoria due, con il punto esclamativo e l’avvertenza «Attenzione».",
+   "rif": "Reg. (CE) 1272/2008, Allegato I, punto 3.2.3"
+  }
+ ]
+}

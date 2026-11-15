@@ -1,0 +1,70 @@
+{
+ "dopo": "Il regolamento CLP: classi e categorie di pericolo",
+ "schermate": [
+  {
+   "t": "classifica",
+   "tit": "Quale pittogramma?",
+   "lead": "Seleziona un pericolo, poi il pittogramma corretto.",
+   "colonne": [
+    "GHS02 · fiamma",
+    "GHS05 · corrosione",
+    "GHS06 · teschio",
+    "GHS07 · punto esclamativo",
+    "GHS08 · pericolo per la salute",
+    "GHS09 · ambiente"
+   ],
+   "schede": [
+    [
+     "Liquido infiammabile, categoria 2",
+     0,
+     "La fiamma indica gas, liquidi e solidi infiammabili.",
+     "Corretto."
+    ],
+    [
+     "Corrosione cutanea, categoria 1",
+     1,
+     "La corrosione vale per pelle, occhi e metalli.",
+     "Corretto."
+    ],
+    [
+     "Tossicità acuta per inalazione, categoria 2",
+     2,
+     "Il teschio indica la tossicità acuta di categoria 1, 2 o 3.",
+     "Corretto."
+    ],
+    [
+     "Irritazione cutanea, categoria 2",
+     3,
+     "Il punto esclamativo indica irritazione e pericoli minori.",
+     "Corretto."
+    ],
+    [
+     "Cancerogenicità, categoria 1B",
+     4,
+     "La sagoma con la stella indica i pericoli gravi a lungo termine.",
+     "Corretto."
+    ],
+    [
+     "Pericoloso per l’ambiente acquatico, cronico 2",
+     5,
+     "Albero e pesce indicano il pericolo per l’ambiente acquatico.",
+     "Corretto."
+    ],
+    [
+     "Sensibilizzazione delle vie respiratorie",
+     4,
+     "È un pericolo grave per la salute.",
+     "Corretto."
+    ],
+    [
+     "Tossicità acuta per ingestione, categoria 4",
+     3,
+     "La categoria 4 usa il punto esclamativo.",
+     "Corretto."
+    ]
+   ],
+   "nar": "Otto pericoli classificati secondo il CLP. Associa a ciascuno il pittogramma corretto.",
+   "rif": "Reg. (CE) 1272/2008, Allegato V"
+  }
+ ]
+}

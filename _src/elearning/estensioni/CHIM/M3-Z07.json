@@ -1,0 +1,24 @@
+{
+ "dopo": "Esercitazione · La sostituzione del solvente",
+ "schermate": [
+  {
+   "t": "applica",
+   "tit": "Il tuo piano di miglioramento per il rischio chimico",
+   "lead": "Scegli le azioni prioritarie per la tua organizzazione.",
+   "voci": [
+    "Sostituire un prodotto pericoloso",
+    "Installare o migliorare un’aspirazione",
+    "Aggiornare le schede di dati di sicurezza",
+    "Preparare le schede di reparto",
+    "Misurare l’esposizione secondo la UNI EN 689",
+    "Rivedere la scelta dei guanti",
+    "Classificare le zone ATEX",
+    "Esercitare la squadra sugli sversamenti"
+   ],
+   "campo": "L’azione numero uno, chi la guida ed entro quando",
+   "esempio": "Es.: aspirazione sulla miscelazione, responsabile manutenzione, entro marzo",
+   "min": 3,
+   "nar": "Scegli le azioni prioritarie contro il rischio chimico nella tua azienda e indica l’azione numero uno, chi la guida ed entro quando."
+  }
+ ]
+}

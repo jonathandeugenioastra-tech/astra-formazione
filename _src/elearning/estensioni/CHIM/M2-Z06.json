@@ -1,0 +1,66 @@
+{
+ "dopo": "Cancerogeni, mutageni e reprotossici: il Capo II dopo il D.lgs. 135/2024",
+ "schermate": [
+  {
+   "t": "classifica",
+   "tit": "Capo I o Capo II?",
+   "lead": "Seleziona un agente, poi il capo del Titolo IX che si applica.",
+   "colonne": [
+    "Capo I · agenti chimici",
+    "Capo II · cancerogeni, mutageni, reprotossici"
+   ],
+   "schede": [
+    [
+     "Toluene usato come diluente",
+     0,
+     "Non è classificato cancerogeno né reprotossico di categoria 1.",
+     "Corretto."
+    ],
+    [
+     "Benzene",
+     1,
+     "Cancerogeno di categoria 1A.",
+     "Corretto."
+    ],
+    [
+     "Formaldeide",
+     1,
+     "Cancerogena di categoria 1B.",
+     "Corretto."
+    ],
+    [
+     "Polvere di silice cristallina respirabile da lavorazioni",
+     1,
+     "Lavorazione dell’Allegato XLII.",
+     "Corretto."
+    ],
+    [
+     "Acetone",
+     0,
+     "Agente chimico del Capo I.",
+     "Corretto."
+    ],
+    [
+     "Composti del piombo tossici per la riproduzione",
+     1,
+     "Dopo il D.lgs. 135/2024 i reprotossici 1A e 1B rientrano nel Capo II.",
+     "Corretto."
+    ],
+    [
+     "Idrossido di sodio",
+     0,
+     "Corrosivo: Capo I.",
+     "Corretto."
+    ],
+    [
+     "Polveri di legno duro",
+     1,
+     "Lavorazione dell’Allegato XLII.",
+     "Corretto."
+    ]
+   ],
+   "nar": "Otto agenti. Indica se la valutazione rientra nel Capo I o nel Capo II del Titolo IX.",
+   "rif": "D.lgs. 81/2008, Titolo IX, Capi I e II"
+  }
+ ]
+}

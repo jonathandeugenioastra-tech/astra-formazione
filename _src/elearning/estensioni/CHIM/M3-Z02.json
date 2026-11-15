@@ -1,0 +1,75 @@
+{
+ "dopo": "L’aspirazione localizzata",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "La cappa che non aspira",
+   "scena": "Gli addetti alla miscelazione lamentano odore di solvente nonostante la cappa. La cappa è a 80 cm dal punto di miscelazione e il filtro non viene cambiato da due anni.",
+   "decisioni": [
+    {
+     "dom": "Qual è il problema principale?",
+     "opz": [
+      [
+       "La distanza della cappa dalla sorgente e il filtro intasato riducono la velocità di cattura",
+       true,
+       "Corretto: l’efficacia cala rapidamente con la distanza e con le perdite di carico."
+      ],
+      [
+       "Gli addetti sono troppo sensibili",
+       false,
+       "L’odore segnala una captazione insufficiente."
+      ],
+      [
+       "Serve solo profumare l’ambiente",
+       false,
+       "Non elimina l’esposizione."
+      ]
+     ]
+    },
+    {
+     "dom": "Che cosa fai?",
+     "opz": [
+      [
+       "Avvicini la cappa alla sorgente, la chiudi parzialmente e sostituisci il filtro",
+       true,
+       "Corretto: cappe vicine e semichiuse sono più efficaci."
+      ],
+      [
+       "Aumenti solo la ventilazione generale",
+       false,
+       "Diluisce ma non capta alla fonte."
+      ],
+      [
+       "Dai mascherine e lasci tutto com’è",
+       false,
+       "I DPI vengono dopo le misure tecniche."
+      ]
+     ]
+    },
+    {
+     "dom": "Come verifichi che funzioni?",
+     "opz": [
+      [
+       "Misurando la velocità di cattura e programmando verifiche periodiche e manutenzione",
+       true,
+       "Corretto: le prestazioni vanno verificate nel tempo."
+      ],
+      [
+       "Chiedendo se c’è ancora odore",
+       false,
+       "Non è una verifica affidabile."
+      ],
+      [
+       "Non serve verificarla",
+       false,
+       "Le prestazioni vanno controllate."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "Cappa vicina alla sorgente, preferibilmente chiusa o semichiusa, filtri mantenuti e prestazioni misurate: così l’aspirazione localizzata protegge davvero.",
+   "nar": "Un’aspirazione che non funziona bene. Trova la causa e intervieni.",
+   "rif": "Art. 225 D.lgs. 81/2008"
+  }
+ ]
+}

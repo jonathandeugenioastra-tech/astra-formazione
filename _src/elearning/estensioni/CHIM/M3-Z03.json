@@ -1,0 +1,39 @@
+{
+ "dopo": "Filtri per le vie respiratorie: tipi e colori",
+ "schermate": [
+  {
+   "t": "esempio",
+   "tit": "Esempio guidato · Scegliere il filtro per la verniciatura a spruzzo",
+   "lead": "Dal contaminante al filtro.",
+   "passi": [
+    [
+     "I contaminanti",
+     "Vapori di toluene e xilene, punto di ebollizione superiore a 65 °C, e nebbie di vernice.",
+     "Vapori organici + particelle"
+    ],
+    [
+     "Il tipo per i vapori",
+     "Tipo A, colore marrone.",
+     "Filtro A"
+    ],
+    [
+     "Il filtro per le particelle",
+     "Le nebbie di vernice richiedono un filtro antiparticolato, ad esempio P2.",
+     "Filtro P2"
+    ],
+    [
+     "Il filtro combinato",
+     "Si usa un filtro combinato A2P2 su semimaschera o maschera intera.",
+     "A2P2"
+    ],
+    [
+     "L’uso",
+     "Prova di tenuta, sostituzione dei filtri secondo le istruzioni del fabbricante e conservazione in contenitore chiuso.",
+     "Tenuta e sostituzione"
+    ]
+   ],
+   "nar": "Scegliamo il filtro per la verniciatura a spruzzo. Ci sono vapori di toluene e xilene, che bollono sopra i sessantacinque gradi, e nebbie di vernice. Per i vapori serve il tipo A, marrone; per le nebbie un filtro antiparticolato, ad esempio P due. Si usa quindi un filtro combinato A due P due, con prova di tenuta e sostituzione secondo le istruzioni del fabbricante.",
+   "rif": "UNI EN 14387 · UNI EN 529"
+  }
+ ]
+}

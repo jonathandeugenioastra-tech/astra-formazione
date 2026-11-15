@@ -1,0 +1,64 @@
+{
+ "dopo": "Esempio applicativo: il DVR di una falegnameria con 6 addetti",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · La scheda di rischio del verniciatore",
+   "lead": "Completa la scheda di valutazione del rischio chimico per il verniciatore della falegnameria.",
+   "dossier": [
+    [
+     "Prodotti",
+     "fondo e finitura poliuretanici bicomponenti con diisocianati; diluente a base di acetato di butile e xilene"
+    ],
+    [
+     "Modalità",
+     "spruzzo in cabina con velo d’acqua, 3 ore al giorno"
+    ],
+    [
+     "Altre esposizioni",
+     "polveri di legno duro dalla levigatura, 2 ore al giorno"
+    ],
+    [
+     "Presidi",
+     "cabina; semimaschera con filtro A2P2; guanti in lattice"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Individua gli agenti, i pericoli e il capo del Titolo IX applicabile.",
+     "min": 7,
+     "modello": "Diisocianati: sensibilizzanti respiratori e cutanei, Capo I con restrizione REACH e formazione obbligatoria. Solventi: infiammabili ed effetti sul sistema nervoso, Capo I. Polveri di legno duro: lavorazione dell’Allegato XLII, Capo II, con valore limite dell’Allegato XLIII.",
+     "criteri": [
+      "Ho individuato i diisocianati come sensibilizzanti",
+      "Ho individuato le polveri di legno duro nel Capo II",
+      "Ho considerato l’infiammabilità"
+     ],
+     "minc": 120
+    },
+    {
+     "q": "Valuta l’adeguatezza dei presidi e proponi miglioramenti.",
+     "min": 8,
+     "modello": "La cabina va verificata nella velocità dell’aria; il filtro A2P2 è adatto ai vapori organici e alle nebbie, ma con i diisocianati occorre valutare un apparecchio a ventilazione assistita o isolante; i guanti in lattice non sono adatti: servono guanti resistenti ai prodotti secondo la scheda, ad esempio in nitrile o butile; per la levigatura aspirazione localizzata sulle macchine.",
+     "criteri": [
+      "Ho criticato i guanti in lattice",
+      "Ho valutato la protezione respiratoria con i diisocianati",
+      "Ho previsto aspirazione sulla levigatura"
+     ],
+     "minc": 150
+    },
+    {
+     "q": "Quali obblighi di sorveglianza e formazione aggiungi?",
+     "min": 5,
+     "modello": "Sorveglianza sanitaria per sensibilizzanti e polveri di legno; iscrizione nel registro degli esposti per le polveri di legno duro; formazione specifica sui diisocianati con rinnovo almeno quinquennale; formazione sull’uso dei DPI con addestramento.",
+     "criteri": [
+      "Ho previsto sorveglianza e registro",
+      "Ho previsto la formazione sui diisocianati",
+      "Ho previsto l’addestramento ai DPI"
+     ]
+    }
+   ],
+   "nar": "Il laboratorio ti chiede di completare la scheda di rischio chimico del verniciatore di una falegnameria. Individua agenti e pericoli, valuta i presidi e proponi miglioramenti, poi indica sorveglianza e formazione. Confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "D.lgs. 81/2008, Titolo IX · Reg. (CE) 1907/2006, Allegato XVII, voce 74"
+  }
+ ]
+}

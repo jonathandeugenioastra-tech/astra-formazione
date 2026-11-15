@@ -1,0 +1,88 @@
+{
+ "dopo": "Esercitazione · Silice cristallina in un laboratorio di marmo",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Valutare il rischio chimico di una galvanica",
+   "lead": "Imposta la valutazione del rischio chimico di una piccola galvanica con 8 addetti.",
+   "dossier": [
+    [
+     "Agenti",
+     "acido solforico (corrosivo); idrossido di sodio (corrosivo); solfato di nichel (cancerogeno 1A, sensibilizzante); sgrassante con solventi (infiammabile)"
+    ],
+    [
+     "Processi",
+     "sgrassaggio, decapaggio, nichelatura in vasche aperte, risciacqui"
+    ],
+    [
+     "Presidi",
+     "aspirazione a bordo vasca solo sulla nichelatura; guanti generici"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Classifica gli agenti e indica quale capo del Titolo IX si applica a ciascuno.",
+     "min": 7,
+     "modello": "Acido solforico e idrossido di sodio: agenti chimici pericolosi, Capo I, con rischio di corrosione per contatto e aerosol. Sgrassante: Capo I, con pericolo di incendio e di effetti sul sistema nervoso. Solfato di nichel: cancerogeno 1A, Capo II, con obblighi di sostituzione, sistema chiuso o esposizione minima, e registro degli esposti.",
+     "criteri": [
+      "Ho distinto Capo I e Capo II",
+      "Ho considerato sicurezza e salute",
+      "Ho indicato il registro per il nichel"
+     ],
+     "minc": 120
+    },
+    {
+     "q": "Proponi le misure secondo la gerarchia.",
+     "min": 8,
+     "modello": "Valutare la sostituzione del processo al nichel o la riduzione dei componenti pericolosi; coperture delle vasche e aspirazione a bordo vasca su tutte le vasche che emettono aerosol; automazione delle movimentazioni; separazione dei reparti; procedure di dosaggio con sistemi chiusi; guanti specifici secondo le schede, visiere e grembiuli; docce e lavaocchi; divieto di mangiare e fumare.",
+     "criteri": [
+      "Ho seguito l’ordine della gerarchia",
+      "Ho previsto aspirazione e coperture",
+      "Ho previsto DPI specifici e presidi di emergenza"
+     ],
+     "minc": 150
+    },
+    {
+     "q": "Quali obblighi di sorveglianza e registrazione individui?",
+     "min": 5,
+     "modello": "Sorveglianza sanitaria per gli esposti non irrilevanti; registro degli esposti al nichel e cartelle conservate almeno 40 anni; misure ambientali e personali secondo la UNI EN 689; informazione e formazione specifiche.",
+     "criteri": [
+      "Ho indicato la sorveglianza sanitaria",
+      "Ho indicato registro e conservazione",
+      "Ho previsto misure e formazione"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio imposti la valutazione del rischio chimico di una piccola galvanica. Classifica gli agenti, proponi le misure secondo la gerarchia e individua gli obblighi di sorveglianza e registrazione, poi confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "D.lgs. 81/2008, Titolo IX"
+  },
+  {
+   "t": "vf",
+   "tit": "Ripasso · Valutazione ed esposizione",
+   "voci": [
+    [
+     "Con tre misure tutte inferiori al 10% del valore limite il test preliminare dimostra la conformità.",
+     true,
+     "Vero: UNI EN 689."
+    ],
+    [
+     "La media ponderata si calcola dividendo per le ore effettive di esposizione.",
+     false,
+     "Falso: si riferisce alle 8 ore."
+    ],
+    [
+     "I reprotossici di categoria 1A e 1B rientrano nel Capo II.",
+     true,
+     "Vero: dopo il D.lgs. 135/2024."
+    ],
+    [
+     "Il rischio irrilevante per la salute esclude anche le misure generali.",
+     false,
+     "Falso: le misure generali si applicano sempre."
+    ]
+   ],
+   "nar": "Ripasso: quattro affermazioni su valutazione ed esposizione.",
+   "rif": "D.lgs. 81/2008, Titolo IX · UNI EN 689"
+  }
+ ]
+}

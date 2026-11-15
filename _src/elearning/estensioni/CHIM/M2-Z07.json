@@ -1,0 +1,75 @@
+{
+ "dopo": "Cancerogeni, mutageni e reprotossici: obblighi specifici",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "Il registro degli esposti",
+   "scena": "Un’impresa di galvanica usa un bagno con un sale di nichel classificato cancerogeno di categoria 1A. Non ha mai istituito il registro degli esposti.",
+   "decisioni": [
+    {
+     "dom": "Che cosa fai per primo?",
+     "opz": [
+      [
+       "Verifichi se l’agente può essere sostituito o il processo chiuso",
+       true,
+       "Corretto: la sostituzione è l’obbligo prioritario."
+      ],
+      [
+       "Istituisci il registro e basta",
+       false,
+       "Il registro non sostituisce la riduzione dell’esposizione."
+      ],
+      [
+       "Nulla, il bagno è sempre stato così",
+       false,
+       "Gli obblighi valgono anche per i processi esistenti."
+      ]
+     ]
+    },
+    {
+     "dom": "Chi va iscritto nel registro?",
+     "opz": [
+      [
+       "I lavoratori per i quali la valutazione ha evidenziato un’esposizione",
+       true,
+       "Corretto: art. 243."
+      ],
+      [
+       "Tutti i dipendenti",
+       false,
+       "Solo gli esposti."
+      ],
+      [
+       "Nessuno, se usano i DPI",
+       false,
+       "I DPI non escludono l’esposizione."
+      ]
+     ]
+    },
+    {
+     "dom": "Per quanto si conservano registro e cartelle?",
+     "opz": [
+      [
+       "Almeno 40 anni dalla cessazione dell’esposizione",
+       true,
+       "Corretto."
+      ],
+      [
+       "5 anni",
+       false,
+       "Il periodo è molto più lungo."
+      ],
+      [
+       "Fino al licenziamento",
+       false,
+       "Non è così."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "Sostituire o chiudere il processo, iscrivere gli esposti nel registro, conservare registro e cartelle per almeno quarant’anni: sono gli obblighi specifici per gli agenti cancerogeni.",
+   "nar": "Un bagno galvanico con un agente cancerogeno. Metti in regola l’impresa.",
+   "rif": "Artt. 235, 236 e 243 D.lgs. 81/2008"
+  }
+ ]
+}

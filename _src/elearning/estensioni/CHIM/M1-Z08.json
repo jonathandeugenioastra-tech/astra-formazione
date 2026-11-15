@@ -1,0 +1,75 @@
+{
+ "dopo": "Articoli con SVHC: art. 33 e banca dati SCIP",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "La domanda del cliente",
+   "scena": "Un cliente privato chiede a un’impresa che vende cavi elettrici se contengono sostanze estremamente preoccupanti. Un plastificante dell’elenco delle candidate è presente allo 0,3% in peso.",
+   "decisioni": [
+    {
+     "dom": "L’impresa deve rispondere?",
+     "opz": [
+      [
+       "Sì: gratuitamente, entro 45 giorni, almeno con il nome della sostanza",
+       true,
+       "Corretto: art. 33, comma 2."
+      ],
+      [
+       "No, è un segreto commerciale",
+       false,
+       "L’informazione è dovuta."
+      ],
+      [
+       "Solo se il cliente è un’impresa",
+       false,
+       "Il diritto vale anche per il consumatore."
+      ]
+     ]
+    },
+    {
+     "dom": "E verso i clienti professionali?",
+     "opz": [
+      [
+       "Deve informarli già alla fornitura, con le informazioni per l’uso sicuro",
+       true,
+       "Corretto: art. 33, comma 1."
+      ],
+      [
+       "Solo su richiesta",
+       false,
+       "Per i destinatari professionali l’obbligo è automatico."
+      ],
+      [
+       "Mai",
+       false,
+       "È un obbligo."
+      ]
+     ]
+    },
+    {
+     "dom": "Quale altro adempimento riguarda il fornitore di articoli con SVHC oltre lo 0,1%?",
+     "opz": [
+      [
+       "La notifica alla banca dati SCIP dell’ECHA",
+       true,
+       "Corretto: prevista dalla direttiva quadro sui rifiuti."
+      ],
+      [
+       "La registrazione della sostanza",
+       false,
+       "Riguarda fabbricanti e importatori."
+      ],
+      [
+       "Nessuno",
+       false,
+       "C’è la notifica SCIP."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "Informare i clienti professionali, rispondere al consumatore entro 45 giorni e notificare in SCIP: sono gli obblighi di chi fornisce articoli con sostanze estremamente preoccupanti.",
+   "nar": "Un cliente chiede delle sostanze nei cavi. Rispondi correttamente.",
+   "rif": "Art. 33 Reg. (CE) 1907/2006 · art. 9 Dir. 2008/98/CE"
+  }
+ ]
+}

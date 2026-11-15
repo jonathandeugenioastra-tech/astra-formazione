@@ -1,0 +1,51 @@
+{
+ "dopo": "Esercitazione · Il travaso nella bottiglia",
+ "schermate": [
+  {
+   "t": "applica",
+   "tit": "Gli agenti chimici della tua azienda",
+   "lead": "Fai un primo inventario degli agenti chimici.",
+   "voci": [
+    "Ho l’elenco dei prodotti in uso",
+    "Ogni prodotto ha la scheda aggiornata",
+    "I contenitori sono tutti etichettati",
+    "Ci sono travasi in contenitori anonimi",
+    "Esistono schede di reparto per gli addetti",
+    "Ci sono prodotti con diisocianati",
+    "Ci sono agenti cancerogeni o mutageni"
+   ],
+   "campo": "Il prodotto più critico e perché",
+   "esempio": "Es.: diluente nitro usato a spruzzo senza aspirazione",
+   "min": 3,
+   "nar": "Fai un primo inventario degli agenti chimici della tua azienda e indica il prodotto più critico."
+  },
+  {
+   "t": "vf",
+   "tit": "Ripasso · Classificazione e informazione",
+   "voci": [
+    [
+     "Un pittogramma GHS07 può indicare la tossicità acuta di categoria 4.",
+     true,
+     "Vero: la categoria 4 usa il punto esclamativo."
+    ],
+    [
+     "La scheda di dati di sicurezza si può fornire solo in inglese.",
+     false,
+     "Falso: va fornita nella lingua dello Stato membro."
+    ],
+    [
+     "Il codice UFI ha 16 caratteri.",
+     true,
+     "Vero."
+    ],
+    [
+     "L’utilizzatore a valle deve registrare le sostanze che acquista.",
+     false,
+     "Falso: la registrazione spetta a fabbricanti e importatori."
+    ]
+   ],
+   "nar": "Ripasso: quattro affermazioni su classificazione e informazione.",
+   "rif": "Reg. (CE) 1272/2008 · Reg. (CE) 1907/2006"
+  }
+ ]
+}

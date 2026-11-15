@@ -1,0 +1,39 @@
+{
+ "dopo": "DPI per il rischio chimico",
+ "schermate": [
+  {
+   "t": "esempio",
+   "tit": "Esempio guidato · Leggere la marcatura di un guanto chimico",
+   "lead": "La UNI EN ISO 374-1 e il tempo di permeazione.",
+   "passi": [
+    [
+     "La marcatura",
+     "Il guanto riporta il tipo e le lettere dei prodotti di prova.",
+     "Tipo A, B o C"
+    ],
+    [
+     "Il livello",
+     "Il livello di prestazione dipende dal tempo di permeazione: livello 2 oltre 30 minuti, livello 6 oltre 480 minuti.",
+     "2 → >30 min · 6 → >480 min"
+    ],
+    [
+     "I tipi",
+     "Tipo A: almeno 6 prodotti con livello 2; tipo B: almeno 3; tipo C: almeno 1 prodotto con livello 1, oltre 10 minuti.",
+     "A · B · C"
+    ],
+    [
+     "La scelta",
+     "Si confronta il prodotto usato con quelli di prova e con le indicazioni della sezione 8 della scheda.",
+     "Guanto adatto al prodotto"
+    ],
+    [
+     "L’uso",
+     "Il guanto si sostituisce prima del tempo di permeazione e subito se danneggiato o contaminato all’interno.",
+     "Sostituzione programmata"
+    ]
+   ],
+   "nar": "Leggiamo la marcatura di un guanto chimico. Il tipo, A, B o C, indica quanti prodotti di prova supera e a quale livello. Il livello dipende dal tempo di permeazione: il livello due supera i trenta minuti, il livello sei i quattrocentottanta. Il guanto si sceglie confrontando il prodotto usato con la sezione otto della scheda, e si sostituisce prima del tempo di permeazione.",
+   "rif": "UNI EN ISO 374-1"
+  }
+ ]
+}

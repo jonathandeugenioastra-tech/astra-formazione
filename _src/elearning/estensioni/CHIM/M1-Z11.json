@@ -1,0 +1,75 @@
+{
+ "dopo": "Il codice UFI e la notifica ai centri antiveleni",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "Il detergente importato",
+   "scena": "Un’impresa importa dalla Svizzera un detergente classificato corrosivo e lo vende a imprese di pulizia italiane.",
+   "decisioni": [
+    {
+     "dom": "Chi deve notificare la miscela?",
+     "opz": [
+      [
+       "L’importatore, prima dell’immissione sul mercato",
+       true,
+       "Corretto: l’obbligo spetta a importatori e utilizzatori a valle che immettono miscele sul mercato."
+      ],
+      [
+       "Il fabbricante svizzero",
+       false,
+       "Fuori dall’Unione l’obbligo ricade sull’importatore."
+      ],
+      [
+       "I clienti",
+       false,
+       "Non sono tenuti."
+      ]
+     ]
+    },
+    {
+     "dom": "Dove si notifica?",
+     "opz": [
+      [
+       "Tramite il portale dell’ECHA, nel formato armonizzato dell’Allegato VIII",
+       true,
+       "Corretto."
+      ],
+      [
+       "Con una e-mail all’ASL",
+       false,
+       "Non è la procedura prevista."
+      ],
+      [
+       "Non serve, è un uso professionale",
+       false,
+       "Anche le miscele per uso professionale vanno notificate."
+      ]
+     ]
+    },
+    {
+     "dom": "Che cosa compare sull’etichetta?",
+     "opz": [
+      [
+       "Il codice UFI di 16 caratteri",
+       true,
+       "Corretto: collega il prodotto alle informazioni per i centri antiveleni."
+      ],
+      [
+       "Il numero di telefono dell’importatore al posto del pittogramma",
+       false,
+       "Il pittogramma resta obbligatorio."
+      ],
+      [
+       "Nulla di nuovo",
+       false,
+       "Serve il codice UFI."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "Notifica armonizzata tramite ECHA prima dell’immissione e codice UFI in etichetta: così i centri antiveleni possono rispondere rapidamente in caso di esposizione.",
+   "nar": "Un detergente importato da vendere in Italia. Verifica gli obblighi.",
+   "rif": "Reg. (CE) 1272/2008, art. 45 e Allegato VIII"
+  }
+ ]
+}

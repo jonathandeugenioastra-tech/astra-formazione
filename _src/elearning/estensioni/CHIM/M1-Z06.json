@@ -1,0 +1,55 @@
+{
+ "dopo": "Il regolamento REACH e gli obblighi dell’utilizzatore",
+ "schermate": [
+  {
+   "t": "classifica",
+   "tit": "A chi spetta l’obbligo?",
+   "lead": "Seleziona un obbligo REACH, poi il soggetto tenuto.",
+   "colonne": [
+    "Fabbricante o importatore",
+    "Utilizzatore a valle",
+    "Fornitore di articoli"
+   ],
+   "schede": [
+    [
+     "Registrare la sostanza prodotta oltre 1 t/anno",
+     0,
+     "La registrazione spetta a chi fabbrica o importa.",
+     "Corretto."
+    ],
+    [
+     "Verificare che il proprio uso rientri negli scenari di esposizione",
+     1,
+     "È l’obbligo tipico dell’utilizzatore a valle.",
+     "Corretto."
+    ],
+    [
+     "Comunicare la presenza di SVHC oltre lo 0,1% negli articoli",
+     2,
+     "Art. 33 del REACH.",
+     "Corretto."
+    ],
+    [
+     "Applicare le misure di gestione del rischio della SDS estesa",
+     1,
+     "L’utilizzatore attua le misure indicate.",
+     "Corretto."
+    ],
+    [
+     "Preparare il fascicolo e la relazione sulla sicurezza chimica",
+     0,
+     "Spetta al dichiarante, oltre 10 t/anno.",
+     "Corretto."
+    ],
+    [
+     "Rispondere al consumatore entro 45 giorni",
+     2,
+     "Art. 33, comma 2.",
+     "Corretto."
+    ]
+   ],
+   "nar": "Sei obblighi del REACH. Individua il soggetto a cui spettano.",
+   "rif": "Reg. (CE) 1907/2006, artt. 6, 14, 33 e 37"
+  }
+ ]
+}

@@ -1,0 +1,65 @@
+{
+ "dopo": "Esempio applicativo: da ppm a mg/m³",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · L’esposizione media ponderata di un verniciatore",
+   "lead": "Calcola l’esposizione a toluene di un verniciatore in una giornata tipo.",
+   "dossier": [
+    [
+     "Fase 1",
+     "2 ore di verniciatura in cabina: 150 mg/m³"
+    ],
+    [
+     "Fase 2",
+     "4 ore di preparazione dei pezzi: 60 mg/m³"
+    ],
+    [
+     "Fase 3",
+     "2 ore di imballaggio, nessuna esposizione"
+    ],
+    [
+     "Valore limite",
+     "toluene 192 mg/m³ (50 ppm) su 8 ore"
+    ],
+    [
+     "Massa molare",
+     "92,14 g/mol"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Calcola la concentrazione media ponderata sulle 8 ore.",
+     "min": 6,
+     "modello": "(150 × 2 + 60 × 4 + 0 × 2) / 8 = (300 + 240) / 8 = 67,5 mg/m³.",
+     "criteri": [
+      "Ho moltiplicato concentrazioni e durate",
+      "Ho diviso per 8 ore",
+      "Ho ottenuto 67,5 mg/m³"
+     ]
+    },
+    {
+     "q": "Confronta il risultato con il valore limite e interpretalo.",
+     "min": 6,
+     "modello": "67,5 / 192 ≈ 0,35: l’esposizione è circa il 35% del valore limite. È inferiore al limite, ma non trascurabile: la conformità va verificata con una strategia di misura secondo la UNI EN 689 e le misure vanno mantenute.",
+     "criteri": [
+      "Ho calcolato il rapporto con il limite",
+      "Ho evitato di concludere con una sola stima",
+      "Ho richiamato la UNI EN 689"
+     ]
+    },
+    {
+     "q": "Converti il valore in ppm.",
+     "min": 5,
+     "modello": "ppm = mg/m³ × 24,06 / M = 67,5 × 24,06 / 92,14 ≈ 17,6 ppm.",
+     "criteri": [
+      "Ho usato la formula inversa",
+      "Ho ottenuto circa 17,6 ppm"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio calcoli l’esposizione media ponderata di un verniciatore esposto a toluene in tre fasi della giornata. Calcola il valore sulle otto ore, confrontalo con il limite e convertilo in ppm, poi confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "Allegato XXXVIII D.lgs. 81/2008 · UNI EN 689"
+  }
+ ]
+}

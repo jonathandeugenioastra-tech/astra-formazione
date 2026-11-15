@@ -1,0 +1,39 @@
+{
+ "dopo": "Valori limite e misurazioni dell’esposizione",
+ "schermate": [
+  {
+   "t": "esempio",
+   "tit": "Esempio guidato · Da ppm a mg/m³ per l’acetone",
+   "lead": "Verifica di un valore limite.",
+   "passi": [
+    [
+     "Il dato",
+     "Valore limite dell’acetone: 500 ppm.",
+     "500 ppm"
+    ],
+    [
+     "La massa molare",
+     "Acetone: 58,08 g/mol.",
+     "M = 58,08"
+    ],
+    [
+     "Il calcolo",
+     "mg/m³ = 500 × 58,08 / 24,06.",
+     "≈ 1.207 mg/m³"
+    ],
+    [
+     "Il confronto",
+     "L’Allegato XXXVIII riporta 1.210 mg/m³: la differenza dipende dagli arrotondamenti.",
+     "≈ 1.210 mg/m³"
+    ],
+    [
+     "L’uso pratico",
+     "Una misura di 300 mg/m³ corrisponde a circa 124 ppm, cioè circa un quarto del limite.",
+     "300 mg/m³ ≈ 124 ppm"
+    ]
+   ],
+   "nar": "Convertiamo il valore limite dell’acetone. Cinquecento ppm per una massa molare di cinquantotto virgola zero otto, diviso ventiquattro virgola zero sei, fanno circa milleduecentosette milligrammi per metro cubo, in linea con i milleduecentodieci dell’Allegato. Una misura di trecento milligrammi per metro cubo corrisponde a circa centoventiquattro ppm, circa un quarto del limite.",
+   "rif": "Allegato XXXVIII D.lgs. 81/2008"
+  }
+ ]
+}

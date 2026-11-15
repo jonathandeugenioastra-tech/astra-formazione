@@ -1,0 +1,75 @@
+{
+ "dopo": "Sorveglianza sanitaria ed esposizione a cancerogeni",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "Il lavaocchi chiuso nel magazzino",
+   "scena": "Durante un sopralluogo trovi il lavaocchi del reparto acidi dietro una scaffalatura, con la valvola bloccata. Gli addetti dicono che nessuno l’ha mai usato.",
+   "decisioni": [
+    {
+     "dom": "Che cosa fai subito?",
+     "opz": [
+      [
+       "Liberi l’accesso, verifichi il funzionamento e segnali il guasto per la riparazione immediata",
+       true,
+       "Corretto: un presidio di emergenza deve essere sempre accessibile e funzionante."
+      ],
+      [
+       "Nulla, tanto non si usa",
+       false,
+       "Serve proprio quando accade l’incidente."
+      ],
+      [
+       "Lo togli per fare spazio",
+       false,
+       "È un presidio obbligatorio in caso di rischio di schizzi."
+      ]
+     ]
+    },
+    {
+     "dom": "Come eviti che si ripeta?",
+     "opz": [
+      [
+       "Controlli periodici registrati e segnaletica",
+       true,
+       "Corretto: la verifica periodica mantiene l’efficienza."
+      ],
+      [
+       "Una circolare una tantum",
+       false,
+       "Non basta."
+      ],
+      [
+       "Un nuovo lavaocchi in ufficio",
+       false,
+       "Deve essere vicino al punto di rischio."
+      ]
+     ]
+    },
+    {
+     "dom": "Un addetto riceve uno schizzo di acido negli occhi. Che cosa si fa?",
+     "opz": [
+      [
+       "Lavaggio immediato e prolungato con acqua, poi soccorso sanitario con la scheda di sicurezza",
+       true,
+       "Corretto: il lavaggio immediato riduce il danno."
+      ],
+      [
+       "Si aspetta il medico",
+       false,
+       "Ogni secondo conta."
+      ],
+      [
+       "Si neutralizza con una base",
+       false,
+       "È pericoloso."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "Presidi di emergenza accessibili e verificati, lavaggio immediato e soccorso con la scheda di sicurezza: le procedure dell’art. 226 funzionano solo se preparate prima.",
+   "nar": "Un lavaocchi inutilizzabile nel reparto acidi. Intervieni.",
+   "rif": "Art. 226 D.lgs. 81/2008"
+  }
+ ]
+}

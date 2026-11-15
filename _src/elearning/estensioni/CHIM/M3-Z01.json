@@ -1,0 +1,69 @@
+{
+ "dopo": "La gerarchia delle misure (art. 225)",
+ "schermate": [
+  {
+   "t": "classifica",
+   "tit": "Quale livello della gerarchia?",
+   "lead": "Seleziona una misura, poi il livello della gerarchia.",
+   "colonne": [
+    "Sostituzione",
+    "Misura tecnica",
+    "Protezione collettiva",
+    "Misura organizzativa",
+    "DPI"
+   ],
+   "schede": [
+    [
+     "Vernice a base acquosa al posto di quella a solvente",
+     0,
+     "Elimina o riduce il pericolo alla fonte.",
+     "Corretto."
+    ],
+    [
+     "Travaso in circuito chiuso con pompa",
+     1,
+     "È un controllo tecnico.",
+     "Corretto."
+    ],
+    [
+     "Ventilazione generale del reparto",
+     2,
+     "Protegge tutti i presenti.",
+     "Corretto."
+    ],
+    [
+     "Riduzione del numero di addetti presenti durante la miscelazione",
+     3,
+     "È organizzativa.",
+     "Corretto."
+    ],
+    [
+     "Semimaschera con filtro A2",
+     4,
+     "È l’ultima barriera.",
+     "Corretto."
+    ],
+    [
+     "Aspirazione localizzata sulla pesatura",
+     1,
+     "Capta l’inquinante alla fonte.",
+     "Corretto."
+    ],
+    [
+     "Turnazione per ridurre la durata dell’esposizione",
+     3,
+     "È organizzativa.",
+     "Corretto."
+    ],
+    [
+     "Detergente non classificato al posto di uno corrosivo",
+     0,
+     "È una sostituzione.",
+     "Corretto."
+    ]
+   ],
+   "nar": "Otto misure contro il rischio chimico. Collocale nella gerarchia, dalla sostituzione ai dispositivi di protezione individuale.",
+   "rif": "Art. 225 D.lgs. 81/2008"
+  }
+ ]
+}

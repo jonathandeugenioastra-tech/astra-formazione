@@ -1,0 +1,58 @@
+{
+ "dopo": "Emergenze, sorveglianza sanitaria e informazione",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Lo sversamento in magazzino",
+   "lead": "In magazzino un carrellista fora un fusto da 200 litri di solvente facilmente infiammabile: il liquido si sparge sul pavimento.",
+   "dossier": [
+    [
+     "Prodotto",
+     "H225, H336, H411"
+    ],
+    [
+     "Luogo",
+     "magazzino chiuso, vicino a una caricabatterie dei carrelli"
+    ],
+    [
+     "Presenti",
+     "due addetti; kit di assorbimento in reparto"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Quali azioni immediate?",
+     "min": 6,
+     "modello": "Dare l’allarme, allontanare le persone non necessarie, eliminare le fonti di innesco, come la ricarica dei carrelli, senza azionare interruttori nella zona dei vapori se non previsto dalla procedura; ventilare; contenere lo sversamento con barriere per evitare che raggiunga tombini e scarichi.",
+     "criteri": [
+      "Ho previsto allarme e allontanamento",
+      "Ho eliminato le fonti di innesco",
+      "Ho previsto il contenimento lontano dagli scarichi"
+     ]
+    },
+    {
+     "q": "Chi interviene, con quali DPI e materiali?",
+     "min": 6,
+     "modello": "Gli addetti formati alle emergenze, con protezione respiratoria adeguata o, se la concentrazione è elevata, apparecchi isolanti; guanti resistenti al solvente; materiale assorbente non combustibile; utensili antiscintilla; contenitori per i residui.",
+     "criteri": [
+      "Ho limitato l’intervento agli addetti formati",
+      "Ho indicato DPI adeguati",
+      "Ho indicato materiali e attrezzi antiscintilla"
+     ]
+    },
+    {
+     "q": "Che cosa si fa dopo l’emergenza?",
+     "min": 5,
+     "modello": "Il materiale assorbito è un rifiuto pericoloso da classificare e gestire; si analizzano le cause, ad esempio la viabilità dei carrelli e la protezione dei fusti; si aggiornano procedure e valutazione dei rischi; si informano e si formano gli addetti.",
+     "criteri": [
+      "Ho gestito i residui come rifiuto pericoloso",
+      "Ho previsto l’analisi delle cause",
+      "Ho previsto l’aggiornamento di procedure e valutazione"
+     ]
+    }
+   ],
+   "nar": "Il laboratorio simula lo sversamento di un solvente infiammabile in magazzino. Indica le azioni immediate, chi interviene con quali dispositivi e che cosa fare dopo l’emergenza, poi confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "Art. 226 D.lgs. 81/2008"
+  }
+ ]
+}

@@ -16,6 +16,6 @@ def VF(tit, voci, nar, rif=""):
 def CA(tit, scena, domanda, opz, nar, rif=""):
     return {"t":"caso","tit":tit,"scena":scena,"domanda":domanda,"opz":opz,"nar":nar,"rif":rif}
 def LB(tit, lead, dossier, compiti, nar, rif="", chiusura=None):
-    d={"t":"laboratorio","tit":tit,"lead":lead,"dossier":dossier,"compiti":[{"q":c[0],"min":c[1],"modello":c[2],"criteri":c[3],**({"traccia":c[4]} if len(c)>4 else {})} for c in compiti],"nar":nar,"rif":rif}
+    d={"t":"laboratorio","tit":tit,"lead":lead,"dossier":dossier,"compiti":[{"q":c[0],"min":c[1],"modello":c[2],"criteri":c[3],**({"traccia":c[4]} if len(c)>4 and c[4] else {}),**({"minc":c[5]} if len(c)>5 else {})} for c in compiti],"nar":nar,"rif":rif}
     if chiusura: d["chiusura"]=chiusura
     return d

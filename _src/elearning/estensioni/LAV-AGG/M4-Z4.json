@@ -1,0 +1,75 @@
+{
+ "dopo": "Il rappresentante dei lavoratori per la sicurezza",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "L’RLS e il nuovo impianto",
+   "scena": "L’azienda installa una nuova linea di produzione. L’RLS lo scopre a lavori iniziati e chiede di vedere la valutazione dei rischi aggiornata.",
+   "decisioni": [
+    {
+     "dom": "L’RLS doveva essere coinvolto prima?",
+     "opz": [
+      [
+       "No, decide solo il datore di lavoro",
+       false,
+       "L’RLS è consultato preventivamente sulla valutazione dei rischi."
+      ],
+      [
+       "Sì: è consultato preventivamente e tempestivamente sulla valutazione dei rischi",
+       true,
+       "Corretto: art. 50, comma 1, lettera b)."
+      ],
+      [
+       "Solo se lo chiedono i sindacati",
+       false,
+       "È un diritto dell’RLS."
+      ]
+     ]
+    },
+    {
+     "dom": "Può ricevere copia del documento di valutazione dei rischi?",
+     "opz": [
+      [
+       "Sì, su sua richiesta e per l’espletamento della sua funzione",
+       true,
+       "Corretto: art. 18, comma 1, lettera o), e art. 50."
+      ],
+      [
+       "No, è un documento riservato alla direzione",
+       false,
+       "L’RLS ha diritto di riceverne copia."
+      ],
+      [
+       "Solo in caso di infortunio",
+       false,
+       "Non c’è questa limitazione."
+      ]
+     ]
+    },
+    {
+     "dom": "L’RLS ritiene insufficienti le misure. Che cosa può fare?",
+     "opz": [
+      [
+       "Nulla",
+       false,
+       "Ha strumenti precisi."
+      ],
+      [
+       "Formulare osservazioni e, se le misure restano inadeguate, ricorrere alle autorità competenti",
+       true,
+       "Corretto: art. 50, comma 1, lettera o)."
+      ],
+      [
+       "Fermare da solo la linea",
+       false,
+       "Non ha questo potere, salvo il diritto di ciascun lavoratore davanti a un pericolo grave e immediato."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "Consultazione preventiva, accesso al documento di valutazione dei rischi, possibilità di ricorrere alle autorità: l’RLS è la voce dei lavoratori nella prevenzione.",
+   "nar": "Una nuova linea installata senza consultare l’RLS. Valuta diritti e strumenti.",
+   "rif": "Artt. 18 e 50 D.lgs. 81/2008"
+  }
+ ]
+}

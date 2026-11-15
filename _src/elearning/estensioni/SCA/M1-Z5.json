@@ -1,0 +1,75 @@
+{
+ "dopo": "Autorizzazione, campionamento e divieti",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "L’autorizzazione in scadenza",
+   "scena": "Controllando l’archivio scopri che l’AUA dello stabilimento scade fra quattro mesi e nessuno ha presentato la domanda di rinnovo.",
+   "decisioni": [
+    {
+     "dom": "Che cosa fai?",
+     "opz": [
+      [
+       "Presenti subito la domanda, segnalando il ritardo rispetto al termine di sei mesi prima della scadenza",
+       true,
+       "Corretto: la domanda va presentata comunque al più presto, e il ritardo va gestito con l’autorità competente."
+      ],
+      [
+       "Aspetti la scadenza e poi chiedi una nuova AUA",
+       false,
+       "Alla scadenza lo scarico resterebbe senza titolo."
+      ],
+      [
+       "Nulla: l’autorizzazione si rinnova da sola",
+       false,
+       "Il rinnovo non è automatico."
+      ]
+     ]
+    },
+    {
+     "dom": "Se il titolo scadesse prima del rinnovo, che cosa rischieresti scaricando acque industriali?",
+     "opz": [
+      [
+       "Nulla, la domanda basta sempre",
+       false,
+       "La continuità dell’esercizio è legata al rispetto dei termini di presentazione."
+      ],
+      [
+       "La contravvenzione per scarico senza autorizzazione dell’art. 137",
+       true,
+       "Corretto: lo scarico di acque reflue industriali senza titolo è un reato."
+      ],
+      [
+       "Solo una sanzione del gestore",
+       false,
+       "È una contravvenzione penale."
+      ]
+     ]
+    },
+    {
+     "dom": "Come eviti che succeda di nuovo?",
+     "opz": [
+      [
+       "Uno scadenzario con promemoria a 12 e a 8 mesi dalla scadenza e un responsabile designato",
+       true,
+       "Corretto: la gestione delle scadenze è un controllo organizzativo essenziale."
+      ],
+      [
+       "Affidarsi alla memoria del titolare",
+       false,
+       "Non è un controllo affidabile."
+      ],
+      [
+       "Rinnovare ogni anno",
+       false,
+       "Non è necessario né previsto."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "Rinnovare per tempo, sapere che cosa si rischia, presidiare le scadenze con uno scadenzario: la continuità dello scarico è un risultato organizzativo.",
+   "nar": "Un’autorizzazione sta per scadere senza domanda di rinnovo. Decidi come intervenire.",
+   "rif": "D.P.R. 59/2013, art. 5 · art. 137 D.lgs. 152/2006"
+  }
+ ]
+}

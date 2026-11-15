@@ -1,0 +1,62 @@
+{
+ "dopo": "Rischi psicosociali, violenza e molestie",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · L’utente aggressivo allo sportello",
+   "lead": "Allo sportello di un ufficio un utente, irritato per l’attesa, alza la voce, minaccia l’operatrice e colpisce il vetro.",
+   "dossier": [
+    [
+     "Luogo",
+     "sportello al pubblico, due operatori"
+    ],
+    [
+     "Presidi presenti",
+     "vetro divisorio, nessun pulsante di allarme"
+    ],
+    [
+     "Procedura aziendale",
+     "assente"
+    ],
+    [
+     "Conseguenze",
+     "nessuna lesione; l’operatrice è molto scossa"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Come si comporta l’operatrice durante l’episodio?",
+     "min": 6,
+     "modello": "Mantiene la calma e la distanza, non risponde alle provocazioni, parla con tono pacato, chiama il collega o il responsabile e, se la minaccia cresce, si allontana e chiama il 112. Non tenta di trattenere l’utente.",
+     "criteri": [
+      "Ho previsto distanza e calma",
+      "Ho previsto la richiesta di aiuto",
+      "Ho indicato quando chiamare il 112"
+     ]
+    },
+    {
+     "q": "Che cosa si fa subito dopo?",
+     "min": 6,
+     "modello": "Si segnala l’episodio secondo il canale aziendale, si offre supporto all’operatrice, anche tramite il medico competente o servizi di ascolto, e si informano preposto e RSPP perché analizzino l’evento.",
+     "criteri": [
+      "Ho previsto la segnalazione",
+      "Ho previsto il supporto all’operatrice",
+      "Ho coinvolto preposto e RSPP"
+     ]
+    },
+    {
+     "q": "Quali misure di prevenzione proponi?",
+     "min": 6,
+     "modello": "Valutazione del rischio di violenza da terzi nel DVR; procedura scritta; pulsante di allarme collegato; gestione delle attese con informazioni ed eliminacode; formazione alla gestione dei conflitti; mai un operatore da solo nelle fasce critiche; registro degli episodi.",
+     "criteri": [
+      "Ho previsto valutazione e procedura",
+      "Ho previsto misure tecniche e organizzative",
+      "Ho previsto la formazione"
+     ]
+    }
+   ],
+   "nar": "Il laboratorio riguarda un episodio di aggressione verbale a uno sportello. Indica come comportarsi durante l’episodio, che cosa fare subito dopo e quali misure di prevenzione adottare, poi confronta le tue risposte con la soluzione di riferimento.",
+   "rif": "Art. 28 D.lgs. 81/2008 · Convenzione OIL n. 190"
+  }
+ ]
+}

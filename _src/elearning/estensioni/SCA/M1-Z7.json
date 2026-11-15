@@ -1,0 +1,65 @@
+{
+ "dopo": "Esempio applicativo: il pozzetto e l’autocontrollo",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Leggere un rapporto di prova",
+   "lead": "Hai ricevuto il rapporto di prova dell’autocontrollo semestrale di uno scarico industriale in fognatura.",
+   "dossier": [
+    [
+     "Campione",
+     "medio composito nell’arco di tre ore, pozzetto a valle del trattamento"
+    ],
+    [
+     "pH",
+     "7,8 (limite 5,5–9,5)"
+    ],
+    [
+     "COD",
+     "620 mg/L (limite 500)"
+    ],
+    [
+     "Solidi sospesi totali",
+     "150 mg/L (limite 200)"
+    ],
+    [
+     "Zinco",
+     "1,4 mg/L (limite 1)"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Quali parametri superano i limiti?",
+     "min": 5,
+     "modello": "COD, 620 contro 500 mg/L, e zinco, 1,4 contro 1 mg/L. pH e solidi sospesi sono conformi.",
+     "criteri": [
+      "Ho individuato COD e zinco",
+      "Ho confermato pH e solidi conformi"
+     ]
+    },
+    {
+     "q": "Le conseguenze dei due superamenti sono uguali?",
+     "min": 8,
+     "modello": "No. Lo zinco è tra le sostanze della Tabella 5: il superamento è una contravvenzione penale dell’art. 137. Il COD non è nella Tabella 5: il superamento è punito con sanzione amministrativa dell’art. 133. La valutazione tiene conto dell’incertezza di misura secondo i criteri applicabili.",
+     "criteri": [
+      "Ho collegato lo zinco alla Tabella 5 e al reato",
+      "Ho collegato il COD alla sanzione amministrativa",
+      "Ho considerato l’incertezza di misura"
+     ]
+    },
+    {
+     "q": "Che cosa fai subito?",
+     "min": 7,
+     "modello": "Verifico il funzionamento dell’impianto di trattamento, individuo la causa, come un bagno esausto o un dosaggio errato, adotto misure correttive, ripeto il campionamento e, se previsto dall’autorizzazione, comunico il superamento all’autorità e al gestore. Documento tutto.",
+     "criteri": [
+      "Ho previsto la ricerca della causa",
+      "Ho previsto azioni correttive e nuovo campionamento",
+      "Ho previsto comunicazione e documentazione"
+     ]
+    }
+   ],
+   "nar": "Leggere un rapporto di prova è un’abilità chiave. Il dossier riporta i risultati di un autocontrollo con quattro parametri. Individua i superamenti, distingui le conseguenze e decidi le azioni immediate, poi confronta le tue risposte con la soluzione di riferimento.",
+   "rif": "Allegato 5 alla Parte III · artt. 133 e 137 D.lgs. 152/2006"
+  }
+ ]
+}

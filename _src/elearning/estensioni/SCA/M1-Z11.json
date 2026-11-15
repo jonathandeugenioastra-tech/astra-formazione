@@ -1,0 +1,33 @@
+{
+ "dopo": "Sanzioni per gli scarichi",
+ "schermate": [
+  {
+   "t": "vf",
+   "tit": "Ripasso · Scarichi e controlli",
+   "voci": [
+    [
+     "Il campione medio composito è di norma prelevato nell’arco di tre ore.",
+     true,
+     "Vero: è il riferimento dell’Allegato 5 alla Parte III, salvo diversa prescrizione."
+    ],
+    [
+     "Si possono rispettare i limiti diluendo lo scarico con acqua di pozzo.",
+     false,
+     "Falso: la diluizione con acque prelevate allo scopo è vietata."
+    ],
+    [
+     "Il pozzetto di campionamento deve essere accessibile all’autorità di controllo.",
+     true,
+     "Vero: art. 101, comma 3."
+    ],
+    [
+     "Le acque raccolte in una vasca e portate via con autobotte sono uno scarico.",
+     false,
+     "Falso: sono rifiuti liquidi."
+    ]
+   ],
+   "nar": "Ripasso: quattro affermazioni su scarichi e controlli.",
+   "rif": "D.lgs. 152/2006, Parte III"
+  }
+ ]
+}

@@ -1,0 +1,83 @@
+{
+ "dopo": "Cultura della sicurezza e comportamenti",
+ "schermate": [
+  {
+   "t": "classifica",
+   "tit": "Comportamento sicuro o a rischio?",
+   "lead": "Seleziona un comportamento, poi la colonna.",
+   "colonne": [
+    "Sicuro",
+    "A rischio"
+   ],
+   "schede": [
+    [
+     "Segnalo al collega, con rispetto, che non ha agganciato l’imbracatura",
+     0,
+     "Il feedback tra colleghi è un atto di cura.",
+     "Corretto."
+    ],
+    [
+     "Uso il telefono mentre guido il carrello, solo per pochi secondi",
+     1,
+     "La distrazione alla guida è una causa frequente di infortuni.",
+     "Corretto."
+    ],
+    [
+     "Mi fermo e chiamo il preposto davanti a una situazione che non conosco",
+     0,
+     "È il comportamento corretto.",
+     "Corretto."
+    ],
+    [
+     "Tolgo gli otoprotettori per sentire meglio il collega",
+     1,
+     "Meglio un dispositivo di comunicazione o una pausa in zona silenziosa.",
+     "Corretto."
+    ],
+    [
+     "Compilo il modulo per un quasi incidente anche se nessuno si è fatto male",
+     0,
+     "Le segnalazioni permettono di prevenire.",
+     "Corretto."
+    ],
+    [
+     "Salto la verifica dell’attrezzatura perché l’ha usata il collega un’ora prima",
+     1,
+     "La verifica prima dell’uso è personale.",
+     "Corretto."
+    ],
+    [
+     "Partecipo alla prova di evacuazione anche se sono impegnato",
+     0,
+     "Le esercitazioni sono parte della sicurezza.",
+     "Corretto."
+    ],
+    [
+     "Copro un collega che ha bevuto per non metterlo nei guai",
+     1,
+     "Il collega in difficoltà va aiutato, avvisando il preposto.",
+     "Corretto."
+    ]
+   ],
+   "nar": "Otto comportamenti quotidiani. Riconosci quelli sicuri e quelli a rischio.",
+   "rif": "Art. 20 D.lgs. 81/2008"
+  },
+  {
+   "t": "applica",
+   "tit": "La cultura della sicurezza nel tuo reparto",
+   "lead": "Rifletti su come si vive la sicurezza nel tuo reparto.",
+   "voci": [
+    "Le segnalazioni ricevono una risposta",
+    "Ci si corregge tra colleghi con rispetto",
+    "Le procedure si rispettano anche quando c’è fretta",
+    "Il preposto è presente e interviene",
+    "I quasi incidenti vengono analizzati",
+    "Le prove di evacuazione si fanno davvero"
+   ],
+   "campo": "Una scorciatoia diffusa nel tuo lavoro e come la eviteresti",
+   "esempio": "Es.: si sale sui ripiani bassi della scaffalatura → usare sempre la scala con piattaforma",
+   "min": 3,
+   "nar": "Rifletti sulla cultura della sicurezza nel tuo reparto e descrivi una scorciatoia diffusa e come evitarla."
+  }
+ ]
+}

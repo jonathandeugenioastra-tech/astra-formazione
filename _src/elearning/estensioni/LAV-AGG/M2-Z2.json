@@ -1,0 +1,66 @@
+{
+ "dopo": "Procedura di segnalazione del quasi incidente",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Analizzare un quasi incidente",
+   "lead": "Durante il turno di notte un collo di 25 kg cade dal terzo livello di una scaffalatura e atterra a un metro da un collega che preparava un ordine.",
+   "dossier": [
+    [
+     "Dove",
+     "corsia 4 del magazzino"
+    ],
+    [
+     "Quando",
+     "ore 2:30, fine del picco di lavoro"
+    ],
+    [
+     "Attrezzatura",
+     "carrello retrattile, scaffalatura con portata indicata"
+    ],
+    [
+     "Osservazioni",
+     "collo appoggiato sporgente oltre il bancale; corsia poco illuminata; il carrellista aveva urtato il montante poco prima"
+    ],
+    [
+     "Conseguenze",
+     "nessun ferito"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Descrivi l’evento come lo scriveresti nella segnalazione.",
+     "min": 5,
+     "modello": "Alle 2:30, nella corsia 4, un collo di 25 kg è caduto dal terzo livello della scaffalatura a circa un metro da un collega che preparava un ordine. Il collo sporgeva dal bancale; poco prima il carrello retrattile aveva urtato il montante. Nessun ferito; potenziale conseguenza grave.",
+     "criteri": [
+      "Ho indicato dove, quando e che cosa",
+      "Ho descritto la conseguenza potenziale",
+      "Ho riportato i fatti senza giudizi"
+     ]
+    },
+    {
+     "q": "Individua le cause, distinguendo i fattori.",
+     "min": 7,
+     "modello": "Fattori materiali: collo sporgente e non stabilizzato sul bancale; urto contro il montante. Ambiente: illuminazione insufficiente della corsia. Organizzazione: picco di lavoro notturno e possibile fretta. Persone: manovra del carrello vicino alla scaffalatura. Va verificato anche il danno al montante.",
+     "criteri": [
+      "Ho considerato fattori materiali e ambientali",
+      "Ho considerato l’organizzazione",
+      "Ho previsto la verifica del montante"
+     ]
+    },
+    {
+     "q": "Proponi misure correttive e chi deve attuarle.",
+     "min": 6,
+     "modello": "Verifica immediata del montante e, se danneggiato, scarico del vano; regola di stabilizzazione dei colli e di non sporgenza; migliore illuminazione; protezioni dei montanti; richiamo ai carrellisti sulle manovre; ritorno di informazione a chi ha segnalato. Responsabili: preposto, ufficio tecnico, RSPP.",
+     "criteri": [
+      "Ho previsto misure immediate e strutturali",
+      "Ho indicato i responsabili",
+      "Ho previsto il ritorno di informazione"
+     ]
+    }
+   ],
+   "nar": "Il laboratorio parte da un quasi incidente in magazzino: un collo di venticinque chili cade vicino a un collega. Descrivi l’evento, individua le cause e proponi le misure correttive, poi confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "Art. 20 D.lgs. 81/2008 · UNI EN ISO 45001, punto 10.2"
+  }
+ ]
+}

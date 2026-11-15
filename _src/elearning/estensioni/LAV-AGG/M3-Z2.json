@@ -1,0 +1,54 @@
+{
+ "dopo": "Digitalizzazione, automazione e robot collaborativi",
+ "schermate": [
+  {
+   "t": "classifica",
+   "tit": "Quale misura per la nuova tecnologia?",
+   "lead": "Seleziona un rischio, poi la misura più adatta.",
+   "colonne": [
+    "Misura tecnica",
+    "Misura organizzativa"
+   ],
+   "schede": [
+    [
+     "Robot collaborativo che lavora accanto all’operatore",
+     0,
+     "Limitazione di forza e velocità e valutazione specifica.",
+     "Corretto."
+    ],
+    [
+     "Reperibilità continua sullo smartphone aziendale",
+     1,
+     "Diritto alla disconnessione e regole sugli orari.",
+     "Corretto."
+    ],
+    [
+     "Esoscheletro usato per il sollevamento",
+     1,
+     "Formazione, adattamento e valutazione del carico residuo.",
+     "Corretto."
+    ],
+    [
+     "Carrelli a guida automatica nei corridoi",
+     0,
+     "Sensori, segnalazioni e corsie separate.",
+     "Corretto."
+    ],
+    [
+     "Lavoro da remoto in solitudine",
+     1,
+     "Contatti regolari e procedure di emergenza.",
+     "Corretto."
+    ],
+    [
+     "Software che detta i ritmi del picking",
+     1,
+     "Valutazione dello stress lavoro-correlato e dei ritmi.",
+     "Corretto."
+    ]
+   ],
+   "nar": "Sei rischi legati alle nuove tecnologie. Indica se la misura principale è tecnica oppure organizzativa.",
+   "rif": "UNI EN ISO 10218 · art. 28 D.lgs. 81/2008"
+  }
+ ]
+}

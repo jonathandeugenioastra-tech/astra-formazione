@@ -1,0 +1,67 @@
+{
+ "dopo": "Scarichi: definizioni e tipologie",
+ "schermate": [
+  {
+   "t": "classifica",
+   "tit": "Che tipo di acqua reflua?",
+   "lead": "Seleziona un refluo, poi la tipologia.",
+   "colonne": [
+    "Domestica o assimilata",
+    "Industriale",
+    "Meteorica di dilavamento"
+   ],
+   "schede": [
+    [
+     "Servizi igienici degli uffici",
+     0,
+     "Deriva dal metabolismo umano e da attività domestiche.",
+     "Corretto."
+    ],
+    [
+     "Acque di lavaggio dei pezzi metallici in una linea di sgrassaggio",
+     1,
+     "Deriva da un’attività produttiva.",
+     "Corretto."
+    ],
+    [
+     "Pioggia che dilava il piazzale di deposito dei rottami",
+     2,
+     "È acqua meteorica di dilavamento di superfici esterne.",
+     "Corretto."
+    ],
+    [
+     "Acque di raffreddamento di un processo industriale",
+     1,
+     "Sono reflui dell’attività produttiva.",
+     "Corretto."
+    ],
+    [
+     "Mensa aziendale con scarico separato",
+     0,
+     "Di norma è domestica o assimilata, secondo la disciplina regionale.",
+     "Corretto."
+    ],
+    [
+     "Acqua che scorre sul tetto e sulle aree verdi",
+     2,
+     "È meteorica; di norma non contaminata.",
+     "Corretto."
+    ],
+    [
+     "Spurgo delle torri evaporative",
+     1,
+     "È un refluo di processo.",
+     "Corretto."
+    ],
+    [
+     "Lavaggio dei pavimenti del reparto verniciatura",
+     1,
+     "Contiene residui di lavorazione: industriale.",
+     "Corretto."
+    ]
+   ],
+   "nar": "Otto reflui di uno stabilimento. Riconosci se sono acque domestiche o assimilate, industriali oppure meteoriche di dilavamento.",
+   "rif": "Artt. 74 e 101 D.lgs. 152/2006"
+  }
+ ]
+}

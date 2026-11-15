@@ -1,0 +1,66 @@
+{
+ "dopo": "Altre novità rilevanti",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Il percorso formativo di Marco",
+   "lead": "Marco è magazziniere in un’impresa di logistica. Verifica la sua situazione formativa.",
+   "dossier": [
+    [
+     "Assunzione",
+     "marzo 2021"
+    ],
+    [
+     "Formazione generale e specifica",
+     "marzo 2021, rischio medio, 12 ore"
+    ],
+    [
+     "Aggiornamento",
+     "nessuno"
+    ],
+    [
+     "Abilitazione al carrello elevatore",
+     "maggio 2021"
+    ],
+    [
+     "Mansione attuale",
+     "conduzione del carrello e preparazione ordini; da gennaio coordina due colleghi"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Entro quando Marco deve fare l’aggiornamento come lavoratore e di quante ore?",
+     "min": 5,
+     "modello": "L’aggiornamento è di almeno 6 ore ogni cinque anni: per la formazione di marzo 2021 va completato entro marzo 2026. Se il termine è già scaduto, va recuperato subito, e fino al completamento l’impresa non è in regola.",
+     "criteri": [
+      "Ho indicato 6 ore ogni cinque anni",
+      "Ho calcolato la scadenza di marzo 2026",
+      "Ho previsto il recupero immediato"
+     ]
+    },
+    {
+     "q": "Che cosa cambia per Marco da quando coordina due colleghi?",
+     "min": 6,
+     "modello": "Se sovrintende all’attività dei colleghi ed esercita un potere di iniziativa, svolge di fatto la funzione di preposto: va individuato formalmente e deve ricevere la formazione specifica del preposto, in presenza, con aggiornamento periodico.",
+     "criteri": [
+      "Ho riconosciuto la funzione di preposto di fatto",
+      "Ho indicato l’individuazione formale",
+      "Ho indicato la formazione del preposto"
+     ]
+    },
+    {
+     "q": "Quali documenti deve conservare l’impresa e dove confluiscono i dati?",
+     "min": 6,
+     "modello": "Attestati, registri e verifiche di apprendimento di ogni corso; il fascicolo del corso si conserva per almeno dieci anni. Dopo il D.L. 159/2025 i dati della formazione confluiscono nel fascicolo elettronico del lavoratore. Va pianificato anche l’aggiornamento quinquennale dell’abilitazione al carrello, da completare entro maggio 2026.",
+     "criteri": [
+      "Ho indicato attestati, registri e verifiche",
+      "Ho citato il fascicolo elettronico",
+      "Ho considerato l’aggiornamento dell’abilitazione"
+     ]
+    }
+   ],
+   "nar": "In questo laboratorio verifichi il percorso formativo di Marco, magazziniere assunto nel duemilaventuno, che da poco coordina due colleghi. Stabilisci le scadenze di aggiornamento, che cosa cambia con il nuovo ruolo e quali documenti conservare, poi confronta le tue risposte con la soluzione di riferimento.",
+   "rif": "Art. 37 D.lgs. 81/2008 · Accordo 17 aprile 2025"
+  }
+ ]
+}

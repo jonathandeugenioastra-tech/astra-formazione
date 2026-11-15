@@ -1,0 +1,107 @@
+{
+ "dopo": "Illeciti amministrativi e reati negli scarichi",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Il verbale dell’ARPA",
+   "lead": "Dopo un sopralluogo ricevi un verbale con tre rilievi.",
+   "dossier": [
+    [
+     "Rilievo 1",
+     "superamento del limite dei solidi sospesi totali nello scarico in fognatura"
+    ],
+    [
+     "Rilievo 2",
+     "pozzetto di campionamento coperto da materiali e non accessibile"
+    ],
+    [
+     "Rilievo 3",
+     "scarico S4 di acque di lavaggio non indicato nell’AUA"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Qualifica ciascun rilievo: illecito amministrativo o contravvenzione?",
+     "min": 7,
+     "modello": "Rilievo 1: superamento per un parametro non compreso nella Tabella 5, sanzione amministrativa dell’art. 133. Rilievo 2: rendere inaccessibile il punto di campionamento viola le prescrizioni e l’obbligo di accessibilità; secondo il caso può rilevare come inosservanza delle prescrizioni o impedimento del controllo. Rilievo 3: scarico di acque reflue industriali senza autorizzazione, contravvenzione dell’art. 137.",
+     "criteri": [
+      "Ho qualificato il rilievo 1 come amministrativo",
+      "Ho qualificato il rilievo 3 come contravvenzione",
+      "Ho valutato il rilievo 2 con cautela"
+     ]
+    },
+    {
+     "q": "Per le contravvenzioni, quale strada può portare all’estinzione?",
+     "min": 6,
+     "modello": "La procedura estintiva della Parte VI-bis: l’organo di vigilanza impartisce una prescrizione con un termine; se l’adempimento è verificato, il contravventore paga un quarto del massimo dell’ammenda entro trenta giorni e il reato si estingue. Si applica se non c’è danno o pericolo concreto e attuale.",
+     "criteri": [
+      "Ho descritto la prescrizione e la verifica",
+      "Ho indicato il pagamento di un quarto del massimo",
+      "Ho indicato la condizione dell’assenza di danno"
+     ]
+    },
+    {
+     "q": "Quale piano di azioni proponi all’impresa?",
+     "min": 7,
+     "modello": "Liberare e segnalare il pozzetto subito; sospendere o convogliare lo scarico S4 e chiedere la modifica dell’AUA; ricercare la causa dei solidi sospesi e migliorare il trattamento; ripetere i campionamenti; aggiornare procedure e formazione; documentare tutto per l’organo di controllo.",
+     "criteri": [
+      "Ho previsto azioni immediate",
+      "Ho previsto la modifica dell’AUA",
+      "Ho previsto verifiche e documentazione"
+     ]
+    }
+   ],
+   "nar": "Il laboratorio parte da un verbale dell’ARPA con tre rilievi. Qualifica ciascun rilievo, individua la strada per estinguere le contravvenzioni e proponi un piano di azioni, poi confronta le tue risposte con la soluzione di riferimento.",
+   "rif": "Artt. 101, 133, 137 e Parte VI-bis D.lgs. 152/2006"
+  },
+  {
+   "t": "classifica",
+   "tit": "Illecito amministrativo o contravvenzione?",
+   "lead": "Seleziona una violazione, poi la categoria.",
+   "colonne": [
+    "Illecito amministrativo",
+    "Contravvenzione"
+   ],
+   "schede": [
+    [
+     "Scarico di acque reflue industriali senza autorizzazione",
+     1,
+     "Art. 137, comma 1.",
+     "Corretto."
+    ],
+    [
+     "Superamento del limite del COD",
+     0,
+     "Parametro non in Tabella 5: art. 133.",
+     "Corretto."
+    ],
+    [
+     "Superamento del limite del cadmio",
+     1,
+     "Sostanza della Tabella 5: art. 137.",
+     "Corretto."
+    ],
+    [
+     "Superamento del limite dei solidi sospesi",
+     0,
+     "Art. 133.",
+     "Corretto."
+    ],
+    [
+     "Scarico industriale con sostanze pericolose senza autorizzazione",
+     1,
+     "Fattispecie aggravata dell’art. 137.",
+     "Corretto."
+    ],
+    [
+     "Scarico di acque domestiche senza autorizzazione fuori fognatura",
+     0,
+     "Sanzione amministrativa dell’art. 133.",
+     "Corretto."
+    ]
+   ],
+   "nar": "Sei violazioni in materia di scarichi. Distingui gli illeciti amministrativi dalle contravvenzioni.",
+   "rif": "Artt. 133 e 137 D.lgs. 152/2006"
+  }
+ ]
+}

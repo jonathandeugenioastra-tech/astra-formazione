@@ -1,0 +1,39 @@
+{
+ "dopo": "Cantieri: patente a crediti e badge di cantiere",
+ "schermate": [
+  {
+   "t": "esempio",
+   "tit": "Esempio guidato · La patente a crediti di un’impresa edile",
+   "lead": "Come si muove il punteggio.",
+   "passi": [
+    [
+     "Partenza",
+     "Al rilascio la patente ha 30 crediti.",
+     "30 crediti"
+    ],
+    [
+     "Il controllo",
+     "Un’ispezione trova tre lavoratori impiegati senza comunicazione di assunzione.",
+     "3 lavoratori irregolari"
+    ],
+    [
+     "La decurtazione",
+     "Dopo il D.L. 159/2025 si decurtano 5 crediti per ciascun lavoratore irregolare.",
+     "30 − 3 × 5 = 15 crediti"
+    ],
+    [
+     "La soglia",
+     "L’attività è vietata con meno di 15 crediti: con 15 l’impresa può ancora operare, ma un’altra violazione la fermerebbe.",
+     "Al limite della soglia"
+    ],
+    [
+     "La sanzione",
+     "Chi opera senza patente o con meno di 15 crediti rischia una sanzione di almeno 12.000 euro.",
+     "Minimo 12.000 €"
+    ]
+   ],
+   "nar": "Seguiamo il punteggio di una patente a crediti. Al rilascio vale trenta crediti. Un controllo trova tre lavoratori irregolari: con le nuove regole si tolgono cinque crediti per ciascuno, e il punteggio scende a quindici. Sotto i quindici crediti l’impresa non può operare in cantiere: un’altra violazione la fermerebbe, e lavorare senza i crediti necessari espone a una sanzione di almeno dodicimila euro.",
+   "rif": "Art. 27 D.lgs. 81/2008 · D.L. 159/2025"
+  }
+ ]
+}

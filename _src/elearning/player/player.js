@@ -710,21 +710,21 @@
       mostra(); obbligo = { fatto: () => fine, testo: 'Completare tutte le decisioni dello scenario' };
     },
     laboratorio: (s, el) => {
-      const chiave = `astra-lb-${C.id}-${s.mod.id}-${s.si}`, box = $('#lb-c', el), MINC = 40;
+      const chiave = `astra-lb-${C.id}-${s.mod.id}-${s.si}`, box = $('#lb-c', el);
       let dati = { r: [], v: [], k: 0 }; try { dati = Object.assign(dati, JSON.parse(localStorage.getItem(chiave) || '{}')); } catch (e) {}
       const salva = () => { try { localStorage.setItem(chiave, JSON.stringify(dati)); } catch (e) {} };
       const fine = () => dati.k >= s.compiti.length;
       const tappe = () => $$('.sc-tappe i', el).forEach((t, j) => { t.className = j < dati.k ? 'ok' : j === dati.k ? 'cur' : ''; });
       const mostra = () => {
         tappe();
-        if (fine()) { box.innerHTML = `<div class="fb ok">${esc(s.chiusura || 'Laboratorio completato. Le elaborazioni restano salvate su questo dispositivo e sono visibili al tutor.')}</div>` + s.compiti.map((c, j) => `<details class="lb-rev"><summary>Compito ${j + 1} · ${esc(c.q)}</summary><p class="lb-tuo">${esc(dati.r[j] || '')}</p><div class="lb-mod"><b>Soluzione di riferimento</b><p>${esc(c.modello)}</p></div></details>`).join(''); aggiorna(); return; }
-        const k = dati.k, c = s.compiti[k], conf = !!dati.v[k];
-        box.innerHTML = `<p class="dom">Compito ${k + 1} di ${s.compiti.length} · circa ${c.min || 5} minuti</p><p class="lb-q">${esc(c.q)}</p><label class="ap-campo"><textarea id="lb-t" maxlength="1200" rows="5" placeholder="${esc(c.traccia || 'Scrivi qui la tua elaborazione')}"></textarea></label><div class="gr-avanz" id="lb-n"></div><div id="lb-m"></div>`;
+        if (fine()) { box.innerHTML = `<div class="fb ok">${esc(s.chiusura || 'Laboratorio completato. Le elaborazioni restano salvate su questo dispositivo; una sintesi è registrata nel tracciamento del corso.')}</div>` + s.compiti.map((c, j) => `<details class="lb-rev"><summary>Compito ${j + 1} · ${esc(c.q)}</summary><p class="lb-tuo">${esc(dati.r[j] || '')}</p><div class="lb-mod"><b>Soluzione di riferimento</b><p>${esc(c.modello)}</p></div></details>`).join(''); aggiorna(); return; }
+        const k = dati.k, c = s.compiti[k], conf = !!dati.v[k], MINC = c.minc || 40;
+        box.innerHTML = `<p class="dom">Compito ${k + 1} di ${s.compiti.length} · circa ${c.min || 5} minuti</p><p class="lb-q">${esc(c.q)}</p><label class="ap-campo"><textarea id="lb-t" maxlength="4000" rows="${c.min >= 10 ? 9 : 5}" placeholder="${esc(c.traccia || 'Scrivi qui la tua elaborazione')}"></textarea></label><div class="gr-avanz" id="lb-n"></div><div id="lb-m"></div>`;
         const t = $('#lb-t', box), n = $('#lb-n', box), m = $('#lb-m', box);
         t.value = dati.r[k] || '';
         const rivela = () => {
           t.readOnly = true;
-          m.innerHTML = `<div class="lb-mod an"><b>Soluzione di riferimento</b><p>${esc(c.modello)}</p>${c.criteri && c.criteri.length ? `<p class="lb-cr-t">Autovalutazione: spunta gli elementi presenti nella tua elaborazione</p><div class="lb-cr">${c.criteri.map((x, j) => `<label class="ap-v"><input type="checkbox" data-j="${j}"><span>${esc(x)}</span></label>`).join('')}</div>` : ''}</div>`;
+          m.innerHTML = `<div class="lb-mod"><b>Soluzione di riferimento</b><p>${esc(c.modello)}</p>${c.criteri && c.criteri.length ? `<p class="lb-cr-t">Autovalutazione: spunta gli elementi presenti nella tua elaborazione</p><div class="lb-cr">${c.criteri.map((x, j) => `<label class="ap-v"><input type="checkbox" data-j="${j}"><span>${esc(x)}</span></label>`).join('')}</div>` : ''}</div>`;
           const av = document.createElement('button'); av.className = 'btn prim sc-av'; av.textContent = k + 1 < s.compiti.length ? 'Compito successivo' : 'Concludi il laboratorio';
           av.onclick = () => { const sp = $$('.lb-cr input', m).filter(x => x.checked).length;
             if (SC.lms) { const q = +SC.get('cmi.interactions._count') || 0; SC.set(`cmi.interactions.${q}.id`, `${s.mod.id}-${s.si}-lab${k + 1}`); SC.set(`cmi.interactions.${q}.type`, 'fill-in'); SC.set(`cmi.interactions.${q}.student_response`, (sp + '/' + ((c.criteri || []).length) + ' | ' + dati.r[k]).slice(0, 255)); SC.commit(); }

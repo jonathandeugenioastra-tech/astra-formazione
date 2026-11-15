@@ -1,0 +1,75 @@
+{
+ "dopo": "Caldo estremo: misure organizzative e strumenti di tutela",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "La squadra al sole di luglio",
+   "scena": "Una squadra stradale deve posare asfalto in un pomeriggio di luglio. Il bollettino indica rischio calore alto; un operaio è rientrato da una lunga assenza.",
+   "decisioni": [
+    {
+     "dom": "Come organizzi il lavoro?",
+     "opz": [
+      [
+       "Si lavora regolarmente dalle 12 alle 18",
+       false,
+       "Nelle ore più calde il rischio è massimo e un’ordinanza regionale può vietarlo."
+      ],
+      [
+       "Si anticipano le attività pesanti al mattino presto e si sospendono nelle ore più calde, nel rispetto delle ordinanze",
+       true,
+       "Corretto: riorganizzare gli orari è la prima misura."
+      ],
+      [
+       "Si lavora più in fretta per finire prima",
+       false,
+       "Aumenta lo sforzo fisico e il rischio."
+      ]
+     ]
+    },
+    {
+     "dom": "Per l’operaio appena rientrato che cosa prevedi?",
+     "opz": [
+      [
+       "Lo stesso carico dei colleghi",
+       false,
+       "Chi rientra non è acclimatato."
+      ],
+      [
+       "Un acclimatamento graduale e il lavoro in coppia",
+       true,
+       "Corretto: l’acclimatamento richiede alcuni giorni."
+      ],
+      [
+       "Nessuna misura particolare",
+       false,
+       "È più esposto al rischio."
+      ]
+     ]
+    },
+    {
+     "dom": "Un collega diventa confuso e smette di sudare. Che cosa fai?",
+     "opz": [
+      [
+       "Gli dai un caffè e lo lasci riposare al sole",
+       false,
+       "Sono segni di colpo di calore."
+      ],
+      [
+       "Chiami il 112, lo porti all’ombra e lo raffreddi",
+       true,
+       "Corretto: il colpo di calore è un’emergenza."
+      ],
+      [
+       "Aspetti la fine del turno",
+       false,
+       "Ogni minuto conta."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "Orari rivisti, acclimatamento graduale, riconoscimento dei sintomi e chiamata al 112: così si gestisce una giornata a rischio calore.",
+   "nar": "Una giornata a rischio calore per una squadra all’aperto. Decidi le misure.",
+   "rif": "Art. 28 D.lgs. 81/2008 · ordinanze regionali"
+  }
+ ]
+}

@@ -1,0 +1,75 @@
+{
+ "dopo": "L'Accordo Stato-Regioni del 17 aprile 2025",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "Il neoassunto del lunedì",
+   "scena": "Un’impresa di pulizie assume lunedì un nuovo addetto e vorrebbe mandarlo subito in un cantiere, rinviando la formazione «appena possibile».",
+   "decisioni": [
+    {
+     "dom": "Quando va erogata la formazione?",
+     "opz": [
+      [
+       "Entro sei mesi",
+       false,
+       "Le FAQ del 2026 chiariscono che la formazione va erogata in occasione dell’assunzione."
+      ],
+      [
+       "In occasione dell’assunzione, prima di adibirlo all’attività",
+       true,
+       "Corretto: FAQ n. 9 e n. 32."
+      ],
+      [
+       "Entro un anno",
+       false,
+       "Non c’è un termine successivo all’assunzione."
+      ]
+     ]
+    },
+    {
+     "dom": "Il nuovo addetto parla poco l’italiano. Che cosa si fa prima della formazione?",
+     "opz": [
+      [
+       "Nulla, imparerà guardando i colleghi",
+       false,
+       "La comprensione della lingua va verificata."
+      ],
+      [
+       "Si verifica la comprensione della lingua veicolare e, se serve, si adatta la formazione",
+       true,
+       "Corretto: art. 37, comma 13."
+      ],
+      [
+       "Gli si consegna il materiale da leggere a casa",
+       false,
+       "Non garantisce la comprensione."
+      ]
+     ]
+    },
+    {
+     "dom": "Come si chiude il percorso formativo?",
+     "opz": [
+      [
+       "Con la sola firma del registro",
+       false,
+       "Serve la verifica di apprendimento."
+      ],
+      [
+       "Con la verifica finale di apprendimento e l’attestato, e poi la verifica dell’efficacia durante il lavoro",
+       true,
+       "Corretto: l’Accordo 2025 prevede anche la verifica dell’efficacia."
+      ],
+      [
+       "Con un colloquio informale",
+       false,
+       "Non è sufficiente."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "Formazione all’assunzione, verifica della lingua, verifica di apprendimento ed efficacia: è il percorso che l’Accordo del 2025 chiede per ogni nuovo lavoratore.",
+   "nar": "Un neoassunto deve andare subito in cantiere. Decidi come organizzare la formazione.",
+   "rif": "Art. 37 D.lgs. 81/2008 · Accordo 17 aprile 2025 · FAQ 27 marzo 2026"
+  }
+ ]
+}

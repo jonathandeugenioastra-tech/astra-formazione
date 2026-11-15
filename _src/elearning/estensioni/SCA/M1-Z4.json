@@ -1,0 +1,39 @@
+{
+ "dopo": "Lo scarico in pubblica fognatura",
+ "schermate": [
+  {
+   "t": "esempio",
+   "tit": "Esempio guidato · Lo stesso risultato, due recettori",
+   "lead": "Confronto di un risultato analitico con i limiti della Tabella 3.",
+   "passi": [
+    [
+     "Il risultato",
+     "Il campione medio composito dello scarico ha COD pari a 420 mg/L.",
+     "COD 420 mg/L"
+    ],
+    [
+     "Limite in fognatura",
+     "Tabella 3, colonna scarico in rete fognaria: COD ≤ 500 mg/L.",
+     "420 ≤ 500 → conforme"
+    ],
+    [
+     "Limite in acque superficiali",
+     "Tabella 3, colonna acque superficiali: COD ≤ 160 mg/L.",
+     "420 > 160 → non conforme"
+    ],
+    [
+     "La conseguenza",
+     "Lo stesso refluo è conforme in fognatura ma non potrebbe essere scaricato in un fosso senza trattamento.",
+     "Il recettore cambia i limiti"
+    ],
+    [
+     "Attenzione",
+     "Il gestore può fissare limiti diversi per la fognatura, ma non meno restrittivi per le sostanze della Tabella 5.",
+     "Leggere sempre l’autorizzazione"
+    ]
+   ],
+   "nar": "Un esempio di confronto con i limiti. Il campione ha un COD di quattrocentoventi milligrammi per litro. In fognatura il limite della Tabella tre è cinquecento: lo scarico è conforme. In acque superficiali il limite è centosessanta: non sarebbe conforme. Il corpo recettore cambia i limiti, e il gestore può fissarne di specifici, mai meno restrittivi per le sostanze della Tabella cinque.",
+   "rif": "Allegato 5 alla Parte III, Tabella 3"
+  }
+ ]
+}

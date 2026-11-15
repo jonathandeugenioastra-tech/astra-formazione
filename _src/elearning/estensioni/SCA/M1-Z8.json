@@ -1,0 +1,125 @@
+{
+ "dopo": "Gli impianti di trattamento dei reflui industriali",
+ "schermate": [
+  {
+   "t": "classifica",
+   "tit": "Quale trattamento?",
+   "lead": "Seleziona un inquinante, poi il trattamento più adatto.",
+   "colonne": [
+    "Chimico-fisico",
+    "Biologico",
+    "Separazione fisica"
+   ],
+   "schede": [
+    [
+     "Metalli disciolti da galvanica",
+     0,
+     "Precipitazione chimica, coagulazione e flocculazione.",
+     "Corretto."
+    ],
+    [
+     "Sostanza organica biodegradabile di un’industria alimentare",
+     1,
+     "Fanghi attivi per abbattere BOD₅ e COD biodegradabile.",
+     "Corretto."
+    ],
+    [
+     "Oli e idrocarburi liberi",
+     2,
+     "Disoleatore a gravità o a coalescenza.",
+     "Corretto."
+    ],
+    [
+     "pH acido da decapaggio",
+     0,
+     "Neutralizzazione.",
+     "Corretto."
+    ],
+    [
+     "Sabbie e solidi grossolani",
+     2,
+     "Grigliatura e dissabbiatura.",
+     "Corretto."
+    ],
+    [
+     "Reflui zootecnici diluiti",
+     1,
+     "Trattamento biologico.",
+     "Corretto."
+    ]
+   ],
+   "nar": "Sei inquinanti. Scegli il trattamento più adatto per ciascuno.",
+   "rif": "BAT Reference Documents · art. 101 D.lgs. 152/2006"
+  },
+  {
+   "t": "scenario",
+   "tit": "Il depuratore biologico in sofferenza",
+   "scena": "Il depuratore a fanghi attivi di un caseificio produce da una settimana un effluente torbido e il COD in uscita è salito.",
+   "decisioni": [
+    {
+     "dom": "Che cosa controlli per primo?",
+     "opz": [
+      [
+       "Il carico in ingresso e l’ossigeno disciolto nella vasca di ossidazione",
+       true,
+       "Corretto: sovraccarichi organici e carenza di ossigeno sono le cause più frequenti."
+      ],
+      [
+       "Il colore delle pareti del locale",
+       false,
+       "Non incide."
+      ],
+      [
+       "Nulla: si sistema da solo",
+       false,
+       "Il rischio è il superamento dei limiti."
+      ]
+     ]
+    },
+    {
+     "dom": "Scopri che il siero di latte viene scaricato nel depuratore. Che cosa fai?",
+     "opz": [
+      [
+       "Lo separi e lo gestisci come sottoprodotto o rifiuto, perché è un carico organico molto elevato",
+       true,
+       "Corretto: il siero ha un carico organico altissimo e manda in sovraccarico l’impianto."
+      ],
+      [
+       "Aumenti la diluizione con acqua di rete",
+       false,
+       "La diluizione per rispettare i limiti è vietata."
+      ],
+      [
+       "Lo lasci, il depuratore si adatterà",
+       false,
+       "Il sovraccarico continuerebbe."
+      ]
+     ]
+    },
+    {
+     "dom": "Il COD in uscita supera il limite. Che cosa fai?",
+     "opz": [
+      [
+       "Misure correttive, campionamento di verifica e comunicazioni previste dall’autorizzazione",
+       true,
+       "Corretto: documentare e comunicare tutela l’impresa."
+      ],
+      [
+       "Nulla fino al prossimo autocontrollo",
+       false,
+       "Il superamento va gestito subito."
+      ],
+      [
+       "Chiudi il pozzetto di campionamento",
+       false,
+       "Impedire il controllo è vietato."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "Controllare carico e ossigeno, eliminare i carichi impropri senza diluire, gestire il superamento con trasparenza: è la gestione corretta di un depuratore in difficoltà.",
+   "nar": "Un depuratore biologico peggiora. Trova la causa e intervieni.",
+   "rif": "Art. 101, c. 5, D.lgs. 152/2006"
+  }
+ ]
+}

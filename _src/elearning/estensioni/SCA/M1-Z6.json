@@ -1,0 +1,62 @@
+{
+ "dopo": "Acque meteoriche di dilavamento e prima pioggia",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Il piazzale del centro di raccolta",
+   "lead": "Un centro di raccolta e trattamento di rifiuti metallici ha un piazzale impermeabile esterno.",
+   "dossier": [
+    [
+     "Superficie scolante",
+     "2.000 m², pavimentata"
+    ],
+    [
+     "Attività sul piazzale",
+     "deposito di rottami e movimentazione con mezzi"
+    ],
+    [
+     "Disciplina regionale",
+     "acque di prima pioggia: primi 5 mm di precipitazione"
+    ],
+    [
+     "Situazione",
+     "le acque oggi defluiscono in un fosso senza trattamento"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Calcola il volume di prima pioggia da raccogliere a ogni evento.",
+     "min": 5,
+     "modello": "2.000 m² × 0,005 m = 10 m³. La vasca di prima pioggia deve avere almeno questo volume utile, con un sistema che separi le acque successive.",
+     "criteri": [
+      "Ho convertito 5 mm in 0,005 m",
+      "Ho ottenuto 10 m³",
+      "Ho previsto la separazione delle acque successive"
+     ]
+    },
+    {
+     "q": "Quale sistema di trattamento proponi?",
+     "min": 7,
+     "modello": "Vasca di prima pioggia con svuotamento programmato verso un trattamento di sedimentazione e disoleazione, e scarico nel recettore autorizzato; pulizia periodica e smaltimento dei fanghi e degli oli separati come rifiuti; pozzetto di campionamento a valle.",
+     "criteri": [
+      "Ho previsto sedimentazione e disoleazione",
+      "Ho previsto la gestione dei fanghi come rifiuti",
+      "Ho previsto il pozzetto di campionamento"
+     ]
+    },
+    {
+     "q": "Qual è oggi il rischio per l’impresa?",
+     "min": 6,
+     "modello": "Le acque di dilavamento contaminate scaricate nel fosso senza rispettare la disciplina regionale possono configurare uno scarico non autorizzato, con le relative sanzioni. Serve regolarizzare con l’autorizzazione e, nel frattempo, ridurre il dilavamento coprendo i depositi.",
+     "criteri": [
+      "Ho riconosciuto il rischio di scarico non autorizzato",
+      "Ho indicato la regolarizzazione",
+      "Ho proposto una misura provvisoria"
+     ]
+    }
+   ],
+   "nar": "Il laboratorio riguarda un piazzale di duemila metri quadrati dove si depositano rottami. Calcola il volume di prima pioggia, proponi il trattamento e valuta il rischio attuale per l’impresa, poi confronta le tue risposte con la soluzione di riferimento.",
+   "rif": "Art. 113 D.lgs. 152/2006 · disciplina regionale"
+  }
+ ]
+}

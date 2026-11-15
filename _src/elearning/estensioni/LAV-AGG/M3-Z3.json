@@ -1,0 +1,39 @@
+{
+ "dopo": "L’illuminazione dei posti di lavoro",
+ "schermate": [
+  {
+   "t": "esempio",
+   "tit": "Esempio guidato · L’illuminazione di una postazione d’ufficio",
+   "lead": "Dalla misura alla soluzione.",
+   "passi": [
+    [
+     "Il problema",
+     "Un’impiegata lamenta affaticamento della vista nel pomeriggio.",
+     "Segnalazione"
+    ],
+    [
+     "La misura",
+     "Con il luxmetro sul piano di lavoro si misurano 320 lux.",
+     "320 lux"
+    ],
+    [
+     "Il riferimento",
+     "Per scrittura, lettura ed elaborazione dati l’illuminamento medio mantenuto è di 500 lux.",
+     "320 < 500"
+    ],
+    [
+     "Le cause",
+     "Lampade esaurite e scrivania lontana dalla finestra.",
+     "Cause individuate"
+    ],
+    [
+     "La soluzione",
+     "Sostituzione delle lampade, lampada da tavolo, schermo perpendicolare alla finestra.",
+     "Nuova misura: 540 lux"
+    ]
+   ],
+   "nar": "Vediamo un caso concreto. Un’impiegata lamenta affaticamento visivo. Il luxmetro misura trecentoventi lux sul piano di lavoro, mentre per lettura e videoscrittura il riferimento è cinquecento lux. Le cause sono lampade esaurite e una scrivania lontana dalla finestra. Con nuove lampade, una lampada da tavolo e lo schermo perpendicolare alla finestra si arriva a cinquecentoquaranta lux.",
+   "rif": "Allegato IV D.lgs. 81/2008 · UNI EN 12464-1"
+  }
+ ]
+}

@@ -1,0 +1,75 @@
+{
+ "dopo": "La giurisprudenza recente: tre principi da ricordare",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "L’affiancamento al posto della formazione",
+   "scena": "Un neoassunto viene messo a lavorare su una piegatrice accanto a un collega esperto. Nessuno gli ha fatto formazione specifica né addestramento sulla macchina.",
+   "decisioni": [
+    {
+     "dom": "L’affiancamento basta?",
+     "opz": [
+      [
+       "Sì, il collega esperto è il miglior insegnante",
+       false,
+       "La Cassazione ha chiarito che l’affiancamento non sostituisce formazione e addestramento."
+      ],
+      [
+       "No: servono formazione specifica, informazione e addestramento sulla macchina",
+       true,
+       "Corretto: l’affiancamento è utile solo come parte di un percorso strutturato."
+      ],
+      [
+       "Sì, se il neoassunto firma una dichiarazione",
+       false,
+       "La firma non sostituisce la formazione."
+      ]
+     ]
+    },
+    {
+     "dom": "Il neoassunto si accorge di non sapere come si regola la protezione. Che cosa fa?",
+     "opz": [
+      [
+       "Prova da solo",
+       false,
+       "Non si interviene su ciò che non si conosce."
+      ],
+      [
+       "Si ferma e chiede indicazioni al preposto",
+       true,
+       "Corretto: è un obbligo e una tutela."
+      ],
+      [
+       "Lavora senza protezione",
+       false,
+       "È vietato."
+      ]
+     ]
+    },
+    {
+     "dom": "Il preposto vede la situazione e non interviene perché “si è sempre fatto così”. Che cosa comporta?",
+     "opz": [
+      [
+       "Nulla",
+       false,
+       "Le prassi scorrette tollerate sono prova della colpa di chi doveva impedirle."
+      ],
+      [
+       "Il preposto risponde anche dell’attività che si svolge sotto la sua vigilanza",
+       true,
+       "Corretto: è uno dei principi della giurisprudenza recente."
+      ],
+      [
+       "Risponde solo il neoassunto",
+       false,
+       "Non è così."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "Formazione e addestramento effettivi, il coraggio di fermarsi e chiedere, la vigilanza del preposto: sono le tre difese contro l’infortunio del neoassunto.",
+   "nar": "Un neoassunto lavora su una macchina solo affiancato. Valuta la situazione.",
+   "rif": "Cass. pen., Sez. IV, nn. 22843/2025 e 32520/2025"
+  }
+ ]
+}

@@ -1,0 +1,80 @@
+{
+ "dopo": "Prelievi idrici e riutilizzo delle acque reflue",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Il bilancio idrico dello stabilimento",
+   "lead": "Uno stabilimento vuole ridurre prelievi e scarichi.",
+   "dossier": [
+    [
+     "Prelievo da pozzo",
+     "12.000 m³ l’anno, con concessione"
+    ],
+    [
+     "Scarico in fognatura",
+     "9.500 m³ l’anno"
+    ],
+    [
+     "Usi principali",
+     "raffreddamento 6.000 m³, lavaggi 4.000 m³, servizi 2.000 m³"
+    ],
+    [
+     "Depuratore interno",
+     "effluente conforme, oggi tutto scaricato"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Quanta acqua non finisce allo scarico e perché?",
+     "min": 5,
+     "modello": "12.000 − 9.500 = 2.500 m³ l’anno, circa il 21% del prelievo: evaporazione nel raffreddamento, acqua nei prodotti e perdite. Il bilancio va verificato con i misuratori.",
+     "criteri": [
+      "Ho calcolato 2.500 m³",
+      "Ho indicato le cause probabili",
+      "Ho previsto la verifica con misuratori"
+     ]
+    },
+    {
+     "q": "Proponi due interventi di riduzione e stimane l’effetto.",
+     "min": 8,
+     "modello": "Ricircolo a circuito chiuso del raffreddamento: se riduce del 70% il consumo, si risparmiano circa 4.200 m³. Riutilizzo nei lavaggi dell’effluente depurato, se la qualità lo consente: fino a 4.000 m³. Insieme possono più che dimezzare il prelievo.",
+     "criteri": [
+      "Ho proposto il ricircolo del raffreddamento",
+      "Ho proposto il riutilizzo interno dell’effluente",
+      "Ho stimato i volumi risparmiati"
+     ]
+    },
+    {
+     "q": "Quali aspetti autorizzativi devi considerare?",
+     "min": 5,
+     "modello": "Comunicare o chiedere la modifica dell’AUA per la variazione dello scarico; aggiornare la concessione di derivazione se cambiano i volumi; verificare la qualità dell’acqua riutilizzata rispetto all’uso; continuare a misurare prelievi e scarichi.",
+     "criteri": [
+      "Ho previsto la modifica dell’AUA",
+      "Ho considerato la concessione",
+      "Ho previsto il controllo della qualità"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio costruisci il bilancio idrico di uno stabilimento. Calcola l’acqua che non arriva allo scarico, proponi due interventi di riduzione con una stima dei volumi e individua gli aspetti autorizzativi, poi confronta le tue risposte con la soluzione di riferimento.",
+   "rif": "R.D. 1775/1933 · D.M. 185/2003 · D.P.R. 59/2013"
+  },
+  {
+   "t": "applica",
+   "tit": "Gli scarichi della tua azienda",
+   "lead": "Verifica la situazione degli scarichi della tua organizzazione.",
+   "voci": [
+    "Ho l’elenco aggiornato degli scarichi",
+    "Gli scarichi sono tutti autorizzati",
+    "Conosco la scadenza del titolo",
+    "Il pozzetto è accessibile e identificato",
+    "Gli autocontrolli sono pianificati",
+    "Le acque meteoriche sono gestite secondo la disciplina regionale",
+    "I prelievi idrici sono misurati"
+   ],
+   "campo": "La lacuna più importante e come la colmeresti",
+   "esempio": "Es.: scadenza dell’AUA non presidiata → scadenzario con promemoria a 12 mesi",
+   "min": 3,
+   "nar": "Verifica la situazione degli scarichi della tua azienda e indica la lacuna più importante e come colmarla."
+  }
+ ]
+}

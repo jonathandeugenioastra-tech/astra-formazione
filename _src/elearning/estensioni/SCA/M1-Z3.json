@@ -1,0 +1,66 @@
+{
+ "dopo": "Autorizzazione allo scarico e valori limite",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · La mappa degli scarichi dello stabilimento",
+   "lead": "Una PMI metalmeccanica ti chiede di ricostruire la situazione dei suoi scarichi.",
+   "dossier": [
+    [
+     "Attività",
+     "lavorazioni meccaniche, sgrassaggio e verniciatura"
+    ],
+    [
+     "Scarico S1",
+     "servizi igienici e mensa → fognatura"
+    ],
+    [
+     "Scarico S2",
+     "acque di sgrassaggio dopo un impianto chimico-fisico → fognatura"
+    ],
+    [
+     "Scarico S3",
+     "acque meteoriche del piazzale di deposito rottami → fosso"
+    ],
+    [
+     "Titolo",
+     "AUA rilasciata nel 2018"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Classifica ciascuno scarico e indica quale titolo serve.",
+     "min": 7,
+     "modello": "S1: acque reflue domestiche in fognatura, ammesse nel rispetto del regolamento del gestore. S2: acque reflue industriali in fognatura, da autorizzare nell’AUA sentito il gestore. S3: acque meteoriche di dilavamento di superfici contaminate, disciplinate dalla normativa regionale: se rientrano nei casi regionali vanno trattate e autorizzate.",
+     "criteri": [
+      "Ho distinto domestiche, industriali e meteoriche",
+      "Ho indicato l’AUA per S2",
+      "Ho richiamato la disciplina regionale per S3"
+     ]
+    },
+    {
+     "q": "Quali valori limite si applicano a S2 e dove si controllano?",
+     "min": 7,
+     "modello": "Si applicano i limiti della Tabella 3 dell’Allegato 5 alla Parte III, colonna scarico in rete fognaria, o i limiti del gestore se previsti, senza deroghe meno restrittive per le sostanze della Tabella 5. Il controllo avviene nel pozzetto a valle dell’impianto di trattamento e prima della miscelazione con S1.",
+     "criteri": [
+      "Ho indicato la Tabella 3, colonna fognatura",
+      "Ho ricordato la Tabella 5",
+      "Ho collocato il pozzetto prima della miscelazione"
+     ]
+    },
+    {
+     "q": "Quali scadenze tieni sotto controllo?",
+     "min": 6,
+     "modello": "L’AUA dura 15 anni: la domanda di rinnovo va presentata almeno sei mesi prima della scadenza. Vanno inoltre rispettate le frequenze degli autocontrolli e le scadenze di trasmissione dei risultati indicate nell’autorizzazione, e comunicate preventivamente le modifiche.",
+     "criteri": [
+      "Ho indicato la durata di 15 anni",
+      "Ho indicato il rinnovo almeno sei mesi prima",
+      "Ho previsto autocontrolli e comunicazione delle modifiche"
+     ]
+    }
+   ],
+   "nar": "In questo laboratorio ricostruisci la mappa degli scarichi di una piccola impresa metalmeccanica. Classifica i tre scarichi, individua i valori limite e il punto di controllo, e definisci le scadenze da presidiare. Poi confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "D.lgs. 152/2006, artt. 101, 113, 124 · D.P.R. 59/2013"
+  }
+ ]
+}

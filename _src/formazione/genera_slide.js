@@ -356,6 +356,58 @@ async function genera(id) {
         card(s, 0.5, yS, 9, HMAX - yS - 0.05, PET); await cerchio(s, 0.9, yS + 0.5, 1.1, 'FaPersonRunning', ROS);
         txt(s, sc.testo, { x: 2.4, y: yS + 0.3, w: 6.8, h: HMAX - yS - 0.8, valign: 'middle', fontSize: fsz(sc.testo, 6.8, HMAX - yS - 0.8, 19, 11), fontFace: FB, color: 'FFFFFF' });
         note(s, sc);
+      } else if (t === 'esempio') {
+        if (sc.lead) txt(s, sc.lead, { x: 0.5, y: yS, w: 9, h: 0.32, fontSize: fsz(sc.lead, 9, 0.32, 13, 9), color: GR });
+        const y1 = yS + (sc.lead ? 0.4 : 0), n = sc.passi.length, h = Math.min(0.72, (HMAX - y1) / n - 0.07);
+        const fT = Math.min(...sc.passi.map(p => fsz(p[1], 4.6, h - 0.04, 12, 7.5))), fR = Math.min(...sc.passi.map(p => fsz(p[2] || '', 2.0, h - 0.08, 12, 7.5)));
+        sc.passi.forEach(([ti, te, ri], k) => { const y = y1 + k * (h + 0.07); card(s, 0.5, y, 9, h); badge(s, String(k + 1), 0.6, y + (h - 0.38) / 2, 0.38, PET);
+          tb(s, ti, { x: 1.08, y, w: 1.55, h, valign: 'middle', fontSize: fsz(ti, 1.55, h - 0.06, 12, 8) });
+          txt(s, te, { x: 2.7, y, w: 4.6, h, valign: 'middle', fontSize: fT });
+          if (ri) { card(s, 7.38, y + 0.06, 2.04, h - 0.12, PET); txt(s, ri, { x: 7.45, y: y + 0.06, w: 1.9, h: h - 0.12, align: 'center', valign: 'middle', fontSize: fR, fontFace: FB, color: 'FFFFFF' }); } });
+        note(s, sc, 'Esempio guidato: svolgere i passaggi uno alla volta chiedendo all’aula di anticipare il risultato prima di mostrarlo.');
+      } else if (t === 'classifica') {
+        const nc = sc.colonne.length, wc = (9 - (nc - 1) * 0.12) / nc, fC = Math.min(...sc.colonne.map(c => fsz(c, wc - 0.16, 0.5, 12, 7.5)));
+        sc.colonne.forEach((c, j) => { const x = 0.5 + j * (wc + 0.12); card(s, x, yS, wc, 0.55, j % 2 ? ROS : PET); txt(s, c, { x: x + 0.08, y: yS, w: wc - 0.16, h: 0.55, align: 'center', valign: 'middle', fontSize: fC, fontFace: FB, color: 'FFFFFF' }); });
+        const mix = mescola(sc.schede.map((x, k) => k), id.length * 53 + si * 11 + mi), n = mix.length, cols = n > 5 ? 2 : 1, rows = Math.ceil(n / cols), w = (9 - (cols - 1) * 0.15) / cols, y1 = yS + 0.7, h = Math.min(0.62, (HMAX - y1) / rows - 0.06);
+        const fS = Math.min(...sc.schede.map(x => fsz(x[0], w - 0.7, h - 0.04, 12.5, 7.5)));
+        mix.forEach((ix, k) => { const x = 0.5 + Math.floor(k / rows) * (w + 0.15), y = y1 + (k % rows) * (h + 0.06); card(s, x, y, w, h); badge(s, lettera(k), x + 0.08, y + (h - 0.36) / 2, 0.36, PET); txt(s, sc.schede[ix][0], { x: x + 0.55, y, w: w - 0.65, h, valign: 'middle', fontSize: fS }); });
+        note(s, sc, 'Esercitazione di classificazione: in aula a coppie o per alzata di mano; in videoconferenza con sondaggio o in chat, indicando lettera e colonna.');
+        await soluzioni(sc.tit, mix.map((ix, k) => [`${lettera(k)} – ${sc.schede[ix][0]}`, sc.colonne[sc.schede[ix][1]], sc.schede[ix][2] || '']), ['Elemento', 'Collocazione corretta', 'Spiegazione']);
+      } else if (t === 'scenario') {
+        card(s, 0.5, yS, 9, HMAX - yS - 0.05, PET); await cerchio(s, 0.75, yS + 0.3, 0.75, 'FaBookOpenReader', ROS);
+        txt(s, sc.scena, { x: 1.75, y: yS + 0.2, w: 7.5, h: 1.6, valign: 'top', fontSize: fsz(sc.scena, 7.5, 1.6, 15, 10), color: 'FFFFFF' });
+        const dd = sc.decisioni.map((d, k) => `${k + 1}. ${d.dom}`);
+        txt(s, dd.map((d, k) => ({ text: d, options: { breakLine: k < dd.length - 1, paraSpaceAfter: 6 } })), { x: 1.75, y: yS + 1.9, w: 7.5, h: HMAX - yS - 2.05, fontSize: fsz(dd.join(' '), 7.5, HMAX - yS - 2.05, 14, 9), fontFace: FB, color: 'FFD27A' });
+        note(s, sc, 'Caso decisionale: presentare la situazione, poi affrontare una decisione alla volta nelle diapositive successive, raccogliendo le scelte dell’aula prima di mostrare le soluzioni.');
+        for (const [k, d] of sc.decisioni.entries()) { const ss = nuova(`${sc.tit} · decisione ${k + 1}`);
+          tb(ss, d.dom, { x: 0.5, y: 1.2, w: 9, h: 0.6, valign: 'middle', fontSize: fsz(d.dom, 9, 0.6, 16, 10) });
+          const n = d.opz.length, h = Math.min(0.9, (HMAX - 1.95) / n - 0.1), fO = Math.min(...d.opz.map(o => fsz(o[0], 8.1, h, 13.5, 8.5)));
+          d.opz.forEach(([o], j) => { const y = 1.95 + j * (h + 0.1); card(ss, 0.5, y, 9, h); badge(ss, lettera(j), 0.62, y + (h - 0.4) / 2, 0.4, PET); txt(ss, o, { x: 1.2, y, w: 8.1, h, valign: 'middle', fontSize: fO }); });
+          ss.addNotes(`Decisione ${k + 1} di ${sc.decisioni.length}: far scegliere l’aula, poi motivare la risposta corretta con la diapositiva delle soluzioni.`); }
+        await soluzioni(sc.tit, [...sc.decisioni.map((d, k) => { const j = d.opz.findIndex(o => o[1]); return [`${k + 1}. ${d.dom}`, `${lettera(j)} – ${d.opz[j][0]}`, d.opz[j][2] || '']; }), ['Messaggio chiave', sc.chiusura || '', '']]);
+      } else if (t === 'applica') {
+        if (sc.lead) txt(s, sc.lead, { x: 0.5, y: yS, w: 9, h: 0.32, fontSize: 13, color: GR });
+        const y1 = yS + 0.42, n = sc.voci.length, cols = n > 5 ? 2 : 1, rows = Math.ceil(n / cols), w = (9 - 0.2) / cols, h = Math.min(0.42, (3.0) / rows - 0.06);
+        sc.voci.forEach((v, k) => { const x = 0.5 + Math.floor(k / rows) * (w + 0.2), y = y1 + (k % rows) * (h + 0.06);
+          s.addShape(pres.shapes.ROUNDED_RECTANGLE, { x, y: y + (h - 0.26) / 2, w: 0.26, h: 0.26, fill: { color: 'FFFFFF' }, line: { color: PET, width: 1 }, rectRadius: 0.04 });
+          txt(s, v, { x: x + 0.38, y, w: w - 0.45, h, valign: 'middle', fontSize: fsz(v, w - 0.45, h, 12.5, 8.5) }); });
+        const y2 = y1 + rows * (h + 0.06) + 0.1; card(s, 0.5, y2, 9, HMAX - y2 - 0.05);
+        tb(s, sc.campo, { x: 0.7, y: y2 + 0.08, w: 8.6, h: 0.32, fontSize: 12.5 });
+        if (sc.esempio) txt(s, sc.esempio, { x: 0.7, y: y2 + 0.42, w: 8.6, h: 0.3, fontSize: 10.5, color: GRC });
+        note(s, sc, 'Applicazione al proprio contesto: ogni partecipante spunta le voci e scrive la propria risposta sulla dispensa; raccogliere alcune risposte e discuterle.');
+      } else if (t === 'laboratorio') {
+        if (sc.lead) txt(s, sc.lead, { x: 0.5, y: yS, w: 9, h: 0.36, fontSize: fsz(sc.lead, 9, 0.36, 13.5, 9), color: GR });
+        const rows = (sc.dossier || []).map(([a, b]) => [{ text: a, options: { fontFace: FB, color: 'FFFFFF', fill: { color: PET }, valign: 'middle' } }, { text: b, options: { valign: 'middle' } }]);
+        const tot = (sc.dossier || []).reduce((a, r) => a + r.join(' ').length, 0);
+        if (rows.length) s.addTable(rows, { x: 0.5, y: yS + 0.45, w: 9, colW: [2.3, 6.7], fontSize: tot > 700 ? 9 : tot > 450 ? 10.5 : 12, fontFace: FM, color: TX, border: { type: 'solid', pt: 0.25, color: 'A9BEC4' }, margin: [3, 6, 3, 6], autoPage: false });
+        note(s, sc, `Laboratorio: presentare il dossier del caso; i partecipanti lavorano in piccoli gruppi sui ${sc.compiti.length} compiti, nei tempi indicati, poi si confrontano le soluzioni.`);
+        for (const [k, c] of sc.compiti.entries()) { const ss = nuova(`${sc.tit} · compito ${k + 1}`);
+          card(ss, 0.5, 1.2, 9, 1.0, PET); txt(ss, c.q, { x: 0.75, y: 1.2, w: 7.3, h: 1.0, valign: 'middle', fontSize: fsz(c.q, 7.3, 1.0, 17, 11), fontFace: FB, color: 'FFFFFF' });
+          txt(ss, `${c.min || 5} minuti`, { x: 8.1, y: 1.2, w: 1.3, h: 1.0, align: 'center', valign: 'middle', fontSize: 13, fontFace: FB, color: 'FFD27A' });
+          if (c.criteri && c.criteri.length) { tb(ss, 'Elementi da considerare', { x: 0.5, y: 2.4, w: 9, h: 0.3, fontSize: 12 });
+            c.criteri.forEach((x, j) => { const y = 2.8 + j * 0.5; card(ss, 0.5, y, 9, 0.42); badge(ss, String(j + 1), 0.6, y + 0.04, 0.34, ROS); txt(ss, x, { x: 1.1, y, w: 8.3, h: 0.42, valign: 'middle', fontSize: 12 }); }); }
+          ss.addNotes(`Compito ${k + 1}: tempo ${c.min || 5} minuti. Soluzione di riferimento per il docente: ${c.modello}`); }
+        await soluzioni(sc.tit, sc.compiti.map((c, k) => [`Compito ${k + 1}. ${c.q}`, c.modello]), ['Compito', 'Soluzione di riferimento']);
       } else throw new Error('Tipo di schermata non gestito: ' + t);
     }
   }

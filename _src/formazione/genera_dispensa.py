@@ -54,6 +54,9 @@ def tabella(righe, larg, testa=True):
     t.setStyle(TableStyle(s)); return t
 def elenco(voci, num=True):
     return ListFlowable([ListItem(Paragraph(v, S_BODY), leftIndent=14, bulletFontName='EB') for v in voci], bulletType='1' if num else 'bullet', bulletFontName='EB', bulletFontSize=9, bulletColor=ROS, leftIndent=14, start=1 if num else None)
+def righe_risposta(n):
+    t = Table([['']] * n, colWidths=[170 * mm], rowHeights=[7 * mm] * n)
+    t.setStyle(TableStyle([('LINEBELOW', (0, 0), (-1, -1), 0.25, colors.HexColor('#9FB3BA'))])); return t
 SOL = []
 def schermata(s, nf, out, nmod):
     t = s['t']; tit = s.get('tit', '')
@@ -119,6 +122,32 @@ def schermata(s, nf, out, nmod):
         blocco.append(Paragraph(E(s.get('sott', 'Associare gli elementi')), S_BODY))
         blocco.append(tabella([['Situazione', 'Azione (da associare)']] + [[f'{i+1}. {c[0]}', f'{chr(65+i)}) {dx[i]}'] for i, c in enumerate(s['coppie'])], [85 * mm, 85 * mm]))
         SOL.append((tit, [f'{i+1} → {chr(65+dx.index(c[1]))}) {c[1]}' for i, c in enumerate(s['coppie'])]))
+    elif t == 'esempio':
+        if s.get('lead'): blocco.append(Paragraph(E(s['lead']), S_LEAD))
+        blocco.append(tabella([['Passaggio', 'Contenuto', 'Risultato']] + [[f'{i+1}. {p[0]}', p[1], p[2] if len(p) > 2 else ''] for i, p in enumerate(s['passi'])], [38 * mm, 92 * mm, 40 * mm]))
+    elif t == 'classifica':
+        import random; r = random.Random(tit); ix = list(range(len(s['schede']))); r.shuffle(ix)
+        blocco.append(Paragraph(E(s.get('lead', 'Collocare ciascun elemento nella colonna corretta')), S_BODY))
+        blocco.append(Paragraph(B('Colonne: ') + E(' · '.join(f'{j+1}) {c}' for j, c in enumerate(s['colonne']))), S_BODY))
+        blocco.append(tabella([['Elemento', 'Colonna']] + [[f'{chr(65+k)}) {s["schede"][i][0]}', ''] for k, i in enumerate(ix)], [150 * mm, 20 * mm]))
+        SOL.append((tit, [f'{chr(65+k)}) {s["colonne"][s["schede"][i][1]]}' + (f' – {s["schede"][i][2]}' if len(s['schede'][i]) > 2 and s['schede'][i][2] else '') for k, i in enumerate(ix)]))
+    elif t == 'scenario':
+        blocco.append(box(Paragraph(B('Scenario. ') + E(s['scena']), S_BOX), fondo=colors.HexColor('#FFF6E0'), bordo=colors.HexColor('#F2B300')))
+        for k, d in enumerate(s['decisioni']):
+            blocco.append(KeepTogether([Paragraph(B(f'Decisione {k+1}. ') + E(d['dom']), S_BODY), ListFlowable([ListItem(Paragraph(E(o[0]), S_BODY)) for o in d['opz']], bulletType='A', bulletFontName='EB', leftIndent=14)]))
+        SOL.append((tit, [f'Decisione {k+1}: ' + ' '.join(f'{chr(65+i)}) {o[0]}. {o[2]}' for i, o in enumerate(d['opz']) if o[1]) for k, d in enumerate(s['decisioni'])] + ([s['chiusura']] if s.get('chiusura') else [])))
+    elif t == 'applica':
+        if s.get('lead'): blocco.append(Paragraph(E(s['lead']), S_BODY))
+        blocco.append(tabella([['Voce', 'Sì']] + [[v, ''] for v in s['voci']], [160 * mm, 10 * mm]))
+        blocco.append(Paragraph(B(E(s.get('campo', ''))), S_BODY))
+        if s.get('esempio'): blocco.append(Paragraph(E(s['esempio']), S_RIF))
+        blocco.append(righe_risposta(3))
+    elif t == 'laboratorio':
+        if s.get('lead'): blocco.append(Paragraph(E(s['lead']), S_LEAD))
+        if s.get('dossier'): blocco.append(tabella([['Dossier del caso', '']] + [[a, b] for a, b in s['dossier']], [45 * mm, 125 * mm]))
+        for k, c in enumerate(s['compiti']):
+            blocco.append(KeepTogether([Paragraph(B(f'Compito {k+1} (circa {c.get("min", 5)} minuti). ') + E(c['q']), S_BODY), righe_risposta(4)]))
+        SOL.append((tit, [f'Compito {k+1}. Soluzione di riferimento: {c["modello"]}' for k, c in enumerate(s['compiti'])]))
     elif t == 'verifica':
         blocco.append(Paragraph(f'Verifica di apprendimento: {len(s["domande"])} domande; per il superamento occorrono almeno {s.get("soglia", "")} risposte corrette.', S_BODY))
         for i, d in enumerate(s['domande']):

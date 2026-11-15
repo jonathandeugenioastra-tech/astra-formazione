@@ -1,0 +1,8 @@
+import sys; sys.path.insert(0,'/tmp/claude-0/rip'); from est import *
+E('EMI','M1-N4','Impianto, stabilimento e convogliamento delle emissioni',[
+ CL("Convogliata o diffusa?","Seleziona un’emissione, poi la colonna corretta.",["Emissione convogliata","Emissione diffusa"],[
+  ["Fumi della caldaia che escono dal camino",0,"Escono da un camino: sono convogliate."],["Polveri sollevate dal cumulo di inerti nel piazzale",1,"Non passano da un condotto: sono diffuse."],
+  ["Aria aspirata dalla cabina di verniciatura ed espulsa da un condotto",0,"Captate ed espulse da un condotto: convogliate."],["Vapori di solvente che escono dalle porte aperte del reparto",1,"Non captati: emissioni diffuse."],
+  ["Sfiato di un serbatoio collegato a un condotto di scarico",0,"Lo sfiato attraverso un condotto è convogliato."],["Polveri dalla movimentazione di materiali sfusi all’aperto",1,"Sono emissioni diffuse da gestire con misure specifiche."]],
+  "Sei emissioni. Distingui quelle convogliate, che escono da un camino o da un condotto, da quelle diffuse.","D.lgs. 152/2006, art. 268"),
+ VF("I principi della Parte V",[["Un’emissione convogliata esce da uno o più appositi punti, come un camino o un condotto.",True,"Vero: art. 268."],["Le attività dell’Allegato IV, parte I, alla Parte V non sono sottoposte ad autorizzazione alle emissioni.",True,"Vero: art. 272, comma 1."],["L’AUA non comprende l’autorizzazione alle emissioni in atmosfera.",False,"Falso: l’AUA sostituisce, tra gli altri titoli, l’autorizzazione dell’art. 269."]],"Tre affermazioni sui principi della Parte quinta.","D.lgs. 152/2006 · D.P.R. 59/2013")])

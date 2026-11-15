@@ -7,7 +7,7 @@ const { Document, Packer, Paragraph, TextRun, Table, TableRow, TableCell, WidthT
 global.window = {}; eval(fs.readFileSync('/home/claude/astra-portale/sito/assets/data.js', 'utf8')); const D = window.ASTRA;
 const OUT = path.join(__dirname, 'progetti'); fs.mkdirSync(OUT, { recursive: true });
 const LOGO = fs.readFileSync('/home/claude/astra-portale/loghi/astra_logo_4K.png');
-const TIMBRO = fs.readFileSync('/home/claude/astra-portale/formazione/risorse/timbro_DEU.png'); // timbro e firma del RPF
+const { sezioneFirme } = require('./firme.js');
 const FM = 'Eras Medium ITC', FB = 'Eras Bold ITC', PETROLIO = '0F3C47', CHIARO = 'E9F2F4', GRIGIO = '3E4F56';
 const BORDO = { style: BorderStyle.SINGLE, size: 2, color: '7F9CA4' };          // 1/4 pt
 const BORDI = { top: BORDO, bottom: BORDO, left: BORDO, right: BORDO };
@@ -39,15 +39,16 @@ function documento(c) {
   const A = D.azienda, R = D.rpf, oggi = new Date();
   const ammesse = c.mod.map(m => MOD[m]).join(', ');
   const nonAmm = ['EL', 'VCS'].filter(m => !c.mod.includes(m)).map(m => MOD[m]);
-  const abil = c.tipo === 'Abilitazione' || c.id === 'CONF';
+  const abil = c.tipo === 'Abilitazione' || c.id === 'CONF' || c.id === 'PONT';
   const corpo = [];
+  const AIF = c.ambito === 'sicurezza';
   // ---------- Frontespizio ----------
   corpo.push(new Paragraph({ alignment: AlignmentType.CENTER, spacing: { before: 600, after: 400 }, children: [new ImageRun({ type: 'png', data: LOGO, transformation: { width: 260, height: Math.round(260 * 459 / 1066) } })] }));
   corpo.push(new Paragraph({ alignment: AlignmentType.CENTER, spacing: { after: 120 }, children: [new TextRun({ text: 'DOCUMENTO PROGETTUALE', font: FB, size: 40, color: PETROLIO })] }));
   corpo.push(new Paragraph({ alignment: AlignmentType.CENTER, spacing: { after: 80 }, children: [new TextRun({ text: c.titolo, font: FB, size: 34, color: 'C81F26' })] }));
   corpo.push(new Paragraph({ alignment: AlignmentType.CENTER, spacing: { after: 600 }, children: [new TextRun({ text: `Codice ${c.id} · ${c.ore} ore · ${AMB[c.ambito]}`, font: FM, size: 22, color: GRIGIO })] }));
   corpo.push(anagrafica([
-    ['Soggetto formatore', `${A.ragioneSociale} – ${A.ruolo}`],
+    ...(AIF ? [['Soggetto formatore', 'AiFOS – Associazione Italiana Formatori ed Operatori della Sicurezza sul Lavoro (Accordo Stato-Regioni 17/04/2025, Parte I, punto 1.3)'], ['Centro di formazione', `${A.ragioneSociale} – ${A.ruolo}`]] : [['Soggetto formatore', `${A.ragioneSociale}`]]),
     ['Sede', `${A.indirizzo}, ${A.cap} ${A.comune} (${A.provincia})`],
     ['Responsabile del progetto formativo', `${R.nome} – ${R.qualifica}`],
     ['Riferimenti normativi', c.rif],
@@ -69,10 +70,10 @@ function documento(c) {
     cella(String(m.ore), { w: L[2], al: AlignmentType.CENTER })] }));
   righe.push(new TableRow({ cantSplit: true, children: [cella('Durata complessiva', { w: L[0] + L[1], span: 2, b: true, fill: CHIARO }), cella(String(c.ore), { w: L[2], al: AlignmentType.CENTER, b: true, fill: CHIARO })] }));
   corpo.push(tabella(L, [intest, ...righe]));
-  corpo.push(p(abil ? 'Articolazione oraria conforme all\'Accordo Stato-Regioni del 17 aprile 2025.' : 'La durata complessiva corrisponde a quella prevista dalla norma di riferimento; ove la norma non stabilisce la ripartizione oraria dei singoli moduli, questa è definita nel presente documento.', { s: 17, c: GRIGIO, sb: 80, al: AlignmentType.LEFT }));
+  corpo.push(p(abil ? (c.id === 'PONT' ? 'Articolazione oraria conforme all\'Allegato XXI del D.lgs. 81/2008.' : 'Articolazione oraria conforme all\'Accordo Stato-Regioni del 17 aprile 2025.') : 'La durata complessiva corrisponde a quella prevista dalla norma di riferimento; ove la norma non stabilisce la ripartizione oraria dei singoli moduli, questa è definita nel presente documento.', { s: 17, c: GRIGIO, sb: 80, al: AlignmentType.LEFT }));
   // ---------- 5. Modalità ----------
   const modi = [['Modalità ammesse', ammesse]];
-  if (nonAmm.length) modi.push(['Modalità non ammesse', nonAmm.join(' e ')]);
+  if (nonAmm.length) modi.push(['Modalità non ammesse', nonAmm.join(' e ') + (c.id === 'CSP' ? ' (ammesso per il solo modulo giuridico, su richiesta)' : '')]);
   if (c.mod.includes('P')) modi.push(['Sede delle lezioni in aula', `Sede ASTRA di ${A.comune} nelle date a calendario, oppure presso la sede del cliente previo accordo preventivo`]);
   if (c.mod.includes('VCS')) modi.push(['Videoconferenza sincrona', 'Docente in diretta; identificazione dei partecipanti; webcam attiva per l\'intera durata; registrazione automatica di accessi e uscite; partecipazione da computer o tablet (non da smartphone); interazione in tempo reale']);
   if (c.mod.includes('EL')) modi.push(['E-learning', 'Piattaforma Moodle con pacchetti SCORM; tracciamento di accessi, tempi di fruizione e avanzamento; fruizione sequenziale dei moduli; verifiche intermedie; controllo periodico di presenza attiva; tutor di contenuto e di processo raggiungibili via messaggistica, email e telefono; rilascio dell\'attestato solo al completamento di tutti i moduli e al superamento della verifica finale']);
@@ -91,16 +92,14 @@ function documento(c) {
     p('Al termine del corso è somministrato un questionario anonimo di valutazione del gradimento.'));
   // ---------- 9. Attestato ----------
   corpo.push(...titolo('9. Attestato, registrazione e conservazione'),
-    p('Al superamento della verifica finale è rilasciato l\'attestato di frequenza con verifica dell\'apprendimento, recante: dati anagrafici e codice fiscale del partecipante, denominazione del soggetto formatore, titolo e durata del corso, riferimenti normativi, modalità di erogazione, periodo di svolgimento, esito della verifica, codice univoco e QR code di verifica.'),
-    p('Il soggetto formatore conserva per almeno dieci anni il presente documento progettuale, il registro delle presenze (o i report della piattaforma), il verbale della verifica finale e copia degli attestati.'));
+    p('Al superamento della verifica finale è rilasciato l\'attestato di frequenza con verifica dell\'apprendimento, recante: dati anagrafici e codice fiscale del partecipante, denominazione del soggetto formatore, titolo e durata del corso, riferimenti normativi, modalità di erogazione, periodo di svolgimento, esito della verifica, codice univoco e QR code di verifica.' + (AIF ? ' L\'attestato è rilasciato da AiFOS, soggetto formatore,, che ne cura la registrazione; il Centro di formazione ne cura la consegna al partecipante.' : '')),
+    p((AIF ? 'AiFOS e il Centro di formazione conservano' : 'Il soggetto formatore conserva') + ' per almeno dieci anni il presente documento progettuale, il registro delle presenze (o i report della piattaforma), il verbale della verifica finale e copia degli attestati.'));
   // ---------- 10. Privacy ----------
   corpo.push(...titolo('10. Trattamento dei dati personali'),
     p(`I dati dei partecipanti sono trattati da ${A.ragioneSociale} in qualità di titolare ai sensi del Reg. UE 2016/679 per l'erogazione del corso, il rilascio e la registrazione dell'attestato e gli adempimenti di legge. L'iscrizione è subordinata alla presa visione dell'informativa.`));
   // ---------- Legenda e firma ----------
   corpo.push(...titolo('Legenda delle sigle'), anagrafica([['ASR', 'Accordo Stato-Regioni'], ['D.lgs.', 'Decreto legislativo'], ['D.I.', 'Decreto interministeriale'], ['SCORM', 'Standard per il tracciamento dei corsi e-learning'], ['RPF', 'Responsabile del progetto formativo']]));
-  corpo.push(new Paragraph({ spacing: { before: 480 }, keepNext: true, children: [r(`${A.comune}, ${oggi.toLocaleDateString('it-IT')}`)] }));
-  corpo.push(tabella([W / 2, W / 2], [new TableRow({ cantSplit: true, children: [cella([new Paragraph({ children: [r('Il Responsabile del progetto formativo', { b: true })] }), new Paragraph({ children: [r(R.nome)] }), new Paragraph({ spacing: { before: 120 }, children: [new ImageRun({ type: 'png', data: TIMBRO, transformation: { width: 150, height: Math.round(150 * 262 / 314) }, altText: { name: 'Timbro e firma', title: 'Timbro e firma', description: "Timbro e firma del dr. Jonathan D'Eugenio" } })] })], { w: W / 2 }),
-    cella([new Paragraph({ children: [r('Timbro del soggetto formatore', { b: true })] }), new Paragraph({ spacing: { before: 760 }, children: [r(' ')] })], { w: W / 2 })] })]));
+  corpo.push(...sezioneFirme(W, `${A.comune}, ${oggi.toLocaleDateString('it-IT')}`, AIF));
 
   const piede = new Footer({ children: [new Paragraph({ alignment: AlignmentType.LEFT, tabStops: [{ type: 'right', position: W }], children: [
     new TextRun({ text: '© 2026 dr. Jonathan D\'Eugenio', font: FM, size: 16, color: GRIGIO }), new TextRun({ text: '\t', font: FM, size: 16 }),

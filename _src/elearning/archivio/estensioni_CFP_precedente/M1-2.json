@@ -1,0 +1,35 @@
+{
+ "dopo": "Emissioni Scope 2: metodo location-based e metodo market-based",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "I fattori di emissione per l’energia elettrica",
+   "lead": "Per lo Scope 2 si usano fattori nazionali ufficiali per il metodo location-based e il residual mix per il metodo market-based.",
+   "punti": [
+    "Location-based: fattore ISPRA per i consumi elettrici, 199,6 gCO₂/kWh nel 2025 (stima preliminare)",
+    "Considerando tutti i gas serra: 201,0 gCO₂eq/kWh nel 2025 (194,0 nel 2024)",
+    "Market-based: energia coperta da garanzie di origine rinnovabili a emissioni nulle",
+    "Energia non coperta da garanzie: residual mix AIB, 420,2 gCO₂/kWh per l’Italia nel 2025",
+    "Fattori aggiornati ogni anno: indicare sempre fonte ed edizione"
+   ],
+   "appro": "Il residual mix è più alto del fattore medio nazionale perché esclude l’energia rinnovabile già «venduta» con le garanzie di origine.",
+   "rif": "ISPRA, Rapporto 430/2026 · AIB, European Residual Mixes 2025 (26 maggio 2026) · GHG Protocol, Scope 2 Guidance",
+   "nar": "Le emissioni di Scope due derivano dall’energia elettrica acquistata e si calcolano con due metodi, da rendicontare entrambi. Il metodo location-based usa il fattore medio della rete in cui avviene il consumo. In Italia il riferimento è il rapporto dell’ISPRA sul settore elettrico, aggiornato ogni anno: per i consumi elettrici il fattore di anidride carbonica stimato per il duemilaventicinque è di centonovantanove virgola sei grammi per chilowattora, mentre considerando tutti i gas serra è di duecentouno grammi di anidride carbonica equivalente, contro centonovantaquattro nel duemilaventiquattro. Il metodo market-based riflette invece le scelte contrattuali dell’impresa: l’energia coperta da garanzie di origine rinnovabili è conteggiata a emissioni nulle, mentre all’energia non coperta si applica il residual mix, pubblicato dall’associazione europea degli enti di emissione. Per l’Italia il residual mix del duemilaventicinque è di quattrocentoventi virgola due grammi di anidride carbonica per chilowattora. È più alto del fattore medio perché esclude l’energia rinnovabile i cui attributi sono già stati venduti con le garanzie di origine. Ne consegue che un’impresa senza garanzie di origine ha emissioni market-based più alte di quelle location-based. Fonte ed edizione dei fattori vanno sempre dichiarate."
+  },
+  {
+   "t": "testo",
+   "tit": "Esempio applicativo: Scope 1 dal gas naturale",
+   "lead": "Le emissioni dirette da combustione si calcolano moltiplicando il dato di attività per il fattore di emissione nazionale del combustibile.",
+   "punti": [
+    "Dato di attività: 100.000 Sm³ di gas naturale da fatture e contatori",
+    "Fattore di emissione nazionale: 2,026 t CO₂ ogni 1.000 Sm³",
+    "Emissioni: 100.000 / 1.000 × 2,026 = 202,6 t CO₂",
+    "Energia: 100.000 Sm³ × 8,519 Mcal/Sm³ di potere calorifico inferiore",
+    "Per le emissioni 2024 vale la tabella 2021-2023: 2,019 t CO₂ ogni 1.000 Sm³"
+   ],
+   "appro": "Per GPL e gasoli i fattori nazionali sono espressi per tonnellata: GPL 3,026 t CO₂/t; gasolio da riscaldamento 3,169 t CO₂/t; gasolio per autotrazione 3,150 t CO₂/t.",
+   "rif": "Tabella dei parametri standard nazionali (MASE/ISPRA) · UNI EN ISO 14064-1:2019",
+   "nar": "Vediamo un esempio di calcolo delle emissioni dirette di Scope uno. Uno stabilimento ha consumato nell’anno centomila standard metri cubi di gas naturale, dato ricavato dalle fatture e verificato con i contatori. Per l’Italia si usa il fattore della tabella dei parametri standard nazionali pubblicata dal Ministero dell’ambiente e dall’ISPRA, aggiornata ogni anno: per il gas naturale è di due virgola zero ventisei tonnellate di anidride carbonica ogni mille standard metri cubi. Il calcolo è immediato: centomila diviso mille fa cento, moltiplicato per due virgola zero ventisei dà duecentodue virgola sei tonnellate di anidride carbonica. Se serve il dato energetico, si moltiplica il volume per il potere calorifico inferiore, pari a otto virgola cinquecentodiciannove megacalorie per standard metro cubo. Attenzione all’anno di riferimento: per le emissioni del duemilaventiquattro vale ancora la tabella del triennio precedente, con un fattore di due virgola zero diciannove. Per gli altri combustibili i fattori sono espressi per tonnellata: tre virgola zero ventisei per il GPL, tre virgola centosessantanove per il gasolio da riscaldamento, tre virgola centocinquanta per il gasolio per autotrazione. Nel rapporto si indicano sempre dato di attività, fattore, fonte ed edizione."
+  }
+ ]
+}

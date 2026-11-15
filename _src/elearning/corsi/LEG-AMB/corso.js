@@ -121,6 +121,59 @@ window.CORSO = {
      "ancora": "I principi del diritto ambientale"
     },
     {
+     "foto": false,
+     "t": "classifica",
+     "tit": "Quale principio?",
+     "lead": "Seleziona una situazione, poi il principio che la ispira.",
+     "colonne": [
+      "Precauzione",
+      "Prevenzione e correzione alla fonte",
+      "Chi inquina paga"
+     ],
+     "schede": [
+      [
+       "Si limita l’uso di una sostanza sospetta prima che i dati scientifici siano definitivi",
+       0,
+       "Si agisce anche in presenza di incertezza su un rischio grave.",
+       "Corretto."
+      ],
+      [
+       "L’impresa che ha contaminato il terreno sostiene i costi della bonifica",
+       2,
+       "I costi del ripristino gravano su chi ha causato l’inquinamento.",
+       "Corretto."
+      ],
+      [
+       "Si installa un filtro sul camino invece di intervenire sulle conseguenze",
+       1,
+       "Il danno si corregge in via prioritaria alla fonte.",
+       "Corretto."
+      ],
+      [
+       "Si sostituisce un solvente pericoloso con uno a base d’acqua",
+       1,
+       "Evitare il danno è preferibile a ripararlo.",
+       "Corretto."
+      ],
+      [
+       "La tariffa dei rifiuti cresce con la quantità prodotta",
+       2,
+       "Il costo è proporzionale all’impatto generato.",
+       "Corretto."
+      ],
+      [
+       "Si sospende un progetto in attesa di studi su un possibile danno irreversibile",
+       0,
+       "È l’applicazione tipica della precauzione.",
+       "Corretto."
+      ]
+     ],
+     "nar": "Sei situazioni. Riconosci il principio del diritto ambientale che le ispira.",
+     "rif": "Art. 191 TFUE · art. 3-ter D.lgs. 152/2006",
+     "est": true,
+     "ancora": "Precauzione, prevenzione, «chi inquina paga»"
+    },
+    {
      "t": "testo",
      "tit": "L’autorizzazione unica ambientale (AUA)",
      "foto": false,
@@ -157,6 +210,70 @@ window.CORSO = {
     },
     {
      "foto": false,
+     "t": "classifica",
+     "tit": "Rientra nell’AUA?",
+     "lead": "Seleziona un titolo, poi la risposta.",
+     "colonne": [
+      "Rientra nell’AUA",
+      "Non rientra"
+     ],
+     "schede": [
+      [
+       "Autorizzazione agli scarichi idrici",
+       0,
+       "È tra i titoli del D.P.R. 59/2013.",
+       "Corretto."
+      ],
+      [
+       "Autorizzazione alle emissioni in atmosfera dell’art. 269",
+       0,
+       "Rientra.",
+       "Corretto."
+      ],
+      [
+       "Comunicazione di impatto acustico",
+       0,
+       "Rientra.",
+       "Corretto."
+      ],
+      [
+       "Comunicazione per il recupero di rifiuti in procedura semplificata",
+       0,
+       "Rientra (artt. 214-216).",
+       "Corretto."
+      ],
+      [
+       "Autorizzazione integrata ambientale",
+       1,
+       "L’AUA si applica agli impianti non soggetti ad AIA.",
+       "Corretto."
+      ],
+      [
+       "Certificato di prevenzione incendi",
+       1,
+       "È un procedimento dei Vigili del fuoco, non ambientale.",
+       "Corretto."
+      ],
+      [
+       "Autorizzazione unica degli impianti di gestione dei rifiuti (art. 208)",
+       1,
+       "Non è compresa nell’AUA.",
+       "Corretto."
+      ],
+      [
+       "Uso agronomico degli effluenti di allevamento",
+       0,
+       "Rientra.",
+       "Corretto."
+      ]
+     ],
+     "nar": "Otto titoli abilitativi. Indica quali possono confluire nell’autorizzazione unica ambientale.",
+     "rif": "D.P.R. 59/2013, art. 3",
+     "est": true,
+     "ancora": "AUA: titoli compresi, durata e modifiche"
+    },
+    {
+     "foto": false,
      "t": "testo",
      "tit": "Il procedimento di AUA: soggetti e tempi",
      "lead": "Il procedimento di autorizzazione unica ambientale coinvolge più amministrazioni, coordinate dallo Sportello unico per le attività produttive.",
@@ -175,6 +292,70 @@ window.CORSO = {
     },
     {
      "foto": false,
+     "t": "laboratorio",
+     "tit": "Laboratorio · La domanda di AUA della carpenteria",
+     "lead": "Una carpenteria metallica con 40 addetti apre un nuovo stabilimento e ti chiede di impostare la domanda di AUA.",
+     "dossier": [
+      [
+       "Attività",
+       "taglio, saldatura e verniciatura di strutture in acciaio"
+      ],
+      [
+       "Emissioni",
+       "fumi di saldatura aspirati e convogliati; cabina di verniciatura"
+      ],
+      [
+       "Acque",
+       "servizi igienici e lavaggio pezzi in fognatura"
+      ],
+      [
+       "Rumore",
+       "compressori e lavorazioni esterne, area mista con abitazioni vicine"
+      ],
+      [
+       "Rifiuti",
+       "nessun recupero in procedura semplificata"
+      ]
+     ],
+     "compiti": [
+      {
+       "q": "Quali titoli confluiscono nella domanda di AUA?",
+       "min": 6,
+       "modello": "Autorizzazione alle emissioni in atmosfera per saldatura e verniciatura, o adesione all’autorizzazione generale se l’attività vi rientra; autorizzazione allo scarico delle acque di lavaggio in fognatura; documentazione di impatto acustico. Gli scarichi dei servizi igienici in fognatura non richiedono autorizzazione.",
+       "criteri": [
+        "Ho indicato emissioni e scarico industriale",
+        "Ho indicato l’impatto acustico",
+        "Ho escluso gli scarichi domestici in fognatura"
+       ]
+      },
+      {
+       "q": "Descrivi il percorso della domanda: a chi si presenta, chi decide, in quanto tempo.",
+       "min": 6,
+       "modello": "Si presenta al SUAP, che la trasmette all’autorità competente, di norma la Provincia o l’ente individuato dalla Regione. Partecipano ARPA, Comune e gestore del servizio idrico. Il termine è di 90 giorni, o 120 se ci sono titoli con termini superiori; le richieste di integrazione sospendono i termini.",
+       "criteri": [
+        "Ho indicato SUAP e autorità competente",
+        "Ho indicato i soggetti coinvolti",
+        "Ho indicato i termini e la sospensione"
+       ]
+      },
+      {
+       "q": "Quali scadenze e regole sulle modifiche devi segnalare all’impresa?",
+       "min": 6,
+       "modello": "L’AUA dura 15 anni dal rilascio; la domanda di rinnovo va presentata almeno 6 mesi prima della scadenza. Le modifiche vanno comunicate: quelle sostanziali richiedono una nuova domanda. Vanno pianificati gli autocontrolli prescritti.",
+       "criteri": [
+        "Ho indicato i 15 anni e il rinnovo a 6 mesi",
+        "Ho distinto modifiche sostanziali e non",
+        "Ho previsto gli autocontrolli"
+       ]
+      }
+     ],
+     "nar": "Il laboratorio simula l’impostazione di una domanda di autorizzazione unica ambientale per una carpenteria. Individua i titoli, descrivi il procedimento e segnala scadenze e regole sulle modifiche, poi confronta le tue risposte con la soluzione di riferimento.",
+     "rif": "D.P.R. 59/2013",
+     "est": true,
+     "ancora": "Il procedimento di AUA: soggetti e tempi"
+    },
+    {
+     "foto": false,
      "t": "testo",
      "tit": "Esempio applicativo: il censimento delle sorgenti di emissione",
      "lead": "Prima di qualsiasi domanda o verifica di conformità occorre un censimento completo delle sorgenti di emissione dello stabilimento.",
@@ -190,6 +371,66 @@ window.CORSO = {
      "nar": "Si propone un esempio applicativo di censimento delle sorgenti di emissione, attività preliminare a qualsiasi domanda di autorizzazione o verifica di conformità. In uno stabilimento di carpenteria metallica, il censimento parte da un sopralluogo reparto per reparto, con l’elenco delle macchine, degli impianti, delle cappe e delle aspirazioni presenti. Per ciascuna aspirazione si verifica la destinazione dell’aria: se viene scaricata all’esterno attraverso un camino o reimmessa nell’ambiente di lavoro, e se è presente un sistema di abbattimento. Si censiscono poi gli impianti termici di processo, come i forni di polimerizzazione delle vernici a polvere, e gli impianti termici civili, indicando la potenza termica nominale e il combustibile. Si considerano infine le sorgenti diffuse, come gli stoccaggi di materiali, le operazioni di carico e scarico e le lavorazioni all’aperto. L’elenco ottenuto si confronta con l’autorizzazione, distinguendo i punti autorizzati, quelli riconducibili ad attività in deroga e quelli non censiti. Il censimento rivela spesso aspiratori installati negli anni per motivi di sicurezza, ad esempio sopra una postazione di saldatura o di molatura, e mai inseriti nell’autorizzazione. È il momento per regolarizzarli, con una comunicazione di modifica o una domanda di aggiornamento, secondo la loro rilevanza.",
      "est": true,
      "ancora": "L’autorizzazione unica ambientale (AUA)"
+    },
+    {
+     "foto": false,
+     "t": "laboratorio",
+     "tit": "Laboratorio · Il censimento di una falegnameria",
+     "lead": "Censisci le sorgenti di emissione di una falegnameria che produce mobili.",
+     "dossier": [
+      [
+       "E1",
+       "aspirazione di trucioli e polveri di legno con filtro a maniche"
+      ],
+      [
+       "E2",
+       "cabina di verniciatura a spruzzo con prodotti a solvente"
+      ],
+      [
+       "E3",
+       "caldaia a biomassa legnosa da 400 kW per il riscaldamento"
+      ],
+      [
+       "Diffuse",
+       "carteggiatura manuale vicino al portone, appassimento dei pezzi verniciati"
+      ]
+     ],
+     "compiti": [
+      {
+       "q": "Classifica le sorgenti in convogliate e diffuse e indica gli inquinanti principali.",
+       "min": 6,
+       "modello": "Convogliate: E1, polveri di legno; E2, composti organici volatili e polveri di overspray; E3, polveri, ossidi di azoto e monossido di carbonio. Diffuse: carteggiatura manuale, polveri; appassimento, composti organici volatili.",
+       "criteri": [
+        "Ho distinto convogliate e diffuse",
+        "Ho associato gli inquinanti a ogni sorgente",
+        "Ho considerato l’appassimento"
+       ]
+      },
+      {
+       "q": "Quale regime autorizzativo valuti per lo stabilimento?",
+       "min": 6,
+       "modello": "Si verifica se le attività rientrano tra quelle in deroga o nelle autorizzazioni di carattere generale dell’art. 272, in base ai quantitativi di prodotti vernicianti e alla potenza degli impianti; altrimenti serve l’autorizzazione dell’art. 269, di norma nell’AUA. La caldaia a biomassa sotto 1 MW va valutata secondo l’Allegato IV alla Parte V.",
+       "criteri": [
+        "Ho considerato l’art. 272",
+        "Ho indicato l’art. 269 come alternativa",
+        "Ho considerato i quantitativi di prodotti"
+       ]
+      },
+      {
+       "q": "Quali misure riduci le emissioni diffuse?",
+       "min": 6,
+       "modello": "Spostare la carteggiatura in una postazione aspirata; appassimento in area chiusa e aspirata; prodotti a base d’acqua o ad alto residuo secco; manutenzione e controllo del differenziale di pressione del filtro a maniche; registro dei consumi dei prodotti vernicianti.",
+       "criteri": [
+        "Ho previsto la captazione delle diffuse",
+        "Ho previsto prodotti a minore contenuto di solventi",
+        "Ho previsto manutenzione e registri"
+       ]
+      }
+     ],
+     "nar": "In questo laboratorio censisci le sorgenti di emissione di una falegnameria. Classifica le sorgenti, valuta il regime autorizzativo e proponi misure per le emissioni diffuse, poi confronta le tue risposte con la soluzione di riferimento.",
+     "rif": "D.lgs. 152/2006, artt. 269 e 272 · Allegato IV alla Parte V",
+     "est": true,
+     "ancora": "Esempio applicativo: il censimento delle sorgenti di emissione"
     },
     {
      "foto": false,
@@ -274,6 +515,43 @@ window.CORSO = {
     },
     {
      "foto": false,
+     "t": "esempio",
+     "tit": "Esempio guidato · Quando si adegua il generatore?",
+     "lead": "Le scadenze per i medi impianti di combustione esistenti.",
+     "passi": [
+      [
+       "L’impianto",
+       "Un generatore di vapore esistente da 3 MW alimentato a gas naturale.",
+       "1 MW ≤ 3 MW < 50 MW → medio impianto"
+      ],
+      [
+       "La classe",
+       "Gli impianti esistenti fino a 5 MW si adeguano ai nuovi valori limite dal 1° gennaio 2030.",
+       "Adeguamento dal 2030"
+      ],
+      [
+       "Il confronto",
+       "Un generatore esistente da 8 MW avrebbe dovuto adeguarsi dal 1° gennaio 2025.",
+       "Oltre 5 MW → dal 2025"
+      ],
+      [
+       "Un impianto nuovo",
+       "Un generatore installato oggi rispetta i valori limite da subito.",
+       "Nuovi: dal 20 dicembre 2018"
+      ],
+      [
+       "Gli obblighi",
+       "Iscrizione nel registro degli impianti e monitoraggio periodico delle emissioni.",
+       "Registro e monitoraggio"
+      ]
+     ],
+     "nar": "Vediamo le scadenze per i medi impianti di combustione. Un generatore esistente da tre megawatt è un medio impianto e si adegua ai nuovi valori limite dal primo gennaio duemilatrenta. Se fosse da otto megawatt, la scadenza sarebbe stata il primo gennaio duemilaventicinque. Un impianto nuovo rispetta i limiti da subito. In ogni caso servono l’iscrizione nel registro e il monitoraggio periodico.",
+     "rif": "Direttiva (UE) 2015/2193 · art. 273-bis D.lgs. 152/2006",
+     "est": true,
+     "ancora": "I medi impianti di combustione"
+    },
+    {
+     "foto": false,
      "t": "testo",
      "tit": "Impianti termici civili e combustibili consentiti",
      "lead": "Gli impianti di riscaldamento degli edifici e i combustibili utilizzabili sono disciplinati dai Titoli II e III della Parte V.",
@@ -323,6 +601,114 @@ window.CORSO = {
     },
     {
      "foto": false,
+     "t": "classifica",
+     "tit": "Quale regime autorizzativo?",
+     "lead": "Seleziona uno stabilimento, poi il regime più probabile.",
+     "colonne": [
+      "AIA",
+      "AUA (autorizzazione alle emissioni)",
+      "Attività in deroga o autorizzazione generale",
+      "Disciplina degli impianti termici civili"
+     ],
+     "schede": [
+      [
+       "Grande impianto di produzione di cemento",
+       0,
+       "Le attività dell’Allegato VIII alla Parte II sono soggette ad AIA.",
+       "Corretto."
+      ],
+      [
+       "PMI con cabina di verniciatura e consumo di solventi oltre le soglie di deroga",
+       1,
+       "Le PMI non soggette ad AIA chiedono l’AUA, che comprende l’autorizzazione alle emissioni.",
+       "Corretto."
+      ],
+      [
+       "Laboratorio odontotecnico con emissioni scarsamente rilevanti",
+       2,
+       "Le attività dell’Allegato IV, parte I, alla Parte V sono in deroga.",
+       "Corretto."
+      ],
+      [
+       "Caldaia a metano per il riscaldamento degli uffici sotto le soglie del Titolo II",
+       3,
+       "Gli impianti termici civili seguono il Titolo II della Parte V.",
+       "Corretto."
+      ],
+      [
+       "Allevamento intensivo oltre le soglie dell’Allegato VIII",
+       0,
+       "Sopra le soglie è soggetto ad AIA.",
+       "Corretto."
+      ],
+      [
+       "Piccola officina che aderisce a un’autorizzazione di carattere generale regionale",
+       2,
+       "Le autorizzazioni generali dell’art. 272, comma 2, semplificano i casi tipici.",
+       "Corretto."
+      ]
+     ],
+     "nar": "Sei stabilimenti. Indica il regime autorizzativo più probabile per le emissioni in atmosfera.",
+     "rif": "D.lgs. 152/2006, Parti II e V · D.P.R. 59/2013",
+     "est": true,
+     "ancora": "Esercitazione · Regimi e riferimenti"
+    },
+    {
+     "foto": false,
+     "t": "classifica",
+     "tit": "Quale tecnologia di abbattimento?",
+     "lead": "Seleziona un’emissione, poi la tecnologia più adatta.",
+     "colonne": [
+      "Filtro a maniche",
+      "Carboni attivi",
+      "Combustione termica o catalitica",
+      "Scrubber a umido"
+     ],
+     "schede": [
+      [
+       "Polveri da levigatura del legno",
+       0,
+       "Le polveri si trattengono efficacemente con filtri a maniche.",
+       "Corretto."
+      ],
+      [
+       "COV a bassa concentrazione da una piccola verniciatura",
+       1,
+       "Per basse concentrazioni di COV si usa l’adsorbimento su carboni attivi.",
+       "Corretto."
+      ],
+      [
+       "COV ad alta concentrazione da un forno di essiccazione",
+       2,
+       "Ad alte concentrazioni la combustione è più efficace e può recuperare calore.",
+       "Corretto."
+      ],
+      [
+       "Vapori acidi da un bagno di decapaggio",
+       3,
+       "I gas acidi solubili si abbattono per assorbimento a umido.",
+       "Corretto."
+      ],
+      [
+       "Polveri metalliche da una molatura",
+       0,
+       "Polveri: filtrazione a maniche o a cartucce.",
+       "Corretto."
+      ],
+      [
+       "Solventi da una linea di stampa con flussi elevati e continui",
+       2,
+       "Flussi elevati con COV in concentrazione utile: combustione termica rigenerativa.",
+       "Corretto."
+      ]
+     ],
+     "nar": "Sei emissioni diverse. Associa a ciascuna la tecnologia di abbattimento più adatta.",
+     "rif": "D.lgs. 152/2006, Parte V · BAT",
+     "est": true,
+     "ancora": "Esercitazione · Regimi e riferimenti"
+    },
+    {
+     "foto": false,
      "t": "testo",
      "tit": "Il sistema europeo di scambio delle quote di emissione",
      "lead": "Le emissioni di gas a effetto serra degli impianti di maggiori dimensioni sono soggette al sistema europeo di scambio delle quote, distinto dall’autorizzazione alle emissioni.",
@@ -338,6 +724,43 @@ window.CORSO = {
      "nar": "Le emissioni di gas a effetto serra degli impianti di maggiori dimensioni sono soggette al sistema europeo di scambio delle quote di emissione, istituito dalla direttiva duemilatre-ottantasette e attuato in Italia dal decreto legislativo quarantasette del duemilaventi. Si tratta di una disciplina distinta dall’autorizzazione alle emissioni della Parte quinta. Vi rientrano le attività elencate nell’allegato della direttiva, tra cui la combustione di combustibili in installazioni con potenza termica nominale totale superiore a venti megawatt, la produzione di cemento, calce, vetro, ceramica, acciaio, carta e prodotti chimici. Il gestore deve possedere un’autorizzazione a emettere gas a effetto serra, applicare un piano di monitoraggio approvato e comunicare ogni anno le emissioni, dopo la verifica di un verificatore accreditato. Entro i termini stabiliti deve restituire un numero di quote pari alle emissioni dell’anno precedente; le quote possono essere ricevute in parte gratuitamente, in misura progressivamente decrescente, oppure acquistate all’asta o sul mercato. Il sistema non fissa limiti per il singolo impianto, ma un tetto complessivo che si riduce ogni anno. Ogni tonnellata di anidride carbonica emessa ha quindi un costo, che rende economicamente convenienti gli interventi di efficienza energetica e di sostituzione dei combustibili fossili.",
      "est": true,
      "ancora": "L’autorizzazione unica ambientale (AUA)"
+    },
+    {
+     "foto": false,
+     "t": "esempio",
+     "tit": "Esempio guidato · Il conto delle quote",
+     "lead": "Un impianto ETS e il suo bilancio annuale.",
+     "passi": [
+      [
+       "Le emissioni",
+       "Le emissioni verificate dell’anno sono 12.400 t CO₂.",
+       "12.400 t"
+      ],
+      [
+       "La comunicazione",
+       "La comunicazione delle emissioni verificate si presenta entro il 31 marzo dell’anno successivo.",
+       "Entro il 31 marzo"
+      ],
+      [
+       "Le quote gratuite",
+       "L’impianto ha ricevuto 8.000 quote gratuite.",
+       "8.000 quote"
+      ],
+      [
+       "Il fabbisogno",
+       "Mancano 12.400 − 8.000 = 4.400 quote, da acquistare sul mercato.",
+       "4.400 quote da acquistare"
+      ],
+      [
+       "La restituzione",
+       "Le quote si restituiscono entro il 30 settembre; con un prezzo indicativo di 70 € per quota il costo è di circa 308.000 €.",
+       "Prezzo illustrativo"
+      ]
+     ],
+     "nar": "Facciamo il conto delle quote di un impianto. Le emissioni verificate sono dodicimilaquattrocento tonnellate e si comunicano entro il trentuno marzo. L’impianto ha ottomila quote gratuite: ne mancano quattromilaquattrocento, da acquistare. Le quote si restituiscono entro il trenta settembre. Con un prezzo indicativo di settanta euro, il costo è di circa trecentottomila euro.",
+     "rif": "Direttiva 2003/87/CE come modificata dalla Dir. (UE) 2023/959",
+     "est": true,
+     "ancora": "Il sistema europeo di scambio delle quote di emissione"
     },
     {
      "foto": false,
@@ -359,6 +782,79 @@ window.CORSO = {
     },
     {
      "foto": false,
+     "t": "scenario",
+     "tit": "Il chiller del reparto",
+     "scena": "Il chiller del reparto contiene 60 kg di R-410A, pari a circa 125 t CO₂e. Il tecnico trova una perdita durante il controllo.",
+     "decisioni": [
+      {
+       "dom": "Con quale frequenza va controllato per le perdite?",
+       "opz": [
+        [
+         "Ogni 6 mesi, oppure ogni 12 mesi se dotato di sistema di rilevamento delle perdite",
+         true,
+         "Corretto: tra 50 e 500 t CO₂e il controllo è semestrale, annuale con un sistema di rilevamento."
+        ],
+        [
+         "Ogni 3 mesi",
+         false,
+         "È la frequenza da 500 t CO₂e in su."
+        ],
+        [
+         "Ogni 5 anni",
+         false,
+         "La frequenza è molto più ravvicinata."
+        ]
+       ]
+      },
+      {
+       "dom": "Che cosa si fa dopo la riparazione della perdita?",
+       "opz": [
+        [
+         "Nulla",
+         false,
+         "Serve un controllo di verifica."
+        ],
+        [
+         "Un nuovo controllo dopo almeno 24 ore ed entro un mese dalla riparazione",
+         true,
+         "Corretto: verifica l’efficacia della riparazione."
+        ],
+        [
+         "Si aggiunge refrigerante senza cercare la perdita",
+         false,
+         "Ricaricare senza riparare è vietato."
+        ]
+       ]
+      },
+      {
+       "dom": "Quali registrazioni servono?",
+       "opz": [
+        [
+         "Registro dell’apparecchiatura e comunicazione dell’intervento alla Banca dati entro 30 giorni",
+         true,
+         "Corretto: lo prevede il D.P.R. 146/2018."
+        ],
+        [
+         "Nessuna, se l’impresa è certificata",
+         false,
+         "Le registrazioni sono sempre dovute."
+        ],
+        [
+         "Solo la fattura del tecnico",
+         false,
+         "Non basta."
+        ]
+       ]
+      }
+     ],
+     "chiusura": "Frequenza dei controlli in base alle tonnellate di CO₂ equivalente, verifica dopo la riparazione, registrazione e comunicazione alla Banca dati: è la gestione corretta di un’apparecchiatura con gas fluorurati.",
+     "nar": "Una perdita su un chiller. Gestiscila secondo il regolamento F-gas.",
+     "rif": "Reg. (UE) 2024/573 · D.P.R. 146/2018",
+     "est": true,
+     "ancora": "Gas fluorurati e sostanze che riducono lo strato di ozono"
+    },
+    {
+     "foto": false,
      "t": "testo",
      "tit": "Inventari e registri delle emissioni",
      "lead": "Oltre agli autocontrolli, molte imprese devono dichiarare periodicamente le proprie emissioni a registri regionali, nazionali ed europei.",
@@ -374,6 +870,79 @@ window.CORSO = {
      "nar": "Oltre agli autocontrolli previsti dall’autorizzazione, molte imprese devono dichiarare periodicamente le proprie emissioni a registri regionali, nazionali ed europei. Il registro europeo delle emissioni e dei trasferimenti di inquinanti, istituito dal regolamento centosessantasei del duemilasei, raccoglie ogni anno i dati delle installazioni che svolgono determinate attività e superano soglie di emissione per specifici inquinanti in aria, acqua e suolo, oltre ai trasferimenti di rifiuti. Il regolamento duemilaventiquattro-milleduecentoquarantaquattro ha istituito il nuovo portale europeo delle emissioni industriali, che sostituisce progressivamente il registro precedente ed estende le informazioni pubblicate, anche sull’uso di risorse. Le Regioni, a loro volta, elaborano inventari delle emissioni del proprio territorio, utilizzati per i piani di qualità dell’aria, e raccolgono dati dalle imprese attraverso le autorizzazioni e specifiche dichiarazioni. I dati dichiarati sono in gran parte pubblici e consultabili. Per questo è essenziale che siano coerenti tra loro: le emissioni dichiarate ai registri devono essere compatibili con i risultati degli autocontrolli, con le ore di funzionamento e con il piano di gestione dei solventi. Incoerenze tra registri diversi sono facilmente rilevabili dagli organi di controllo, dalla popolazione e dagli altri portatori di interesse.",
      "est": true,
      "ancora": "L’autorizzazione unica ambientale (AUA)"
+    },
+    {
+     "foto": false,
+     "t": "scenario",
+     "tit": "I dati che non tornano",
+     "scena": "Preparando la dichiarazione annuale delle emissioni ti accorgi che i composti organici volatili calcolati con il piano di gestione dei solventi sono il doppio di quelli stimati dagli autocontrolli ai camini.",
+     "decisioni": [
+      {
+       "dom": "Quale spiegazione è più probabile?",
+       "opz": [
+        [
+         "Le emissioni diffuse, che gli autocontrolli ai camini non misurano",
+         true,
+         "Corretto: il piano di gestione dei solventi considera anche le emissioni diffuse."
+        ],
+        [
+         "Un errore del laboratorio, sicuramente",
+         false,
+         "Prima di concluderlo servono verifiche."
+        ],
+        [
+         "Nessuna: si dichiara il valore più basso",
+         false,
+         "Dichiarare dati non coerenti è un rischio."
+        ]
+       ]
+      },
+      {
+       "dom": "Che cosa dichiari?",
+       "opz": [
+        [
+         "Il dato più completo e documentato, spiegando il metodo di stima",
+         true,
+         "Corretto: coerenza e tracciabilità del metodo sono essenziali."
+        ],
+        [
+         "La media dei due valori",
+         false,
+         "Non ha fondamento tecnico."
+        ],
+        [
+         "Nulla quest’anno",
+         false,
+         "La dichiarazione è un obbligo."
+        ]
+       ]
+      },
+      {
+       "dom": "Che cosa fai per il futuro?",
+       "opz": [
+        [
+         "Rivedi il piano di gestione dei solventi e valuti la captazione delle emissioni diffuse",
+         true,
+         "Corretto: ridurre le diffuse migliora conformità e dati."
+        ],
+        [
+         "Aumenti la frequenza delle analisi ai camini e basta",
+         false,
+         "Non misura le diffuse."
+        ],
+        [
+         "Smetti di calcolare il piano",
+         false,
+         "È uno strumento richiesto."
+        ]
+       ]
+      }
+     ],
+     "chiusura": "Dati coerenti tra dichiarazioni, autocontrolli e piano di gestione dei solventi, con metodi documentati: è la base di ogni inventario credibile.",
+     "nar": "Due stime delle emissioni non coincidono. Decidi che cosa dichiarare.",
+     "rif": "Reg. (CE) 166/2006 · Reg. (UE) 2024/1244 · art. 275 D.lgs. 152/2006",
+     "est": true,
+     "ancora": "Inventari e registri delle emissioni"
     },
     {
      "t": "testo",
@@ -412,6 +981,43 @@ window.CORSO = {
     },
     {
      "foto": false,
+     "t": "esempio",
+     "tit": "Esempio guidato · Quando si riesamina l’AIA?",
+     "lead": "Le due scadenze del riesame.",
+     "passi": [
+      [
+       "Il titolo",
+       "Un’installazione ha ottenuto l’AIA nel 2020 ed è registrata EMAS.",
+       "AIA 2020, EMAS"
+      ],
+      [
+       "Le BAT",
+       "Nel 2025 sono pubblicate le nuove conclusioni sulle BAT della sua attività principale.",
+       "Pubblicazione 2025"
+      ],
+      [
+       "Primo riesame",
+       "Entro 4 anni dalla pubblicazione delle conclusioni sulle BAT: entro il 2029.",
+       "Riesame entro 4 anni"
+      ],
+      [
+       "Riesame con valenza di rinnovo",
+       "Ordinariamente ogni 10 anni; 12 con UNI EN ISO 14001; 16 con EMAS.",
+       "EMAS → 16 anni"
+      ],
+      [
+       "La conseguenza",
+       "Il riesame per le BAT arriva prima: l’installazione deve adeguarsi ai nuovi BAT-AEL.",
+       "Adeguamento ai BAT-AEL"
+      ]
+     ],
+     "nar": "Vediamo le scadenze del riesame dell’AIA. L’installazione ha l’AIA dal duemilaventi ed è registrata EMAS. Nel duemilaventicinque escono nuove conclusioni sulle BAT: entro quattro anni l’autorizzazione va riesaminata. Il riesame con valenza di rinnovo, ordinariamente decennale, per le installazioni EMAS è di sedici anni. Il riesame legato alle BAT arriva prima e impone l’adeguamento ai nuovi livelli di emissione.",
+     "rif": "Art. 29-octies D.lgs. 152/2006",
+     "est": true,
+     "ancora": "AIA: riesame e direttiva sulle emissioni industriali"
+    },
+    {
+     "foto": false,
      "t": "testo",
      "tit": "VIA: verifica di assoggettabilità e provvedimento unico",
      "lead": "La valutazione di impatto ambientale si applica ai progetti degli allegati alla Parte II, con una fase preliminare di verifica per quelli di minore entità.",
@@ -430,6 +1036,79 @@ window.CORSO = {
     },
     {
      "foto": false,
+     "t": "scenario",
+     "tit": "L’ampliamento dello stabilimento",
+     "scena": "Un’impresa vuole raddoppiare la capacità produttiva di uno stabilimento già autorizzato, ampliando i capannoni su un’area agricola confinante.",
+     "decisioni": [
+      {
+       "dom": "Che cosa verifichi per primo?",
+       "opz": [
+        [
+         "Se il progetto rientra negli allegati alla Parte II per la VIA o per la verifica di assoggettabilità",
+         true,
+         "Corretto: il primo passo è la classificazione del progetto."
+        ],
+        [
+         "Nulla: lo stabilimento è già autorizzato",
+         false,
+         "Le modifiche e gli ampliamenti possono richiedere una valutazione."
+        ],
+        [
+         "Solo il permesso di costruire",
+         false,
+         "Non basta."
+        ]
+       ]
+      },
+      {
+       "dom": "Il progetto rientra nell’Allegato IV. Che cosa comporta?",
+       "opz": [
+        [
+         "La verifica di assoggettabilità a VIA, che può concludersi con l’esclusione o con l’obbligo di VIA",
+         true,
+         "Corretto: è lo screening dell’art. 19."
+        ],
+        [
+         "La VIA obbligatoria in ogni caso",
+         false,
+         "Per l’Allegato IV si parte dalla verifica."
+        ],
+        [
+         "Nessun procedimento",
+         false,
+         "Serve la verifica."
+        ]
+       ]
+      },
+      {
+       "dom": "Se serve la VIA, come si ottengono anche gli altri titoli?",
+       "opz": [
+        [
+         "Con il provvedimento autorizzatorio unico regionale, che riunisce i titoli necessari",
+         true,
+         "Corretto: art. 27-bis."
+        ],
+        [
+         "Con domande separate dopo la VIA",
+         false,
+         "Il PAUR evita procedimenti separati."
+        ],
+        [
+         "Con un’autocertificazione",
+         false,
+         "Non è ammessa."
+        ]
+       ]
+      }
+     ],
+     "chiusura": "Classificare il progetto, passare dalla verifica di assoggettabilità quando previsto, usare il provvedimento unico: così si affronta un ampliamento significativo.",
+     "nar": "Un raddoppio della capacità produttiva. Individua il percorso di valutazione.",
+     "rif": "D.lgs. 152/2006, Parte II, artt. 19 e 27-bis",
+     "est": true,
+     "ancora": "VIA: verifica di assoggettabilità e provvedimento unico"
+    },
+    {
+     "foto": false,
      "t": "testo",
      "tit": "Seveso III: gli stabilimenti a rischio di incidente rilevante",
      "lead": "Il D.lgs. 105/2015 si applica agli stabilimenti in cui sono presenti sostanze pericolose oltre le soglie dell’Allegato 1.",
@@ -445,6 +1124,58 @@ window.CORSO = {
      "nar": "La direttiva Seveso tre, recepita con il decreto legislativo centocinque del duemilaquindici, riguarda gli stabilimenti in cui sono presenti sostanze pericolose in quantità tali da poter dare luogo a incidenti rilevanti, come incendi, esplosioni o rilasci tossici. L’Allegato uno individua le categorie di pericolo e le sostanze specificate, con due soglie: gli stabilimenti di soglia inferiore e quelli di soglia superiore. Per verificare l’assoggettabilità si applica anche la regola della sommatoria, che considera insieme sostanze presenti in quantità inferiori alle singole soglie. Tutti gli stabilimenti soggetti presentano la notifica, da aggiornare a ogni modifica, e adottano una politica di prevenzione degli incidenti rilevanti attuata con un sistema di gestione della sicurezza proporzionato ai pericoli. Gli stabilimenti di soglia superiore redigono inoltre il rapporto di sicurezza, da riesaminare almeno ogni cinque anni, e il piano di emergenza interna, che si coordina con il piano di emergenza esterna predisposto dal prefetto. Le autorità effettuano ispezioni periodiche: almeno ogni anno per gli stabilimenti di soglia superiore e ogni tre anni per quelli di soglia inferiore. Ogni variazione dei depositi, anche temporanea, va verificata rispetto alle soglie prima di essere attuata.",
      "est": true,
      "ancora": "AIA, VIA e VAS"
+    },
+    {
+     "foto": false,
+     "t": "classifica",
+     "tit": "Soglia inferiore o superiore?",
+     "lead": "Seleziona un obbligo, poi a quali stabilimenti si applica.",
+     "colonne": [
+      "Tutti gli stabilimenti Seveso",
+      "Solo soglia superiore"
+     ],
+     "schede": [
+      [
+       "Notifica, aggiornata a ogni modifica",
+       0,
+       "Vale per tutti.",
+       "Corretto."
+      ],
+      [
+       "Politica di prevenzione degli incidenti rilevanti",
+       0,
+       "Vale per tutti.",
+       "Corretto."
+      ],
+      [
+       "Rapporto di sicurezza riesaminato almeno ogni 5 anni",
+       1,
+       "Solo per la soglia superiore.",
+       "Corretto."
+      ],
+      [
+       "Piano di emergenza interna",
+       1,
+       "Obbligo della soglia superiore.",
+       "Corretto."
+      ],
+      [
+       "Sistema di gestione della sicurezza",
+       0,
+       "Per tutti, con contenuti proporzionati.",
+       "Corretto."
+      ],
+      [
+       "Ispezioni almeno annuali",
+       1,
+       "Annuali per la soglia superiore, triennali per l’inferiore.",
+       "Corretto."
+      ]
+     ],
+     "nar": "Sei obblighi della direttiva Seveso III. Indica se valgono per tutti gli stabilimenti o solo per quelli di soglia superiore.",
+     "rif": "D.lgs. 105/2015",
+     "est": true,
+     "ancora": "Seveso III: gli stabilimenti a rischio di incidente rilevante"
     },
     {
      "t": "testo",
@@ -478,6 +1209,154 @@ window.CORSO = {
      "appro": "La norma ISO 14001:2026, pubblicata ad aprile 2026, mantiene il requisito di valutazione della conformità; i certificati accreditati vanno adeguati entro il periodo di transizione.",
      "rif": "UNI EN ISO 14001:2026, §§ 6.1.3 e 9.1.2 · Reg. (CE) 1221/2009 (EMAS)",
      "nar": "Il registro delle prescrizioni elenca gli obblighi ambientali applicabili all’organizzazione, ma il suo valore dipende da come viene utilizzato. La norma ISO quattordicimilauno chiede di determinare gli obblighi di conformità, cioè leggi, regolamenti, autorizzazioni, prescrizioni delle autorità e impegni assunti volontariamente, e poi di valutare periodicamente se sono rispettati. Per ogni obbligo conviene indicare il requisito, la fonte, la scadenza, il responsabile interno e l’evidenza che ne dimostra il rispetto, come un certificato di analisi, una ricevuta di trasmissione o un verbale di verifica. La frequenza della valutazione è stabilita dall’organizzazione in proporzione al rischio e alle scadenze: un autocontrollo semestrale sulle emissioni richiede una verifica almeno semestrale. Gli esiti si registrano e le eventuali non conformità si gestiscono con azioni correttive, analizzandone le cause. Il registro va aggiornato a ogni nuova norma, a ogni nuova autorizzazione e a ogni modifica dell’impianto. La nuova edizione della norma, pubblicata nell’aprile duemilaventisei, mantiene questo requisito e rafforza l’attenzione al contesto e ai cambiamenti; le organizzazioni certificate devono completare la transizione entro il periodo stabilito dagli enti di accreditamento.",
+     "est": true,
+     "ancora": "Il registro delle prescrizioni legali e autorizzative"
+    },
+    {
+     "foto": false,
+     "t": "laboratorio",
+     "tit": "Laboratorio · L’audit di conformità",
+     "lead": "Durante la valutazione periodica della conformità hai raccolto cinque rilievi.",
+     "dossier": [
+      [
+       "Rilievo 1",
+       "autocontrollo del camino E2 eseguito con 4 mesi di ritardo"
+      ],
+      [
+       "Rilievo 2",
+       "registro del chiller aggiornato e controlli regolari"
+      ],
+      [
+       "Rilievo 3",
+       "due formulari senza conferma di accettazione da oltre tre mesi"
+      ],
+      [
+       "Rilievo 4",
+       "il deposito di fanghi non riporta l’etichetta di pericolo"
+      ],
+      [
+       "Rilievo 5",
+       "la valutazione di impatto acustico non considera il nuovo compressore"
+      ]
+     ],
+     "compiti": [
+      {
+       "q": "Classifica i rilievi: conforme, non conformità, opportunità di miglioramento.",
+       "min": 6,
+       "modello": "Rilievo 2: conforme. Rilievi 1, 3 e 4: non conformità rispetto a prescrizioni e norme. Rilievo 5: non conformità potenziale, perché la modifica impiantistica non è stata valutata; va verificata con una nuova valutazione acustica.",
+       "criteri": [
+        "Ho riconosciuto il rilievo conforme",
+        "Ho classificato le non conformità",
+        "Ho valutato il rilievo 5"
+       ]
+      },
+      {
+       "q": "Per ogni non conformità indica correzione immediata e azione correttiva.",
+       "min": 8,
+       "modello": "1: eseguire subito l’autocontrollo; scadenzario con promemoria. 3: chiedere le conferme e, se non arrivano, comunicare all’autorità secondo l’art. 188; controllo mensile dei formulari aperti. 4: etichettare subito; checklist del deposito. 5: nuova valutazione di impatto acustico; procedura di gestione delle modifiche.",
+       "criteri": [
+        "Ho distinto correzione e azione correttiva",
+        "Ho indicato le comunicazioni dovute",
+        "Ho previsto controlli sistematici"
+       ],
+       "minc": 150
+      },
+      {
+       "q": "Riassumi l’esito per la direzione in poche righe.",
+       "min": 5,
+       "modello": "Su cinque aspetti verificati, uno conforme e quattro con criticità, di cui una legata alla gestione delle modifiche. Nessun superamento di limiti accertato. Servono uno scadenzario unico, il controllo mensile dei formulari e una procedura per le modifiche. Proposta: verifica di efficacia tra tre mesi.",
+       "criteri": [
+        "Ho dato un quadro sintetico",
+        "Ho indicato le priorità",
+        "Ho proposto una verifica di efficacia"
+       ]
+      }
+     ],
+     "nar": "Nel laboratorio valuti cinque rilievi raccolti durante una valutazione di conformità. Classificali, indica correzioni e azioni correttive e scrivi una breve sintesi per la direzione, poi confronta ogni risposta con la soluzione di riferimento.",
+     "rif": "UNI EN ISO 14001:2015, punti 9.1.2 e 10.2",
+     "est": true,
+     "ancora": "La valutazione periodica della conformità"
+    },
+    {
+     "foto": false,
+     "t": "applica",
+     "tit": "Il quadro autorizzativo della tua azienda",
+     "lead": "Ricostruisci i titoli ambientali della tua organizzazione.",
+     "voci": [
+      "AUA o autorizzazioni settoriali",
+      "AIA",
+      "Autorizzazione allo scarico",
+      "Autorizzazione o adesione per le emissioni",
+      "Iscrizione al RENTRI",
+      "Registro delle apparecchiature F-gas",
+      "Registro delle prescrizioni"
+     ],
+     "campo": "La prossima scadenza ambientale e chi la presidia",
+     "esempio": "Es.: rinnovo AUA a settembre 2030, responsabile ambiente",
+     "min": 3,
+     "nar": "Ricostruisci il quadro autorizzativo della tua azienda e indica la prossima scadenza ambientale e chi la presidia.",
+     "est": true,
+     "ancora": "La valutazione periodica della conformità"
+    },
+    {
+     "foto": false,
+     "t": "laboratorio",
+     "tit": "Laboratorio · Costruire il registro delle prescrizioni",
+     "lead": "Costruisci le prime righe del registro delle prescrizioni per uno stabilimento di trattamento superficiale.",
+     "dossier": [
+      [
+       "AUA",
+       "rilasciata il 10 marzo 2022: emissioni da due camini con autocontrollo annuale; scarico industriale in fognatura con autocontrollo semestrale"
+      ],
+      [
+       "F-gas",
+       "chiller da 125 t CO₂e"
+      ],
+      [
+       "Rifiuti",
+       "fanghi di depurazione pericolosi, oli esausti"
+      ],
+      [
+       "Rumore",
+       "valutazione di impatto acustico del 2022"
+      ]
+     ],
+     "compiti": [
+      {
+       "q": "Scrivi le righe del registro per emissioni e scarico: prescrizione, frequenza, responsabile, evidenza.",
+       "min": 8,
+       "modello": "Emissioni E1 ed E2: autocontrollo annuale dei parametri prescritti; responsabile ambiente; evidenza: rapporti di prova e comunicazione all’autorità se prevista. Scarico: autocontrollo semestrale nel pozzetto fiscale; responsabile ambiente; evidenza: verbale di campionamento e rapporto di prova. Rinnovo AUA: domanda entro il 10 settembre 2036.",
+       "criteri": [
+        "Ho indicato frequenze e responsabili",
+        "Ho indicato le evidenze documentali",
+        "Ho calcolato il termine per il rinnovo"
+       ],
+       "minc": 150
+      },
+      {
+       "q": "Aggiungi le righe per gas fluorurati e rifiuti.",
+       "min": 7,
+       "modello": "Chiller: controllo delle perdite semestrale, o annuale con sistema di rilevamento, da tecnico certificato; registro dell’apparecchiatura e comunicazione alla Banca dati entro 30 giorni. Rifiuti: iscrizione al RENTRI, registro digitale con annotazioni entro 10 giorni lavorativi e trasmissione mensile, formulari digitali, verifica delle accettazioni entro tre mesi, MUD annuale.",
+       "criteri": [
+        "Ho inserito frequenza e registrazioni F-gas",
+        "Ho inserito gli adempimenti RENTRI",
+        "Ho inserito il MUD"
+       ],
+       "minc": 120
+      },
+      {
+       "q": "Quali eventi devono far aggiornare il registro?",
+       "min": 5,
+       "modello": "Nuove norme o modifiche normative; nuove autorizzazioni, rinnovi o prescrizioni; modifiche di impianti e processi; esiti di controlli e audit; cambi di responsabile. L’aggiornamento va datato e approvato.",
+       "criteri": [
+        "Ho indicato modifiche normative e autorizzative",
+        "Ho indicato modifiche impiantistiche",
+        "Ho previsto data e approvazione"
+       ]
+      }
+     ],
+     "nar": "Il laboratorio ti chiede di costruire le prime righe di un registro delle prescrizioni per uno stabilimento reale. Compila le righe per emissioni e scarico, poi per gas fluorurati e rifiuti, e indica quando aggiornare il registro. Confronta ogni risposta con la soluzione di riferimento.",
+     "rif": "UNI EN ISO 14001:2015, punti 6.1.3 e 9.1.2",
      "est": true,
      "ancora": "Il registro delle prescrizioni legali e autorizzative"
     },
@@ -705,6 +1584,79 @@ window.CORSO = {
      "p": 1.6
     },
     {
+     "foto": false,
+     "t": "scenario",
+     "tit": "I fusti nel retro del capannone",
+     "scena": "Un’officina tiene nel retro del capannone fusti di oli esausti e contenitori di filtri. L’ultimo ritiro risale a cinque mesi fa; il volume complessivo è di circa 4 metri cubi.",
+     "decisioni": [
+      {
+       "dom": "Il deposito è ancora regolare?",
+       "opz": [
+        [
+         "No: con il criterio temporale serve un avvio almeno trimestrale; con il criterio quantitativo si può arrivare fino a un anno se non si superano 30 m³, di cui 10 di pericolosi",
+         true,
+         "Corretto: conta il criterio scelto e documentato dall’impresa."
+        ],
+        [
+         "Sì, sempre: il deposito temporaneo non ha limiti finché i rifiuti restano in azienda",
+         false,
+         "Il deposito ha limiti di tempo e di quantità: oltre diventa stoccaggio non autorizzato."
+        ],
+        [
+         "No, perché i rifiuti pericolosi vanno ritirati ogni mese",
+         false,
+         "Non esiste un obbligo mensile."
+        ]
+       ]
+      },
+      {
+       "dom": "I fusti sono all’aperto, senza bacino di contenimento e senza etichetta. Che cosa fai?",
+       "opz": [
+        [
+         "Nulla, il deposito è temporaneo",
+         false,
+         "Le norme tecniche e l’etichettatura dei rifiuti pericolosi valgono anche nel deposito temporaneo."
+        ],
+        [
+         "Sposti i fusti su un bacino di contenimento, al coperto, li etichetti e separi i rifiuti per categorie omogenee",
+         true,
+         "Corretto: sono le condizioni dell’art. 185-bis."
+        ],
+        [
+         "Travasi tutto in un unico contenitore per semplificare",
+         false,
+         "La miscelazione di rifiuti pericolosi è vietata salvo autorizzazione."
+        ]
+       ]
+      },
+      {
+       "dom": "Come dimostri il rispetto dei limiti a un controllo?",
+       "opz": [
+        [
+         "Con le annotazioni del registro di carico e scarico e i formulari dei ritiri",
+         true,
+         "Corretto: il registro documenta date e quantità di produzione e di avvio."
+        ],
+        [
+         "Con una dichiarazione verbale del titolare",
+         false,
+         "Serve una prova documentale."
+        ],
+        [
+         "Con le fatture del carburante",
+         false,
+         "Non riguardano i rifiuti."
+        ]
+       ]
+      }
+     ],
+     "chiusura": "Scegliere il criterio, rispettare le condizioni tecniche e documentare tutto nel registro: così il deposito temporaneo resta tale e non diventa stoccaggio non autorizzato.",
+     "nar": "Un deposito di rifiuti pericolosi da verificare. Decidi se è regolare e come metterlo a posto.",
+     "rif": "Art. 185-bis D.lgs. 152/2006",
+     "est": true,
+     "ancora": "Il deposito temporaneo prima della raccolta"
+    },
+    {
      "t": "testo",
      "tit": "Responsabilità del produttore e della filiera",
      "foto": false,
@@ -776,6 +1728,43 @@ window.CORSO = {
     },
     {
      "foto": false,
+     "t": "esempio",
+     "tit": "Esempio guidato · Il ritiro con formulario digitale",
+     "lead": "Dalla richiesta di ritiro alla conferma dell’impianto.",
+     "passi": [
+      [
+       "Emissione",
+       "Il produttore emette il formulario con il gestionale interoperabile o con i servizi del portale RENTRI.",
+       "Gestionale o portale"
+      ],
+      [
+       "Vidimazione",
+       "Il RENTRI vidima il formulario assegnando un numero identificativo univoco.",
+       "Numero univoco"
+      ],
+      [
+       "Partenza",
+       "Produttore e trasportatore firmano digitalmente; quantità e caratteristiche sono quelle del rifiuto caricato.",
+       "Firme alla partenza"
+      ],
+      [
+       "Arrivo",
+       "L’impianto registra la quantità accettata e firma: in caso di respingimento lo indica.",
+       "Accettazione o respingimento"
+      ],
+      [
+       "Chiusura",
+       "I dati sono trasmessi al RENTRI; il produttore verifica l’accettazione e annota lo scarico nel registro.",
+       "Verifica e annotazione"
+      ]
+     ],
+     "nar": "Seguiamo un ritiro con il formulario digitale. Il produttore lo emette con il proprio gestionale o con il portale. Il RENTRI lo vidima con un numero univoco. Alla partenza firmano produttore e trasportatore. All’arrivo l’impianto indica la quantità accettata e firma. I dati confluiscono nel RENTRI, e il produttore verifica l’accettazione e annota lo scarico nel registro.",
+     "rif": "Art. 7 D.M. 59/2023",
+     "est": true,
+     "ancora": "Il formulario digitale: emissione, vidimazione e firme"
+    },
+    {
+     "foto": false,
      "t": "testo",
      "tit": "Il periodo transitorio e la fine del doppio binario",
      "lead": "L’obbligo del formulario esclusivamente digitale, previsto dal 13 febbraio 2026, è stato differito dal D.L. 200/2025, convertito dalla L. 26/2026.",
@@ -809,6 +1798,79 @@ window.CORSO = {
      "nar": "Un sistema interamente digitale deve prevedere che cosa accade quando i servizi non sono disponibili. Il Ministero dell’ambiente ha disciplinato queste situazioni con due decreti direttoriali. Il decreto direttoriale trecentodiciannove del trenta ottobre duemilaventicinque definisce le modalità operative di sicurezza per il registro cronologico di carico e scarico. Il decreto direttoriale venticinque del cinque febbraio duemilaventisei definisce le modalità operative per la gestione del formulario digitale quando i servizi del registro non sono disponibili per cause diverse dalla manutenzione ordinaria o straordinaria. Il principio comune è che l’attività di gestione dei rifiuti non deve fermarsi, ma deve proseguire secondo una procedura documentata. Il primo passo consiste nel verificare l’effettiva indisponibilità attraverso le comunicazioni ufficiali pubblicate sul portale. Si applica quindi la procedura prevista, che per il formulario può comportare l’emissione in formato cartaceo con le indicazioni richieste. Al ripristino dei servizi occorre regolarizzare annotazioni e trasmissioni entro i termini stabiliti. Le modalità di sicurezza sono un’eccezione e non un’alternativa ordinaria: conservare l’evidenza del disservizio, con data e ora, e registrare chi ha attivato la procedura è parte integrante della conformità.",
      "est": true,
      "ancora": "Formulario di identificazione e registro di carico e scarico"
+    },
+    {
+     "foto": false,
+     "t": "scenario",
+     "tit": "Il portale non risponde",
+     "scena": "Venerdì alle 16 il trasportatore è nel piazzale per un ritiro di rifiuti pericolosi. Il gestionale non riesce a ottenere la vidimazione del formulario.",
+     "decisioni": [
+      {
+       "dom": "Che cosa verifichi per primo?",
+       "opz": [
+        [
+         "Se l’indisponibilità è effettiva e comunicata dai canali ufficiali del RENTRI, distinguendo un guasto del servizio da un problema del tuo gestionale",
+         true,
+         "Corretto: le modalità di sicurezza valgono solo per l’indisponibilità accertata dei servizi."
+        ],
+        [
+         "Niente: rimandi il ritiro di un mese",
+         false,
+         "Il rinvio può far superare i limiti del deposito temporaneo."
+        ],
+        [
+         "Fai partire il trasporto senza formulario",
+         false,
+         "Il trasporto senza formulario è sanzionato per produttore e trasportatore."
+        ]
+       ]
+      },
+      {
+       "dom": "L’indisponibilità è confermata. Come procedi?",
+       "opz": [
+        [
+         "Applichi la procedura del D.D. 5 febbraio 2026, n. 25, con le indicazioni richieste",
+         true,
+         "Corretto: la procedura consente di proseguire l’attività senza interruzioni."
+        ],
+        [
+         "Usi un vecchio formulario cartaceo già compilato",
+         false,
+         "Va seguita la procedura prevista."
+        ],
+        [
+         "Trasmetti i dati via e-mail all’ARPA",
+         false,
+         "Non è la procedura prevista."
+        ]
+       ]
+      },
+      {
+       "dom": "Al ripristino del servizio che cosa fai?",
+       "opz": [
+        [
+         "Nulla",
+         false,
+         "Annotazioni e trasmissioni vanno regolarizzate."
+        ],
+        [
+         "Regolarizzi annotazioni e trasmissioni nei termini indicati e conservi le prove dell’indisponibilità",
+         true,
+         "Corretto: conservare le evidenze tutela l’impresa in caso di controllo."
+        ],
+        [
+         "Annulli il ritiro",
+         false,
+         "Il ritiro è avvenuto regolarmente con la procedura di sicurezza."
+        ]
+       ]
+      }
+     ],
+     "chiusura": "Accertare l’indisponibilità, applicare la procedura di sicurezza, regolarizzare al ripristino e conservare le prove: l’attività non si ferma e la tracciabilità resta completa.",
+     "nar": "Il RENTRI non risponde durante un ritiro. Decidi come procedere.",
+     "rif": "D.D. 5 febbraio 2026, n. 25 · D.D. 30 ottobre 2025, n. 319",
+     "est": true,
+     "ancora": "Indisponibilità dei servizi: le modalità operative di sicurezza"
     },
     {
      "foto": false,
@@ -1028,6 +2090,79 @@ window.CORSO = {
     },
     {
      "foto": false,
+     "t": "scenario",
+     "tit": "La vasca dell’autolavaggio interno",
+     "scena": "Un’impresa di autotrasporti lava i mezzi nel piazzale. Le acque finiscono in una vasca interrata senza uscita, svuotata ogni mese con un’autobotte.",
+     "decisioni": [
+      {
+       "dom": "Come si qualificano le acque raccolte nella vasca?",
+       "opz": [
+        [
+         "Scarico in fognatura",
+         false,
+         "Manca il sistema stabile di collettamento verso un corpo recettore."
+        ],
+        [
+         "Rifiuto liquido, perché sono raccolte e trasportate senza un sistema stabile di collettamento",
+         true,
+         "Corretto: si applica la Parte IV del D.lgs. 152/2006."
+        ],
+        [
+         "Acque meteoriche",
+         false,
+         "Sono acque di lavaggio di un’attività."
+        ]
+       ]
+      },
+      {
+       "dom": "Che cosa comporta la qualificazione come rifiuto?",
+       "opz": [
+        [
+         "Nessun adempimento",
+         false,
+         "Il rifiuto liquido va gestito come ogni altro rifiuto."
+        ],
+        [
+         "Codice EER, deposito temporaneo, formulario e verifica dell’autotrasportatore e dell’impianto di destinazione",
+         true,
+         "Corretto: valgono tutte le regole della gestione dei rifiuti."
+        ],
+        [
+         "Solo un’analisi annuale",
+         false,
+         "Non basta."
+        ]
+       ]
+      },
+      {
+       "dom": "L’impresa vuole collegare la vasca alla fognatura. Che cosa serve?",
+       "opz": [
+        [
+         "Basta aprire un tubo",
+         false,
+         "Sarebbe uno scarico non autorizzato."
+        ],
+        [
+         "Un’autorizzazione allo scarico, sentito il gestore, con eventuali pretrattamenti come la disoleazione",
+         true,
+         "Corretto: lo scarico di acque reflue industriali in fognatura va autorizzato."
+        ],
+        [
+         "Una comunicazione all’INAIL",
+         false,
+         "Non è l’ente competente."
+        ]
+       ]
+      }
+     ],
+     "chiusura": "Senza un sistema stabile di collettamento il refluo è un rifiuto liquido; per trasformarlo in uno scarico servono un collegamento stabile e l’autorizzazione.",
+     "nar": "Le acque di lavaggio dei mezzi finiscono in una vasca. Qualificale e decidi.",
+     "rif": "Artt. 74, 124 e 185 D.lgs. 152/2006",
+     "est": true,
+     "ancora": "Scarico o rifiuto liquido?"
+    },
+    {
+     "foto": false,
      "t": "testo",
      "tit": "La nuova direttiva sulle acque reflue urbane",
      "lead": "La Direttiva (UE) 2024/3019 rifonde la disciplina delle acque reflue urbane e introduce la responsabilità estesa per i produttori di farmaci e cosmetici.",
@@ -1078,6 +2213,79 @@ window.CORSO = {
      "nar": "Il principio generale dell’articolo centoventiquattro è che tutti gli scarichi devono essere preventivamente autorizzati. Fanno eccezione gli scarichi di acque reflue domestiche in rete fognaria, sempre ammessi nel rispetto dei regolamenti del gestore del servizio idrico integrato. L’autorizzazione è rilasciata al titolare dell’attività da cui origina lo scarico, ha validità di quattro anni e il rinnovo va chiesto un anno prima della scadenza; per le piccole e medie imprese confluisce nell’autorizzazione unica ambientale, che dura quindici anni. I valori limite sono fissati nelle tabelle dell’Allegato cinque alla Parte terza: la tabella tre per gli scarichi in acque superficiali e in fognatura, la tabella quattro per i casi ammessi di scarico sul suolo; per la fognatura valgono anche i limiti stabiliti dal gestore. L’articolo centouno impone che gli scarichi industriali siano resi accessibili per il campionamento nel punto assunto per la misurazione, di solito un pozzetto immediatamente a monte dell’immissione nel corpo ricettore, e vieta di raggiungere i limiti diluendo il refluo con acque prelevate esclusivamente a questo scopo. Di norma la verifica avviene su un campione medio prelevato nell’arco di tre ore.",
      "est": true,
      "ancora": "Autorizzazione allo scarico e valori limite"
+    },
+    {
+     "foto": false,
+     "t": "scenario",
+     "tit": "L’autorizzazione in scadenza",
+     "scena": "Controllando l’archivio scopri che l’AUA dello stabilimento scade fra quattro mesi e nessuno ha presentato la domanda di rinnovo.",
+     "decisioni": [
+      {
+       "dom": "Che cosa fai?",
+       "opz": [
+        [
+         "Presenti subito la domanda, segnalando il ritardo rispetto al termine di sei mesi prima della scadenza",
+         true,
+         "Corretto: la domanda va presentata comunque al più presto, e il ritardo va gestito con l’autorità competente."
+        ],
+        [
+         "Aspetti la scadenza e poi chiedi una nuova AUA",
+         false,
+         "Alla scadenza lo scarico resterebbe senza titolo."
+        ],
+        [
+         "Nulla: l’autorizzazione si rinnova da sola",
+         false,
+         "Il rinnovo non è automatico."
+        ]
+       ]
+      },
+      {
+       "dom": "Se il titolo scadesse prima del rinnovo, che cosa rischieresti scaricando acque industriali?",
+       "opz": [
+        [
+         "Nulla, la domanda basta sempre",
+         false,
+         "La continuità dell’esercizio è legata al rispetto dei termini di presentazione."
+        ],
+        [
+         "La contravvenzione per scarico senza autorizzazione dell’art. 137",
+         true,
+         "Corretto: lo scarico di acque reflue industriali senza titolo è un reato."
+        ],
+        [
+         "Solo una sanzione del gestore",
+         false,
+         "È una contravvenzione penale."
+        ]
+       ]
+      },
+      {
+       "dom": "Come eviti che succeda di nuovo?",
+       "opz": [
+        [
+         "Uno scadenzario con promemoria a 12 e a 8 mesi dalla scadenza e un responsabile designato",
+         true,
+         "Corretto: la gestione delle scadenze è un controllo organizzativo essenziale."
+        ],
+        [
+         "Affidarsi alla memoria del titolare",
+         false,
+         "Non è un controllo affidabile."
+        ],
+        [
+         "Rinnovare ogni anno",
+         false,
+         "Non è necessario né previsto."
+        ]
+       ]
+      }
+     ],
+     "chiusura": "Rinnovare per tempo, sapere che cosa si rischia, presidiare le scadenze con uno scadenzario: la continuità dello scarico è un risultato organizzativo.",
+     "nar": "Un’autorizzazione sta per scadere senza domanda di rinnovo. Decidi come intervenire.",
+     "rif": "D.P.R. 59/2013, art. 5 · art. 137 D.lgs. 152/2006",
+     "est": true,
+     "ancora": "Autorizzazione, campionamento e divieti"
     },
     {
      "foto": false,
@@ -1362,6 +2570,43 @@ window.CORSO = {
     },
     {
      "foto": false,
+     "t": "esempio",
+     "tit": "Esempio guidato · Il ravvedimento operoso",
+     "lead": "Come la condotta dopo il fatto riduce la pena (art. 452-decies c.p.).",
+     "passi": [
+      [
+       "Il fatto",
+       "Un’impresa è imputata di inquinamento ambientale per uno scarico che ha compromesso un corso d’acqua.",
+       "Art. 452-bis c.p."
+      ],
+      [
+       "La scelta",
+       "Prima dell’apertura del dibattimento di primo grado provvede concretamente alla messa in sicurezza e alla bonifica.",
+       "Azione prima del dibattimento"
+      ],
+      [
+       "L’effetto",
+       "Le pene sono diminuite dalla metà a due terzi.",
+       "Riduzione da 1/2 a 2/3"
+      ],
+      [
+       "La collaborazione",
+       "Chi aiuta concretamente l’autorità nella ricostruzione del fatto ottiene una diminuzione da un terzo alla metà.",
+       "Riduzione da 1/3 a 1/2"
+      ],
+      [
+       "La sospensione",
+       "Il procedimento può essere sospeso per il tempo necessario alle attività, entro i limiti di legge.",
+       "Tempo per bonificare"
+      ]
+     ],
+     "nar": "Il ravvedimento operoso premia chi rimedia. Se prima dell’apertura del dibattimento di primo grado l’impresa provvede concretamente alla messa in sicurezza e alla bonifica, le pene sono diminuite dalla metà a due terzi. Chi aiuta concretamente l’autorità a ricostruire il fatto ottiene una diminuzione da un terzo alla metà. Il procedimento può essere sospeso per il tempo necessario a eseguire le attività.",
+     "rif": "Art. 452-decies c.p.",
+     "est": true,
+     "ancora": "Ravvedimento operoso, confisca e ripristino dello stato dei luoghi"
+    },
+    {
+     "foto": false,
      "t": "testo",
      "tit": "Sostanze ozono lesive e gas fluorurati: le nuove fattispecie",
      "lead": "Il D.lgs. 81/2026 ha introdotto sanzioni penali per le violazioni più rilevanti dei regolamenti europei sulle sostanze ozono lesive e sui gas fluorurati.",
@@ -1491,6 +2736,116 @@ window.CORSO = {
      "nar": "La procedura della Parte sesta-bis si sviluppa in fasi scandite da termini precisi, che l’impresa deve conoscere per non perdere il beneficio dell’estinzione. Quando accerta una contravvenzione che non ha cagionato danno o pericolo concreto e attuale, l’organo di vigilanza impartisce una prescrizione, asseverata tecnicamente dall’ente specializzato competente, con un termine per la regolarizzazione non superiore al periodo di tempo tecnicamente necessario. Il termine può essere prorogato per una sola volta, su richiesta motivata del contravventore, per un periodo non superiore a sei mesi, quando la complessità degli interventi lo giustifica. Entro sessanta giorni dalla scadenza del termine, l’organo di vigilanza verifica se la violazione è stata eliminata secondo le modalità e nel termine indicati. In caso positivo, ammette il contravventore a pagare, entro trenta giorni, una somma pari a un quarto del massimo dell’ammenda prevista per la contravvenzione. Entro i centoventi giorni successivi alla scadenza del termine, l’organo di vigilanza comunica al pubblico ministero l’adempimento e l’eventuale pagamento, e il reato si estingue. La richiesta di proroga va presentata prima della scadenza e motivata con ragioni tecniche documentate, ad esempio i tempi di fornitura e installazione di un impianto.",
      "est": true,
      "ancora": "La procedura estintiva delle contravvenzioni ambientali"
+    },
+    {
+     "foto": false,
+     "t": "esempio",
+     "tit": "Esempio guidato · Quanto si paga con la procedura estintiva",
+     "lead": "Il calcolo per una contravvenzione ambientale (art. 318-quater).",
+     "passi": [
+      [
+       "La contravvenzione",
+       "Superamento dei valori limite di emissione: arresto fino a un anno o ammenda fino a 10.000 €.",
+       "Art. 279, comma 2, D.lgs. 152/2006"
+      ],
+      [
+       "La prescrizione",
+       "L’organo di vigilanza impartisce una prescrizione tecnica con un termine per l’adeguamento.",
+       "Adeguamento entro il termine"
+      ],
+      [
+       "La verifica",
+       "Accertato l’adempimento, il contravventore è ammesso al pagamento.",
+       "Verifica dell’adempimento"
+      ],
+      [
+       "L’importo",
+       "Un quarto del massimo dell’ammenda prevista.",
+       "10.000 € ÷ 4 = 2.500 €"
+      ],
+      [
+       "L’estinzione",
+       "Pagamento entro 30 giorni: la contravvenzione si estingue.",
+       "Pagamento entro 30 giorni → estinzione"
+      ]
+     ],
+     "nar": "Un esempio di procedura estintiva. Il superamento dei valori limite di emissione è punito con l’arresto fino a un anno o con l’ammenda fino a diecimila euro. L’organo di vigilanza impartisce una prescrizione con un termine. Se l’adeguamento è accertato, il contravventore è ammesso a pagare un quarto del massimo dell’ammenda, cioè duemilacinquecento euro, entro trenta giorni: la contravvenzione si estingue.",
+     "rif": "D.lgs. 152/2006, artt. 318-bis e seguenti",
+     "est": true,
+     "ancora": "Le fasi della procedura estintiva"
+    },
+    {
+     "foto": false,
+     "t": "scenario",
+     "tit": "La prescrizione dell’organo di vigilanza",
+     "scena": "Dopo un sopralluogo ricevi una prescrizione: adeguare il sistema di abbattimento del camino E1 entro 90 giorni. Il fornitore del nuovo filtro annuncia una consegna in 120 giorni.",
+     "decisioni": [
+      {
+       "dom": "Che cosa fai?",
+       "opz": [
+        [
+         "Aspetti il filtro e adegui dopo la scadenza",
+         false,
+         "Il mancato adempimento nel termine impedisce l’estinzione."
+        ],
+        [
+         "Chiedi una proroga motivata prima della scadenza, documentando i tempi di consegna",
+         true,
+         "Corretto: la proroga si chiede prima della scadenza, con motivazioni documentate."
+        ],
+        [
+         "Ignori la prescrizione: il procedimento si chiuderà da solo",
+         false,
+         "Senza adempimento il procedimento penale prosegue."
+        ]
+       ]
+      },
+      {
+       "dom": "Nel frattempo, come gestisci le emissioni?",
+       "opz": [
+        [
+         "Adotti misure provvisorie per rispettare i limiti, anche riducendo la produzione",
+         true,
+         "Corretto: la conformità va garantita anche durante l’adeguamento."
+        ],
+        [
+         "Nessuna misura fino al nuovo filtro",
+         false,
+         "Il superamento continuerebbe."
+        ],
+        [
+         "Spegni il sistema di abbattimento esistente",
+         false,
+         "Peggiora le emissioni."
+        ]
+       ]
+      },
+      {
+       "dom": "Completato l’adeguamento, che cosa fai?",
+       "opz": [
+        [
+         "Lo comunichi all’organo di vigilanza con la documentazione e attendi la verifica",
+         true,
+         "Corretto: la verifica dell’adempimento apre la fase del pagamento."
+        ],
+        [
+         "Nulla: l’organo lo scoprirà al prossimo controllo",
+         false,
+         "L’adempimento va comunicato e verificato."
+        ],
+        [
+         "Paghi subito senza attendere la verifica",
+         false,
+         "Il pagamento avviene dopo l’ammissione."
+        ]
+       ]
+      }
+     ],
+     "chiusura": "Rispettare il termine o chiedere per tempo la proroga, garantire la conformità nel frattempo, comunicare l’adempimento: è così che la procedura estintiva funziona a favore dell’impresa.",
+     "nar": "Hai ricevuto una prescrizione con un termine stretto. Gestiscila correttamente.",
+     "rif": "D.lgs. 152/2006, Parte VI-bis",
+     "est": true,
+     "ancora": "Le fasi della procedura estintiva"
     },
     {
      "foto": false,
@@ -1724,6 +3079,83 @@ window.CORSO = {
     },
     {
      "foto": false,
+     "t": "esempio",
+     "tit": "Esempio guidato · La sanzione pecuniaria all’ente",
+     "lead": "Il sistema per quote del D.lgs. 231/2001.",
+     "passi": [
+      [
+       "Il reato presupposto",
+       "Inquinamento ambientale commesso nell’interesse dell’ente.",
+       "Art. 25-undecies: da 250 a 600 quote"
+      ],
+      [
+       "Il numero di quote",
+       "Il giudice lo fissa in base a gravità del fatto, grado di responsabilità e attività svolte per attenuare le conseguenze.",
+       "Esempio: 300 quote"
+      ],
+      [
+       "Il valore della quota",
+       "Il giudice lo fissa tra 258 e 1.549 € in base alle condizioni economiche dell’ente.",
+       "Esempio: 800 € per quota"
+      ],
+      [
+       "La sanzione",
+       "Numero di quote per valore della quota.",
+       "300 × 800 = 240.000 €"
+      ],
+      [
+       "Le interdittive",
+       "Per alcuni reati si aggiungono sanzioni interdittive, come il divieto di contrattare con la pubblica amministrazione.",
+       "Oltre alla sanzione pecuniaria"
+      ]
+     ],
+     "nar": "La sanzione pecuniaria all’ente si calcola per quote. Per l’inquinamento ambientale l’articolo venticinque undecies prevede da duecentocinquanta a seicento quote. Il giudice fissa il numero di quote in base alla gravità del fatto e alla responsabilità dell’ente, e il valore di ciascuna quota, tra duecentocinquantotto e millecinquecentoquarantanove euro, in base alle condizioni economiche. Con trecento quote da ottocento euro la sanzione è di duecentoquarantamila euro, a cui possono aggiungersi sanzioni interdittive.",
+     "rif": "D.lgs. 231/2001, artt. 10, 11 e 25-undecies",
+     "est": true,
+     "ancora": "Sanzioni all’ente: quote, interdittive, confisca"
+    },
+    {
+     "foto": false,
+     "t": "classifica",
+     "tit": "Chi risponde?",
+     "lead": "Seleziona una situazione, poi chi ne risponde.",
+     "colonne": [
+      "La persona fisica che ha commesso il reato",
+      "Anche l’ente, ai sensi del D.lgs. 231/2001"
+     ],
+     "schede": [
+      [
+       "Il responsabile di produzione autorizza uno scarico non autorizzato per risparmiare sui costi di trattamento",
+       1,
+       "Il reato è commesso nell’interesse dell’ente: risponde anche l’ente, se il reato è tra quelli dell’art. 25-undecies.",
+       "Corretto."
+      ],
+      [
+       "Un dipendente abbandona di sua iniziativa rifiuti propri in un campo, fuori dall’orario di lavoro",
+       0,
+       "Non c’è interesse o vantaggio dell’ente: risponde la persona.",
+       "Corretto."
+      ],
+      [
+       "L’amministratore sceglie un trasportatore di rifiuti non iscritto all’Albo perché costa meno",
+       1,
+       "Il risparmio è un vantaggio per l’ente.",
+       "Corretto."
+      ],
+      [
+       "Un tecnico esterno falsifica un rapporto di prova all’insaputa dell’impresa e senza alcun vantaggio per essa",
+       0,
+       "Senza interesse o vantaggio dell’ente risponde chi ha commesso il fatto.",
+       "Corretto."
+      ]
+     ],
+     "nar": "Quattro situazioni. Valuta se risponde solo la persona fisica o anche l’ente.",
+     "rif": "D.lgs. 231/2001, artt. 5 e 25-undecies",
+     "est": true,
+     "ancora": "Sanzioni all’ente: quote, interdittive, confisca"
+    },
+    {
+     "foto": false,
      "t": "testo",
      "tit": "Costruire il modello organizzativo per i reati ambientali",
      "lead": "Il modello organizzativo è efficace se nasce da un’analisi reale dei processi aziendali e si traduce in controlli verificabili.",
@@ -1804,6 +3236,126 @@ window.CORSO = {
      "nar": "Il decreto legislativo ventiquattro del duemilaventitré, che recepisce la direttiva europea sul whistleblowing, disciplina la protezione delle persone che segnalano violazioni di disposizioni nazionali o europee di cui sono venute a conoscenza nel contesto lavorativo. Rientrano tra le violazioni segnalabili anche quelle in materia di tutela dell’ambiente e, per gli enti dotati di modello organizzativo, le condotte rilevanti ai sensi del decreto duecentotrentuno. Gli enti pubblici, le imprese con almeno cinquanta lavoratori e gli enti che hanno adottato il modello organizzativo devono istituire canali interni di segnalazione, scritti e orali, affidati a un gestore autonomo e formato, che garantiscano la riservatezza dell’identità del segnalante, delle persone coinvolte e del contenuto. Il gestore rilascia un avviso di ricevimento entro sette giorni e fornisce un riscontro entro tre mesi. Alle condizioni previste dalla legge il segnalante può utilizzare il canale esterno dell’Autorità nazionale anticorruzione o ricorrere alla divulgazione pubblica. Sono vietate le ritorsioni, come licenziamenti, demansionamenti o trasferimenti, e l’Autorità può applicare sanzioni a chi le attua o a chi non istituisce i canali. Nel modello organizzativo il sistema di segnalazione è uno degli strumenti con cui l’organismo di vigilanza intercetta per tempo le violazioni, comprese quelle ambientali.",
      "est": true,
      "ancora": "La responsabilità dell’ente: D.lgs. 231/2001, art. 25-undecies"
+    },
+    {
+     "foto": false,
+     "t": "scenario",
+     "tit": "La segnalazione del magazziniere",
+     "scena": "Un magazziniere nota che fusti di solvente esausto vengono caricati su un furgone senza formulario. Teme ritorsioni.",
+     "decisioni": [
+      {
+       "dom": "Che cosa può fare?",
+       "opz": [
+        [
+         "Nulla: non è affar suo",
+         false,
+         "Il D.lgs. 24/2023 tutela chi segnala violazioni nel contesto lavorativo."
+        ],
+        [
+         "Usare il canale di segnalazione interno dell’impresa",
+         true,
+         "Corretto: il canale interno garantisce la riservatezza dell’identità del segnalante."
+        ],
+        [
+         "Pubblicare subito un video sui social",
+         false,
+         "La divulgazione pubblica è tutelata solo in condizioni specifiche, dopo i canali interni ed esterni o in caso di pericolo imminente."
+        ]
+       ]
+      },
+      {
+       "dom": "Chi gestisce la segnalazione?",
+       "opz": [
+        [
+         "Il responsabile del magazzino coinvolto",
+         false,
+         "Chi gestisce le segnalazioni deve essere autonomo e formato, non coinvolto nei fatti."
+        ],
+        [
+         "Il gestore del canale individuato dall’impresa, che dà riscontro nei termini previsti",
+         true,
+         "Corretto: avviso di ricevimento entro 7 giorni e riscontro entro 3 mesi."
+        ],
+        [
+         "Nessuno: le segnalazioni anonime si archiviano",
+         false,
+         "Le segnalazioni vanno gestite secondo la procedura."
+        ]
+       ]
+      },
+      {
+       "dom": "Dopo la segnalazione il magazziniere viene trasferito a un turno sgradito. Che cosa prevede la legge?",
+       "opz": [
+        [
+         "È una ritorsione vietata, che può essere comunicata all’ANAC",
+         true,
+         "Corretto: il D.lgs. 24/2023 vieta le ritorsioni e prevede sanzioni."
+        ],
+        [
+         "È legittimo se deciso dal capo reparto",
+         false,
+         "Le misure ritorsive sono nulle."
+        ],
+        [
+         "Il segnalante perde la tutela",
+         false,
+         "La tutela resta se la segnalazione è fatta in buona fede."
+        ]
+       ]
+      }
+     ],
+     "chiusura": "Canale interno, riservatezza, riscontro nei tempi e divieto di ritorsioni: sono le garanzie che rendono utile la segnalazione anche per prevenire reati ambientali.",
+     "nar": "Un lavoratore vede una gestione irregolare dei rifiuti. Accompagnalo nella segnalazione.",
+     "rif": "D.lgs. 24/2023",
+     "est": true,
+     "ancora": "Le segnalazioni di illeciti: il D.lgs. 24/2023"
+    },
+    {
+     "foto": false,
+     "t": "applica",
+     "tit": "La mappa dei rischi ambientali della tua azienda",
+     "lead": "Individua le attività sensibili per i reati ambientali.",
+     "voci": [
+      "Scarichi idrici",
+      "Emissioni in atmosfera",
+      "Gestione dei rifiuti e scelta dei trasportatori",
+      "Stoccaggio di sostanze pericolose",
+      "Serbatoi interrati o fuori terra",
+      "Impianti con gas fluorurati",
+      "Terreni o falde potenzialmente contaminati"
+     ],
+     "campo": "Le due attività più sensibili e il controllo che proporresti",
+     "esempio": "Es.: scelta dei trasportatori di rifiuti → verifica iscrizione all’Albo prima di ogni contratto",
+     "min": 3,
+     "nar": "Individua le attività della tua azienda più esposte ai reati ambientali e scrivi per le due più sensibili il controllo che proporresti.",
+     "est": true,
+     "ancora": "Le segnalazioni di illeciti: il D.lgs. 24/2023"
+    },
+    {
+     "foto": false,
+     "t": "vf",
+     "tit": "Ripasso · Responsabilità ambientale",
+     "voci": [
+      [
+       "La procedura estintiva si applica alle contravvenzioni che non hanno cagionato danno o pericolo concreto e attuale.",
+       true,
+       "Vero: art. 318-bis D.lgs. 152/2006."
+      ],
+      [
+       "L’evento potenzialmente contaminante va comunicato entro 24 ore.",
+       true,
+       "Vero: art. 242."
+      ],
+      [
+       "L’ente risponde sempre dei reati commessi dai propri dipendenti.",
+       false,
+       "Falso: serve un reato presupposto commesso nell’interesse o a vantaggio dell’ente."
+      ]
+     ],
+     "nar": "Ripasso: tre affermazioni sulla responsabilità ambientale.",
+     "rif": "D.lgs. 152/2006 · D.lgs. 231/2001",
+     "est": true,
+     "ancora": "Le segnalazioni di illeciti: il D.lgs. 24/2023"
     },
     {
      "t": "verifica",

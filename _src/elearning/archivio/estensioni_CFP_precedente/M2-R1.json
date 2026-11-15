@@ -1,0 +1,21 @@
+{
+ "dopo": "Rendicontazione, verifica e riduzione",
+ "origine": "ESG/M1-2.json",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "CBAM: il meccanismo di adeguamento del carbonio alle frontiere",
+   "lead": "Dal 1° gennaio 2026 il CBAM è entrato nel periodo definitivo: gli importatori di alcune merci acquistano certificati corrispondenti alle emissioni incorporate.",
+   "punti": [
+    "Merci interessate: ferro e acciaio, alluminio, cemento, fertilizzanti, idrogeno, energia elettrica",
+    "Soglia «de minimis» di 50 tonnellate all’anno per ferro e acciaio, alluminio, fertilizzanti e cemento",
+    "Solo dichiaranti CBAM autorizzati possono importare oltre soglia",
+    "Acquisto dei certificati dal 1° febbraio 2027 per le importazioni del 2026",
+    "Prima dichiarazione annuale e restituzione dei certificati entro il 30 settembre 2027"
+   ],
+   "appro": "Dal 2027 il dichiarante deve detenere ogni trimestre certificati pari ad almeno il 50% delle emissioni incorporate nelle merci importate dall’inizio dell’anno.",
+   "rif": "Reg. (UE) 2023/956, come modificato dal Reg. (UE) 2025/2083, e atti di esecuzione",
+   "nar": "Il meccanismo di adeguamento del carbonio alle frontiere, in sigla CBAM, applica alle importazioni di alcune merci un costo del carbonio equivalente a quello sostenuto dai produttori europei nel sistema di scambio delle quote di emissione. Dopo la fase transitoria di sola rendicontazione, dal primo gennaio duemilaventisei il meccanismo è entrato nel periodo definitivo. Le merci interessate sono ferro e acciaio, alluminio, cemento, fertilizzanti, idrogeno ed energia elettrica, compresi alcuni prodotti derivati. Il regolamento duemilaventicinque barra duemilaottantatré ha introdotto una soglia de minimis di cinquanta tonnellate all’anno per ferro e acciaio, alluminio, fertilizzanti e cemento, che esenta la maggior parte dei piccoli importatori. Oltre la soglia, solo un dichiarante CBAM autorizzato può importare. I certificati relativi alle importazioni del duemilaventisei si acquistano a partire dal primo febbraio duemilaventisette, e la prima dichiarazione annuale, con la restituzione dei certificati, va presentata entro il trenta settembre duemilaventisette. Dal duemilaventisette il dichiarante deve inoltre detenere, alla fine di ogni trimestre, certificati pari ad almeno la metà delle emissioni incorporate nelle merci importate. Per l’impresa importatrice diventa essenziale ottenere dai fornitori extra europei i dati effettivi sulle emissioni."
+  }
+ ]
+}

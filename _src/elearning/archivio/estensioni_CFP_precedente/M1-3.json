@@ -1,0 +1,20 @@
+{
+ "dopo": "Principi e confini dell’inventario",
+ "schermate": [
+  {
+   "t": "testo",
+   "tit": "Le categorie di emissione della UNI EN ISO 14064-1",
+   "lead": "La ISO 14064-1:2018 classifica le emissioni dell’organizzazione in sei categorie, più dettagliate degli Scope del GHG Protocol.",
+   "punti": [
+    "Categoria 1: emissioni e rimozioni dirette",
+    "Categoria 2: emissioni indirette da energia importata",
+    "Categoria 3: emissioni indirette da trasporto",
+    "Categoria 4: emissioni indirette da prodotti utilizzati dall’organizzazione",
+    "Categorie 5 e 6: uso dei prodotti dell’organizzazione e altre fonti"
+   ],
+   "appro": "Le emissioni indirette si includono quando sono significative, secondo criteri definiti e documentati dall’organizzazione.",
+   "rif": "UNI EN ISO 14064-1:2019 · GHG Protocol, Corporate Standard",
+   "nar": "La norma ISO quattordicimilasessantaquattro, parte prima, nell’edizione del duemiladiciotto recepita in Italia nel duemiladiciannove, specifica i principi e i requisiti per quantificare e rendicontare le emissioni e le rimozioni di gas serra a livello di organizzazione. A differenza del GHG Protocol, che usa tre Scope, la norma classifica le emissioni in sei categorie. La categoria uno comprende le emissioni e le rimozioni dirette, da fonti possedute o controllate, come combustione e perdite di refrigeranti. La categoria due comprende le emissioni indirette da energia importata, in particolare l’energia elettrica. La categoria tre riguarda le emissioni indirette da trasporto, sia delle merci in ingresso e uscita sia delle persone. La categoria quattro le emissioni indirette dai prodotti utilizzati dall’organizzazione, come materie prime, beni strumentali e servizi. La categoria cinque riguarda l’uso dei prodotti dell’organizzazione e il loro fine vita, la sei le altre fonti. La norma richiede di includere le emissioni indirette significative, secondo criteri di significatività definiti e documentati, come entità, influenza, rischio e richieste delle parti interessate. La corrispondenza con gli Scope è semplice: la categoria uno equivale allo Scope uno, la due allo Scope due, le altre allo Scope tre."
+  }
+ ]
+}

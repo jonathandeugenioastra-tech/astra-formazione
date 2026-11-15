@@ -1,0 +1,75 @@
+{
+ "dopo": "Il burnout nella classificazione dell’OMS",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "I segnali in reparto",
+   "scena": "In un reparto di assistenza domiciliare il coordinatore nota assenze ripetute, cinismo verso gli utenti e calo della qualità del lavoro in diverse operatrici.",
+   "decisioni": [
+    {
+     "dom": "Come leggi questi segnali?",
+     "opz": [
+      [
+       "Possibili indicatori di burnout legati al contesto di lavoro: esaurimento, distacco e ridotta efficacia",
+       true,
+       "Corretto: sono le tre dimensioni descritte dall’OMS."
+      ],
+      [
+       "Mancanza di impegno individuale",
+       false,
+       "Il burnout è legato al contesto lavorativo."
+      ],
+      [
+       "Malattia da diagnosticare in azienda",
+       false,
+       "Non è una diagnosi aziendale."
+      ]
+     ]
+    },
+    {
+     "dom": "Che cosa fai come RSPP?",
+     "opz": [
+      [
+       "Proponi di aggiornare la valutazione dello stress lavoro-correlato per il gruppo e di coinvolgere il medico competente",
+       true,
+       "Corretto."
+      ],
+      [
+       "Chiedi provvedimenti disciplinari",
+       false,
+       "Non agisce sulle cause."
+      ],
+      [
+       "Aspetti la prossima valutazione triennale",
+       false,
+       "I segnali richiedono di intervenire."
+      ]
+     ]
+    },
+    {
+     "dom": "Quali misure organizzative sono pertinenti?",
+     "opz": [
+      [
+       "Carichi e turni sostenibili, supervisione e confronto sui casi difficili, autonomia nella pianificazione",
+       true,
+       "Corretto."
+      ],
+      [
+       "Più controlli sulle presenze",
+       false,
+       "Non riducono il carico."
+      ],
+      [
+       "Corsi motivazionali e basta",
+       false,
+       "Non agiscono sull’organizzazione."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "Il burnout è un fenomeno legato al contesto di lavoro: si riconosce dai segnali di gruppo e si affronta con la valutazione dello stress e misure organizzative.",
+   "nar": "Segnali di disagio in un reparto di assistenza. Interpreta e intervieni.",
+   "rif": "ICD-11, QD85 · art. 28 D.lgs. 81/2008"
+  }
+ ]
+}

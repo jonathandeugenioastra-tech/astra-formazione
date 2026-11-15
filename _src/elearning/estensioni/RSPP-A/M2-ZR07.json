@@ -1,0 +1,75 @@
+{
+ "dopo": "Medico competente e RLS",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "Il medico che non fa il sopralluogo",
+   "scena": "Il medico competente di un’impresa metalmeccanica effettua le visite in un ambulatorio esterno e non visita gli ambienti di lavoro da tre anni. Nel DVR non è indicata una periodicità diversa.",
+   "decisioni": [
+    {
+     "dom": "Che cosa prevede la norma?",
+     "opz": [
+      [
+       "Il medico competente visita gli ambienti di lavoro almeno una volta l’anno o con la diversa cadenza stabilita nel DVR",
+       true,
+       "Corretto: art. 25, comma 1, lettera l)."
+      ],
+      [
+       "Non deve mai visitarli",
+       false,
+       "La visita degli ambienti è un obbligo."
+      ],
+      [
+       "Solo dopo un infortunio",
+       false,
+       "Ha una cadenza periodica."
+      ]
+     ]
+    },
+    {
+     "dom": "Come interviene l’RSPP?",
+     "opz": [
+      [
+       "Segnala per iscritto la situazione al datore di lavoro e propone di programmare il sopralluogo con il medico",
+       true,
+       "Corretto: l’RSPP coordina e segnala."
+      ],
+      [
+       "Fa lui il sopralluogo al posto del medico",
+       false,
+       "Non sostituisce il medico."
+      ],
+      [
+       "Non è un suo problema",
+       false,
+       "Il funzionamento del sistema lo riguarda."
+      ]
+     ]
+    },
+    {
+     "dom": "Perché il sopralluogo è importante anche per l’RLS?",
+     "opz": [
+      [
+       "Perché alimenta la valutazione dei rischi e la relazione sanitaria che l’RLS esamina nella riunione periodica",
+       true,
+       "Corretto."
+      ],
+      [
+       "Non lo riguarda",
+       false,
+       "L’RLS partecipa alla riunione periodica."
+      ],
+      [
+       "Perché l’RLS deve firmare il verbale del medico",
+       false,
+       "Non è previsto."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "Il medico competente conosce i luoghi di lavoro solo visitandoli: il sopralluogo annuale, o con la cadenza del DVR, alimenta valutazione dei rischi e sorveglianza sanitaria.",
+   "nar": "Un medico competente che non visita gli ambienti. Intervieni.",
+   "rif": "Art. 25 D.lgs. 81/2008"
+  }
+ ]
+}

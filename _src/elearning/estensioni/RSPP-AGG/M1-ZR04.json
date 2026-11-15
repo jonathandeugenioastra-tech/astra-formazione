@@ -1,0 +1,39 @@
+{
+ "dopo": "Infortunio e responsabilità civile: esonero, regresso e danno differenziale",
+ "schermate": [
+  {
+   "t": "esempio",
+   "tit": "Esempio guidato · Il danno differenziale",
+   "lead": "Che cosa resta a carico del datore di lavoro responsabile.",
+   "passi": [
+    [
+     "L’evento",
+     "Un infortunio con postumi permanenti, di cui il datore di lavoro è riconosciuto responsabile penalmente.",
+     "Responsabilità accertata"
+    ],
+    [
+     "Il danno civilistico",
+     "Il giudice liquida il danno complessivo secondo i criteri civilistici: ad esempio 120.000 €.",
+     "120.000 €"
+    ],
+    [
+     "L’indennizzo INAIL",
+     "L’INAIL ha indennizzato il danno biologico e patrimoniale nei limiti della sua tutela: ad esempio 70.000 €.",
+     "70.000 €"
+    ],
+    [
+     "Il differenziale",
+     "La differenza resta a carico del responsabile: 120.000 − 70.000 = 50.000 €.",
+     "50.000 €"
+    ],
+    [
+     "Il regresso",
+     "L’INAIL può agire in regresso per recuperare quanto ha erogato.",
+     "Fino a 70.000 € di regresso"
+    ]
+   ],
+   "nar": "Vediamo il danno differenziale con importi illustrativi. Il giudice liquida un danno complessivo di centoventimila euro; l’INAIL ha già indennizzato settantamila euro. La differenza, cinquantamila euro, resta a carico del datore di lavoro responsabile, e l’INAIL può agire in regresso per recuperare quanto ha pagato. L’esonero dalla responsabilità civile non opera quando c’è responsabilità penale.",
+   "rif": "Artt. 10 e 11 D.P.R. 1124/1965"
+  }
+ ]
+}

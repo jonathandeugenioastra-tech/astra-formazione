@@ -1,0 +1,68 @@
+{
+ "dopo": "Il modello organizzativo dell’art. 30",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Il modello organizzativo per una PMI",
+   "lead": "Imposti il modello di organizzazione e gestione dell’art. 30 per una PMI metalmeccanica di 45 lavoratori.",
+   "dossier": [
+    [
+     "Situazione",
+     "DVR aggiornato, nessun sistema di gestione certificato"
+    ],
+    [
+     "Obiettivo",
+     "efficacia esimente ai sensi del D.lgs. 231/2001"
+    ],
+    [
+     "Risorse",
+     "RSPP esterno, un responsabile qualità interno"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Quali obblighi giuridici deve presidiare il modello?",
+     "min": 7,
+     "modello": "Standard tecnico-strutturali di attrezzature, impianti, luoghi e agenti; valutazione dei rischi e misure; emergenze, primo soccorso, appalti, riunioni periodiche, consultazione; sorveglianza sanitaria; informazione e formazione; vigilanza sul rispetto delle procedure; documentazione e certificazioni obbligatorie; verifiche periodiche.",
+     "criteri": [
+      "Ho elencato gli ambiti dell’art. 30, comma 1",
+      "Ho incluso la vigilanza"
+     ],
+     "minc": 100
+    },
+    {
+     "q": "Quali elementi organizzativi aggiungi?",
+     "min": 7,
+     "modello": "Sistemi di registrazione delle attività; articolazione di funzioni con competenze e poteri; sistema disciplinare per il mancato rispetto delle misure; sistema di controllo sull’attuazione e sul mantenimento del modello; riesame e modifica in caso di violazioni o cambiamenti.",
+     "criteri": [
+      "Ho previsto registrazioni e funzioni",
+      "Ho previsto il sistema disciplinare",
+      "Ho previsto controllo e riesame"
+     ]
+    },
+    {
+     "q": "Che cosa prevede la legge per le PMI e per i modelli conformi alle norme?",
+     "min": 6,
+     "modello": "In sede di prima applicazione i modelli conformi alla UNI EN ISO 45001 si presumono conformi per le parti corrispondenti; per le piccole e medie imprese sono previste procedure semplificate. Il D.L. 159/2025 ha aggiornato il riferimento alla UNI EN ISO 45001.",
+     "criteri": [
+      "Ho citato la presunzione di conformità",
+      "Ho citato le procedure semplificate per le PMI"
+     ]
+    },
+    {
+     "q": "Proponi un piano di attuazione in sei mesi.",
+     "min": 7,
+     "modello": "Mese 1: analisi delle attività sensibili e dei controlli esistenti. Mesi 2-3: procedure, deleghe, registrazioni e sistema disciplinare. Mese 4: formazione e comunicazione. Mese 5: organismo di vigilanza e flussi informativi. Mese 6: primo audit interno e riesame della direzione.",
+     "criteri": [
+      "Ho previsto l’analisi iniziale",
+      "Ho previsto procedure, formazione e organismo di vigilanza",
+      "Ho previsto audit e riesame"
+     ],
+     "minc": 120
+    }
+   ],
+   "nar": "Nel laboratorio imposti il modello organizzativo dell’articolo trenta per una PMI metalmeccanica: obblighi da presidiare, elementi organizzativi, semplificazioni per le PMI e un piano di attuazione. Confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "Art. 30 D.lgs. 81/2008 · D.lgs. 231/2001"
+  }
+ ]
+}

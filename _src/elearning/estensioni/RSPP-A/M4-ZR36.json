@@ -1,0 +1,39 @@
+{
+ "dopo": "La sorveglianza sanitaria",
+ "schermate": [
+  {
+   "t": "esempio",
+   "tit": "Esempio guidato · Il calendario della sorveglianza sanitaria",
+   "lead": "Le visite di un nuovo carrellista esposto a rumore.",
+   "passi": [
+    [
+     "Prima dell’adibizione",
+     "Visita preventiva, anche in fase preassuntiva, con giudizio di idoneità.",
+     "Visita preventiva"
+    ],
+    [
+     "Durante il lavoro",
+     "Visita periodica secondo il protocollo: di norma annuale, o con la periodicità stabilita dal medico in base al rischio.",
+     "Visita periodica"
+    ],
+    [
+     "Su richiesta",
+     "Il lavoratore può chiedere una visita se correlata ai rischi professionali.",
+     "Visita su richiesta"
+    ],
+    [
+     "Dopo una lunga assenza",
+     "Visita alla ripresa dopo un’assenza per motivi di salute superiore a 60 giorni continuativi.",
+     "Ripresa > 60 giorni"
+    ],
+    [
+     "Cambio di mansione",
+     "Visita al cambio di mansione per verificare l’idoneità.",
+     "Cambio di mansione"
+    ]
+   ],
+   "nar": "Vediamo il calendario della sorveglianza sanitaria di un carrellista esposto a rumore. Prima di iniziare fa la visita preventiva; poi le visite periodiche secondo il protocollo del medico competente. Può chiedere una visita se i disturbi sono legati al lavoro, e la fa alla ripresa dopo un’assenza per salute di oltre sessanta giorni e al cambio di mansione.",
+   "rif": "Art. 41 D.lgs. 81/2008"
+  }
+ ]
+}

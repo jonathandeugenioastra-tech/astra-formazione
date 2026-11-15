@@ -1,0 +1,55 @@
+{
+ "dopo": "La breve riunione di sicurezza in reparto",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Preparare una breve riunione di sicurezza",
+   "lead": "Prepari una breve riunione di inizio turno dopo un quasi incidente con un carroponte.",
+   "dossier": [
+    [
+     "Evento",
+     "un carico è passato sopra un operatore durante una movimentazione con carroponte"
+    ],
+    [
+     "Partecipanti",
+     "8 operatori del reparto"
+    ],
+    [
+     "Tempo",
+     "10 minuti"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Scrivi il messaggio chiave e la scaletta.",
+     "min": 6,
+     "modello": "Messaggio: mai sostare o passare sotto i carichi sospesi. Scaletta: 2 minuti per il fatto; 3 minuti per le cause e la regola; 3 minuti per le domande e le proposte dei lavoratori; 2 minuti per l’impegno condiviso.",
+     "criteri": [
+      "Ho scritto un solo messaggio chiave",
+      "Ho rispettato i 10 minuti"
+     ]
+    },
+    {
+     "q": "Quali domande poni per coinvolgere i lavoratori?",
+     "min": 5,
+     "modello": "Dove capita più spesso di passare vicino ai carichi? Che cosa ci rende difficile rispettare la regola? Come ci accorgiamo che un carico sta per muoversi?",
+     "criteri": [
+      "Ho scritto domande aperte",
+      "Ho cercato le cause pratiche"
+     ]
+    },
+    {
+     "q": "Come registri e dai seguito alla riunione?",
+     "min": 5,
+     "modello": "Verbale breve con data, tema, partecipanti, proposte raccolte e azioni con responsabile; verifica delle azioni al successivo incontro.",
+     "criteri": [
+      "Ho previsto il verbale",
+      "Ho previsto il seguito delle azioni"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio prepari una breve riunione di sicurezza di dieci minuti dopo un quasi incidente con un carroponte: messaggio, scaletta, domande e registrazione. Confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "Art. 36 D.lgs. 81/2008 · UNI EN ISO 45001, punto 5.4"
+  }
+ ]
+}

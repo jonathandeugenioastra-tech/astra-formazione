@@ -1,0 +1,39 @@
+{
+ "dopo": "L’impianto di terra e le verifiche periodiche",
+ "schermate": [
+  {
+   "t": "esempio",
+   "tit": "Esempio guidato · Lo scadenzario delle verifiche dell’impianto di terra",
+   "lead": "Tre siti di un’impresa.",
+   "passi": [
+    [
+     "Sito A",
+     "Stabilimento metalmeccanico ordinario, ultima verifica 2022.",
+     "Ogni 5 anni → 2027"
+    ],
+    [
+     "Sito B",
+     "Locale con pericolo di esplosione classificato, ultima verifica 2024.",
+     "Ogni 2 anni → 2026"
+    ],
+    [
+     "Sito C",
+     "Cantiere edile aperto nel 2026.",
+     "Ogni 2 anni"
+    ],
+    [
+     "Chi verifica",
+     "ASL o organismi abilitati, su richiesta del datore di lavoro.",
+     "Organismo abilitato"
+    ],
+    [
+     "Le evidenze",
+     "Dichiarazione di conformità iniziale e verbali delle verifiche conservati.",
+     "Documenti conservati"
+    ]
+   ],
+   "nar": "Organizziamo lo scadenzario delle verifiche dell’impianto di terra. Lo stabilimento ordinario si verifica ogni cinque anni, quindi nel duemilaventisette. Il locale con pericolo di esplosione e il cantiere ogni due anni. Le verifiche le eseguono ASL o organismi abilitati su richiesta del datore di lavoro, e si conservano dichiarazione di conformità e verbali.",
+   "rif": "D.P.R. 462/2001"
+  }
+ ]
+}

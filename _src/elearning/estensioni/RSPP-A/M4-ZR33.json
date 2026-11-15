@@ -1,0 +1,59 @@
+{
+ "dopo": "Esempio applicativo: scegliere guanti e otoprotettori",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Scegliere l’otoprotettore",
+   "lead": "Scegli l’otoprotettore per un addetto alla molatura.",
+   "dossier": [
+    [
+     "Esposizione",
+     "LC = 98 dB(C) durante la molatura"
+    ],
+    [
+     "Candidati",
+     "inserti in schiuma SNR 37; cuffia SNR 28; inserti ad archetto SNR 22"
+    ],
+    [
+     "Metodo SNR",
+     "L’A = LC − SNR"
+    ],
+    [
+     "Criterio di protezione",
+     "L’A tra 70 e 75 dB(A): protezione buona; tra 75 e 80 o tra 65 e 70: accettabile; sotto 65: iperprotezione; sopra 80: insufficiente"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Calcola il livello effettivo all’orecchio per ciascun candidato.",
+     "min": 6,
+     "modello": "Inserti SNR 37: 98 − 37 = 61 dB(A). Cuffia SNR 28: 98 − 28 = 70 dB(A). Archetto SNR 22: 98 − 22 = 76 dB(A).",
+     "criteri": [
+      "Ho applicato il metodo SNR",
+      "Ho calcolato i tre valori"
+     ]
+    },
+    {
+     "q": "Quale scegli e perché?",
+     "min": 6,
+     "modello": "La cuffia, con 70 dB(A): protezione buona. Gli inserti in schiuma iperproteggono, isolando l’addetto e rendendo difficile la comunicazione; gli archetti sono accettabili ma al limite.",
+     "criteri": [
+      "Ho scelto la cuffia",
+      "Ho spiegato l’iperprotezione"
+     ]
+    },
+    {
+     "q": "Che cosa aggiungi perché la protezione sia reale?",
+     "min": 6,
+     "modello": "Addestramento all’uso, obbligatorio per i DPI di categoria III; compatibilità con occhiali e visiera; uso per tutto il tempo di esposizione, perché anche brevi periodi senza DPI riducono molto la protezione; pulizia e sostituzione dei cuscinetti.",
+     "criteri": [
+      "Ho previsto l’addestramento",
+      "Ho considerato compatibilità e tempo d’uso"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio scegli l’otoprotettore per un addetto alla molatura con il metodo SNR: calcoli il livello all’orecchio, scegli il dispositivo e completi le condizioni d’uso. Confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "UNI EN 458:2016 · art. 193 D.lgs. 81/2008"
+  }
+ ]
+}

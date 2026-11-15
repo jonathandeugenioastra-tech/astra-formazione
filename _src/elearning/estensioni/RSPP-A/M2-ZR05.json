@@ -1,0 +1,59 @@
+{
+ "dopo": "Il preposto di fatto e il principio di effettività",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Il preposto di fatto",
+   "lead": "Analizzi l’organizzazione di un cantiere di manutenzione del verde di un’impresa con 20 operai.",
+   "dossier": [
+    [
+     "Squadre",
+     "3 squadre di 4-5 operai"
+    ],
+    [
+     "Organizzazione",
+     "in ogni squadra l’operaio più anziano distribuisce i compiti, decide l’uso delle motoseghe e dà istruzioni ai colleghi"
+    ],
+    [
+     "Documenti",
+     "nessuna lettera di individuazione dei preposti"
+    ],
+    [
+     "Evento",
+     "un operaio usa la motosega senza pantaloni antitaglio, sotto gli occhi del caposquadra"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Gli operai più anziani sono preposti? Motiva.",
+     "min": 6,
+     "modello": "Sì: per il principio di effettività conta l’esercizio concreto dei poteri. Sovrintendono all’attività, impartiscono istruzioni e controllano l’esecuzione: sono preposti di fatto, con i relativi obblighi.",
+     "criteri": [
+      "Ho applicato il principio di effettività",
+      "Ho collegato i compiti alla definizione"
+     ]
+    },
+    {
+     "q": "Che cosa avrebbe dovuto fare il caposquadra?",
+     "min": 5,
+     "modello": "Intervenire subito per far cessare il comportamento e far indossare i DPI; se l’inosservanza persiste, interrompere l’attività del lavoratore e informare i superiori.",
+     "criteri": [
+      "Ho indicato intervento e interruzione",
+      "Ho indicato l’informazione ai superiori"
+     ]
+    },
+    {
+     "q": "Quali obblighi ha mancato l’impresa?",
+     "min": 7,
+     "modello": "Individuare formalmente i preposti, come richiede l’art. 18, comma 1, lettera b-bis; assicurare loro la formazione specifica in presenza e l’aggiornamento biennale; vigilare sul loro operato.",
+     "criteri": [
+      "Ho citato l’individuazione obbligatoria",
+      "Ho citato la formazione del preposto"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio analizzi l’organizzazione di squadre di manutenzione del verde in cui i capisquadra non sono stati nominati. Stabilisci se sono preposti, che cosa avrebbero dovuto fare e quali obblighi ha mancato l’impresa, poi confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "Artt. 2, 18, 19 e 299 D.lgs. 81/2008"
+  }
+ ]
+}

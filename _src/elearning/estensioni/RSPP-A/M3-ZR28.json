@@ -1,0 +1,62 @@
+{
+ "dopo": "Il rumore: valori di azione e obblighi",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Calcolare il livello di esposizione giornaliera",
+   "lead": "Calcoli l’esposizione giornaliera al rumore di un addetto alla carpenteria.",
+   "dossier": [
+    [
+     "Attività 1",
+     "molatura: 92 dB(A) per 2 ore"
+    ],
+    [
+     "Attività 2",
+     "assemblaggio: 85 dB(A) per 4 ore"
+    ],
+    [
+     "Attività 3",
+     "ufficio tecnico: 70 dB(A) per 2 ore"
+    ],
+    [
+     "Formula",
+     "LEX,8h = 10 log[(1/8) Σ Ti · 10^(LAeq,i/10)]"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Calcola LEX,8h.",
+     "min": 8,
+     "modello": "Contributi: 2 × 10^9,2 ≈ 3,17 × 10⁹; 4 × 10^8,5 ≈ 1,26 × 10⁹; 2 × 10^7 = 0,02 × 10⁹. Somma ≈ 4,45 × 10⁹; diviso 8 ≈ 5,57 × 10⁸. LEX,8h = 10 log(5,57 × 10⁸) ≈ 87,5 dB(A).",
+     "criteri": [
+      "Ho calcolato i contributi",
+      "Ho applicato la formula",
+      "Ho ottenuto circa 87,5 dB(A)"
+     ],
+     "minc": 60
+    },
+    {
+     "q": "Confronta con i valori di riferimento e indica gli obblighi.",
+     "min": 6,
+     "modello": "Oltre il valore superiore di azione di 85 dB(A): programma di misure tecniche e organizzative, segnaletica e delimitazione delle aree, uso obbligatorio degli otoprotettori, sorveglianza sanitaria. Il valore limite di 87 dB(A) va verificato tenendo conto dell’attenuazione dei DPI.",
+     "criteri": [
+      "Ho confrontato con 85 e 87 dB(A)",
+      "Ho elencato gli obblighi"
+     ]
+    },
+    {
+     "q": "Quale intervento riduce di più e di quanto?",
+     "min": 7,
+     "modello": "La molatura contribuisce per circa il 70%. Riducendola a 1 ora: somma ≈ 2,87 × 10⁹, LEX ≈ 85,5 dB(A). Con una mola a minore emissione a 88 dB(A) per 2 ore: somma ≈ 2,55 × 10⁹, LEX ≈ 85,0 dB(A).",
+     "criteri": [
+      "Ho individuato il contributo dominante",
+      "Ho ricalcolato LEX"
+     ],
+     "minc": 60
+    }
+   ],
+   "nar": "Nel laboratorio calcoli il livello di esposizione giornaliera al rumore di un addetto alla carpenteria, lo confronti con i valori di riferimento e valuti l’intervento più efficace. Confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "Artt. 188-198 D.lgs. 81/2008 · UNI EN ISO 9612:2025"
+  }
+ ]
+}

@@ -1,0 +1,75 @@
+{
+ "dopo": "Aggiornamento e decadenza del credito formativo",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "Il credito decaduto",
+   "scena": "Un datore di lavoro ha concluso il modulo per svolgere i compiti del servizio di prevenzione nel 2013 e da allora non ha mai fatto aggiornamenti né ha svolto la funzione.",
+   "decisioni": [
+    {
+     "dom": "Può riprendere la funzione con il solo aggiornamento?",
+     "opz": [
+      [
+       "No: dopo dieci anni senza aggiornamento né esercizio della funzione il credito decade e il percorso va ripetuto",
+       true,
+       "Corretto: FAQ n. 8."
+      ],
+      [
+       "Sì, con 8 ore",
+       false,
+       "Il credito è decaduto."
+      ],
+      [
+       "Sì, senza alcuna formazione",
+       false,
+       "Non è ammesso."
+      ]
+     ]
+    },
+    {
+     "dom": "Quale prerequisito serve per il modulo comune?",
+     "opz": [
+      [
+       "Il corso per datori di lavoro di 16 ore",
+       true,
+       "Corretto: FAQ n. 30."
+      ],
+      [
+       "Nessuno",
+       false,
+       "È previsto un prerequisito."
+      ],
+      [
+       "Il diploma tecnico",
+       false,
+       "Non è il prerequisito."
+      ]
+     ]
+    },
+    {
+     "dom": "Come sarà l’aggiornamento successivo?",
+     "opz": [
+      [
+       "Almeno 8 ore ogni cinque anni, erogabile in e-learning, con verifica finale di almeno 10 domande",
+       true,
+       "Corretto."
+      ],
+      [
+       "40 ore ogni anno",
+       false,
+       "Non è la regola per il DLSPP."
+      ],
+      [
+       "Senza verifica",
+       false,
+       "La verifica è obbligatoria."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "Il credito formativo non è eterno: dopo dieci anni di inattività va ripreso il percorso, e l’aggiornamento quinquennale richiede sempre una verifica finale.",
+   "nar": "Un datore di lavoro vuole riprendere i compiti del servizio. Verifica la sua formazione.",
+   "rif": "Accordo 17 aprile 2025 · FAQ 27 marzo 2026"
+  }
+ ]
+}

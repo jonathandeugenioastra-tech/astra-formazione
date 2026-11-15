@@ -1,0 +1,75 @@
+{
+ "dopo": "Gli altri soggetti",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "Il lavoratore autonomo in officina",
+   "scena": "Un elettricista lavoratore autonomo viene chiamato per un intervento sul quadro di un reparto in funzione.",
+   "decisioni": [
+    {
+     "dom": "Quali obblighi ha l’elettricista come autonomo?",
+     "opz": [
+      [
+       "Usare attrezzature conformi e DPI adeguati e munirsi di tessera di riconoscimento negli appalti",
+       true,
+       "Corretto: art. 21."
+      ],
+      [
+       "Nessuno, non è un dipendente",
+       false,
+       "L’art. 21 prevede obblighi specifici."
+      ],
+      [
+       "Gli stessi di un datore di lavoro con dipendenti",
+       false,
+       "Gli obblighi sono specifici."
+      ]
+     ]
+    },
+    {
+     "dom": "Che cosa deve fare il committente?",
+     "opz": [
+      [
+       "Verificarne l’idoneità tecnico-professionale e informarlo sui rischi dell’ambiente e sulle emergenze",
+       true,
+       "Corretto: art. 26."
+      ],
+      [
+       "Nulla",
+       false,
+       "Ha obblighi di verifica e informazione."
+      ],
+      [
+       "Fargli firmare uno scarico di responsabilità",
+       false,
+       "Non ha valore."
+      ]
+     ]
+    },
+    {
+     "dom": "L’intervento richiede di lavorare vicino a parti in tensione. Che cosa serve?",
+     "opz": [
+      [
+       "Che sia persona esperta o avvertita secondo le norme tecniche e che il lavoro sia organizzato con le procedure previste",
+       true,
+       "Corretto: CEI 11-27."
+      ],
+      [
+       "Basta che sia rapido",
+       false,
+       "La velocità non riduce il rischio."
+      ],
+      [
+       "Basta un guanto qualunque",
+       false,
+       "Servono procedure e DPI adeguati."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "Anche il lavoratore autonomo ha obblighi propri; il committente verifica, informa e coordina, e i lavori elettrici richiedono qualificazione e procedure.",
+   "nar": "Un elettricista autonomo in un reparto attivo. Organizza l’intervento.",
+   "rif": "Artt. 21, 26 e 82 D.lgs. 81/2008 · CEI 11-27"
+  }
+ ]
+}

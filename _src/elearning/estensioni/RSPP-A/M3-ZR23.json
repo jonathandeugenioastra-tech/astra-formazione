@@ -1,0 +1,56 @@
+{
+ "dopo": "Indicatori infortunistici: frequenza e gravità (UNI 7249)",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Il cruscotto degli indicatori",
+   "lead": "Prepari il cruscotto degli indicatori di sicurezza di uno stabilimento per tre anni.",
+   "dossier": [
+    [
+     "2023",
+     "7 infortuni, 160 giornate perse, 410.000 ore, 5 quasi incidenti segnalati"
+    ],
+    [
+     "2024",
+     "5 infortuni, 210 giornate perse, 400.000 ore, 22 quasi incidenti segnalati"
+    ],
+    [
+     "2025",
+     "4 infortuni, 60 giornate perse, 420.000 ore, 41 quasi incidenti segnalati"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Calcola indice di frequenza e indice di gravità per i tre anni.",
+     "min": 8,
+     "modello": "IF 2023 = 7 × 1.000.000 / 410.000 ≈ 17,1; 2024 ≈ 12,5; 2025 ≈ 9,5. IG 2023 = 160 × 1.000 / 410.000 ≈ 0,39; 2024 ≈ 0,53; 2025 ≈ 0,14.",
+     "criteri": [
+      "Ho calcolato i tre IF",
+      "Ho calcolato i tre IG"
+     ]
+    },
+    {
+     "q": "Interpreta l’andamento.",
+     "min": 6,
+     "modello": "La frequenza cala in modo costante; la gravità nel 2024 cresce per uno o due eventi lunghi, poi scende. Con numeri piccoli le variazioni annuali vanno lette con cautela. L’aumento dei quasi incidenti segnalati indica una cultura della segnalazione che migliora, non un peggioramento.",
+     "criteri": [
+      "Ho distinto frequenza e gravità",
+      "Ho considerato i piccoli numeri",
+      "Ho interpretato i quasi incidenti"
+     ]
+    },
+    {
+     "q": "Quali indicatori proattivi aggiungi al cruscotto?",
+     "min": 6,
+     "modello": "Sopralluoghi della direzione svolti; azioni correttive chiuse nei tempi; ore di formazione per lavoratore; percentuale di quasi incidenti analizzati; osservazioni di comportamento.",
+     "criteri": [
+      "Ho proposto almeno quattro indicatori proattivi",
+      "Ho collegato gli indicatori alle azioni"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio prepari il cruscotto degli indicatori di uno stabilimento: calcoli frequenza e gravità per tre anni, interpreti l’andamento e aggiungi indicatori proattivi. Confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "UNI 7249:2007 · UNI EN ISO 45001, punto 9.1"
+  }
+ ]
+}

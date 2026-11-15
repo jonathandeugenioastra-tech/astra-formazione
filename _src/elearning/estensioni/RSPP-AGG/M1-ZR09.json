@@ -1,0 +1,66 @@
+{
+ "dopo": "Dimostrare la vigilanza: che cosa conta in giudizio",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Il fascicolo della vigilanza",
+   "lead": "Organizzi le evidenze della vigilanza dei preposti in uno stabilimento di stampaggio.",
+   "dossier": [
+    [
+     "Preposti",
+     "6 capiturno su tre turni"
+    ],
+    [
+     "Situazione",
+     "nessuna registrazione; i richiami avvengono a voce"
+    ],
+    [
+     "Rischio principale",
+     "esclusione dei dispositivi di sicurezza delle presse per velocizzare il cambio stampo"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Quali evidenze dimostrano una vigilanza effettiva?",
+     "min": 6,
+     "modello": "Registrazioni dei giri di sicurezza con data, area e comportamenti osservati; richiami e segnalazioni scritte; verbali delle brevi riunioni di inizio turno; annotazione delle interruzioni dell’attività; esiti delle verifiche sui dispositivi delle presse.",
+     "criteri": [
+      "Ho elencato evidenze documentabili",
+      "Ho incluso interruzioni e richiami"
+     ]
+    },
+    {
+     "q": "Progetta una scheda di giro di sicurezza per il cambio stampo.",
+     "min": 8,
+     "modello": "Data, turno, preposto; pressa e operatori; controllo dell’uso della procedura di cambio stampo; stato dei ripari e degli interblocchi; uso dei DPI; comportamenti corretti riconosciuti; non conformità e intervento svolto; firma.",
+     "criteri": [
+      "Ho previsto i campi essenziali",
+      "Ho incluso i dispositivi delle presse",
+      "Ho incluso intervento e riconoscimento"
+     ],
+     "minc": 120
+    },
+    {
+     "q": "Con quale frequenza e intensità imposti la vigilanza?",
+     "min": 6,
+     "modello": "Adeguata al rischio e all’esperienza: più frequente durante i cambi stampo e con operatori nuovi; non controllo continuo di ogni gesto, ma presenza nei momenti critici e verifiche a campione.",
+     "criteri": [
+      "Ho collegato la frequenza al rischio",
+      "Ho evitato il controllo continuo"
+     ]
+    },
+    {
+     "q": "Chi vigila sui preposti e con quali strumenti?",
+     "min": 6,
+     "modello": "Il dirigente o il datore di lavoro, con l’esame periodico delle schede, sopralluoghi a campione, indicatori come numero di giri svolti e azioni chiuse, e colloqui con i preposti: le prassi tollerate provano la carenza di vigilanza a tutti i livelli.",
+     "criteri": [
+      "Ho indicato chi vigila sui preposti",
+      "Ho proposto strumenti e indicatori"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio organizzi le evidenze della vigilanza dei preposti in uno stabilimento di stampaggio: evidenze utili, scheda di giro di sicurezza, frequenza adeguata al rischio e vigilanza sui preposti. Confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "Art. 19 D.lgs. 81/2008 · Cass. pen., Sez. IV, n. 32520/2025"
+  }
+ ]
+}

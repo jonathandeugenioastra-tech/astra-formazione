@@ -1,0 +1,55 @@
+{
+ "dopo": "Insegnare un’operazione: il metodo in quattro fasi",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Addestrare all’uso del transpallet elettrico",
+   "lead": "Prepari l’addestramento di un nuovo magazziniere all’uso del transpallet elettrico con il metodo in quattro fasi.",
+   "dossier": [
+    [
+     "Operazione",
+     "prelievo di un pallet da 600 kg dalla baia e deposito a terra in corsia"
+    ],
+    [
+     "Rischi",
+     "schiacciamento dei piedi, urti, ribaltamento del carico, investimento"
+    ],
+    [
+     "Tempo disponibile",
+     "45 minuti"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Descrivi le fasi Preparare e Presentare.",
+     "min": 7,
+     "modello": "Preparare: mettere a proprio agio il magazziniere, chiedere che cosa conosce, spiegare lo scopo e i rischi. Presentare: eseguire l’operazione passo per passo spiegando i punti chiave, come controllo iniziale, posizione dei piedi, velocità e stabilità del carico.",
+     "criteri": [
+      "Ho descritto Preparare",
+      "Ho descritto Presentare con i punti chiave"
+     ]
+    },
+    {
+     "q": "Descrivi le fasi Provare e Verificare.",
+     "min": 7,
+     "modello": "Provare: il magazziniere esegue l’operazione spiegando i punti chiave, l’istruttore corregge subito. Verificare: lavoro autonomo con controlli frequenti che si riducono nel tempo, e registrazione dell’addestramento con l’esito della prova.",
+     "criteri": [
+      "Ho descritto Provare",
+      "Ho descritto Verificare e la registrazione"
+     ]
+    },
+    {
+     "q": "Quali punti chiave inserisci nella lista di controllo?",
+     "min": 6,
+     "modello": "Controllo di freni, comandi e batteria; piedi lontani dalla macchina; forche completamente inserite e carico stabile; velocità ridotta in curva e negli incroci; deposito con forche a terra; parcheggio e spegnimento.",
+     "criteri": [
+      "Ho elencato controlli e comportamenti",
+      "Ho incluso il deposito sicuro"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio prepari l’addestramento all’uso del transpallet elettrico con il metodo in quattro fasi: preparare, presentare, provare e verificare, con la lista di controllo. Confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "Art. 2, lett. cc) e art. 37 D.lgs. 81/2008"
+  }
+ ]
+}

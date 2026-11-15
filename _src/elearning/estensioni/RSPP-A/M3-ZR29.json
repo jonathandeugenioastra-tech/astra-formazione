@@ -1,0 +1,75 @@
+{
+ "dopo": "Marcatura CE e requisiti delle attrezzature",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "La macchina usata",
+   "scena": "Un’impresa acquista da un’asta fallimentare una piegatrice del 1990, senza marcatura CE e senza istruzioni.",
+   "decisioni": [
+    {
+     "dom": "Può essere usata così com’è?",
+     "opz": [
+      [
+       "No: va resa conforme ai requisiti dell’Allegato V prima della messa in servizio",
+       true,
+       "Corretto: le attrezzature costruite prima delle direttive devono rispettare l’Allegato V."
+      ],
+      [
+       "Sì, se funziona",
+       false,
+       "Il funzionamento non è conformità."
+      ],
+      [
+       "Sì, perché è anteriore alle direttive",
+       false,
+       "Deve comunque rispettare l’Allegato V."
+      ]
+     ]
+    },
+    {
+     "dom": "Chi può venderla o noleggiarla?",
+     "opz": [
+      [
+       "Il venditore deve attestare la conformità ai requisiti dell’Allegato V, sotto la propria responsabilità",
+       true,
+       "Corretto: art. 72."
+      ],
+      [
+       "Chiunque, senza obblighi",
+       false,
+       "La vendita di attrezzature non conformi è vietata."
+      ],
+      [
+       "Solo il costruttore originale",
+       false,
+       "Non è necessario."
+      ]
+     ]
+    },
+    {
+     "dom": "Che cosa fai prima di usarla?",
+     "opz": [
+      [
+       "Valutazione dei rischi, adeguamento con ripari e dispositivi, istruzioni d’uso, formazione e addestramento degli operatori",
+       true,
+       "Corretto."
+      ],
+      [
+       "Solo la pulizia",
+       false,
+       "Non basta."
+      ],
+      [
+       "La marcatura CE fatta dall’impresa",
+       false,
+       "Non è una procedura ammessa così."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "Le attrezzature usate senza marcatura CE si adeguano all’Allegato V prima dell’uso; chi le vende ne attesta la conformità e chi le usa le valuta, istruisce e addestra.",
+   "nar": "Una piegatrice usata senza marcatura CE. Decidi come procedere.",
+   "rif": "Artt. 70-72 e Allegato V D.lgs. 81/2008"
+  }
+ ]
+}

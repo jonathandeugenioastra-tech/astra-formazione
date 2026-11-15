@@ -1,0 +1,67 @@
+{
+ "dopo": "La gestione del cambiamento",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Valutare un cambiamento organizzativo",
+   "lead": "La direzione di un’impresa di logistica vuole passare da due a tre turni e ridurre da 3 a 2 i carrellisti per turno.",
+   "dossier": [
+    [
+     "Situazione attuale",
+     "2 turni diurni, 3 carrellisti per turno, preposto presente in entrambi"
+    ],
+    [
+     "Proposta",
+     "3 turni, incluso il notturno; 2 carrellisti per turno; preposto solo nei turni diurni"
+    ],
+    [
+     "Dati",
+     "il 60% dei quasi incidenti avviene nelle ultime due ore di turno"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Quali nuovi rischi introduce il cambiamento?",
+     "min": 7,
+     "modello": "Lavoro notturno con affaticamento e calo di vigilanza; carichi di lavoro maggiori per carrellista; assenza del preposto nel turno notturno; lavoro con meno persone e soccorso più difficile; possibili ripercussioni sullo stress lavoro-correlato.",
+     "criteri": [
+      "Ho considerato il lavoro notturno",
+      "Ho considerato carichi e assenza del preposto",
+      "Ho considerato soccorso e stress"
+     ]
+    },
+    {
+     "q": "Chi coinvolgi e quando?",
+     "min": 6,
+     "modello": "Prima della decisione: RSPP e medico competente per la valutazione, RLS per la consultazione preventiva; i preposti per la fattibilità operativa; i lavoratori interessati per raccogliere le criticità.",
+     "criteri": [
+      "Ho coinvolto le figure prima della decisione",
+      "Ho previsto la consultazione dell’RLS"
+     ]
+    },
+    {
+     "q": "Quali condizioni poni perché il cambiamento sia accettabile?",
+     "min": 8,
+     "modello": "Preposto o figura con funzioni di vigilanza in ogni turno; sorveglianza sanitaria per i lavoratori notturni; pause e rotazioni; verifica dei carichi con i dati di movimentazione; procedura di emergenza e comunicazione per il notturno; illuminazione adeguata.",
+     "criteri": [
+      "Ho posto la vigilanza in ogni turno",
+      "Ho previsto sorveglianza e pause",
+      "Ho previsto le emergenze notturne"
+     ],
+     "minc": 120
+    },
+    {
+     "q": "Come verifichi gli effetti dopo l’avvio?",
+     "min": 6,
+     "modello": "Indicatori nei primi sei mesi: quasi incidenti e infortuni per turno, assenze, segnalazioni, rispetto delle pause; riesame dopo tre mesi con RSPP, medico competente e RLS e correzioni.",
+     "criteri": [
+      "Ho previsto indicatori per turno",
+      "Ho previsto un riesame programmato"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio valuti un cambiamento organizzativo in un’impresa di logistica: nuovi rischi, figure da coinvolgere, condizioni di accettabilità e verifica degli effetti. Confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "Artt. 28, 29 e 50 D.lgs. 81/2008 · UNI EN ISO 45001, punto 8.1.3"
+  }
+ ]
+}

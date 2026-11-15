@@ -1,0 +1,70 @@
+{
+ "dopo": "Esempio applicativo: un metodo a indici per il rischio chimico per la sicurezza",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Applicare il metodo a indici",
+   "lead": "Applichi il metodo a indici al travaso di un solvente infiammabile in magazzino.",
+   "dossier": [
+    [
+     "Lista di controllo",
+     "messa a terra assente durante il travaso; contenitori non omologati; ventilazione insufficiente"
+    ],
+    [
+     "Scala di deficienza LD",
+     "10 molto carente · 6 carente · 2 migliorabile · 0 accettabile"
+    ],
+    [
+     "Scala di esposizione LE",
+     "4 continua · 3 frequente · 2 occasionale · 1 sporadica"
+    ],
+    [
+     "Travasi",
+     "più volte al giorno"
+    ],
+    [
+     "Conseguenze LC",
+     "25 per lesioni gravi con inabilità temporanea; 60 per lesioni molto gravi"
+    ],
+    [
+     "Livelli di rischio",
+     "I da 600 a 4.000; II da 150 a 500; III da 40 a 120; IV fino a 20"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Assegna LD, LE e calcola LP.",
+     "min": 6,
+     "modello": "LD = 6, carente: diverse carenze significative. LE = 3, esposizione frequente. LP = LD × LE = 18.",
+     "criteri": [
+      "Ho scelto LD motivandolo",
+      "Ho scelto LE",
+      "Ho calcolato LP = 18"
+     ]
+    },
+    {
+     "q": "Scegli LC e calcola il livello di rischio.",
+     "min": 6,
+     "modello": "Un incendio durante il travaso può causare lesioni gravi: LC = 25. LR = LP × LC = 18 × 25 = 450: livello II.",
+     "criteri": [
+      "Ho scelto LC",
+      "Ho calcolato 450",
+      "Ho individuato il livello II"
+     ]
+    },
+    {
+     "q": "Che cosa significa il livello II e quali misure servono?",
+     "min": 7,
+     "modello": "Il rischio va corretto con misure di controllo in tempi brevi: messa a terra ed equipotenzialità durante il travaso, contenitori omologati, ventilazione e quantità limitate; formazione. Dopo le misure si ricalcola LR.",
+     "criteri": [
+      "Ho interpretato il livello II",
+      "Ho proposto misure mirate alle carenze",
+      "Ho previsto il ricalcolo"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio applichi un metodo a indici al travaso di un solvente infiammabile: livelli di deficienza, esposizione e conseguenze, livello di rischio e misure. Confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "Metodo a indici di probabilità e conseguenze · art. 28 D.lgs. 81/2008"
+  }
+ ]
+}

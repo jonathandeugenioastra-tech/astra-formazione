@@ -1,0 +1,72 @@
+{
+ "dopo": "Analizzare un infortunio: il modello «Infor.MO»",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Ricostruire un infortunio con Infor.MO",
+   "lead": "Analizzi con il modello Infor.MO un infortunio avvenuto in un’impresa di logistica.",
+   "dossier": [
+    [
+     "Evento",
+     "durante lo scarico di un camion un carrellista retrocede e investe un magazziniere che attraversava la baia di carico"
+    ],
+    [
+     "Contesto",
+     "turno serale, baia poco illuminata, avvisatore acustico di retromarcia guasto da una settimana"
+    ],
+    [
+     "Organizzazione",
+     "nessun percorso pedonale segnato; il magazziniere doveva ritirare una bolla nell’ufficio oltre la baia"
+    ],
+    [
+     "Conseguenze",
+     "frattura della gamba, 90 giorni di prognosi"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Descrivi la dinamica: incidente e modalità di accadimento.",
+     "min": 6,
+     "modello": "Incidente: il carrello in retromarcia raggiunge la zona in cui transita il pedone. Modalità di accadimento della lesione: urto e schiacciamento della gamba del magazziniere da parte del carrello.",
+     "criteri": [
+      "Ho distinto incidente e modalità",
+      "Ho descritto i fatti senza giudizi"
+     ]
+    },
+    {
+     "q": "Individua i fattori di rischio per categoria.",
+     "min": 8,
+     "modello": "Attività dell’infortunato: attraversamento della baia per ritirare la bolla. Attività di terzi: retromarcia del carrellista senza visibilità adeguata. Macchina: avvisatore di retromarcia guasto. Ambiente: illuminazione insufficiente e assenza di percorsi pedonali. Organizzazione: ufficio bolle raggiungibile solo attraversando la baia.",
+     "criteri": [
+      "Ho classificato attività, macchina e ambiente",
+      "Ho incluso l’organizzazione",
+      "Ho individuato più fattori concorrenti"
+     ],
+     "minc": 120
+    },
+    {
+     "q": "Distingui determinanti e modulatori.",
+     "min": 6,
+     "modello": "Determinanti: retromarcia senza visibilità e avvisatore guasto, presenza del pedone nella baia. Modulatori: la velocità del carrello e il punto di impatto, che hanno influito sulla gravità della lesione.",
+     "criteri": [
+      "Ho individuato i determinanti",
+      "Ho individuato i modulatori"
+     ]
+    },
+    {
+     "q": "Proponi le misure correttive in ordine di efficacia.",
+     "min": 8,
+     "modello": "Separare fisicamente pedoni e carrelli con percorsi protetti e spostare l’ufficio bolle o creare un passaggio esterno alla baia; riparare l’avvisatore e prevedere sensori o luci di zona; migliorare l’illuminazione; procedura di verifica dei carrelli a inizio turno; formazione e vigilanza del preposto.",
+     "criteri": [
+      "Ho dato priorità alle misure organizzative e tecniche",
+      "Ho previsto la manutenzione",
+      "Ho previsto procedure e vigilanza"
+     ],
+     "minc": 120
+    }
+   ],
+   "nar": "Nel laboratorio analizzi un investimento in una baia di carico con il modello Infor.MO: descrivi la dinamica, classifica i fattori di rischio, distingui determinanti e modulatori e proponi le misure correttive. Confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "Modello Infor.MO · INAIL"
+  }
+ ]
+}

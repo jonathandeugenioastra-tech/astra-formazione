@@ -1,0 +1,55 @@
+{
+ "dopo": "Le categorie dei DPI e gli obblighi del lavoratore",
+ "schermate": [
+  {
+   "t": "classifica",
+   "tit": "Quale categoria di DPI?",
+   "lead": "Seleziona un dispositivo, poi la categoria secondo il Reg. (UE) 2016/425.",
+   "colonne": [
+    "Categoria I",
+    "Categoria II",
+    "Categoria III"
+   ],
+   "schede": [
+    [
+     "Guanti da giardinaggio per lesioni superficiali",
+     0,
+     "Rischi minimi.",
+     "Corretto."
+    ],
+    [
+     "Elmetto di protezione per l’industria",
+     1,
+     "Rischi diversi da quelli minimi e da quelli mortali.",
+     "Corretto."
+    ],
+    [
+     "Imbracatura anticaduta",
+     2,
+     "Protegge da rischi che possono causare morte o danni irreversibili.",
+     "Corretto."
+    ],
+    [
+     "Semimaschera con filtri per vapori organici",
+     2,
+     "Protezione delle vie respiratorie: categoria III.",
+     "Corretto."
+    ],
+    [
+     "Occhiali da sole per uso professionale",
+     0,
+     "Rischi minimi.",
+     "Corretto."
+    ],
+    [
+     "Otoprotettori",
+     2,
+     "Il rumore dannoso è tra i rischi della categoria III.",
+     "Corretto."
+    ]
+   ],
+   "nar": "Sei dispositivi di protezione individuale. Assegna la categoria: da essa dipendono certificazione e obbligo di addestramento.",
+   "rif": "Reg. (UE) 2016/425, Allegato I · art. 77 D.lgs. 81/2008"
+  }
+ ]
+}

@@ -1,0 +1,75 @@
+{
+ "dopo": "L’addestramento e il suo tracciamento",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "L’addestramento senza tracce",
+   "scena": "Un’impresa dichiara di aver addestrato tutti i carrellisti, ma non ha alcuna registrazione.",
+   "decisioni": [
+    {
+     "dom": "Che cosa serve per dimostrare l’addestramento?",
+     "opz": [
+      [
+       "Registrazione con contenuti, istruttore, durata e esito della prova pratica",
+       true,
+       "Corretto: l’addestramento va tracciato."
+      ],
+      [
+       "Una dichiarazione del datore di lavoro",
+       false,
+       "Non basta."
+      ],
+      [
+       "Il libretto della macchina",
+       false,
+       "Non dimostra l’addestramento."
+      ]
+     ]
+    },
+    {
+     "dom": "Chi può svolgere l’addestramento?",
+     "opz": [
+      [
+       "Una persona esperta, sul luogo di lavoro",
+       true,
+       "Corretto: art. 37, comma 5."
+      ],
+      [
+       "Chiunque",
+       false,
+       "Serve esperienza."
+      ],
+      [
+       "Solo un ente esterno",
+       false,
+       "Non è obbligatorio."
+      ]
+     ]
+    },
+    {
+     "dom": "I carrellisti hanno anche bisogno dell’abilitazione?",
+     "opz": [
+      [
+       "Sì: per i carrelli elevatori serve la specifica abilitazione prevista dall’Accordo, oltre all’addestramento sulla macchina specifica",
+       true,
+       "Corretto."
+      ],
+      [
+       "No",
+       false,
+       "È prevista l’abilitazione."
+      ],
+      [
+       "Basta la patente di guida",
+       false,
+       "Non sostituisce l’abilitazione."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "L’addestramento si svolge con persone esperte, si traccia con contenuti ed esiti e si somma all’abilitazione richiesta per le attrezzature specifiche.",
+   "nar": "Un addestramento senza registrazioni. Metti in ordine le evidenze.",
+   "rif": "Art. 37, c. 5, e art. 73 D.lgs. 81/2008 · Accordo 17 aprile 2025"
+  }
+ ]
+}

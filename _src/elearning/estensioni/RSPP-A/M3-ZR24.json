@@ -1,0 +1,59 @@
+{
+ "dopo": "Esempio applicativo: dalla non conformità alla priorità dell’azione",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Dall’audit al piano d’azione",
+   "lead": "Trasformi gli esiti di un audit di sicurezza in un piano d’azione con priorità.",
+   "dossier": [
+    [
+     "Rilievo 1",
+     "verifica periodica dell’impianto di terra scaduta da 8 mesi"
+    ],
+    [
+     "Rilievo 2",
+     "due estintori senza cartellino di controllo"
+    ],
+    [
+     "Rilievo 3",
+     "procedura di blocco delle macchine non aggiornata dopo l’arrivo di una nuova linea"
+    ],
+    [
+     "Rilievo 4",
+     "bacheca della sicurezza con organigramma non aggiornato"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Classifica ogni rilievo per esito e importanza del requisito.",
+     "min": 7,
+     "modello": "1: non conformità, requisito di legge con sanzione: importanza alta. 2: non conformità sui controlli antincendio, importanza alta. 3: non conformità di sistema con potenziale gravità elevata: importanza alta. 4: deviazione minore, importanza bassa.",
+     "criteri": [
+      "Ho classificato gli esiti",
+      "Ho graduato l’importanza dei requisiti"
+     ]
+    },
+    {
+     "q": "Stabilisci priorità, responsabile e scadenza.",
+     "min": 7,
+     "modello": "Priorità 1: procedura di blocco della nuova linea, ufficio tecnico, entro due settimane, per la gravità potenziale. Priorità 1: verifica dell’impianto di terra con organismo abilitato, datore di lavoro, entro un mese. Priorità 2: controllo degli estintori, manutentore, entro una settimana perché rapido. Priorità 3: aggiornamento della bacheca, RSPP, entro un mese.",
+     "criteri": [
+      "Ho motivato le priorità",
+      "Ho indicato responsabili e scadenze"
+     ]
+    },
+    {
+     "q": "Come chiudi e verifichi le azioni?",
+     "min": 6,
+     "modello": "Evidenze di chiusura, come il verbale di verifica, i cartellini e la procedura firmata; verifica di efficacia al successivo audit; registro delle azioni con stato aggiornato.",
+     "criteri": [
+      "Ho previsto le evidenze",
+      "Ho previsto la verifica di efficacia"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio trasformi quattro rilievi di audit in un piano d’azione: classificazione, priorità con responsabili e scadenze, chiusura e verifica. Confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "UNI EN ISO 19011 · UNI EN ISO 45001, punto 10.2"
+  }
+ ]
+}

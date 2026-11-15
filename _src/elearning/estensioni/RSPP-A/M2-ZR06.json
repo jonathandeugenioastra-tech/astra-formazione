@@ -1,0 +1,66 @@
+{
+ "dopo": "Il servizio di prevenzione e protezione",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Il programma annuale del servizio di prevenzione",
+   "lead": "Prepari il programma di lavoro annuale del servizio di prevenzione e protezione di un’impresa alimentare con 110 lavoratori.",
+   "dossier": [
+    [
+     "Stato",
+     "DVR aggiornato due anni fa; due nuove linee di confezionamento; 6 infortuni e 18 quasi incidenti nell’anno"
+    ],
+    [
+     "Rischi principali",
+     "macchine, movimentazione dei carichi, rumore, celle frigorifere, prodotti per la sanificazione"
+    ],
+    [
+     "Risorse",
+     "RSPP interno e un ASPP part-time"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Elenca i compiti dell’art. 33 che il programma deve coprire.",
+     "min": 6,
+     "modello": "Individuazione e valutazione dei rischi; elaborazione delle misure preventive e protettive e dei sistemi di controllo; procedure di sicurezza; programmi di informazione e formazione; partecipazione alle consultazioni e alla riunione periodica; informazioni ai lavoratori.",
+     "criteri": [
+      "Ho elencato i compiti dell’art. 33",
+      "Ho incluso formazione e riunione periodica"
+     ]
+    },
+    {
+     "q": "Definisci le priorità dell’anno motivandole.",
+     "min": 8,
+     "modello": "Aggiornamento del DVR per le due nuove linee; analisi degli infortuni e dei quasi incidenti per individuare cause ricorrenti; valutazione specifica della movimentazione dei carichi e del rumore sulle nuove linee; revisione delle procedure di accesso alle celle frigorifere; piano formativo per i neoassunti delle nuove linee.",
+     "criteri": [
+      "Ho collegato le priorità ai dati",
+      "Ho dato priorità ai cambiamenti",
+      "Ho incluso l’analisi degli eventi"
+     ],
+     "minc": 150
+    },
+    {
+     "q": "Proponi indicatori per misurare il lavoro del servizio.",
+     "min": 6,
+     "modello": "Percentuale di azioni del programma chiuse nei tempi; numero di sopralluoghi svolti; quasi incidenti segnalati e analizzati; indici di frequenza e gravità; formazione erogata rispetto a quella pianificata.",
+     "criteri": [
+      "Ho proposto indicatori proattivi",
+      "Ho proposto indicatori reattivi"
+     ]
+    },
+    {
+     "q": "Come rendiconti il programma al datore di lavoro?",
+     "min": 6,
+     "modello": "Con un report periodico, ad esempio trimestrale, e una sintesi annuale per la riunione periodica: stato delle azioni, criticità, proposte con costi e scadenze, segnalazioni scritte per i rischi non ancora affrontati.",
+     "criteri": [
+      "Ho previsto report periodici",
+      "Ho previsto segnalazioni scritte"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio prepari il programma annuale del servizio di prevenzione e protezione di un’impresa alimentare: compiti da coprire, priorità, indicatori e rendicontazione al datore di lavoro. Confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "Artt. 31-35 D.lgs. 81/2008"
+  }
+ ]
+}

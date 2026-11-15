@@ -1,0 +1,66 @@
+{
+ "dopo": "Il processo di gestione del rischio (UNI ISO 31000)",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Il registro dei rischi secondo la ISO 31000",
+   "lead": "Imposti il registro dei rischi per il reparto saldatura di una carpenteria applicando il processo della UNI ISO 31000.",
+   "dossier": [
+    [
+     "Reparto",
+     "8 saldatori MIG e TIG, area di molatura adiacente"
+    ],
+    [
+     "Pericoli noti",
+     "fumi di saldatura, radiazioni ottiche, incendio, rumore della molatura, ustioni"
+    ],
+    [
+     "Criteri aziendali",
+     "matrice 4 × 4; rischi con R ≥ 9 da trattare entro tre mesi"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Definisci contesto e criteri prima di identificare i rischi.",
+     "min": 6,
+     "modello": "Obiettivi: proteggere salute e sicurezza dei saldatori e dei lavoratori vicini. Parti interessate: saldatori, molatori, RLS, medico competente. Criteri: scala di probabilità e danno con definizioni verificabili, soglia di trattamento R ≥ 9, criteri di accettabilità.",
+     "criteri": [
+      "Ho definito obiettivi e parti interessate",
+      "Ho reso espliciti i criteri"
+     ]
+    },
+    {
+     "q": "Compila tre righe del registro: pericolo, situazione, P, D, R, misure esistenti.",
+     "min": 9,
+     "modello": "Fumi di saldatura senza aspirazione su due banchi: P 3, D 4, R 12, misure esistenti solo ventilazione generale. Radiazioni ottiche verso i molatori: P 3, D 2, R 6, schermi parziali. Incendio da scintille su materiali combustibili: P 2, D 4, R 8, estintori. I valori vanno motivati.",
+     "criteri": [
+      "Ho compilato tre righe complete",
+      "Ho motivato P e D",
+      "Ho indicato le misure esistenti"
+     ],
+     "minc": 150
+    },
+    {
+     "q": "Proponi il trattamento per il rischio più alto.",
+     "min": 6,
+     "modello": "Fumi di saldatura, cancerogeni: aspirazione localizzata su tutti i banchi, torce aspiranti dove possibile, procedure che privilegiano processi a minore emissione, protezione respiratoria nelle fasi critiche, misure dell’esposizione e sorveglianza sanitaria.",
+     "criteri": [
+      "Ho privilegiato misure alla fonte",
+      "Ho previsto misure e sorveglianza"
+     ]
+    },
+    {
+     "q": "Come monitori e riesamini il registro?",
+     "min": 6,
+     "modello": "Rivalutazione dopo l’attuazione per stimare il rischio residuo; riesame almeno annuale e a ogni cambiamento; registrazione delle decisioni e comunicazione al reparto.",
+     "criteri": [
+      "Ho previsto il rischio residuo",
+      "Ho previsto il riesame periodico"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio applichi il processo della UNI ISO 31000 al reparto saldatura: contesto e criteri, righe del registro, trattamento e riesame. Confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "UNI ISO 31000 · art. 28 D.lgs. 81/2008"
+  }
+ ]
+}

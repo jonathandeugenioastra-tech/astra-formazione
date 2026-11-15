@@ -1,0 +1,70 @@
+{
+ "dopo": "La gestione delle emergenze",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Il piano di emergenza di un capannone",
+   "lead": "Prepari lo schema del piano di emergenza di un capannone di 3.000 m² con 40 lavoratori su un turno.",
+   "dossier": [
+    [
+     "Attività",
+     "magazzino e piccola produzione con verniciatura"
+    ],
+    [
+     "Persone",
+     "40 lavoratori, di cui uno in sedia a ruote; visitatori occasionali"
+    ],
+    [
+     "Rischi",
+     "incendio, sversamento di solventi, infortunio grave"
+    ],
+    [
+     "Presidi",
+     "estintori, idranti, due uscite di emergenza, impianto di allarme"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Elenca i ruoli e chi li ricopre.",
+     "min": 6,
+     "modello": "Coordinatore dell’emergenza e sostituto; addetti antincendio e primo soccorso in numero adeguato; addetto alla chiamata dei soccorsi; addetto all’assistenza del lavoratore in sedia a ruote; addetti all’intercettazione delle utenze; responsabile del punto di raccolta.",
+     "criteri": [
+      "Ho previsto coordinamento e sostituto",
+      "Ho previsto l’assistenza alla persona con disabilità"
+     ]
+    },
+    {
+     "q": "Descrivi la sequenza per un principio di incendio in verniciatura.",
+     "min": 8,
+     "modello": "Chi scopre l’incendio dà l’allarme; gli addetti valutano l’intervento con estintori adeguati senza esporsi; se non è controllabile, il coordinatore ordina l’evacuazione; chiamata al 112 con informazioni precise; intercettazione di gas ed energia; evacuazione verso il punto di raccolta; appello; accoglienza dei soccorsi con informazioni sui solventi.",
+     "criteri": [
+      "Ho descritto allarme e primo intervento",
+      "Ho descritto evacuazione e appello",
+      "Ho previsto le informazioni ai soccorsi"
+     ],
+     "minc": 120
+    },
+    {
+     "q": "Quali allegati e verifiche prevedi?",
+     "min": 6,
+     "modello": "Planimetrie con vie di esodo, presidi e punto di raccolta; numeri utili; schede di sicurezza dei solventi; registro dei controlli antincendio; esercitazione almeno annuale con verbale e azioni di miglioramento.",
+     "criteri": [
+      "Ho previsto le planimetrie",
+      "Ho previsto le esercitazioni annuali"
+     ]
+    },
+    {
+     "q": "Come includi visitatori e imprese esterne?",
+     "min": 5,
+     "modello": "Informazione all’ingresso, registro delle presenze, accompagnamento nelle aree a rischio, procedure di emergenza nel DUVRI e coordinamento con le imprese presenti.",
+     "criteri": [
+      "Ho previsto informazione e registro",
+      "Ho collegato il DUVRI"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio prepari lo schema del piano di emergenza di un capannone: ruoli, sequenza per un incendio, allegati e verifiche, gestione di visitatori e imprese esterne. Confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "Artt. 43-46 D.lgs. 81/2008 · D.M. 2 settembre 2021"
+  }
+ ]
+}

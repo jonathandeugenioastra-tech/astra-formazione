@@ -1,0 +1,56 @@
+{
+ "dopo": "Come apprendono gli adulti",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Progettare una lezione per adulti",
+   "lead": "Progetti una lezione di 60 minuti sull’uso sicuro delle scale portatili per addetti alla manutenzione.",
+   "dossier": [
+    [
+     "Partecipanti",
+     "12 manutentori esperti, poco propensi alla teoria"
+    ],
+    [
+     "Evento recente",
+     "una caduta da scala senza conseguenze gravi"
+    ],
+    [
+     "Spazi",
+     "aula e area con scale di diversi tipi"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Come apri la lezione per motivare i partecipanti?",
+     "min": 6,
+     "modello": "Partendo dalla caduta recente, raccontata come caso, e chiedendo ai partecipanti le loro esperienze: il bisogno di sapere nasce dal riconoscere il problema nel proprio lavoro.",
+     "criteri": [
+      "Ho usato un caso reale",
+      "Ho valorizzato l’esperienza"
+     ]
+    },
+    {
+     "q": "Scrivi la scaletta dei 60 minuti.",
+     "min": 8,
+     "modello": "10 minuti: caso e discussione. 10 minuti: errori tipici e regole essenziali, con immagini. 30 minuti: esercitazione pratica in area scale, controllo e posizionamento a coppie. 10 minuti: verifica pratica e impegni individuali.",
+     "criteri": [
+      "Ho dato più tempo alla pratica",
+      "Ho previsto una verifica"
+     ],
+     "minc": 120
+    },
+    {
+     "q": "Come verifichi l’apprendimento e il trasferimento sul lavoro?",
+     "min": 6,
+     "modello": "Prova pratica con lista di controllo; osservazioni del preposto nelle settimane successive; analisi delle segnalazioni sulle scale.",
+     "criteri": [
+      "Ho previsto una prova pratica",
+      "Ho previsto osservazioni sul lavoro"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio progetti una lezione di sessanta minuti per manutentori esperti, secondo i principi dell’apprendimento degli adulti: apertura motivante, scaletta e verifica del trasferimento. Confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "Accordo 17 aprile 2025 · art. 37 D.lgs. 81/2008"
+  }
+ ]
+}

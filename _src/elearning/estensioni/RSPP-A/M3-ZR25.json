@@ -1,0 +1,75 @@
+{
+ "dopo": "L’emendamento 2024 sul cambiamento climatico",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "Il clima nel sistema di gestione",
+   "scena": "Durante l’audit di una certificazione UNI EN ISO 45001 l’auditor chiede come l’organizzazione ha considerato il cambiamento climatico.",
+   "decisioni": [
+    {
+     "dom": "Che cosa richiede l’emendamento del 2024?",
+     "opz": [
+      [
+       "Di determinare se il cambiamento climatico è un fattore rilevante nel contesto e se le parti interessate hanno requisiti in merito",
+       true,
+       "Corretto: punti 4.1 e 4.2."
+      ],
+      [
+       "Di calcolare l’impronta di carbonio",
+       false,
+       "Non è richiesto dalla norma."
+      ],
+      [
+       "Nulla di nuovo",
+       false,
+       "L’emendamento introduce questa valutazione."
+      ]
+     ]
+    },
+    {
+     "dom": "Per un’impresa edile, quale aspetto di sicurezza è più rilevante?",
+     "opz": [
+      [
+       "L’esposizione dei lavoratori a ondate di calore e a eventi meteorologici estremi",
+       true,
+       "Corretto: riguarda direttamente salute e sicurezza."
+      ],
+      [
+       "Il prezzo dell’energia",
+       false,
+       "È un aspetto economico."
+      ],
+      [
+       "Nessuno",
+       false,
+       "Il calore è un rischio rilevante."
+      ]
+     ]
+    },
+    {
+     "dom": "Come lo documenti?",
+     "opz": [
+      [
+       "Nell’analisi del contesto e nei rischi e opportunità, con le misure collegate, come i piani per il caldo",
+       true,
+       "Corretto."
+      ],
+      [
+       "Con una dichiarazione generica",
+       false,
+       "Serve un’analisi."
+      ],
+      [
+       "Non serve documentarlo",
+       false,
+       "L’auditor chiede evidenze."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "Il cambiamento climatico entra nell’analisi del contesto: per la sicurezza significa soprattutto calore ed eventi estremi, da trasformare in rischi, misure ed evidenze.",
+   "nar": "Un auditor chiede del cambiamento climatico. Rispondi con evidenze.",
+   "rif": "UNI EN ISO 45001:2023 + A1:2024"
+  }
+ ]
+}

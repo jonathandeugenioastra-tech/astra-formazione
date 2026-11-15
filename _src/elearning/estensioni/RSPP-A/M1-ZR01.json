@@ -1,0 +1,72 @@
+{
+ "dopo": "Quando risponde l’RSPP",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · L’RSPP e l’infortunio",
+   "lead": "Sei chiamato ad analizzare la posizione dell’RSPP esterno dopo un infortunio in un’officina.",
+   "dossier": [
+    [
+     "Evento",
+     "un operaio si amputa una falange su un tornio parallelo privo di schermo paratrucioli interbloccato"
+    ],
+    [
+     "DVR",
+     "redatto dall’RSPP due anni prima; il tornio è valutato «rischio basso» senza motivazione"
+    ],
+    [
+     "Sopralluoghi",
+     "l’RSPP ha svolto due sopralluoghi annuali; nei verbali il tornio non è citato"
+    ],
+    [
+     "Datore di lavoro",
+     "dichiara che avrebbe installato lo schermo se gli fosse stato segnalato"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "L’RSPP ha sanzioni contravvenzionali proprie? Di che cosa può rispondere?",
+     "min": 6,
+     "modello": "No: il D.lgs. 81/2008 non prevede contravvenzioni proprie per l’RSPP. Può rispondere di lesioni colpose in concorso con il datore di lavoro, se un errore di valutazione o un’omessa segnalazione ha contribuito all’evento.",
+     "criteri": [
+      "Ho escluso le contravvenzioni proprie",
+      "Ho indicato il concorso nelle lesioni colpose"
+     ]
+    },
+    {
+     "q": "Quali elementi del caso pesano contro l’RSPP?",
+     "min": 8,
+     "modello": "La valutazione «rischio basso» senza motivazione per una macchina con organi in movimento non protetti; l’assenza del tornio nei verbali dei sopralluoghi; la mancanza di segnalazioni scritte. La dichiarazione del datore di lavoro sostiene il nesso causale: con la segnalazione la misura sarebbe stata adottata.",
+     "criteri": [
+      "Ho individuato l’errore di valutazione",
+      "Ho individuato l’omessa segnalazione",
+      "Ho collegato il nesso causale"
+     ],
+     "minc": 120
+    },
+    {
+     "q": "Quali elementi potrebbero invece tutelarlo?",
+     "min": 6,
+     "modello": "Una segnalazione scritta del rischio precedente all’evento; proposte di misure documentate e rimaste inattuate per decisione del datore di lavoro; verbali di sopralluogo dettagliati. In assenza di questi documenti la difesa è debole.",
+     "criteri": [
+      "Ho indicato le segnalazioni scritte",
+      "Ho indicato le proposte documentate"
+     ]
+    },
+    {
+     "q": "Scrivi tre regole di lavoro che un RSPP dovrebbe seguire per tutelarsi.",
+     "min": 8,
+     "modello": "Motivare ogni valutazione con criteri espliciti e dati; segnalare per iscritto, con data, ogni rischio rilevato e la misura proposta, chiedendo un riscontro; registrare i sopralluoghi con le macchine e le aree visitate e seguire nel tempo lo stato delle proposte.",
+     "criteri": [
+      "Ho previsto valutazioni motivate",
+      "Ho previsto segnalazioni scritte con riscontro",
+      "Ho previsto il monitoraggio delle proposte"
+     ],
+     "minc": 120
+    }
+   ],
+   "nar": "Nel laboratorio analizzi la posizione di un RSPP dopo un infortunio su un tornio. Stabilisci di che cosa può rispondere, quali elementi pesano contro di lui e quali lo tutelerebbero, poi scrivi tre regole di lavoro. Confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "Artt. 31-33 D.lgs. 81/2008 · Cass. pen., Sezioni Unite, n. 38343/2014"
+  }
+ ]
+}

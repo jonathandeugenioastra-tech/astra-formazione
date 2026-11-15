@@ -1,0 +1,75 @@
+{
+ "dopo": "Lavoro notturno e a turni",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "Il nuovo turno notturno",
+   "scena": "Un’impresa introduce un turno notturno dalle 22 alle 6 per un reparto di confezionamento.",
+   "decisioni": [
+    {
+     "dom": "Chi è lavoratore notturno?",
+     "opz": [
+      [
+       "Chi svolge con regolarità almeno 3 ore nel periodo notturno, secondo la disciplina applicabile",
+       true,
+       "Corretto."
+      ],
+      [
+       "Solo chi lavora tutta la notte ogni giorno",
+       false,
+       "Basta lo svolgimento regolare di almeno 3 ore."
+      ],
+      [
+       "Nessuno se il turno è a rotazione",
+       false,
+       "Conta la regolarità."
+      ]
+     ]
+    },
+    {
+     "dom": "Quale sorveglianza sanitaria è prevista?",
+     "opz": [
+      [
+       "Visita preventiva e periodica almeno ogni due anni",
+       true,
+       "Corretto."
+      ],
+      [
+       "Nessuna",
+       false,
+       "È prevista."
+      ],
+      [
+       "Solo su richiesta",
+       false,
+       "È obbligatoria."
+      ]
+     ]
+    },
+    {
+     "dom": "Chi non può essere adibito al lavoro notturno?",
+     "opz": [
+      [
+       "Le lavoratrici dall’accertamento della gravidanza fino a un anno di età del bambino",
+       true,
+       "Corretto."
+      ],
+      [
+       "I lavoratori sopra i 40 anni",
+       false,
+       "Non esiste questo divieto."
+      ],
+      [
+       "I lavoratori con contratto a termine",
+       false,
+       "Non è un criterio."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "Il lavoro notturno richiede regole precise: definizione del lavoratore notturno, visite almeno biennali e divieti per le lavoratrici madri.",
+   "nar": "Un nuovo turno notturno. Applica le regole.",
+   "rif": "D.lgs. 66/2003 · D.lgs. 151/2001, art. 53"
+  }
+ ]
+}

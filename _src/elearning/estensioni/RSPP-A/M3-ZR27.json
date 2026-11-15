@@ -1,0 +1,39 @@
+{
+ "dopo": "Radon nei luoghi di lavoro: obblighi del D.lgs. 101/2020",
+ "schermate": [
+  {
+   "t": "esempio",
+   "tit": "Esempio guidato · La concentrazione media annua di radon",
+   "lead": "Un ufficio al piano seminterrato.",
+   "passi": [
+    [
+     "Le misure",
+     "Due dispositivi esposti per due semestri consecutivi: 250 Bq/m³ in estate e 450 Bq/m³ in inverno.",
+     "250 · 450 Bq/m³"
+    ],
+    [
+     "La media annua",
+     "Media dei due semestri: (250 + 450) / 2 = 350 Bq/m³.",
+     "350 Bq/m³"
+    ],
+    [
+     "Il riferimento",
+     "Livello di riferimento per i luoghi di lavoro: 300 Bq/m³ di concentrazione media annua.",
+     "350 > 300"
+    ],
+    [
+     "Le azioni",
+     "Misure correttive, ad esempio ventilazione o depressurizzazione del vespaio, da progettare con un esperto in interventi di risanamento.",
+     "Risanamento"
+    ],
+    [
+     "La verifica",
+     "Nuova misura annuale dopo gli interventi per verificarne l’efficacia; se non si scende sotto il livello, valutazione delle dosi dei lavoratori.",
+     "Verifica"
+    ]
+   ],
+   "nar": "Calcoliamo la concentrazione media annua di radon in un ufficio seminterrato. Le due misure semestrali valgono duecentocinquanta e quattrocentocinquanta becquerel per metro cubo: la media è trecentocinquanta, oltre il livello di riferimento di trecento. Servono misure correttive progettate da un esperto e una nuova misura annuale per verificarne l’efficacia.",
+   "rif": "D.lgs. 101/2020, artt. 12, 16 e 17"
+  }
+ ]
+}

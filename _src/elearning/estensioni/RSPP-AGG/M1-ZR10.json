@@ -1,0 +1,73 @@
+{
+ "dopo": "Giurisprudenza: posizioni di garanzia e RSPP",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Ripartire le responsabilità",
+   "lead": "Analizzi un infortunio avvenuto durante un appalto di manutenzione in uno stabilimento chimico, applicando i principi consolidati della giurisprudenza.",
+   "dossier": [
+    [
+     "Evento",
+     "un manutentore dell’impresa appaltatrice cade da una passerella priva di parapetto in un’area del committente"
+    ],
+    [
+     "Committente",
+     "aveva scelto l’appaltatore per il prezzo più basso, senza verificare formazione e attrezzature"
+    ],
+    [
+     "Appaltatore",
+     "nessun preposto presente in cantiere"
+    ],
+    [
+     "RSPP del committente",
+     "aveva segnalato per iscritto la mancanza del parapetto un anno prima"
+    ],
+    [
+     "Lavoratore",
+     "era salito sulla passerella per un compito previsto dall’ordine di lavoro"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Il comportamento del lavoratore può escludere la responsabilità dei garanti?",
+     "min": 6,
+     "modello": "No: ha svolto un compito previsto, senza attivare un rischio eccentrico rispetto all’attività affidata. Solo un comportamento abnorme, esorbitante dal procedimento di lavoro e dalle direttive, escluderebbe la responsabilità.",
+     "criteri": [
+      "Ho applicato il criterio dell’area di rischio",
+      "Ho escluso l’abnormità"
+     ]
+    },
+    {
+     "q": "Qual è la posizione del committente?",
+     "min": 6,
+     "modello": "Risponde per i rischi del proprio ambiente non eliminati, come il parapetto mancante, e per la scelta dell’appaltatore senza verificarne l’idoneità: culpa in eligendo e omessa cooperazione e coordinamento.",
+     "criteri": [
+      "Ho indicato il rischio dell’ambiente",
+      "Ho indicato la culpa in eligendo"
+     ]
+    },
+    {
+     "q": "Qual è la posizione dell’appaltatore e dell’RSPP?",
+     "min": 7,
+     "modello": "L’appaltatore risponde per la mancata vigilanza tramite un preposto e per la mancata valutazione dei rischi del lavoro. L’RSPP del committente ha segnalato per iscritto il rischio: la segnalazione documentata lo tutela, perché l’omissione è imputabile a chi aveva i poteri di intervento.",
+     "criteri": [
+      "Ho indicato la vigilanza mancante dell’appaltatore",
+      "Ho valutato la segnalazione dell’RSPP"
+     ]
+    },
+    {
+     "q": "Quali azioni avrebbero evitato l’evento?",
+     "min": 7,
+     "modello": "Installazione del parapetto dopo la segnalazione; verifica dell’idoneità tecnico-professionale dell’appaltatore; DUVRI con le aree a rischio di caduta; preposto dell’appaltatore presente; permesso di lavoro per le aree in quota.",
+     "criteri": [
+      "Ho indicato la misura tecnica",
+      "Ho indicato verifica e DUVRI",
+      "Ho indicato preposto e permessi"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio applichi i principi consolidati della giurisprudenza a una caduta durante un appalto: comportamento del lavoratore, posizione del committente, dell’appaltatore e dell’RSPP, azioni preventive. Confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "Artt. 18, 26 e 33 D.lgs. 81/2008 · Cass. pen., Sez. IV, n. 10460/2025"
+  }
+ ]
+}

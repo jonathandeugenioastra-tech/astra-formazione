@@ -1,0 +1,69 @@
+{
+ "dopo": "Colori e forme della segnaletica di sicurezza",
+ "schermate": [
+  {
+   "t": "classifica",
+   "tit": "Che tipo di segnale?",
+   "lead": "Seleziona un segnale, poi la sua categoria.",
+   "colonne": [
+    "Divieto",
+    "Avvertimento",
+    "Prescrizione",
+    "Salvataggio o soccorso",
+    "Attrezzature antincendio"
+   ],
+   "schede": [
+    [
+     "Cerchio rosso barrato con sigaretta",
+     0,
+     "Rosso, forma rotonda: divieto.",
+     "Corretto."
+    ],
+    [
+     "Triangolo giallo con bordo nero e fiamma",
+     1,
+     "Avvertimento di pericolo.",
+     "Corretto."
+    ],
+    [
+     "Cerchio azzurro con guanti bianchi",
+     2,
+     "Azzurro, rotondo: prescrizione.",
+     "Corretto."
+    ],
+    [
+     "Rettangolo verde con omino che corre verso una porta",
+     3,
+     "Verde: salvataggio.",
+     "Corretto."
+    ],
+    [
+     "Quadrato rosso con estintore",
+     4,
+     "Rosso, quadrato: attrezzature antincendio.",
+     "Corretto."
+    ],
+    [
+     "Triangolo giallo con carrello elevatore",
+     1,
+     "Avvertimento.",
+     "Corretto."
+    ],
+    [
+     "Cerchio azzurro con cuffie",
+     2,
+     "Prescrizione.",
+     "Corretto."
+    ],
+    [
+     "Quadrato verde con croce bianca",
+     3,
+     "Pronto soccorso.",
+     "Corretto."
+    ]
+   ],
+   "nar": "Otto segnali di sicurezza descritti per forma, colore e simbolo. Indica la categoria di ciascuno.",
+   "rif": "Allegato XXV D.lgs. 81/2008 · UNI EN ISO 7010"
+  }
+ ]
+}

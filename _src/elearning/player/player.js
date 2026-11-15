@@ -42,7 +42,7 @@
   });
   C.moduli.forEach((m, mi) => {
     /* tempo minimo proporzionale alla durata della voce più il tempo di lettura o di attività della schermata */
-    const ATT = { grafico: 60, testo: 25, articolo: 40, caso: 60, vf: 60, abbina: 60, ordina: 60, matrice: 60, verifica: 90, pittogrammi: 60, definizioni: 45, figure: 45 };
+    const ATT = { grafico: 60, testo: 25, articolo: 40, caso: 60, vf: 60, abbina: 60, ordina: 60, matrice: 60, verifica: 90, pittogrammi: 60, definizioni: 45, figure: 45, esempio: 240, classifica: 300, scenario: 480, applica: 300 };
     const base = m.schermate.map((s, si) => { const a = window.AUDIO && window.AUDIO.schermate[`${m.id}-${si}`]; const d = a ? (Array.isArray(a) ? a.reduce((x, y) => x + y.d, 0) : a.d) : (s.nar ? s.nar.split(/\s+/).length / 2.4 : 0); return Math.max(20, d + (ATT[s.t] || 20)) * (s.p && !a ? s.p : 1); });
     /* R1 – schermate di servizio (copertina, obiettivi, apertura modulo, sintesi): tempo minimo = voce + 15 s;
        il tempo del modulo si ripartisce sulle schermate di contenuto, così il monte ore resta invariato */
@@ -459,7 +459,7 @@
   GR.calcolo = s => {
     const g = s.grafico;
     return `<div class="gr-box"><div class="gr-formula">${esc(g.formula_testo)}</div>${g.ingressi.map(i => `<label class="gr-sl"><span>${esc(i.nome)}</span><input type="range" data-id="${i.id}" min="${i.min}" max="${i.max}" step="${i.passo || 1}" value="${i.val}"><b data-v="${i.id}"></b></label>`).join('')}
-      <div class="gr-ris"><span>${esc(g.risultato)}</span><b id="gr-out"></b></div><div class="gr-barra"><div id="gr-bar"></div>${g.limite ? `<i style="left:${100 * g.limite / g.scala}%"></i><em style="left:${100 * g.limite / g.scala}%">${esc(g.limite_testo || 'limite')} ${fmtN(g.limite)}</em>` : ''}</div><div class="gr-esito" id="gr-esito"></div><div class="gr-avanz" id="gr-avanz"></div></div>`;
+      ${g.risultati ? `<div class="gr-multi">${g.risultati.map((r, k) => `<div class="gr-ris"><span>${esc(r.nome)}</span><b data-out="${k}"></b></div>`).join('')}</div><div class="gr-quote" id="gr-quote"></div>` : `<div class="gr-ris"><span>${esc(g.risultato)}</span><b id="gr-out"></b></div>`}<div class="gr-barra"><div id="gr-bar"></div>${g.limite ? `<i style="left:${100 * g.limite / g.scala}%"></i><em style="left:${100 * g.limite / g.scala}%">${esc(g.limite_testo || 'limite')} ${fmtN(g.limite)}</em>` : ''}</div><div class="gr-esito" id="gr-esito"></div><div class="gr-avanz" id="gr-avanz"></div></div>`;
   };
   GR.flusso = s => `<div class="gr-box"><ol class="gr-flusso">${s.grafico.passi.map((p, k) => `<li><button class="gr-nodo" data-k="${k}"><span class="n">${k + 1}</span><b>${esc(p.nome)}</b>${p.tempo ? `<em>${esc(p.tempo)}</em>` : ''}</button></li>`).join('')}</ol><div class="gr-dett" id="gr-dett">Selezionare ciascuna fase per visualizzarne il contenuto.</div><div class="gr-avanz" id="gr-avanz"></div></div>`;
   GR.intervalli = s => {
@@ -479,9 +479,12 @@
       inp.oninput = up; up(); obbligo = { fatto: () => viste.size >= g.zone.length, testo: 'Spostare il cursore in tutte le zone del grafico' };
     },
     calcolo: (s, el) => {
-      const g = s.grafico, f = new Function(...g.ingressi.map(i => i.id), 'return (' + g.formula + ');'); let mosse = 0;
+      const g = s.grafico, ids = g.ingressi.map(i => i.id), fn = x => new Function(...ids, 'return (' + x + ');'), f = fn(g.formula || (g.risultati ? g.risultati[0].formula : '0')); let mosse = 0;
+      const FR = (g.risultati || []).map(r => fn(r.formula)), QF = (g.quote || []).map(q => [q.nome, fn(q.formula)]);
       const up = (conta) => { const v = g.ingressi.map(i => +$(`input[data-id="${i.id}"]`, el).value); g.ingressi.forEach((i, k) => $(`[data-v="${i.id}"]`, el).textContent = fmtN(v[k], 2) + ' ' + (i.unita || ''));
-        const r = f(...v); $('#gr-out', el).textContent = fmtN(r, 1) + ' ' + (g.unita || ''); const pc = Math.min(100, 100 * r / g.scala), sup = g.limite && r > g.limite;
+        if (g.risultati) { g.risultati.forEach((rr, k) => { $(`[data-out="${k}"]`, el).textContent = Number(FR[k](...v)).toLocaleString('it-IT', { minimumFractionDigits: 1, maximumFractionDigits: 1 }) + ' ' + (rr.unita || g.unita || ''); });
+          if (g.quote) { const q = g.quote.map(x => [x.nome, QF.find(y => y[0] === x.nome)[1](...v)]), tot = q.reduce((a, b) => a + b[1], 0) || 1; $('#gr-quote', el).innerHTML = q.map(x => `<div><span>${esc(x[0])}</span><i style="width:${(100 * x[1] / tot).toFixed(1)}%"></i><b>${fmtN(x[1], 1)} ${esc(g.unita || '')}</b></div>`).join(''); } }
+        const r = f(...v); if (!g.risultati) $('#gr-out', el).textContent = fmtN(r, 1) + ' ' + (g.unita || ''); const pc = Math.min(100, 100 * r / g.scala), sup = g.limite && r > g.limite;
         const bar = $('#gr-bar', el); bar.style.width = pc + '%'; bar.classList.toggle('sup', !!sup);
         $('#gr-esito', el).textContent = g.limite ? (sup ? (g.testo_sup || 'Valore superiore al limite') : (g.testo_ok || 'Valore entro il limite')) : '';
         if (conta) mosse++; $('#gr-avanz', el).textContent = `Simulazioni eseguite: ${Math.min(mosse, 3)} / 3`; aggiorna(); };
@@ -531,7 +534,15 @@
     caso: s => `<div class="schermata">${testa(s)}<div class="corpo caso"><div class="scena an" data-subito><span class="tag">Caso di studio</span><p>${esc(s.scena)}</p></div><div><p class="dom an">${esc(s.domanda)}</p><div class="opz">${s.opz.map((o, i) => `<button class="an" data-i="${i}"><span class="lt">${L(i).toUpperCase()}</span><span>${esc(o[0])}</span></button>`).join('')}</div><div class="fb" id="fb"></div></div></div></div>`,
     abbina: s => { const dest = shuffle(s.coppie.map(c => c[1])); return `<div class="schermata">${testa(s)}<div class="corpo"><div class="abb">${s.coppie.map((c, i) => `<div class="r an" data-i="${i}"><b>${esc(c[0])}</b><select aria-label="${esc(c[0])}"><option value="">Selezionare il compito…</option>${dest.map(d => `<option>${esc(d)}</option>`).join('')}</select></div>`).join('')}</div><div style="margin-top:1.8cqh;display:flex;gap:1.4cqh;align-items:center"><button class="btn prim" id="ver">Verifica</button><span class="fb" id="fb" style="margin:0"></span></div></div></div>`; },
     verifica: s => `<div class="schermata">${testa(s, `<div class="rif">Soglia: ${s.soglia}/${s.domande.length}</div>`)}<div class="corpo"><div class="scroll"><div class="ver" id="ver-q"></div><div style="margin:1.8cqh 0 1cqh;display:flex;gap:1.4cqh;align-items:center"><button class="btn prim" id="ver">Conferma le risposte</button></div><div id="ver-es"></div></div></div></div>`,
-    testfinale: s => `<div class="schermata">${testa(s)}<div class="corpo tf" id="tf"></div></div>`
+    testfinale: s => `<div class="schermata">${testa(s)}<div class="corpo tf" id="tf"></div></div>`,
+    /* esempio guidato: i passaggi si aprono uno alla volta */
+    esempio: s => `<div class="schermata">${testa(s)}<div class="corpo"><div class="scroll alto">${s.lead ? `<p class="lead an" data-subito>${esc(s.lead)}</p>` : ''}<ol class="es-passi">${s.passi.map((p, i) => `<li class="es-p${i ? '' : ' aperto'}" data-i="${i}"><span class="n">${i + 1}</span><div><b>${esc(p[0])}</b><p>${esc(p[1])}</p>${p[2] ? `<div class="es-calc">${esc(p[2])}</div>` : ''}</div></li>`).join('')}</ol><div class="es-com"><button class="btn prim" id="es-av">Passaggio successivo</button><span class="gr-avanz" id="es-n"></span></div></div></div></div>`,
+    /* classificazione: si sceglie una scheda e poi la colonna di destinazione */
+    classifica: s => `<div class="schermata">${testa(s)}<div class="corpo"><div class="scroll alto">${s.lead ? `<p class="lead an" data-subito>${esc(s.lead)}</p>` : ''}<div class="cl-pool" id="cl-pool">${shuffle(s.schede.map((c, i) => [c, i])).map(([c, i]) => `<button class="cl-sch" data-i="${i}">${esc(c[0])}</button>`).join('')}</div><div class="cl-col" style="grid-template-columns:repeat(${s.colonne.length},minmax(0,1fr))">${s.colonne.map((c, k) => `<div class="cl-c" data-k="${k}" role="button" tabindex="0"><div class="cl-t">${esc(c)}</div><div class="cl-in"></div></div>`).join('')}</div><div class="fb" id="fb"></div><div class="gr-avanz" id="cl-n"></div></div></div></div>`,
+    /* scenario ramificato: decisioni in sequenza con conseguenze */
+    scenario: s => `<div class="schermata">${testa(s)}<div class="corpo caso"><div class="scena an" data-subito><span class="tag">Scenario</span><p>${esc(s.scena)}</p><div class="sc-tappe">${s.decisioni.map((d, k) => `<i data-k="${k}"></i>`).join('')}</div></div><div class="scroll"><div id="sc-dec"></div></div></div></div>`,
+    /* applicazione al proprio contesto */
+    applica: s => `<div class="schermata">${testa(s)}<div class="corpo"><div class="scroll alto">${s.lead ? `<p class="lead an" data-subito>${esc(s.lead)}</p>` : ''}<div class="ap-voci">${s.voci.map((v, i) => `<label class="ap-v"><input type="checkbox" data-i="${i}"><span>${esc(v)}</span></label>`).join('')}<label class="ap-v nessuna"><input type="checkbox" data-i="-1"><span>Nessuna delle fonti elencate</span></label></div><label class="ap-campo"><b>${esc(s.campo)}</b><textarea id="ap-t" maxlength="240" rows="3" placeholder="${esc(s.esempio || '')}"></textarea></label><div class="gr-avanz" id="ap-n"></div></div></div></div>`
   };
 
   /* ───────── comportamenti interattivi ───────── */
@@ -645,7 +656,55 @@
       disegna();
       obbligo = { fatto: () => ok, testo: `Superamento della verifica (almeno ${s.soglia} risposte corrette)` };
     },
-    testfinale: (s, el) => testFinale(el)
+    testfinale: (s, el) => testFinale(el),
+    esempio: (s, el) => {
+      let n = 1; const bt = $('#es-av', el), lab = $('#es-n', el);
+      const up = () => { lab.textContent = `Passaggi: ${n} / ${s.passi.length}`; if (n >= s.passi.length) { bt.disabled = true; bt.textContent = 'Esempio completato'; } aggiorna(); };
+      bt.onclick = () => { const li = $(`.es-p[data-i="${n}"]`, el); if (li) { li.classList.add('aperto'); const sc = li.closest('.scroll'); if (sc) sc.scrollTo({ top: li.offsetTop - 20, behavior: 'smooth' }); } n++; up(); };
+      up(); obbligo = { fatto: () => n >= s.passi.length, testo: 'Aprire tutti i passaggi dell’esempio' };
+    },
+    classifica: (s, el) => {
+      let sel = null; const fatte = new Set(), fb = $('#fb', el), lab = $('#cl-n', el);
+      const up = () => { lab.textContent = `Schede collocate: ${fatte.size} / ${s.schede.length}`; aggiorna(); };
+      $$('.cl-sch', el).forEach(b => b.onclick = () => { if (b.disabled) return; $$('.cl-sch', el).forEach(x => x.classList.toggle('sel', x === b)); sel = b; fb.className = 'fb'; });
+      $$('.cl-c', el).forEach(c => { const metti = () => {
+        if (!sel) { fb.className = 'fb ko'; fb.textContent = 'Seleziona prima una scheda, poi la colonna.'; return; }
+        const i = +sel.dataset.i, sc = s.schede[i], k = +c.dataset.k;
+        if (sc[1] === k) { sel.classList.remove('sel'); sel.classList.add('ok'); sel.disabled = true; $('.cl-in', c).appendChild(sel); fatte.add(i); fb.className = 'fb ok'; fb.textContent = sc[3] || 'Corretto.'; sel = null; }
+        else { const bk = sel; bk.classList.add('ko'); setTimeout(() => bk.classList.remove('ko'), 600); fb.className = 'fb ko'; fb.textContent = sc[2]; }
+        up(); };
+        c.onclick = metti; c.onkeydown = e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); metti(); } }; });
+      up(); obbligo = { fatto: () => fatte.size >= s.schede.length, testo: 'Collocare correttamente tutte le schede' };
+    },
+    scenario: (s, el) => {
+      let k = 0, fine = false; const box = $('#sc-dec', el);
+      const tappe = () => $$('.sc-tappe i', el).forEach((t, j) => { t.className = j < k ? 'ok' : j === k ? 'cur' : ''; });
+      const mostra = () => {
+        if (k >= s.decisioni.length) { fine = true; tappe(); box.innerHTML = `<div class="fb ok">${esc(s.chiusura)}</div>`; aggiorna(); return; }
+        const d = s.decisioni[k]; tappe();
+        box.innerHTML = `<p class="dom">Decisione ${k + 1} di ${s.decisioni.length} · ${esc(d.dom)}</p><div class="opz">${d.opz.map((o, i) => `<button data-i="${i}"><span class="lt">${L(i).toUpperCase()}</span><span>${esc(o[0])}</span></button>`).join('')}</div><div class="fb" id="sc-fb"></div>`;
+        $$('.opz button', box).forEach(b => b.onclick = () => { const o = d.opz[b.dataset.i], f = $('#sc-fb', box);
+          b.classList.add(o[1] ? 'ok' : 'ko'); f.className = 'fb ' + (o[1] ? 'ok' : 'ko'); f.textContent = o[2];
+          if (o[1]) { $$('.opz button', box).forEach(x => x.disabled = true); const av = document.createElement('button'); av.className = 'btn prim sc-av'; av.textContent = k + 1 < s.decisioni.length ? 'Decisione successiva' : 'Concludi lo scenario'; av.onclick = () => { k++; mostra(); }; f.after(av); }
+          else b.disabled = true;
+          if (SC.lms) { const n = +SC.get('cmi.interactions._count') || 0; SC.set(`cmi.interactions.${n}.id`, `${s.mod.id}-${s.si}-d${k + 1}`); SC.set(`cmi.interactions.${n}.type`, 'choice'); SC.set(`cmi.interactions.${n}.student_response`, L(+b.dataset.i)); SC.set(`cmi.interactions.${n}.result`, o[1] ? 'correct' : 'wrong'); }
+          aggiorna(); });
+      };
+      mostra(); obbligo = { fatto: () => fine, testo: 'Completare tutte le decisioni dello scenario' };
+    },
+    applica: (s, el) => {
+      const chiave = `astra-ap-${C.id}-${s.mod.id}-${s.si}`, t = $('#ap-t', el), lab = $('#ap-n', el), min = s.min || 3;
+      let dati = {}; try { dati = JSON.parse(localStorage.getItem(chiave) || '{}'); } catch (e) { dati = {}; }
+      $$('.ap-v input', el).forEach(c => { c.checked = !!(dati.v || []).includes(+c.dataset.i); });
+      t.value = dati.t || '';
+      const conta = () => $$('.ap-v input:checked', el).length, nessuna = () => $('.ap-v.nessuna input', el).checked;
+      const ok = () => (conta() >= min || nessuna()) && t.value.trim().length >= 3;
+      const up = () => { dati = { v: $$('.ap-v input:checked', el).map(c => +c.dataset.i), t: t.value }; try { localStorage.setItem(chiave, JSON.stringify(dati)); } catch (e) {}
+        lab.textContent = ok() ? 'Attività completata: le risposte sono visibili al tutor.' : `Seleziona almeno ${min} voci (oppure «Nessuna») e scrivi almeno una riga.`; aggiorna(); };
+      $$('.ap-v input', el).forEach(c => c.onchange = up); t.oninput = up;
+      t.onblur = () => { if (SC.lms && ok()) { const n = +SC.get('cmi.interactions._count') || 0; SC.set(`cmi.interactions.${n}.id`, `${s.mod.id}-${s.si}-applica`); SC.set(`cmi.interactions.${n}.type`, 'fill-in'); SC.set(`cmi.interactions.${n}.student_response`, (dati.v.join(',') + ' | ' + t.value).slice(0, 255)); SC.commit(); } };
+      up(); obbligo = { fatto: ok, testo: 'Completare la scheda sul proprio contesto' };
+    }
   };
 
   /* ───────── test finale ───────── */

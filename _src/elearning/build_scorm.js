@@ -62,7 +62,7 @@ fs.copyFileSync(path.join(ROOT, 'formazione/risorse/timbro_DEU.png'), path.join(
     audioJs = '<script src="dati/audio.js?v=' + Date.now() + '"></script>';
     console.log('Narrazione:', A.voce, Object.keys(A.schermate).length, 'schermate');
   } else console.log('Narrazione: file audio assenti (voce di sistema come riserva)');
-  const vers = new Date().toISOString().slice(0, 10);
+  const vers = new Date().toISOString().slice(0, 16).replace(/[-:T]/g, '');
   fs.writeFileSync(path.join(OUT, 'index.html'), `<!doctype html>
 <html lang="it"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>${C.titolo} · ASTRA e-learning</title><meta name="robots" content="noindex">

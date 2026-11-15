@@ -1,0 +1,39 @@
+{
+ "dopo": "Il sistema europeo di scambio delle quote di emissione",
+ "schermate": [
+  {
+   "t": "esempio",
+   "tit": "Esempio guidato · Il conto delle quote",
+   "lead": "Un impianto ETS e il suo bilancio annuale.",
+   "passi": [
+    [
+     "Le emissioni",
+     "Le emissioni verificate dell’anno sono 12.400 t CO₂.",
+     "12.400 t"
+    ],
+    [
+     "La comunicazione",
+     "La comunicazione delle emissioni verificate si presenta entro il 31 marzo dell’anno successivo.",
+     "Entro il 31 marzo"
+    ],
+    [
+     "Le quote gratuite",
+     "L’impianto ha ricevuto 8.000 quote gratuite.",
+     "8.000 quote"
+    ],
+    [
+     "Il fabbisogno",
+     "Mancano 12.400 − 8.000 = 4.400 quote, da acquistare sul mercato.",
+     "4.400 quote da acquistare"
+    ],
+    [
+     "La restituzione",
+     "Le quote si restituiscono entro il 30 settembre; con un prezzo indicativo di 70 € per quota il costo è di circa 308.000 €.",
+     "Prezzo illustrativo"
+    ]
+   ],
+   "nar": "Facciamo il conto delle quote di un impianto. Le emissioni verificate sono dodicimilaquattrocento tonnellate e si comunicano entro il trentuno marzo. L’impianto ha ottomila quote gratuite: ne mancano quattromilaquattrocento, da acquistare. Le quote si restituiscono entro il trenta settembre. Con un prezzo indicativo di settanta euro, il costo è di circa trecentottomila euro.",
+   "rif": "Direttiva 2003/87/CE come modificata dalla Dir. (UE) 2023/959"
+  }
+ ]
+}

@@ -1,0 +1,69 @@
+{
+ "dopo": "La gerarchia dei rifiuti",
+ "schermate": [
+  {
+   "t": "classifica",
+   "tit": "Quale gradino della gerarchia?",
+   "lead": "Seleziona un intervento, poi il gradino della gerarchia dei rifiuti.",
+   "colonne": [
+    "Prevenzione",
+    "Preparazione per il riutilizzo",
+    "Riciclaggio",
+    "Recupero di altro tipo",
+    "Smaltimento"
+   ],
+   "schede": [
+    [
+     "Imballaggi a rendere al posto di quelli monouso",
+     0,
+     "Evita che il rifiuto si formi.",
+     "Corretto."
+    ],
+    [
+     "Riparazione e controllo di pallet danneggiati per rimetterli in uso",
+     1,
+     "È preparazione per il riutilizzo.",
+     "Corretto."
+    ],
+    [
+     "Rottami metallici avviati a fonderia",
+     2,
+     "La materia diventa nuova materia.",
+     "Corretto."
+    ],
+    [
+     "Combustibile solido secondario usato in cementeria",
+     3,
+     "È recupero energetico.",
+     "Corretto."
+    ],
+    [
+     "Conferimento in discarica di scorie non recuperabili",
+     4,
+     "È l’ultima opzione.",
+     "Corretto."
+    ],
+    [
+     "Riprogettazione del prodotto per usare meno materiale",
+     0,
+     "Riduce la quantità di rifiuti alla fonte.",
+     "Corretto."
+    ],
+    [
+     "Carta e cartone avviati a cartiera",
+     2,
+     "È riciclaggio.",
+     "Corretto."
+    ],
+    [
+     "Incenerimento senza recupero di energia",
+     4,
+     "È smaltimento.",
+     "Corretto."
+    ]
+   ],
+   "nar": "Otto interventi sui rifiuti. Collocali sul gradino giusto della gerarchia, dalla prevenzione allo smaltimento.",
+   "rif": "Art. 179 D.lgs. 152/2006"
+  }
+ ]
+}

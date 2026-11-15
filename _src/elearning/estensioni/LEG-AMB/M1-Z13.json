@@ -1,0 +1,75 @@
+{
+ "dopo": "Inventari e registri delle emissioni",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "I dati che non tornano",
+   "scena": "Preparando la dichiarazione annuale delle emissioni ti accorgi che i composti organici volatili calcolati con il piano di gestione dei solventi sono il doppio di quelli stimati dagli autocontrolli ai camini.",
+   "decisioni": [
+    {
+     "dom": "Quale spiegazione è più probabile?",
+     "opz": [
+      [
+       "Le emissioni diffuse, che gli autocontrolli ai camini non misurano",
+       true,
+       "Corretto: il piano di gestione dei solventi considera anche le emissioni diffuse."
+      ],
+      [
+       "Un errore del laboratorio, sicuramente",
+       false,
+       "Prima di concluderlo servono verifiche."
+      ],
+      [
+       "Nessuna: si dichiara il valore più basso",
+       false,
+       "Dichiarare dati non coerenti è un rischio."
+      ]
+     ]
+    },
+    {
+     "dom": "Che cosa dichiari?",
+     "opz": [
+      [
+       "Il dato più completo e documentato, spiegando il metodo di stima",
+       true,
+       "Corretto: coerenza e tracciabilità del metodo sono essenziali."
+      ],
+      [
+       "La media dei due valori",
+       false,
+       "Non ha fondamento tecnico."
+      ],
+      [
+       "Nulla quest’anno",
+       false,
+       "La dichiarazione è un obbligo."
+      ]
+     ]
+    },
+    {
+     "dom": "Che cosa fai per il futuro?",
+     "opz": [
+      [
+       "Rivedi il piano di gestione dei solventi e valuti la captazione delle emissioni diffuse",
+       true,
+       "Corretto: ridurre le diffuse migliora conformità e dati."
+      ],
+      [
+       "Aumenti la frequenza delle analisi ai camini e basta",
+       false,
+       "Non misura le diffuse."
+      ],
+      [
+       "Smetti di calcolare il piano",
+       false,
+       "È uno strumento richiesto."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "Dati coerenti tra dichiarazioni, autocontrolli e piano di gestione dei solventi, con metodi documentati: è la base di ogni inventario credibile.",
+   "nar": "Due stime delle emissioni non coincidono. Decidi che cosa dichiarare.",
+   "rif": "Reg. (CE) 166/2006 · Reg. (UE) 2024/1244 · art. 275 D.lgs. 152/2006"
+  }
+ ]
+}

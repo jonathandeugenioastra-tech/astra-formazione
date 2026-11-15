@@ -1,0 +1,116 @@
+{
+ "dopo": "Le segnalazioni di illeciti: il D.lgs. 24/2023",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "La segnalazione del magazziniere",
+   "scena": "Un magazziniere nota che fusti di solvente esausto vengono caricati su un furgone senza formulario. Teme ritorsioni.",
+   "decisioni": [
+    {
+     "dom": "Che cosa può fare?",
+     "opz": [
+      [
+       "Nulla: non è affar suo",
+       false,
+       "Il D.lgs. 24/2023 tutela chi segnala violazioni nel contesto lavorativo."
+      ],
+      [
+       "Usare il canale di segnalazione interno dell’impresa",
+       true,
+       "Corretto: il canale interno garantisce la riservatezza dell’identità del segnalante."
+      ],
+      [
+       "Pubblicare subito un video sui social",
+       false,
+       "La divulgazione pubblica è tutelata solo in condizioni specifiche, dopo i canali interni ed esterni o in caso di pericolo imminente."
+      ]
+     ]
+    },
+    {
+     "dom": "Chi gestisce la segnalazione?",
+     "opz": [
+      [
+       "Il responsabile del magazzino coinvolto",
+       false,
+       "Chi gestisce le segnalazioni deve essere autonomo e formato, non coinvolto nei fatti."
+      ],
+      [
+       "Il gestore del canale individuato dall’impresa, che dà riscontro nei termini previsti",
+       true,
+       "Corretto: avviso di ricevimento entro 7 giorni e riscontro entro 3 mesi."
+      ],
+      [
+       "Nessuno: le segnalazioni anonime si archiviano",
+       false,
+       "Le segnalazioni vanno gestite secondo la procedura."
+      ]
+     ]
+    },
+    {
+     "dom": "Dopo la segnalazione il magazziniere viene trasferito a un turno sgradito. Che cosa prevede la legge?",
+     "opz": [
+      [
+       "È una ritorsione vietata, che può essere comunicata all’ANAC",
+       true,
+       "Corretto: il D.lgs. 24/2023 vieta le ritorsioni e prevede sanzioni."
+      ],
+      [
+       "È legittimo se deciso dal capo reparto",
+       false,
+       "Le misure ritorsive sono nulle."
+      ],
+      [
+       "Il segnalante perde la tutela",
+       false,
+       "La tutela resta se la segnalazione è fatta in buona fede."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "Canale interno, riservatezza, riscontro nei tempi e divieto di ritorsioni: sono le garanzie che rendono utile la segnalazione anche per prevenire reati ambientali.",
+   "nar": "Un lavoratore vede una gestione irregolare dei rifiuti. Accompagnalo nella segnalazione.",
+   "rif": "D.lgs. 24/2023"
+  },
+  {
+   "t": "applica",
+   "tit": "La mappa dei rischi ambientali della tua azienda",
+   "lead": "Individua le attività sensibili per i reati ambientali.",
+   "voci": [
+    "Scarichi idrici",
+    "Emissioni in atmosfera",
+    "Gestione dei rifiuti e scelta dei trasportatori",
+    "Stoccaggio di sostanze pericolose",
+    "Serbatoi interrati o fuori terra",
+    "Impianti con gas fluorurati",
+    "Terreni o falde potenzialmente contaminati"
+   ],
+   "campo": "Le due attività più sensibili e il controllo che proporresti",
+   "esempio": "Es.: scelta dei trasportatori di rifiuti → verifica iscrizione all’Albo prima di ogni contratto",
+   "min": 3,
+   "nar": "Individua le attività della tua azienda più esposte ai reati ambientali e scrivi per le due più sensibili il controllo che proporresti."
+  },
+  {
+   "t": "vf",
+   "tit": "Ripasso · Responsabilità ambientale",
+   "voci": [
+    [
+     "La procedura estintiva si applica alle contravvenzioni che non hanno cagionato danno o pericolo concreto e attuale.",
+     true,
+     "Vero: art. 318-bis D.lgs. 152/2006."
+    ],
+    [
+     "L’evento potenzialmente contaminante va comunicato entro 24 ore.",
+     true,
+     "Vero: art. 242."
+    ],
+    [
+     "L’ente risponde sempre dei reati commessi dai propri dipendenti.",
+     false,
+     "Falso: serve un reato presupposto commesso nell’interesse o a vantaggio dell’ente."
+    ]
+   ],
+   "nar": "Ripasso: tre affermazioni sulla responsabilità ambientale.",
+   "rif": "D.lgs. 152/2006 · D.lgs. 231/2001"
+  }
+ ]
+}

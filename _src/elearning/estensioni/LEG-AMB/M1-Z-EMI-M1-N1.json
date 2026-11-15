@@ -1,0 +1,107 @@
+{
+ "dopo": "Esercitazione · Regimi e riferimenti",
+ "schermate": [
+  {
+   "t": "classifica",
+   "tit": "Quale regime autorizzativo?",
+   "lead": "Seleziona uno stabilimento, poi il regime più probabile.",
+   "colonne": [
+    "AIA",
+    "AUA (autorizzazione alle emissioni)",
+    "Attività in deroga o autorizzazione generale",
+    "Disciplina degli impianti termici civili"
+   ],
+   "schede": [
+    [
+     "Grande impianto di produzione di cemento",
+     0,
+     "Le attività dell’Allegato VIII alla Parte II sono soggette ad AIA.",
+     "Corretto."
+    ],
+    [
+     "PMI con cabina di verniciatura e consumo di solventi oltre le soglie di deroga",
+     1,
+     "Le PMI non soggette ad AIA chiedono l’AUA, che comprende l’autorizzazione alle emissioni.",
+     "Corretto."
+    ],
+    [
+     "Laboratorio odontotecnico con emissioni scarsamente rilevanti",
+     2,
+     "Le attività dell’Allegato IV, parte I, alla Parte V sono in deroga.",
+     "Corretto."
+    ],
+    [
+     "Caldaia a metano per il riscaldamento degli uffici sotto le soglie del Titolo II",
+     3,
+     "Gli impianti termici civili seguono il Titolo II della Parte V.",
+     "Corretto."
+    ],
+    [
+     "Allevamento intensivo oltre le soglie dell’Allegato VIII",
+     0,
+     "Sopra le soglie è soggetto ad AIA.",
+     "Corretto."
+    ],
+    [
+     "Piccola officina che aderisce a un’autorizzazione di carattere generale regionale",
+     2,
+     "Le autorizzazioni generali dell’art. 272, comma 2, semplificano i casi tipici.",
+     "Corretto."
+    ]
+   ],
+   "nar": "Sei stabilimenti. Indica il regime autorizzativo più probabile per le emissioni in atmosfera.",
+   "rif": "D.lgs. 152/2006, Parti II e V · D.P.R. 59/2013"
+  },
+  {
+   "t": "classifica",
+   "tit": "Quale tecnologia di abbattimento?",
+   "lead": "Seleziona un’emissione, poi la tecnologia più adatta.",
+   "colonne": [
+    "Filtro a maniche",
+    "Carboni attivi",
+    "Combustione termica o catalitica",
+    "Scrubber a umido"
+   ],
+   "schede": [
+    [
+     "Polveri da levigatura del legno",
+     0,
+     "Le polveri si trattengono efficacemente con filtri a maniche.",
+     "Corretto."
+    ],
+    [
+     "COV a bassa concentrazione da una piccola verniciatura",
+     1,
+     "Per basse concentrazioni di COV si usa l’adsorbimento su carboni attivi.",
+     "Corretto."
+    ],
+    [
+     "COV ad alta concentrazione da un forno di essiccazione",
+     2,
+     "Ad alte concentrazioni la combustione è più efficace e può recuperare calore.",
+     "Corretto."
+    ],
+    [
+     "Vapori acidi da un bagno di decapaggio",
+     3,
+     "I gas acidi solubili si abbattono per assorbimento a umido.",
+     "Corretto."
+    ],
+    [
+     "Polveri metalliche da una molatura",
+     0,
+     "Polveri: filtrazione a maniche o a cartucce.",
+     "Corretto."
+    ],
+    [
+     "Solventi da una linea di stampa con flussi elevati e continui",
+     2,
+     "Flussi elevati con COV in concentrazione utile: combustione termica rigenerativa.",
+     "Corretto."
+    ]
+   ],
+   "nar": "Sei emissioni diverse. Associa a ciascuna la tecnologia di abbattimento più adatta.",
+   "rif": "D.lgs. 152/2006, Parte V · BAT"
+  }
+ ]
+}

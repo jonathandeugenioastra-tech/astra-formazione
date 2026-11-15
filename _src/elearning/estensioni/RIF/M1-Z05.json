@@ -1,0 +1,75 @@
+{
+ "dopo": "Le esclusioni e la cancellazione dal registro",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "Il parrucchiere e l’estetista",
+   "scena": "Un centro estetico con 3 dipendenti produce aghi e materiali taglienti (EER 18 01 03*) e chiede se deve iscriversi al RENTRI.",
+   "decisioni": [
+    {
+     "dom": "Deve iscriversi?",
+     "opz": [
+      [
+       "Sì, sempre, perché produce rifiuti pericolosi",
+       false,
+       "Alcune attività con codici ATECO specifici sono escluse."
+      ],
+      [
+       "No, se l’attività rientra tra i codici ATECO esclusi, anche per l’EER 18 01 03*",
+       true,
+       "Corretto: è una delle esclusioni dell’art. 188-bis."
+      ],
+      [
+       "Solo se supera 10 dipendenti",
+       false,
+       "Il criterio non è il numero di dipendenti."
+      ]
+     ]
+    },
+    {
+     "dom": "Esclusa dal RENTRI, l’impresa non ha più obblighi?",
+     "opz": [
+      [
+       "Nessun obbligo",
+       false,
+       "Restano la corretta gestione e la consegna a soggetti autorizzati."
+      ],
+      [
+       "Restano gli obblighi di corretta gestione e di consegna a soggetti autorizzati, con la documentazione prevista",
+       true,
+       "Corretto: l’esclusione riguarda il registro, non la gestione."
+      ],
+      [
+       "Può gettare i rifiuti nell’indifferenziato",
+       false,
+       "È vietato."
+      ]
+     ]
+    },
+    {
+     "dom": "Se l’impresa amplia l’attività e cambia codice ATECO, che cosa fa?",
+     "opz": [
+      [
+       "Verifica di nuovo se rientra tra gli obbligati",
+       true,
+       "Corretto: l’obbligo dipende dall’attività e dai rifiuti."
+      ],
+      [
+       "Nulla",
+       false,
+       "Serve una nuova verifica."
+      ],
+      [
+       "Si iscrive all’Albo",
+       false,
+       "Non è la conseguenza."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "Le esclusioni dal RENTRI dipendono da attività e rifiuti: vanno verificate e riverificate quando l’attività cambia, e non eliminano gli obblighi di corretta gestione.",
+   "nar": "Un piccolo centro estetico produce rifiuti sanitari. Verifica gli obblighi.",
+   "rif": "Art. 188-bis, c. 3-bis, D.lgs. 152/2006"
+  }
+ ]
+}

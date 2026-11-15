@@ -1,0 +1,58 @@
+{
+ "dopo": "Il MUD: soggetti obbligati e scadenze",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Preparare il MUD",
+   "lead": "Prepari la dichiarazione per una carpenteria con 25 dipendenti.",
+   "dossier": [
+    [
+     "Rifiuti dell’anno",
+     "sfridi di acciaio 17 t; imballaggi misti 4 t; oli esausti 0,6 t; filtri dell’olio 0,1 t"
+    ],
+    [
+     "Fonti dei dati",
+     "registro di carico e scarico, formulari, quarte copie o conferme di accettazione"
+    ],
+    [
+     "Destinatari",
+     "fonderia R4; impianto R13 per imballaggi; CONOU per oli"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "La carpenteria è obbligata? Per quali rifiuti?",
+     "min": 5,
+     "modello": "Sì: produce rifiuti pericolosi, gli oli e i filtri, e rifiuti non pericolosi da lavorazioni industriali con più di 10 dipendenti. Dichiara quindi tutti i rifiuti prodotti.",
+     "criteri": [
+      "Ho riconosciuto i rifiuti pericolosi",
+      "Ho applicato la soglia dei 10 dipendenti",
+      "Ho concluso che dichiara tutti i rifiuti"
+     ]
+    },
+    {
+     "q": "Come controlli la coerenza dei dati prima dell’invio?",
+     "min": 7,
+     "modello": "Si confrontano le quantità di carico e scarico del registro con i formulari e le quantità accettate dagli impianti; si verificano le giacenze a fine anno; si controllano codici EER, destinatari e trasportatori; si correggono gli scostamenti documentando le cause.",
+     "criteri": [
+      "Ho previsto il confronto registro-formulari",
+      "Ho considerato le giacenze",
+      "Ho previsto la documentazione degli scostamenti"
+     ]
+    },
+    {
+     "q": "Entro quando e a chi si presenta? Che cosa cambierà con il RENTRI?",
+     "min": 5,
+     "modello": "Entro il 30 aprile, salvo proroghe, alla Camera di commercio competente, con il modello approvato per l’anno. Con il RENTRI la dichiarazione sarà progressivamente superata per gli iscritti, secondo le disposizioni attuative.",
+     "criteri": [
+      "Ho indicato il 30 aprile",
+      "Ho indicato la Camera di commercio",
+      "Ho citato il superamento progressivo"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio prepari la dichiarazione annuale dei rifiuti di una carpenteria. Verifica l’obbligo, controlla la coerenza dei dati e indica termini e destinatario, poi confronta le tue risposte con la soluzione di riferimento.",
+   "rif": "L. 70/1994 · art. 189 D.lgs. 152/2006 · D.P.C.M. 30 gennaio 2026"
+  }
+ ]
+}

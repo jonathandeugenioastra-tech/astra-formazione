@@ -1,0 +1,75 @@
+{
+ "dopo": "Rifiuti urbani e rifiuti speciali",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "I rifiuti dello stabilimento",
+   "scena": "Uno stabilimento metalmeccanico produce sfridi di lavorazione, imballaggi in cartone delle materie prime, rifiuti della mensa e carta degli uffici.",
+   "decisioni": [
+    {
+     "dom": "Quali rifiuti sono urbani?",
+     "opz": [
+      [
+       "Tutti, perché sono prodotti nello stesso Comune",
+       false,
+       "Conta l’origine e la natura dei rifiuti."
+      ],
+      [
+       "Quelli di mensa e uffici, simili per natura e composizione ai domestici",
+       true,
+       "Corretto: aree come uffici e mense producono rifiuti urbani."
+      ],
+      [
+       "Nessuno",
+       false,
+       "Uffici e mense producono rifiuti simili ai domestici."
+      ]
+     ]
+    },
+    {
+     "dom": "Gli sfridi di lavorazione sono…",
+     "opz": [
+      [
+       "Rifiuti speciali da lavorazioni industriali",
+       true,
+       "Corretto: derivano dall’attività produttiva."
+      ],
+      [
+       "Rifiuti urbani",
+       false,
+       "Le lavorazioni industriali producono rifiuti speciali."
+      ],
+      [
+       "Non sono rifiuti",
+       false,
+       "Lo sono, salvo che rispettino le condizioni del sottoprodotto."
+      ]
+     ]
+    },
+    {
+     "dom": "L’impresa vuole conferire gli urbani a un recuperatore privato. Che cosa deve fare?",
+     "opz": [
+      [
+       "Nulla di particolare",
+       false,
+       "Serve dimostrare l’avvio a recupero."
+      ],
+      [
+       "Conferirli al di fuori del servizio pubblico, dimostrandone l’avvio a recupero secondo le regole comunali e nazionali",
+       true,
+       "Corretto: le utenze non domestiche possono farlo, con la relativa documentazione."
+      ],
+      [
+       "Bruciarli in loco",
+       false,
+       "La combustione di rifiuti è un reato."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "Uffici e mense producono urbani, la produzione produce speciali; chi esce dal servizio pubblico deve documentare l’avvio a recupero.",
+   "nar": "Uno stabilimento produce rifiuti diversi. Classificali correttamente.",
+   "rif": "Art. 183 e Allegati L-quater e L-quinquies D.lgs. 152/2006"
+  }
+ ]
+}

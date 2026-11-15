@@ -1,0 +1,75 @@
+{
+ "dopo": "Rifiuti pericolosi: caratteristiche HP e procedura di classificazione",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "Il rifiuto senza analisi",
+   "scena": "Un’impresa produce da anni polveri di sabbiatura che smaltisce con il codice non pericoloso 12 01 17, senza alcuna analisi. Il nuovo responsabile ambiente ha dei dubbi.",
+   "decisioni": [
+    {
+     "dom": "Che tipo di voce è 12 01 17?",
+     "opz": [
+      [
+       "Una voce a specchio, accoppiata a 12 01 16* per i residui contenenti sostanze pericolose",
+       true,
+       "Corretto: la scelta del codice richiede di conoscere la composizione."
+      ],
+      [
+       "Una voce assoluta non pericolosa",
+       false,
+       "Ha una voce speculare pericolosa."
+      ],
+      [
+       "Una voce che non esiste",
+       false,
+       "Esiste nell’elenco europeo."
+      ]
+     ]
+    },
+    {
+     "dom": "Che cosa fai?",
+     "opz": [
+      [
+       "Continui come prima",
+       false,
+       "Senza caratterizzazione la classificazione non è dimostrata."
+      ],
+      [
+       "Ricostruisci il processo, individui le sostanze pertinenti, come i metalli delle vernici rimosse, e fai analizzare un campione rappresentativo",
+       true,
+       "Corretto: è la procedura di classificazione."
+      ],
+      [
+       "Passi d’ufficio al codice pericoloso senza verifiche",
+       false,
+       "È prudente ma va comunque motivato: la caratterizzazione serve."
+      ]
+     ]
+    },
+    {
+     "dom": "Le analisi rilevano piombo oltre la soglia di una caratteristica di pericolo. Che cosa cambia?",
+     "opz": [
+      [
+       "Il codice diventa 12 01 16*, con tutti gli obblighi per i rifiuti pericolosi",
+       true,
+       "Corretto: iscrizione al RENTRI, deposito, trasporto e destinazione adeguati."
+      ],
+      [
+       "Nulla, conta il codice storico",
+       false,
+       "Il codice deve corrispondere al rifiuto reale."
+      ],
+      [
+       "Solo il prezzo dello smaltimento",
+       false,
+       "Cambiano anche gli obblighi."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "Le voci a specchio richiedono di conoscere il rifiuto: storia del processo, sostanze pertinenti, analisi e confronto con le soglie HP decidono il codice e gli obblighi.",
+   "nar": "Un rifiuto classificato da anni senza analisi. Verifica la classificazione.",
+   "rif": "Decisione 2014/955/UE · Reg. (UE) 1357/2014 · Linee guida SNPA"
+  }
+ ]
+}

@@ -1,0 +1,66 @@
+{
+ "dopo": "Il procedimento di AUA: soggetti e tempi",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · La domanda di AUA della carpenteria",
+   "lead": "Una carpenteria metallica con 40 addetti apre un nuovo stabilimento e ti chiede di impostare la domanda di AUA.",
+   "dossier": [
+    [
+     "Attività",
+     "taglio, saldatura e verniciatura di strutture in acciaio"
+    ],
+    [
+     "Emissioni",
+     "fumi di saldatura aspirati e convogliati; cabina di verniciatura"
+    ],
+    [
+     "Acque",
+     "servizi igienici e lavaggio pezzi in fognatura"
+    ],
+    [
+     "Rumore",
+     "compressori e lavorazioni esterne, area mista con abitazioni vicine"
+    ],
+    [
+     "Rifiuti",
+     "nessun recupero in procedura semplificata"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Quali titoli confluiscono nella domanda di AUA?",
+     "min": 6,
+     "modello": "Autorizzazione alle emissioni in atmosfera per saldatura e verniciatura, o adesione all’autorizzazione generale se l’attività vi rientra; autorizzazione allo scarico delle acque di lavaggio in fognatura; documentazione di impatto acustico. Gli scarichi dei servizi igienici in fognatura non richiedono autorizzazione.",
+     "criteri": [
+      "Ho indicato emissioni e scarico industriale",
+      "Ho indicato l’impatto acustico",
+      "Ho escluso gli scarichi domestici in fognatura"
+     ]
+    },
+    {
+     "q": "Descrivi il percorso della domanda: a chi si presenta, chi decide, in quanto tempo.",
+     "min": 6,
+     "modello": "Si presenta al SUAP, che la trasmette all’autorità competente, di norma la Provincia o l’ente individuato dalla Regione. Partecipano ARPA, Comune e gestore del servizio idrico. Il termine è di 90 giorni, o 120 se ci sono titoli con termini superiori; le richieste di integrazione sospendono i termini.",
+     "criteri": [
+      "Ho indicato SUAP e autorità competente",
+      "Ho indicato i soggetti coinvolti",
+      "Ho indicato i termini e la sospensione"
+     ]
+    },
+    {
+     "q": "Quali scadenze e regole sulle modifiche devi segnalare all’impresa?",
+     "min": 6,
+     "modello": "L’AUA dura 15 anni dal rilascio; la domanda di rinnovo va presentata almeno 6 mesi prima della scadenza. Le modifiche vanno comunicate: quelle sostanziali richiedono una nuova domanda. Vanno pianificati gli autocontrolli prescritti.",
+     "criteri": [
+      "Ho indicato i 15 anni e il rinnovo a 6 mesi",
+      "Ho distinto modifiche sostanziali e non",
+      "Ho previsto gli autocontrolli"
+     ]
+    }
+   ],
+   "nar": "Il laboratorio simula l’impostazione di una domanda di autorizzazione unica ambientale per una carpenteria. Individua i titoli, descrivi il procedimento e segnala scadenze e regole sulle modifiche, poi confronta le tue risposte con la soluzione di riferimento.",
+   "rif": "D.P.R. 59/2013"
+  }
+ ]
+}

@@ -1,0 +1,54 @@
+{
+ "dopo": "Seveso III: gli stabilimenti a rischio di incidente rilevante",
+ "schermate": [
+  {
+   "t": "classifica",
+   "tit": "Soglia inferiore o superiore?",
+   "lead": "Seleziona un obbligo, poi a quali stabilimenti si applica.",
+   "colonne": [
+    "Tutti gli stabilimenti Seveso",
+    "Solo soglia superiore"
+   ],
+   "schede": [
+    [
+     "Notifica, aggiornata a ogni modifica",
+     0,
+     "Vale per tutti.",
+     "Corretto."
+    ],
+    [
+     "Politica di prevenzione degli incidenti rilevanti",
+     0,
+     "Vale per tutti.",
+     "Corretto."
+    ],
+    [
+     "Rapporto di sicurezza riesaminato almeno ogni 5 anni",
+     1,
+     "Solo per la soglia superiore.",
+     "Corretto."
+    ],
+    [
+     "Piano di emergenza interna",
+     1,
+     "Obbligo della soglia superiore.",
+     "Corretto."
+    ],
+    [
+     "Sistema di gestione della sicurezza",
+     0,
+     "Per tutti, con contenuti proporzionati.",
+     "Corretto."
+    ],
+    [
+     "Ispezioni almeno annuali",
+     1,
+     "Annuali per la soglia superiore, triennali per l’inferiore.",
+     "Corretto."
+    ]
+   ],
+   "nar": "Sei obblighi della direttiva Seveso III. Indica se valgono per tutti gli stabilimenti o solo per quelli di soglia superiore.",
+   "rif": "D.lgs. 105/2015"
+  }
+ ]
+}

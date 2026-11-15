@@ -1,0 +1,39 @@
+{
+ "dopo": "AIA: riesame e direttiva sulle emissioni industriali",
+ "schermate": [
+  {
+   "t": "esempio",
+   "tit": "Esempio guidato · Quando si riesamina l’AIA?",
+   "lead": "Le due scadenze del riesame.",
+   "passi": [
+    [
+     "Il titolo",
+     "Un’installazione ha ottenuto l’AIA nel 2020 ed è registrata EMAS.",
+     "AIA 2020, EMAS"
+    ],
+    [
+     "Le BAT",
+     "Nel 2025 sono pubblicate le nuove conclusioni sulle BAT della sua attività principale.",
+     "Pubblicazione 2025"
+    ],
+    [
+     "Primo riesame",
+     "Entro 4 anni dalla pubblicazione delle conclusioni sulle BAT: entro il 2029.",
+     "Riesame entro 4 anni"
+    ],
+    [
+     "Riesame con valenza di rinnovo",
+     "Ordinariamente ogni 10 anni; 12 con UNI EN ISO 14001; 16 con EMAS.",
+     "EMAS → 16 anni"
+    ],
+    [
+     "La conseguenza",
+     "Il riesame per le BAT arriva prima: l’installazione deve adeguarsi ai nuovi BAT-AEL.",
+     "Adeguamento ai BAT-AEL"
+    ]
+   ],
+   "nar": "Vediamo le scadenze del riesame dell’AIA. L’installazione ha l’AIA dal duemilaventi ed è registrata EMAS. Nel duemilaventicinque escono nuove conclusioni sulle BAT: entro quattro anni l’autorizzazione va riesaminata. Il riesame con valenza di rinnovo, ordinariamente decennale, per le installazioni EMAS è di sedici anni. Il riesame legato alle BAT arriva prima e impone l’adeguamento ai nuovi livelli di emissione.",
+   "rif": "Art. 29-octies D.lgs. 152/2006"
+  }
+ ]
+}

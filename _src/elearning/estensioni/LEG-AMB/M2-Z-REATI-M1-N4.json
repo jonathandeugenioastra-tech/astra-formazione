@@ -1,0 +1,76 @@
+{
+ "dopo": "Sanzioni all’ente: quote, interdittive, confisca",
+ "schermate": [
+  {
+   "t": "esempio",
+   "tit": "Esempio guidato · La sanzione pecuniaria all’ente",
+   "lead": "Il sistema per quote del D.lgs. 231/2001.",
+   "passi": [
+    [
+     "Il reato presupposto",
+     "Inquinamento ambientale commesso nell’interesse dell’ente.",
+     "Art. 25-undecies: da 250 a 600 quote"
+    ],
+    [
+     "Il numero di quote",
+     "Il giudice lo fissa in base a gravità del fatto, grado di responsabilità e attività svolte per attenuare le conseguenze.",
+     "Esempio: 300 quote"
+    ],
+    [
+     "Il valore della quota",
+     "Il giudice lo fissa tra 258 e 1.549 € in base alle condizioni economiche dell’ente.",
+     "Esempio: 800 € per quota"
+    ],
+    [
+     "La sanzione",
+     "Numero di quote per valore della quota.",
+     "300 × 800 = 240.000 €"
+    ],
+    [
+     "Le interdittive",
+     "Per alcuni reati si aggiungono sanzioni interdittive, come il divieto di contrattare con la pubblica amministrazione.",
+     "Oltre alla sanzione pecuniaria"
+    ]
+   ],
+   "nar": "La sanzione pecuniaria all’ente si calcola per quote. Per l’inquinamento ambientale l’articolo venticinque undecies prevede da duecentocinquanta a seicento quote. Il giudice fissa il numero di quote in base alla gravità del fatto e alla responsabilità dell’ente, e il valore di ciascuna quota, tra duecentocinquantotto e millecinquecentoquarantanove euro, in base alle condizioni economiche. Con trecento quote da ottocento euro la sanzione è di duecentoquarantamila euro, a cui possono aggiungersi sanzioni interdittive.",
+   "rif": "D.lgs. 231/2001, artt. 10, 11 e 25-undecies"
+  },
+  {
+   "t": "classifica",
+   "tit": "Chi risponde?",
+   "lead": "Seleziona una situazione, poi chi ne risponde.",
+   "colonne": [
+    "La persona fisica che ha commesso il reato",
+    "Anche l’ente, ai sensi del D.lgs. 231/2001"
+   ],
+   "schede": [
+    [
+     "Il responsabile di produzione autorizza uno scarico non autorizzato per risparmiare sui costi di trattamento",
+     1,
+     "Il reato è commesso nell’interesse dell’ente: risponde anche l’ente, se il reato è tra quelli dell’art. 25-undecies.",
+     "Corretto."
+    ],
+    [
+     "Un dipendente abbandona di sua iniziativa rifiuti propri in un campo, fuori dall’orario di lavoro",
+     0,
+     "Non c’è interesse o vantaggio dell’ente: risponde la persona.",
+     "Corretto."
+    ],
+    [
+     "L’amministratore sceglie un trasportatore di rifiuti non iscritto all’Albo perché costa meno",
+     1,
+     "Il risparmio è un vantaggio per l’ente.",
+     "Corretto."
+    ],
+    [
+     "Un tecnico esterno falsifica un rapporto di prova all’insaputa dell’impresa e senza alcun vantaggio per essa",
+     0,
+     "Senza interesse o vantaggio dell’ente risponde chi ha commesso il fatto.",
+     "Corretto."
+    ]
+   ],
+   "nar": "Quattro situazioni. Valuta se risponde solo la persona fisica o anche l’ente.",
+   "rif": "D.lgs. 231/2001, artt. 5 e 25-undecies"
+  }
+ ]
+}

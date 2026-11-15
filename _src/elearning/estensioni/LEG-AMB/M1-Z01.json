@@ -1,0 +1,55 @@
+{
+ "dopo": "Precauzione, prevenzione, «chi inquina paga»",
+ "schermate": [
+  {
+   "t": "classifica",
+   "tit": "Quale principio?",
+   "lead": "Seleziona una situazione, poi il principio che la ispira.",
+   "colonne": [
+    "Precauzione",
+    "Prevenzione e correzione alla fonte",
+    "Chi inquina paga"
+   ],
+   "schede": [
+    [
+     "Si limita l’uso di una sostanza sospetta prima che i dati scientifici siano definitivi",
+     0,
+     "Si agisce anche in presenza di incertezza su un rischio grave.",
+     "Corretto."
+    ],
+    [
+     "L’impresa che ha contaminato il terreno sostiene i costi della bonifica",
+     2,
+     "I costi del ripristino gravano su chi ha causato l’inquinamento.",
+     "Corretto."
+    ],
+    [
+     "Si installa un filtro sul camino invece di intervenire sulle conseguenze",
+     1,
+     "Il danno si corregge in via prioritaria alla fonte.",
+     "Corretto."
+    ],
+    [
+     "Si sostituisce un solvente pericoloso con uno a base d’acqua",
+     1,
+     "Evitare il danno è preferibile a ripararlo.",
+     "Corretto."
+    ],
+    [
+     "La tariffa dei rifiuti cresce con la quantità prodotta",
+     2,
+     "Il costo è proporzionale all’impatto generato.",
+     "Corretto."
+    ],
+    [
+     "Si sospende un progetto in attesa di studi su un possibile danno irreversibile",
+     0,
+     "È l’applicazione tipica della precauzione.",
+     "Corretto."
+    ]
+   ],
+   "nar": "Sei situazioni. Riconosci il principio del diritto ambientale che le ispira.",
+   "rif": "Art. 191 TFUE · art. 3-ter D.lgs. 152/2006"
+  }
+ ]
+}

@@ -1,0 +1,55 @@
+{
+ "dopo": "Sottoprodotti e cessazione della qualifica di rifiuto",
+ "schermate": [
+  {
+   "t": "classifica",
+   "tit": "Rifiuto, sottoprodotto o end of waste?",
+   "lead": "Seleziona un caso, poi la qualifica più probabile.",
+   "colonne": [
+    "Rifiuto",
+    "Sottoprodotto",
+    "End of waste"
+   ],
+   "schede": [
+    [
+     "Trucioli di legno ceduti a un pannellificio con contratto, senza trattamenti",
+     1,
+     "Utilizzo certo e diretto, senza trattamenti diversi dalla normale pratica industriale.",
+     "Corretto."
+    ],
+    [
+     "Scarti di plastica mista accumulati senza un utilizzatore",
+     0,
+     "Manca la certezza dell’utilizzo: è un rifiuto.",
+     "Corretto."
+    ],
+    [
+     "Aggregato riciclato da rifiuti inerti che rispetta i criteri del decreto ministeriale",
+     2,
+     "È un rifiuto recuperato che ha cessato la qualifica.",
+     "Corretto."
+    ],
+    [
+     "Siero di latte venduto a un allevamento per l’alimentazione animale nel rispetto delle norme",
+     1,
+     "È un residuo con utilizzo certo e legale.",
+     "Corretto."
+    ],
+    [
+     "Rottame di vetro trattato secondo il regolamento europeo e venduto alla vetreria",
+     2,
+     "I criteri europei consentono la cessazione della qualifica.",
+     "Corretto."
+    ],
+    [
+     "Fanghi di verniciatura",
+     0,
+     "Sono rifiuti, spesso pericolosi.",
+     "Corretto."
+    ]
+   ],
+   "nar": "Sei casi di residui di produzione. Stabilisci se sono rifiuti, sottoprodotti o materiali che hanno cessato la qualifica di rifiuto.",
+   "rif": "Artt. 184-bis e 184-ter D.lgs. 152/2006 · D.M. 264/2016"
+  }
+ ]
+}

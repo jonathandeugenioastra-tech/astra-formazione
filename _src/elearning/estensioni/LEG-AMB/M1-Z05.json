@@ -1,0 +1,39 @@
+{
+ "dopo": "I medi impianti di combustione",
+ "schermate": [
+  {
+   "t": "esempio",
+   "tit": "Esempio guidato · Quando si adegua il generatore?",
+   "lead": "Le scadenze per i medi impianti di combustione esistenti.",
+   "passi": [
+    [
+     "L’impianto",
+     "Un generatore di vapore esistente da 3 MW alimentato a gas naturale.",
+     "1 MW ≤ 3 MW < 50 MW → medio impianto"
+    ],
+    [
+     "La classe",
+     "Gli impianti esistenti fino a 5 MW si adeguano ai nuovi valori limite dal 1° gennaio 2030.",
+     "Adeguamento dal 2030"
+    ],
+    [
+     "Il confronto",
+     "Un generatore esistente da 8 MW avrebbe dovuto adeguarsi dal 1° gennaio 2025.",
+     "Oltre 5 MW → dal 2025"
+    ],
+    [
+     "Un impianto nuovo",
+     "Un generatore installato oggi rispetta i valori limite da subito.",
+     "Nuovi: dal 20 dicembre 2018"
+    ],
+    [
+     "Gli obblighi",
+     "Iscrizione nel registro degli impianti e monitoraggio periodico delle emissioni.",
+     "Registro e monitoraggio"
+    ]
+   ],
+   "nar": "Vediamo le scadenze per i medi impianti di combustione. Un generatore esistente da tre megawatt è un medio impianto e si adegua ai nuovi valori limite dal primo gennaio duemilatrenta. Se fosse da otto megawatt, la scadenza sarebbe stata il primo gennaio duemilaventicinque. Un impianto nuovo rispetta i limiti da subito. In ogni caso servono l’iscrizione nel registro e il monitoraggio periodico.",
+   "rif": "Direttiva (UE) 2015/2193 · art. 273-bis D.lgs. 152/2006"
+  }
+ ]
+}

@@ -1,0 +1,70 @@
+{
+ "dopo": "Formulario di identificazione e registro di carico e scarico",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Il formulario con gli errori",
+   "lead": "Controlli un formulario prima che il mezzo lasci lo stabilimento.",
+   "dossier": [
+    [
+     "Rifiuto",
+     "«oli esausti», EER 13 02 05*, stato fisico liquido"
+    ],
+    [
+     "Quantità",
+     "«circa un fusto»"
+    ],
+    [
+     "Caratteristiche di pericolo",
+     "non indicate"
+    ],
+    [
+     "Trasportatore",
+     "iscritto in categoria 4"
+    ],
+    [
+     "Destinazione",
+     "impianto autorizzato R13"
+    ],
+    [
+     "Firme",
+     "manca la firma del produttore"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Individua gli errori del formulario.",
+     "min": 6,
+     "modello": "Quantità non espressa in kg o litri e indicata come «circa»; caratteristiche di pericolo mancanti per un rifiuto pericoloso; trasportatore in categoria 4, non abilitata ai rifiuti pericolosi; manca la firma del produttore.",
+     "criteri": [
+      "Ho individuato la quantità imprecisa",
+      "Ho individuato le HP mancanti",
+      "Ho individuato categoria e firma"
+     ]
+    },
+    {
+     "q": "Che cosa fai prima della partenza?",
+     "min": 6,
+     "modello": "Si blocca la partenza: si pesa o si misura il rifiuto e si indica la quantità, si inseriscono le caratteristiche di pericolo, si sostituisce il trasportatore con uno in categoria 5 e si firma. Con il formulario digitale si emette un nuovo formulario corretto.",
+     "criteri": [
+      "Ho bloccato la partenza",
+      "Ho previsto le correzioni",
+      "Ho previsto un trasportatore abilitato"
+     ]
+    },
+    {
+     "q": "Chi risponde se il formulario parte con errori?",
+     "min": 5,
+     "modello": "Il produttore, per le indicazioni incomplete o inesatte del formulario (art. 258); il trasportatore non abilitato, per trasporto non autorizzato; il produttore anche per aver affidato i rifiuti a un soggetto non autorizzato.",
+     "criteri": [
+      "Ho indicato la responsabilità del produttore",
+      "Ho indicato quella del trasportatore",
+      "Ho collegato l’art. 258"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio controlli un formulario prima della partenza del mezzo. Individua gli errori, decidi come intervenire e stabilisci chi ne risponderebbe, poi confronta le tue risposte con la soluzione di riferimento.",
+   "rif": "Artt. 188, 193 e 258 D.lgs. 152/2006 · D.M. 59/2023"
+  }
+ ]
+}

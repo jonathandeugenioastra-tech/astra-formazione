@@ -1,0 +1,75 @@
+{
+ "dopo": "VIA: verifica di assoggettabilità e provvedimento unico",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "L’ampliamento dello stabilimento",
+   "scena": "Un’impresa vuole raddoppiare la capacità produttiva di uno stabilimento già autorizzato, ampliando i capannoni su un’area agricola confinante.",
+   "decisioni": [
+    {
+     "dom": "Che cosa verifichi per primo?",
+     "opz": [
+      [
+       "Se il progetto rientra negli allegati alla Parte II per la VIA o per la verifica di assoggettabilità",
+       true,
+       "Corretto: il primo passo è la classificazione del progetto."
+      ],
+      [
+       "Nulla: lo stabilimento è già autorizzato",
+       false,
+       "Le modifiche e gli ampliamenti possono richiedere una valutazione."
+      ],
+      [
+       "Solo il permesso di costruire",
+       false,
+       "Non basta."
+      ]
+     ]
+    },
+    {
+     "dom": "Il progetto rientra nell’Allegato IV. Che cosa comporta?",
+     "opz": [
+      [
+       "La verifica di assoggettabilità a VIA, che può concludersi con l’esclusione o con l’obbligo di VIA",
+       true,
+       "Corretto: è lo screening dell’art. 19."
+      ],
+      [
+       "La VIA obbligatoria in ogni caso",
+       false,
+       "Per l’Allegato IV si parte dalla verifica."
+      ],
+      [
+       "Nessun procedimento",
+       false,
+       "Serve la verifica."
+      ]
+     ]
+    },
+    {
+     "dom": "Se serve la VIA, come si ottengono anche gli altri titoli?",
+     "opz": [
+      [
+       "Con il provvedimento autorizzatorio unico regionale, che riunisce i titoli necessari",
+       true,
+       "Corretto: art. 27-bis."
+      ],
+      [
+       "Con domande separate dopo la VIA",
+       false,
+       "Il PAUR evita procedimenti separati."
+      ],
+      [
+       "Con un’autocertificazione",
+       false,
+       "Non è ammessa."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "Classificare il progetto, passare dalla verifica di assoggettabilità quando previsto, usare il provvedimento unico: così si affronta un ampliamento significativo.",
+   "nar": "Un raddoppio della capacità produttiva. Individua il percorso di valutazione.",
+   "rif": "D.lgs. 152/2006, Parte II, artt. 19 e 27-bis"
+  }
+ ]
+}

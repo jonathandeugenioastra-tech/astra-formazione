@@ -1,0 +1,75 @@
+{
+ "dopo": "Terre e rocce da scavo",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "Le terre del piccolo cantiere",
+   "scena": "Un’impresa scava 2.000 m³ di terreno per le fondazioni di un capannone. Vuole riutilizzarne una parte in un altro cantiere per un rilevato.",
+   "decisioni": [
+    {
+     "dom": "Il terreno riutilizzato nello stesso sito è un rifiuto?",
+     "opz": [
+      [
+       "No, se non è contaminato ed è riutilizzato allo stato naturale nello stesso sito",
+       true,
+       "Corretto: è escluso dalla disciplina dei rifiuti."
+      ],
+      [
+       "Sì, sempre",
+       false,
+       "C’è un’esclusione specifica."
+      ],
+      [
+       "Dipende dal colore",
+       false,
+       "Contano la contaminazione e il riutilizzo."
+      ]
+     ]
+    },
+    {
+     "dom": "Per portarlo in un altro cantiere come sottoprodotto, che cosa serve?",
+     "opz": [
+      [
+       "La dichiarazione di utilizzo almeno 15 giorni prima dell’inizio dei lavori, essendo un cantiere fino a 6.000 m³",
+       true,
+       "Corretto: è la procedura per i cantieri di piccole dimensioni."
+      ],
+      [
+       "Il piano di utilizzo approvato dalla Regione",
+       false,
+       "È per i cantieri di grandi dimensioni soggetti a VIA o AIA."
+      ],
+      [
+       "Nulla",
+       false,
+       "Servono la dichiarazione e il rispetto dei requisiti."
+      ]
+     ]
+    },
+    {
+     "dom": "Le analisi rivelano idrocarburi oltre le concentrazioni soglia. Che cosa succede?",
+     "opz": [
+      [
+       "Il terreno si gestisce come rifiuto con codice EER 17 05 e si attivano le procedure previste per la contaminazione",
+       true,
+       "Corretto: senza i requisiti non può essere sottoprodotto."
+      ],
+      [
+       "Si mescola con terra pulita",
+       false,
+       "La diluizione è vietata."
+      ],
+      [
+       "Si riutilizza lo stesso",
+       false,
+       "Non è ammesso."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "Riutilizzo nel sito solo se non contaminato, dichiarazione di utilizzo per i piccoli cantieri, gestione come rifiuto senza requisiti: le terre e rocce da scavo seguono regole precise.",
+   "nar": "Le terre di scavo di un piccolo cantiere. Decidi come gestirle.",
+   "rif": "D.P.R. 120/2017, artt. 21 e 24"
+  }
+ ]
+}

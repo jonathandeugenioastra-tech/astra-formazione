@@ -1,0 +1,62 @@
+{
+ "dopo": "Esempio applicativo: il censimento delle sorgenti di emissione",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Il censimento di una falegnameria",
+   "lead": "Censisci le sorgenti di emissione di una falegnameria che produce mobili.",
+   "dossier": [
+    [
+     "E1",
+     "aspirazione di trucioli e polveri di legno con filtro a maniche"
+    ],
+    [
+     "E2",
+     "cabina di verniciatura a spruzzo con prodotti a solvente"
+    ],
+    [
+     "E3",
+     "caldaia a biomassa legnosa da 400 kW per il riscaldamento"
+    ],
+    [
+     "Diffuse",
+     "carteggiatura manuale vicino al portone, appassimento dei pezzi verniciati"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Classifica le sorgenti in convogliate e diffuse e indica gli inquinanti principali.",
+     "min": 6,
+     "modello": "Convogliate: E1, polveri di legno; E2, composti organici volatili e polveri di overspray; E3, polveri, ossidi di azoto e monossido di carbonio. Diffuse: carteggiatura manuale, polveri; appassimento, composti organici volatili.",
+     "criteri": [
+      "Ho distinto convogliate e diffuse",
+      "Ho associato gli inquinanti a ogni sorgente",
+      "Ho considerato l’appassimento"
+     ]
+    },
+    {
+     "q": "Quale regime autorizzativo valuti per lo stabilimento?",
+     "min": 6,
+     "modello": "Si verifica se le attività rientrano tra quelle in deroga o nelle autorizzazioni di carattere generale dell’art. 272, in base ai quantitativi di prodotti vernicianti e alla potenza degli impianti; altrimenti serve l’autorizzazione dell’art. 269, di norma nell’AUA. La caldaia a biomassa sotto 1 MW va valutata secondo l’Allegato IV alla Parte V.",
+     "criteri": [
+      "Ho considerato l’art. 272",
+      "Ho indicato l’art. 269 come alternativa",
+      "Ho considerato i quantitativi di prodotti"
+     ]
+    },
+    {
+     "q": "Quali misure riduci le emissioni diffuse?",
+     "min": 6,
+     "modello": "Spostare la carteggiatura in una postazione aspirata; appassimento in area chiusa e aspirata; prodotti a base d’acqua o ad alto residuo secco; manutenzione e controllo del differenziale di pressione del filtro a maniche; registro dei consumi dei prodotti vernicianti.",
+     "criteri": [
+      "Ho previsto la captazione delle diffuse",
+      "Ho previsto prodotti a minore contenuto di solventi",
+      "Ho previsto manutenzione e registri"
+     ]
+    }
+   ],
+   "nar": "In questo laboratorio censisci le sorgenti di emissione di una falegnameria. Classifica le sorgenti, valuta il regime autorizzativo e proponi misure per le emissioni diffuse, poi confronta le tue risposte con la soluzione di riferimento.",
+   "rif": "D.lgs. 152/2006, artt. 269 e 272 · Allegato IV alla Parte V"
+  }
+ ]
+}

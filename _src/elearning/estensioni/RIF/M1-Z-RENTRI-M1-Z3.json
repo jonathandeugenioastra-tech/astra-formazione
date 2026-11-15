@@ -1,0 +1,67 @@
+{
+ "dopo": "Le quindici caratteristiche di pericolo",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · I rifiuti dell’officina meccanica",
+   "lead": "Un’officina di riparazione di autoveicoli con 6 dipendenti ti chiede di impostare la gestione dei rifiuti.",
+   "dossier": [
+    [
+     "Attività",
+     "Manutenzione e riparazione di autoveicoli"
+    ],
+    [
+     "Dipendenti",
+     "6"
+    ],
+    [
+     "Rifiuti prodotti",
+     "oli motore esausti, filtri dell’olio, stracci sporchi d’olio, batterie al piombo, imballaggi in materiali misti, pneumatici usati"
+    ],
+    [
+     "Spazi",
+     "retro del capannone, in parte coperto"
+    ],
+    [
+     "Ritiri",
+     "a chiamata, senza calendario"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Attribuisci a ciascun rifiuto il codice EER e indica se è pericoloso.",
+     "min": 10,
+     "modello": "Oli minerali per motori non clorurati 13 02 05*, pericoloso. Filtri dell’olio 16 01 07*, pericoloso. Stracci contaminati da sostanze pericolose 15 02 02*, pericoloso (se non contaminati 15 02 03). Batterie al piombo 16 06 01*, pericoloso. Imballaggi in materiali misti 15 01 06, non pericoloso. Pneumatici fuori uso 16 01 03, non pericoloso.",
+     "criteri": [
+      "Ho usato i codici a sei cifre con l’asterisco per i pericolosi",
+      "Ho riconosciuto che gli stracci possono essere voce a specchio",
+      "Ho distinto i quattro rifiuti pericolosi dai due non pericolosi"
+     ],
+     "traccia": "Es.: oli esausti → 13 02 05*, pericoloso; …"
+    },
+    {
+     "q": "Organizza il deposito temporaneo: dove, come e con quale criterio di avvio.",
+     "min": 8,
+     "modello": "Area coperta e pavimentata, con bacini di contenimento per oli e filtri; contenitori separati per categorie omogenee, etichettati con codice EER e caratteristiche di pericolo; batterie in contenitori a tenuta resistenti agli acidi. Criterio dichiarato: avvio almeno trimestrale indipendentemente dalle quantità, oppure al raggiungimento di 30 m³ di cui al massimo 10 di pericolosi, e comunque entro un anno.",
+     "criteri": [
+      "Ho previsto copertura e bacini di contenimento",
+      "Ho previsto separazione ed etichettatura",
+      "Ho scelto e scritto un criterio di avvio"
+     ]
+    },
+    {
+     "q": "Elenca gli adempimenti di tracciabilità a cui l’officina è tenuta.",
+     "min": 8,
+     "modello": "Iscrizione al RENTRI dell’unità locale, perché produce rifiuti pericolosi; registro cronologico di carico e scarico digitale, con annotazioni entro dieci giorni lavorativi e trasmissione mensile dei dati; formulario digitale per i ritiri, emesso tramite il RENTRI; verifica dell’iscrizione all’Albo del trasportatore e dell’autorizzazione dell’impianto; controllo della conferma di accettazione entro tre mesi.",
+     "criteri": [
+      "Ho indicato l’iscrizione al RENTRI",
+      "Ho indicato registro e formulario digitali con i termini",
+      "Ho previsto le verifiche su trasportatore e impianto"
+     ]
+    }
+   ],
+   "nar": "Ecco un laboratorio completo. Un’officina con sei dipendenti produce oli, filtri, stracci, batterie, imballaggi e pneumatici. In tre compiti attribuisci i codici, organizzi il deposito temporaneo ed elenchi gli adempimenti di tracciabilità. Per ogni compito scrivi la tua soluzione, poi confrontala con quella di riferimento e valuta che cosa hai considerato.",
+   "rif": "Decisione 2014/955/UE · artt. 184, 185-bis, 188-bis, 190 D.lgs. 152/2006"
+  }
+ ]
+}

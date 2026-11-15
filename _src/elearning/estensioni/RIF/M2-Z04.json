@@ -1,0 +1,63 @@
+{
+ "dopo": "Il regime sanzionatorio dei rifiuti",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Il controllo in azienda",
+   "lead": "Un controllo in un’impresa di lavorazione della plastica si chiude con quattro rilievi.",
+   "dossier": [
+    [
+     "Rilievo 1",
+     "rifiuti di plastica e fanghi accumulati da 14 mesi in un’area non pavimentata"
+    ],
+    [
+     "Rilievo 2",
+     "formulari con codici EER non corrispondenti ai rifiuti effettivi"
+    ],
+    [
+     "Rilievo 3",
+     "conferimenti a un trasportatore non iscritto all’Albo"
+    ],
+    [
+     "Rilievo 4",
+     "residui di imballaggi bruciati in un fusto nel piazzale"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Qualifica ciascun rilievo indicando l’articolo di riferimento.",
+     "min": 7,
+     "modello": "1: oltre i limiti del deposito temporaneo e senza condizioni tecniche: deposito incontrollato o gestione non autorizzata (artt. 255-256). 2: violazione degli obblighi del formulario (art. 258), con rilievo penale se i dati sulla natura del rifiuto sono falsi. 3: trasporto non autorizzato (art. 256) e responsabilità del produttore che ha affidato i rifiuti. 4: combustione illecita di rifiuti (art. 256-bis).",
+     "criteri": [
+      "Ho qualificato tutti e quattro i rilievi",
+      "Ho citato gli articoli corretti",
+      "Ho considerato la responsabilità del produttore"
+     ],
+     "minc": 120
+    },
+    {
+     "q": "Quali rilievi possono coinvolgere anche l’ente ai sensi del D.lgs. 231/2001?",
+     "min": 5,
+     "modello": "Diversi reati in materia di rifiuti, tra cui la gestione non autorizzata, sono reati presupposto dell’art. 25-undecies: se commessi nell’interesse o a vantaggio dell’impresa, ad esempio per risparmiare sui costi, risponde anche l’ente.",
+     "criteri": [
+      "Ho collegato l’art. 25-undecies",
+      "Ho richiamato interesse o vantaggio"
+     ]
+    },
+    {
+     "q": "Proponi un piano di rientro in ordine di priorità.",
+     "min": 7,
+     "modello": "Subito: cessare la combustione e la consegna al trasportatore non iscritto; avviare a recupero o smaltimento i rifiuti accumulati con soggetti autorizzati. Entro poche settimane: classificazione corretta e analisi dei fanghi; correzione dei formulari futuri; pavimentazione e organizzazione del deposito. Poi: procedura di qualifica dei fornitori, formazione, controlli periodici.",
+     "criteri": [
+      "Ho messo in ordine le priorità",
+      "Ho previsto il ricorso a soggetti autorizzati",
+      "Ho previsto procedure e formazione"
+     ],
+     "minc": 120
+    }
+   ],
+   "nar": "Nel laboratorio analizzi i rilievi di un controllo in un’impresa che lavora la plastica. Qualifica i rilievi, individua quelli che possono coinvolgere l’ente e proponi un piano di rientro, poi confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "Artt. 255, 256, 256-bis e 258 D.lgs. 152/2006 · art. 25-undecies D.lgs. 231/2001"
+  }
+ ]
+}

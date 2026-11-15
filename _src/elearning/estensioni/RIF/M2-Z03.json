@@ -1,0 +1,56 @@
+{
+ "dopo": "Flussi particolari: oli usati, RAEE, imballaggi",
+ "schermate": [
+  {
+   "t": "classifica",
+   "tit": "Quale disciplina?",
+   "lead": "Seleziona un rifiuto o prodotto, poi la disciplina di riferimento.",
+   "colonne": [
+    "Oli usati",
+    "RAEE",
+    "Imballaggi",
+    "Batterie"
+   ],
+   "schede": [
+    [
+     "Olio esausto del cambio dei carrelli",
+     0,
+     "Deposito separato e conferimento tramite il consorzio CONOU.",
+     "Corretto."
+    ],
+    [
+     "Monitor dismessi degli uffici",
+     1,
+     "Apparecchiature elettriche ed elettroniche: D.lgs. 49/2014.",
+     "Corretto."
+    ],
+    [
+     "Pallet in legno e film estensibile",
+     2,
+     "Imballaggi: Reg. (UE) 2025/40.",
+     "Corretto."
+    ],
+    [
+     "Accumulatori al litio dei carrelli",
+     3,
+     "Reg. (UE) 2023/1542.",
+     "Corretto."
+    ],
+    [
+     "Frigorifero della mensa da sostituire",
+     1,
+     "È un RAEE; per il ritiro valgono anche le regole dell’uno contro uno.",
+     "Corretto."
+    ],
+    [
+     "Fusti metallici vuoti delle materie prime",
+     2,
+     "Sono imballaggi.",
+     "Corretto."
+    ]
+   ],
+   "nar": "Sei rifiuti o prodotti a fine vita. Individua la disciplina speciale di riferimento.",
+   "rif": "D.lgs. 49/2014 · Reg. (UE) 2025/40 · Reg. (UE) 2023/1542"
+  }
+ ]
+}

@@ -1,0 +1,62 @@
+{
+ "dopo": "Voci assolute e voci a specchio",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Le terre di scavo del cantiere",
+   "lead": "Un’impresa edile rimuove terreno da un’area ex industriale dove in passato c’era un deposito di carburanti.",
+   "dossier": [
+    [
+     "Rifiuto",
+     "terra e rocce da scavo, circa 300 t"
+    ],
+    [
+     "Storia del sito",
+     "ex deposito di carburanti, dismesso da 15 anni"
+    ],
+    [
+     "Codici possibili",
+     "17 05 03* terra e rocce contenenti sostanze pericolose / 17 05 04 terra e rocce diverse da quelle della voce 17 05 03"
+    ],
+    [
+     "Analisi disponibili",
+     "nessuna"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Che tipo di voce è e come procedi per scegliere il codice?",
+     "min": 6,
+     "modello": "È una coppia di voci a specchio: il codice dipende dal contenuto di sostanze pericolose. Si ricostruisce la storia del sito e del processo, si individuano le sostanze pertinenti, come gli idrocarburi, e si campiona in modo rappresentativo, secondo le Linee guida SNPA sulla classificazione dei rifiuti.",
+     "criteri": [
+      "Ho riconosciuto la voce a specchio",
+      "Ho usato la storia del sito per individuare le sostanze",
+      "Ho previsto un campionamento rappresentativo"
+     ]
+    },
+    {
+     "q": "Le analisi trovano idrocarburi. Come stabilisci se il rifiuto è pericoloso?",
+     "min": 7,
+     "modello": "Si confrontano le concentrazioni delle sostanze con le soglie delle caratteristiche di pericolo HP dell’allegato III della direttiva 2008/98/CE, come modificato dal regolamento (UE) 1357/2014 e dal regolamento (UE) 2017/997 per HP14. Se anche una sola caratteristica è soddisfatta, il codice è 17 05 03*.",
+     "criteri": [
+      "Ho citato le caratteristiche HP",
+      "Ho indicato che basta una caratteristica",
+      "Ho collegato l’esito al codice con asterisco"
+     ]
+    },
+    {
+     "q": "Quali conseguenze ha la classificazione sugli adempimenti?",
+     "min": 5,
+     "modello": "Se pericoloso: iscrizione al RENTRI come produttore di rifiuti pericolosi, registro e formulario digitali, trasportatore in categoria 5 e impianto autorizzato per quel codice. Se non pericoloso, restano formulario e verifiche della filiera. In entrambi i casi il rapporto di prova e la motivazione si conservano.",
+     "criteri": [
+      "Ho distinto le conseguenze nei due casi",
+      "Ho indicato la categoria 5 dell’Albo",
+      "Ho previsto la conservazione delle analisi"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio classifichi le terre di scavo di un’area ex industriale. È un caso tipico di voce a specchio. Stabilisci come scegliere il codice, come valutare la pericolosità dopo le analisi e quali adempimenti ne derivano, poi confronta le tue risposte con la soluzione di riferimento.",
+   "rif": "Decisione 2014/955/UE · Reg. (UE) 1357/2014 · Linee guida SNPA"
+  }
+ ]
+}

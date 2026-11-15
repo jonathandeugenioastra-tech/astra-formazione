@@ -1,0 +1,66 @@
+{
+ "dopo": "AUA: titoli compresi, durata e modifiche",
+ "schermate": [
+  {
+   "t": "classifica",
+   "tit": "Rientra nell’AUA?",
+   "lead": "Seleziona un titolo, poi la risposta.",
+   "colonne": [
+    "Rientra nell’AUA",
+    "Non rientra"
+   ],
+   "schede": [
+    [
+     "Autorizzazione agli scarichi idrici",
+     0,
+     "È tra i titoli del D.P.R. 59/2013.",
+     "Corretto."
+    ],
+    [
+     "Autorizzazione alle emissioni in atmosfera dell’art. 269",
+     0,
+     "Rientra.",
+     "Corretto."
+    ],
+    [
+     "Comunicazione di impatto acustico",
+     0,
+     "Rientra.",
+     "Corretto."
+    ],
+    [
+     "Comunicazione per il recupero di rifiuti in procedura semplificata",
+     0,
+     "Rientra (artt. 214-216).",
+     "Corretto."
+    ],
+    [
+     "Autorizzazione integrata ambientale",
+     1,
+     "L’AUA si applica agli impianti non soggetti ad AIA.",
+     "Corretto."
+    ],
+    [
+     "Certificato di prevenzione incendi",
+     1,
+     "È un procedimento dei Vigili del fuoco, non ambientale.",
+     "Corretto."
+    ],
+    [
+     "Autorizzazione unica degli impianti di gestione dei rifiuti (art. 208)",
+     1,
+     "Non è compresa nell’AUA.",
+     "Corretto."
+    ],
+    [
+     "Uso agronomico degli effluenti di allevamento",
+     0,
+     "Rientra.",
+     "Corretto."
+    ]
+   ],
+   "nar": "Otto titoli abilitativi. Indica quali possono confluire nell’autorizzazione unica ambientale.",
+   "rif": "D.P.R. 59/2013, art. 3"
+  }
+ ]
+}

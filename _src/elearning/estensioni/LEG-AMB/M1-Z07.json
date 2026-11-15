@@ -1,0 +1,75 @@
+{
+ "dopo": "Gas fluorurati e sostanze che riducono lo strato di ozono",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "Il chiller del reparto",
+   "scena": "Il chiller del reparto contiene 60 kg di R-410A, pari a circa 125 t CO₂e. Il tecnico trova una perdita durante il controllo.",
+   "decisioni": [
+    {
+     "dom": "Con quale frequenza va controllato per le perdite?",
+     "opz": [
+      [
+       "Ogni 6 mesi, oppure ogni 12 mesi se dotato di sistema di rilevamento delle perdite",
+       true,
+       "Corretto: tra 50 e 500 t CO₂e il controllo è semestrale, annuale con un sistema di rilevamento."
+      ],
+      [
+       "Ogni 3 mesi",
+       false,
+       "È la frequenza da 500 t CO₂e in su."
+      ],
+      [
+       "Ogni 5 anni",
+       false,
+       "La frequenza è molto più ravvicinata."
+      ]
+     ]
+    },
+    {
+     "dom": "Che cosa si fa dopo la riparazione della perdita?",
+     "opz": [
+      [
+       "Nulla",
+       false,
+       "Serve un controllo di verifica."
+      ],
+      [
+       "Un nuovo controllo dopo almeno 24 ore ed entro un mese dalla riparazione",
+       true,
+       "Corretto: verifica l’efficacia della riparazione."
+      ],
+      [
+       "Si aggiunge refrigerante senza cercare la perdita",
+       false,
+       "Ricaricare senza riparare è vietato."
+      ]
+     ]
+    },
+    {
+     "dom": "Quali registrazioni servono?",
+     "opz": [
+      [
+       "Registro dell’apparecchiatura e comunicazione dell’intervento alla Banca dati entro 30 giorni",
+       true,
+       "Corretto: lo prevede il D.P.R. 146/2018."
+      ],
+      [
+       "Nessuna, se l’impresa è certificata",
+       false,
+       "Le registrazioni sono sempre dovute."
+      ],
+      [
+       "Solo la fattura del tecnico",
+       false,
+       "Non basta."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "Frequenza dei controlli in base alle tonnellate di CO₂ equivalente, verifica dopo la riparazione, registrazione e comunicazione alla Banca dati: è la gestione corretta di un’apparecchiatura con gas fluorurati.",
+   "nar": "Una perdita su un chiller. Gestiscila secondo il regolamento F-gas.",
+   "rif": "Reg. (UE) 2024/573 · D.P.R. 146/2018"
+  }
+ ]
+}

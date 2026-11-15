@@ -1,0 +1,77 @@
+{
+ "dopo": "Esercitazione · La quarta copia che non arriva",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Il piano di gestione dei rifiuti",
+   "lead": "Riassumi in un piano la gestione dei rifiuti di un’impresa metalmeccanica con 30 dipendenti.",
+   "dossier": [
+    [
+     "Rifiuti",
+     "sfridi metallici, emulsioni oleose esauste, oli, imballaggi, fanghi dal lavaggio pezzi"
+    ],
+    [
+     "Organizzazione",
+     "nessun responsabile designato; ritiri a chiamata"
+    ],
+    [
+     "Obiettivo",
+     "conformità e riduzione dei costi"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Classifica i rifiuti e indica per ciascuno la destinazione preferibile secondo la gerarchia.",
+     "min": 8,
+     "modello": "Sfridi metallici, non pericolosi, a riciclaggio in fonderia; emulsioni oleose esauste, di norma pericolose, a trattamento chimico-fisico; oli tramite CONOU per la rigenerazione; imballaggi a riciclaggio o riutilizzo; fanghi da classificare con analisi, a recupero o smaltimento autorizzato. Prima ancora: ridurre emulsioni e fanghi con manutenzione e filtrazione.",
+     "criteri": [
+      "Ho distinto pericolosi e non pericolosi",
+      "Ho applicato la gerarchia",
+      "Ho previsto interventi di prevenzione"
+     ],
+     "minc": 150
+    },
+    {
+     "q": "Definisci ruoli e controlli.",
+     "min": 6,
+     "modello": "Un responsabile della gestione dei rifiuti con delega e budget; calendario dei ritiri coerente con il criterio del deposito temporaneo; verifica iniziale e periodica di trasportatori e impianti; controllo mensile dei formulari aperti e delle accettazioni; formazione degli addetti.",
+     "criteri": [
+      "Ho designato un responsabile",
+      "Ho previsto il controllo della filiera",
+      "Ho previsto la formazione"
+     ]
+    },
+    {
+     "q": "Indica tre indicatori per misurare il miglioramento.",
+     "min": 5,
+     "modello": "Quantità di rifiuti per unità di prodotto; percentuale avviata a recupero sul totale; numero di non conformità documentali per trimestre. Facoltativo: costo di gestione per tonnellata.",
+     "criteri": [
+      "Ho proposto un indicatore di quantità",
+      "Ho proposto un indicatore di recupero",
+      "Ho proposto un indicatore di conformità"
+     ]
+    }
+   ],
+   "nar": "Il laboratorio conclude il corso: scrivi un piano di gestione dei rifiuti per un’impresa metalmeccanica. Classifica i rifiuti con le destinazioni preferibili, definisci ruoli e controlli e proponi tre indicatori, poi confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "Artt. 179, 183, 185-bis e 188 D.lgs. 152/2006"
+  },
+  {
+   "t": "applica",
+   "tit": "La gestione dei rifiuti nella tua azienda",
+   "lead": "Verifica la gestione dei rifiuti nella tua organizzazione.",
+   "voci": [
+    "I rifiuti sono classificati con i codici EER",
+    "Il deposito temporaneo rispetta le condizioni",
+    "Il criterio di avvio è scritto",
+    "Trasportatori e impianti sono verificati",
+    "Le accettazioni sono controllate",
+    "Il MUD o il RENTRI sono gestiti",
+    "Esiste un responsabile designato"
+   ],
+   "campo": "La prima azione che proporresti",
+   "esempio": "Es.: verifica dell’iscrizione all’Albo di tutti i trasportatori entro un mese",
+   "min": 3,
+   "nar": "Verifica come la tua azienda gestisce i rifiuti e indica la prima azione che proporresti."
+  }
+ ]
+}

@@ -1,0 +1,39 @@
+{
+ "dopo": "Ravvedimento operoso, confisca e ripristino dello stato dei luoghi",
+ "schermate": [
+  {
+   "t": "esempio",
+   "tit": "Esempio guidato · Il ravvedimento operoso",
+   "lead": "Come la condotta dopo il fatto riduce la pena (art. 452-decies c.p.).",
+   "passi": [
+    [
+     "Il fatto",
+     "Un’impresa è imputata di inquinamento ambientale per uno scarico che ha compromesso un corso d’acqua.",
+     "Art. 452-bis c.p."
+    ],
+    [
+     "La scelta",
+     "Prima dell’apertura del dibattimento di primo grado provvede concretamente alla messa in sicurezza e alla bonifica.",
+     "Azione prima del dibattimento"
+    ],
+    [
+     "L’effetto",
+     "Le pene sono diminuite dalla metà a due terzi.",
+     "Riduzione da 1/2 a 2/3"
+    ],
+    [
+     "La collaborazione",
+     "Chi aiuta concretamente l’autorità nella ricostruzione del fatto ottiene una diminuzione da un terzo alla metà.",
+     "Riduzione da 1/3 a 1/2"
+    ],
+    [
+     "La sospensione",
+     "Il procedimento può essere sospeso per il tempo necessario alle attività, entro i limiti di legge.",
+     "Tempo per bonificare"
+    ]
+   ],
+   "nar": "Il ravvedimento operoso premia chi rimedia. Se prima dell’apertura del dibattimento di primo grado l’impresa provvede concretamente alla messa in sicurezza e alla bonifica, le pene sono diminuite dalla metà a due terzi. Chi aiuta concretamente l’autorità a ricostruire il fatto ottiene una diminuzione da un terzo alla metà. Il procedimento può essere sospeso per il tempo necessario a eseguire le attività.",
+   "rif": "Art. 452-decies c.p."
+  }
+ ]
+}

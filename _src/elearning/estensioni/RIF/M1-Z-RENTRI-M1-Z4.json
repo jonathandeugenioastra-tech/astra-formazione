@@ -1,0 +1,39 @@
+{
+ "dopo": "Il formulario digitale: emissione, vidimazione e firme",
+ "schermate": [
+  {
+   "t": "esempio",
+   "tit": "Esempio guidato · Il ritiro con formulario digitale",
+   "lead": "Dalla richiesta di ritiro alla conferma dell’impianto.",
+   "passi": [
+    [
+     "Emissione",
+     "Il produttore emette il formulario con il gestionale interoperabile o con i servizi del portale RENTRI.",
+     "Gestionale o portale"
+    ],
+    [
+     "Vidimazione",
+     "Il RENTRI vidima il formulario assegnando un numero identificativo univoco.",
+     "Numero univoco"
+    ],
+    [
+     "Partenza",
+     "Produttore e trasportatore firmano digitalmente; quantità e caratteristiche sono quelle del rifiuto caricato.",
+     "Firme alla partenza"
+    ],
+    [
+     "Arrivo",
+     "L’impianto registra la quantità accettata e firma: in caso di respingimento lo indica.",
+     "Accettazione o respingimento"
+    ],
+    [
+     "Chiusura",
+     "I dati sono trasmessi al RENTRI; il produttore verifica l’accettazione e annota lo scarico nel registro.",
+     "Verifica e annotazione"
+    ]
+   ],
+   "nar": "Seguiamo un ritiro con il formulario digitale. Il produttore lo emette con il proprio gestionale o con il portale. Il RENTRI lo vidima con un numero univoco. Alla partenza firmano produttore e trasportatore. All’arrivo l’impianto indica la quantità accettata e firma. I dati confluiscono nel RENTRI, e il produttore verifica l’accettazione e annota lo scarico nel registro.",
+   "rif": "Art. 7 D.M. 59/2023"
+  }
+ ]
+}

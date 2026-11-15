@@ -1,0 +1,64 @@
+{
+ "dopo": "Il registro delle prescrizioni legali e autorizzative",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Costruire il registro delle prescrizioni",
+   "lead": "Costruisci le prime righe del registro delle prescrizioni per uno stabilimento di trattamento superficiale.",
+   "dossier": [
+    [
+     "AUA",
+     "rilasciata il 10 marzo 2022: emissioni da due camini con autocontrollo annuale; scarico industriale in fognatura con autocontrollo semestrale"
+    ],
+    [
+     "F-gas",
+     "chiller da 125 t CO₂e"
+    ],
+    [
+     "Rifiuti",
+     "fanghi di depurazione pericolosi, oli esausti"
+    ],
+    [
+     "Rumore",
+     "valutazione di impatto acustico del 2022"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Scrivi le righe del registro per emissioni e scarico: prescrizione, frequenza, responsabile, evidenza.",
+     "min": 8,
+     "modello": "Emissioni E1 ed E2: autocontrollo annuale dei parametri prescritti; responsabile ambiente; evidenza: rapporti di prova e comunicazione all’autorità se prevista. Scarico: autocontrollo semestrale nel pozzetto fiscale; responsabile ambiente; evidenza: verbale di campionamento e rapporto di prova. Rinnovo AUA: domanda entro il 10 settembre 2036.",
+     "criteri": [
+      "Ho indicato frequenze e responsabili",
+      "Ho indicato le evidenze documentali",
+      "Ho calcolato il termine per il rinnovo"
+     ],
+     "minc": 150
+    },
+    {
+     "q": "Aggiungi le righe per gas fluorurati e rifiuti.",
+     "min": 7,
+     "modello": "Chiller: controllo delle perdite semestrale, o annuale con sistema di rilevamento, da tecnico certificato; registro dell’apparecchiatura e comunicazione alla Banca dati entro 30 giorni. Rifiuti: iscrizione al RENTRI, registro digitale con annotazioni entro 10 giorni lavorativi e trasmissione mensile, formulari digitali, verifica delle accettazioni entro tre mesi, MUD annuale.",
+     "criteri": [
+      "Ho inserito frequenza e registrazioni F-gas",
+      "Ho inserito gli adempimenti RENTRI",
+      "Ho inserito il MUD"
+     ],
+     "minc": 120
+    },
+    {
+     "q": "Quali eventi devono far aggiornare il registro?",
+     "min": 5,
+     "modello": "Nuove norme o modifiche normative; nuove autorizzazioni, rinnovi o prescrizioni; modifiche di impianti e processi; esiti di controlli e audit; cambi di responsabile. L’aggiornamento va datato e approvato.",
+     "criteri": [
+      "Ho indicato modifiche normative e autorizzative",
+      "Ho indicato modifiche impiantistiche",
+      "Ho previsto data e approvazione"
+     ]
+    }
+   ],
+   "nar": "Il laboratorio ti chiede di costruire le prime righe di un registro delle prescrizioni per uno stabilimento reale. Compila le righe per emissioni e scarico, poi per gas fluorurati e rifiuti, e indica quando aggiornare il registro. Confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "UNI EN ISO 14001:2015, punti 6.1.3 e 9.1.2"
+  }
+ ]
+}

@@ -1,0 +1,85 @@
+{
+ "dopo": "La valutazione periodica della conformità",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · L’audit di conformità",
+   "lead": "Durante la valutazione periodica della conformità hai raccolto cinque rilievi.",
+   "dossier": [
+    [
+     "Rilievo 1",
+     "autocontrollo del camino E2 eseguito con 4 mesi di ritardo"
+    ],
+    [
+     "Rilievo 2",
+     "registro del chiller aggiornato e controlli regolari"
+    ],
+    [
+     "Rilievo 3",
+     "due formulari senza conferma di accettazione da oltre tre mesi"
+    ],
+    [
+     "Rilievo 4",
+     "il deposito di fanghi non riporta l’etichetta di pericolo"
+    ],
+    [
+     "Rilievo 5",
+     "la valutazione di impatto acustico non considera il nuovo compressore"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Classifica i rilievi: conforme, non conformità, opportunità di miglioramento.",
+     "min": 6,
+     "modello": "Rilievo 2: conforme. Rilievi 1, 3 e 4: non conformità rispetto a prescrizioni e norme. Rilievo 5: non conformità potenziale, perché la modifica impiantistica non è stata valutata; va verificata con una nuova valutazione acustica.",
+     "criteri": [
+      "Ho riconosciuto il rilievo conforme",
+      "Ho classificato le non conformità",
+      "Ho valutato il rilievo 5"
+     ]
+    },
+    {
+     "q": "Per ogni non conformità indica correzione immediata e azione correttiva.",
+     "min": 8,
+     "modello": "1: eseguire subito l’autocontrollo; scadenzario con promemoria. 3: chiedere le conferme e, se non arrivano, comunicare all’autorità secondo l’art. 188; controllo mensile dei formulari aperti. 4: etichettare subito; checklist del deposito. 5: nuova valutazione di impatto acustico; procedura di gestione delle modifiche.",
+     "criteri": [
+      "Ho distinto correzione e azione correttiva",
+      "Ho indicato le comunicazioni dovute",
+      "Ho previsto controlli sistematici"
+     ],
+     "minc": 150
+    },
+    {
+     "q": "Riassumi l’esito per la direzione in poche righe.",
+     "min": 5,
+     "modello": "Su cinque aspetti verificati, uno conforme e quattro con criticità, di cui una legata alla gestione delle modifiche. Nessun superamento di limiti accertato. Servono uno scadenzario unico, il controllo mensile dei formulari e una procedura per le modifiche. Proposta: verifica di efficacia tra tre mesi.",
+     "criteri": [
+      "Ho dato un quadro sintetico",
+      "Ho indicato le priorità",
+      "Ho proposto una verifica di efficacia"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio valuti cinque rilievi raccolti durante una valutazione di conformità. Classificali, indica correzioni e azioni correttive e scrivi una breve sintesi per la direzione, poi confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "UNI EN ISO 14001:2015, punti 9.1.2 e 10.2"
+  },
+  {
+   "t": "applica",
+   "tit": "Il quadro autorizzativo della tua azienda",
+   "lead": "Ricostruisci i titoli ambientali della tua organizzazione.",
+   "voci": [
+    "AUA o autorizzazioni settoriali",
+    "AIA",
+    "Autorizzazione allo scarico",
+    "Autorizzazione o adesione per le emissioni",
+    "Iscrizione al RENTRI",
+    "Registro delle apparecchiature F-gas",
+    "Registro delle prescrizioni"
+   ],
+   "campo": "La prossima scadenza ambientale e chi la presidia",
+   "esempio": "Es.: rinnovo AUA a settembre 2030, responsabile ambiente",
+   "min": 3,
+   "nar": "Ricostruisci il quadro autorizzativo della tua azienda e indica la prossima scadenza ambientale e chi la presidia."
+  }
+ ]
+}

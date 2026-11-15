@@ -1,0 +1,75 @@
+{
+ "dopo": "Scarico o rifiuto liquido?",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "La vasca dell’autolavaggio interno",
+   "scena": "Un’impresa di autotrasporti lava i mezzi nel piazzale. Le acque finiscono in una vasca interrata senza uscita, svuotata ogni mese con un’autobotte.",
+   "decisioni": [
+    {
+     "dom": "Come si qualificano le acque raccolte nella vasca?",
+     "opz": [
+      [
+       "Scarico in fognatura",
+       false,
+       "Manca il sistema stabile di collettamento verso un corpo recettore."
+      ],
+      [
+       "Rifiuto liquido, perché sono raccolte e trasportate senza un sistema stabile di collettamento",
+       true,
+       "Corretto: si applica la Parte IV del D.lgs. 152/2006."
+      ],
+      [
+       "Acque meteoriche",
+       false,
+       "Sono acque di lavaggio di un’attività."
+      ]
+     ]
+    },
+    {
+     "dom": "Che cosa comporta la qualificazione come rifiuto?",
+     "opz": [
+      [
+       "Nessun adempimento",
+       false,
+       "Il rifiuto liquido va gestito come ogni altro rifiuto."
+      ],
+      [
+       "Codice EER, deposito temporaneo, formulario e verifica dell’autotrasportatore e dell’impianto di destinazione",
+       true,
+       "Corretto: valgono tutte le regole della gestione dei rifiuti."
+      ],
+      [
+       "Solo un’analisi annuale",
+       false,
+       "Non basta."
+      ]
+     ]
+    },
+    {
+     "dom": "L’impresa vuole collegare la vasca alla fognatura. Che cosa serve?",
+     "opz": [
+      [
+       "Basta aprire un tubo",
+       false,
+       "Sarebbe uno scarico non autorizzato."
+      ],
+      [
+       "Un’autorizzazione allo scarico, sentito il gestore, con eventuali pretrattamenti come la disoleazione",
+       true,
+       "Corretto: lo scarico di acque reflue industriali in fognatura va autorizzato."
+      ],
+      [
+       "Una comunicazione all’INAIL",
+       false,
+       "Non è l’ente competente."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "Senza un sistema stabile di collettamento il refluo è un rifiuto liquido; per trasformarlo in uno scarico servono un collegamento stabile e l’autorizzazione.",
+   "nar": "Le acque di lavaggio dei mezzi finiscono in una vasca. Qualificale e decidi.",
+   "rif": "Artt. 74, 124 e 185 D.lgs. 152/2006"
+  }
+ ]
+}

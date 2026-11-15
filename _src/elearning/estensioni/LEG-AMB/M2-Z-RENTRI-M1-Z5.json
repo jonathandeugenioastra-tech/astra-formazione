@@ -1,0 +1,75 @@
+{
+ "dopo": "Indisponibilità dei servizi: le modalità operative di sicurezza",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "Il portale non risponde",
+   "scena": "Venerdì alle 16 il trasportatore è nel piazzale per un ritiro di rifiuti pericolosi. Il gestionale non riesce a ottenere la vidimazione del formulario.",
+   "decisioni": [
+    {
+     "dom": "Che cosa verifichi per primo?",
+     "opz": [
+      [
+       "Se l’indisponibilità è effettiva e comunicata dai canali ufficiali del RENTRI, distinguendo un guasto del servizio da un problema del tuo gestionale",
+       true,
+       "Corretto: le modalità di sicurezza valgono solo per l’indisponibilità accertata dei servizi."
+      ],
+      [
+       "Niente: rimandi il ritiro di un mese",
+       false,
+       "Il rinvio può far superare i limiti del deposito temporaneo."
+      ],
+      [
+       "Fai partire il trasporto senza formulario",
+       false,
+       "Il trasporto senza formulario è sanzionato per produttore e trasportatore."
+      ]
+     ]
+    },
+    {
+     "dom": "L’indisponibilità è confermata. Come procedi?",
+     "opz": [
+      [
+       "Applichi la procedura del D.D. 5 febbraio 2026, n. 25, con le indicazioni richieste",
+       true,
+       "Corretto: la procedura consente di proseguire l’attività senza interruzioni."
+      ],
+      [
+       "Usi un vecchio formulario cartaceo già compilato",
+       false,
+       "Va seguita la procedura prevista."
+      ],
+      [
+       "Trasmetti i dati via e-mail all’ARPA",
+       false,
+       "Non è la procedura prevista."
+      ]
+     ]
+    },
+    {
+     "dom": "Al ripristino del servizio che cosa fai?",
+     "opz": [
+      [
+       "Nulla",
+       false,
+       "Annotazioni e trasmissioni vanno regolarizzate."
+      ],
+      [
+       "Regolarizzi annotazioni e trasmissioni nei termini indicati e conservi le prove dell’indisponibilità",
+       true,
+       "Corretto: conservare le evidenze tutela l’impresa in caso di controllo."
+      ],
+      [
+       "Annulli il ritiro",
+       false,
+       "Il ritiro è avvenuto regolarmente con la procedura di sicurezza."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "Accertare l’indisponibilità, applicare la procedura di sicurezza, regolarizzare al ripristino e conservare le prove: l’attività non si ferma e la tracciabilità resta completa.",
+   "nar": "Il RENTRI non risponde durante un ritiro. Decidi come procedere.",
+   "rif": "D.D. 5 febbraio 2026, n. 25 · D.D. 30 ottobre 2025, n. 319"
+  }
+ ]
+}

@@ -1,0 +1,75 @@
+{
+ "dopo": "Il deposito temporaneo prima della raccolta",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "I fusti nel retro del capannone",
+   "scena": "Un’officina tiene nel retro del capannone fusti di oli esausti e contenitori di filtri. L’ultimo ritiro risale a cinque mesi fa; il volume complessivo è di circa 4 metri cubi.",
+   "decisioni": [
+    {
+     "dom": "Il deposito è ancora regolare?",
+     "opz": [
+      [
+       "No: con il criterio temporale serve un avvio almeno trimestrale; con il criterio quantitativo si può arrivare fino a un anno se non si superano 30 m³, di cui 10 di pericolosi",
+       true,
+       "Corretto: conta il criterio scelto e documentato dall’impresa."
+      ],
+      [
+       "Sì, sempre: il deposito temporaneo non ha limiti finché i rifiuti restano in azienda",
+       false,
+       "Il deposito ha limiti di tempo e di quantità: oltre diventa stoccaggio non autorizzato."
+      ],
+      [
+       "No, perché i rifiuti pericolosi vanno ritirati ogni mese",
+       false,
+       "Non esiste un obbligo mensile."
+      ]
+     ]
+    },
+    {
+     "dom": "I fusti sono all’aperto, senza bacino di contenimento e senza etichetta. Che cosa fai?",
+     "opz": [
+      [
+       "Nulla, il deposito è temporaneo",
+       false,
+       "Le norme tecniche e l’etichettatura dei rifiuti pericolosi valgono anche nel deposito temporaneo."
+      ],
+      [
+       "Sposti i fusti su un bacino di contenimento, al coperto, li etichetti e separi i rifiuti per categorie omogenee",
+       true,
+       "Corretto: sono le condizioni dell’art. 185-bis."
+      ],
+      [
+       "Travasi tutto in un unico contenitore per semplificare",
+       false,
+       "La miscelazione di rifiuti pericolosi è vietata salvo autorizzazione."
+      ]
+     ]
+    },
+    {
+     "dom": "Come dimostri il rispetto dei limiti a un controllo?",
+     "opz": [
+      [
+       "Con le annotazioni del registro di carico e scarico e i formulari dei ritiri",
+       true,
+       "Corretto: il registro documenta date e quantità di produzione e di avvio."
+      ],
+      [
+       "Con una dichiarazione verbale del titolare",
+       false,
+       "Serve una prova documentale."
+      ],
+      [
+       "Con le fatture del carburante",
+       false,
+       "Non riguardano i rifiuti."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "Scegliere il criterio, rispettare le condizioni tecniche e documentare tutto nel registro: così il deposito temporaneo resta tale e non diventa stoccaggio non autorizzato.",
+   "nar": "Un deposito di rifiuti pericolosi da verificare. Decidi se è regolare e come metterlo a posto.",
+   "rif": "Art. 185-bis D.lgs. 152/2006"
+  }
+ ]
+}

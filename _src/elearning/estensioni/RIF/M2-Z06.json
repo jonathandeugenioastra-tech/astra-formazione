@@ -1,0 +1,103 @@
+{
+ "dopo": "Rifiuti pericolosi e trasporto ADR",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "I fusti in partenza",
+   "scena": "Devono partire 12 fusti di solventi esausti infiammabili, rifiuto pericoloso, verso un impianto autorizzato.",
+   "decisioni": [
+    {
+     "dom": "Il trasporto ricade nell’ADR?",
+     "opz": [
+      [
+       "Sì, se il rifiuto è una merce pericolosa secondo i criteri ADR: classificazione, imballaggi, etichette e documenti ADR si aggiungono agli obblighi dei rifiuti",
+       true,
+       "Corretto: le due discipline si sommano."
+      ],
+      [
+       "No, i rifiuti non sono mai merci pericolose",
+       false,
+       "I rifiuti pericolosi possono esserlo."
+      ],
+      [
+       "Basta il formulario",
+       false,
+       "Servono anche le indicazioni ADR."
+      ]
+     ]
+    },
+    {
+     "dom": "Chi verifica gli adempimenti ADR in azienda?",
+     "opz": [
+      [
+       "Il consulente per la sicurezza dei trasporti di merci pericolose, quando l’impresa vi è tenuta",
+       true,
+       "Corretto: assiste l’impresa nelle operazioni di carico, imballaggio e trasporto."
+      ],
+      [
+       "Il medico competente",
+       false,
+       "Non è il suo ruolo."
+      ],
+      [
+       "Nessuno",
+       false,
+       "Serve una figura competente."
+      ]
+     ]
+    },
+    {
+     "dom": "Un fusto ha il coperchio deformato e perde. Che cosa fai?",
+     "opz": [
+      [
+       "Lo carichi lo stesso, il viaggio è breve",
+       false,
+       "Un imballaggio danneggiato non si carica."
+      ],
+      [
+       "Lo travasi in un imballaggio omologato integro, lo etichetti e aggiorni i documenti",
+       true,
+       "Corretto: l’integrità dell’imballaggio è un requisito essenziale."
+      ],
+      [
+       "Lo copri con un telo",
+       false,
+       "Non risolve la perdita."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "Rifiuti pericolosi e merci pericolose sono due discipline che si sommano: imballaggi integri e omologati, etichette, documenti e consulente ADR quando previsto.",
+   "nar": "Fusti di solventi infiammabili da spedire. Verifica il trasporto.",
+   "rif": "ADR · art. 193 D.lgs. 152/2006"
+  },
+  {
+   "t": "vf",
+   "tit": "Ripasso · Gestione dei rifiuti",
+   "voci": [
+    [
+     "Il produttore resta responsabile se affida i rifiuti a un trasportatore non iscritto all’Albo.",
+     true,
+     "Vero: deve verificare autorizzazioni e iscrizioni."
+    ],
+    [
+     "Le emulsioni oleose si possono miscelare con gli oli usati per semplificare il ritiro.",
+     false,
+     "Falso: gli oli usati vanno depositati separatamente, senza miscelazioni."
+    ],
+    [
+     "Le terre e rocce da scavo contaminate possono essere riutilizzate come sottoprodotto.",
+     false,
+     "Falso: senza requisiti sono rifiuti."
+    ],
+    [
+     "La combustione illecita di rifiuti è un reato.",
+     true,
+     "Vero: art. 256-bis."
+    ]
+   ],
+   "nar": "Ripasso: quattro affermazioni sulla gestione dei rifiuti.",
+   "rif": "D.lgs. 152/2006, Parte IV"
+  }
+ ]
+}

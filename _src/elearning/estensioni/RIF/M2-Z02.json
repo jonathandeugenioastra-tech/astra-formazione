@@ -1,0 +1,75 @@
+{
+ "dopo": "Rifiuti contenenti amianto",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "Le lastre sul tetto del capannone",
+   "scena": "Il proprietario di un capannone vuole sostituire la copertura in lastre di cemento-amianto deteriorate.",
+   "decisioni": [
+    {
+     "dom": "A chi affida i lavori?",
+     "opz": [
+      [
+       "A un’impresa iscritta all’Albo gestori ambientali in categoria 10",
+       true,
+       "Corretto: la bonifica di beni contenenti amianto richiede l’iscrizione in categoria 10."
+      ],
+      [
+       "A qualsiasi impresa edile",
+       false,
+       "Serve un’impresa abilitata."
+      ],
+      [
+       "Ai propri dipendenti",
+       false,
+       "Servono requisiti e formazione specifici."
+      ]
+     ]
+    },
+    {
+     "dom": "Quando possono iniziare i lavori?",
+     "opz": [
+      [
+       "Subito",
+       false,
+       "Il piano di lavoro va presentato prima."
+      ],
+      [
+       "Non prima di 30 giorni dalla presentazione del piano di lavoro all’organo di vigilanza",
+       true,
+       "Corretto: art. 256 del D.lgs. 81/2008."
+      ],
+      [
+       "Dopo il permesso dei vicini",
+       false,
+       "Non è il requisito."
+      ]
+     ]
+    },
+    {
+     "dom": "Come sono gestite le lastre rimosse?",
+     "opz": [
+      [
+       "Come rifiuto pericoloso 17 06 05*, confezionato, etichettato e avviato in discarica autorizzata",
+       true,
+       "Corretto."
+      ],
+      [
+       "Frantumate e usate come riempimento",
+       false,
+       "Frantumare l’amianto libera fibre ed è vietato."
+      ],
+      [
+       "Lasciate nel piazzale",
+       false,
+       "È un deposito incontrollato."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "Impresa in categoria 10, piano di lavoro almeno 30 giorni prima, rifiuto pericoloso confezionato e smaltito in discarica autorizzata: la rimozione dell’amianto è una filiera controllata.",
+   "nar": "Una copertura in cemento-amianto da rimuovere. Organizza i lavori.",
+   "rif": "Art. 256 D.lgs. 81/2008 · art. 212 D.lgs. 152/2006"
+  }
+ ]
+}

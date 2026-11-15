@@ -1,0 +1,75 @@
+{
+ "dopo": "Le visite mediche e il giudizio di idoneità",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "L’idoneità con limitazioni",
+   "scena": "Dopo la visita periodica un magazziniere riceve il giudizio: idoneo con limitazione al sollevamento di carichi superiori a 10 kg. Non è d’accordo.",
+   "decisioni": [
+    {
+     "dom": "Che cosa può fare il lavoratore?",
+     "opz": [
+      [
+       "Nulla, il giudizio è definitivo",
+       false,
+       "Il giudizio può essere impugnato."
+      ],
+      [
+       "Ricorrere entro trenta giorni all’organo di vigilanza territorialmente competente",
+       true,
+       "Corretto: lo prevede l’art. 41, comma 9."
+      ],
+      [
+       "Ignorare la limitazione",
+       false,
+       "La limitazione va rispettata finché è in vigore."
+      ]
+     ]
+    },
+    {
+     "dom": "Che cosa deve fare il datore di lavoro?",
+     "opz": [
+      [
+       "Adibirlo alla stessa mansione senza modifiche",
+       false,
+       "Deve rispettare la limitazione."
+      ],
+      [
+       "Adattare la mansione, ad esempio con ausili per la movimentazione, o assegnare compiti compatibili",
+       true,
+       "Corretto: il datore attua le misure indicate dal medico competente."
+      ],
+      [
+       "Sospenderlo senza retribuzione",
+       false,
+       "Non è la conseguenza prevista."
+      ]
+     ]
+    },
+    {
+     "dom": "Il lavoratore deve dire ai colleghi della sua condizione di salute?",
+     "opz": [
+      [
+       "Sì, sempre",
+       false,
+       "I dati sanitari sono riservati."
+      ],
+      [
+       "No: il datore di lavoro conosce solo il giudizio di idoneità, non la diagnosi",
+       true,
+       "Corretto: la cartella sanitaria è custodita dal medico competente."
+      ],
+      [
+       "Solo all’RLS",
+       false,
+       "Non c’è questo obbligo."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "Il giudizio di idoneità si può impugnare, le limitazioni si rispettano con misure concrete e la diagnosi resta riservata: così la sorveglianza sanitaria tutela il lavoratore.",
+   "nar": "Un giudizio di idoneità con limitazioni. Valuta diritti e obblighi.",
+   "rif": "Art. 41 D.lgs. 81/2008"
+  }
+ ]
+}

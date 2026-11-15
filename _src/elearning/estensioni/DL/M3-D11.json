@@ -1,0 +1,39 @@
+{
+ "dopo": "Il costo degli infortuni",
+ "schermate": [
+  {
+   "t": "esempio",
+   "tit": "Esempio guidato · L’iceberg dei costi",
+   "lead": "Costi visibili e costi nascosti di un infortunio.",
+   "passi": [
+    [
+     "Il caso",
+     "Caduta da una scala portatile con frattura del polso: 45 giorni di assenza.",
+     "Infortunio con prognosi lunga"
+    ],
+    [
+     "Costi visibili",
+     "Retribuzione dei primi giorni a carico dell’impresa, integrazione prevista dal contratto, eventuale sanzione.",
+     "Parte emersa"
+    ],
+    [
+     "Costi nascosti",
+     "Sostituzione, straordinari, tempo di gestione, ritardi, clima aziendale, immagine.",
+     "Parte sommersa"
+    ],
+    [
+     "Il rapporto",
+     "I costi nascosti sono spesso un multiplo di quelli visibili.",
+     "Più grandi di quelli visibili"
+    ],
+    [
+     "La lezione",
+     "Una scala adeguata e la formazione sarebbero costate molto meno.",
+     "Prevenire conviene"
+    ]
+   ],
+   "nar": "Applichiamo il modello dell’iceberg a una caduta da scala con frattura del polso. Sopra la superficie ci sono retribuzione, integrazioni e sanzioni; sotto ci sono sostituzione, straordinari, tempo di gestione, ritardi e clima aziendale. I costi nascosti sono spesso un multiplo di quelli visibili: una scala adeguata e la formazione sarebbero costate molto meno.",
+   "rif": "INAIL · letteratura sui costi degli infortuni"
+  }
+ ]
+}

@@ -1,0 +1,39 @@
+{
+ "dopo": "Ambienti severi caldi: l’indice WBGT",
+ "schermate": [
+  {
+   "t": "esempio",
+   "tit": "Esempio guidato · Calcolare il WBGT in una fonderia",
+   "lead": "Indice di stress termico in ambiente interno.",
+   "passi": [
+    [
+     "Le misure",
+     "Temperatura di bulbo umido a ventilazione naturale Tnw = 26 °C; temperatura di globotermometro Tg = 40 °C.",
+     "Tnw 26 · Tg 40"
+    ],
+    [
+     "La formula",
+     "WBGT = 0,7 × Tnw + 0,3 × Tg.",
+     "0,7 × 26 + 0,3 × 40"
+    ],
+    [
+     "Il risultato",
+     "18,2 + 12 = 30,2 °C.",
+     "WBGT ≈ 30,2 °C"
+    ],
+    [
+     "Il confronto",
+     "Si confronta con il valore di riferimento per il metabolismo dell’attività e l’acclimatamento dei lavoratori.",
+     "Confronto con il riferimento"
+    ],
+    [
+     "Le misure",
+     "Se superato: schermature, ventilazione, pause, acqua, rotazione e sorveglianza sanitaria.",
+     "Misure di controllo"
+    ]
+   ],
+   "nar": "Calcoliamo il WBGT in una fonderia. Con temperatura di bulbo umido di ventisei gradi e di globotermometro di quaranta, il WBGT vale zero virgola sette per ventisei più zero virgola tre per quaranta, cioè circa trenta gradi. Il valore si confronta con il riferimento per il metabolismo e l’acclimatamento; se è superato servono schermature, ventilazione, pause e acqua.",
+   "rif": "UNI EN ISO 7243"
+  }
+ ]
+}

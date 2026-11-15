@@ -1,0 +1,62 @@
+{
+ "dopo": "Il costo della non sicurezza e gli incentivi",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Il costo di un infortunio",
+   "lead": "Stimi il costo di un infortunio per presentarlo alla direzione.",
+   "dossier": [
+    [
+     "Evento",
+     "schiacciamento di una mano su una pressa; 60 giorni di assenza"
+    ],
+    [
+     "Retribuzione",
+     "costo aziendale del lavoratore 180 € al giorno"
+    ],
+    [
+     "Effetti",
+     "fermo della pressa 3 giorni; 40 ore di straordinario dei colleghi a 30 €/h; 20 ore di tempo di dirigenti e RSPP a 50 €/h; consegna in ritardo con penale di 4.000 €"
+    ],
+    [
+     "Prescrizione dell’ASL",
+     "adeguamento della pressa: 6.000 €"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Separa i costi diretti da quelli indiretti.",
+     "min": 6,
+     "modello": "Diretti: retribuzione a carico dell’impresa nei primi giorni e integrazioni previste, adeguamento prescritto, eventuali sanzioni e spese legali. Indiretti: fermo della macchina, straordinari, tempo di gestione, penale, danno di immagine e clima aziendale.",
+     "criteri": [
+      "Ho distinto le due categorie",
+      "Ho inserito la penale tra gli indiretti",
+      "Ho considerato i costi non monetari"
+     ]
+    },
+    {
+     "q": "Stima gli importi principali.",
+     "min": 7,
+     "modello": "Straordinari: 40 × 30 = 1.200 €. Tempo di gestione: 20 × 50 = 1.000 €. Penale: 4.000 €. Adeguamento: 6.000 €. Già così si superano 12.000 €, senza contare fermo produttivo, integrazioni retributive, eventuale contenzioso e danno differenziale.",
+     "criteri": [
+      "Ho calcolato straordinari e tempo",
+      "Ho sommato oltre 12.000 €",
+      "Ho indicato i costi non stimati"
+     ]
+    },
+    {
+     "q": "Come presenti il dato alla direzione?",
+     "min": 5,
+     "modello": "Confrontandolo con il costo della prevenzione: il riparo interbloccato e la manutenzione sarebbero costati molto meno; proporre un piano di verifica delle presse e gli incentivi INAIL disponibili.",
+     "criteri": [
+      "Ho confrontato con il costo della prevenzione",
+      "Ho proposto un piano",
+      "Ho citato gli incentivi"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio stimi il costo di un infortunio su una pressa. Distingui costi diretti e indiretti, calcola gli importi principali e prepara il messaggio per la direzione, poi confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "INAIL · art. 2087 c.c."
+  }
+ ]
+}

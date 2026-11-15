@@ -1,0 +1,75 @@
+{
+ "dopo": "La formazione del datore di lavoro: obblighi, termini e crediti",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "Il corso del titolare",
+   "scena": "Il titolare di un’impresa di installazione impianti con 12 dipendenti, affidataria di lavori in cantiere, non ha ancora frequentato il corso per datori di lavoro.",
+   "decisioni": [
+    {
+     "dom": "Entro quando deve completarlo?",
+     "opz": [
+      [
+       "Entro il 19 maggio 2027, secondo la data indicata dal Ministero",
+       true,
+       "Corretto: 24 mesi dall’entrata in vigore dell’Accordo."
+      ],
+      [
+       "Non è obbligato",
+       false,
+       "Dalla L. 215/2021 l’obbligo esiste."
+      ],
+      [
+       "Entro un anno dall’assunzione del primo dipendente",
+       false,
+       "Non è il criterio."
+      ]
+     ]
+    },
+    {
+     "dom": "Quale durata ha il corso?",
+     "opz": [
+      [
+       "16 ore in due moduli, più il modulo «Cantieri» di 6 ore perché l’impresa è affidataria",
+       true,
+       "Corretto: FAQ n. 41."
+      ],
+      [
+       "4 ore",
+       false,
+       "La durata è maggiore."
+      ],
+      [
+       "32 ore",
+       false,
+       "Non è la durata prevista."
+      ]
+     ]
+    },
+    {
+     "dom": "Ha già fatto il corso per svolgere i compiti del servizio di prevenzione. Cambia qualcosa?",
+     "opz": [
+      [
+       "Sì: ha diritto al credito formativo per il corso del datore di lavoro",
+       true,
+       "Corretto: FAQ n. 34-35."
+      ],
+      [
+       "No, deve rifare tutto",
+       false,
+       "Il credito è riconosciuto."
+      ],
+      [
+       "È esentato anche dall’aggiornamento",
+       false,
+       "L’aggiornamento resta."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "Il datore di lavoro si forma con un corso di sedici ore entro il diciannove maggio duemilaventisette, più sei ore per i cantieri se l’impresa è affidataria, con crediti per chi è già formato come datore di lavoro RSPP.",
+   "nar": "Un titolare non ancora formato. Pianifica il suo corso.",
+   "rif": "Art. 37, c. 7, D.lgs. 81/2008 · Accordo 17 aprile 2025 · FAQ 27 marzo 2026"
+  }
+ ]
+}

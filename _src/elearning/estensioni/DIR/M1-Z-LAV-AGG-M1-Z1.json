@@ -1,0 +1,75 @@
+{
+ "dopo": "Il preposto dopo la riforma del 2021",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "Il preposto e la scorciatoia",
+   "scena": "Il capoturno vede un operatore che, per fare prima, lavora su una pressa con la protezione mobile aperta e il dispositivo di interblocco escluso.",
+   "decisioni": [
+    {
+     "dom": "Che cosa deve fare il preposto per primo?",
+     "opz": [
+      [
+       "Interviene subito per far cessare il comportamento e dà le indicazioni di sicurezza",
+       true,
+       "Corretto: è l’obbligo dell’art. 19, comma 1, lettera a)."
+      ],
+      [
+       "Lo annota e ne parla a fine turno",
+       false,
+       "Il preposto interviene subito, non a fine turno."
+      ],
+      [
+       "Nulla, se l’operatore è esperto",
+       false,
+       "L’esperienza non giustifica l’esclusione di un dispositivo di sicurezza."
+      ]
+     ]
+    },
+    {
+     "dom": "L’operatore riprende a lavorare allo stesso modo appena il preposto si allontana. Che cosa succede ora?",
+     "opz": [
+      [
+       "Il preposto interrompe l’attività del lavoratore e informa i superiori diretti",
+       true,
+       "Corretto: in caso di persistenza dell’inosservanza il preposto interrompe l’attività."
+      ],
+      [
+       "Il preposto lascia correre: ha già avvertito una volta",
+       false,
+       "La persistenza obbliga a interrompere l’attività."
+      ],
+      [
+       "Il preposto chiama i carabinieri",
+       false,
+       "Non è la procedura prevista."
+      ]
+     ]
+    },
+    {
+     "dom": "Il preposto scopre che l’interblocco è stato escluso perché è guasto e blocca spesso la macchina. Che cosa fa?",
+     "opz": [
+      [
+       "Fa riparare l’interblocco senza fermare la macchina",
+       false,
+       "Una macchina con un dispositivo di sicurezza escluso non si usa."
+      ],
+      [
+       "Se necessario interrompe temporaneamente l’attività e segnala subito la non conformità al datore di lavoro e al dirigente",
+       true,
+       "Corretto: è l’obbligo della lettera f-bis dell’art. 19."
+      ],
+      [
+       "Lo rimuove definitivamente per evitare fermi",
+       false,
+       "È vietato rimuovere o modificare i dispositivi di sicurezza."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "Intervenire, interrompere se il comportamento persiste, fermare e segnalare le attrezzature non sicure: sono i doveri del preposto dopo la riforma del 2021.",
+   "nar": "Un comportamento pericoloso su una pressa. Mettiti nei panni del preposto.",
+   "rif": "Art. 19, c. 1, lett. a) e f-bis), D.lgs. 81/2008"
+  }
+ ]
+}

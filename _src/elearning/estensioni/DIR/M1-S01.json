@@ -1,0 +1,75 @@
+{
+ "dopo": "Il datore di lavoro nelle società e nelle pubbliche amministrazioni",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "Chi è il datore di lavoro nella Srl?",
+   "scena": "Una Srl con 60 dipendenti ha un consiglio di amministrazione di tre membri. Uno di loro ha la delega gestoria su produzione e personale; gli altri due non hanno deleghe.",
+   "decisioni": [
+    {
+     "dom": "Chi è il datore di lavoro ai fini della sicurezza?",
+     "opz": [
+      [
+       "Il consigliere con la delega gestoria su produzione e personale, perché ha i poteri decisionali e di spesa",
+       true,
+       "Corretto: il datore di lavoro è chi ha la responsabilità dell’organizzazione con poteri decisionali e di spesa."
+      ],
+      [
+       "Il responsabile del personale",
+       false,
+       "Non ha i poteri dell’organo di vertice."
+      ],
+      [
+       "Nessuno, la società è una persona giuridica",
+       false,
+       "La posizione di garanzia è di una persona fisica."
+      ]
+     ]
+    },
+    {
+     "dom": "Gli altri due consiglieri non hanno alcun dovere?",
+     "opz": [
+      [
+       "Conservano doveri di controllo e di intervento sull’adeguatezza dell’assetto organizzativo",
+       true,
+       "Corretto: restano obblighi di vigilanza del consiglio."
+      ],
+      [
+       "Nessun dovere",
+       false,
+       "Il consiglio mantiene doveri generali."
+      ],
+      [
+       "Rispondono di ogni infortunio",
+       false,
+       "Non in modo automatico."
+      ]
+     ]
+    },
+    {
+     "dom": "Il consigliere delegato può delegare a sua volta la valutazione dei rischi al direttore di stabilimento?",
+     "opz": [
+      [
+       "No: la valutazione dei rischi e la designazione dell’RSPP non sono delegabili",
+       true,
+       "Corretto: art. 17."
+      ],
+      [
+       "Sì, con atto scritto",
+       false,
+       "Non per questi obblighi."
+      ],
+      [
+       "Sì, se il direttore è ingegnere",
+       false,
+       "La qualifica non conta."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "Il datore di lavoro è chi ha i poteri decisionali e di spesa; il consiglio conserva doveri di controllo; valutazione dei rischi e nomina dell’RSPP restano indelegabili.",
+   "nar": "Una società con un consiglio di amministrazione. Individua il datore di lavoro.",
+   "rif": "Artt. 2, 17 e 18 D.lgs. 81/2008 · art. 2381 c.c."
+  }
+ ]
+}

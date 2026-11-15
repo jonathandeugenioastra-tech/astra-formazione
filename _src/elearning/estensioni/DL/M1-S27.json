@@ -1,0 +1,75 @@
+{
+ "dopo": "Gli accomodamenti ragionevoli",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "La postazione per il lavoratore con disabilità",
+   "scena": "Un impiegato amministrativo, a seguito di un incidente, utilizza la sedia a ruote e deve rientrare al lavoro.",
+   "decisioni": [
+    {
+     "dom": "Che cosa deve fare il datore di lavoro?",
+     "opz": [
+      [
+       "Adottare accomodamenti ragionevoli: accessibilità, postazione adattata, organizzazione del lavoro",
+       true,
+       "Corretto: è un obbligo per tutti i datori di lavoro."
+      ],
+      [
+       "Assegnarlo a casa senza mansioni",
+       false,
+       "Sarebbe discriminatorio."
+      ],
+      [
+       "Nulla se non lo chiede per iscritto",
+       false,
+       "L’obbligo esiste in ogni caso."
+      ]
+     ]
+    },
+    {
+     "dom": "Quali aspetti di sicurezza aggiorni?",
+     "opz": [
+      [
+       "Piano di emergenza ed evacuazione con assistenza dedicata e vie di esodo accessibili",
+       true,
+       "Corretto: l’evacuazione deve essere possibile per tutti."
+      ],
+      [
+       "Solo il badge",
+       false,
+       "Non basta."
+      ],
+      [
+       "Nessuno",
+       false,
+       "La valutazione va aggiornata."
+      ]
+     ]
+    },
+    {
+     "dom": "Quando l’accomodamento non è dovuto?",
+     "opz": [
+      [
+       "Quando comporta un onere sproporzionato, da valutare e motivare",
+       true,
+       "Corretto."
+      ],
+      [
+       "Quando costa più di 100 €",
+       false,
+       "Non c’è una soglia fissa."
+      ],
+      [
+       "Mai",
+       false,
+       "Il limite dell’onere sproporzionato esiste."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "Accomodamenti ragionevoli, piano di emergenza inclusivo e valutazione motivata dell’onere: così il rientro al lavoro avviene in sicurezza.",
+   "nar": "Un lavoratore in sedia a ruote rientra al lavoro. Organizza il rientro.",
+   "rif": "D.lgs. 216/2003, art. 3, c. 3-bis · D.M. 2 settembre 2021"
+  }
+ ]
+}

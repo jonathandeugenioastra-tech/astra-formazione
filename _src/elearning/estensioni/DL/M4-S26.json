@@ -1,0 +1,57 @@
+{
+ "dopo": "La leadership visibile: i sopralluoghi della direzione",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Il sopralluogo di sicurezza della direzione",
+   "lead": "Prepari il primo sopralluogo di sicurezza del direttore di stabilimento.",
+   "dossier": [
+    [
+     "Reparto",
+     "stampaggio, 30 addetti su due turni"
+    ],
+    [
+     "Tempo disponibile",
+     "30 minuti al mese"
+    ],
+    [
+     "Contesto",
+     "molti quasi incidenti con i carrelli; clima teso dopo un infortunio"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Prepara la scaletta del sopralluogo.",
+     "min": 6,
+     "modello": "Breve preparazione con dati del reparto; ingresso con i DPI richiesti; osservazione di due o tre attività critiche, come movimentazione con carrelli; conversazione con due o tre lavoratori; riconoscimento dei comportamenti corretti; annotazione di non più di tre azioni.",
+     "criteri": [
+      "Ho previsto osservazione e ascolto",
+      "Ho previsto il riconoscimento",
+      "Ho limitato le azioni"
+     ]
+    },
+    {
+     "q": "Scrivi tre domande da porre ai lavoratori.",
+     "min": 5,
+     "modello": "Che cosa ti preoccupa di più durante il turno? Che cosa renderebbe più sicuro il tuo lavoro? Se segnali un problema, che cosa succede dopo? Domande aperte, senza cercare colpevoli.",
+     "criteri": [
+      "Ho scritto domande aperte",
+      "Ho evitato domande accusatorie"
+     ]
+    },
+    {
+     "q": "Come dai seguito al sopralluogo?",
+     "min": 6,
+     "modello": "Azioni registrate con responsabile e scadenza, comunicazione dell’esito al reparto, verifica al sopralluogo successivo, indicatori come numero di sopralluoghi e percentuale di azioni chiuse nei tempi.",
+     "criteri": [
+      "Ho previsto azioni tracciate",
+      "Ho previsto la restituzione al reparto",
+      "Ho previsto indicatori"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio prepari il primo sopralluogo di sicurezza di un direttore di stabilimento: scaletta, domande ai lavoratori e seguito, poi confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "UNI EN ISO 45001, punto 5.1"
+  }
+ ]
+}

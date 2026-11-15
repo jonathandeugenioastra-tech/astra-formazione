@@ -1,0 +1,54 @@
+{
+ "dopo": "Consultazione e partecipazione: quando si consulta l’RLS",
+ "schermate": [
+  {
+   "t": "classifica",
+   "tit": "Consultazione obbligatoria?",
+   "lead": "Seleziona una decisione, poi se l’RLS va consultato.",
+   "colonne": [
+    "Consultazione obbligatoria",
+    "Non prevista come obbligo"
+   ],
+   "schede": [
+    [
+     "Valutazione dei rischi e programma delle misure",
+     0,
+     "Art. 50, lett. b).",
+     "Corretto."
+    ],
+    [
+     "Designazione dell’RSPP e degli addetti alle emergenze",
+     0,
+     "Art. 50, lett. c).",
+     "Corretto."
+    ],
+    [
+     "Organizzazione della formazione",
+     0,
+     "Art. 50, lett. d).",
+     "Corretto."
+    ],
+    [
+     "Scelta del fornitore di cancelleria",
+     1,
+     "Non riguarda la sicurezza.",
+     "Corretto."
+    ],
+    [
+     "Introduzione di una nuova tecnologia con effetti sulla sicurezza",
+     0,
+     "Rientra nella valutazione dei rischi.",
+     "Corretto."
+    ],
+    [
+     "Fissazione del listino prezzi",
+     1,
+     "Non è una materia di consultazione.",
+     "Corretto."
+    ]
+   ],
+   "nar": "Sei decisioni aziendali. Individua quelle per cui la consultazione dell’RLS è obbligatoria.",
+   "rif": "Art. 50 D.lgs. 81/2008"
+  }
+ ]
+}

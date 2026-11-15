@@ -1,0 +1,75 @@
+{
+ "dopo": "L’accesso dell’RLS ai documenti aziendali",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "La richiesta dell’RLS",
+   "scena": "L’RLS chiede una copia del DVR e del DUVRI dell’appalto di manutenzione. Il responsabile amministrativo teme la diffusione di informazioni riservate.",
+   "decisioni": [
+    {
+     "dom": "L’RLS ha diritto alla copia del DVR?",
+     "opz": [
+      [
+       "Sì, su richiesta, per l’espletamento della funzione",
+       true,
+       "Corretto: art. 50, comma 4."
+      ],
+      [
+       "No, può solo consultarlo",
+       false,
+       "Per l’RLS aziendale è prevista la copia."
+      ],
+      [
+       "Solo con il permesso del sindacato",
+       false,
+       "Non serve."
+      ]
+     ]
+    },
+    {
+     "dom": "E del DUVRI?",
+     "opz": [
+      [
+       "Sì: il DUVRI è messo a disposizione dell’RLS su richiesta",
+       true,
+       "Corretto: art. 26, comma 5."
+      ],
+      [
+       "No, riguarda solo le imprese",
+       false,
+       "L’RLS vi ha accesso."
+      ],
+      [
+       "Solo dopo la fine dei lavori",
+       false,
+       "Serve prima, per la prevenzione."
+      ]
+     ]
+    },
+    {
+     "dom": "Come si tutela la riservatezza?",
+     "opz": [
+      [
+       "L’RLS è tenuto al segreto sulle informazioni riservate e usa i documenti solo per la sua funzione",
+       true,
+       "Corretto: art. 50, comma 6."
+      ],
+      [
+       "Non consegnando i documenti",
+       false,
+       "Violerebbe i diritti dell’RLS."
+      ],
+      [
+       "Facendogli firmare una rinuncia",
+       false,
+       "Non è ammessa."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "L’RLS riceve su richiesta copia del DVR e accede al DUVRI, con l’obbligo di riservatezza: l’informazione serve alla prevenzione.",
+   "nar": "L’RLS chiede documenti aziendali. Rispondi correttamente.",
+   "rif": "Artt. 26 e 50 D.lgs. 81/2008"
+  }
+ ]
+}

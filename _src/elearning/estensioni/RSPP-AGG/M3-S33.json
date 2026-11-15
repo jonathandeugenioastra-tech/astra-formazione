@@ -1,0 +1,75 @@
+{
+ "dopo": "Lavoro agile: obblighi di sicurezza della L. 81/2017",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "Il lavoro agile in amministrazione",
+   "scena": "Un’impresa estende il lavoro agile a tutto l’ufficio amministrativo, due giorni a settimana.",
+   "decisioni": [
+    {
+     "dom": "Quale documento consegna ai lavoratori?",
+     "opz": [
+      [
+       "Un’informativa scritta, almeno annuale, sui rischi generali e specifici del lavoro agile",
+       true,
+       "Corretto: art. 22 della L. 81/2017."
+      ],
+      [
+       "Nessuno",
+       false,
+       "L’informativa è obbligatoria."
+      ],
+      [
+       "Il DVR completo",
+       false,
+       "Serve un’informativa specifica."
+      ]
+     ]
+    },
+    {
+     "dom": "Il lavoratore si fa male in casa mentre lavora. È infortunio sul lavoro?",
+     "opz": [
+      [
+       "Sì, se collegato ai rischi della prestazione resa all’esterno dei locali aziendali",
+       true,
+       "Corretto: è tutelato dall’INAIL."
+      ],
+      [
+       "Mai",
+       false,
+       "La tutela esiste."
+      ],
+      [
+       "Sempre, qualunque cosa faccia",
+       false,
+       "Deve esserci il collegamento con la prestazione."
+      ]
+     ]
+    },
+    {
+     "dom": "Quali altri aspetti regoli?",
+     "opz": [
+      [
+       "Diritto alla disconnessione, attrezzature fornite e loro manutenzione, luoghi idonei",
+       true,
+       "Corretto."
+      ],
+      [
+       "Solo l’orario",
+       false,
+       "Non basta."
+      ],
+      [
+       "Nessun altro aspetto",
+       false,
+       "Ci sono più aspetti."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "Informativa annuale, tutela INAIL, disconnessione e attrezzature idonee: il lavoro agile richiede regole di sicurezza specifiche.",
+   "nar": "Il lavoro agile si estende a un intero ufficio. Organizza la sicurezza.",
+   "rif": "L. 81/2017, artt. 18-23"
+  }
+ ]
+}

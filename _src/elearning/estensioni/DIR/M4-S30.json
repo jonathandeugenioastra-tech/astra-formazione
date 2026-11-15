@@ -1,0 +1,23 @@
+{
+ "dopo": "Esercitazione 4 · Affermazioni vere o false",
+ "schermate": [
+  {
+   "t": "applica",
+   "tit": "La sicurezza nella tua area di responsabilità",
+   "lead": "Fai il punto sulla tua area di responsabilità.",
+   "voci": [
+    "Conosco i rischi principali della mia area",
+    "Ho individuato i preposti",
+    "Le deleghe sono chiare e scritte",
+    "Le azioni del DVR hanno responsabili e scadenze",
+    "Faccio sopralluoghi periodici",
+    "Gli appalti hanno un DUVRI aggiornato",
+    "La formazione è in regola"
+   ],
+   "campo": "L’impegno che prendi per i prossimi tre mesi",
+   "esempio": "Es.: un sopralluogo al mese in magazzino con il preposto",
+   "min": 3,
+   "nar": "Fai il punto sulla sicurezza nella tua area di responsabilità e scrivi l’impegno che prendi per i prossimi tre mesi."
+  }
+ ]
+}

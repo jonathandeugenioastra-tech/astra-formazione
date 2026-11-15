@@ -1,0 +1,75 @@
+{
+ "dopo": "L’ispezione: poteri degli organi di vigilanza e sospensione dell’attività",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "L’ispettore in reparto",
+   "scena": "Un ispettore dell’ASL si presenta senza preavviso e chiede di visitare il reparto saldatura e di vedere il DVR e i registri della formazione.",
+   "decisioni": [
+    {
+     "dom": "Come ti comporti?",
+     "opz": [
+      [
+       "Collabori: lo accompagni, metti a disposizione i documenti e annoti ciò che viene esaminato",
+       true,
+       "Corretto: gli ispettori hanno poteri di accesso e di esame dei documenti."
+      ],
+      [
+       "Gli chiedi di tornare con un appuntamento",
+       false,
+       "L’accesso non richiede preavviso."
+      ],
+      [
+       "Neghi l’accesso finché non arriva il datore di lavoro",
+       false,
+       "Ostacolare l’ispezione è un illecito."
+      ]
+     ]
+    },
+    {
+     "dom": "L’ispettore chiede di sentire due lavoratori senza la presenza dei responsabili. È ammesso?",
+     "opz": [
+      [
+       "Sì, può assumere informazioni dai lavoratori",
+       true,
+       "Corretto."
+      ],
+      [
+       "No, serve sempre un dirigente presente",
+       false,
+       "Non è un requisito."
+      ],
+      [
+       "Solo con un avvocato",
+       false,
+       "Non è necessario."
+      ]
+     ]
+    },
+    {
+     "dom": "Al termine riceve un verbale con prescrizioni. Che cosa fai?",
+     "opz": [
+      [
+       "Organizzi l’adempimento nei termini, con responsabili e prove, e chiedi per tempo una proroga motivata se necessario",
+       true,
+       "Corretto: la regolarizzazione consente di estinguere le contravvenzioni."
+      ],
+      [
+       "Lo archivi",
+       false,
+       "I termini decorrono."
+      ],
+      [
+       "Contesti tutto senza adempiere",
+       false,
+       "Si può contestare, ma i termini vanno gestiti."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "Collaborare all’ispezione, consentire l’accesso a luoghi, documenti e lavoratori, gestire le prescrizioni nei termini: così l’impresa tutela sé stessa e i lavoratori.",
+   "nar": "Un’ispezione senza preavviso. Gestisci la visita e le conseguenze.",
+   "rif": "Art. 13 D.lgs. 81/2008 · D.lgs. 758/1994"
+  }
+ ]
+}

@@ -1,0 +1,75 @@
+{
+ "dopo": "Designare l'RSPP o svolgerne i compiti",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "Il datore di lavoro che vuole fare l’RSPP",
+   "scena": "Il titolare di un’impresa industriale con 24 lavoratori vuole svolgere direttamente i compiti del servizio di prevenzione e protezione.",
+   "decisioni": [
+    {
+     "dom": "È possibile?",
+     "opz": [
+      [
+       "Sì: per le aziende industriali e artigiane fino a 30 lavoratori è ammesso, salvo i casi esclusi dall’art. 31, comma 6",
+       true,
+       "Corretto: Allegato II del D.lgs. 81/2008."
+      ],
+      [
+       "No, mai",
+       false,
+       "È ammesso nei limiti dell’Allegato II."
+      ],
+      [
+       "Sì, a qualunque dimensione",
+       false,
+       "Ci sono limiti."
+      ]
+     ]
+    },
+    {
+     "dom": "Che cosa deve fare prima?",
+     "opz": [
+      [
+       "Frequentare il corso previsto per il datore di lavoro che svolge i compiti del servizio e informarne l’RLS",
+       true,
+       "Corretto: formazione specifica e comunicazione all’RLS."
+      ],
+      [
+       "Nulla",
+       false,
+       "Serve la formazione specifica."
+      ],
+      [
+       "Chiedere l’autorizzazione all’ASL",
+       false,
+       "Non è un’autorizzazione."
+      ]
+     ]
+    },
+    {
+     "dom": "L’impresa cresce a 40 lavoratori. Che cosa cambia?",
+     "opz": [
+      [
+       "Supera il limite: deve designare un RSPP interno o esterno con i requisiti dell’art. 32",
+       true,
+       "Corretto."
+      ],
+      [
+       "Nulla",
+       false,
+       "Il limite dell’Allegato II è superato."
+      ],
+      [
+       "Basta un aggiornamento del corso",
+       false,
+       "Non è sufficiente."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "Il datore di lavoro può svolgere i compiti dell’RSPP solo entro i limiti dell’Allegato II e dopo il corso specifico; oltre, serve un RSPP designato.",
+   "nar": "Un titolare vuole svolgere i compiti dell’RSPP. Verifica se è possibile.",
+   "rif": "Art. 34 e Allegato II D.lgs. 81/2008 · Accordo 17 aprile 2025"
+  }
+ ]
+}

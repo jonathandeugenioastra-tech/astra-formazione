@@ -1,0 +1,75 @@
+{
+ "dopo": "La patente a crediti: funzionamento e decurtazioni",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "Il subappaltatore senza crediti",
+   "scena": "Un’impresa edile appaltatrice vuole affidare in subappalto le opere di carpenteria a una piccola impresa. Dalla verifica risulta una patente con 12 crediti.",
+   "decisioni": [
+    {
+     "dom": "Il subappaltatore può operare in cantiere?",
+     "opz": [
+      [
+       "No: con meno di 15 crediti non può operare nei cantieri temporanei o mobili",
+       true,
+       "Corretto."
+      ],
+      [
+       "Sì, se firma un impegno",
+       false,
+       "Il limite è di legge."
+      ],
+      [
+       "Sì, per lavori sotto i 100.000 €",
+       false,
+       "Non esiste questa soglia."
+      ]
+     ]
+    },
+    {
+     "dom": "Chi deve verificare la patente?",
+     "opz": [
+      [
+       "Il committente o il responsabile dei lavori, e l’appaltatore nella scelta del subappaltatore",
+       true,
+       "Corretto: la verifica fa parte dell’idoneità tecnico-professionale."
+      ],
+      [
+       "Nessuno, la verifica è dell’INL",
+       false,
+       "La verifica è un obbligo dei soggetti della filiera."
+      ],
+      [
+       "Solo il coordinatore per l’esecuzione",
+       false,
+       "Non solo."
+      ]
+     ]
+    },
+    {
+     "dom": "Che cosa rischia chi fa operare un’impresa senza i crediti necessari?",
+     "opz": [
+      [
+       "Sanzioni rilevanti, con un minimo che dopo il D.L. 159/2025 è di 12.000 €, e l’esclusione dai lavori",
+       true,
+       "Corretto."
+      ],
+      [
+       "Nulla",
+       false,
+       "Le sanzioni sono significative."
+      ],
+      [
+       "Solo un richiamo",
+       false,
+       "Sono sanzioni pecuniarie."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "La patente a crediti si verifica prima di ogni affidamento: sotto i quindici crediti l’impresa non entra in cantiere.",
+   "nar": "Un subappaltatore con pochi crediti. Decidi se può lavorare.",
+   "rif": "Art. 27 D.lgs. 81/2008 · D.L. 159/2025"
+  }
+ ]
+}

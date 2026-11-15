@@ -1,0 +1,58 @@
+{
+ "dopo": "Verificare l’efficacia della formazione: il modello a quattro livelli",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Misurare l’efficacia di un corso",
+   "lead": "Progetti la verifica di efficacia del corso per i carrellisti dopo due quasi incidenti in magazzino.",
+   "dossier": [
+    [
+     "Corso",
+     "4 ore di aggiornamento con prova pratica"
+    ],
+    [
+     "Partecipanti",
+     "14 carrellisti"
+    ],
+    [
+     "Problemi osservati",
+     "velocità eccessiva in curva, carichi non stabilizzati, mancato uso della cintura"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Definisci un indicatore per ciascuno dei quattro livelli.",
+     "min": 7,
+     "modello": "Reazione: questionario di gradimento e utilità. Apprendimento: test e prova pratica con lista di controllo. Comportamento: osservazioni sul campo dopo uno e tre mesi su velocità, carichi e cintura. Risultati: quasi incidenti e danni a merci e scaffalature nei sei mesi successivi.",
+     "criteri": [
+      "Ho definito i quattro livelli",
+      "Ho reso osservabili i comportamenti",
+      "Ho scelto risultati misurabili"
+     ]
+    },
+    {
+     "q": "Come organizzi le osservazioni di comportamento?",
+     "min": 6,
+     "modello": "Lista di controllo con pochi comportamenti chiave, osservatori formati, ad esempio preposti, osservazioni brevi e ripetute, restituzione immediata ai lavoratori, registrazione dei dati per confrontare prima e dopo.",
+     "criteri": [
+      "Ho previsto una lista di controllo",
+      "Ho previsto osservatori e restituzione",
+      "Ho previsto il confronto prima-dopo"
+     ]
+    },
+    {
+     "q": "Se dopo tre mesi i comportamenti non migliorano?",
+     "min": 5,
+     "modello": "Si analizzano le cause, che spesso sono organizzative: ritmi, layout, pressioni produttive. Si interviene su di esse e si ripete l’addestramento mirato; la formazione da sola non basta.",
+     "criteri": [
+      "Ho cercato cause organizzative",
+      "Ho previsto azioni sull’organizzazione",
+      "Ho previsto addestramento mirato"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio progetti la verifica di efficacia di un corso per carrellisti. Definisci indicatori per i quattro livelli, organizza le osservazioni e decidi che cosa fare se i comportamenti non cambiano, poi confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "Accordo Stato-Regioni 17 aprile 2025 · modello di Kirkpatrick"
+  }
+ ]
+}

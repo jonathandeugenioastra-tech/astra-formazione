@@ -1,0 +1,66 @@
+{
+ "dopo": "Obblighi indelegabili e delegabili",
+ "schermate": [
+  {
+   "t": "classifica",
+   "tit": "Delegabile o no?",
+   "lead": "Seleziona un obbligo del datore di lavoro, poi la colonna.",
+   "colonne": [
+    "Delegabile con i requisiti dell’art. 16",
+    "Non delegabile"
+   ],
+   "schede": [
+    [
+     "Valutazione di tutti i rischi ed elaborazione del DVR",
+     1,
+     "Art. 17, lett. a).",
+     "Corretto."
+    ],
+    [
+     "Designazione dell’RSPP",
+     1,
+     "Art. 17, lett. b).",
+     "Corretto."
+    ],
+    [
+     "Nomina del medico competente",
+     0,
+     "È tra gli obblighi dell’art. 18, delegabili.",
+     "Corretto."
+    ],
+    [
+     "Fornitura dei DPI",
+     0,
+     "Delegabile.",
+     "Corretto."
+    ],
+    [
+     "Designazione degli addetti alle emergenze",
+     0,
+     "Delegabile.",
+     "Corretto."
+    ],
+    [
+     "Organizzazione della formazione",
+     0,
+     "Delegabile.",
+     "Corretto."
+    ],
+    [
+     "Vigilanza sul delegato",
+     1,
+     "Resta al delegante.",
+     "Corretto."
+    ],
+    [
+     "Gestione degli appalti e del DUVRI",
+     0,
+     "Delegabile.",
+     "Corretto."
+    ]
+   ],
+   "nar": "Otto obblighi del datore di lavoro. Distingui quelli delegabili da quelli che restano in capo al datore di lavoro.",
+   "rif": "Artt. 16, 17 e 18 D.lgs. 81/2008"
+  }
+ ]
+}

@@ -1,0 +1,56 @@
+{
+ "dopo": "A(8), classi di esposizione e rischio di vasculopatia",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Calcolare A(8) per le vibrazioni mano-braccio",
+   "lead": "Calcoli l’esposizione giornaliera di un addetto alla sbavatura.",
+   "dossier": [
+    [
+     "Utensile 1",
+     "smerigliatrice angolare, ahv = 6 m/s², 1 ora al giorno"
+    ],
+    [
+     "Utensile 2",
+     "levigatrice orbitale, ahv = 3 m/s², 2 ore al giorno"
+    ],
+    [
+     "Riferimenti",
+     "valore di azione 2,5 m/s²; valore limite 5 m/s²"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Calcola A(8).",
+     "min": 7,
+     "modello": "A(8) = √[(6² × 1 + 3² × 2) / 8] = √[(36 + 18) / 8] = √6,75 ≈ 2,6 m/s².",
+     "criteri": [
+      "Ho applicato la formula",
+      "Ho ottenuto circa 2,6 m/s²"
+     ]
+    },
+    {
+     "q": "Confronta con i valori di riferimento e indica gli obblighi.",
+     "min": 5,
+     "modello": "2,6 m/s² supera il valore di azione di 2,5 e resta sotto il limite di 5: servono un programma di misure tecniche e organizzative per ridurre l’esposizione, informazione e formazione specifiche e sorveglianza sanitaria.",
+     "criteri": [
+      "Ho confrontato con azione e limite",
+      "Ho indicato programma di misure e sorveglianza"
+     ]
+    },
+    {
+     "q": "Quale intervento riduce di più l’esposizione e di quanto?",
+     "min": 6,
+     "modello": "La smerigliatrice pesa di più: con un modello a basse vibrazioni da 4 m/s² A(8) = √[(16 + 18) / 8] ≈ 2,1 m/s², sotto il valore di azione. In alternativa ridurre il suo tempo d’uso a mezz’ora: √[(18 + 18) / 8] ≈ 2,1 m/s².",
+     "criteri": [
+      "Ho individuato il contributo maggiore",
+      "Ho ricalcolato A(8)",
+      "Ho proposto alternative"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio calcoli l’esposizione giornaliera a vibrazioni mano-braccio di un addetto alla sbavatura, la confronti con i valori di riferimento e valuti l’intervento più efficace, poi confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "Artt. 201-204 D.lgs. 81/2008 · UNI EN ISO 5349"
+  }
+ ]
+}

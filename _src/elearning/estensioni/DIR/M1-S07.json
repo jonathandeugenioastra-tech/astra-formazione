@@ -1,0 +1,39 @@
+{
+ "dopo": "La prescrizione e l’estinzione delle contravvenzioni",
+ "schermate": [
+  {
+   "t": "esempio",
+   "tit": "Esempio guidato · Estinguere una contravvenzione",
+   "lead": "La procedura del D.lgs. 758/1994.",
+   "passi": [
+    [
+     "La violazione",
+     "L’ispettore accerta che alcuni lavoratori non hanno ricevuto la formazione specifica.",
+     "Contravvenzione"
+    ],
+    [
+     "La prescrizione",
+     "Termine di 60 giorni per completare la formazione, prorogabile una sola volta su richiesta motivata.",
+     "Adempiere nel termine"
+    ],
+    [
+     "La verifica",
+     "Entro 60 giorni dalla scadenza l’organo di vigilanza verifica l’adempimento.",
+     "Verifica"
+    ],
+    [
+     "Il pagamento",
+     "Il contravventore è ammesso a pagare un quarto del massimo dell’ammenda entro 30 giorni: con un massimo indicativo di 7.000 €, 1.750 €.",
+     "¼ del massimo"
+    ],
+    [
+     "L’estinzione",
+     "Con adempimento e pagamento la contravvenzione si estingue.",
+     "Estinzione"
+    ]
+   ],
+   "nar": "Seguiamo la procedura di estinzione. L’ispettore accerta che alcuni lavoratori non hanno la formazione specifica e prescrive di completarla entro sessanta giorni. Verificato l’adempimento, il contravventore paga un quarto del massimo dell’ammenda entro trenta giorni: con un massimo indicativo di settemila euro, sono millesettecentocinquanta euro. Così la contravvenzione si estingue.",
+   "rif": "D.lgs. 758/1994, artt. 20-24 · art. 301 D.lgs. 81/2008"
+  }
+ ]
+}

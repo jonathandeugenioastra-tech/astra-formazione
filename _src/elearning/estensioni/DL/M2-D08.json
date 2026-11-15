@@ -1,0 +1,58 @@
+{
+ "dopo": "Idoneità tecnico-professionale e costi della sicurezza",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Verificare l’idoneità di un appaltatore",
+   "lead": "Devi affidare a un’impresa edile la ristrutturazione della copertura di un capannone, con un cantiere di 60 giorni.",
+   "dossier": [
+    [
+     "Documenti ricevuti",
+     "visura camerale; DURC; autocertificazione generica"
+    ],
+    [
+     "Offerta",
+     "ribasso del 15% su tutto, compresi i costi della sicurezza"
+    ],
+    [
+     "Lavori",
+     "in quota, con rimozione di lastre in fibrocemento"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Quali documenti mancano per l’idoneità tecnico-professionale?",
+     "min": 6,
+     "modello": "Per i cantieri, l’Allegato XVII: DVR o documentazione equivalente, specifica documentazione su attrezzature e DPI, nomine di RSPP, addetti, medico competente, attestati di formazione, dichiarazione di non essere oggetto di provvedimenti di sospensione, patente a crediti. Per le lastre: verifica se contengono amianto e, se sì, impresa iscritta in categoria 10 e piano di lavoro.",
+     "criteri": [
+      "Ho indicato l’Allegato XVII",
+      "Ho indicato la patente a crediti",
+      "Ho considerato l’amianto"
+     ],
+     "minc": 120
+    },
+    {
+     "q": "Il ribasso sui costi della sicurezza è ammesso?",
+     "min": 5,
+     "modello": "No: i costi della sicurezza non sono soggetti a ribasso e vanno indicati e riconosciuti per intero.",
+     "criteri": [
+      "Ho escluso il ribasso",
+      "Ho richiamato l’obbligo di indicarli"
+     ]
+    },
+    {
+     "q": "Quali figure e documenti prevede il cantiere?",
+     "min": 6,
+     "modello": "Valutazione della necessità del coordinatore per la progettazione e per l’esecuzione se è prevista la presenza di più imprese; PSC e POS; notifica preliminare nei casi previsti; verifica dei POS; nomina del responsabile dei lavori se il committente lo ritiene.",
+     "criteri": [
+      "Ho considerato i coordinatori",
+      "Ho indicato PSC e POS",
+      "Ho considerato la notifica preliminare"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio verifichi l’idoneità di un’impresa edile per lavori in copertura. Individua i documenti mancanti, valuta il ribasso sui costi della sicurezza e indica figure e documenti del cantiere, poi confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "Artt. 26, 90, 97, 100 e Allegato XVII D.lgs. 81/2008"
+  }
+ ]
+}

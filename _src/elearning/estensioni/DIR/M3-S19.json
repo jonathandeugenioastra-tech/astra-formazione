@@ -1,0 +1,66 @@
+{
+ "dopo": "Il limite di peso raccomandato: i fattori della UNI ISO 11228-1",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Il limite di peso raccomandato",
+   "lead": "Valuti un’operazione di sollevamento in una linea di confezionamento.",
+   "dossier": [
+    [
+     "Lavoratore",
+     "uomo tra 18 e 45 anni: massa di riferimento 25 kg"
+    ],
+    [
+     "Geometria",
+     "distanza orizzontale H = 40 cm; altezza iniziale V = 30 cm; dislocazione D = 70 cm; asimmetria A = 30°"
+    ],
+    [
+     "Frequenza",
+     "1 sollevamento al minuto per meno di un’ora: FM = 0,94"
+    ],
+    [
+     "Presa",
+     "buona: CM = 1"
+    ],
+    [
+     "Peso sollevato",
+     "12 kg"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Calcola i fattori HM, VM, DM e AM.",
+     "min": 7,
+     "modello": "HM = 25/40 = 0,625. VM = 1 − 0,003 × |30 − 75| = 0,865. DM = 0,82 + 4,5/70 ≈ 0,884. AM = 1 − 0,0032 × 30 = 0,904.",
+     "criteri": [
+      "Ho calcolato HM",
+      "Ho calcolato VM e DM",
+      "Ho calcolato AM"
+     ]
+    },
+    {
+     "q": "Calcola il limite raccomandato e l’indice di sollevamento.",
+     "min": 6,
+     "modello": "RWL = 25 × 0,625 × 0,865 × 0,884 × 0,904 × 0,94 × 1 ≈ 10,2 kg. LI = 12 / 10,2 ≈ 1,18: oltre 1, il rischio è presente e servono interventi.",
+     "criteri": [
+      "Ho calcolato circa 10,2 kg",
+      "Ho calcolato LI circa 1,18",
+      "Ho interpretato l’indice"
+     ]
+    },
+    {
+     "q": "Quale intervento abbassa l’indice e di quanto?",
+     "min": 5,
+     "modello": "Il fattore peggiore è la distanza orizzontale: avvicinando il carico a 25 cm, HM = 1 e RWL ≈ 16,2 kg, LI ≈ 0,74. Alzare il piano di prelievo a 75 cm porta VM a 1. Si possono combinare gli interventi.",
+     "criteri": [
+      "Ho individuato il fattore peggiore",
+      "Ho ricalcolato RWL e LI",
+      "Ho proposto interventi combinabili"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio applichi i fattori della norma per calcolare il limite di peso raccomandato e l’indice di sollevamento di un’operazione di confezionamento, poi individui l’intervento più efficace. Confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "UNI ISO 11228-1 · Allegato XXXIII D.lgs. 81/2008"
+  }
+ ]
+}

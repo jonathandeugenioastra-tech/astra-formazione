@@ -11,3 +11,5 @@ import json
 d=json.load(open('CHIM/M1-Z04.json')); d['dopo']='L’etichetta CLP e le novità della revisione'
 json.dump(d,open('REACH/M2-Z-CHIM-M1-Z04.json','w'),ensure_ascii=False,indent=1)
 PY
+for c in DIR DL; do cp LAV-AGG/M1-Z1.json $c/M1-Z-LAV-AGG-M1-Z1.json; cp LAV-AGG/M2-Z1.json $c/M1-Z-LAV-AGG-M2-Z1.json; cp LAV-AGG/M4-Z1.json $c/M2-Z-LAV-AGG-M4-Z1.json; cp REATI/M1-N5.json $c/M1-Z-REATI-M1-N5.json; done
+cp LAV-AGG/M4-Z4.json DL/M4-Z-LAV-AGG-M4-Z4.json

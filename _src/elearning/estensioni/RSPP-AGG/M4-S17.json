@@ -1,0 +1,75 @@
+{
+ "dopo": "Data certa, firme e aggiornamento del DVR",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "Il DVR del 2015",
+   "scena": "Durante un audit scopri che il DVR di uno stabilimento risale al 2015. Da allora sono state introdotte due linee produttive e si è verificato un infortunio grave.",
+   "decisioni": [
+    {
+     "dom": "Il DVR andava rielaborato?",
+     "opz": [
+      [
+       "Sì: modifiche significative del processo e infortuni significativi obbligano alla rielaborazione",
+       true,
+       "Corretto: art. 29, comma 3."
+      ],
+      [
+       "No, il DVR non scade",
+       false,
+       "Non scade, ma va rielaborato quando cambiano le condizioni."
+      ],
+      [
+       "Solo ogni dieci anni",
+       false,
+       "Non esiste una scadenza fissa."
+      ]
+     ]
+    },
+    {
+     "dom": "Entro quando dopo le modifiche?",
+     "opz": [
+      [
+       "Entro 30 giorni dalle rispettive causali",
+       true,
+       "Corretto."
+      ],
+      [
+       "Entro un anno",
+       false,
+       "Il termine è più breve."
+      ],
+      [
+       "Alla prossima ispezione",
+       false,
+       "Non è un criterio."
+      ]
+     ]
+    },
+    {
+     "dom": "Come dimostri la data del nuovo documento?",
+     "opz": [
+      [
+       "Con data certa o con le firme di datore di lavoro, RSPP, RLS e medico competente",
+       true,
+       "Corretto."
+      ],
+      [
+       "Con la data nel nome del file",
+       false,
+       "Non è data certa."
+      ],
+      [
+       "Con una e-mail interna",
+       false,
+       "Non basta di per sé."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "Il DVR non scade ma si rielabora entro trenta giorni da modifiche significative o infortuni significativi, con data certa o firme congiunte.",
+   "nar": "Un DVR fermo da anni. Valuta e rimedia.",
+   "rif": "Artt. 28 e 29 D.lgs. 81/2008"
+  }
+ ]
+}

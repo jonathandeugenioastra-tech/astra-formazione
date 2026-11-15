@@ -1,0 +1,55 @@
+{
+ "dopo": "La nozione giuridica di datore di lavoro",
+ "schermate": [
+  {
+   "t": "classifica",
+   "tit": "Chi è il datore di lavoro?",
+   "lead": "Seleziona una situazione, poi il soggetto che ricopre il ruolo di datore di lavoro ai fini della sicurezza.",
+   "colonne": [
+    "Titolare o organo di vertice",
+    "Dirigente con delega",
+    "Non è datore di lavoro"
+   ],
+   "schede": [
+    [
+     "Titolare di una ditta individuale con 5 dipendenti",
+     0,
+     "È il titolare del rapporto di lavoro con poteri decisionali e di spesa.",
+     "Corretto."
+    ],
+    [
+     "Amministratore delegato con poteri gestori di una Spa",
+     0,
+     "Ha la responsabilità dell’organizzazione.",
+     "Corretto."
+    ],
+    [
+     "Direttore di stabilimento con delega di funzioni ex art. 16",
+     1,
+     "È delegato, non datore di lavoro.",
+     "Corretto."
+    ],
+    [
+     "Responsabile dell’ufficio del personale senza poteri di spesa",
+     2,
+     "Non ha i poteri richiesti.",
+     "Corretto."
+    ],
+    [
+     "Dirigente pubblico con poteri di gestione individuato dall’organo di vertice",
+     0,
+     "Nella pubblica amministrazione è datore di lavoro.",
+     "Corretto."
+    ],
+    [
+     "Consulente esterno che redige il DVR",
+     2,
+     "È un collaboratore, non un garante datoriale.",
+     "Corretto."
+    ]
+   ],
+   "nar": "Sei situazioni. Individua chi è datore di lavoro, chi è un dirigente delegato e chi non ricopre il ruolo.",
+   "rif": "Art. 2, lett. b), e art. 16 D.lgs. 81/2008"
+  }
+ ]
+}

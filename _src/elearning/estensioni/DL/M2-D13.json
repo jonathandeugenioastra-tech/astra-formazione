@@ -1,0 +1,75 @@
+{
+ "dopo": "Appalti, subappalti e cantieri",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "L’infortunio del dipendente dell’appaltatore",
+   "scena": "Un dipendente dell’impresa di manutenzione si infortuna in un reparto del committente scivolando su olio non segnalato vicino a una macchina.",
+   "decisioni": [
+    {
+     "dom": "Il committente può essere chiamato a rispondere?",
+     "opz": [
+      [
+       "Sì: se l’infortunio deriva da rischi interferenti o dell’ambiente non segnalati e gestiti, e risponde in solido per i danni non indennizzati dall’INAIL",
+       true,
+       "Corretto: art. 26, comma 4."
+      ],
+      [
+       "No, il lavoratore non è suo dipendente",
+       false,
+       "Il committente ha obblighi verso i lavoratori delle imprese appaltatrici."
+      ],
+      [
+       "Solo se c’è un contratto scritto",
+       false,
+       "La responsabilità non dipende da questo."
+      ]
+     ]
+    },
+    {
+     "dom": "Che cosa avrebbe dovuto prevedere il DUVRI?",
+     "opz": [
+      [
+       "Le perdite d’olio come rischio dell’ambiente, con pulizia, segnalazione e delimitazione delle aree",
+       true,
+       "Corretto."
+      ],
+      [
+       "Solo l’elenco delle imprese",
+       false,
+       "Il DUVRI contiene misure."
+      ],
+      [
+       "Nulla, l’olio non è un rischio",
+       false,
+       "Lo è."
+      ]
+     ]
+    },
+    {
+     "dom": "Che cosa fai ora?",
+     "opz": [
+      [
+       "Analisi dell’evento con l’appaltatore, aggiornamento del DUVRI e delle procedure di manutenzione delle macchine",
+       true,
+       "Corretto."
+      ],
+      [
+       "Cambi appaltatore",
+       false,
+       "Non risolve la causa."
+      ],
+      [
+       "Nulla",
+       false,
+       "Serve imparare dall’evento."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "Il committente risponde dei rischi del proprio ambiente verso i lavoratori delle imprese appaltatrici: DUVRI concreto, cooperazione e coordinamento sono la prevenzione.",
+   "nar": "Un infortunio di un lavoratore dell’appaltatore. Valuta le responsabilità.",
+   "rif": "Art. 26 D.lgs. 81/2008"
+  }
+ ]
+}

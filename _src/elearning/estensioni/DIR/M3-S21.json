@@ -1,0 +1,75 @@
+{
+ "dopo": "Lavoratrici in gravidanza e madri: la valutazione specifica",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "La comunicazione della gravidanza",
+   "scena": "Un’operaia addetta al carico manuale di casse da 15 kg comunica di essere in gravidanza.",
+   "decisioni": [
+    {
+     "dom": "Che cosa fai subito?",
+     "opz": [
+      [
+       "La sposti a mansioni compatibili, perché il sollevamento di pesi è un lavoro vietato in gravidanza",
+       true,
+       "Corretto: lo prevede il D.lgs. 151/2001."
+      ],
+      [
+       "Aspetti il parere del medico di famiglia",
+       false,
+       "Il datore di lavoro deve agire subito."
+      ],
+      [
+       "Le chiedi di sollevare carichi più leggeri",
+       false,
+       "Il divieto riguarda il trasporto e sollevamento di pesi."
+      ]
+     ]
+    },
+    {
+     "dom": "Se non esistono mansioni compatibili?",
+     "opz": [
+      [
+       "Si informa l’Ispettorato territoriale del lavoro, che può disporre l’interdizione dal lavoro",
+       true,
+       "Corretto."
+      ],
+      [
+       "La lavoratrice resta a casa senza retribuzione",
+       false,
+       "Non è previsto."
+      ],
+      [
+       "Continua la stessa mansione",
+       false,
+       "È vietato."
+      ]
+     ]
+    },
+    {
+     "dom": "Che cosa deve contenere il DVR?",
+     "opz": [
+      [
+       "La valutazione dei rischi per gestanti, puerpere e madri in allattamento e le misure, con informazione a tutte le lavoratrici",
+       true,
+       "Corretto: art. 11 del D.lgs. 151/2001."
+      ],
+      [
+       "Nulla, finché nessuna è in gravidanza",
+       false,
+       "La valutazione va fatta prima."
+      ],
+      [
+       "Solo un elenco di nomi",
+       false,
+       "Non è una valutazione."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "La tutela della maternità si prepara nel DVR e si attua subito alla comunicazione: spostamento a mansioni compatibili o, se impossibile, interdizione disposta dall’Ispettorato.",
+   "nar": "Una lavoratrice in gravidanza addetta al carico manuale. Decidi le misure.",
+   "rif": "D.lgs. 151/2001, artt. 7, 11 e 12"
+  }
+ ]
+}

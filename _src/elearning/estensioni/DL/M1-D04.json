@@ -1,0 +1,75 @@
+{
+ "dopo": "Responsabilità della persona e dell'ente",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "Chi risponde dopo l’infortunio",
+   "scena": "In un’impresa di 120 lavoratori un operaio perde due dita su una macchina con il riparo manomesso. Il preposto sapeva della manomissione; il dirigente aveva rinviato la riparazione per non fermare la produzione.",
+   "decisioni": [
+    {
+     "dom": "Chi può rispondere penalmente di lesioni colpose?",
+     "opz": [
+      [
+       "Preposto, dirigente ed eventualmente datore di lavoro, secondo le rispettive posizioni e colpe",
+       true,
+       "Corretto: ogni garante risponde per la sua parte."
+      ],
+      [
+       "Solo l’operaio",
+       false,
+       "La condotta dei garanti è rilevante."
+      ],
+      [
+       "Solo il datore di lavoro",
+       false,
+       "Anche preposto e dirigente sono garanti."
+      ]
+     ]
+    },
+    {
+     "dom": "L’impresa può rispondere ai sensi del D.lgs. 231/2001?",
+     "opz": [
+      [
+       "Sì: lesioni gravi con violazione delle norme di sicurezza, commesse nell’interesse dell’ente, ad esempio per non fermare la produzione",
+       true,
+       "Corretto: art. 25-septies."
+      ],
+      [
+       "No, mai",
+       false,
+       "È un reato presupposto."
+      ],
+      [
+       "Solo se il lavoratore muore",
+       false,
+       "Anche le lesioni gravi o gravissime."
+      ]
+     ]
+    },
+    {
+     "dom": "Che cosa avrebbe potuto proteggere l’ente?",
+     "opz": [
+      [
+       "Un modello organizzativo dell’art. 30 adottato ed efficacemente attuato, con vigilanza e sistema disciplinare",
+       true,
+       "Corretto."
+      ],
+      [
+       "Una polizza assicurativa",
+       false,
+       "Non esclude la responsabilità."
+      ],
+      [
+       "Il DVR da solo",
+       false,
+       "Serve un modello efficace."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "Dopo un infortunio rispondono i garanti secondo il loro ruolo e, se c’è interesse o vantaggio, anche l’ente: il modello dell’art. 30 è la difesa organizzativa.",
+   "nar": "Un infortunio grave su una macchina manomessa. Individua le responsabilità.",
+   "rif": "Art. 590 c.p. · artt. 18, 19 e 30 D.lgs. 81/2008 · art. 25-septies D.lgs. 231/2001"
+  }
+ ]
+}

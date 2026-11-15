@@ -1,0 +1,39 @@
+{
+ "dopo": "Gli addetti antincendio: il D.M. 2 settembre 2021",
+ "schermate": [
+  {
+   "t": "esempio",
+   "tit": "Esempio guidato · Quale corso per gli addetti antincendio?",
+   "lead": "Dal livello di rischio alla formazione.",
+   "passi": [
+    [
+     "L’attività",
+     "Un magazzino con materiali combustibili, classificato a rischio medio nella valutazione del rischio di incendio.",
+     "Livello 2"
+    ],
+    [
+     "Il corso",
+     "Per il livello 2 il corso è di 8 ore, con parte pratica.",
+     "8 ore"
+    ],
+    [
+     "L’aggiornamento",
+     "Ogni cinque anni, 5 ore.",
+     "5 ore / 5 anni"
+    ],
+    [
+     "Il numero",
+     "Gli addetti devono essere presenti in ogni turno, in numero adeguato a dimensioni e organizzazione.",
+     "Copertura di tutti i turni"
+    ],
+    [
+     "Il confronto",
+     "Rischio basso: 4 ore e aggiornamento di 2; rischio elevato: 16 ore e aggiornamento di 8.",
+     "4 · 8 · 16 ore"
+    ]
+   ],
+   "nar": "Scegliamo il corso per gli addetti antincendio. Il magazzino è a rischio medio: serve il livello due, con un corso di otto ore e un aggiornamento di cinque ore ogni cinque anni. Gli addetti devono coprire tutti i turni. Per confronto, il livello uno richiede quattro ore e il livello tre sedici.",
+   "rif": "D.M. 2 settembre 2021"
+  }
+ ]
+}

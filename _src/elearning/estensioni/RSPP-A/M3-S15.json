@@ -1,0 +1,75 @@
+{
+ "dopo": "La gestione del cambiamento",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "La nuova macchina in arrivo",
+   "scena": "Tra due mesi arriva un centro di lavoro robotizzato che sostituirà due fresatrici. L’ufficio acquisti ha già firmato l’ordine.",
+   "decisioni": [
+    {
+     "dom": "Quando va coinvolta la prevenzione?",
+     "opz": [
+      [
+       "Prima dell’installazione: valutazione preventiva con RSPP, medico competente e consultazione dell’RLS",
+       true,
+       "Corretto: i cambiamenti si valutano prima che producano effetti."
+      ],
+      [
+       "Dopo il primo mese di produzione",
+       false,
+       "I rischi vanno valutati prima."
+      ],
+      [
+       "Mai, la macchina è marcata CE",
+       false,
+       "La marcatura non sostituisce la valutazione dell’uso nel contesto."
+      ]
+     ]
+    },
+    {
+     "dom": "Che cosa verifichi alla consegna?",
+     "opz": [
+      [
+       "Marcatura CE, dichiarazione di conformità, istruzioni in italiano e corretta installazione secondo le istruzioni",
+       true,
+       "Corretto."
+      ],
+      [
+       "Solo il collaudo produttivo",
+       false,
+       "Non riguarda la sicurezza."
+      ],
+      [
+       "La garanzia commerciale",
+       false,
+       "Non basta."
+      ]
+     ]
+    },
+    {
+     "dom": "Che cosa aggiorni prima dell’avvio?",
+     "opz": [
+      [
+       "DVR, procedure, formazione e addestramento degli operatori, manutenzione programmata",
+       true,
+       "Corretto."
+      ],
+      [
+       "Solo l’inventario dei cespiti",
+       false,
+       "Non basta."
+      ],
+      [
+       "Nulla",
+       false,
+       "Il cambiamento modifica i rischi."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "Valutare prima, verificare alla consegna, aggiornare documenti e competenze prima dell’avvio: la gestione del cambiamento evita che i nuovi rischi arrivino senza difese.",
+   "nar": "Una nuova macchina sta per arrivare. Organizza la gestione del cambiamento.",
+   "rif": "Artt. 28, 29, 70 e 71 D.lgs. 81/2008 · UNI EN ISO 45001, punto 8.1.3"
+  }
+ ]
+}

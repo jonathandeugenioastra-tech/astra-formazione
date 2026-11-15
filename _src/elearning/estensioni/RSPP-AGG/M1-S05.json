@@ -1,0 +1,39 @@
+{
+ "dopo": "Misurare le prestazioni: indicatori reattivi e proattivi",
+ "schermate": [
+  {
+   "t": "esempio",
+   "tit": "Esempio guidato · Indice di frequenza e di gravità",
+   "lead": "Gli indicatori della UNI 7249 per un’impresa con 180 dipendenti.",
+   "passi": [
+    [
+     "I dati",
+     "4 infortuni con assenza, 110 giornate perse, 320.000 ore lavorate nell’anno.",
+     "4 · 110 · 320.000"
+    ],
+    [
+     "Indice di frequenza",
+     "IF = infortuni × 1.000.000 / ore lavorate = 4 × 1.000.000 / 320.000.",
+     "IF = 12,5"
+    ],
+    [
+     "Indice di gravità",
+     "IG = giornate perse × 1.000 / ore lavorate = 110 × 1.000 / 320.000.",
+     "IG ≈ 0,34"
+    ],
+    [
+     "Il confronto",
+     "Si confrontano con gli anni precedenti e con il settore, a parità di metodo.",
+     "Trend e benchmark"
+    ],
+    [
+     "Gli indicatori proattivi",
+     "Si affiancano quasi incidenti segnalati, sopralluoghi svolti, azioni chiuse nei tempi.",
+     "Prevenire, non solo contare"
+    ]
+   ],
+   "nar": "Calcoliamo gli indici infortunistici. Con quattro infortuni e trecentoventimila ore lavorate, l’indice di frequenza vale dodici e mezzo. Con centodieci giornate perse, l’indice di gravità vale circa zero virgola trentaquattro. Questi indicatori reattivi vanno confrontati nel tempo e affiancati da indicatori proattivi, come le segnalazioni di quasi incidenti e le azioni chiuse nei tempi.",
+   "rif": "UNI 7249:2007"
+  }
+ ]
+}

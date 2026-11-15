@@ -1,0 +1,105 @@
+{
+ "dopo": "Informazione, formazione, addestramento",
+ "schermate": [
+  {
+   "t": "classifica",
+   "tit": "Informazione, formazione o addestramento?",
+   "lead": "Seleziona un’attività, poi la categoria.",
+   "colonne": [
+    "Informazione",
+    "Formazione",
+    "Addestramento"
+   ],
+   "schede": [
+    [
+     "Consegna dell’opuscolo sulle procedure di emergenza",
+     0,
+     "Trasferisce notizie utili a riconoscere e gestire i rischi.",
+     "Corretto."
+    ],
+    [
+     "Corso di 4 ore sui rischi specifici della mansione con verifica finale",
+     1,
+     "Processo educativo con conoscenze e verifica.",
+     "Corretto."
+    ],
+    [
+     "Prova pratica di indossamento dell’imbracatura con l’istruttore",
+     2,
+     "Apprendimento pratico dell’uso di un DPI.",
+     "Corretto."
+    ],
+    [
+     "Cartello con le regole di accesso al reparto",
+     0,
+     "Informazione.",
+     "Corretto."
+    ],
+    [
+     "Esercitazione sull’uso del carrello elevatore",
+     2,
+     "Addestramento.",
+     "Corretto."
+    ],
+    [
+     "Lezione sulla valutazione del rischio chimico",
+     1,
+     "Formazione.",
+     "Corretto."
+    ]
+   ],
+   "nar": "Sei attività. Distingui informazione, formazione e addestramento secondo le definizioni del Testo unico.",
+   "rif": "Art. 2, lett. aa), bb), cc) D.lgs. 81/2008"
+  },
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Il piano formativo annuale",
+   "lead": "Prepari il piano formativo annuale di un’impresa con 50 lavoratori, classificata a rischio medio.",
+   "dossier": [
+    [
+     "Situazione",
+     "8 neoassunti previsti; 12 lavoratori con aggiornamento in scadenza; 4 preposti con aggiornamento biennale in scadenza; 2 nuovi addetti antincendio di livello 2; un dirigente nominato da poco"
+    ],
+    [
+     "Vincoli",
+     "produzione su due turni; budget limitato"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Elenca i corsi necessari con le durate.",
+     "min": 7,
+     "modello": "Neoassunti: generale 4 ore e specifica 8 ore per il rischio medio, in occasione dell’assunzione. Aggiornamento lavoratori: 6 ore. Preposti: aggiornamento di 6 ore ogni due anni. Addetti antincendio di livello 2: corso di 8 ore. Dirigente: corso di 12 ore.",
+     "criteri": [
+      "Ho indicato le durate per i lavoratori",
+      "Ho indicato preposti e dirigente",
+      "Ho indicato gli addetti antincendio"
+     ],
+     "minc": 150
+    },
+    {
+     "q": "Come organizzi le modalità e il calendario?",
+     "min": 6,
+     "modello": "Formazione generale e aggiornamenti anche in e-learning dove ammesso; formazione specifica con parte pratica in presenza; preposti in presenza come richiesto; sessioni distribuite sui due turni; neoassunti formati prima di iniziare a lavorare.",
+     "criteri": [
+      "Ho rispettato le modalità ammesse",
+      "Ho previsto la copertura dei turni",
+      "Ho rispettato i tempi dei neoassunti"
+     ]
+    },
+    {
+     "q": "Come documenti e verifichi il piano?",
+     "min": 5,
+     "modello": "Progetto formativo, registri, verifiche di apprendimento e attestati; scadenzario per lavoratore; consultazione dell’RLS; verifica dell’efficacia durante il lavoro; dati destinati al fascicolo elettronico.",
+     "criteri": [
+      "Ho previsto la documentazione",
+      "Ho previsto la consultazione dell’RLS",
+      "Ho previsto la verifica di efficacia"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio prepari il piano formativo annuale di un’impresa con cinquanta lavoratori: corsi e durate, modalità e calendario, documentazione e verifica, poi confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "Art. 37 D.lgs. 81/2008 · Accordo Stato-Regioni 17 aprile 2025"
+  }
+ ]
+}

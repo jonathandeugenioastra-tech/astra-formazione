@@ -1,0 +1,75 @@
+{
+ "dopo": "Formare lavoratori stranieri",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "La squadra multilingue",
+   "scena": "In una cooperativa di logistica 12 nuovi addetti parlano cinque lingue diverse e capiscono poco l’italiano.",
+   "decisioni": [
+    {
+     "dom": "Che cosa fai prima della formazione?",
+     "opz": [
+      [
+       "Verifichi la comprensione della lingua veicolare",
+       true,
+       "Corretto: art. 37, comma 13."
+      ],
+      [
+       "Inizi subito in italiano",
+       false,
+       "La comprensione va verificata."
+      ],
+      [
+       "Consegni il materiale tradotto con un traduttore automatico",
+       false,
+       "Va verificata la comprensione effettiva."
+      ]
+     ]
+    },
+    {
+     "dom": "Come organizzi il corso?",
+     "opz": [
+      [
+       "Gruppi per lingua o mediatori culturali, linguaggio semplice, immagini e prove pratiche",
+       true,
+       "Corretto."
+      ],
+      [
+       "Una lezione frontale lunga",
+       false,
+       "Poco efficace."
+      ],
+      [
+       "Solo video in italiano",
+       false,
+       "Non garantisce la comprensione."
+      ]
+     ]
+    },
+    {
+     "dom": "Come verifichi l’apprendimento?",
+     "opz": [
+      [
+       "Con prove pratiche e domande nella lingua compresa, documentando l’esito",
+       true,
+       "Corretto."
+      ],
+      [
+       "Con un test scritto in italiano tecnico",
+       false,
+       "Misura la lingua, non la sicurezza."
+      ],
+      [
+       "Non serve verificare",
+       false,
+       "La verifica è obbligatoria."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "Verifica della lingua, metodi comprensibili e verifiche adatte: la formazione è efficace solo se è compresa.",
+   "nar": "Lavoratori con lingue diverse da formare. Organizza il corso.",
+   "rif": "Art. 37, c. 13, D.lgs. 81/2008"
+  }
+ ]
+}

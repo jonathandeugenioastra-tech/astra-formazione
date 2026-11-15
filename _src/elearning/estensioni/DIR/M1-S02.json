@@ -1,0 +1,62 @@
+{
+ "dopo": "Il dirigente: definizione, poteri e limiti",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Il dirigente di fatto",
+   "lead": "Analizzi la posizione del capo reparto stampaggio di un’impresa metalmeccanica.",
+   "dossier": [
+    [
+     "Inquadramento",
+     "impiegato di settimo livello, non dirigente secondo il contratto"
+    ],
+    [
+     "Compiti",
+     "organizza turni e attribuzione delle macchine, approva acquisti fino a 5.000 €, decide le priorità di manutenzione del reparto"
+    ],
+    [
+     "Collaboratori",
+     "3 capiturno e 25 operai"
+    ],
+    [
+     "Evento",
+     "un operaio si ferisce su una pressa con il riparo rimosso da settimane"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Il capo reparto è dirigente ai fini della sicurezza? Motiva.",
+     "min": 6,
+     "modello": "Sì: la qualifica prevenzionistica dipende dai poteri effettivamente esercitati. Organizza il lavoro, dispone di risorse e decide sulla manutenzione: attua le direttive del datore di lavoro organizzando l’attività e vigilando su di essa, come previsto dall’art. 2, lett. d).",
+     "criteri": [
+      "Ho applicato il principio di effettività",
+      "Ho collegato i poteri alla definizione",
+      "Ho ignorato l’inquadramento contrattuale"
+     ]
+    },
+    {
+     "q": "Quali obblighi aveva rispetto alla pressa?",
+     "min": 6,
+     "modello": "Gli obblighi dell’art. 18 nell’ambito delle sue attribuzioni: richiedere l’osservanza delle norme, garantire attrezzature conformi e la loro manutenzione, prendere misure appropriate, vigilare che i preposti facciano rispettare le regole. Con un riparo rimosso da settimane doveva intervenire e fermare la macchina.",
+     "criteri": [
+      "Ho citato l’art. 18",
+      "Ho collegato manutenzione e conformità",
+      "Ho indicato il dovere di intervenire"
+     ]
+    },
+    {
+     "q": "Chi altro potrebbe essere chiamato a rispondere?",
+     "min": 6,
+     "modello": "Il capoturno come preposto, se ha tollerato la prassi; il datore di lavoro, per gli aspetti organizzativi e per la vigilanza; l’impresa ai sensi dell’art. 25-septies del D.lgs. 231/2001 se il reato ha procurato un interesse o vantaggio, ad esempio risparmio di tempo, e manca un modello efficace.",
+     "criteri": [
+      "Ho considerato il preposto",
+      "Ho considerato il datore di lavoro",
+      "Ho considerato l’ente"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio analizzi la posizione di un capo reparto dopo un infortunio. Stabilisci se è dirigente ai fini della sicurezza, quali obblighi aveva e chi altro potrebbe rispondere, poi confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "Artt. 2, 18, 19 e 299 D.lgs. 81/2008"
+  }
+ ]
+}

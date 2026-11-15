@@ -1,0 +1,57 @@
+{
+ "dopo": "La riunione periodica: contenuti e verbale",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Preparare la riunione periodica",
+   "lead": "Prepari la riunione periodica annuale di un’impresa con 70 lavoratori.",
+   "dossier": [
+    [
+     "Dati dell’anno",
+     "3 infortuni, di cui uno con 40 giorni di assenza; 12 quasi incidenti segnalati; 2 giudizi di idoneità con limitazioni"
+    ],
+    [
+     "Novità",
+     "nuova linea di verniciatura installata a settembre"
+    ],
+    [
+     "Formazione",
+     "8 lavoratori con aggiornamento scaduto"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Scrivi l’ordine del giorno.",
+     "min": 6,
+     "modello": "Esame del DVR e del suo aggiornamento per la nuova linea; andamento di infortuni, quasi incidenti e sorveglianza sanitaria; criteri di scelta ed efficacia dei DPI, in particolare per la verniciatura; programmi di informazione e formazione e recupero degli aggiornamenti scaduti; eventuali obiettivi di miglioramento e codici di comportamento.",
+     "criteri": [
+      "Ho incluso DVR e nuova linea",
+      "Ho incluso infortuni e sorveglianza",
+      "Ho incluso DPI e formazione"
+     ]
+    },
+    {
+     "q": "Chi convochi e quali dati chiedi a ciascuno?",
+     "min": 5,
+     "modello": "Datore di lavoro o suo rappresentante, RSPP, medico competente, RLS. All’RSPP l’analisi degli infortuni e lo stato del DVR; al medico competente la relazione anonima e collettiva sulla sorveglianza; all’RLS le segnalazioni dei lavoratori.",
+     "criteri": [
+      "Ho indicato i quattro partecipanti",
+      "Ho chiesto dati a ciascuno"
+     ]
+    },
+    {
+     "q": "Che cosa deve contenere il verbale?",
+     "min": 6,
+     "modello": "Data e partecipanti, argomenti trattati, esiti e decisioni, azioni con responsabili e scadenze, osservazioni dell’RLS; il verbale è a disposizione dei partecipanti per la consultazione.",
+     "criteri": [
+      "Ho previsto decisioni e responsabili",
+      "Ho previsto le osservazioni dell’RLS",
+      "Ho previsto la disponibilità del verbale"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio prepari la riunione periodica annuale di un’impresa con settanta lavoratori. Scrivi l’ordine del giorno, individua partecipanti e dati da raccogliere e definisci i contenuti del verbale, poi confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "Art. 35 D.lgs. 81/2008"
+  }
+ ]
+}

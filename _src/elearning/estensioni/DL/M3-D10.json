@@ -1,0 +1,70 @@
+{
+ "dopo": "I rischi specifici del Testo unico",
+ "schermate": [
+  {
+   "t": "classifica",
+   "tit": "Quale titolo del Testo unico?",
+   "lead": "Seleziona un rischio, poi il titolo del D.lgs. 81/2008 che lo disciplina.",
+   "colonne": [
+    "Titolo III · attrezzature e DPI",
+    "Titolo IV · cantieri",
+    "Titolo VI · movimentazione dei carichi",
+    "Titolo VIII · agenti fisici",
+    "Titolo IX · sostanze pericolose",
+    "Titolo X · agenti biologici"
+   ],
+   "schede": [
+    [
+     "Rumore di una pressa",
+     3,
+     "Agenti fisici.",
+     "Corretto."
+    ],
+    [
+     "Ponteggio",
+     1,
+     "Cantieri temporanei o mobili.",
+     "Corretto."
+    ],
+    [
+     "Sollevamento di sacchi",
+     2,
+     "Movimentazione manuale dei carichi.",
+     "Corretto."
+    ],
+    [
+     "Vernice a solvente",
+     4,
+     "Agenti chimici.",
+     "Corretto."
+    ],
+    [
+     "Legionella nelle torri evaporative",
+     5,
+     "Agenti biologici.",
+     "Corretto."
+    ],
+    [
+     "Uso del carrello elevatore",
+     0,
+     "Attrezzature di lavoro.",
+     "Corretto."
+    ],
+    [
+     "Vibrazioni di un martello demolitore",
+     3,
+     "Agenti fisici.",
+     "Corretto."
+    ],
+    [
+     "Amianto in una copertura",
+     4,
+     "Titolo IX, Capo III.",
+     "Corretto."
+    ]
+   ],
+   "nar": "Otto rischi. Individua il titolo del Testo unico che li disciplina.",
+   "rif": "D.lgs. 81/2008"
+  }
+ ]
+}

@@ -1,0 +1,58 @@
+{
+ "dopo": "La delega di funzioni",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Scrivere una delega di funzioni",
+   "lead": "Il datore di lavoro di un’impresa con tre stabilimenti vuole delegare al direttore tecnico la gestione della sicurezza delle macchine e degli impianti.",
+   "dossier": [
+    [
+     "Delegato",
+     "direttore tecnico, ingegnere, 15 anni di esperienza"
+    ],
+    [
+     "Budget proposto",
+     "nessun budget dedicato: ogni spesa va approvata dal datore di lavoro"
+    ],
+    [
+     "Forma prevista",
+     "comunicazione via e-mail"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Elenca i requisiti di validità della delega e indica quali mancano.",
+     "min": 7,
+     "modello": "Atto scritto con data certa; professionalità ed esperienza del delegato; poteri di organizzazione, gestione e controllo; autonomia di spesa necessaria; accettazione scritta; adeguata e tempestiva pubblicità. Mancano la forma scritta con data certa e l’autonomia di spesa; vanno previste anche accettazione e pubblicità.",
+     "criteri": [
+      "Ho elencato i requisiti dell’art. 16",
+      "Ho rilevato la mancanza dell’autonomia di spesa",
+      "Ho rilevato la forma inadeguata"
+     ],
+     "minc": 150
+    },
+    {
+     "q": "Quali obblighi non può comprendere la delega?",
+     "min": 5,
+     "modello": "La valutazione di tutti i rischi con l’elaborazione del DVR e la designazione dell’RSPP, indelegabili ai sensi dell’art. 17.",
+     "criteri": [
+      "Ho indicato il DVR",
+      "Ho indicato la designazione dell’RSPP"
+     ]
+    },
+    {
+     "q": "Come esercita il datore di lavoro la vigilanza sul delegato?",
+     "min": 6,
+     "modello": "Con verifiche sull’organizzazione e sui risultati, non su ogni singola lavorazione: report periodici, audit, indicatori, riesame. La vigilanza si presume assolta se è adottato ed efficacemente attuato il modello di verifica e controllo dell’art. 30, comma 4.",
+     "criteri": [
+      "Ho descritto strumenti di vigilanza",
+      "Ho citato il modello dell’art. 30",
+      "Ho distinto vigilanza e controllo puntuale"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio verifichi una delega di funzioni che il datore di lavoro vorrebbe conferire al direttore tecnico. Individua i requisiti mancanti, gli obblighi esclusi e come esercitare la vigilanza, poi confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "Artt. 16, 17 e 30 D.lgs. 81/2008"
+  }
+ ]
+}

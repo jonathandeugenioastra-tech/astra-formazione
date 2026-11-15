@@ -1,0 +1,58 @@
+{
+ "dopo": "Medico competente e sorveglianza sanitaria",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Il medico competente in pratica",
+   "lead": "Organizzi la collaborazione con il medico competente appena nominato in un’impresa di lavorazione del legno.",
+   "dossier": [
+    [
+     "Rischi",
+     "rumore 86 dB(A), polveri di legno duro, movimentazione manuale dei carichi, videoterminale per 4 impiegati"
+    ],
+    [
+     "Lavoratori",
+     "35"
+    ],
+    [
+     "Stato",
+     "nessuna sorveglianza sanitaria finora"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Chi va sottoposto a sorveglianza sanitaria e per quali rischi?",
+     "min": 6,
+     "modello": "Addetti esposti a rumore oltre il valore superiore di azione, a polveri di legno duro, cancerogene, e alla movimentazione manuale con rischio; gli impiegati se videoterminalisti oltre 20 ore settimanali.",
+     "criteri": [
+      "Ho collegato i rischi alla sorveglianza",
+      "Ho considerato i videoterminalisti",
+      "Ho considerato il cancerogeno"
+     ]
+    },
+    {
+     "q": "Quali informazioni fornisci al medico competente?",
+     "min": 6,
+     "modello": "DVR e misure adottate, processi e rischi, mansioni e lavoratori esposti, dati delle misure di rumore e polveri, eventuali casi di malattia, informazioni su lavoratrici in gravidanza quando comunicate; il medico collabora alla valutazione dei rischi.",
+     "criteri": [
+      "Ho previsto DVR e misure",
+      "Ho previsto i dati di esposizione",
+      "Ho previsto la collaborazione alla valutazione"
+     ]
+    },
+    {
+     "q": "Quali obblighi del medico verifichi nel tempo?",
+     "min": 5,
+     "modello": "Protocollo sanitario definito in base ai rischi; visite nei casi previsti; giudizi di idoneità comunicati per iscritto; sopralluogo degli ambienti almeno una volta l’anno o con la diversa periodicità indicata nel DVR; relazione anonima e collettiva alla riunione periodica.",
+     "criteri": [
+      "Ho citato protocollo e giudizi",
+      "Ho citato il sopralluogo annuale",
+      "Ho citato la relazione"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio organizzi la collaborazione con il medico competente appena nominato in un’impresa del legno. Individua chi sottoporre a sorveglianza, quali informazioni fornire e quali obblighi del medico verificare, poi confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "Artt. 18, 25, 39-41 D.lgs. 81/2008"
+  }
+ ]
+}

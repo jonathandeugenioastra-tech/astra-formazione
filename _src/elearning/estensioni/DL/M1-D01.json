@@ -1,0 +1,54 @@
+{
+ "dopo": "Le misure generali di tutela",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Le misure generali di tutela applicate",
+   "lead": "Applichi le misure generali di tutela dell’art. 15 a un reparto di sabbiatura.",
+   "dossier": [
+    [
+     "Reparto",
+     "sabbiatura manuale di pezzi metallici in cabina"
+    ],
+    [
+     "Problemi",
+     "polveri, rumore 92 dB(A), lavoratori a turni lunghi, manutenzione della cabina irregolare"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Applica la gerarchia: eliminazione, riduzione alla fonte, protezione collettiva, DPI.",
+     "min": 7,
+     "modello": "Eliminare o ridurre: valutare processi alternativi o abrasivi meno pericolosi e automazione. Alla fonte: cabina chiusa con aspirazione efficiente e insonorizzazione. Collettive: separazione del reparto, ventilazione. Solo infine DPI: protezione respiratoria adeguata e otoprotettori.",
+     "criteri": [
+      "Ho seguito l’ordine della gerarchia",
+      "Ho previsto misure alla fonte",
+      "Ho messo i DPI per ultimi"
+     ],
+     "minc": 120
+    },
+    {
+     "q": "Quali misure organizzative e di salute aggiungi?",
+     "min": 6,
+     "modello": "Riduzione della durata di esposizione e rotazione; manutenzione programmata della cabina e dei filtri; sorveglianza sanitaria per polveri e rumore; informazione, formazione e addestramento; segnaletica e accesso limitato.",
+     "criteri": [
+      "Ho previsto organizzazione e manutenzione",
+      "Ho previsto sorveglianza sanitaria",
+      "Ho previsto formazione"
+     ]
+    },
+    {
+     "q": "Come programmi il miglioramento nel tempo?",
+     "min": 5,
+     "modello": "Programma delle misure nel DVR con priorità, responsabili, risorse e scadenze; verifica dell’efficacia con nuove misure di rumore e polveri; riesame annuale.",
+     "criteri": [
+      "Ho previsto il programma",
+      "Ho previsto la verifica di efficacia"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio applichi le misure generali di tutela a un reparto di sabbiatura, seguendo la gerarchia e aggiungendo misure organizzative e di salute, poi programmi il miglioramento. Confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "Art. 15 D.lgs. 81/2008"
+  }
+ ]
+}

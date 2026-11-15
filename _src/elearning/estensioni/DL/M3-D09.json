@@ -1,0 +1,75 @@
+{
+ "dopo": "Rischi organizzativi e gruppi particolari",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "I lavoratori in somministrazione",
+   "scena": "Un’impresa riceve da un’agenzia 6 lavoratori in somministrazione per un picco di produzione di tre mesi, in un reparto con presse.",
+   "decisioni": [
+    {
+     "dom": "Chi forma i lavoratori sui rischi specifici del reparto?",
+     "opz": [
+      [
+       "L’utilizzatore, salvo diverso accordo nel contratto di somministrazione; l’agenzia informa sui rischi generali",
+       true,
+       "Corretto: gli obblighi di prevenzione e protezione sono dell’utilizzatore."
+      ],
+      [
+       "Solo l’agenzia",
+       false,
+       "I rischi specifici sono dell’utilizzatore."
+      ],
+      [
+       "Nessuno, il periodo è breve",
+       false,
+       "La durata non conta."
+      ]
+     ]
+    },
+    {
+     "dom": "Quando devono essere formati?",
+     "opz": [
+      [
+       "Prima di iniziare a lavorare sulle presse",
+       true,
+       "Corretto."
+      ],
+      [
+       "Entro tre mesi",
+       false,
+       "Troppo tardi."
+      ],
+      [
+       "Alla fine del contratto",
+       false,
+       "Non ha senso."
+      ]
+     ]
+    },
+    {
+     "dom": "Come li includi nella valutazione dei rischi?",
+     "opz": [
+      [
+       "Considerando la tipologia contrattuale e l’inesperienza, con affiancamento, preposto dedicato e verifiche",
+       true,
+       "Corretto: art. 28, comma 1."
+      ],
+      [
+       "Come gli altri lavoratori, senza differenze",
+       false,
+       "La tipologia contrattuale va considerata."
+      ],
+      [
+       "Escludendoli dalla valutazione",
+       false,
+       "Non è ammesso."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "Per i lavoratori in somministrazione la prevenzione è dell’utilizzatore: formazione prima dell’inizio e valutazione che consideri inesperienza e tipologia contrattuale.",
+   "nar": "Lavoratori in somministrazione su un reparto presse. Organizza la prevenzione.",
+   "rif": "Art. 35 D.lgs. 81/2015 · art. 28 D.lgs. 81/2008"
+  }
+ ]
+}

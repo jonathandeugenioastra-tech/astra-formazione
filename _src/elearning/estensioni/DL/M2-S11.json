@@ -1,0 +1,75 @@
+{
+ "dopo": "D.P.R. 177/2011: requisiti di qualificazione delle imprese",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "La vasca da pulire",
+   "scena": "Un’impresa alimentare deve far pulire l’interno di una vasca interrata di raccolta delle acque di processo, con accesso da un passo d’uomo.",
+   "decisioni": [
+    {
+     "dom": "Che cosa è la vasca ai fini della sicurezza?",
+     "opz": [
+      [
+       "Un ambiente sospetto di inquinamento o confinato, soggetto al D.P.R. 177/2011",
+       true,
+       "Corretto: accesso limitato, possibile mancanza di ossigeno o presenza di gas."
+      ],
+      [
+       "Un normale luogo di lavoro",
+       false,
+       "Ha rischi specifici gravi."
+      ],
+      [
+       "Un luogo dove non si applica nessuna regola",
+       false,
+       "Le regole sono stringenti."
+      ]
+     ]
+    },
+    {
+     "dom": "Quali requisiti deve avere l’impresa appaltatrice?",
+     "opz": [
+      [
+       "Almeno il 30% della forza lavoro con esperienza triennale, compreso il preposto, formazione e addestramento specifici e DPI e attrezzature idonei",
+       true,
+       "Corretto."
+      ],
+      [
+       "Solo l’iscrizione alla Camera di commercio",
+       false,
+       "Non basta."
+      ],
+      [
+       "Basta il preposto esperto",
+       false,
+       "Servono i requisiti per tutta la squadra."
+      ]
+     ]
+    },
+    {
+     "dom": "Che cosa deve fare il committente prima dei lavori?",
+     "opz": [
+      [
+       "Individuare un proprio rappresentante, informare sui rischi e definire una procedura di lavoro con misurazioni dell’atmosfera e soccorso",
+       true,
+       "Corretto: il soccorso deve essere organizzato prima dell’ingresso."
+      ],
+      [
+       "Fornire solo le chiavi del passo d’uomo",
+       false,
+       "È insufficiente."
+      ],
+      [
+       "Chiamare il 112 se succede qualcosa",
+       false,
+       "Il soccorso va pianificato."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "Ambienti confinati: imprese qualificate, procedura scritta, misure dell’atmosfera, rappresentante del committente e soccorso organizzato prima di entrare.",
+   "nar": "Una vasca interrata da pulire. Verifica requisiti e procedure.",
+   "rif": "D.P.R. 177/2011 · artt. 66 e 121 D.lgs. 81/2008"
+  }
+ ]
+}

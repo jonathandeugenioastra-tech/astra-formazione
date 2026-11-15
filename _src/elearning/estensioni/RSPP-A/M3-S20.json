@@ -1,0 +1,75 @@
+{
+ "dopo": "Lo stress lavoro-correlato: il metodo INAIL",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "La valutazione preliminare",
+   "scena": "In un call center con 60 operatori gli eventi sentinella mostrano assenze per malattia in forte aumento, turnover del 25% e tre segnalazioni del medico competente.",
+   "decisioni": [
+    {
+     "dom": "Come procedi?",
+     "opz": [
+      [
+       "Completi la valutazione preliminare per gruppi omogenei con eventi sentinella, contenuto e contesto del lavoro, sentendo i lavoratori o l’RLS",
+       true,
+       "Corretto: è il percorso del metodo INAIL."
+      ],
+      [
+       "Distribuisci un questionario a caso",
+       false,
+       "Il percorso ha fasi definite."
+      ],
+      [
+       "Concludi che il rischio è basso",
+       false,
+       "Gli indicatori dicono il contrario."
+      ]
+     ]
+    },
+    {
+     "dom": "La valutazione preliminare indica un rischio. Che cosa fai?",
+     "opz": [
+      [
+       "Adotti misure correttive e, se non efficaci, passi alla valutazione approfondita con strumenti soggettivi",
+       true,
+       "Corretto."
+      ],
+      [
+       "Archivi il risultato",
+       false,
+       "Servono azioni."
+      ],
+      [
+       "Licenzi gli operatori assenti",
+       false,
+       "È ingiustificato."
+      ]
+     ]
+    },
+    {
+     "dom": "Quali misure correttive sono tipiche?",
+     "opz": [
+      [
+       "Revisione dei carichi e delle pause, chiarezza dei ruoli, formazione dei capi, canali di ascolto",
+       true,
+       "Corretto."
+      ],
+      [
+       "Aumentare i controlli sulle assenze",
+       false,
+       "Non agisce sulle cause."
+      ],
+      [
+       "Premi solo ai più produttivi",
+       false,
+       "Può peggiorare il clima."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "Il metodo INAIL parte da indicatori oggettivi per gruppi omogenei; se emerge un rischio servono misure correttive e, se non bastano, la valutazione approfondita.",
+   "nar": "Un call center con segnali di disagio. Imposta la valutazione.",
+   "rif": "Art. 28 D.lgs. 81/2008 · metodologia INAIL"
+  }
+ ]
+}

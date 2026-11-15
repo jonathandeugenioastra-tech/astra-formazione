@@ -1,0 +1,63 @@
+{
+ "dopo": "La stima del rischio: R = P × D",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Stimare e ordinare i rischi",
+   "lead": "Stimi con la matrice 4 × 4 i rischi emersi nel sopralluogo di un magazzino.",
+   "dossier": [
+    [
+     "Rischio A",
+     "investimento di pedoni da carrelli in corsie senza separazione: eventi già accaduti nel settore, possibili lesioni gravi"
+    ],
+    [
+     "Rischio B",
+     "tagli da taglierini durante l’apertura dei colli: frequenti, lesioni lievi"
+    ],
+    [
+     "Rischio C",
+     "caduta di colli dall’ultimo livello della scaffalatura: improbabile, conseguenze gravissime"
+    ],
+    [
+     "Rischio D",
+     "affaticamento visivo al terminale di accettazione: probabile, danno lieve"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Assegna probabilità e danno e calcola R per ogni rischio.",
+     "min": 7,
+     "modello": "A: P 3, D 3, R 9. B: P 4, D 1, R 4. C: P 1, D 4, R 4. D: P 3, D 1, R 3. I valori vanno motivati con dati, eventi e osservazioni.",
+     "criteri": [
+      "Ho assegnato P e D motivandoli",
+      "Ho calcolato R",
+      "Ho mantenuto coerenza nei criteri"
+     ],
+     "minc": 120
+    },
+    {
+     "q": "Stabilisci le priorità e spiega i limiti della matrice.",
+     "min": 6,
+     "modello": "Priorità al rischio A. B e C hanno lo stesso R ma natura diversa: C, con danno gravissimo, merita attenzione anche se improbabile. La matrice semplifica: non sostituisce il giudizio né le valutazioni specifiche con metodi normati.",
+     "criteri": [
+      "Ho dato priorità ad A",
+      "Ho distinto B e C",
+      "Ho indicato i limiti"
+     ]
+    },
+    {
+     "q": "Proponi una misura per A e C con responsabile e scadenza.",
+     "min": 6,
+     "modello": "A: separazione fisica di percorsi pedonali e corsie dei carrelli, segnaletica e velocità ridotta; responsabile il dirigente di magazzino; entro tre mesi. C: verifica della scaffalatura, reti o protezioni anticaduta e regole di carico; responsabile ufficio tecnico; entro un mese.",
+     "criteri": [
+      "Ho proposto misure tecniche",
+      "Ho indicato responsabili",
+      "Ho indicato scadenze"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio stimi quattro rischi di un magazzino con la matrice probabilità per danno, stabilisci le priorità e proponi le misure, poi confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "Art. 28 D.lgs. 81/2008"
+  }
+ ]
+}

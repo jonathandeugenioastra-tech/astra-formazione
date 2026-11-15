@@ -1,0 +1,75 @@
+{
+ "dopo": "Controlli e manutenzioni antincendio: il D.M. 1 settembre 2021",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "L’estintore scaduto",
+   "scena": "Durante un sopralluogo trovi un estintore con il cartellino dell’ultimo controllo di 14 mesi fa e la porta tagliafuoco del magazzino bloccata aperta con un cuneo.",
+   "decisioni": [
+    {
+     "dom": "Che cosa fai per l’estintore?",
+     "opz": [
+      [
+       "Lo fai controllare subito dal tecnico manutentore qualificato e verifichi il registro dei controlli",
+       true,
+       "Corretto: controllo periodico semestrale e manutenzione secondo le norme."
+      ],
+      [
+       "Lo agiti per vedere se funziona",
+       false,
+       "Non è un controllo."
+      ],
+      [
+       "Nulla, ha ancora la pressione",
+       false,
+       "Il controllo periodico è obbligatorio."
+      ]
+     ]
+    },
+    {
+     "dom": "E la porta tagliafuoco?",
+     "opz": [
+      [
+       "Rimuovi il cuneo e, se deve restare aperta, installi un fermo elettromagnetico collegato alla rivelazione",
+       true,
+       "Corretto: la porta deve chiudersi in caso di incendio."
+      ],
+      [
+       "La lasci aperta per comodità",
+       false,
+       "Annulla la compartimentazione."
+      ],
+      [
+       "La chiudi a chiave",
+       false,
+       "Potrebbe bloccare l’esodo."
+      ]
+     ]
+    },
+    {
+     "dom": "Chi svolge la sorveglianza periodica visiva?",
+     "opz": [
+      [
+       "Personale interno formato, con registrazione dei controlli",
+       true,
+       "Corretto."
+      ],
+      [
+       "Solo i vigili del fuoco",
+       false,
+       "Non è il loro ruolo."
+      ],
+      [
+       "Nessuno",
+       false,
+       "È prevista."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "Sorveglianza interna, controlli periodici dei tecnici qualificati e compartimentazioni efficienti: la manutenzione antincendio è una catena di controlli registrati.",
+   "nar": "Un estintore non controllato e una porta tagliafuoco bloccata. Intervieni.",
+   "rif": "D.M. 1 settembre 2021"
+  }
+ ]
+}

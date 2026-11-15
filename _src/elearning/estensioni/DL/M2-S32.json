@@ -1,0 +1,55 @@
+{
+ "dopo": "Primo soccorso e antincendio: gli addetti",
+ "schermate": [
+  {
+   "t": "classifica",
+   "tit": "Gruppo A, B o C?",
+   "lead": "Seleziona un’azienda, poi il gruppo del D.M. 388/2003.",
+   "colonne": [
+    "Gruppo A",
+    "Gruppo B",
+    "Gruppo C"
+   ],
+   "schede": [
+    [
+     "Azienda con oltre cinque lavoratori e indice infortunistico di inabilità permanente superiore a quattro",
+     0,
+     "Gruppo A.",
+     "Corretto."
+    ],
+    [
+     "Industria soggetta agli obblighi di notifica per incidenti rilevanti",
+     0,
+     "Gruppo A.",
+     "Corretto."
+    ],
+    [
+     "Azienda con tre o più lavoratori non rientrante nel gruppo A",
+     1,
+     "Gruppo B.",
+     "Corretto."
+    ],
+    [
+     "Azienda con meno di tre lavoratori non rientrante nel gruppo A",
+     2,
+     "Gruppo C.",
+     "Corretto."
+    ],
+    [
+     "Azienda agricola con lavoratori a tempo indeterminato oltre cinque",
+     0,
+     "Gruppo A per il comparto agricolo.",
+     "Corretto."
+    ],
+    [
+     "Ufficio con 2 dipendenti",
+     2,
+     "Gruppo C.",
+     "Corretto."
+    ]
+   ],
+   "nar": "Sei aziende. Assegna il gruppo per il primo soccorso: da esso dipendono presidi e formazione degli addetti.",
+   "rif": "D.M. 388/2003, art. 1"
+  }
+ ]
+}

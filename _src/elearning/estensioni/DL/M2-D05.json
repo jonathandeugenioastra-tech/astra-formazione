@@ -1,0 +1,57 @@
+{
+ "dopo": "L'organigramma della sicurezza",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · L’organigramma della sicurezza",
+   "lead": "Disegni l’organigramma della sicurezza di un’impresa con 90 lavoratori su due stabilimenti.",
+   "dossier": [
+    [
+     "Vertice",
+     "amministratore unico"
+    ],
+    [
+     "Struttura",
+     "direttore di produzione; due capi stabilimento; 6 capiturno; ufficio tecnico; ufficio personale"
+    ],
+    [
+     "Servizi",
+     "RSPP esterno; medico competente; un RLS"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Assegna i ruoli prevenzionistici.",
+     "min": 7,
+     "modello": "Datore di lavoro: amministratore unico. Dirigenti: direttore di produzione e capi stabilimento, eventualmente con delega. Preposti: capiturno, individuati formalmente. RSPP esterno designato dal datore di lavoro, con eventuali ASPP; medico competente nominato; RLS eletto; addetti alle emergenze per ogni stabilimento e turno.",
+     "criteri": [
+      "Ho assegnato datore, dirigenti e preposti",
+      "Ho collocato RSPP, medico e RLS",
+      "Ho previsto gli addetti alle emergenze"
+     ],
+     "minc": 120
+    },
+    {
+     "q": "Quali documenti formalizzano l’organigramma?",
+     "min": 5,
+     "modello": "Designazione dell’RSPP; nomina del medico competente; eventuali deleghe ex art. 16; lettere di individuazione dei preposti; designazioni degli addetti; verbale di elezione dell’RLS; organigramma allegato al DVR.",
+     "criteri": [
+      "Ho elencato designazioni e nomine",
+      "Ho incluso deleghe e preposti"
+     ]
+    },
+    {
+     "q": "Come comunichi l’organigramma ai lavoratori?",
+     "min": 5,
+     "modello": "Affissione nei reparti con nomi e recapiti; informazione all’assunzione; aggiornamento a ogni cambiamento; inserimento nelle procedure di emergenza.",
+     "criteri": [
+      "Ho previsto affissione e informazione",
+      "Ho previsto l’aggiornamento"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio disegni l’organigramma della sicurezza di un’impresa con due stabilimenti: assegni i ruoli, individui i documenti di formalizzazione e decidi come comunicarlo, poi confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "Artt. 2, 16, 17, 18, 31-41 e 47 D.lgs. 81/2008"
+  }
+ ]
+}

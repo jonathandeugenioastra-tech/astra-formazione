@@ -1,0 +1,59 @@
+{
+ "dopo": "Esempio applicativo: il DUVRI per un appalto di manutenzione",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Il DUVRI per le pulizie",
+   "lead": "Affidi le pulizie notturne e il lavaggio dei pavimenti del reparto produttivo a un’impresa esterna.",
+   "dossier": [
+    [
+     "Orario",
+     "dalle 22 alle 2, con il terzo turno di produzione attivo in parte del reparto"
+    ],
+    [
+     "Attività dell’appaltatore",
+     "lavasciuga, prodotti detergenti, scale portatili per le vetrate"
+    ],
+    [
+     "Rischi del committente",
+     "carrelli elevatori in movimento, prodotti chimici di processo, rumore"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Individua le interferenze.",
+     "min": 6,
+     "modello": "Passaggio dei carrelli nelle aree in lavaggio e pavimenti bagnati con rischio di scivolamento; uso di detergenti vicino a prodotti chimici di processo, con possibili incompatibilità; lavori in quota sulle scale in aree con transito; rumore e comunicazione difficile; gestione delle emergenze notturne.",
+     "criteri": [
+      "Ho individuato carrelli e pavimenti bagnati",
+      "Ho considerato le incompatibilità chimiche",
+      "Ho considerato emergenze e comunicazione"
+     ]
+    },
+    {
+     "q": "Proponi le misure di coordinamento.",
+     "min": 7,
+     "modello": "Separazione temporale o spaziale: lavaggio solo nelle aree senza produzione, delimitate e segnalate; percorsi dei carrelli definiti; schede di sicurezza scambiate e divieto di miscelare prodotti; scale solo in aree interdette al transito; referente del committente reperibile; informazione sulle procedure di emergenza e sui punti di raccolta.",
+     "criteri": [
+      "Ho previsto separazione e segnaletica",
+      "Ho previsto lo scambio delle SDS",
+      "Ho previsto referente ed emergenze"
+     ],
+     "minc": 120
+    },
+    {
+     "q": "Che cosa resta da definire nel contratto?",
+     "min": 5,
+     "modello": "Costi della sicurezza da interferenze non soggetti a ribasso, allegato DUVRI, verifica dell’idoneità tecnico-professionale, nominativo del referente dell’appaltatore e, per gli appalti, il personale munito di tessera di riconoscimento.",
+     "criteri": [
+      "Ho indicato i costi della sicurezza",
+      "Ho indicato l’idoneità tecnico-professionale",
+      "Ho indicato la tessera di riconoscimento"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio prepari il DUVRI per un appalto di pulizie notturne in un reparto in parte attivo. Individua le interferenze, proponi le misure di coordinamento e completa gli elementi contrattuali, poi confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "Art. 26 D.lgs. 81/2008"
+  }
+ ]
+}

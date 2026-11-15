@@ -1,0 +1,75 @@
+{
+ "dopo": "La documentazione della formazione",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "Le prove della formazione",
+   "scena": "Durante un controllo l’ispettore chiede di vedere la formazione di cinque lavoratori scelti a caso. Per due ci sono solo fogli firma senza programma né verifica.",
+   "decisioni": [
+    {
+     "dom": "Che cosa manca?",
+     "opz": [
+      [
+       "Progetto formativo, verifica di apprendimento e attestato, oltre al registro",
+       true,
+       "Corretto: la documentazione deve dimostrare contenuti, durata e apprendimento."
+      ],
+      [
+       "Nulla, la firma basta",
+       false,
+       "Non dimostra i contenuti né l’apprendimento."
+      ],
+      [
+       "Solo la fotografia dell’aula",
+       false,
+       "Non è una prova."
+      ]
+     ]
+    },
+    {
+     "dom": "Come rimedi?",
+     "opz": [
+      [
+       "Ripeti o integri la formazione con documentazione completa e organizzi un archivio per lavoratore",
+       true,
+       "Corretto."
+      ],
+      [
+       "Ricostruisci i documenti a posteriori",
+       false,
+       "Sarebbe una falsificazione."
+      ],
+      [
+       "Dichiari che è stata fatta",
+       false,
+       "Non basta."
+      ]
+     ]
+    },
+    {
+     "dom": "Dove confluiranno i dati della formazione?",
+     "opz": [
+      [
+       "Nel fascicolo elettronico del lavoratore",
+       true,
+       "Corretto: introdotto dal D.L. 159/2025."
+      ],
+      [
+       "Solo nell’archivio cartaceo",
+       false,
+       "Il sistema evolve verso il fascicolo elettronico."
+      ],
+      [
+       "Nel DVR",
+       false,
+       "Il DVR contiene il programma, non i singoli attestati."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "La formazione si dimostra con progetto, registro, verifica e attestato, conservati per lavoratore e destinati al fascicolo elettronico.",
+   "nar": "Un ispettore verifica la formazione. Valuta le evidenze.",
+   "rif": "Art. 37 D.lgs. 81/2008 · Accordo 17 aprile 2025 · D.L. 159/2025"
+  }
+ ]
+}

@@ -1,0 +1,39 @@
+{
+ "dopo": "Gli incentivi INAIL per la prevenzione",
+ "schermate": [
+  {
+   "t": "esempio",
+   "tit": "Esempio guidato · La riduzione del tasso per prevenzione",
+   "lead": "Quanto vale la domanda all’INAIL.",
+   "passi": [
+    [
+     "L’impresa",
+     "40 lavoratori; premio INAIL annuo di 60.000 €.",
+     "11-50 lavoratori"
+    ],
+    [
+     "Gli interventi",
+     "Interventi migliorativi oltre gli obblighi di legge realizzati nell’anno precedente, con punteggio almeno pari a 100.",
+     "Punteggio ≥ 100"
+    ],
+    [
+     "La domanda",
+     "Con il modulo dedicato entro il 28 febbraio.",
+     "Entro il 28 febbraio"
+    ],
+    [
+     "La riduzione",
+     "Per le imprese da 11 a 50 lavoratori la riduzione è del 18%.",
+     "60.000 × 18% = 10.800 €"
+    ],
+    [
+     "Il confronto",
+     "Fino a 10 lavoratori 28%; da 51 a 200 10%; oltre 200 5%.",
+     "28 · 18 · 10 · 5%"
+    ]
+   ],
+   "nar": "Vediamo quanto vale la riduzione del tasso per prevenzione. Un’impresa con quaranta lavoratori e un premio di sessantamila euro ha realizzato interventi migliorativi con almeno cento punti. Presentando la domanda entro il ventotto febbraio ottiene una riduzione del diciotto per cento, cioè diecimilaottocento euro.",
+   "rif": "Modalità di applicazione delle tariffe INAIL, art. 23 · modulo OT23"
+  }
+ ]
+}

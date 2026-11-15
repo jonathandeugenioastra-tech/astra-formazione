@@ -1,0 +1,69 @@
+{
+ "dopo": "Gli obblighi dell'art. 18",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · La verifica degli obblighi dell’art. 18",
+   "lead": "Verifichi l’adempimento degli obblighi principali in una piccola impresa di 18 lavoratori.",
+   "dossier": [
+    [
+     "Medico competente",
+     "nominato, protocollo sanitario presente"
+    ],
+    [
+     "Addetti emergenze",
+     "nominati 2 addetti antincendio, nessun addetto al primo soccorso"
+    ],
+    [
+     "Formazione",
+     "3 lavoratori senza formazione specifica"
+    ],
+    [
+     "DPI",
+     "consegnati senza registrazione"
+    ],
+    [
+     "Preposti",
+     "non individuati formalmente"
+    ],
+    [
+     "Infortuni",
+     "denunce regolari"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Elenca le non conformità rispetto all’art. 18.",
+     "min": 6,
+     "modello": "Mancata designazione degli addetti al primo soccorso; formazione specifica mancante per tre lavoratori; mancata individuazione dei preposti; consegna dei DPI senza evidenze, che rende difficile dimostrare l’adempimento.",
+     "criteri": [
+      "Ho rilevato primo soccorso e preposti",
+      "Ho rilevato la formazione mancante",
+      "Ho rilevato la tracciabilità dei DPI"
+     ]
+    },
+    {
+     "q": "Ordina le azioni per priorità con tempi realistici.",
+     "min": 7,
+     "modello": "Subito: formazione dei tre lavoratori prima di adibirli ai compiti a rischio, individuazione formale dei preposti, designazione degli addetti al primo soccorso. Entro un mese: corsi per gli addetti al primo soccorso e registro di consegna dei DPI. Poi: verifica dell’efficacia e scadenzario.",
+     "criteri": [
+      "Ho dato priorità a formazione e preposti",
+      "Ho previsto i corsi degli addetti",
+      "Ho previsto la tracciabilità"
+     ]
+    },
+    {
+     "q": "Quali evidenze conservi per dimostrare l’adempimento?",
+     "min": 5,
+     "modello": "Lettere di designazione e individuazione firmate; attestati e registri dei corsi; registro di consegna dei DPI con firma; verbali e scadenzario aggiornato.",
+     "criteri": [
+      "Ho elencato le evidenze documentali",
+      "Ho previsto lo scadenzario"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio verifichi gli obblighi principali dell’articolo diciotto in una piccola impresa. Individua le non conformità, ordina le azioni e indica le evidenze da conservare, poi confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "Art. 18 D.lgs. 81/2008"
+  }
+ ]
+}

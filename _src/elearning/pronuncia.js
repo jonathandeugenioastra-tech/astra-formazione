@@ -52,9 +52,9 @@ const pronuncia = t => {
       return (w ? m.slice(0, m.length - sig.length) : '') + (def === 'p' ? plur : sing);
     });
   }
-  return s.replace(/\bUNI-INAIL\b/g, 'uni ⟦INAIL⟧').replace(/(?<!⟦)\bINAIL\b(?!⟧)/g, '⟦INAIL⟧').replace(/\bD\.lgs\.?/g, 'decreto legislativo').replace(/\bart\.\s?/gi, 'articolo ').replace(/\bc\.\s?(\d)/g, 'comma $1').replace(/\bISO\b/g, 'iso').replace(/\bUNI\b/g, 'uni').replace(/\bILO\b/g, 'ilo').replace(/\bCE\b/g, 'ci e');
+  return s.replace(/\bAi?FOS\b/gi, '⟦AIFOS⟧').replace(/\bUNI-INAIL\b/g, 'uni ⟦INAIL⟧').replace(/(?<!⟦)\bINAIL\b(?!⟧)/g, '⟦INAIL⟧').replace(/\bD\.lgs\.?/g, 'decreto legislativo').replace(/\bart\.\s?/gi, 'articolo ').replace(/\bc\.\s?(\d)/g, 'comma $1').replace(/\bISO\b/g, 'iso').replace(/\bUNI\b/g, 'uni').replace(/\bILO\b/g, 'ilo').replace(/\bCE\b/g, 'ci e');
 };
 /* marcatori fonetici: si sostituiscono dopo l'escape XML, nel testo SSML */
-const FONEMI = { INAIL: '<phoneme alphabet="ipa" ph="iˈnail">Inail</phoneme>' };
+const FONEMI = { INAIL: '<phoneme alphabet="ipa" ph="iˈnail">Inail</phoneme>', AIFOS: '<phoneme alphabet="ipa" ph="ˈaifɔs">Aifos</phoneme>' };
 const ssmlFonemi = x => x.replace(/⟦(\w+)⟧/g, (m, k) => FONEMI[k] || k);
 if (typeof module !== 'undefined') module.exports = { pronuncia, SIGLE, ssmlFonemi, FONEMI };

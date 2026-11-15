@@ -158,6 +158,70 @@ window.CORSO = {
     },
     {
      "foto": false,
+     "t": "classifica",
+     "tit": "Iscrizione al RENTRI: sì o no?",
+     "lead": "Seleziona un’impresa, poi la risposta.",
+     "colonne": [
+      "Obbligata all’iscrizione",
+      "Non obbligata"
+     ],
+     "schede": [
+      [
+       "Officina meccanica con 4 dipendenti che produce oli esausti e filtri",
+       0,
+       "Produce rifiuti pericolosi: è obbligata, a prescindere dal numero di dipendenti.",
+       "Corretto."
+      ],
+      [
+       "Studio di architettura che produce solo carta e toner non pericolosi",
+       1,
+       "Rifiuti non pericolosi da attività di servizio: non rientra nell’art. 189, comma 3.",
+       "Corretto."
+      ],
+      [
+       "Falegnameria artigiana con 8 dipendenti che produce solo segatura e trucioli non pericolosi",
+       0,
+       "Rifiuti non pericolosi da lavorazione artigianale: rientra nell’art. 189, comma 3.",
+       "Corretto."
+      ],
+      [
+       "Impianto autorizzato al recupero di rifiuti inerti",
+       0,
+       "Chi effettua il trattamento dei rifiuti è obbligato.",
+       "Corretto."
+      ],
+      [
+       "Negozio di abbigliamento che produce imballaggi in cartone",
+       1,
+       "Rifiuti non pericolosi da attività commerciale: non è obbligato.",
+       "Corretto."
+      ],
+      [
+       "Impresa che trasporta rifiuti pericolosi per conto terzi",
+       0,
+       "Raccolta e trasporto professionale di rifiuti pericolosi: obbligata.",
+       "Corretto."
+      ],
+      [
+       "Ufficio amministrativo che produce solo rifiuti urbani",
+       1,
+       "Non è tra i soggetti obbligati.",
+       "Corretto."
+      ],
+      [
+       "Carrozzeria con 15 dipendenti che produce vernici di scarto",
+       0,
+       "Produttore di rifiuti pericolosi: obbligata.",
+       "Corretto."
+      ]
+     ],
+     "nar": "Otto imprese. Per ciascuna stabilisci se deve iscriversi al RENTRI secondo il nuovo comma 3-bis dell’articolo centottantotto bis.",
+     "rif": "Art. 188-bis, c. 3-bis, D.lgs. 152/2006",
+     "est": true,
+     "ancora": "Chi deve iscriversi dal 2026: la riforma dell’art. 188-bis"
+    },
+    {
+     "foto": false,
      "t": "testo",
      "tit": "Le esclusioni e la cancellazione dal registro",
      "lead": "Non sono tenuti all’iscrizione i consorzi dell’art. 237 e i produttori ai quali si applicano i commi 5 e 6 dell’art. 190.",
@@ -300,6 +364,79 @@ window.CORSO = {
     },
     {
      "foto": false,
+     "t": "scenario",
+     "tit": "I fusti nel retro del capannone",
+     "scena": "Un’officina tiene nel retro del capannone fusti di oli esausti e contenitori di filtri. L’ultimo ritiro risale a cinque mesi fa; il volume complessivo è di circa 4 metri cubi.",
+     "decisioni": [
+      {
+       "dom": "Il deposito è ancora regolare?",
+       "opz": [
+        [
+         "No: con il criterio temporale serve un avvio almeno trimestrale; con il criterio quantitativo si può arrivare fino a un anno se non si superano 30 m³, di cui 10 di pericolosi",
+         true,
+         "Corretto: conta il criterio scelto e documentato dall’impresa."
+        ],
+        [
+         "Sì, sempre: il deposito temporaneo non ha limiti finché i rifiuti restano in azienda",
+         false,
+         "Il deposito ha limiti di tempo e di quantità: oltre diventa stoccaggio non autorizzato."
+        ],
+        [
+         "No, perché i rifiuti pericolosi vanno ritirati ogni mese",
+         false,
+         "Non esiste un obbligo mensile."
+        ]
+       ]
+      },
+      {
+       "dom": "I fusti sono all’aperto, senza bacino di contenimento e senza etichetta. Che cosa fai?",
+       "opz": [
+        [
+         "Nulla, il deposito è temporaneo",
+         false,
+         "Le norme tecniche e l’etichettatura dei rifiuti pericolosi valgono anche nel deposito temporaneo."
+        ],
+        [
+         "Sposti i fusti su un bacino di contenimento, al coperto, li etichetti e separi i rifiuti per categorie omogenee",
+         true,
+         "Corretto: sono le condizioni dell’art. 185-bis."
+        ],
+        [
+         "Travasi tutto in un unico contenitore per semplificare",
+         false,
+         "La miscelazione di rifiuti pericolosi è vietata salvo autorizzazione."
+        ]
+       ]
+      },
+      {
+       "dom": "Come dimostri il rispetto dei limiti a un controllo?",
+       "opz": [
+        [
+         "Con le annotazioni del registro di carico e scarico e i formulari dei ritiri",
+         true,
+         "Corretto: il registro documenta date e quantità di produzione e di avvio."
+        ],
+        [
+         "Con una dichiarazione verbale del titolare",
+         false,
+         "Serve una prova documentale."
+        ],
+        [
+         "Con le fatture del carburante",
+         false,
+         "Non riguardano i rifiuti."
+        ]
+       ]
+      }
+     ],
+     "chiusura": "Scegliere il criterio, rispettare le condizioni tecniche e documentare tutto nel registro: così il deposito temporaneo resta tale e non diventa stoccaggio non autorizzato.",
+     "nar": "Un deposito di rifiuti pericolosi da verificare. Decidi se è regolare e come metterlo a posto.",
+     "rif": "Art. 185-bis D.lgs. 152/2006",
+     "est": true,
+     "ancora": "Il deposito temporaneo prima della raccolta"
+    },
+    {
+     "foto": false,
      "t": "testo",
      "tit": "Voci assolute e voci a specchio",
      "lead": "L’elenco europeo dei rifiuti distingue voci sempre pericolose, voci mai pericolose e coppie di voci «a specchio».",
@@ -318,6 +455,66 @@ window.CORSO = {
     },
     {
      "foto": false,
+     "t": "laboratorio",
+     "tit": "Laboratorio · Le terre di scavo del cantiere",
+     "lead": "Un’impresa edile rimuove terreno da un’area ex industriale dove in passato c’era un deposito di carburanti.",
+     "dossier": [
+      [
+       "Rifiuto",
+       "terra e rocce da scavo, circa 300 t"
+      ],
+      [
+       "Storia del sito",
+       "ex deposito di carburanti, dismesso da 15 anni"
+      ],
+      [
+       "Codici possibili",
+       "17 05 03* terra e rocce contenenti sostanze pericolose / 17 05 04 terra e rocce diverse da quelle della voce 17 05 03"
+      ],
+      [
+       "Analisi disponibili",
+       "nessuna"
+      ]
+     ],
+     "compiti": [
+      {
+       "q": "Che tipo di voce è e come procedi per scegliere il codice?",
+       "min": 6,
+       "modello": "È una coppia di voci a specchio: il codice dipende dal contenuto di sostanze pericolose. Si ricostruisce la storia del sito e del processo, si individuano le sostanze pertinenti, come gli idrocarburi, e si campiona in modo rappresentativo, secondo le Linee guida SNPA sulla classificazione dei rifiuti.",
+       "criteri": [
+        "Ho riconosciuto la voce a specchio",
+        "Ho usato la storia del sito per individuare le sostanze",
+        "Ho previsto un campionamento rappresentativo"
+       ]
+      },
+      {
+       "q": "Le analisi trovano idrocarburi. Come stabilisci se il rifiuto è pericoloso?",
+       "min": 7,
+       "modello": "Si confrontano le concentrazioni delle sostanze con le soglie delle caratteristiche di pericolo HP dell’allegato III della direttiva 2008/98/CE, come modificato dal regolamento (UE) 1357/2014 e dal regolamento (UE) 2017/997 per HP14. Se anche una sola caratteristica è soddisfatta, il codice è 17 05 03*.",
+       "criteri": [
+        "Ho citato le caratteristiche HP",
+        "Ho indicato che basta una caratteristica",
+        "Ho collegato l’esito al codice con asterisco"
+       ]
+      },
+      {
+       "q": "Quali conseguenze ha la classificazione sugli adempimenti?",
+       "min": 5,
+       "modello": "Se pericoloso: iscrizione al RENTRI come produttore di rifiuti pericolosi, registro e formulario digitali, trasportatore in categoria 5 e impianto autorizzato per quel codice. Se non pericoloso, restano formulario e verifiche della filiera. In entrambi i casi il rapporto di prova e la motivazione si conservano.",
+       "criteri": [
+        "Ho distinto le conseguenze nei due casi",
+        "Ho indicato la categoria 5 dell’Albo",
+        "Ho previsto la conservazione delle analisi"
+       ]
+      }
+     ],
+     "nar": "Nel laboratorio classifichi le terre di scavo di un’area ex industriale. È un caso tipico di voce a specchio. Stabilisci come scegliere il codice, come valutare la pericolosità dopo le analisi e quali adempimenti ne derivano, poi confronta le tue risposte con la soluzione di riferimento.",
+     "rif": "Decisione 2014/955/UE · Reg. (UE) 1357/2014 · Linee guida SNPA",
+     "est": true,
+     "ancora": "Voci assolute e voci a specchio"
+    },
+    {
+     "foto": false,
      "t": "testo",
      "tit": "Le quindici caratteristiche di pericolo",
      "lead": "Il Regolamento (UE) 1357/2014 ha allineato le caratteristiche di pericolo dei rifiuti (HP) alle classi del Regolamento CLP.",
@@ -333,6 +530,71 @@ window.CORSO = {
      "nar": "Un rifiuto è pericoloso quando presenta almeno una delle quindici caratteristiche di pericolo elencate nell’Allegato terzo della direttiva quadro, indicate con le sigle da HP uno a HP quindici. Il regolamento europeo milletrecentocinquantasette del duemilaquattordici le ha allineate alle classi di pericolo del regolamento CLP sulle sostanze chimiche. Le prime tre riguardano i pericoli fisici: esplosivo, comburente, infiammabile. Seguono le caratteristiche per la salute: irritante, tossicità specifica per organi bersaglio e in caso di aspirazione, tossicità acuta, cancerogeno, corrosivo, infettivo, tossico per la riproduzione, mutageno, liberazione di gas a tossicità acuta a contatto con acqua o acidi, sensibilizzante. La caratteristica HP quattordici, ecotossico, è definita con i criteri del regolamento duemiladiciassette barra novecentonovantasette. L’HP quindici riguarda i rifiuti che possono manifestare una caratteristica di pericolo non posseduta direttamente dal rifiuto originario. Per ciascuna caratteristica il regolamento indica le soglie di concentrazione in funzione delle indicazioni di pericolo delle sostanze presenti: in alcuni casi si sommano le sostanze con la stessa indicazione, in altri si confronta ogni singola sostanza con la soglia. Il risultato si riporta nel registro e nel formulario.",
      "est": true,
      "ancora": "L’iscrizione: unità locali, deleghe, contributo"
+    },
+    {
+     "foto": false,
+     "t": "laboratorio",
+     "tit": "Laboratorio · I rifiuti dell’officina meccanica",
+     "lead": "Un’officina di riparazione di autoveicoli con 6 dipendenti ti chiede di impostare la gestione dei rifiuti.",
+     "dossier": [
+      [
+       "Attività",
+       "Manutenzione e riparazione di autoveicoli"
+      ],
+      [
+       "Dipendenti",
+       "6"
+      ],
+      [
+       "Rifiuti prodotti",
+       "oli motore esausti, filtri dell’olio, stracci sporchi d’olio, batterie al piombo, imballaggi in materiali misti, pneumatici usati"
+      ],
+      [
+       "Spazi",
+       "retro del capannone, in parte coperto"
+      ],
+      [
+       "Ritiri",
+       "a chiamata, senza calendario"
+      ]
+     ],
+     "compiti": [
+      {
+       "q": "Attribuisci a ciascun rifiuto il codice EER e indica se è pericoloso.",
+       "min": 10,
+       "modello": "Oli minerali per motori non clorurati 13 02 05*, pericoloso. Filtri dell’olio 16 01 07*, pericoloso. Stracci contaminati da sostanze pericolose 15 02 02*, pericoloso (se non contaminati 15 02 03). Batterie al piombo 16 06 01*, pericoloso. Imballaggi in materiali misti 15 01 06, non pericoloso. Pneumatici fuori uso 16 01 03, non pericoloso.",
+       "criteri": [
+        "Ho usato i codici a sei cifre con l’asterisco per i pericolosi",
+        "Ho riconosciuto che gli stracci possono essere voce a specchio",
+        "Ho distinto i quattro rifiuti pericolosi dai due non pericolosi"
+       ],
+       "traccia": "Es.: oli esausti → 13 02 05*, pericoloso; …"
+      },
+      {
+       "q": "Organizza il deposito temporaneo: dove, come e con quale criterio di avvio.",
+       "min": 8,
+       "modello": "Area coperta e pavimentata, con bacini di contenimento per oli e filtri; contenitori separati per categorie omogenee, etichettati con codice EER e caratteristiche di pericolo; batterie in contenitori a tenuta resistenti agli acidi. Criterio dichiarato: avvio almeno trimestrale indipendentemente dalle quantità, oppure al raggiungimento di 30 m³ di cui al massimo 10 di pericolosi, e comunque entro un anno.",
+       "criteri": [
+        "Ho previsto copertura e bacini di contenimento",
+        "Ho previsto separazione ed etichettatura",
+        "Ho scelto e scritto un criterio di avvio"
+       ]
+      },
+      {
+       "q": "Elenca gli adempimenti di tracciabilità a cui l’officina è tenuta.",
+       "min": 8,
+       "modello": "Iscrizione al RENTRI dell’unità locale, perché produce rifiuti pericolosi; registro cronologico di carico e scarico digitale, con annotazioni entro dieci giorni lavorativi e trasmissione mensile dei dati; formulario digitale per i ritiri, emesso tramite il RENTRI; verifica dell’iscrizione all’Albo del trasportatore e dell’autorizzazione dell’impianto; controllo della conferma di accettazione entro tre mesi.",
+       "criteri": [
+        "Ho indicato l’iscrizione al RENTRI",
+        "Ho indicato registro e formulario digitali con i termini",
+        "Ho previsto le verifiche su trasportatore e impianto"
+       ]
+      }
+     ],
+     "nar": "Ecco un laboratorio completo. Un’officina con sei dipendenti produce oli, filtri, stracci, batterie, imballaggi e pneumatici. In tre compiti attribuisci i codici, organizzi il deposito temporaneo ed elenchi gli adempimenti di tracciabilità. Per ogni compito scrivi la tua soluzione, poi confrontala con quella di riferimento e valuta che cosa hai considerato.",
+     "rif": "Decisione 2014/955/UE · artt. 184, 185-bis, 188-bis, 190 D.lgs. 152/2006",
+     "est": true,
+     "ancora": "Le quindici caratteristiche di pericolo"
     },
     {
      "t": "testo",
@@ -371,6 +633,43 @@ window.CORSO = {
     },
     {
      "foto": false,
+     "t": "esempio",
+     "tit": "Esempio guidato · Il ritiro con formulario digitale",
+     "lead": "Dalla richiesta di ritiro alla conferma dell’impianto.",
+     "passi": [
+      [
+       "Emissione",
+       "Il produttore emette il formulario con il gestionale interoperabile o con i servizi del portale RENTRI.",
+       "Gestionale o portale"
+      ],
+      [
+       "Vidimazione",
+       "Il RENTRI vidima il formulario assegnando un numero identificativo univoco.",
+       "Numero univoco"
+      ],
+      [
+       "Partenza",
+       "Produttore e trasportatore firmano digitalmente; quantità e caratteristiche sono quelle del rifiuto caricato.",
+       "Firme alla partenza"
+      ],
+      [
+       "Arrivo",
+       "L’impianto registra la quantità accettata e firma: in caso di respingimento lo indica.",
+       "Accettazione o respingimento"
+      ],
+      [
+       "Chiusura",
+       "I dati sono trasmessi al RENTRI; il produttore verifica l’accettazione e annota lo scarico nel registro.",
+       "Verifica e annotazione"
+      ]
+     ],
+     "nar": "Seguiamo un ritiro con il formulario digitale. Il produttore lo emette con il proprio gestionale o con il portale. Il RENTRI lo vidima con un numero univoco. Alla partenza firmano produttore e trasportatore. All’arrivo l’impianto indica la quantità accettata e firma. I dati confluiscono nel RENTRI, e il produttore verifica l’accettazione e annota lo scarico nel registro.",
+     "rif": "Art. 7 D.M. 59/2023",
+     "est": true,
+     "ancora": "Il formulario digitale: emissione, vidimazione e firme"
+    },
+    {
+     "foto": false,
      "t": "testo",
      "tit": "Il periodo transitorio e la fine del doppio binario",
      "lead": "L’obbligo del formulario esclusivamente digitale, previsto dal 13 febbraio 2026, è stato differito dal D.L. 200/2025, convertito dalla L. 26/2026.",
@@ -404,6 +703,79 @@ window.CORSO = {
      "nar": "Un sistema interamente digitale deve prevedere che cosa accade quando i servizi non sono disponibili. Il Ministero dell’ambiente ha disciplinato queste situazioni con due decreti direttoriali. Il decreto direttoriale trecentodiciannove del trenta ottobre duemilaventicinque definisce le modalità operative di sicurezza per il registro cronologico di carico e scarico. Il decreto direttoriale venticinque del cinque febbraio duemilaventisei definisce le modalità operative per la gestione del formulario digitale quando i servizi del registro non sono disponibili per cause diverse dalla manutenzione ordinaria o straordinaria. Il principio comune è che l’attività di gestione dei rifiuti non deve fermarsi, ma deve proseguire secondo una procedura documentata. Il primo passo consiste nel verificare l’effettiva indisponibilità attraverso le comunicazioni ufficiali pubblicate sul portale. Si applica quindi la procedura prevista, che per il formulario può comportare l’emissione in formato cartaceo con le indicazioni richieste. Al ripristino dei servizi occorre regolarizzare annotazioni e trasmissioni entro i termini stabiliti. Le modalità di sicurezza sono un’eccezione e non un’alternativa ordinaria: conservare l’evidenza del disservizio, con data e ora, e registrare chi ha attivato la procedura è parte integrante della conformità.",
      "est": true,
      "ancora": "Formulario di identificazione e registro di carico e scarico"
+    },
+    {
+     "foto": false,
+     "t": "scenario",
+     "tit": "Il portale non risponde",
+     "scena": "Venerdì alle 16 il trasportatore è nel piazzale per un ritiro di rifiuti pericolosi. Il gestionale non riesce a ottenere la vidimazione del formulario.",
+     "decisioni": [
+      {
+       "dom": "Che cosa verifichi per primo?",
+       "opz": [
+        [
+         "Se l’indisponibilità è effettiva e comunicata dai canali ufficiali del RENTRI, distinguendo un guasto del servizio da un problema del tuo gestionale",
+         true,
+         "Corretto: le modalità di sicurezza valgono solo per l’indisponibilità accertata dei servizi."
+        ],
+        [
+         "Niente: rimandi il ritiro di un mese",
+         false,
+         "Il rinvio può far superare i limiti del deposito temporaneo."
+        ],
+        [
+         "Fai partire il trasporto senza formulario",
+         false,
+         "Il trasporto senza formulario è sanzionato per produttore e trasportatore."
+        ]
+       ]
+      },
+      {
+       "dom": "L’indisponibilità è confermata. Come procedi?",
+       "opz": [
+        [
+         "Applichi la procedura del D.D. 5 febbraio 2026, n. 25, con le indicazioni richieste",
+         true,
+         "Corretto: la procedura consente di proseguire l’attività senza interruzioni."
+        ],
+        [
+         "Usi un vecchio formulario cartaceo già compilato",
+         false,
+         "Va seguita la procedura prevista."
+        ],
+        [
+         "Trasmetti i dati via e-mail all’ARPA",
+         false,
+         "Non è la procedura prevista."
+        ]
+       ]
+      },
+      {
+       "dom": "Al ripristino del servizio che cosa fai?",
+       "opz": [
+        [
+         "Nulla",
+         false,
+         "Annotazioni e trasmissioni vanno regolarizzate."
+        ],
+        [
+         "Regolarizzi annotazioni e trasmissioni nei termini indicati e conservi le prove dell’indisponibilità",
+         true,
+         "Corretto: conservare le evidenze tutela l’impresa in caso di controllo."
+        ],
+        [
+         "Annulli il ritiro",
+         false,
+         "Il ritiro è avvenuto regolarmente con la procedura di sicurezza."
+        ]
+       ]
+      }
+     ],
+     "chiusura": "Accertare l’indisponibilità, applicare la procedura di sicurezza, regolarizzare al ripristino e conservare le prove: l’attività non si ferma e la tracciabilità resta completa.",
+     "nar": "Il RENTRI non risponde durante un ritiro. Decidi come procedere.",
+     "rif": "D.D. 5 febbraio 2026, n. 25 · D.D. 30 ottobre 2025, n. 319",
+     "est": true,
+     "ancora": "Indisponibilità dei servizi: le modalità operative di sicurezza"
     },
     {
      "foto": false,
@@ -484,6 +856,70 @@ window.CORSO = {
      "nar": "Il registro elettronico funziona solo se annotazioni e trasmissioni rispettano termini precisi. Per i produttori iniziali, l’articolo centonovanta del codice dell’ambiente prevede che le operazioni di carico e scarico siano annotate almeno entro dieci giorni lavorativi dalla produzione del rifiuto e dallo scarico. L’articolo quindici del regolamento disciplina poi la trasmissione dei dati al registro elettronico: i dati del registro cronologico sono trasmessi con cadenza mensile, entro la fine del mese successivo a quello in cui è stata effettuata l’annotazione; se nel mese non vi sono nuove annotazioni la trasmissione non è dovuta. Quando la trasmissione è affidata a un soggetto delegato, il termine si sposta alla fine del secondo mese successivo. Per i formulari dei rifiuti pericolosi il regolamento prevede inoltre la trasmissione dei relativi dati: il produttore entro dieci giorni lavorativi dallo scarico, il trasportatore entro dieci giorni lavorativi dalla consegna all’impianto, l’impianto entro due giorni lavorativi dalla presa in carico. Per i formulari dei rifiuti non pericolosi questa trasmissione non è prevista. Il registro va conservato per tre anni dalla data dell’ultima registrazione. Un calendario interno con le scadenze mensili evita accumuli e trasmissioni tardive.",
      "est": true,
      "ancora": "Il registro cronologico di carico e scarico nel RENTRI"
+    },
+    {
+     "foto": false,
+     "t": "laboratorio",
+     "tit": "Laboratorio · Un mese di registro",
+     "lead": "Ti occupi del registro digitale di una carrozzeria che gestisce in proprio gli adempimenti, senza delegato.",
+     "dossier": [
+      [
+       "3 marzo",
+       "prodotti 120 kg di vernici di scarto (08 01 11*)"
+      ],
+      [
+       "10 marzo",
+       "prodotti 40 kg di filtri della cabina di verniciatura"
+      ],
+      [
+       "24 marzo",
+       "ritiro di 160 kg con formulario digitale"
+      ],
+      [
+       "Aprile",
+       "nessuna produzione e nessun ritiro"
+      ],
+      [
+       "Delegato",
+       "nessuno"
+      ]
+     ],
+     "compiti": [
+      {
+       "q": "Indica entro quando vanno annotati i tre movimenti di marzo.",
+       "min": 6,
+       "modello": "Ogni carico va annotato almeno entro dieci giorni lavorativi dalla produzione: quello del 3 marzo entro il 17 marzo circa, quello del 10 marzo entro il 24 marzo circa, considerando i giorni lavorativi. Lo scarico del 24 marzo va annotato entro dieci giorni lavorativi dallo scarico.",
+       "criteri": [
+        "Ho applicato i dieci giorni lavorativi",
+        "Ho annotato separatamente carichi e scarico",
+        "Ho collegato lo scarico al formulario"
+       ]
+      },
+      {
+       "q": "Entro quando trasmetti i dati di marzo al RENTRI? E per aprile?",
+       "min": 5,
+       "modello": "I dati di marzo si trasmettono entro la fine del mese successivo, cioè entro il 30 aprile. Per aprile, senza annotazioni, non c’è nulla da trasmettere. Se la carrozzeria si affidasse a un delegato, il termine sarebbe la fine del secondo mese successivo.",
+       "criteri": [
+        "Ho indicato il 30 aprile",
+        "Ho considerato il mese senza annotazioni",
+        "Ho distinto il caso del delegato"
+       ]
+      },
+      {
+       "q": "Che cosa controlli dopo il ritiro del 24 marzo?",
+       "min": 5,
+       "modello": "Che l’impianto abbia confermato l’accettazione e la quantità, verificando eventuali differenze o respingimenti; che il trasportatore fosse iscritto all’Albo nella categoria corretta; e che il registro sia conservato per tre anni dall’ultima registrazione.",
+       "criteri": [
+        "Ho previsto il controllo dell’accettazione",
+        "Ho previsto la verifica del trasportatore",
+        "Ho indicato la conservazione triennale"
+       ]
+      }
+     ],
+     "nar": "Questo laboratorio simula un mese di registro digitale. Il dossier riporta le produzioni e il ritiro di marzo e un aprile senza movimenti. Stabilisci i termini di annotazione e di trasmissione e i controlli dopo il ritiro, poi confronta ogni risposta con la soluzione di riferimento.",
+     "rif": "Art. 190 D.lgs. 152/2006 · D.M. 59/2023",
+     "est": true,
+     "ancora": "Annotazioni, trasmissioni e conservazione: i termini"
     },
     {
      "foto": false,
@@ -636,6 +1072,66 @@ window.CORSO = {
     },
     {
      "foto": false,
+     "t": "laboratorio",
+     "tit": "Laboratorio · Verificare la filiera prima del ritiro",
+     "lead": "Devi affidare a nuovi fornitori il ritiro di oli esausti e di imballaggi misti.",
+     "dossier": [
+      [
+       "Rifiuti",
+       "oli esausti 13 02 05*, 1.200 kg l’anno; imballaggi misti 15 01 06, 8 t l’anno"
+      ],
+      [
+       "Trasportatore proposto",
+       "iscritto all’Albo in categoria 4"
+      ],
+      [
+       "Impianto proposto per gli oli",
+       "autorizzato alle operazioni R13 e R9"
+      ],
+      [
+       "Impianto per gli imballaggi",
+       "autorizzato all’operazione R13"
+      ]
+     ],
+     "compiti": [
+      {
+       "q": "Il trasportatore può ritirare entrambi i rifiuti? Motiva.",
+       "min": 7,
+       "modello": "No. La categoria 4 riguarda la raccolta e il trasporto di rifiuti speciali non pericolosi prodotti da terzi: va bene per gli imballaggi misti. Per gli oli esausti, pericolosi, serve l’iscrizione in categoria 5. Va controllato anche che i codici EER e i mezzi siano compresi nel provvedimento di iscrizione.",
+       "criteri": [
+        "Ho distinto categoria 4 e categoria 5",
+        "Ho previsto il controllo dei codici EER nel provvedimento",
+        "Ho previsto il controllo dei mezzi"
+       ]
+      },
+      {
+       "q": "Le autorizzazioni degli impianti sono adeguate?",
+       "min": 7,
+       "modello": "Sì, se i codici EER sono compresi nelle autorizzazioni. R9 è la rigenerazione degli oli, R13 la messa in riserva: con R13 il rifiuto andrà poi a un ulteriore impianto di recupero. Per le operazioni intermedie la responsabilità del produttore segue le regole dell’art. 188.",
+       "criteri": [
+        "Ho verificato la presenza dei codici EER nell’autorizzazione",
+        "Ho spiegato R9 e R13",
+        "Ho considerato le operazioni intermedie"
+       ]
+      },
+      {
+       "q": "Quali documenti chiedi e conservi prima di firmare il contratto?",
+       "min": 6,
+       "modello": "Provvedimento di iscrizione all’Albo del trasportatore con categorie, codici EER e targhe; autorizzazione dell’impianto con le operazioni e i codici; verifica della validità alla data del ritiro; contratto che richiami gli obblighi di tracciabilità. Le verifiche vanno ripetute periodicamente.",
+       "criteri": [
+        "Ho elencato iscrizione all’Albo e autorizzazione",
+        "Ho previsto la verifica delle scadenze",
+        "Ho previsto controlli periodici"
+       ]
+      }
+     ],
+     "nar": "In questo laboratorio verifichi una filiera di gestione prima di affidare i rifiuti. Il dossier indica i rifiuti, il trasportatore e gli impianti proposti. Valuta l’iscrizione all’Albo, le autorizzazioni degli impianti e i documenti da conservare, poi confronta le tue risposte con la soluzione di riferimento.",
+     "rif": "Artt. 188 e 212 D.lgs. 152/2006 · Allegato C alla Parte IV",
+     "est": true,
+     "ancora": "Le categorie dell’Albo gestori ambientali"
+    },
+    {
+     "foto": false,
      "t": "testo",
      "tit": "Rifiuti pericolosi e trasporto ADR",
      "lead": "Un rifiuto pericoloso è spesso anche una merce pericolosa per il trasporto su strada: si applicano insieme la disciplina dei rifiuti e l’accordo ADR.",
@@ -713,6 +1209,79 @@ window.CORSO = {
      "nar": "Le violazioni degli obblighi di tracciabilità sono sanzionate dall’articolo duecentocinquantotto del codice dell’ambiente. Sono previste sanzioni amministrative pecuniarie per l’omessa iscrizione al registro elettronico, per l’omessa o incompleta tenuta del registro cronologico e per l’omessa o non corretta compilazione del formulario. Il comma dieci-bis, introdotto nel duemilaventisei, rende applicabili dal quindici settembre duemilaventisei le sanzioni per la mancata o incompleta trasmissione al registro dei dati contenuti nei formulari. Occorre distinguere l’errore dalla falsità. Un formulario con indicazioni incomplete o inesatte è sanzionato in via amministrativa; chi invece predispone o utilizza un formulario con indicazioni false sulla natura, sulla composizione o sulle caratteristiche chimico-fisiche del rifiuto risponde anche sul piano penale, in base al comma quattro dell’articolo duecentocinquantotto, che rinvia al delitto di falsità ideologica commessa dal privato in atto pubblico. Il trasporto senza formulario o con un formulario non conforme espone anche il trasportatore. Gli importi variano secondo la pericolosità del rifiuto e la dimensione dell’impresa e vanno sempre verificati sul testo vigente al momento della contestazione. Per l’ente, infine, le violazioni più gravi in materia di rifiuti possono rilevare anche ai fini della responsabilità amministrativa prevista dal decreto duecentotrentuno del duemilauno.",
      "est": true,
      "ancora": "Organizzazione interna e controlli"
+    },
+    {
+     "foto": false,
+     "t": "classifica",
+     "tit": "Sanzione amministrativa o rilievo penale?",
+     "lead": "Seleziona una violazione, poi la conseguenza.",
+     "colonne": [
+      "Sanzione amministrativa (art. 258)",
+      "Rilievo penale"
+     ],
+     "schede": [
+      [
+       "Omessa iscrizione al RENTRI",
+       0,
+       "È sanzionata in via amministrativa dall’art. 258.",
+       "Corretto."
+      ],
+      [
+       "Registro tenuto in modo incompleto",
+       0,
+       "Sanzione amministrativa.",
+       "Corretto."
+      ],
+      [
+       "Formulario con indicazioni incomplete o inesatte",
+       0,
+       "Sanzione amministrativa.",
+       "Corretto."
+      ],
+      [
+       "Formulario con dati falsi sulla natura del rifiuto",
+       1,
+       "Rinvio all’art. 483 c.p.: falsità ideologica.",
+       "Corretto."
+      ],
+      [
+       "Mancata trasmissione al RENTRI dei dati dei formulari dopo il 15 settembre 2026",
+       0,
+       "Comma 10-bis: sanzione amministrativa.",
+       "Corretto."
+      ],
+      [
+       "Spedizione di rifiuti con certificato di analisi falso",
+       1,
+       "L’uso di un certificato falso ha rilievo penale.",
+       "Corretto."
+      ]
+     ],
+     "nar": "Sei violazioni della tracciabilità. Distingui quelle punite con sanzione amministrativa da quelle con rilievo penale.",
+     "rif": "Art. 258 D.lgs. 152/2006",
+     "est": true,
+     "ancora": "Il quadro sanzionatorio"
+    },
+    {
+     "foto": false,
+     "t": "applica",
+     "tit": "La tracciabilità nella tua azienda",
+     "lead": "Verifica come la tua organizzazione gestisce la tracciabilità.",
+     "voci": [
+      "Unità locali iscritte al RENTRI",
+      "Registro digitale aggiornato",
+      "Formulario digitale in uso",
+      "Delega formalizzata a un consulente o a un’associazione",
+      "Verifica periodica di trasportatori e impianti",
+      "Controllo delle conferme di accettazione",
+      "Procedura per l’indisponibilità del portale"
+     ],
+     "campo": "Il punto che miglioreresti per primo e come",
+     "esempio": "Es.: nessun controllo delle accettazioni → scadenzario mensile dei formulari aperti",
+     "min": 3,
+     "nar": "Verifica come la tua azienda gestisce la tracciabilità dei rifiuti e indica il primo punto da migliorare.",
+     "est": true,
+     "ancora": "Il quadro sanzionatorio"
     },
     {
      "foto": false,

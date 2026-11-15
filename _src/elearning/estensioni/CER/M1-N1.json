@@ -1,0 +1,163 @@
+{
+ "dopo": "Indicatori: autoconsumo e autosufficienza",
+ "schermate": [
+  {
+   "t": "esempio",
+   "tit": "Esempio guidato · Autoconsumo e autosufficienza",
+   "lead": "Due indicatori che si confondono spesso.",
+   "passi": [
+    [
+     "Dati dell’anno",
+     "Produzione dell’impianto 60.000 kWh; consumi dell’azienda 100.000 kWh; energia prodotta e consumata in sito 39.000 kWh.",
+     "P = 60.000 · C = 100.000 · Autoconsumata = 39.000 kWh"
+    ],
+    [
+     "Autoconsumo",
+     "Quota della produzione consumata in sito.",
+     "39.000 ÷ 60.000 = 65%"
+    ],
+    [
+     "Autosufficienza",
+     "Quota dei consumi coperta dall’impianto.",
+     "39.000 ÷ 100.000 = 39%"
+    ],
+    [
+     "Energia immessa in rete",
+     "Produzione non consumata in sito.",
+     "60.000 − 39.000 = 21.000 kWh"
+    ],
+    [
+     "Lettura",
+     "Un impianto più grande aumenta l’autosufficienza ma, senza accumulo o spostamento dei carichi, riduce l’autoconsumo.",
+     "Si dimensiona sui consumi contemporanei alla produzione"
+    ]
+   ],
+   "nar": "Due indicatori che si confondono spesso. L’impianto produce sessantamila chilowattora; l’azienda ne consuma centomila; trentanovemila sono prodotti e consumati in sito. L’autoconsumo è la quota della produzione usata in sito: trentanovemila su sessantamila, il sessantacinque per cento. L’autosufficienza è la quota dei consumi coperta dall’impianto: trentanovemila su centomila, il trentanove per cento. Il resto della produzione, ventunomila chilowattora, va in rete. Ingrandire l’impianto aumenta l’autosufficienza, ma senza accumulo o spostamento dei carichi riduce l’autoconsumo.",
+   "rif": "CEI 0-21 · ARERA"
+  },
+  {
+   "t": "grafico",
+   "tit": "Calcola autoconsumo e autosufficienza",
+   "lead": "Modifica produzione, consumi e quota consumata in sito.",
+   "rif": "Elaborazione didattica",
+   "grafico": {
+    "tipo": "calcolo",
+    "formula_testo": "Autoconsumo = E autoconsumata / Produzione · Autosufficienza = E autoconsumata / Consumi",
+    "ingressi": [
+     {
+      "id": "p",
+      "nome": "Produzione annua",
+      "min": 5000,
+      "max": 300000,
+      "passo": 5000,
+      "val": 60000,
+      "unita": "kWh"
+     },
+     {
+      "id": "c",
+      "nome": "Consumi annui",
+      "min": 10000,
+      "max": 500000,
+      "passo": 5000,
+      "val": 100000,
+      "unita": "kWh"
+     },
+     {
+      "id": "q",
+      "nome": "Quota della produzione consumata in sito",
+      "min": 10,
+      "max": 100,
+      "passo": 5,
+      "val": 65,
+      "unita": "%"
+     }
+    ],
+    "risultati": [
+     {
+      "nome": "Autosufficienza",
+      "formula": "Math.min(100, p*q/c)",
+      "unita": "%"
+     },
+     {
+      "nome": "Energia immessa in rete",
+      "formula": "p*(1-q/100)",
+      "unita": "kWh"
+     }
+    ],
+    "unita": "%",
+    "scala": 100
+   },
+   "nar": "Prova a cambiare la dimensione dell’impianto e la quota consumata in sito. Osserva come varia l’autosufficienza e quanta energia finisce in rete."
+  },
+  {
+   "t": "scenario",
+   "tit": "Il fotovoltaico dell’officina",
+   "scena": "Un’officina meccanica con 100.000 kWh di consumi annui, concentrati nei giorni feriali tra le 8 e le 17, valuta un impianto fotovoltaico sul tetto.",
+   "decisioni": [
+    {
+     "dom": "Da dove parti?",
+     "opz": [
+      [
+       "Dall’impianto più grande che entra nel tetto",
+       false,
+       "Senza analizzare i consumi rischi di immettere in rete gran parte della produzione."
+      ],
+      [
+       "Dall’analisi dei consumi orari e dagli interventi di efficienza",
+       true,
+       "Corretto: prima si riducono i consumi, poi si dimensiona l’impianto sui consumi contemporanei."
+      ],
+      [
+       "Dall’accumulo, perché aumenta sempre la convenienza",
+       false,
+       "L’accumulo va valutato dopo aver dimensionato l’impianto sui consumi."
+      ]
+     ]
+    },
+    {
+     "dom": "L’analisi mostra consumi bassi nel fine settimana. Che cosa ne deduci?",
+     "opz": [
+      [
+       "Nel fine settimana gran parte della produzione andrà in rete",
+       true,
+       "Corretto: è la produzione che non trova consumi contemporanei; si valorizza con il ritiro o con la condivisione."
+      ],
+      [
+       "Il fine settimana non incide sul dimensionamento",
+       false,
+       "Incide sull’autoconsumo annuo."
+      ],
+      [
+       "Conviene spegnere l’impianto nel fine settimana",
+       false,
+       "L’energia si può immettere e valorizzare."
+      ]
+     ]
+    },
+    {
+     "dom": "Come valuti la convenienza?",
+     "opz": [
+      [
+       "Con il solo prezzo dei moduli",
+       false,
+       "Servono costi, energia autoconsumata, energia immessa e manutenzione nel tempo."
+      ],
+      [
+       "Con un piano economico su tutta la vita utile: risparmi in bolletta, ricavi dell’energia immessa, costi di manutenzione",
+       true,
+       "Corretto: indicatori come tempo di ritorno e valore attuale netto richiedono tutti i flussi."
+      ],
+      [
+       "Con la potenza installata",
+       false,
+       "La potenza da sola non dice nulla sulla convenienza."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "Prima i consumi e l’efficienza, poi la dimensione dell’impianto, infine il piano economico completo: è la sequenza che evita impianti sovradimensionati.",
+   "nar": "Un’officina valuta un impianto fotovoltaico. Prendi le decisioni nell’ordine giusto.",
+   "rif": "D.lgs. 199/2021"
+  }
+ ]
+}

@@ -1,0 +1,54 @@
+{
+ "dopo": "Esercitazione · Illeciti e procedimenti",
+ "schermate": [
+  {
+   "t": "classifica",
+   "tit": "Delitto o contravvenzione?",
+   "lead": "Seleziona una condotta, poi la categoria.",
+   "colonne": [
+    "Delitto",
+    "Contravvenzione"
+   ],
+   "schede": [
+    [
+     "Inquinamento ambientale (art. 452-bis c.p.)",
+     0,
+     "È un delitto introdotto dalla L. 68/2015.",
+     "Corretto."
+    ],
+    [
+     "Superamento dei valori limite di emissione in atmosfera (art. 279 D.lgs. 152/2006)",
+     1,
+     "È una contravvenzione.",
+     "Corretto."
+    ],
+    [
+     "Omessa bonifica (art. 452-terdecies c.p.)",
+     0,
+     "È un delitto.",
+     "Corretto."
+    ],
+    [
+     "Impedimento del controllo (art. 452-septies c.p.)",
+     0,
+     "È un delitto.",
+     "Corretto."
+    ],
+    [
+     "Scarico di acque reflue industriali oltre i limiti tabellari (art. 137 D.lgs. 152/2006)",
+     1,
+     "È una contravvenzione.",
+     "Corretto."
+    ],
+    [
+     "Disastro ambientale (art. 452-quater c.p.)",
+     0,
+     "È un delitto.",
+     "Corretto."
+    ]
+   ],
+   "nar": "Sei condotte. Distingui i delitti dalle contravvenzioni: la differenza cambia pene, prescrizione e procedure.",
+   "rif": "Codice penale, Titolo VI-bis · D.lgs. 152/2006"
+  }
+ ]
+}

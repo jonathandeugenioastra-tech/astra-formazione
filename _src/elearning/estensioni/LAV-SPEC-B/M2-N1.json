@@ -1,0 +1,138 @@
+{
+ "dopo": "Esercitazione 4 · Rischio e misura",
+ "schermate": [
+  {
+   "t": "classifica",
+   "tit": "Quale fattore di rischio?",
+   "lead": "Seleziona una situazione, poi il fattore di rischio.",
+   "colonne": [
+    "Videoterminale",
+    "Movimentazione manuale dei carichi",
+    "Rumore",
+    "Microclima"
+   ],
+   "schede": [
+    [
+     "Riflessi della finestra sullo schermo",
+     0,
+     "Riguarda l’ergonomia della postazione al videoterminale.",
+     "Corretto."
+    ],
+    [
+     "Sollevare scatole di risme da terra più volte al giorno",
+     1,
+     "È movimentazione manuale dei carichi.",
+     "Corretto."
+    ],
+    [
+     "Stampante di produzione accanto alla postazione, molto rumorosa",
+     2,
+     "È esposizione al rumore.",
+     "Corretto."
+    ],
+    [
+     "Ufficio a 29 °C d’estate senza ricambio d’aria",
+     3,
+     "È un problema di microclima.",
+     "Corretto."
+    ],
+    [
+     "Sedia senza regolazione dell’altezza",
+     0,
+     "Riguarda la postazione al videoterminale.",
+     "Corretto."
+    ],
+    [
+     "Spingere un carrello pesante su una rampa",
+     1,
+     "Spinta e traino rientrano nella movimentazione manuale dei carichi.",
+     "Corretto."
+    ],
+    [
+     "Correnti d’aria fredda dal condizionatore sulla schiena",
+     3,
+     "È un fattore di discomfort microclimatico.",
+     "Corretto."
+    ],
+    [
+     "Compressore senza cappottatura nel magazzino",
+     2,
+     "È una sorgente di rumore.",
+     "Corretto."
+    ]
+   ],
+   "nar": "Otto situazioni. Riconosci il fattore di rischio di ciascuna.",
+   "rif": "Titoli VI, VII e VIII D.lgs. 81/2008"
+  },
+  {
+   "t": "scenario",
+   "tit": "La postazione al videoterminale",
+   "scena": "Una nuova impiegata lavora al computer circa sette ore al giorno. Lamenta stanchezza agli occhi e dolore al collo.",
+   "decisioni": [
+    {
+     "dom": "Che cosa controlli per primo nella postazione?",
+     "opz": [
+      [
+       "Schermo a 50–70 cm, bordo superiore all’altezza degli occhi o poco sotto, senza riflessi",
+       true,
+       "Corretto: distanza, altezza e riflessi dello schermo sono le prime cause di affaticamento visivo e del collo."
+      ],
+      [
+       "Il colore della scrivania",
+       false,
+       "Non incide in modo rilevante."
+      ],
+      [
+       "La velocità del computer",
+       false,
+       "Non riguarda l’ergonomia."
+      ]
+     ]
+    },
+    {
+     "dom": "Come organizzi le pause?",
+     "opz": [
+      [
+       "Una pausa di 15 minuti ogni 120 minuti di applicazione continuativa, in assenza di diversa disciplina della contrattazione",
+       true,
+       "Corretto: è la regola dell’art. 175."
+      ],
+      [
+       "Nessuna pausa se il lavoro è urgente",
+       false,
+       "Le pause o i cambi di attività sono un diritto."
+      ],
+      [
+       "Una sola pausa a metà giornata",
+       false,
+       "Non è sufficiente per chi lavora sette ore al videoterminale."
+      ]
+     ]
+    },
+    {
+     "dom": "È prevista la sorveglianza sanitaria?",
+     "opz": [
+      [
+       "Sì: è videoterminalista perché usa il videoterminale per almeno 20 ore settimanali",
+       true,
+       "Corretto: la sorveglianza sanitaria comprende anche la valutazione della vista."
+      ],
+      [
+       "No, solo per chi ha più di 50 anni",
+       false,
+       "Dipende dall’uso del videoterminale, non dall’età."
+      ],
+      [
+       "Solo se lo chiede la lavoratrice",
+       false,
+       "È obbligatoria per i videoterminalisti."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "Postazione regolata, pause e sorveglianza sanitaria sono le tre misure di base per chi lavora al videoterminale.",
+   "nar": "Una nuova impiegata al videoterminale lamenta disturbi. Intervieni nell’ordine giusto.",
+   "rif": "Artt. 173-176 e Allegato XXXIV D.lgs. 81/2008"
+  }
+ ]
+}

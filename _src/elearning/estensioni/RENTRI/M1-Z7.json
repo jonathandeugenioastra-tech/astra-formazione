@@ -1,0 +1,62 @@
+{
+ "dopo": "Le categorie dell’Albo gestori ambientali",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Verificare la filiera prima del ritiro",
+   "lead": "Devi affidare a nuovi fornitori il ritiro di oli esausti e di imballaggi misti.",
+   "dossier": [
+    [
+     "Rifiuti",
+     "oli esausti 13 02 05*, 1.200 kg l’anno; imballaggi misti 15 01 06, 8 t l’anno"
+    ],
+    [
+     "Trasportatore proposto",
+     "iscritto all’Albo in categoria 4"
+    ],
+    [
+     "Impianto proposto per gli oli",
+     "autorizzato alle operazioni R13 e R9"
+    ],
+    [
+     "Impianto per gli imballaggi",
+     "autorizzato all’operazione R13"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Il trasportatore può ritirare entrambi i rifiuti? Motiva.",
+     "min": 7,
+     "modello": "No. La categoria 4 riguarda la raccolta e il trasporto di rifiuti speciali non pericolosi prodotti da terzi: va bene per gli imballaggi misti. Per gli oli esausti, pericolosi, serve l’iscrizione in categoria 5. Va controllato anche che i codici EER e i mezzi siano compresi nel provvedimento di iscrizione.",
+     "criteri": [
+      "Ho distinto categoria 4 e categoria 5",
+      "Ho previsto il controllo dei codici EER nel provvedimento",
+      "Ho previsto il controllo dei mezzi"
+     ]
+    },
+    {
+     "q": "Le autorizzazioni degli impianti sono adeguate?",
+     "min": 7,
+     "modello": "Sì, se i codici EER sono compresi nelle autorizzazioni. R9 è la rigenerazione degli oli, R13 la messa in riserva: con R13 il rifiuto andrà poi a un ulteriore impianto di recupero. Per le operazioni intermedie la responsabilità del produttore segue le regole dell’art. 188.",
+     "criteri": [
+      "Ho verificato la presenza dei codici EER nell’autorizzazione",
+      "Ho spiegato R9 e R13",
+      "Ho considerato le operazioni intermedie"
+     ]
+    },
+    {
+     "q": "Quali documenti chiedi e conservi prima di firmare il contratto?",
+     "min": 6,
+     "modello": "Provvedimento di iscrizione all’Albo del trasportatore con categorie, codici EER e targhe; autorizzazione dell’impianto con le operazioni e i codici; verifica della validità alla data del ritiro; contratto che richiami gli obblighi di tracciabilità. Le verifiche vanno ripetute periodicamente.",
+     "criteri": [
+      "Ho elencato iscrizione all’Albo e autorizzazione",
+      "Ho previsto la verifica delle scadenze",
+      "Ho previsto controlli periodici"
+     ]
+    }
+   ],
+   "nar": "In questo laboratorio verifichi una filiera di gestione prima di affidare i rifiuti. Il dossier indica i rifiuti, il trasportatore e gli impianti proposti. Valuta l’iscrizione all’Albo, le autorizzazioni degli impianti e i documenti da conservare, poi confronta le tue risposte con la soluzione di riferimento.",
+   "rif": "Artt. 188 e 212 D.lgs. 152/2006 · Allegato C alla Parte IV"
+  }
+ ]
+}

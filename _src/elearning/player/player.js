@@ -42,7 +42,7 @@
   });
   C.moduli.forEach((m, mi) => {
     /* tempo minimo proporzionale alla durata della voce più il tempo di lettura o di attività della schermata */
-    const ATT = { grafico: 60, testo: 25, articolo: 40, caso: 60, vf: 60, abbina: 60, ordina: 60, matrice: 60, verifica: 90, pittogrammi: 60, definizioni: 45, figure: 45, esempio: 240, classifica: 300, scenario: 480, applica: 300 };
+    const ATT = { grafico: 60, testo: 25, articolo: 40, caso: 60, vf: 60, abbina: 60, ordina: 60, matrice: 60, verifica: 90, pittogrammi: 60, definizioni: 45, figure: 45, esempio: 240, classifica: 300, scenario: 480, applica: 300, laboratorio: 900 };
 
     /* tempo dell'attività calcolato sul contenuto reale della schermata (piano di riprogettazione, par. 4.3) */
     const parole = x => String(x || '').split(/\s+/).filter(Boolean).length;
@@ -54,6 +54,7 @@
         case 'scenario': return 150 * s.decisioni.length;
         case 'esempio': return 60 * s.passi.length;
         case 'applica': return 300;
+        case 'laboratorio': return s.compiti.reduce((a, c) => a + (c.min || 5) * 60, 0);
         case 'definizioni': return 30 * ((s.voci || []).length || 2);
         case 'grafico': return s.grafico && s.grafico.tipo === 'calcolo' ? (s.grafico.risultati ? 360 : 180) : 120;
         case 'testo': return 15 + Math.round((parole(s.lead) + (s.punti || []).reduce((a, x) => a + parole(x), 0)) / 3.3);
@@ -555,8 +556,10 @@
     classifica: s => `<div class="schermata">${testa(s)}<div class="corpo"><div class="scroll alto">${s.lead ? `<p class="lead an" data-subito>${esc(s.lead)}</p>` : ''}<div class="cl-pool" id="cl-pool">${shuffle(s.schede.map((c, i) => [c, i])).map(([c, i]) => `<button class="cl-sch" data-i="${i}">${esc(c[0])}</button>`).join('')}</div><div class="cl-col" style="grid-template-columns:repeat(${s.colonne.length},minmax(0,1fr))">${s.colonne.map((c, k) => `<div class="cl-c" data-k="${k}" role="button" tabindex="0"><div class="cl-t">${esc(c)}</div><div class="cl-in"></div></div>`).join('')}</div><div class="fb" id="fb"></div><div class="gr-avanz" id="cl-n"></div></div></div></div>`,
     /* scenario ramificato: decisioni in sequenza con conseguenze */
     scenario: s => `<div class="schermata">${testa(s)}<div class="corpo caso"><div class="scena an" data-subito><span class="tag">Scenario</span><p>${esc(s.scena)}</p><div class="sc-tappe">${s.decisioni.map((d, k) => `<i data-k="${k}"></i>`).join('')}</div></div><div class="scroll"><div id="sc-dec"></div></div></div></div>`,
+    /* laboratorio: dossier del caso, compiti con elaborato del corsista, confronto con la soluzione di riferimento e autovalutazione */
+    laboratorio: s => `<div class="schermata">${testa(s)}<div class="corpo caso"><div class="scena an lb-dos" data-subito><span class="tag">Dossier del caso</span>${s.lead ? `<p>${esc(s.lead)}</p>` : ''}${s.dossier && s.dossier.length ? `<dl>${s.dossier.map(d => `<dt>${esc(d[0])}</dt><dd>${esc(d[1])}</dd>`).join('')}</dl>` : ''}<div class="sc-tappe">${s.compiti.map((c, k) => `<i data-k="${k}"></i>`).join('')}</div></div><div class="scroll"><div id="lb-c"></div></div></div></div>`,
     /* applicazione al proprio contesto */
-    applica: s => `<div class="schermata">${testa(s)}<div class="corpo"><div class="scroll alto">${s.lead ? `<p class="lead an" data-subito>${esc(s.lead)}</p>` : ''}<div class="ap-voci">${s.voci.map((v, i) => `<label class="ap-v"><input type="checkbox" data-i="${i}"><span>${esc(v)}</span></label>`).join('')}<label class="ap-v nessuna"><input type="checkbox" data-i="-1"><span>Nessuna delle fonti elencate</span></label></div><label class="ap-campo"><b>${esc(s.campo)}</b><textarea id="ap-t" maxlength="240" rows="3" placeholder="${esc(s.esempio || '')}"></textarea></label><div class="gr-avanz" id="ap-n"></div></div></div></div>`
+    applica: s => `<div class="schermata">${testa(s)}<div class="corpo"><div class="scroll alto">${s.lead ? `<p class="lead an" data-subito>${esc(s.lead)}</p>` : ''}<div class="ap-voci">${s.voci.map((v, i) => `<label class="ap-v"><input type="checkbox" data-i="${i}"><span>${esc(v)}</span></label>`).join('')}<label class="ap-v nessuna"><input type="checkbox" data-i="-1"><span>${esc(s.nessuna || 'Nessuna delle voci elencate')}</span></label></div><label class="ap-campo"><b>${esc(s.campo)}</b><textarea id="ap-t" maxlength="240" rows="3" placeholder="${esc(s.esempio || '')}"></textarea></label><div class="gr-avanz" id="ap-n"></div></div></div></div>`
   };
 
   /* ───────── comportamenti interattivi ───────── */
@@ -705,6 +708,35 @@
           aggiorna(); });
       };
       mostra(); obbligo = { fatto: () => fine, testo: 'Completare tutte le decisioni dello scenario' };
+    },
+    laboratorio: (s, el) => {
+      const chiave = `astra-lb-${C.id}-${s.mod.id}-${s.si}`, box = $('#lb-c', el), MINC = 40;
+      let dati = { r: [], v: [], k: 0 }; try { dati = Object.assign(dati, JSON.parse(localStorage.getItem(chiave) || '{}')); } catch (e) {}
+      const salva = () => { try { localStorage.setItem(chiave, JSON.stringify(dati)); } catch (e) {} };
+      const fine = () => dati.k >= s.compiti.length;
+      const tappe = () => $$('.sc-tappe i', el).forEach((t, j) => { t.className = j < dati.k ? 'ok' : j === dati.k ? 'cur' : ''; });
+      const mostra = () => {
+        tappe();
+        if (fine()) { box.innerHTML = `<div class="fb ok">${esc(s.chiusura || 'Laboratorio completato. Le elaborazioni restano salvate su questo dispositivo e sono visibili al tutor.')}</div>` + s.compiti.map((c, j) => `<details class="lb-rev"><summary>Compito ${j + 1} · ${esc(c.q)}</summary><p class="lb-tuo">${esc(dati.r[j] || '')}</p><div class="lb-mod"><b>Soluzione di riferimento</b><p>${esc(c.modello)}</p></div></details>`).join(''); aggiorna(); return; }
+        const k = dati.k, c = s.compiti[k], conf = !!dati.v[k];
+        box.innerHTML = `<p class="dom">Compito ${k + 1} di ${s.compiti.length} · circa ${c.min || 5} minuti</p><p class="lb-q">${esc(c.q)}</p><label class="ap-campo"><textarea id="lb-t" maxlength="1200" rows="5" placeholder="${esc(c.traccia || 'Scrivi qui la tua elaborazione')}"></textarea></label><div class="gr-avanz" id="lb-n"></div><div id="lb-m"></div>`;
+        const t = $('#lb-t', box), n = $('#lb-n', box), m = $('#lb-m', box);
+        t.value = dati.r[k] || '';
+        const rivela = () => {
+          t.readOnly = true;
+          m.innerHTML = `<div class="lb-mod an"><b>Soluzione di riferimento</b><p>${esc(c.modello)}</p>${c.criteri && c.criteri.length ? `<p class="lb-cr-t">Autovalutazione: spunta gli elementi presenti nella tua elaborazione</p><div class="lb-cr">${c.criteri.map((x, j) => `<label class="ap-v"><input type="checkbox" data-j="${j}"><span>${esc(x)}</span></label>`).join('')}</div>` : ''}</div>`;
+          const av = document.createElement('button'); av.className = 'btn prim sc-av'; av.textContent = k + 1 < s.compiti.length ? 'Compito successivo' : 'Concludi il laboratorio';
+          av.onclick = () => { const sp = $$('.lb-cr input', m).filter(x => x.checked).length;
+            if (SC.lms) { const q = +SC.get('cmi.interactions._count') || 0; SC.set(`cmi.interactions.${q}.id`, `${s.mod.id}-${s.si}-lab${k + 1}`); SC.set(`cmi.interactions.${q}.type`, 'fill-in'); SC.set(`cmi.interactions.${q}.student_response`, (sp + '/' + ((c.criteri || []).length) + ' | ' + dati.r[k]).slice(0, 255)); SC.commit(); }
+            dati.k++; salva(); mostra(); };
+          m.appendChild(av);
+        };
+        const up = () => { dati.r[k] = t.value; salva(); const l = t.value.trim().length;
+          n.innerHTML = conf ? '' : l >= MINC ? '<button class="btn sec" id="lb-v">Confronta con la soluzione di riferimento</button>' : `Scrivi la tua elaborazione (almeno ${MINC} caratteri), poi confrontala con la soluzione di riferimento.`;
+          const v = $('#lb-v', n); if (v) v.onclick = () => { dati.v[k] = 1; salva(); n.innerHTML = ''; rivela(); }; };
+        t.oninput = up; up(); if (conf) rivela();
+      };
+      mostra(); obbligo = { fatto: fine, testo: 'Completare tutti i compiti del laboratorio' };
     },
     applica: (s, el) => {
       const chiave = `astra-ap-${C.id}-${s.mod.id}-${s.si}`, t = $('#ap-t', el), lab = $('#ap-n', el), min = s.min || 3;

@@ -1,0 +1,77 @@
+{
+ "dopo": "Impianto, stabilimento e convogliamento delle emissioni",
+ "schermate": [
+  {
+   "t": "classifica",
+   "tit": "Convogliata o diffusa?",
+   "lead": "Seleziona un’emissione, poi la colonna corretta.",
+   "colonne": [
+    "Emissione convogliata",
+    "Emissione diffusa"
+   ],
+   "schede": [
+    [
+     "Fumi della caldaia che escono dal camino",
+     0,
+     "Escono da un camino: sono convogliate.",
+     "Corretto."
+    ],
+    [
+     "Polveri sollevate dal cumulo di inerti nel piazzale",
+     1,
+     "Non passano da un condotto: sono diffuse.",
+     "Corretto."
+    ],
+    [
+     "Aria aspirata dalla cabina di verniciatura ed espulsa da un condotto",
+     0,
+     "Captate ed espulse da un condotto: convogliate.",
+     "Corretto."
+    ],
+    [
+     "Vapori di solvente che escono dalle porte aperte del reparto",
+     1,
+     "Non captati: emissioni diffuse.",
+     "Corretto."
+    ],
+    [
+     "Sfiato di un serbatoio collegato a un condotto di scarico",
+     0,
+     "Lo sfiato attraverso un condotto è convogliato.",
+     "Corretto."
+    ],
+    [
+     "Polveri dalla movimentazione di materiali sfusi all’aperto",
+     1,
+     "Sono emissioni diffuse da gestire con misure specifiche.",
+     "Corretto."
+    ]
+   ],
+   "nar": "Sei emissioni. Distingui quelle convogliate, che escono da un camino o da un condotto, da quelle diffuse.",
+   "rif": "D.lgs. 152/2006, art. 268"
+  },
+  {
+   "t": "vf",
+   "tit": "I principi della Parte V",
+   "voci": [
+    [
+     "Un’emissione convogliata esce da uno o più appositi punti, come un camino o un condotto.",
+     true,
+     "Vero: art. 268."
+    ],
+    [
+     "Le attività dell’Allegato IV, parte I, alla Parte V non sono sottoposte ad autorizzazione alle emissioni.",
+     true,
+     "Vero: art. 272, comma 1."
+    ],
+    [
+     "L’AUA non comprende l’autorizzazione alle emissioni in atmosfera.",
+     false,
+     "Falso: l’AUA sostituisce, tra gli altri titoli, l’autorizzazione dell’art. 269."
+    ]
+   ],
+   "nar": "Tre affermazioni sui principi della Parte quinta.",
+   "rif": "D.lgs. 152/2006 · D.P.R. 59/2013"
+  }
+ ]
+}

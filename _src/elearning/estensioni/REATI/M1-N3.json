@@ -1,0 +1,109 @@
+{
+ "dopo": "Le fasi della procedura estintiva",
+ "schermate": [
+  {
+   "t": "esempio",
+   "tit": "Esempio guidato · Quanto si paga con la procedura estintiva",
+   "lead": "Il calcolo per una contravvenzione ambientale (art. 318-quater).",
+   "passi": [
+    [
+     "La contravvenzione",
+     "Superamento dei valori limite di emissione: arresto fino a un anno o ammenda fino a 10.000 €.",
+     "Art. 279, comma 2, D.lgs. 152/2006"
+    ],
+    [
+     "La prescrizione",
+     "L’organo di vigilanza impartisce una prescrizione tecnica con un termine per l’adeguamento.",
+     "Adeguamento entro il termine"
+    ],
+    [
+     "La verifica",
+     "Accertato l’adempimento, il contravventore è ammesso al pagamento.",
+     "Verifica dell’adempimento"
+    ],
+    [
+     "L’importo",
+     "Un quarto del massimo dell’ammenda prevista.",
+     "10.000 € ÷ 4 = 2.500 €"
+    ],
+    [
+     "L’estinzione",
+     "Pagamento entro 30 giorni: la contravvenzione si estingue.",
+     "Pagamento entro 30 giorni → estinzione"
+    ]
+   ],
+   "nar": "Un esempio di procedura estintiva. Il superamento dei valori limite di emissione è punito con l’arresto fino a un anno o con l’ammenda fino a diecimila euro. L’organo di vigilanza impartisce una prescrizione con un termine. Se l’adeguamento è accertato, il contravventore è ammesso a pagare un quarto del massimo dell’ammenda, cioè duemilacinquecento euro, entro trenta giorni: la contravvenzione si estingue.",
+   "rif": "D.lgs. 152/2006, artt. 318-bis e seguenti"
+  },
+  {
+   "t": "scenario",
+   "tit": "La prescrizione dell’organo di vigilanza",
+   "scena": "Dopo un sopralluogo ricevi una prescrizione: adeguare il sistema di abbattimento del camino E1 entro 90 giorni. Il fornitore del nuovo filtro annuncia una consegna in 120 giorni.",
+   "decisioni": [
+    {
+     "dom": "Che cosa fai?",
+     "opz": [
+      [
+       "Aspetti il filtro e adegui dopo la scadenza",
+       false,
+       "Il mancato adempimento nel termine impedisce l’estinzione."
+      ],
+      [
+       "Chiedi una proroga motivata prima della scadenza, documentando i tempi di consegna",
+       true,
+       "Corretto: la proroga si chiede prima della scadenza, con motivazioni documentate."
+      ],
+      [
+       "Ignori la prescrizione: il procedimento si chiuderà da solo",
+       false,
+       "Senza adempimento il procedimento penale prosegue."
+      ]
+     ]
+    },
+    {
+     "dom": "Nel frattempo, come gestisci le emissioni?",
+     "opz": [
+      [
+       "Adotti misure provvisorie per rispettare i limiti, anche riducendo la produzione",
+       true,
+       "Corretto: la conformità va garantita anche durante l’adeguamento."
+      ],
+      [
+       "Nessuna misura fino al nuovo filtro",
+       false,
+       "Il superamento continuerebbe."
+      ],
+      [
+       "Spegni il sistema di abbattimento esistente",
+       false,
+       "Peggiora le emissioni."
+      ]
+     ]
+    },
+    {
+     "dom": "Completato l’adeguamento, che cosa fai?",
+     "opz": [
+      [
+       "Lo comunichi all’organo di vigilanza con la documentazione e attendi la verifica",
+       true,
+       "Corretto: la verifica dell’adempimento apre la fase del pagamento."
+      ],
+      [
+       "Nulla: l’organo lo scoprirà al prossimo controllo",
+       false,
+       "L’adempimento va comunicato e verificato."
+      ],
+      [
+       "Paghi subito senza attendere la verifica",
+       false,
+       "Il pagamento avviene dopo l’ammissione."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "Rispettare il termine o chiedere per tempo la proroga, garantire la conformità nel frattempo, comunicare l’adempimento: è così che la procedura estintiva funziona a favore dell’impresa.",
+   "nar": "Hai ricevuto una prescrizione con un termine stretto. Gestiscila correttamente.",
+   "rif": "D.lgs. 152/2006, Parte VI-bis"
+  }
+ ]
+}

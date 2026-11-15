@@ -1,0 +1,136 @@
+{
+ "dopo": "Servire il cliente allergico: la procedura di sala",
+ "schermate": [
+  {
+   "t": "classifica",
+   "tit": "È un allergene da dichiarare?",
+   "lead": "Seleziona un ingrediente, poi la colonna corretta.",
+   "colonne": [
+    "Allergene dell’Allegato II",
+    "Non è nell’elenco"
+   ],
+   "schede": [
+    [
+     "Farina di frumento",
+     0,
+     "I cereali contenenti glutine sono nell’Allegato II.",
+     "Corretto."
+    ],
+    [
+     "Sesamo",
+     0,
+     "Il sesamo è nell’Allegato II.",
+     "Corretto."
+    ],
+    [
+     "Senape",
+     0,
+     "La senape è nell’Allegato II.",
+     "Corretto."
+    ],
+    [
+     "Pomodoro",
+     1,
+     "Il pomodoro non è tra le 14 sostanze dell’Allegato II.",
+     "Corretto."
+    ],
+    [
+     "Lupini",
+     0,
+     "I lupini sono nell’Allegato II.",
+     "Corretto."
+    ],
+    [
+     "Fragole",
+     1,
+     "Le fragole non sono nell’elenco, anche se possono dare reazioni.",
+     "Corretto."
+    ],
+    [
+     "Sedano",
+     0,
+     "Il sedano è nell’Allegato II.",
+     "Corretto."
+    ],
+    [
+     "Vino con 50 mg/l di solfiti",
+     0,
+     "Anidride solforosa e solfiti oltre 10 mg/l, espressi come SO₂, sono nell’Allegato II.",
+     "Corretto."
+    ]
+   ],
+   "nar": "Otto ingredienti. Riconosci quali sono allergeni da dichiarare secondo l’Allegato II del regolamento europeo millecentosessantanove del duemilaundici.",
+   "rif": "Reg. (UE) 1169/2011, Allegato II"
+  },
+  {
+   "t": "scenario",
+   "tit": "Il cliente allergico alla frutta a guscio",
+   "scena": "Un cliente al ristorante dichiara un’allergia grave alla frutta a guscio e chiede se le trofie al pesto sono adatte. Il pesto è preparato in cucina.",
+   "decisioni": [
+    {
+     "dom": "Che cosa risponde il cameriere?",
+     "opz": [
+      [
+       "«No, il pesto di solito non ha noci»",
+       false,
+       "Le informazioni devono basarsi sulla documentazione della ricetta, non su supposizioni."
+      ],
+      [
+       "Verifica la scheda della ricetta o chiede al responsabile di cucina prima di rispondere",
+       true,
+       "Corretto: le informazioni sugli allergeni si danno sulla base della documentazione disponibile."
+      ],
+      [
+       "Consiglia di scegliere un altro piatto senza verificare",
+       false,
+       "Il cliente ha diritto a informazioni corrette sul piatto richiesto."
+      ]
+     ]
+    },
+    {
+     "dom": "La ricetta contiene pinoli e anacardi. Il cliente chiede una versione senza. Che cosa fa la cucina?",
+     "opz": [
+      [
+       "Prepara il pesto con gli stessi utensili, togliendo solo gli anacardi",
+       false,
+       "I pinoli non sono frutta a guscio nell’elenco, ma gli utensili contaminati possono trasferire l’allergene: servono utensili puliti e separati."
+      ],
+      [
+       "Prepara una porzione dedicata con utensili e superfici puliti, evitando ogni contatto con la frutta a guscio",
+       true,
+       "Corretto: la prevenzione del contatto crociato è parte della procedura di sala e di cucina."
+      ],
+      [
+       "Rifiuta qualsiasi richiesta",
+       false,
+       "Si può servire il cliente, se la procedura permette di evitare il contatto crociato in modo affidabile."
+      ]
+     ]
+    },
+    {
+     "dom": "Il piatto esce dalla cucina. Che cosa serve per evitare errori?",
+     "opz": [
+      [
+       "Nulla: il cameriere ricorda la richiesta",
+       false,
+       "Serve un segnale chiaro lungo tutto il percorso del piatto."
+      ],
+      [
+       "Un’identificazione chiara del piatto per il cliente allergico e la consegna diretta da parte di chi ha ricevuto la richiesta",
+       true,
+       "Corretto: identificazione e consegna dedicata riducono gli scambi di piatti."
+      ],
+      [
+       "Servirlo insieme agli altri piatti del tavolo",
+       false,
+       "Aumenta il rischio di scambio o di contatto."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "Informazioni basate sulla documentazione, preparazione separata e consegna identificata: tre passaggi che proteggono il cliente allergico.",
+   "nar": "Un cliente con un’allergia grave chiede un piatto. Segui il percorso dalla sala alla cucina e ritorno.",
+   "rif": "Reg. (UE) 1169/2011 · D.lgs. 231/2017"
+  }
+ ]
+}

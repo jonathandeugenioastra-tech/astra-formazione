@@ -1,0 +1,98 @@
+{
+ "dopo": "Caso di studio · Il filtro a maniche del venerdì sera",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "Il superamento e il guasto",
+   "scena": "Lunedì mattina il rapporto di prova dell’autocontrollo sul camino E3 indica polveri a 18 mg/Nm³, con limite autorizzato di 10 mg/Nm³. In reparto si scopre che alcune maniche del filtro sono rotte.",
+   "decisioni": [
+    {
+     "dom": "Qual è la prima azione?",
+     "opz": [
+      [
+       "Attendere il prossimo autocontrollo per conferma",
+       false,
+       "Un guasto che non permette il rispetto dei limiti richiede azioni immediate."
+      ],
+      [
+       "Comunicare il guasto all’autorità competente entro le otto ore e mettere in sicurezza l’impianto",
+       true,
+       "Corretto: in caso di guasti che non permettono il rispetto dei valori limite il gestore informa l’autorità entro le otto ore successive (art. 271, comma 14)."
+      ],
+      [
+       "Sostituire le maniche senza comunicare nulla",
+       false,
+       "La comunicazione all’autorità è obbligatoria."
+      ]
+     ]
+    },
+    {
+     "dom": "Come gestisci la produzione nel frattempo?",
+     "opz": [
+      [
+       "La riduci o la sospendi secondo le indicazioni dell’autorizzazione e dell’autorità, fino al ripristino",
+       true,
+       "Corretto: l’autorità può disporre riduzione o cessazione; il gestore agisce per riportare l’impianto alla conformità."
+      ],
+      [
+       "Prosegui normalmente",
+       false,
+       "Con il filtro guasto le emissioni restano oltre il limite."
+      ],
+      [
+       "Bypassi il filtro",
+       false,
+       "Il bypass peggiora le emissioni ed è vietato salvo casi autorizzati."
+      ]
+     ]
+    },
+    {
+     "dom": "Che cosa resta da fare dopo la riparazione?",
+     "opz": [
+      [
+       "Archiviare il rapporto di prova",
+       false,
+       "Serve dimostrare il ritorno alla conformità."
+      ],
+      [
+       "Ripetere la misura, registrare guasto e intervento e rivedere il piano di manutenzione",
+       true,
+       "Corretto: la nuova misura dimostra la conformità; la registrazione e la manutenzione evitano il ripetersi."
+      ],
+      [
+       "Aumentare l’altezza del camino",
+       false,
+       "Non riduce le emissioni alla fonte."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "Comunicare entro otto ore, ridurre o fermare, riparare, misurare di nuovo e registrare: è la sequenza che protegge l’ambiente e l’impresa.",
+   "nar": "Un superamento scoperto con l’autocontrollo e un filtro guasto. Decidi la sequenza delle azioni.",
+   "rif": "D.lgs. 152/2006, art. 271, comma 14"
+  },
+  {
+   "t": "vf",
+   "tit": "Autocontrolli e comunicazioni",
+   "voci": [
+    [
+     "Un guasto che impedisce il rispetto dei limiti va comunicato all’autorità competente entro otto ore.",
+     true,
+     "Vero: art. 271, comma 14."
+    ],
+    [
+     "Il rapporto di prova di un autocontrollo può essere conservato senza annotarne le non conformità.",
+     false,
+     "Falso: le non conformità vanno gestite e documentate secondo l’autorizzazione."
+    ],
+    [
+     "La correzione all’ossigeno di riferimento si applica quando l’autorizzazione la prevede.",
+     true,
+     "Vero."
+    ]
+   ],
+   "nar": "Tre affermazioni su autocontrolli e comunicazioni.",
+   "rif": "D.lgs. 152/2006, Parte V"
+  }
+ ]
+}

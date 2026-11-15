@@ -1,0 +1,94 @@
+{
+ "dopo": "Caso di studio · La prescrizione dopo il sopralluogo",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "L’ispezione dell’ARPA",
+   "scena": "Un tecnico dell’ARPA si presenta senza preavviso per un sopralluogo sulle emissioni dello stabilimento.",
+   "decisioni": [
+    {
+     "dom": "Che cosa prepari per primo?",
+     "opz": [
+      [
+       "L’autorizzazione con il quadro emissivo, i rapporti di prova e il registro di manutenzione degli impianti di abbattimento",
+       true,
+       "Corretto: sono i documenti che il controllo verifica per primi."
+      ],
+      [
+       "Solo il certificato camerale",
+       false,
+       "Servono i documenti specifici delle emissioni."
+      ],
+      [
+       "Nulla: si risponde a voce",
+       false,
+       "Le evidenze documentali sono essenziali."
+      ]
+     ]
+    },
+    {
+     "dom": "Il tecnico chiede di vedere il punto di prelievo del camino E2, non accessibile in sicurezza. Che cosa fai?",
+     "opz": [
+      [
+       "Lo accompagni con una scala a pioli improvvisata",
+       false,
+       "La sicurezza delle operazioni di campionamento è un requisito: non si improvvisa."
+      ],
+      [
+       "Spieghi la situazione e la registri; il punto di prelievo va reso accessibile in sicurezza come previsto",
+       true,
+       "Corretto: accessibilità e sicurezza della postazione di prelievo sono parte dei requisiti."
+      ],
+      [
+       "Dici che il camino non è più in uso",
+       false,
+       "Dichiarazioni non veritiere aggravano la posizione."
+      ]
+     ]
+    },
+    {
+     "dom": "Al termine riceve una prescrizione con un termine per adeguarsi. Che cosa fai?",
+     "opz": [
+      [
+       "Rispetti il termine, documenti l’adeguamento e lo comunichi",
+       true,
+       "Corretto: l’adempimento nei termini consente di estinguere le contravvenzioni secondo la procedura prevista."
+      ],
+      [
+       "Aspetti il prossimo controllo",
+       false,
+       "Il termine va rispettato."
+      ],
+      [
+       "Contesti la prescrizione senza adeguarti",
+       false,
+       "Puoi presentare osservazioni, ma l’adeguamento resta dovuto."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "Documenti in ordine, postazioni di prelievo sicure e adeguamento nei termini: così un’ispezione si chiude senza conseguenze gravi.",
+   "nar": "Un’ispezione senza preavviso. Gestiscila passo dopo passo.",
+   "rif": "D.lgs. 152/2006, Parte V e Parte VI-bis"
+  },
+  {
+   "t": "applica",
+   "tit": "Le sorgenti del tuo stabilimento",
+   "lead": "Prepara il censimento delle emissioni della tua organizzazione.",
+   "voci": [
+    "Cabine di verniciatura",
+    "Forni o essiccatoi",
+    "Generatori di calore",
+    "Lavorazioni con polveri",
+    "Uso di solventi",
+    "Saldatura",
+    "Impianti di abbattimento",
+    "Emissioni diffuse o odorigene"
+   ],
+   "campo": "Camini e impianti di abbattimento presenti, con la relativa scadenza degli autocontrolli",
+   "esempio": "Es.: E1 cabina di verniciatura, carboni attivi, autocontrollo annuale a marzo",
+   "min": 3,
+   "nar": "Prepara il censimento delle sorgenti di emissione del tuo stabilimento: indica le attività presenti e scrivi camini, impianti di abbattimento e scadenze degli autocontrolli."
+  }
+ ]
+}

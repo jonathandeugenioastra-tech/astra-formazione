@@ -1,0 +1,72 @@
+{
+ "dopo": "Obblighi dell’operatore: prevenzione e riparazione",
+ "schermate": [
+  {
+   "t": "classifica",
+   "tit": "Quale tipo di riparazione?",
+   "lead": "Seleziona un intervento, poi il tipo di riparazione del danno ambientale.",
+   "colonne": [
+    "Primaria",
+    "Complementare",
+    "Compensativa"
+   ],
+   "schede": [
+    [
+     "Rimuovere i sedimenti contaminati e riportare il fiume alle condizioni originarie",
+     0,
+     "La riparazione primaria riporta le risorse danneggiate alle condizioni originarie.",
+     "Corretto."
+    ],
+    [
+     "Ricostituire una zona umida in un tratto vicino, perché quella danneggiata non è recuperabile del tutto",
+     1,
+     "La complementare compensa il mancato ripristino completo.",
+     "Corretto."
+    ],
+    [
+     "Creare un habitat aggiuntivo per compensare le perdite subite in attesa del ripristino",
+     2,
+     "La compensativa copre le perdite temporanee.",
+     "Corretto."
+    ],
+    [
+     "Ripiantare la vegetazione ripariale distrutta nello stesso sito",
+     0,
+     "È ripristino delle condizioni originarie: primaria.",
+     "Corretto."
+    ],
+    [
+     "Migliorare un’area protetta vicina per la perdita temporanea di fruizione",
+     2,
+     "Compensa le perdite provvisorie: compensativa.",
+     "Corretto."
+    ],
+    [
+     "Creare un nuovo sito di riproduzione per una specie che non può tornare nel sito originario",
+     1,
+     "Sopperisce al ripristino incompleto: complementare.",
+     "Corretto."
+    ]
+   ],
+   "nar": "Sei interventi dopo un danno ambientale. Riconosci il tipo di riparazione previsto dalla Parte VI.",
+   "rif": "D.lgs. 152/2006, Allegato 3 alla Parte VI"
+  },
+  {
+   "t": "applica",
+   "tit": "Le deleghe e i controlli nella tua azienda",
+   "lead": "Verifica l’organizzazione della responsabilità ambientale.",
+   "voci": [
+    "Esiste un responsabile ambientale con compiti scritti",
+    "Esiste una delega di funzioni formalizzata",
+    "Il delegato ha un budget adeguato",
+    "Il vertice riceve report periodici",
+    "Esiste una procedura per gli eventi potenzialmente contaminanti",
+    "È adottato un modello organizzativo ai sensi del D.lgs. 231/2001"
+   ],
+   "campo": "Il punto più debole e l’azione che proporresti",
+   "esempio": "Es.: il delegato non ha budget → proporre un budget annuo per gli adempimenti ambientali",
+   "min": 3,
+   "nar": "Verifica come è organizzata la responsabilità ambientale nella tua azienda e indica il punto più debole e l’azione che proporresti."
+  }
+ ]
+}

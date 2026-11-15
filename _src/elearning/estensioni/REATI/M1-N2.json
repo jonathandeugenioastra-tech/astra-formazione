@@ -1,0 +1,109 @@
+{
+ "dopo": "Esempio applicativo: quando c’è «inquinamento ambientale»",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "La perdita dal serbatoio interrato",
+   "scena": "Durante la dismissione di un serbatoio interrato di gasolio, lo scavo mostra terreno impregnato e odore di idrocarburi. Il serbatoio non era mai stato sottoposto a prove di tenuta.",
+   "decisioni": [
+    {
+     "dom": "Che cosa fai per primo?",
+     "opz": [
+      [
+       "Riempi lo scavo e completi la dismissione",
+       false,
+       "Nasconderebbe una possibile contaminazione storica."
+      ],
+      [
+       "Sospendi lo scavo e attui le misure di prevenzione, rimuovendo la sorgente e impedendo la diffusione",
+       true,
+       "Corretto: la contaminazione rilevata, anche storica, obbliga alle misure di prevenzione."
+      ],
+      [
+       "Aspetti l’esito di analisi tra un mese prima di decidere",
+       false,
+       "Le misure di prevenzione non attendono le analisi."
+      ]
+     ]
+    },
+    {
+     "dom": "La contaminazione potrebbe essere vecchia di anni. Va comunicata?",
+     "opz": [
+      [
+       "No, se il fatto risale a prima della tua gestione",
+       false,
+       "L’art. 242 si applica anche all’individuazione di contaminazioni storiche che possano comportare rischi di aggravamento."
+      ],
+      [
+       "Sì: si comunica entro 24 ore, come per un nuovo evento",
+       true,
+       "Corretto: la procedura vale anche per le contaminazioni storiche."
+      ],
+      [
+       "Solo se lo chiede l’ARPA",
+       false,
+       "La comunicazione è un obbligo di chi individua la contaminazione."
+      ]
+     ]
+    },
+    {
+     "dom": "Le analisi superano le concentrazioni soglia di contaminazione. Che cosa succede?",
+     "opz": [
+      [
+       "Piano di caratterizzazione, poi analisi di rischio",
+       true,
+       "Corretto: è la sequenza dell’art. 242."
+      ],
+      [
+       "Basta smaltire il terreno scavato",
+       false,
+       "Serve verificare l’estensione della contaminazione."
+      ],
+      [
+       "Si chiude con una sanzione amministrativa",
+       false,
+       "Il procedimento di bonifica prosegue."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "Anche una contaminazione storica scoperta durante lavori obbliga a prevenire, comunicare e caratterizzare: ometterlo espone ai reati di omessa bonifica e di impedimento del controllo.",
+   "nar": "Durante la dismissione di un serbatoio emerge una contaminazione. Decidi come procedere.",
+   "rif": "D.lgs. 152/2006, art. 242, comma 1"
+  },
+  {
+   "t": "esempio",
+   "tit": "Esempio guidato · Dall’evento potenzialmente contaminante alla bonifica",
+   "lead": "Le tappe dell’art. 242.",
+   "passi": [
+    [
+     "Entro 24 ore",
+     "Misure di prevenzione e comunicazione dell’evento.",
+     "Prevenzione + comunicazione"
+    ],
+    [
+     "Indagine preliminare",
+     "Verifica dei parametri rispetto alle concentrazioni soglia di contaminazione (CSC).",
+     "Confronto con le CSC"
+    ],
+    [
+     "CSC non superate",
+     "Si ripristina la zona e si autocertifica: il procedimento si chiude, salvo verifiche.",
+     "Autocertificazione"
+    ],
+    [
+     "CSC superate",
+     "Piano di caratterizzazione entro 30 giorni.",
+     "Caratterizzazione del sito"
+    ],
+    [
+     "Analisi di rischio",
+     "Si determinano le concentrazioni soglia di rischio (CSR): se superate, si progetta la bonifica.",
+     "Bonifica o messa in sicurezza"
+    ]
+   ],
+   "nar": "Ripercorriamo le tappe dell’articolo duecentoquarantadue. Entro ventiquattro ore si attuano le misure di prevenzione e si comunica l’evento. Segue un’indagine preliminare: se le concentrazioni soglia di contaminazione non sono superate, si ripristina la zona e si autocertifica. Se sono superate, entro trenta giorni si presenta il piano di caratterizzazione; poi l’analisi di rischio individua le concentrazioni soglia di rischio, oltre le quali serve la bonifica o la messa in sicurezza.",
+   "rif": "D.lgs. 152/2006, art. 242"
+  }
+ ]
+}

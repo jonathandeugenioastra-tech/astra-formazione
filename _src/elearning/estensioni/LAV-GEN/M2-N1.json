@@ -1,0 +1,75 @@
+{
+ "dopo": "Esercitazione 5 · Caso di studio",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "Il primo giorno in reparto",
+   "scena": "Sei al primo giorno in un magazzino. Il preposto ti affida al collega più esperto, ma il collega deve uscire per un’urgenza e ti dice di iniziare a usare il transpallet elettrico da solo.",
+   "decisioni": [
+    {
+     "dom": "Che cosa fai?",
+     "opz": [
+      [
+       "Inizi: il collega ha detto che è semplice",
+       false,
+       "Non hai ricevuto addestramento sull’attrezzatura: non puoi usarla."
+      ],
+      [
+       "Non usi il transpallet e informi il preposto che non sei stato ancora addestrato",
+       true,
+       "Corretto: l’uso delle attrezzature richiede formazione e addestramento adeguati (artt. 37 e 73)."
+      ],
+      [
+       "Lo usi solo per spostamenti brevi",
+       false,
+       "La durata non cambia l’obbligo di addestramento."
+      ]
+     ]
+    },
+    {
+     "dom": "Il preposto ti chiede di aiutare a scaricare i colli a mano. Uno pesa molto più degli altri. Che cosa fai?",
+     "opz": [
+      [
+       "Lo sollevi da solo per non rallentare il lavoro",
+       false,
+       "La movimentazione manuale dei carichi va fatta secondo le procedure: chiedi aiuto o un ausilio."
+      ],
+      [
+       "Chiedi aiuto o usi un ausilio, come ti è stato spiegato nella formazione",
+       true,
+       "Corretto: usi i mezzi messi a disposizione e segnali le difficoltà."
+      ],
+      [
+       "Lo lasci dov’è senza dire nulla",
+       false,
+       "Le situazioni di pericolo vanno segnalate al preposto."
+      ]
+     ]
+    },
+    {
+     "dom": "A fine turno noti che l’estintore vicino all’uscita è coperto da bancali. Che cosa fai?",
+     "opz": [
+      [
+       "Niente: non è compito tuo",
+       false,
+       "Il lavoratore segnala le deficienze dei mezzi e dei dispositivi (art. 20)."
+      ],
+      [
+       "Lo segnali al preposto",
+       true,
+       "Corretto: segnalare subito le condizioni di pericolo è un obbligo del lavoratore."
+      ],
+      [
+       "Lo sposti in un altro punto del reparto",
+       false,
+       "Non si modificano i presidi di emergenza: si segnala il problema."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "Nel primo giorno contano tre regole: non usare attrezzature senza addestramento, seguire le procedure, segnalare ciò che non va.",
+   "nar": "Il primo giorno di lavoro in magazzino. Tre situazioni concrete: decidi come comportarti.",
+   "rif": "Artt. 20, 37 e 73 D.lgs. 81/2008"
+  }
+ ]
+}

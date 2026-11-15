@@ -1,0 +1,39 @@
+{
+ "dopo": "Le scale portatili",
+ "schermate": [
+  {
+   "t": "esempio",
+   "tit": "Esempio guidato · Posizionare una scala portatile",
+   "lead": "Le regole pratiche prima di salire.",
+   "passi": [
+    [
+     "Scelta",
+     "Scala marcata secondo la UNI EN 131, adatta all’altezza e integra (pioli, piedini antiscivolo).",
+     "Scala adatta e integra"
+    ],
+    [
+     "Inclinazione",
+     "La distanza alla base è circa un quarto dell’altezza di appoggio.",
+     "Appoggio a 4 m → base a circa 1 m dalla parete"
+    ],
+    [
+     "Sbarco",
+     "Se serve per accedere a un piano, la scala sporge almeno 1 m oltre il piano di sbarco.",
+     "Almeno 1 m oltre il piano"
+    ],
+    [
+     "Salita",
+     "Si sale e si scende con il viso verso la scala, mantenendo tre punti di appoggio.",
+     "Tre punti di appoggio"
+    ],
+    [
+     "Lavoro",
+     "Niente carichi pesanti in mano e niente sporgersi lateralmente: si sposta la scala.",
+     "Il baricentro resta tra i montanti"
+    ]
+   ],
+   "nar": "Prima di salire su una scala portatile verifica che sia marcata secondo la norma UNI EN centotrentuno e integra. Posizionala con un’inclinazione corretta: la distanza della base dalla parete è circa un quarto dell’altezza di appoggio, per esempio un metro per quattro metri. Se la usi per raggiungere un piano, deve sporgere almeno un metro oltre il piano di sbarco. Sali e scendi con il viso verso la scala, mantenendo sempre tre punti di appoggio. E non sporgerti: se il punto di lavoro è lontano, scendi e sposta la scala.",
+   "rif": "Art. 113 D.lgs. 81/2008 · UNI EN 131"
+  }
+ ]
+}

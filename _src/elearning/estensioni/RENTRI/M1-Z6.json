@@ -1,0 +1,66 @@
+{
+ "dopo": "Annotazioni, trasmissioni e conservazione: i termini",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Un mese di registro",
+   "lead": "Ti occupi del registro digitale di una carrozzeria che gestisce in proprio gli adempimenti, senza delegato.",
+   "dossier": [
+    [
+     "3 marzo",
+     "prodotti 120 kg di vernici di scarto (08 01 11*)"
+    ],
+    [
+     "10 marzo",
+     "prodotti 40 kg di filtri della cabina di verniciatura"
+    ],
+    [
+     "24 marzo",
+     "ritiro di 160 kg con formulario digitale"
+    ],
+    [
+     "Aprile",
+     "nessuna produzione e nessun ritiro"
+    ],
+    [
+     "Delegato",
+     "nessuno"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Indica entro quando vanno annotati i tre movimenti di marzo.",
+     "min": 6,
+     "modello": "Ogni carico va annotato almeno entro dieci giorni lavorativi dalla produzione: quello del 3 marzo entro il 17 marzo circa, quello del 10 marzo entro il 24 marzo circa, considerando i giorni lavorativi. Lo scarico del 24 marzo va annotato entro dieci giorni lavorativi dallo scarico.",
+     "criteri": [
+      "Ho applicato i dieci giorni lavorativi",
+      "Ho annotato separatamente carichi e scarico",
+      "Ho collegato lo scarico al formulario"
+     ]
+    },
+    {
+     "q": "Entro quando trasmetti i dati di marzo al RENTRI? E per aprile?",
+     "min": 5,
+     "modello": "I dati di marzo si trasmettono entro la fine del mese successivo, cioè entro il 30 aprile. Per aprile, senza annotazioni, non c’è nulla da trasmettere. Se la carrozzeria si affidasse a un delegato, il termine sarebbe la fine del secondo mese successivo.",
+     "criteri": [
+      "Ho indicato il 30 aprile",
+      "Ho considerato il mese senza annotazioni",
+      "Ho distinto il caso del delegato"
+     ]
+    },
+    {
+     "q": "Che cosa controlli dopo il ritiro del 24 marzo?",
+     "min": 5,
+     "modello": "Che l’impianto abbia confermato l’accettazione e la quantità, verificando eventuali differenze o respingimenti; che il trasportatore fosse iscritto all’Albo nella categoria corretta; e che il registro sia conservato per tre anni dall’ultima registrazione.",
+     "criteri": [
+      "Ho previsto il controllo dell’accettazione",
+      "Ho previsto la verifica del trasportatore",
+      "Ho indicato la conservazione triennale"
+     ]
+    }
+   ],
+   "nar": "Questo laboratorio simula un mese di registro digitale. Il dossier riporta le produzioni e il ritiro di marzo e un aprile senza movimenti. Stabilisci i termini di annotazione e di trasmissione e i controlli dopo il ritiro, poi confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "Art. 190 D.lgs. 152/2006 · D.M. 59/2023"
+  }
+ ]
+}

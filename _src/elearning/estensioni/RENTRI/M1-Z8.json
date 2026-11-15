@@ -1,0 +1,72 @@
+{
+ "dopo": "Il quadro sanzionatorio",
+ "schermate": [
+  {
+   "t": "classifica",
+   "tit": "Sanzione amministrativa o rilievo penale?",
+   "lead": "Seleziona una violazione, poi la conseguenza.",
+   "colonne": [
+    "Sanzione amministrativa (art. 258)",
+    "Rilievo penale"
+   ],
+   "schede": [
+    [
+     "Omessa iscrizione al RENTRI",
+     0,
+     "È sanzionata in via amministrativa dall’art. 258.",
+     "Corretto."
+    ],
+    [
+     "Registro tenuto in modo incompleto",
+     0,
+     "Sanzione amministrativa.",
+     "Corretto."
+    ],
+    [
+     "Formulario con indicazioni incomplete o inesatte",
+     0,
+     "Sanzione amministrativa.",
+     "Corretto."
+    ],
+    [
+     "Formulario con dati falsi sulla natura del rifiuto",
+     1,
+     "Rinvio all’art. 483 c.p.: falsità ideologica.",
+     "Corretto."
+    ],
+    [
+     "Mancata trasmissione al RENTRI dei dati dei formulari dopo il 15 settembre 2026",
+     0,
+     "Comma 10-bis: sanzione amministrativa.",
+     "Corretto."
+    ],
+    [
+     "Spedizione di rifiuti con certificato di analisi falso",
+     1,
+     "L’uso di un certificato falso ha rilievo penale.",
+     "Corretto."
+    ]
+   ],
+   "nar": "Sei violazioni della tracciabilità. Distingui quelle punite con sanzione amministrativa da quelle con rilievo penale.",
+   "rif": "Art. 258 D.lgs. 152/2006"
+  },
+  {
+   "t": "applica",
+   "tit": "La tracciabilità nella tua azienda",
+   "lead": "Verifica come la tua organizzazione gestisce la tracciabilità.",
+   "voci": [
+    "Unità locali iscritte al RENTRI",
+    "Registro digitale aggiornato",
+    "Formulario digitale in uso",
+    "Delega formalizzata a un consulente o a un’associazione",
+    "Verifica periodica di trasportatori e impianti",
+    "Controllo delle conferme di accettazione",
+    "Procedura per l’indisponibilità del portale"
+   ],
+   "campo": "Il punto che miglioreresti per primo e come",
+   "esempio": "Es.: nessun controllo delle accettazioni → scadenzario mensile dei formulari aperti",
+   "min": 3,
+   "nar": "Verifica come la tua azienda gestisce la tracciabilità dei rifiuti e indica il primo punto da migliorare."
+  }
+ ]
+}

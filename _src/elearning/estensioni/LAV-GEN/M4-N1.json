@@ -1,0 +1,56 @@
+{
+ "dopo": "Esercitazione 8 · Attribuzione delle competenze agli enti",
+ "schermate": [
+  {
+   "t": "classifica",
+   "tit": "Chi interviene?",
+   "lead": "Seleziona una situazione, poi l’ente competente.",
+   "colonne": [
+    "ASL",
+    "Ispettorato nazionale del lavoro",
+    "Vigili del fuoco",
+    "INAIL"
+   ],
+   "schede": [
+    [
+     "Indagine su una malattia professionale segnalata dal medico",
+     0,
+     "Le indagini sulle malattie professionali sono svolte dai servizi di prevenzione delle ASL.",
+     "Corretto."
+    ],
+    [
+     "Verifica del lavoro irregolare e sospensione dell’attività per lavoratori in nero",
+     1,
+     "L’Ispettorato nazionale del lavoro adotta i provvedimenti dell’art. 14.",
+     "Corretto."
+    ],
+    [
+     "Controllo del certificato di prevenzione incendi",
+     2,
+     "La prevenzione incendi è competenza dei vigili del fuoco.",
+     "Corretto."
+    ],
+    [
+     "Denuncia dell’infortunio e indennizzo al lavoratore",
+     3,
+     "L’INAIL gestisce l’assicurazione obbligatoria contro gli infortuni.",
+     "Corretto."
+    ],
+    [
+     "Vigilanza sulla sicurezza in un cantiere edile",
+     1,
+     "Nei cantieri vigila anche l’Ispettorato nazionale del lavoro, oltre all’ASL.",
+     "Corretto: l’INL ha competenza anche nei cantieri."
+    ],
+    [
+     "Incentivi alle imprese per progetti di miglioramento della sicurezza (bandi ISI)",
+     3,
+     "I bandi ISI sono finanziati dall’INAIL.",
+     "Corretto."
+    ]
+   ],
+   "nar": "Sei situazioni. Assegna ciascuna all’ente che interviene.",
+   "rif": "Artt. 13 e 14 D.lgs. 81/2008"
+  }
+ ]
+}

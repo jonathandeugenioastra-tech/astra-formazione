@@ -1,0 +1,75 @@
+{
+ "dopo": "Chi risponde in azienda: posizioni di garanzia e delega",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "La delega al responsabile ambientale",
+   "scena": "L’amministratore unico di un’impresa manifatturiera vuole delegare la gestione ambientale al responsabile di stabilimento.",
+   "decisioni": [
+    {
+     "dom": "Come deve essere conferita la delega?",
+     "opz": [
+      [
+       "A voce, durante una riunione",
+       false,
+       "La delega deve risultare da atto scritto, con data certa, e va accettata."
+      ],
+      [
+       "Con atto scritto e data certa, accettato dal delegato",
+       true,
+       "Corretto: la forma scritta e l’accettazione rendono la delega opponibile."
+      ],
+      [
+       "Con una semplice e-mail non firmata",
+       false,
+       "Non garantisce data certa né accettazione."
+      ]
+     ]
+    },
+    {
+     "dom": "Il responsabile di stabilimento non può spendere più di 2.000 € senza autorizzazione. È un problema?",
+     "opz": [
+      [
+       "No, conta solo il titolo",
+       false,
+       "Senza autonomia di spesa adeguata il delegato non può adempiere."
+      ],
+      [
+       "Sì: il delegato deve avere poteri di organizzazione, gestione, controllo e autonomia di spesa adeguati",
+       true,
+       "Corretto: senza poteri effettivi la delega non trasferisce la responsabilità."
+      ],
+      [
+       "Dipende dal fatturato dell’impresa",
+       false,
+       "Conta l’adeguatezza dei poteri rispetto ai compiti."
+      ]
+     ]
+    },
+    {
+     "dom": "Conferita la delega, l’amministratore non ha più obblighi?",
+     "opz": [
+      [
+       "Non ha più alcun obbligo",
+       false,
+       "Resta l’obbligo di vigilanza sul corretto espletamento delle funzioni delegate."
+      ],
+      [
+       "Resta l’obbligo di vigilare sull’operato del delegato",
+       true,
+       "Corretto: la delega non elimina il dovere di vigilanza del delegante."
+      ],
+      [
+       "Deve ripetere personalmente tutti i controlli",
+       false,
+       "Deve vigilare, non sostituirsi al delegato."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "Forma scritta, professionalità del delegato, poteri e autonomia di spesa adeguati, vigilanza del delegante: sono i requisiti che la giurisprudenza richiede anche in materia ambientale, in analogia con l’art. 16 del D.lgs. 81/2008.",
+   "nar": "Una delega di funzioni in materia ambientale. Valuta se è efficace.",
+   "rif": "Art. 16 D.lgs. 81/2008 · giurisprudenza di legittimità"
+  }
+ ]
+}

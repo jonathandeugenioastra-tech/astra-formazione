@@ -1,0 +1,56 @@
+{
+ "dopo": "Modalità di impiego dell’estintore portatile",
+ "schermate": [
+  {
+   "t": "classifica",
+   "tit": "Quale classe di fuoco?",
+   "lead": "Seleziona un materiale che brucia, poi la classe di fuoco.",
+   "colonne": [
+    "Classe A · solidi",
+    "Classe B · liquidi",
+    "Classe C · gas",
+    "Classe F · oli da cucina"
+   ],
+   "schede": [
+    [
+     "Carta e cartone",
+     0,
+     "I solidi che formano brace sono classe A.",
+     "Corretto."
+    ],
+    [
+     "Vernici e solventi",
+     1,
+     "I liquidi infiammabili sono classe B.",
+     "Corretto."
+    ],
+    [
+     "Metano",
+     2,
+     "I gas sono classe C.",
+     "Corretto."
+    ],
+    [
+     "Olio della friggitrice",
+     3,
+     "Oli e grassi da cucina sono classe F.",
+     "Corretto."
+    ],
+    [
+     "Legno dei pallet",
+     0,
+     "Il legno è classe A.",
+     "Corretto."
+    ],
+    [
+     "Alcol etilico",
+     1,
+     "È un liquido infiammabile: classe B.",
+     "Corretto."
+    ]
+   ],
+   "nar": "Sei materiali che possono bruciare. Assegna a ciascuno la classe di fuoco: la classe dice quale estintore usare.",
+   "rif": "UNI EN 2 · D.M. 1° settembre 2021"
+  }
+ ]
+}

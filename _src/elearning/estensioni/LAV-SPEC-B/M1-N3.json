@@ -1,0 +1,93 @@
+{
+ "dopo": "Esercitazione 2 · Caso di studio",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "La prolunga sotto la scrivania",
+   "scena": "In ufficio un collega ha collegato stampante, stufetta elettrica e macchina del caffè a una presa multipla, a sua volta inserita in una prolunga avvolta sotto la scrivania. La presa è calda.",
+   "decisioni": [
+    {
+     "dom": "Che cosa fai per primo?",
+     "opz": [
+      [
+       "Niente: funziona tutto",
+       false,
+       "Il calore è un segnale di sovraccarico: c’è rischio di incendio."
+      ],
+      [
+       "Scolleghi gli apparecchi a maggior assorbimento, come la stufetta, e segnali la situazione al preposto",
+       true,
+       "Corretto: riduci subito il carico e segnali il problema."
+      ],
+      [
+       "Aggiungi un’altra presa multipla per distribuire il carico",
+       false,
+       "Le prese multiple in cascata aumentano il rischio."
+      ]
+     ]
+    },
+    {
+     "dom": "La prolunga è avvolta sul rullo. Perché è un problema?",
+     "opz": [
+      [
+       "Perché si inciampa",
+       false,
+       "Anche, ma il rischio principale è un altro."
+      ],
+      [
+       "Perché il cavo avvolto si scalda e può danneggiare l’isolamento",
+       true,
+       "Corretto: una prolunga a rullo va svolta completamente quando alimenta carichi elevati."
+      ],
+      [
+       "Non è un problema",
+       false,
+       "Il cavo avvolto dissipa male il calore."
+      ]
+     ]
+    },
+    {
+     "dom": "Il collega vuole aprire la presa per controllare i contatti. È corretto?",
+     "opz": [
+      [
+       "Sì, con un cacciavite isolato",
+       false,
+       "Gli interventi sugli impianti elettrici sono riservati a personale qualificato."
+      ],
+      [
+       "No: si segnala il guasto e interviene personale esperto o un’impresa abilitata",
+       true,
+       "Corretto: il lavoratore non interviene su parti elettriche."
+      ],
+      [
+       "Sì, se stacca prima la corrente",
+       false,
+       "Resta un intervento riservato a personale qualificato."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "Prese multiple in cascata, prolunghe avvolte e interventi fai-da-te sono tra le cause più frequenti di incendi negli uffici.",
+   "nar": "Una situazione comune in ufficio. Decidi come intervenire.",
+   "rif": "Artt. 80-82 D.lgs. 81/2008 · CEI 11-27"
+  },
+  {
+   "t": "applica",
+   "tit": "Il tuo posto di lavoro",
+   "lead": "Osserva il tuo ambiente di lavoro.",
+   "voci": [
+    "Vie di esodo libere",
+    "Estintori accessibili e segnalati",
+    "Prese e cavi in buono stato",
+    "Scale portatili integre",
+    "Scaffalature ancorate e con portata indicata",
+    "Segnaletica di sicurezza visibile",
+    "Pavimenti senza ostacoli"
+   ],
+   "campo": "Una situazione da migliorare e a chi la segnaleresti",
+   "esempio": "Es.: scatole davanti all’uscita di emergenza del magazzino: lo segnalo al preposto",
+   "min": 3,
+   "nar": "Guarda il tuo ambiente di lavoro con gli occhi del corso. Spunta ciò che è in ordine e descrivi una situazione da migliorare, indicando a chi la segnaleresti."
+  }
+ ]
+}

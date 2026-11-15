@@ -1,0 +1,66 @@
+{
+ "dopo": "Chi deve iscriversi dal 2026: la riforma dell’art. 188-bis",
+ "schermate": [
+  {
+   "t": "classifica",
+   "tit": "Iscrizione al RENTRI: sì o no?",
+   "lead": "Seleziona un’impresa, poi la risposta.",
+   "colonne": [
+    "Obbligata all’iscrizione",
+    "Non obbligata"
+   ],
+   "schede": [
+    [
+     "Officina meccanica con 4 dipendenti che produce oli esausti e filtri",
+     0,
+     "Produce rifiuti pericolosi: è obbligata, a prescindere dal numero di dipendenti.",
+     "Corretto."
+    ],
+    [
+     "Studio di architettura che produce solo carta e toner non pericolosi",
+     1,
+     "Rifiuti non pericolosi da attività di servizio: non rientra nell’art. 189, comma 3.",
+     "Corretto."
+    ],
+    [
+     "Falegnameria artigiana con 8 dipendenti che produce solo segatura e trucioli non pericolosi",
+     0,
+     "Rifiuti non pericolosi da lavorazione artigianale: rientra nell’art. 189, comma 3.",
+     "Corretto."
+    ],
+    [
+     "Impianto autorizzato al recupero di rifiuti inerti",
+     0,
+     "Chi effettua il trattamento dei rifiuti è obbligato.",
+     "Corretto."
+    ],
+    [
+     "Negozio di abbigliamento che produce imballaggi in cartone",
+     1,
+     "Rifiuti non pericolosi da attività commerciale: non è obbligato.",
+     "Corretto."
+    ],
+    [
+     "Impresa che trasporta rifiuti pericolosi per conto terzi",
+     0,
+     "Raccolta e trasporto professionale di rifiuti pericolosi: obbligata.",
+     "Corretto."
+    ],
+    [
+     "Ufficio amministrativo che produce solo rifiuti urbani",
+     1,
+     "Non è tra i soggetti obbligati.",
+     "Corretto."
+    ],
+    [
+     "Carrozzeria con 15 dipendenti che produce vernici di scarto",
+     0,
+     "Produttore di rifiuti pericolosi: obbligata.",
+     "Corretto."
+    ]
+   ],
+   "nar": "Otto imprese. Per ciascuna stabilisci se deve iscriversi al RENTRI secondo il nuovo comma 3-bis dell’articolo centottantotto bis.",
+   "rif": "Art. 188-bis, c. 3-bis, D.lgs. 152/2006"
+  }
+ ]
+}

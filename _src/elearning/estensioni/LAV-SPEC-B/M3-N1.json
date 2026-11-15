@@ -1,0 +1,175 @@
+{
+ "dopo": "Caso di studio · La lavoratrice e il magazzino",
+ "schermate": [
+  {
+   "t": "classifica",
+   "tit": "Contenuto o contesto del lavoro?",
+   "lead": "Seleziona un fattore di stress lavoro-correlato, poi la colonna.",
+   "colonne": [
+    "Contenuto del lavoro",
+    "Contesto del lavoro"
+   ],
+   "schede": [
+    [
+     "Carico e ritmo di lavoro",
+     0,
+     "Riguarda il contenuto del lavoro.",
+     "Corretto."
+    ],
+    [
+     "Orario e turni",
+     0,
+     "Rientra nel contenuto del lavoro.",
+     "Corretto."
+    ],
+    [
+     "Ambiente e attrezzature",
+     0,
+     "Rientra nel contenuto del lavoro.",
+     "Corretto."
+    ],
+    [
+     "Autonomia decisionale e controllo",
+     1,
+     "Riguarda il contesto organizzativo.",
+     "Corretto."
+    ],
+    [
+     "Ruolo nell’organizzazione",
+     1,
+     "Riguarda il contesto.",
+     "Corretto."
+    ],
+    [
+     "Sviluppo di carriera",
+     1,
+     "Riguarda il contesto.",
+     "Corretto."
+    ]
+   ],
+   "nar": "Sei fattori di stress lavoro-correlato. Distingui quelli legati al contenuto del lavoro da quelli legati al contesto organizzativo.",
+   "rif": "Accordo europeo 8 ottobre 2004 · Metodologia INAIL"
+  },
+  {
+   "t": "esempio",
+   "tit": "Esempio guidato · La consegna dei DPI",
+   "lead": "Dalla scelta all’uso corretto.",
+   "passi": [
+    [
+     "Scelta",
+     "Il datore di lavoro sceglie i DPI in base alla valutazione dei rischi.",
+     "DPI adeguati ai rischi"
+    ],
+    [
+     "Consegna",
+     "Il lavoratore riceve il DPI personale, con la nota informativa del fabbricante.",
+     "Consegna documentata"
+    ],
+    [
+     "Formazione",
+     "Per i DPI di III categoria e per i protettori dell’udito è obbligatorio l’addestramento.",
+     "Addestramento dove previsto"
+    ],
+    [
+     "Uso",
+     "Il lavoratore usa il DPI conformemente a formazione e addestramento, ne ha cura e non lo modifica.",
+     "Art. 78"
+    ],
+    [
+     "Segnalazione",
+     "Difetti o inconvenienti si segnalano subito al datore di lavoro, al dirigente o al preposto.",
+     "Segnalare, non riparare"
+    ]
+   ],
+   "nar": "Vediamo il percorso di un dispositivo di protezione individuale. Il datore di lavoro lo sceglie in base alla valutazione dei rischi e lo consegna con la nota informativa del fabbricante. Per i dispositivi di terza categoria e per i protettori dell’udito è obbligatorio anche l’addestramento. Il lavoratore lo usa come gli è stato insegnato, ne ha cura, non lo modifica e segnala subito difetti o inconvenienti.",
+   "rif": "Artt. 74-79 D.lgs. 81/2008"
+  },
+  {
+   "t": "scenario",
+   "tit": "L’allarme di evacuazione",
+   "scena": "Suona l’allarme di evacuazione mentre sei in archivio al piano interrato. Senti odore di fumo dalle scale principali.",
+   "decisioni": [
+    {
+     "dom": "Che cosa fai?",
+     "opz": [
+      [
+       "Finisci di sistemare i documenti e poi esci",
+       false,
+       "All’allarme si interrompe subito l’attività."
+      ],
+      [
+       "Interrompi l’attività e segui il percorso di esodo alternativo indicato dalla segnaletica",
+       true,
+       "Corretto: se il percorso principale è invaso dal fumo si usa quello alternativo."
+      ],
+      [
+       "Prendi l’ascensore per fare prima",
+       false,
+       "In caso di incendio l’ascensore non si usa."
+      ]
+     ]
+    },
+    {
+     "dom": "Lungo il corridoio incontri un collega che non conosce il percorso. Che cosa fai?",
+     "opz": [
+      [
+       "Lo accompagni verso l’uscita",
+       true,
+       "Corretto: aiutare chi è in difficoltà senza esporsi a rischi è un comportamento corretto."
+      ],
+      [
+       "Torni indietro a cercare l’addetto",
+       false,
+       "Non si torna indietro durante l’esodo."
+      ],
+      [
+       "Gli dici di aspettare i soccorsi",
+       false,
+       "Deve uscire con te."
+      ]
+     ]
+    },
+    {
+     "dom": "Arrivato all’esterno, che cosa fai?",
+     "opz": [
+      [
+       "Vai a casa",
+       false,
+       "Devi raggiungere il punto di raccolta per essere contato."
+      ],
+      [
+       "Raggiungi il punto di raccolta e ti fai riconoscere dall’addetto",
+       true,
+       "Corretto: il punto di raccolta permette di sapere se manca qualcuno."
+      ],
+      [
+       "Rientri a prendere la borsa",
+       false,
+       "Non si rientra fino al cessato allarme."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "Interrompere, seguire il percorso sicuro, aiutare chi è in difficoltà, raggiungere il punto di raccolta: è il comportamento previsto dal piano di emergenza.",
+   "nar": "Suona l’allarme mentre sei al piano interrato. Decidi come comportarti.",
+   "rif": "Art. 43 D.lgs. 81/2008 · D.M. 2 settembre 2021"
+  },
+  {
+   "t": "applica",
+   "tit": "Le emergenze nel tuo luogo di lavoro",
+   "lead": "Verifica che cosa sai del piano di emergenza.",
+   "voci": [
+    "Conosco il segnale di allarme",
+    "Conosco il percorso di esodo dal mio posto",
+    "So dov’è il punto di raccolta",
+    "Conosco gli addetti alle emergenze",
+    "So dove sono estintori e cassetta di pronto soccorso",
+    "Ho partecipato a una prova di evacuazione"
+   ],
+   "campo": "Che cosa ti manca da conoscere e a chi lo chiederai",
+   "esempio": "Es.: non so dov’è il punto di raccolta: lo chiederò al preposto",
+   "min": 3,
+   "nar": "Verifica quanto conosci del piano di emergenza del tuo luogo di lavoro e scrivi che cosa ti manca e a chi lo chiederai."
+  }
+ ]
+}

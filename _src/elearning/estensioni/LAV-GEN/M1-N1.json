@@ -1,0 +1,54 @@
+{
+ "dopo": "Esercitazione 1 · Affermazioni vere o false",
+ "schermate": [
+  {
+   "t": "classifica",
+   "tit": "Pericolo o rischio?",
+   "lead": "Seleziona un’affermazione, poi la colonna corretta.",
+   "colonne": [
+    "Pericolo",
+    "Rischio"
+   ],
+   "schede": [
+    [
+     "Il solvente infiammabile contenuto nella tanica",
+     0,
+     "È una proprietà intrinseca del prodotto: è un pericolo.",
+     "Corretto."
+    ],
+    [
+     "La probabilità che un operatore si ustioni pulendo il forno ancora caldo",
+     1,
+     "Combina probabilità e gravità del danno: è un rischio.",
+     "Corretto."
+    ],
+    [
+     "La lama della troncatrice",
+     0,
+     "È la fonte potenziale di danno: è un pericolo.",
+     "Corretto."
+    ],
+    [
+     "La possibilità di cadere usando una scala instabile per due ore al giorno",
+     1,
+     "Dipende dall’esposizione e dalle condizioni d’uso: è un rischio.",
+     "Corretto."
+    ],
+    [
+     "Il rumore prodotto dal compressore",
+     0,
+     "È un agente fisico che può causare danno: è un pericolo.",
+     "Corretto."
+    ],
+    [
+     "La perdita di udito attesa per chi lavora otto ore vicino al compressore senza protezioni",
+     1,
+     "Tiene conto di esposizione e conseguenze: è un rischio.",
+     "Corretto."
+    ]
+   ],
+   "nar": "Sei affermazioni. Distingui i pericoli, cioè le proprietà che possono causare un danno, dai rischi, cioè la probabilità che il danno si verifichi nelle condizioni di lavoro.",
+   "rif": "Art. 2, c. 1, lett. r) e s), D.lgs. 81/2008"
+  }
+ ]
+}

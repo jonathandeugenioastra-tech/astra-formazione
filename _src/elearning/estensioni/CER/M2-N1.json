@@ -1,0 +1,95 @@
+{
+ "dopo": "Esercitazione · Configurazioni e caratteristiche",
+ "schermate": [
+  {
+   "t": "classifica",
+   "tit": "Quale configurazione?",
+   "lead": "Seleziona una situazione, poi la configurazione di autoconsumo diffuso.",
+   "colonne": [
+    "Gruppo di autoconsumatori che agiscono collettivamente",
+    "Autoconsumatore individuale a distanza",
+    "Comunità energetica rinnovabile"
+   ],
+   "schede": [
+    [
+     "Condominio con impianto sul tetto che condivide l’energia tra gli appartamenti",
+     0,
+     "Gli autoconsumatori si trovano nello stesso edificio o condominio.",
+     "Corretto."
+    ],
+    [
+     "Impresa con impianto su un capannone e consumi in un altro sito dello stesso titolare",
+     1,
+     "Un unico cliente finale usa l’energia prodotta in un altro sito.",
+     "Corretto."
+    ],
+    [
+     "Cittadini, PMI e Comune che costituiscono un soggetto giuridico per condividere l’energia",
+     2,
+     "È una comunità energetica rinnovabile, soggetto giuridico autonomo.",
+     "Corretto."
+    ],
+    [
+     "Associazione di famiglie e parrocchia nella stessa cabina primaria",
+     2,
+     "Più soggetti diversi uniti in un soggetto giuridico: comunità energetica.",
+     "Corretto."
+    ],
+    [
+     "Palazzina di uffici con più clienti finali e un impianto comune",
+     0,
+     "Stesso edificio: gruppo di autoconsumatori.",
+     "Corretto."
+    ],
+    [
+     "Comune che usa l’energia di un suo impianto per alimentare un altro edificio comunale",
+     1,
+     "Stesso cliente finale, siti diversi: autoconsumo individuale a distanza.",
+     "Corretto."
+    ]
+   ],
+   "nar": "Sei situazioni reali. Assegna ciascuna alla configurazione di autoconsumo diffuso corretta.",
+   "rif": "D.lgs. 199/2021 · TIAD (ARERA)"
+  },
+  {
+   "t": "vf",
+   "tit": "Energia condivisa e incentivi",
+   "voci": [
+    [
+     "L’energia condivisa si calcola ora per ora come minimo tra energia immessa e prelevata dai membri.",
+     true,
+     "Vero: è il criterio orario usato per gli incentivi."
+    ],
+    [
+     "Per la tariffa premio, i punti di prelievo e gli impianti devono trovarsi sotto la stessa cabina primaria.",
+     true,
+     "Vero."
+    ],
+    [
+     "Una comunità energetica può avere come scopo principale il profitto finanziario.",
+     false,
+     "Falso: lo scopo principale sono i benefici ambientali, economici e sociali per i membri e il territorio."
+    ]
+   ],
+   "nar": "Tre affermazioni su energia condivisa e incentivi: vere o false?",
+   "rif": "D.lgs. 199/2021"
+  },
+  {
+   "t": "applica",
+   "tit": "La configurazione adatta a te",
+   "lead": "Valuta quale configurazione potrebbe interessare la tua organizzazione o il tuo territorio.",
+   "voci": [
+    "Ho una copertura adatta a un impianto",
+    "Ho consumi in più siti dello stesso titolare",
+    "Sono in un condominio o in un edificio con più utenti",
+    "Il mio Comune promuove una comunità energetica",
+    "Ho consumi diurni elevati",
+    "Posso coinvolgere altre imprese della zona"
+   ],
+   "campo": "Configurazione che valuteresti e motivo",
+   "esempio": "Es.: autoconsumo a distanza tra capannone e magazzino, stessa cabina primaria",
+   "min": 2,
+   "nar": "Valuta la tua situazione: spunta le condizioni che ti riguardano e scrivi quale configurazione di autoconsumo valuteresti, spiegando perché."
+  }
+ ]
+}

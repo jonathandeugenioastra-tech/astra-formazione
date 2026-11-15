@@ -43,7 +43,24 @@
   C.moduli.forEach((m, mi) => {
     /* tempo minimo proporzionale alla durata della voce più il tempo di lettura o di attività della schermata */
     const ATT = { grafico: 60, testo: 25, articolo: 40, caso: 60, vf: 60, abbina: 60, ordina: 60, matrice: 60, verifica: 90, pittogrammi: 60, definizioni: 45, figure: 45, esempio: 240, classifica: 300, scenario: 480, applica: 300 };
-    const base = m.schermate.map((s, si) => { const a = window.AUDIO && window.AUDIO.schermate[`${m.id}-${si}`]; const d = a ? (Array.isArray(a) ? a.reduce((x, y) => x + y.d, 0) : a.d) : (s.nar ? s.nar.split(/\s+/).length / 2.4 : 0); return Math.max(20, d + (ATT[s.t] || 20)) * (s.p && !a ? s.p : 1); });
+
+    /* tempo dell'attività calcolato sul contenuto reale della schermata (piano di riprogettazione, par. 4.3) */
+    const parole = x => String(x || '').split(/\s+/).filter(Boolean).length;
+    const attivita = s => {
+      switch (s.t) {
+        case 'verifica': return 45 * ((s.domande || []).length || 2);
+        case 'vf': return 30 * ((s.voci || []).length || 2);
+        case 'classifica': return 40 * s.schede.length;
+        case 'scenario': return 150 * s.decisioni.length;
+        case 'esempio': return 60 * s.passi.length;
+        case 'applica': return 300;
+        case 'definizioni': return 30 * ((s.voci || []).length || 2);
+        case 'grafico': return s.grafico && s.grafico.tipo === 'calcolo' ? (s.grafico.risultati ? 360 : 180) : 120;
+        case 'testo': return 15 + Math.round((parole(s.lead) + (s.punti || []).reduce((a, x) => a + parole(x), 0)) / 3.3);
+        default: return ATT[s.t] || 20;
+      }
+    };
+    const base = m.schermate.map((s, si) => { const a = window.AUDIO && window.AUDIO.schermate[`${m.id}-${si}`]; const d = a ? (Array.isArray(a) ? a.reduce((x, y) => x + y.d, 0) : a.d) : (s.nar ? s.nar.split(/\s+/).length / 2.4 : 0); return Math.max(20, d + attivita(s)) * (s.p && !a ? s.p : 1); });
     /* R1 – schermate di servizio (copertina, obiettivi, apertura modulo, sintesi): tempo minimo = voce + 15 s;
        il tempo del modulo si ripartisce sulle schermate di contenuto, così il monte ore resta invariato */
     const voceS = si => voceSch(m, si), TM = SEC_MOD[mi];

@@ -1,0 +1,75 @@
+{
+ "dopo": "Il decreto-legge 159/2025",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "Le novità per l’RLS",
+   "scena": "In un’impresa con 12 lavoratori l’RLS chiede come cambierà il suo aggiornamento e se potrà accedere a risorse per la formazione.",
+   "decisioni": [
+    {
+     "dom": "Che cosa prevede il decreto per l’aggiornamento dell’RLS nelle imprese sotto i 15 lavoratori?",
+     "opz": [
+      [
+       "L’aggiornamento è affidato alla contrattazione collettiva",
+       true,
+       "Corretto: art. 37, comma 11."
+      ],
+      [
+       "È abolito",
+       false,
+       "Non è abolito."
+      ],
+      [
+       "È di 40 ore annue",
+       false,
+       "Non è la regola."
+      ]
+     ]
+    },
+    {
+     "dom": "Dove saranno registrate le competenze?",
+     "opz": [
+      [
+       "Nel fascicolo elettronico del lavoratore",
+       true,
+       "Corretto: art. 37, comma 14."
+      ],
+      [
+       "Solo nell’archivio aziendale",
+       false,
+       "È previsto il fascicolo elettronico."
+      ],
+      [
+       "Nel DVR",
+       false,
+       "Non è la sede."
+      ]
+     ]
+    },
+    {
+     "dom": "Esistono risorse per la formazione degli RLS?",
+     "opz": [
+      [
+       "Sì: risorse INAIL non inferiori a 35 milioni di euro annui, anche per gli RLS aziendali, territoriali e di sito",
+       true,
+       "Corretto."
+      ],
+      [
+       "No",
+       false,
+       "Il decreto le prevede."
+      ],
+      [
+       "Solo per le grandi imprese",
+       false,
+       "Non è limitato così."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "Il D.L. 159/2025 affida alla contrattazione l’aggiornamento dell’RLS nelle piccole imprese, introduce il fascicolo elettronico e destina risorse INAIL alla formazione.",
+   "nar": "Un RLS chiede delle novità. Rispondi con precisione.",
+   "rif": "D.L. 159/2025 · art. 37 D.lgs. 81/2008"
+  }
+ ]
+}

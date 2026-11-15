@@ -1,0 +1,56 @@
+{
+ "dopo": "Le definizioni fondamentali",
+ "schermate": [
+  {
+   "t": "classifica",
+   "tit": "Quale definizione?",
+   "lead": "Seleziona una descrizione, poi il termine definito dall’art. 2.",
+   "colonne": [
+    "Pericolo",
+    "Rischio",
+    "Prevenzione",
+    "Salute"
+   ],
+   "schede": [
+    [
+     "Proprietà o qualità intrinseca di un fattore con il potenziale di causare danni",
+     0,
+     "È il pericolo.",
+     "Corretto."
+    ],
+    [
+     "Probabilità di raggiungimento del livello potenziale di danno nelle condizioni di impiego o di esposizione",
+     1,
+     "È il rischio.",
+     "Corretto."
+    ],
+    [
+     "Complesso delle disposizioni o misure necessarie per evitare o diminuire i rischi professionali",
+     2,
+     "È la prevenzione.",
+     "Corretto."
+    ],
+    [
+     "Stato di completo benessere fisico, mentale e sociale",
+     3,
+     "È la salute.",
+     "Corretto."
+    ],
+    [
+     "Un solvente infiammabile in magazzino",
+     0,
+     "È un pericolo.",
+     "Corretto."
+    ],
+    [
+     "La possibilità che il solvente prenda fuoco durante un travaso senza messa a terra",
+     1,
+     "È un rischio.",
+     "Corretto."
+    ]
+   ],
+   "nar": "Sei descrizioni ed esempi. Associa ciascuno al termine definito dal Testo unico.",
+   "rif": "Art. 2 D.lgs. 81/2008"
+  }
+ ]
+}

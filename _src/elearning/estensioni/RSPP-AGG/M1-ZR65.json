@@ -1,0 +1,52 @@
+{
+ "dopo": "L'Accordo Stato-Regioni 17 aprile 2025",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Adeguare il catalogo corsi all’Accordo 2025",
+   "lead": "Aggiorni il catalogo dei corsi di un soggetto formatore alle regole dell’Accordo 2025.",
+   "dossier": [
+    [
+     "Catalogo attuale",
+     "corsi preposti 8 ore in e-learning; test finale di 10 domande per tutti i corsi; nessun tutor nei corsi online; fascicoli conservati 5 anni"
+    ],
+    [
+     "Nuovi corsi richiesti",
+     "datori di lavoro e ambienti confinati"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Individua le non conformità del catalogo attuale.",
+     "min": 7,
+     "modello": "Preposti: 12 ore in presenza o videoconferenza sincrona, non 8 ore in e-learning. Test: almeno 30 domande nei corsi base e 10 negli aggiornamenti, soglia 70%. Tutor obbligatorio in e-learning e videoconferenza. Fascicolo conservato 10 anni.",
+     "criteri": [
+      "Ho corretto il corso preposti",
+      "Ho corretto test e tutor",
+      "Ho corretto la conservazione"
+     ]
+    },
+    {
+     "q": "Imposta i nuovi corsi.",
+     "min": 7,
+     "modello": "Datori di lavoro: 16 ore in due moduli, più modulo cantieri di 6 ore per le imprese affidatarie, con aggiornamento quinquennale. Ambienti confinati: 12 ore con parte pratica.",
+     "criteri": [
+      "Ho indicato le durate",
+      "Ho previsto il modulo cantieri"
+     ]
+    },
+    {
+     "q": "Che cosa aggiungi per la verifica di efficacia?",
+     "min": 6,
+     "modello": "Strumenti per il datore di lavoro: schede di osservazione dei comportamenti dopo il corso, indicatori e riscontro al formatore; documentazione nel fascicolo.",
+     "criteri": [
+      "Ho previsto strumenti di osservazione",
+      "Ho previsto la documentazione"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio adegui il catalogo di un soggetto formatore all’Accordo 2025: non conformità, nuovi corsi e verifica di efficacia. Confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "Accordo Stato-Regioni 17 aprile 2025"
+  }
+ ]
+}

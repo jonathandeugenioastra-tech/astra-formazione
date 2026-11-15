@@ -1,0 +1,22 @@
+{
+ "dopo": "Esercitazione 2 · Soggetto e obbligo",
+ "schermate": [
+  {
+   "t": "applica",
+   "tit": "I soggetti della prevenzione nella tua realtà",
+   "lead": "Verifica come è organizzato il sistema di prevenzione dove lavori o che segui.",
+   "voci": [
+    "Datore di lavoro chiaramente individuato",
+    "Deleghe scritte e conosciute",
+    "Preposti individuati e formati",
+    "RSPP con compiti e risorse definiti",
+    "Medico competente con sopralluogo annuale",
+    "RLS eletto e consultato"
+   ],
+   "campo": "Il ruolo che va chiarito per primo e perché",
+   "esempio": "Es.: i capisquadra fanno i preposti ma non sono stati individuati",
+   "min": 3,
+   "nar": "Verifica come è organizzato il sistema di prevenzione dove lavori e indica il ruolo da chiarire per primo."
+  }
+ ]
+}

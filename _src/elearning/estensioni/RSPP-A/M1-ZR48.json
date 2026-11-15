@@ -1,0 +1,75 @@
+{
+ "dopo": "Il sistema istituzionale della prevenzione",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "A chi rivolgersi?",
+   "scena": "Un’impresa ha tre questioni: un dubbio interpretativo, una richiesta di contributo per un investimento in sicurezza e la verifica periodica di un apparecchio di sollevamento.",
+   "decisioni": [
+    {
+     "dom": "Per il contributo all’investimento?",
+     "opz": [
+      [
+       "All’INAIL, tramite i bandi per gli investimenti in sicurezza",
+       true,
+       "Corretto."
+      ],
+      [
+       "All’ASL",
+       false,
+       "Non eroga questi contributi."
+      ],
+      [
+       "Ai Vigili del fuoco",
+       false,
+       "Non è la loro competenza."
+      ]
+     ]
+    },
+    {
+     "dom": "Per la verifica periodica dell’apparecchio di sollevamento?",
+     "opz": [
+      [
+       "All’INAIL per la prima verifica e all’ASL o a soggetti abilitati per le successive",
+       true,
+       "Corretto: art. 71, comma 11."
+      ],
+      [
+       "Al costruttore",
+       false,
+       "Non esegue le verifiche periodiche di legge."
+      ],
+      [
+       "A nessuno",
+       false,
+       "Le verifiche sono obbligatorie."
+      ]
+     ]
+    },
+    {
+     "dom": "Per il dubbio interpretativo?",
+     "opz": [
+      [
+       "Attraverso la propria associazione di categoria, che può presentare un interpello",
+       true,
+       "Corretto."
+      ],
+      [
+       "Direttamente al Ministero, come singola impresa",
+       false,
+       "La singola impresa non è legittimata all’interpello."
+      ],
+      [
+       "Al giudice",
+       false,
+       "Non è la sede."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "Il sistema istituzionale ha compiti diversi: INAIL per incentivi e prime verifiche, ASL e soggetti abilitati per le verifiche successive, associazioni per gli interpelli.",
+   "nar": "Tre questioni da indirizzare all’ente giusto.",
+   "rif": "Artt. 9, 12 e 71 D.lgs. 81/2008"
+  }
+ ]
+}

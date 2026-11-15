@@ -1,0 +1,55 @@
+{
+ "dopo": "Metodi qualitativi, semiquantitativi e strumentali",
+ "schermate": [
+  {
+   "t": "classifica",
+   "tit": "Quale metodo?",
+   "lead": "Seleziona una valutazione, poi il tipo di metodo più adatto.",
+   "colonne": [
+    "Qualitativo",
+    "Semiquantitativo",
+    "Strumentale"
+   ],
+   "schede": [
+    [
+     "Esposizione al rumore di un reparto presse",
+     2,
+     "Richiede misure fonometriche secondo norma.",
+     "Corretto."
+    ],
+    [
+     "Prima ricognizione dei pericoli in un piccolo ufficio",
+     0,
+     "Basta una lista di controllo.",
+     "Corretto."
+    ],
+    [
+     "Confronto delle priorità tra rischi diversi di un magazzino",
+     1,
+     "Matrice P × D.",
+     "Corretto."
+    ],
+    [
+     "Esposizione a toluene dei verniciatori",
+     2,
+     "Misure secondo UNI EN 689.",
+     "Corretto."
+    ],
+    [
+     "Rischio chimico per la sicurezza con un metodo a indici",
+     1,
+     "È semiquantitativo.",
+     "Corretto."
+    ],
+    [
+     "Verifica dello stato delle vie di esodo",
+     0,
+     "Osservazione con lista di controllo.",
+     "Corretto."
+    ]
+   ],
+   "nar": "Sei valutazioni. Scegli il tipo di metodo più adatto.",
+   "rif": "Art. 28 D.lgs. 81/2008 · norme tecniche di misura"
+  }
+ ]
+}

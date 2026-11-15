@@ -1,0 +1,68 @@
+{
+ "dopo": "Il nuovo preposto",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Il preposto negli appalti",
+   "lead": "Organizzi l’individuazione dei preposti in un appalto di manutenzione con due imprese esterne.",
+   "dossier": [
+    [
+     "Committente",
+     "stabilimento chimico"
+    ],
+    [
+     "Appaltatore",
+     "impresa di manutenzione meccanica con 6 tecnici"
+    ],
+    [
+     "Subappaltatore",
+     "impresa di coibentazione con 3 operai"
+    ],
+    [
+     "Durata",
+     "4 settimane, lavori in quota e a caldo"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Che cosa prevede l’art. 26, comma 8-bis?",
+     "min": 6,
+     "modello": "Nei contratti di appalto e subappalto i datori di lavoro appaltatori e subappaltatori indicano espressamente al committente il personale che svolge la funzione di preposto.",
+     "criteri": [
+      "Ho citato l’obbligo di indicazione",
+      "Ho incluso il subappaltatore"
+     ]
+    },
+    {
+     "q": "Quali compiti hanno i preposti delle imprese esterne?",
+     "min": 7,
+     "modello": "Sovrintendere e vigilare sulle proprie squadre, intervenire sui comportamenti non conformi e interrompere l’attività in caso di inosservanza persistente o di pericolo, segnalare deficienze, applicare permessi di lavoro e misure del DUVRI.",
+     "criteri": [
+      "Ho descritto vigilanza e interruzione",
+      "Ho collegato permessi e DUVRI"
+     ]
+    },
+    {
+     "q": "Come coordini i preposti con il committente?",
+     "min": 7,
+     "modello": "Riunione di coordinamento iniziale con DUVRI e permessi di lavoro; referente del committente; brevi riunioni quotidiane; registro dei permessi; canale per segnalare interferenze e sospendere i lavori.",
+     "criteri": [
+      "Ho previsto la riunione iniziale",
+      "Ho previsto permessi e riunioni quotidiane"
+     ]
+    },
+    {
+     "q": "Come verifichi la loro formazione?",
+     "min": 6,
+     "modello": "Attestati del corso di 12 ore in presenza o videoconferenza sincrona e degli aggiornamenti biennali; verifica prima dell’ingresso in stabilimento e registrazione.",
+     "criteri": [
+      "Ho indicato corso e aggiornamento",
+      "Ho previsto la verifica prima dell’ingresso"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio organizzi i preposti in un appalto con subappalto: obbligo di indicazione, compiti, coordinamento con il committente e verifica della formazione. Confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "Artt. 19 e 26, c. 8-bis, D.lgs. 81/2008 · Accordo 17 aprile 2025"
+  }
+ ]
+}

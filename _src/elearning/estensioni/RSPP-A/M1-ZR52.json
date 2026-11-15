@@ -1,0 +1,22 @@
+{
+ "dopo": "Esercitazione 1 · Caso di studio",
+ "schermate": [
+  {
+   "t": "applica",
+   "tit": "Il quadro normativo nella tua attività",
+   "lead": "Verifica come applichi il quadro normativo nel tuo lavoro.",
+   "voci": [
+    "Consulto fonti ufficiali per gli aggiornamenti",
+    "Tengo un registro delle novità normative",
+    "Uso le norme tecniche armonizzate",
+    "Conosco le buone prassi validate",
+    "Documento le segnalazioni al datore di lavoro",
+    "Conosco gli organi di vigilanza competenti"
+   ],
+   "campo": "La fonte che consulterai regolarmente da oggi",
+   "esempio": "Es.: newsletter del Ministero del Lavoro e Gazzetta ufficiale",
+   "min": 3,
+   "nar": "Verifica come applichi il quadro normativo nel tuo lavoro e indica la fonte che consulterai regolarmente."
+  }
+ ]
+}

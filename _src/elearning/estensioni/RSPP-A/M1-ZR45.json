@@ -1,0 +1,56 @@
+{
+ "dopo": "Valutare tutti i rischi: genere, età, provenienza, tipologia contrattuale",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · La valutazione per gruppi di lavoratori",
+   "lead": "Integri la valutazione dei rischi di un’impresa di servizi di pulizia con 80 addetti.",
+   "dossier": [
+    [
+     "Composizione",
+     "70% donne; 25% sopra i 55 anni; 40% di provenienza estera; molti contratti part-time e a termine"
+    ],
+    [
+     "Attività",
+     "pulizie in uffici e ospedali, anche in orari serali"
+    ],
+    [
+     "Dati",
+     "disturbi muscolo-scheletrici frequenti; due aggressioni verbali in ospedale"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Quali rischi assumono rilievo per genere ed età?",
+     "min": 7,
+     "modello": "Movimentazione e posture con attrezzi non adattati alle caratteristiche fisiche; tutela della maternità e agenti chimici dei detergenti; affaticamento e recupero per i lavoratori più anziani; lavoro serale in solitudine.",
+     "criteri": [
+      "Ho considerato genere e maternità",
+      "Ho considerato l’età",
+      "Ho considerato il lavoro in solitudine"
+     ]
+    },
+    {
+     "q": "Quali rischi per provenienza e tipologia contrattuale?",
+     "min": 7,
+     "modello": "Comprensione della lingua per istruzioni e schede dei prodotti; minore esperienza e formazione dei contratti brevi; continuità della sorveglianza sanitaria; minore propensione a segnalare problemi.",
+     "criteri": [
+      "Ho considerato la lingua",
+      "Ho considerato i contratti brevi"
+     ]
+    },
+    {
+     "q": "Proponi misure specifiche.",
+     "min": 7,
+     "modello": "Attrezzi ergonomici regolabili e carrelli leggeri; schede di sicurezza e istruzioni con pittogrammi e nelle lingue necessarie; formazione all’inizio di ogni contratto; procedure per il lavoro serale e contro le aggressioni in accordo con il committente ospedaliero; canali di segnalazione semplici.",
+     "criteri": [
+      "Ho proposto misure per ogni gruppo",
+      "Ho coinvolto il committente"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio integri la valutazione dei rischi di un’impresa di pulizie considerando genere, età, provenienza e tipologia contrattuale, e proponi misure specifiche. Confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "Art. 28, c. 1, D.lgs. 81/2008"
+  }
+ ]
+}

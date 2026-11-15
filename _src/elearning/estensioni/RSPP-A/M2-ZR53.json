@@ -1,0 +1,56 @@
+{
+ "dopo": "Le posizioni di garanzia",
+ "schermate": [
+  {
+   "t": "classifica",
+   "tit": "Chi è il garante?",
+   "lead": "Seleziona un obbligo, poi il soggetto a cui spetta principalmente.",
+   "colonne": [
+    "Datore di lavoro",
+    "Dirigente",
+    "Preposto",
+    "Lavoratore"
+   ],
+   "schede": [
+    [
+     "Valutare tutti i rischi ed elaborare il DVR",
+     0,
+     "Obbligo indelegabile del datore di lavoro.",
+     "Corretto."
+    ],
+    [
+     "Attuare le direttive organizzando l’attività del reparto",
+     1,
+     "È il ruolo del dirigente.",
+     "Corretto."
+    ],
+    [
+     "Sovrintendere e vigilare sull’osservanza delle disposizioni",
+     2,
+     "È il ruolo del preposto.",
+     "Corretto."
+    ],
+    [
+     "Usare correttamente attrezzature e DPI",
+     3,
+     "Obbligo del lavoratore.",
+     "Corretto."
+    ],
+    [
+     "Segnalare immediatamente le deficienze dei mezzi",
+     3,
+     "Obbligo del lavoratore.",
+     "Corretto."
+    ],
+    [
+     "Interrompere l’attività in caso di inosservanza persistente",
+     2,
+     "Obbligo del preposto.",
+     "Corretto."
+    ]
+   ],
+   "nar": "Sei obblighi. Individua il soggetto a cui spettano principalmente.",
+   "rif": "Artt. 17-20 D.lgs. 81/2008"
+  }
+ ]
+}

@@ -1,0 +1,75 @@
+{
+ "dopo": "Infortuni e malattie professionali: dati e analisi",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "Il reparto con troppi infortuni",
+   "scena": "In un reparto di stampaggio gli infortuni alle mani sono passati da 2 a 7 in un anno, senza cambiamenti apparenti.",
+   "decisioni": [
+    {
+     "dom": "Da dove parti?",
+     "opz": [
+      [
+       "Dall’analisi dei singoli eventi con un metodo strutturato e dalla ricerca di cause comuni",
+       true,
+       "Corretto: l’aumento va spiegato con dati."
+      ],
+      [
+       "Da un richiamo generale all’attenzione",
+       false,
+       "Non individua le cause."
+      ],
+      [
+       "Dal cambio dei guanti",
+       false,
+       "Senza analisi è un tentativo a caso."
+      ]
+     ]
+    },
+    {
+     "dom": "L’analisi mostra che 5 eventi su 7 sono avvenuti con un nuovo stampo a cambio rapido. Che cosa fai?",
+     "opz": [
+      [
+       "Valuti il nuovo stampo e la procedura di cambio, coinvolgendo operatori e manutenzione",
+       true,
+       "Corretto: il cambiamento non gestito è la causa probabile."
+      ],
+      [
+       "Togli lo stampo dalla produzione per sempre",
+       false,
+       "Prima va valutato."
+      ],
+      [
+       "Ignori il dato",
+       false,
+       "È il dato più importante."
+      ]
+     ]
+    },
+    {
+     "dom": "Come verifichi l’efficacia delle misure?",
+     "opz": [
+      [
+       "Monitorando infortuni, quasi incidenti e osservazioni sul cambio stampo nei mesi successivi",
+       true,
+       "Corretto."
+      ],
+      [
+       "Aspettando la fine dell’anno",
+       false,
+       "Il monitoraggio deve essere continuo."
+      ],
+      [
+       "Con un questionario di gradimento",
+       false,
+       "Non misura l’efficacia."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "I dati infortunistici vanno analizzati evento per evento cercando cause comuni: spesso dietro un aumento c’è un cambiamento non gestito.",
+   "nar": "Gli infortuni alle mani aumentano. Trova la causa.",
+   "rif": "Art. 28 D.lgs. 81/2008 · modello Infor.MO"
+  }
+ ]
+}

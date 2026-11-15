@@ -1,0 +1,22 @@
+{
+ "dopo": "Esercitazione 5 · Affermazioni vere o false",
+ "schermate": [
+  {
+   "t": "applica",
+   "tit": "DPI, segnaletica ed emergenze nella tua realtà",
+   "lead": "Verifica lo stato di DPI, segnaletica ed emergenze.",
+   "voci": [
+    "DPI scelti in base alla valutazione",
+    "Addestramento ai DPI di III categoria registrato",
+    "Segnaletica conforme e aggiornata",
+    "Piano di emergenza aggiornato",
+    "Esercitazione svolta nell’ultimo anno",
+    "Addetti in tutti i turni"
+   ],
+   "campo": "La carenza più importante e l’azione che proponi",
+   "esempio": "Es.: nessun addestramento registrato per le imbracature",
+   "min": 3,
+   "nar": "Verifica lo stato di DPI, segnaletica ed emergenze nella tua realtà e indica la carenza più importante."
+  }
+ ]
+}

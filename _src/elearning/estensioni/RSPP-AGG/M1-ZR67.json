@@ -1,0 +1,55 @@
+{
+ "dopo": "La responsabilità penale del RSPP",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · La segnalazione scritta dell’RSPP",
+   "lead": "Scrivi una segnalazione al datore di lavoro dopo un sopralluogo in cui hai trovato un rischio grave.",
+   "dossier": [
+    [
+     "Rilievo",
+     "scaffalatura del magazzino con montante deformato e carichi oltre la portata indicata"
+    ],
+    [
+     "Contesto",
+     "passaggio frequente di carrelli e persone"
+    ],
+    [
+     "Precedenti",
+     "nessuna segnalazione precedente"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Scrivi la descrizione del rischio.",
+     "min": 7,
+     "modello": "Data, area, descrizione oggettiva: montante della campata 12 deformato da un urto, carichi stimati oltre la portata indicata in targa; possibile crollo con lesioni gravissime per le persone in corsia.",
+     "criteri": [
+      "Ho descritto i fatti con data e luogo",
+      "Ho indicato la possibile conseguenza"
+     ]
+    },
+    {
+     "q": "Indica le misure proposte con urgenza e responsabilità.",
+     "min": 7,
+     "modello": "Immediata: scarico della campata e interdizione dell’area. Entro una settimana: verifica da parte di persona competente e sostituzione del montante. Poi: protezioni dei montanti, regole di carico, ispezioni periodiche. Decisione e risorse: datore di lavoro.",
+     "criteri": [
+      "Ho distinto misure immediate e successive",
+      "Ho indicato chi decide"
+     ]
+    },
+    {
+     "q": "Come rendi la segnalazione tracciabile ed efficace?",
+     "min": 6,
+     "modello": "Invio scritto con data certa o ricevuta, richiesta di riscontro entro un termine, copia nell’archivio del servizio, verifica sul posto alla scadenza e annotazione dello stato.",
+     "criteri": [
+      "Ho previsto data certa e riscontro",
+      "Ho previsto la verifica successiva"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio scrivi la segnalazione dell’RSPP al datore di lavoro su una scaffalatura danneggiata: descrizione del rischio, misure proposte e tracciabilità. Confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "Art. 33 D.lgs. 81/2008 · Cass. pen., Sezioni Unite, n. 38343/2014"
+  }
+ ]
+}

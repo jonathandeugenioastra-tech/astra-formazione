@@ -1,0 +1,51 @@
+{
+ "dopo": "Lavoro irregolare e gravi violazioni: la sospensione dell’art. 14",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · La sospensione dell’attività",
+   "lead": "Gestisci un provvedimento di sospensione in un cantiere edile.",
+   "dossier": [
+    [
+     "Accertamento",
+     "su 15 lavoratori presenti, 3 senza comunicazione di assunzione; nessuna protezione contro le cadute su un solaio"
+    ],
+    [
+     "Provvedimento",
+     "sospensione della parte dell’attività interessata"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Quali presupposti sono stati accertati?",
+     "min": 6,
+     "modello": "Lavoro irregolare oltre la soglia: 3 su 15 è il 20%, oltre il 10%; gravi violazioni in materia di sicurezza, come la mancata protezione contro le cadute dall’alto, che rientrano nell’Allegato I.",
+     "criteri": [
+      "Ho calcolato il 20%",
+      "Ho collegato la caduta dall’alto all’Allegato I"
+     ]
+    },
+    {
+     "q": "Che cosa serve per la revoca?",
+     "min": 7,
+     "modello": "Regolarizzazione dei lavoratori irregolari; ripristino delle condizioni di sicurezza con le protezioni contro le cadute; pagamento delle somme aggiuntive previste, ad esempio 2.500 euro per il lavoro irregolare, raddoppiate in caso di recidiva.",
+     "criteri": [
+      "Ho indicato regolarizzazione e ripristino",
+      "Ho indicato le somme aggiuntive"
+     ]
+    },
+    {
+     "q": "Quali altre conseguenze ha la sospensione?",
+     "min": 6,
+     "modello": "Divieto di contrattare con la pubblica amministrazione per la durata della sospensione; riflessi sulla patente a crediti; possibili contravvenzioni e sanzioni per le violazioni accertate. Il provvedimento può essere impugnato secondo le regole previste.",
+     "criteri": [
+      "Ho indicato il divieto con la PA",
+      "Ho indicato i riflessi sulla patente"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio gestisci un provvedimento di sospensione dell’attività in un cantiere: presupposti, condizioni per la revoca e altre conseguenze. Confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "Art. 14 e Allegato I D.lgs. 81/2008"
+  }
+ ]
+}

@@ -1,0 +1,75 @@
+{
+ "dopo": "Cantieri: patente a crediti e badge",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "Il badge di cantiere",
+   "scena": "Un’impresa affidataria apre un cantiere dove lavoreranno quattro imprese subappaltatrici.",
+   "decisioni": [
+    {
+     "dom": "A che cosa serve il badge di cantiere?",
+     "opz": [
+      [
+       "A identificare e tracciare le presenze dei lavoratori nel cantiere, rafforzando i controlli",
+       true,
+       "Corretto: introdotto dal D.L. 159/2025."
+      ],
+      [
+       "A sostituire la tessera di riconoscimento",
+       false,
+       "Si aggiunge agli strumenti esistenti."
+      ],
+      [
+       "A pagare i lavoratori",
+       false,
+       "Non è la sua funzione."
+      ]
+     ]
+    },
+    {
+     "dom": "Che cosa verifichi per ogni subappaltatore?",
+     "opz": [
+      [
+       "Patente a crediti con almeno 15 crediti, idoneità tecnico-professionale e POS",
+       true,
+       "Corretto."
+      ],
+      [
+       "Solo il preventivo",
+       false,
+       "Non basta."
+      ],
+      [
+       "Solo il DURC",
+       false,
+       "È solo uno dei documenti."
+      ]
+     ]
+    },
+    {
+     "dom": "Un lavoratore si presenta senza badge e senza tessera. Che cosa fai?",
+     "opz": [
+      [
+       "Non lo fai entrare finché non è identificato e verificata la sua posizione",
+       true,
+       "Corretto."
+      ],
+      [
+       "Lo fai entrare se è accompagnato",
+       false,
+       "Va identificato."
+      ],
+      [
+       "Lo registri a fine giornata",
+       false,
+       "La verifica è all’ingresso."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "Badge di cantiere, patente a crediti e documenti delle imprese: il controllo degli accessi è la prima misura di legalità e di sicurezza del cantiere.",
+   "nar": "Un cantiere con quattro subappaltatori. Organizza i controlli di accesso.",
+   "rif": "Art. 27 D.lgs. 81/2008 · D.L. 159/2025"
+  }
+ ]
+}

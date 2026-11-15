@@ -1,0 +1,55 @@
+{
+ "dopo": "Idoneità con limitazioni e inidoneità: art. 42",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Ricollocare un lavoratore",
+   "lead": "Il medico competente giudica un saldatore inidoneo temporaneamente per sei mesi all’esposizione a fumi di saldatura.",
+   "dossier": [
+    [
+     "Lavoratore",
+     "saldatore esperto, 52 anni"
+    ],
+    [
+     "Mansioni disponibili",
+     "magazzino, controllo qualità, manutenzione meccanica"
+    ],
+    [
+     "Contratto",
+     "livello di inquadramento del saldatore"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Che cosa deve fare il datore di lavoro?",
+     "min": 6,
+     "modello": "Attuare le misure indicate dal medico competente e, se possibile, adibire il lavoratore a mansioni equivalenti o, in difetto, inferiori, garantendo il trattamento corrispondente alle mansioni di provenienza.",
+     "criteri": [
+      "Ho richiamato l’art. 42",
+      "Ho indicato la garanzia del trattamento"
+     ]
+    },
+    {
+     "q": "Quale mansione proponi e con quali verifiche?",
+     "min": 6,
+     "modello": "Il controllo qualità, che valorizza l’esperienza e non espone a fumi; verifica con il medico competente della compatibilità con il giudizio; formazione specifica sui nuovi compiti; informazione al preposto delle limitazioni.",
+     "criteri": [
+      "Ho scelto una mansione compatibile",
+      "Ho previsto la verifica del medico e la formazione"
+     ]
+    },
+    {
+     "q": "Che cosa succede alla scadenza dei sei mesi?",
+     "min": 5,
+     "modello": "Nuova visita del medico competente per rivalutare l’idoneità; se il giudizio cambia, rientro nella mansione con eventuali prescrizioni; se resta l’inidoneità, nuova valutazione organizzativa.",
+     "criteri": [
+      "Ho previsto la nuova visita",
+      "Ho previsto le alternative"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio gestisci la ricollocazione di un saldatore giudicato temporaneamente inidoneo: obblighi del datore di lavoro, mansione proposta e scadenza del giudizio. Confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "Artt. 18, 41 e 42 D.lgs. 81/2008"
+  }
+ ]
+}

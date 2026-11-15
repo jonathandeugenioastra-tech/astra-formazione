@@ -1,0 +1,75 @@
+{
+ "dopo": "Dispositivi di protezione collettiva e individuale",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "Il parapetto o l’imbracatura?",
+   "scena": "In un capannone occorre accedere periodicamente a una passerella in quota per la manutenzione dei carriponte. Il fornitore propone imbracature per tutti.",
+   "decisioni": [
+    {
+     "dom": "Qual è la scelta prioritaria?",
+     "opz": [
+      [
+       "Un parapetto permanente sulla passerella, misura di protezione collettiva",
+       true,
+       "Corretto: le protezioni collettive hanno la priorità."
+      ],
+      [
+       "Le imbracature, perché costano meno",
+       false,
+       "Il costo non inverte la priorità."
+      ],
+      [
+       "Un cartello di pericolo",
+       false,
+       "Non protegge dalla caduta."
+      ]
+     ]
+    },
+    {
+     "dom": "Se il parapetto non è realizzabile in un tratto, che cosa serve?",
+     "opz": [
+      [
+       "Un sistema anticaduta con ancoraggi idonei, DPI di categoria III, addestramento e piano di soccorso",
+       true,
+       "Corretto."
+      ],
+      [
+       "Solo l’imbracatura",
+       false,
+       "Servono ancoraggi, addestramento e soccorso."
+      ],
+      [
+       "Lavorare con attenzione",
+       false,
+       "Non è una misura."
+      ]
+     ]
+    },
+    {
+     "dom": "Chi verifica periodicamente i dispositivi anticaduta?",
+     "opz": [
+      [
+       "Una persona competente, secondo le istruzioni del fabbricante, con registrazione",
+       true,
+       "Corretto."
+      ],
+      [
+       "Nessuno",
+       false,
+       "Le verifiche sono necessarie."
+      ],
+      [
+       "Solo l’utilizzatore a vista",
+       false,
+       "Serve un controllo periodico competente."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "Prima le protezioni collettive, poi i DPI con ancoraggi, addestramento e piano di soccorso, verificati periodicamente.",
+   "nar": "Accesso a una passerella in quota. Scegli le protezioni.",
+   "rif": "Artt. 15, 75, 111 e 115 D.lgs. 81/2008"
+  }
+ ]
+}

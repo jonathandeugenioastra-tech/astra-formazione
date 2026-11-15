@@ -1,0 +1,55 @@
+{
+ "dopo": "Responsabilità civile e penale",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Le conseguenze di un infortunio",
+   "lead": "Ricostruisci le conseguenze giuridiche di una caduta dall’alto in un’impresa di installazione di impianti.",
+   "dossier": [
+    [
+     "Evento",
+     "un tecnico cade da una copertura non protetta; prognosi di 70 giorni"
+    ],
+    [
+     "Misure",
+     "nessun parapetto né linea vita; il tecnico non aveva l’imbracatura"
+    ],
+    [
+     "Impresa",
+     "40 dipendenti, nessun modello organizzativo"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Quali conseguenze penali per le persone fisiche?",
+     "min": 7,
+     "modello": "Lesioni personali colpose gravi, perché la malattia supera i 40 giorni, aggravate dalla violazione delle norme di sicurezza, procedibili d’ufficio; possibili contravvenzioni del D.lgs. 81/2008 per l’omessa adozione delle misure contro le cadute.",
+     "criteri": [
+      "Ho indicato le lesioni gravi",
+      "Ho indicato le contravvenzioni"
+     ]
+    },
+    {
+     "q": "Quali conseguenze civili e assicurative?",
+     "min": 7,
+     "modello": "L’INAIL indennizza il lavoratore; il datore di lavoro responsabile penalmente non beneficia dell’esonero e può subire il regresso dell’INAIL e la richiesta del danno differenziale.",
+     "criteri": [
+      "Ho indicato l’indennizzo INAIL",
+      "Ho indicato regresso e danno differenziale"
+     ]
+    },
+    {
+     "q": "E per l’impresa come ente?",
+     "min": 6,
+     "modello": "Le lesioni gravi con violazione delle norme di sicurezza sono reato presupposto dell’art. 25-septies: senza modello organizzativo efficace l’ente rischia sanzioni pecuniarie e interdittive se c’è interesse o vantaggio, come il risparmio sulle protezioni.",
+     "criteri": [
+      "Ho collegato l’art. 25-septies",
+      "Ho indicato interesse o vantaggio"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio ricostruisci le conseguenze penali, civili e per l’ente di una caduta dall’alto. Confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "Art. 590 c.p. · artt. 10-11 D.P.R. 1124/1965 · art. 25-septies D.lgs. 231/2001"
+  }
+ ]
+}

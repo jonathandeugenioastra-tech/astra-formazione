@@ -1,0 +1,55 @@
+{
+ "dopo": "Norme tecniche, buone prassi e interpelli",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Usare interpelli e buone prassi",
+   "lead": "Un’associazione di categoria ti chiede supporto su un dubbio interpretativo diffuso tra le imprese associate.",
+   "dossier": [
+    [
+     "Dubbio",
+     "se un certo addestramento debba essere ripetuto a ogni cambio di modello di attrezzatura"
+    ],
+    [
+     "Imprese",
+     "circa 200 associate"
+    ],
+    [
+     "Fonti disponibili",
+     "risposte a interpelli, buone prassi validate, linee guida"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Chi può presentare un interpello e su che cosa?",
+     "min": 6,
+     "modello": "Organismi associativi a rilevanza nazionale, enti pubblici nazionali, consigli nazionali degli ordini e collegi professionali, su questioni di ordine generale sull’applicazione della normativa. Una singola impresa non lo presenta direttamente.",
+     "criteri": [
+      "Ho indicato i soggetti legittimati",
+      "Ho indicato il carattere generale"
+     ]
+    },
+    {
+     "q": "Che valore hanno risposte agli interpelli, buone prassi e linee guida?",
+     "min": 6,
+     "modello": "Le risposte agli interpelli costituiscono criteri interpretativi e direttivi per l’attività di vigilanza. Le buone prassi sono soluzioni validate dalla Commissione consultiva; le linee guida sono atti di indirizzo. Aiutano a dimostrare scelte coerenti.",
+     "criteri": [
+      "Ho indicato il valore delle risposte",
+      "Ho distinto buone prassi e linee guida"
+     ]
+    },
+    {
+     "q": "Come formuli il quesito?",
+     "min": 6,
+     "modello": "In modo generale e astratto, citando le norme interessate, descrivendo il dubbio senza riferimenti a singole aziende e proponendo, se utile, le interpretazioni possibili.",
+     "criteri": [
+      "Ho reso il quesito generale",
+      "Ho citato le norme"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio aiuti un’associazione di categoria a usare interpelli, buone prassi e linee guida: chi può presentare un interpello, valore delle fonti e formulazione del quesito. Confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "Artt. 2, 6 e 12 D.lgs. 81/2008"
+  }
+ ]
+}

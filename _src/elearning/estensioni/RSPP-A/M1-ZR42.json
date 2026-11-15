@@ -1,0 +1,55 @@
+{
+ "dopo": "Il quadro europeo: la direttiva quadro e le direttive particolari",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Dalla direttiva al decreto",
+   "lead": "Ricostruisci il percorso da una direttiva europea all’obbligo applicato in azienda.",
+   "dossier": [
+    [
+     "Esempio",
+     "direttiva sugli agenti cancerogeni e mutageni, modificata più volte, da ultimo con la Dir. (UE) 2022/431 e la Dir. (UE) 2024/869"
+    ],
+    [
+     "Recepimento",
+     "D.lgs. 135/2024 per i reprotossici e i nuovi valori limite"
+    ],
+    [
+     "Azienda",
+     "verniciatura con prodotti contenenti composti del piombo"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Che differenza c’è tra direttiva e regolamento europeo?",
+     "min": 5,
+     "modello": "La direttiva vincola gli Stati sul risultato e va recepita con una norma nazionale; il regolamento è direttamente applicabile in tutti gli Stati, come il REACH e il CLP.",
+     "criteri": [
+      "Ho distinto direttiva e regolamento",
+      "Ho fatto esempi"
+     ]
+    },
+    {
+     "q": "Come arriva l’obbligo in azienda nel caso del piombo?",
+     "min": 7,
+     "modello": "La direttiva introduce nuovi valori limite e include i reprotossici; il decreto di recepimento modifica il Titolo IX e i suoi allegati; l’azienda aggiorna la valutazione, applica il Capo II ai reprotossici e i nuovi valori limite, aggiorna sorveglianza e registro degli esposti.",
+     "criteri": [
+      "Ho descritto i passaggi",
+      "Ho indicato le conseguenze per l’azienda"
+     ]
+    },
+    {
+     "q": "Come si tiene aggiornato un RSPP sulle novità europee?",
+     "min": 6,
+     "modello": "Monitorando Gazzetta ufficiale dell’Unione e Gazzetta ufficiale italiana, le pubblicazioni del Ministero del Lavoro e dell’INAIL, le norme tecniche armonizzate; registrando le novità in un registro delle prescrizioni con impatto e azioni.",
+     "criteri": [
+      "Ho indicato fonti ufficiali",
+      "Ho previsto un registro delle novità"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio ricostruisci il percorso da una direttiva europea all’obbligo in azienda, con l’esempio del piombo: differenza tra direttiva e regolamento, passaggi del recepimento e aggiornamento professionale. Confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "TFUE, art. 288 · D.lgs. 135/2024"
+  }
+ ]
+}

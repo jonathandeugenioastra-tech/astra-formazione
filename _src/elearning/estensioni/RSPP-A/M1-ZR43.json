@@ -1,0 +1,55 @@
+{
+ "dopo": "Normazione tecnica e principio di precauzione",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Norma armonizzata e presunzione di conformità",
+   "lead": "Un costruttore di macchine italiano progetta una cesoia per lamiera e ti chiede come usare le norme tecniche.",
+   "dossier": [
+    [
+     "Macchina",
+     "cesoia a ghigliottina idraulica"
+    ],
+    [
+     "Riferimenti",
+     "regolamento macchine (UE) 2023/1230 applicabile dal 20 gennaio 2027; direttiva 2006/42/CE fino ad allora"
+    ],
+    [
+     "Norme",
+     "UNI EN ISO 12100 per la valutazione del rischio; norma di tipo C specifica per le cesoie"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Che cosa significa presunzione di conformità?",
+     "min": 6,
+     "modello": "Se la macchina è progettata secondo norme armonizzate pubblicate nella Gazzetta ufficiale dell’Unione, si presume conforme ai requisiti essenziali coperti da quelle norme. Le norme restano volontarie: si può seguire un’altra strada dimostrando la conformità.",
+     "criteri": [
+      "Ho spiegato la presunzione",
+      "Ho ricordato la volontarietà"
+     ]
+    },
+    {
+     "q": "Come si usano insieme le norme di tipo A, B e C?",
+     "min": 7,
+     "modello": "Tipo A, come la UNI EN ISO 12100: principi generali di valutazione e riduzione del rischio. Tipo B: aspetti di sicurezza comuni, come distanze di sicurezza o dispositivi di interblocco. Tipo C: requisiti specifici per la cesoia, che prevalgono sulle altre per i pericoli trattati.",
+     "criteri": [
+      "Ho descritto i tre tipi",
+      "Ho indicato la prevalenza della norma C"
+     ]
+    },
+    {
+     "q": "Che cosa cambia per il costruttore con il nuovo regolamento?",
+     "min": 6,
+     "modello": "Dal 20 gennaio 2027 si applica il regolamento (UE) 2023/1230: requisiti aggiornati, anche per software e sistemi autonomi, istruzioni anche in formato digitale e nuove procedure per alcune categorie di macchine. Il costruttore deve pianificare la transizione dei fascicoli tecnici.",
+     "criteri": [
+      "Ho indicato la data di applicazione",
+      "Ho citato almeno due novità"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio aiuti un costruttore a usare le norme tecniche per una cesoia: presunzione di conformità, norme di tipo A, B e C e novità del regolamento macchine. Confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "Reg. (UE) 2023/1230 · Dir. 2006/42/CE · UNI EN ISO 12100"
+  }
+ ]
+}

@@ -1,0 +1,75 @@
+{
+ "dopo": "Chi vigila: ASL, Ispettorato nazionale del lavoro e altri organi",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "Due ispettori nello stesso giorno",
+   "scena": "In uno stesso stabilimento si presentano un ispettore dell’Ispettorato nazionale del lavoro e, in un secondo momento, i tecnici della ASL.",
+   "decisioni": [
+    {
+     "dom": "È possibile che entrambi abbiano competenza in materia di sicurezza?",
+     "opz": [
+      [
+       "Sì: dal D.L. 146/2021 l’Ispettorato ha competenza estesa in materia di salute e sicurezza in tutti i settori, accanto alle ASL",
+       true,
+       "Corretto."
+      ],
+      [
+       "No, solo la ASL",
+       false,
+       "La competenza è stata estesa."
+      ],
+      [
+       "No, solo l’Ispettorato",
+       false,
+       "Le ASL mantengono la competenza."
+      ]
+     ]
+    },
+    {
+     "dom": "Come si coordinano?",
+     "opz": [
+      [
+       "Attraverso la programmazione coordinata a livello regionale e lo scambio di informazioni",
+       true,
+       "Corretto: i comitati regionali di coordinamento."
+      ],
+      [
+       "Non si coordinano",
+       false,
+       "Il coordinamento è previsto."
+      ],
+      [
+       "Decide l’impresa chi ricevere",
+       false,
+       "Non spetta all’impresa."
+      ]
+     ]
+    },
+    {
+     "dom": "Come si comporta l’impresa?",
+     "opz": [
+      [
+       "Collabora con entrambi, tenendo un registro delle ispezioni e delle prescrizioni ricevute",
+       true,
+       "Corretto."
+      ],
+      [
+       "Rifiuta il secondo controllo",
+       false,
+       "Non è ammesso."
+      ],
+      [
+       "Chiede di unificare le visite",
+       false,
+       "Può chiederlo, ma non è un diritto."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "ASL e Ispettorato nazionale del lavoro vigilano entrambi sulla sicurezza, coordinandosi a livello regionale: l’impresa collabora e traccia ispezioni e prescrizioni.",
+   "nar": "Due organi di vigilanza nello stesso stabilimento. Comportati correttamente.",
+   "rif": "Art. 13 D.lgs. 81/2008 · D.L. 146/2021"
+  }
+ ]
+}

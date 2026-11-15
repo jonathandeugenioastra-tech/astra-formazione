@@ -1,0 +1,75 @@
+{
+ "dopo": "Il medico competente: titoli e obblighi",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "Il medico senza titolo",
+   "scena": "Un’impresa vuole nominare medico competente il medico di famiglia del titolare, specialista in cardiologia.",
+   "decisioni": [
+    {
+     "dom": "Può essere nominato?",
+     "opz": [
+      [
+       "No: servono la specializzazione in medicina del lavoro o i titoli equipollenti dell’art. 38 e l’iscrizione nell’elenco nazionale",
+       true,
+       "Corretto."
+      ],
+      [
+       "Sì, qualsiasi medico",
+       false,
+       "Servono titoli specifici."
+      ],
+      [
+       "Sì, se fa un corso di 8 ore",
+       false,
+       "Non è sufficiente."
+      ]
+     ]
+    },
+    {
+     "dom": "Il medico competente può essere dipendente dell’impresa?",
+     "opz": [
+      [
+       "Sì: può essere dipendente, collaboratore di una struttura esterna o libero professionista",
+       true,
+       "Corretto: art. 39."
+      ],
+      [
+       "No, mai",
+       false,
+       "È ammesso."
+      ],
+      [
+       "Solo se è anche RSPP",
+       false,
+       "Non è una condizione."
+      ]
+     ]
+    },
+    {
+     "dom": "Dove sono custodite le cartelle sanitarie?",
+     "opz": [
+      [
+       "Presso il luogo di custodia concordato con il datore di lavoro, con salvaguardia del segreto professionale",
+       true,
+       "Corretto."
+      ],
+      [
+       "Nell’ufficio del personale, liberamente consultabili",
+       false,
+       "Violerebbe la riservatezza."
+      ],
+      [
+       "Non vanno conservate",
+       false,
+       "Vanno conservate."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "Il medico competente deve avere i titoli dell’art. 38 ed essere iscritto nell’elenco nazionale; le cartelle sanitarie sono custodite con il segreto professionale.",
+   "nar": "Un’impresa sceglie il medico competente. Verifica i requisiti.",
+   "rif": "Artt. 25, 38 e 39 D.lgs. 81/2008"
+  }
+ ]
+}

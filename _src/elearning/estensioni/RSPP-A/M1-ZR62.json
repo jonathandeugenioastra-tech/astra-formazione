@@ -1,0 +1,56 @@
+{
+ "dopo": "Dalla tutela reattiva alla prevenzione organizzata",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Da reattivo a preventivo",
+   "lead": "Analizzi come un’impresa di 70 lavoratori gestisce oggi la sicurezza e proponi il passaggio a un approccio preventivo.",
+   "dossier": [
+    [
+     "Oggi",
+     "si interviene dopo gli infortuni; il DVR è un documento redatto una volta e archiviato; i quasi incidenti non si registrano"
+    ],
+    [
+     "Risorse",
+     "RSPP esterno 8 giorni l’anno; preposti non formati"
+    ],
+    [
+     "Obiettivo della direzione",
+     "ridurre gli infortuni del 30% in due anni"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Quali segnali indicano un approccio reattivo?",
+     "min": 6,
+     "modello": "Interventi solo dopo gli eventi; DVR statico e non usato; assenza di dati sui quasi incidenti; preposti non formati; nessun indicatore proattivo.",
+     "criteri": [
+      "Ho elencato i segnali reattivi"
+     ]
+    },
+    {
+     "q": "Proponi cinque azioni per un approccio preventivo.",
+     "min": 8,
+     "modello": "Registrazione e analisi dei quasi incidenti; DVR come strumento vivo con programma delle misure monitorato; formazione e individuazione dei preposti; sopralluoghi periodici della direzione; riunioni brevi di reparto e indicatori proattivi.",
+     "criteri": [
+      "Ho proposto azioni organizzative",
+      "Ho collegato DVR e programma",
+      "Ho previsto indicatori proattivi"
+     ],
+     "minc": 120
+    },
+    {
+     "q": "Come misuri il raggiungimento dell’obiettivo?",
+     "min": 6,
+     "modello": "Indice di frequenza e numero di infortuni rispetto all’anno base, insieme a indicatori proattivi come quasi incidenti segnalati e azioni chiuse: la riduzione degli infortuni deve essere accompagnata da una crescita delle attività preventive.",
+     "criteri": [
+      "Ho indicato l’indicatore di risultato",
+      "Ho collegato indicatori proattivi"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio analizzi un’impresa che gestisce la sicurezza in modo reattivo e proponi il passaggio a un approccio preventivo, con azioni e indicatori. Confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "Art. 15 D.lgs. 81/2008 · UNI EN ISO 45001"
+  }
+ ]
+}

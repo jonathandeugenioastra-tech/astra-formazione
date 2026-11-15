@@ -1,0 +1,54 @@
+{
+ "dopo": "Le esercitazioni di evacuazione",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Il verbale dell’esercitazione",
+   "lead": "Analizzi gli esiti dell’esercitazione di evacuazione di un’azienda con 60 lavoratori.",
+   "dossier": [
+    [
+     "Tempi",
+     "allarme alle 10:00; ultimo lavoratore al punto di raccolta alle 10:09"
+    ],
+    [
+     "Problemi",
+     "una uscita bloccata da pallet; due lavoratori non hanno sentito l’allarme nel reparto rumoroso; l’appello è durato 6 minuti per mancanza dell’elenco dei presenti"
+    ],
+    [
+     "Positivo",
+     "addetti presenti e coordinati"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Scrivi la sintesi del verbale.",
+     "min": 6,
+     "modello": "Data e scenario; tempi di evacuazione, 9 minuti; partecipanti e addetti; criticità: uscita ostruita, allarme non udibile nel reparto rumoroso, appello lento; aspetti positivi; azioni correttive con responsabili.",
+     "criteri": [
+      "Ho riportato tempi e scenario",
+      "Ho riportato criticità e aspetti positivi"
+     ]
+    },
+    {
+     "q": "Proponi le azioni correttive.",
+     "min": 7,
+     "modello": "Liberazione immediata e controllo quotidiano delle vie di esodo; segnalatori luminosi nel reparto rumoroso; elenco dei presenti aggiornato e disponibile al coordinatore; informazione ai lavoratori; nuova esercitazione per verificare.",
+     "criteri": [
+      "Ho proposto azioni per ogni criticità",
+      "Ho previsto la verifica"
+     ]
+    },
+    {
+     "q": "Quali indicatori usi per confrontare le esercitazioni nel tempo?",
+     "min": 5,
+     "modello": "Tempo totale di evacuazione; tempo dell’appello; numero di persone non raggiunte dall’allarme; criticità ripetute; azioni chiuse prima della prova successiva.",
+     "criteri": [
+      "Ho proposto indicatori misurabili"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio analizzi gli esiti di un’esercitazione di evacuazione: sintesi del verbale, azioni correttive e indicatori per confrontare le prove nel tempo. Confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "D.M. 2 settembre 2021"
+  }
+ ]
+}

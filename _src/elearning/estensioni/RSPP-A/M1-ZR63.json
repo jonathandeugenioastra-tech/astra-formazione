@@ -1,0 +1,75 @@
+{
+ "dopo": "La responsabilità amministrativa degli enti",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "L’interesse dell’ente",
+   "scena": "Per rispettare una consegna, il direttore di produzione autorizza a lavorare con una pressa senza la barriera fotoelettrica, guasta da giorni. Un operaio si ferisce gravemente.",
+   "decisioni": [
+    {
+     "dom": "C’è interesse o vantaggio dell’ente?",
+     "opz": [
+      [
+       "Sì: il risparmio di tempo e il rispetto della consegna sono un vantaggio per l’ente",
+       true,
+       "Corretto: anche il risparmio di tempi o costi integra il criterio."
+      ],
+      [
+       "No, l’ente non voleva l’infortunio",
+       false,
+       "Non serve volere l’evento."
+      ],
+      [
+       "Solo se c’è un guadagno in denaro",
+       false,
+       "Basta il risparmio di tempi."
+      ]
+     ]
+    },
+    {
+     "dom": "Quale reato presupposto può essere contestato?",
+     "opz": [
+      [
+       "Lesioni colpose gravi con violazione delle norme di sicurezza, art. 25-septies",
+       true,
+       "Corretto."
+      ],
+      [
+       "Truffa",
+       false,
+       "Non pertinente."
+      ],
+      [
+       "Nessuno",
+       false,
+       "È un reato presupposto."
+      ]
+     ]
+    },
+    {
+     "dom": "Che cosa avrebbe tutelato l’ente?",
+     "opz": [
+      [
+       "Un modello organizzativo efficace con procedure di blocco delle macchine guaste, vigilanza e sistema disciplinare",
+       true,
+       "Corretto."
+      ],
+      [
+       "Una polizza",
+       false,
+       "Non esclude la responsabilità."
+      ],
+      [
+       "Un cartello",
+       false,
+       "Non basta."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "Anche un risparmio di tempo è un vantaggio per l’ente: senza un modello efficace, una lesione grave da violazione delle norme di sicurezza coinvolge l’impresa.",
+   "nar": "Una pressa usata senza barriera per rispettare una consegna. Valuta la responsabilità dell’ente.",
+   "rif": "D.lgs. 231/2001, artt. 5 e 25-septies"
+  }
+ ]
+}

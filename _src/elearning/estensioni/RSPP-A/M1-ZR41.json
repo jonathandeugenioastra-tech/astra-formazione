@@ -1,0 +1,65 @@
+{
+ "dopo": "I principi generali di prevenzione della Direttiva 89/391/CEE",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Applicare i principi generali di prevenzione",
+   "lead": "Applichi i principi generali della direttiva quadro a un reparto di confezionamento con postazioni ripetitive.",
+   "dossier": [
+    [
+     "Reparto",
+     "12 addette al confezionamento manuale, 8 ore con due pause"
+    ],
+    [
+     "Problemi",
+     "movimenti ripetitivi, piani di lavoro fissi, ritmo imposto dal nastro, disturbi agli arti superiori segnalati dal medico competente"
+    ],
+    [
+     "Proposta iniziale",
+     "fornire polsiere a tutte le addette"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Perché la proposta iniziale contrasta con i principi?",
+     "min": 6,
+     "modello": "Perché parte dai DPI o da ausili individuali invece di combattere il rischio alla fonte e adeguare il lavoro all’uomo; la protezione individuale viene dopo le misure collettive e organizzative.",
+     "criteri": [
+      "Ho richiamato l’ordine dei principi",
+      "Ho criticato la soluzione individuale"
+     ]
+    },
+    {
+     "q": "Applica i principi: evitare, combattere alla fonte, adeguare il lavoro all’uomo.",
+     "min": 8,
+     "modello": "Evitare: automatizzare le fasi più ripetitive. Alla fonte: ridurre forza e frequenza con attrezzi e layout migliori. Adeguare all’uomo: piani regolabili, ritmo non imposto o regolabile, alternanza di compiti, pause più frequenti.",
+     "criteri": [
+      "Ho applicato i tre principi",
+      "Ho proposto misure concrete"
+     ],
+     "minc": 120
+    },
+    {
+     "q": "Applica gli altri principi: evoluzione della tecnica, pianificazione, priorità collettiva, istruzioni.",
+     "min": 7,
+     "modello": "Valutare soluzioni tecniche nuove disponibili; pianificare la prevenzione integrando organizzazione e condizioni di lavoro; privilegiare misure collettive; fornire istruzioni e formazione adeguate.",
+     "criteri": [
+      "Ho applicato i principi restanti",
+      "Ho collegato la pianificazione"
+     ]
+    },
+    {
+     "q": "Come verifichi l’efficacia?",
+     "min": 6,
+     "modello": "Nuova valutazione del sovraccarico biomeccanico con un metodo riconosciuto; andamento dei disturbi segnalati dal medico competente; percezione delle addette raccolta con l’RLS.",
+     "criteri": [
+      "Ho previsto una nuova valutazione",
+      "Ho previsto indicatori sanitari e di percezione"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio applichi i principi generali di prevenzione della direttiva quadro a un reparto di confezionamento, partendo da una proposta iniziale sbagliata. Confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "Direttiva 89/391/CEE, art. 6 · art. 15 D.lgs. 81/2008"
+  }
+ ]
+}

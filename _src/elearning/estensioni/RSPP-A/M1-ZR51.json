@@ -1,0 +1,39 @@
+{
+ "dopo": "L’evoluzione legislativa italiana",
+ "schermate": [
+  {
+   "t": "esempio",
+   "tit": "Esempio guidato · Le tappe della normativa italiana",
+   "lead": "Dalla Costituzione al Testo unico aggiornato.",
+   "passi": [
+    [
+     "1948",
+     "La Costituzione tutela la salute e il lavoro e limita l’iniziativa economica (artt. 32, 35, 41).",
+     "Principi costituzionali"
+    ],
+    [
+     "Anni Cinquanta",
+     "D.P.R. 547/1955 e 303/1956: norme tecniche prescrittive.",
+     "Approccio prescrittivo"
+    ],
+    [
+     "1994",
+     "D.lgs. 626/1994: recepimento della direttiva quadro e valutazione dei rischi.",
+     "Approccio organizzativo"
+    ],
+    [
+     "2008",
+     "D.lgs. 81/2008: Testo unico, sistema di prevenzione aziendale.",
+     "Testo unico"
+    ],
+    [
+     "Dal 2021",
+     "Riforme su preposto, cantieri, formazione: D.L. 146/2021, D.L. 19/2024, Accordo 2025, D.L. 159/2025.",
+     "Aggiornamenti continui"
+    ]
+   ],
+   "nar": "Ripercorriamo le tappe della normativa italiana. La Costituzione del quarantotto tutela salute e lavoro. Negli anni cinquanta arrivano norme tecniche prescrittive. Nel novantaquattro il decreto seicentoventisei introduce la valutazione dei rischi. Nel duemilaotto il Testo unico organizza il sistema di prevenzione. Dal duemilaventuno le riforme rafforzano preposto, cantieri e formazione.",
+   "rif": "Costituzione · D.lgs. 626/1994 · D.lgs. 81/2008"
+  }
+ ]
+}

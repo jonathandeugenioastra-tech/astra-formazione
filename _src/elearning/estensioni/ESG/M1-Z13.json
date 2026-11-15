@@ -1,0 +1,75 @@
+{
+ "dopo": "La catena del valore e il tetto informativo dello standard VSME",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "La piattaforma di rating",
+   "scena": "Un cliente chiede a una PMI di iscriversi a una piattaforma di valutazione ESG a pagamento, con un questionario molto esteso.",
+   "decisioni": [
+    {
+     "dom": "Che cosa valuti per prima cosa?",
+     "opz": [
+      [
+       "Se le informazioni richieste vanno oltre il perimetro VSME e se il cliente accetta il rendiconto VSME",
+       true,
+       "Corretto: il tetto informativo protegge le PMI della catena del valore."
+      ],
+      [
+       "Ti iscrivi subito",
+       false,
+       "Valuta prima costi e perimetro."
+      ],
+      [
+       "Rifiuti senza rispondere",
+       false,
+       "Meglio proporre un’alternativa."
+      ]
+     ]
+    },
+    {
+     "dom": "Quale alternativa proponi?",
+     "opz": [
+      [
+       "Inviare il rendiconto VSME, con dati e metodi, e rispondere alle domande che vi rientrano",
+       true,
+       "Corretto."
+      ],
+      [
+       "Inviare la brochure aziendale",
+       false,
+       "Non contiene dati."
+      ],
+      [
+       "Promettere dati in futuro",
+       false,
+       "Meglio fornire ciò che c’è con trasparenza."
+      ]
+     ]
+    },
+    {
+     "dom": "Se il cliente insiste per la piattaforma?",
+     "opz": [
+      [
+       "Valuti costi e benefici commerciali e, se aderisci, riutilizzi i dati del rendiconto",
+       true,
+       "Corretto: un solo set di dati per più canali."
+      ],
+      [
+       "Compili con stime non dichiarate",
+       false,
+       "Le stime vanno dichiarate."
+      ],
+      [
+       "Copi i dati di un concorrente",
+       false,
+       "È scorretto."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "Il tetto informativo VSME consente di proporre un rendiconto standard al posto di questionari estesi; se si aderisce a una piattaforma, si riusano gli stessi dati.",
+   "nar": "Un cliente chiede l’iscrizione a una piattaforma di rating. Decidi.",
+   "rif": "Omnibus I · Raccomandazione (UE) 2025/1710"
+  }
+ ]
+}

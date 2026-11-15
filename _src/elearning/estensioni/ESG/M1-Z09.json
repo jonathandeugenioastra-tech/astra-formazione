@@ -1,0 +1,39 @@
+{
+ "dopo": "Tassonomia UE: ammissibilità e allineamento",
+ "schermate": [
+  {
+   "t": "esempio",
+   "tit": "Esempio guidato · Ammissibile o allineata?",
+   "lead": "Un’impresa installa pompe di calore negli edifici dei clienti.",
+   "passi": [
+    [
+     "Ammissibilità",
+     "L’attività è descritta negli atti delegati della Tassonomia per la mitigazione dei cambiamenti climatici.",
+     "Ammissibile"
+    ],
+    [
+     "Contributo sostanziale",
+     "Si verificano i criteri tecnici, ad esempio i requisiti di efficienza e dei refrigeranti.",
+     "Criteri tecnici rispettati?"
+    ],
+    [
+     "Nessun danno significativo",
+     "Si verifica il rispetto dei criteri DNSH sugli altri obiettivi, come l’economia circolare e l’inquinamento.",
+     "DNSH"
+    ],
+    [
+     "Garanzie minime",
+     "Rispetto dei diritti umani e del lavoro, anticorruzione, fiscalità, concorrenza.",
+     "Garanzie sociali"
+    ],
+    [
+     "Gli indicatori",
+     "Quota di fatturato, spese in conto capitale e spese operative allineate.",
+     "% fatturato, CapEx, OpEx"
+    ]
+   ],
+   "nar": "Un’attività può essere ammissibile senza essere allineata. Installare pompe di calore è un’attività descritta negli atti delegati: è ammissibile. Per essere allineata deve rispettare i criteri tecnici di contributo sostanziale, non arrecare danni significativi agli altri obiettivi e rispettare le garanzie minime. Il risultato si esprime come quota di fatturato, investimenti e spese operative allineati.",
+   "rif": "Reg. (UE) 2020/852 · Reg. delegato (UE) 2021/2139"
+  }
+ ]
+}

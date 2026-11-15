@@ -1,0 +1,60 @@
+{
+ "dopo": "ESG: che cosa significa",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · La politica di sostenibilità",
+   "lead": "Scrivi la bozza della politica di sostenibilità di una PMI alimentare con 70 dipendenti.",
+   "dossier": [
+    [
+     "Temi rilevanti",
+     "energia e clima, rifiuti alimentari e imballaggi, salute e sicurezza, benessere dei lavoratori, qualità e filiera"
+    ],
+    [
+     "Impegni già presi",
+     "raccolta differenziata, fotovoltaico da 200 kW"
+    ],
+    [
+     "Vincolo",
+     "massimo una pagina"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Scrivi gli impegni ambientali della politica.",
+     "min": 7,
+     "modello": "Ridurre consumi energetici ed emissioni con un piano di efficienza e l’aumento delle rinnovabili; ridurre gli sprechi alimentari e gli imballaggi, privilegiando materiali riciclabili; rispettare gli obblighi ambientali e prevenire l’inquinamento; misurare e rendicontare ogni anno i risultati.",
+     "criteri": [
+      "Ho incluso clima ed energia",
+      "Ho incluso sprechi e imballaggi",
+      "Ho previsto misura e rendicontazione"
+     ],
+     "minc": 120
+    },
+    {
+     "q": "Scrivi gli impegni sociali e di governance.",
+     "min": 6,
+     "modello": "Salute e sicurezza come priorità, con partecipazione dei lavoratori; formazione e pari opportunità; fornitori selezionati anche su criteri ambientali e sociali; comportamento etico e contrasto alla corruzione; canali di segnalazione tutelati.",
+     "criteri": [
+      "Ho incluso salute, sicurezza e persone",
+      "Ho incluso la filiera",
+      "Ho incluso etica e segnalazioni"
+     ],
+     "minc": 100
+    },
+    {
+     "q": "Come rendi la politica credibile e non generica?",
+     "min": 5,
+     "modello": "Approvazione e firma della direzione; obiettivi misurabili con scadenze nel piano d’azione collegato; responsabilità assegnate; comunicazione a dipendenti e clienti; riesame annuale; niente asserzioni come «impatto zero» senza prove.",
+     "criteri": [
+      "Ho collegato obiettivi misurabili",
+      "Ho previsto riesame e responsabilità",
+      "Ho evitato asserzioni generiche"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio scrivi la bozza della politica di sostenibilità di una PMI alimentare. Formula gli impegni ambientali, sociali e di governance e rendi la politica credibile, poi confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "Raccomandazione (UE) 2025/1710 · Direttiva (UE) 2024/825"
+  }
+ ]
+}

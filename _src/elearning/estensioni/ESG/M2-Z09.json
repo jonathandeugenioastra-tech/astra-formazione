@@ -1,0 +1,39 @@
+{
+ "dopo": "Unità funzionale, confini e regole di categoria",
+ "schermate": [
+  {
+   "t": "esempio",
+   "tit": "Esempio guidato · Confrontare due imballaggi",
+   "lead": "L’importanza dell’unità funzionale.",
+   "passi": [
+    [
+     "La domanda",
+     "Quale bottiglia ha l’impronta di carbonio minore: vetro da 0,75 l o PET da 1,5 l?",
+     "Confronto da impostare"
+    ],
+    [
+     "L’unità funzionale",
+     "Si confrontano a parità di funzione: contenere e proteggere 1 litro di bevanda fino al consumo.",
+     "1 litro confezionato"
+    ],
+    [
+     "I confini",
+     "Dalla culla alla tomba, includendo trasporti, riutilizzo e fine vita.",
+     "Culla-tomba"
+    ],
+    [
+     "Le regole",
+     "Si usano le stesse regole di categoria di prodotto e gli stessi dati di fine vita.",
+     "Stesse PCR"
+    ],
+    [
+     "Il risultato",
+     "Solo così il confronto è valido; un confronto per bottiglia sarebbe fuorviante.",
+     "Confronto per litro"
+    ]
+   ],
+   "nar": "Per confrontare due imballaggi serve un’unità funzionale comune. Una bottiglia di vetro da tre quarti e una di plastica da un litro e mezzo non si confrontano per bottiglia, ma per litro di bevanda contenuto e protetto fino al consumo, dalla culla alla tomba e con le stesse regole di categoria. Solo così il confronto è corretto.",
+   "rif": "UNI EN ISO 14067 · UNI EN ISO 14044"
+  }
+ ]
+}

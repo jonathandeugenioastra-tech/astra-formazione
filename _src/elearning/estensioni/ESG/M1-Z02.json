@@ -1,0 +1,66 @@
+{
+ "dopo": "La doppia materialità",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · La doppia materialità di una tintoria",
+   "lead": "Imposti l’analisi di doppia materialità di una tintoria tessile con 80 dipendenti.",
+   "dossier": [
+    [
+     "Processo",
+     "tintura e finissaggio di tessuti, forte uso di acqua calda e coloranti"
+    ],
+    [
+     "Energia",
+     "gas naturale per il vapore; elettricità"
+    ],
+    [
+     "Acque",
+     "depuratore interno e scarico in corpo idrico superficiale"
+    ],
+    [
+     "Clienti",
+     "marchi della moda che chiedono dati su sostanze e impronta di carbonio"
+    ],
+    [
+     "Territorio",
+     "area con periodi di scarsità idrica"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Individua tre impatti rilevanti dell’impresa su persone e ambiente.",
+     "min": 7,
+     "modello": "Prelievi idrici in un’area a scarsità idrica; scarichi con coloranti e sostanze chimiche nel corpo idrico; emissioni di gas serra dal vapore prodotto con gas naturale. Anche l’esposizione dei lavoratori agli agenti chimici è un impatto rilevante.",
+     "criteri": [
+      "Ho individuato acqua e scarichi",
+      "Ho individuato le emissioni",
+      "Ho considerato i lavoratori"
+     ]
+    },
+    {
+     "q": "Individua tre rischi o opportunità finanziari.",
+     "min": 7,
+     "modello": "Rischio di costi crescenti di gas e carbonio; rischio di limitazioni ai prelievi in periodi di siccità con fermi produttivi; rischio di perdere clienti senza dati su sostanze e impronta di carbonio, e opportunità di contratti con chi offre processi a basso consumo d’acqua.",
+     "criteri": [
+      "Ho individuato rischi energetici e climatici",
+      "Ho individuato il rischio idrico",
+      "Ho individuato rischi e opportunità commerciali"
+     ]
+    },
+    {
+     "q": "Quali temi risultano rilevanti e perché?",
+     "min": 6,
+     "modello": "Acqua, inquinamento e sostanze, cambiamenti climatici e salute e sicurezza: ciascuno è rilevante almeno in una delle due prospettive, e acqua e clima in entrambe. Il risultato va documentato con criteri, soglie e coinvolgimento dei portatori di interesse.",
+     "criteri": [
+      "Ho applicato la regola di almeno una prospettiva",
+      "Ho indicato i temi rilevanti in entrambe",
+      "Ho previsto la documentazione"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio imposti l’analisi di doppia materialità di una tintoria. Individua gli impatti su persone e ambiente, i rischi e le opportunità finanziari e i temi rilevanti, poi confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "Direttiva (UE) 2022/2464 · ESRS 1"
+  }
+ ]
+}

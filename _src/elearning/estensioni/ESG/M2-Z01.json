@@ -1,0 +1,55 @@
+{
+ "dopo": "Raccolta dei dati ambientali",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · La mappa dei dati",
+   "lead": "Costruisci la mappa dei dati ambientali di una PMI per il rendiconto VSME.",
+   "dossier": [
+    [
+     "Fonti disponibili",
+     "fatture di gas ed elettricità; schede carburante della flotta; registro di carico e scarico dei rifiuti; letture del contatore dell’acquedotto; registro delle apparecchiature con gas fluorurati"
+    ],
+    [
+     "Persone",
+     "amministrazione, ufficio tecnico, responsabile ambiente"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Per ogni dato indica fonte, unità di misura e responsabile.",
+     "min": 8,
+     "modello": "Gas: fatture, Sm³ convertiti in MWh, amministrazione. Elettricità: fatture e contatori, MWh, amministrazione. Carburanti: schede carburante, litri, ufficio acquisti o flotta. Rifiuti: registro e formulari, tonnellate per pericolosi e non pericolosi e per destinazione, responsabile ambiente. Acqua: letture, m³, ufficio tecnico. Gas fluorurati: registro, kg ricaricati, responsabile ambiente.",
+     "criteri": [
+      "Ho indicato le fonti",
+      "Ho indicato le unità",
+      "Ho assegnato i responsabili"
+     ],
+     "minc": 150
+    },
+    {
+     "q": "Quali controlli di qualità prevedi?",
+     "min": 5,
+     "modello": "Confronto con l’anno precedente e spiegazione degli scostamenti; quadratura tra fatture e contatori; coerenza tra registro dei rifiuti e MUD; conservazione delle evidenze; indicazione delle stime.",
+     "criteri": [
+      "Ho previsto confronti e quadrature",
+      "Ho previsto la coerenza con il MUD",
+      "Ho previsto la tracciabilità"
+     ]
+    },
+    {
+     "q": "Che cosa fai se manca un dato, ad esempio due mesi di acqua?",
+     "min": 5,
+     "modello": "Si stima con un metodo dichiarato, ad esempio la media dei mesi disponibili rapportata alla produzione, si indica che è una stima e si corregge il processo di raccolta per l’anno successivo.",
+     "criteri": [
+      "Ho previsto una stima dichiarata",
+      "Ho indicato il metodo",
+      "Ho previsto il miglioramento"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio costruisci la mappa dei dati ambientali di una PMI. Indica fonti, unità e responsabili, i controlli di qualità e come trattare un dato mancante, poi confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "Raccomandazione (UE) 2025/1710 · UNI EN ISO 14064-1"
+  }
+ ]
+}

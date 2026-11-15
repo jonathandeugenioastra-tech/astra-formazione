@@ -1,0 +1,65 @@
+{
+ "dopo": "Esempio applicativo: il tasso di infortuni del rendiconto",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Gli indicatori sociali",
+   "lead": "Calcola gli indicatori sociali del rendiconto di una PMI con 205 dipendenti.",
+   "dossier": [
+    [
+     "Infortuni registrabili",
+     "3, nessun decesso"
+    ],
+    [
+     "Ore lavorate",
+     "410.000"
+    ],
+    [
+     "Giornate perse",
+     "95"
+    ],
+    [
+     "Ore di formazione",
+     "2.460"
+    ],
+    [
+     "Retribuzione oraria media",
+     "uomini 16,00 €; donne 14,40 €"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Calcola il tasso di infortuni e le giornate perse per 1.000 ore.",
+     "min": 6,
+     "modello": "Tasso per milione di ore: 3 / 410.000 × 1.000.000 ≈ 7,3. Giornate perse per 1.000 ore: 95 / 410.000 × 1.000 ≈ 0,23. Si dichiara la base di calcolo usata.",
+     "criteri": [
+      "Ho calcolato circa 7,3",
+      "Ho calcolato circa 0,23",
+      "Ho dichiarato la base"
+     ]
+    },
+    {
+     "q": "Calcola le ore medie di formazione e il divario retributivo di genere.",
+     "min": 6,
+     "modello": "Formazione: 2.460 / 205 = 12 ore per dipendente. Divario: (16,00 − 14,40) / 16,00 = 10%.",
+     "criteri": [
+      "Ho calcolato 12 ore",
+      "Ho calcolato il 10%",
+      "Ho usato la retribuzione maschile come base"
+     ]
+    },
+    {
+     "q": "Come commenteresti questi dati nel rendiconto?",
+     "min": 5,
+     "modello": "Presentando i valori con l’anno precedente, spiegando le cause degli infortuni e le misure adottate, e indicando un obiettivo per il divario retributivo con le azioni previste, ad esempio la revisione dei livelli e la parità nelle progressioni.",
+     "criteri": [
+      "Ho previsto il confronto con l’anno precedente",
+      "Ho collegato misure e obiettivi"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio calcoli gli indicatori sociali di una PMI: tasso di infortuni, giornate perse, ore di formazione e divario retributivo. Esegui i calcoli e scrivi come commentarli, poi confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "Raccomandazione (UE) 2025/1710, B9 e B10"
+  }
+ ]
+}

@@ -1,0 +1,70 @@
+{
+ "dopo": "Le informative sociali e di governance del modulo base",
+ "schermate": [
+  {
+   "t": "classifica",
+   "tit": "Quale informativa del modulo base?",
+   "lead": "Seleziona un dato, poi l’informativa VSME in cui va riportato.",
+   "colonne": [
+    "B3 · energia ed emissioni",
+    "B7 · risorse e rifiuti",
+    "B8 · forza lavoro",
+    "B9 · salute e sicurezza",
+    "B10 · retribuzione e formazione",
+    "B11 · corruzione"
+   ],
+   "schede": [
+    [
+     "MWh di gas naturale consumati",
+     0,
+     "Energia.",
+     "Corretto."
+    ],
+    [
+     "Tonnellate di rifiuti avviati a recupero",
+     1,
+     "Risorse e rifiuti.",
+     "Corretto."
+    ],
+    [
+     "Dipendenti per contratto e genere",
+     2,
+     "Forza lavoro.",
+     "Corretto."
+    ],
+    [
+     "Numero e tasso di infortuni registrabili",
+     3,
+     "Salute e sicurezza.",
+     "Corretto."
+    ],
+    [
+     "Ore medie di formazione",
+     4,
+     "Retribuzione e formazione.",
+     "Corretto."
+    ],
+    [
+     "Condanne per corruzione",
+     5,
+     "Governance.",
+     "Corretto."
+    ],
+    [
+     "Emissioni Scope 2",
+     0,
+     "Emissioni.",
+     "Corretto."
+    ],
+    [
+     "Divario retributivo di genere",
+     4,
+     "Retribuzione.",
+     "Corretto."
+    ]
+   ],
+   "nar": "Otto dati di una PMI. Indica in quale informativa del modulo base VSME vanno riportati.",
+   "rif": "Raccomandazione (UE) 2025/1710 · VSME, modulo base"
+  }
+ ]
+}

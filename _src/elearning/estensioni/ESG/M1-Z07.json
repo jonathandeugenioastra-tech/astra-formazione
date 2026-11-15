@@ -1,0 +1,58 @@
+{
+ "dopo": "CBAM: il meccanismo di adeguamento del carbonio alle frontiere",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Il CBAM per un importatore di bulloneria",
+   "lead": "Un’impresa importa da Paesi terzi prodotti in ferro e acciaio e semilavorati in alluminio.",
+   "dossier": [
+    [
+     "Importazioni previste",
+     "viti e bulloni in acciaio 38 t; profilati in alluminio 20 t; utensili non soggetti al CBAM 15 t"
+    ],
+    [
+     "Situazione",
+     "nessuna autorizzazione come dichiarante CBAM"
+    ],
+    [
+     "Fornitori",
+     "nessun dato sulle emissioni incorporate"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "L’impresa supera la soglia de minimis?",
+     "min": 5,
+     "modello": "La soglia di 50 t l’anno si calcola sulla massa complessiva delle merci CBAM di ferro e acciaio, alluminio, fertilizzanti e cemento: 38 + 20 = 58 t, oltre la soglia. Gli utensili non soggetti non si contano.",
+     "criteri": [
+      "Ho sommato solo le merci CBAM",
+      "Ho ottenuto 58 t",
+      "Ho concluso che la soglia è superata"
+     ]
+    },
+    {
+     "q": "Quali obblighi ne derivano?",
+     "min": 6,
+     "modello": "Serve l’autorizzazione come dichiarante CBAM prima di importare oltre soglia; dichiarazione annuale delle quantità e delle emissioni incorporate; acquisto e restituzione dei certificati CBAM, dal 1° febbraio 2027 per le importazioni del 2026.",
+     "criteri": [
+      "Ho indicato l’autorizzazione",
+      "Ho indicato la dichiarazione annuale",
+      "Ho indicato i certificati"
+     ]
+    },
+    {
+     "q": "Che cosa chiedi ai fornitori e perché?",
+     "min": 6,
+     "modello": "I dati sulle emissioni incorporate effettive per installazione, verificati dove richiesto; senza dati si applicano valori predefiniti, di norma più sfavorevoli. Conviene inserire nei contratti l’obbligo di fornire i dati.",
+     "criteri": [
+      "Ho chiesto le emissioni effettive",
+      "Ho spiegato i valori predefiniti",
+      "Ho proposto clausole contrattuali"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio applichi il CBAM a un importatore di bulloneria e profilati. Verifica la soglia, individua gli obblighi e indica che cosa chiedere ai fornitori, poi confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "Reg. (UE) 2023/956 come modificato dal Reg. (UE) 2025/2083"
+  }
+ ]
+}

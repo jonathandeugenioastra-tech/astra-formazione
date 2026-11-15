@@ -1,0 +1,75 @@
+{
+ "dopo": "EUDR: prodotti a deforestazione zero",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "Il legno degli imballaggi",
+   "scena": "Una media impresa importa pallet e casse in legno da un Paese extra UE per i propri imballaggi e acquista mobili in legno da un grossista italiano.",
+   "decisioni": [
+    {
+     "dom": "Il legno importato rientra nell’EUDR?",
+     "opz": [
+      [
+       "Sì: il legno e diversi prodotti derivati sono materie prime soggette",
+       true,
+       "Corretto: va verificato il codice del prodotto negli allegati."
+      ],
+      [
+       "No, solo il cacao e il caffè",
+       false,
+       "Il legno è tra le materie prime."
+      ],
+      [
+       "Solo se certificato",
+       false,
+       "La certificazione non esclude l’obbligo."
+      ]
+     ]
+    },
+    {
+     "dom": "Che cosa deve fare l’impresa come operatore?",
+     "opz": [
+      [
+       "Svolgere la dovuta diligenza e presentare la dichiarazione con la geolocalizzazione degli appezzamenti",
+       true,
+       "Corretto."
+      ],
+      [
+       "Chiedere solo la fattura al fornitore",
+       false,
+       "Non basta."
+      ],
+      [
+       "Nulla fino al 2030",
+       false,
+       "Le date di applicazione sono più vicine."
+      ]
+     ]
+    },
+    {
+     "dom": "Da quando si applica alle imprese medie?",
+     "opz": [
+      [
+       "Dal 30 dicembre 2026",
+       true,
+       "Corretto, per operatori grandi e medi."
+      ],
+      [
+       "Dal 2028",
+       false,
+       "Non è la data."
+      ],
+      [
+       "Si applica già dal 2023",
+       false,
+       "L’applicazione è stata differita."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "Il legno è una materia prima EUDR: chi lo immette sul mercato svolge la dovuta diligenza e presenta la dichiarazione con la geolocalizzazione.",
+   "nar": "Pallet e casse importati. Verifica gli obblighi EUDR.",
+   "rif": "Reg. (UE) 2023/1115 come modificato"
+  }
+ ]
+}

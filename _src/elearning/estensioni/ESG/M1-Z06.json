@@ -1,0 +1,75 @@
+{
+ "dopo": "Tassonomia e finanza sostenibile: perché le banche chiedono dati",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "Il questionario della banca",
+   "scena": "La banca chiede a una PMI, per un finanziamento di un nuovo capannone, dati sulle emissioni, sul rischio di alluvione del sito e sulla classe energetica dell’edificio.",
+   "decisioni": [
+    {
+     "dom": "Perché la banca chiede questi dati?",
+     "opz": [
+      [
+       "Per valutare rischi climatici e ambientali secondo gli orientamenti di vigilanza e, se previsto, l’allineamento alla Tassonomia",
+       true,
+       "Corretto."
+      ],
+      [
+       "Per curiosità",
+       false,
+       "È un obbligo della banca nella gestione del rischio."
+      ],
+      [
+       "Per pubblicità",
+       false,
+       "Non è lo scopo."
+      ]
+     ]
+    },
+    {
+     "dom": "Come risponde la PMI sul rischio di alluvione?",
+     "opz": [
+      [
+       "Con le mappe di pericolosità ufficiali e le misure di adattamento previste",
+       true,
+       "Corretto: dati verificabili e misure concrete."
+      ],
+      [
+       "Dichiarando «nessun rischio»",
+       false,
+       "Va dimostrato."
+      ],
+      [
+       "Non risponde",
+       false,
+       "Riduce le possibilità di ottenere condizioni migliori."
+      ]
+     ]
+    },
+    {
+     "dom": "Che cosa può migliorare le condizioni del finanziamento?",
+     "opz": [
+      [
+       "Un progetto ad alta efficienza energetica documentato e dati ESG coerenti",
+       true,
+       "Corretto: molte banche premiano i progetti sostenibili."
+      ],
+      [
+       "Un logo verde sul capannone",
+       false,
+       "Non è un dato."
+      ],
+      [
+       "Promettere di essere carbon neutral",
+       false,
+       "Senza piano e dati è un’asserzione non dimostrabile."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "Le banche chiedono dati per gestire i rischi climatici e ambientali: dati verificabili e progetti documentati migliorano accesso e condizioni del credito.",
+   "nar": "Una banca chiede dati ESG per un finanziamento. Prepara la risposta.",
+   "rif": "Reg. (UE) 2020/852 · orientamenti EBA sui rischi ESG"
+  }
+ ]
+}

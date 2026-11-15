@@ -1,0 +1,112 @@
+{
+ "dopo": "Esercitazione · Tre questionari diversi",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Rispondere al questionario del cliente",
+   "lead": "Un cliente invia a una PMI un questionario con cinque domande. Prepara le risposte con i dati disponibili.",
+   "dossier": [
+    [
+     "Domanda 1",
+     "Avete una politica ambientale?"
+    ],
+    [
+     "Domanda 2",
+     "Emissioni Scope 1 e 2 dell’ultimo anno?"
+    ],
+    [
+     "Domanda 3",
+     "Tasso di infortuni?"
+    ],
+    [
+     "Domanda 4",
+     "Avete obiettivi di riduzione delle emissioni?"
+    ],
+    [
+     "Domanda 5",
+     "Siete certificati ISO 14001?"
+    ],
+    [
+     "Dati della PMI",
+     "politica ambientale approvata nel 2025; Scope 1 174 t CO₂e, Scope 2 location-based 97 t; 3 infortuni su 410.000 ore; nessun obiettivo formalizzato; non certificata"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Scrivi le risposte alle domande 1, 2 e 3 con dati e metodo.",
+     "min": 7,
+     "modello": "1: sì, politica ambientale approvata dalla direzione nel 2025, disponibile su richiesta. 2: Scope 1 174 t CO₂e e Scope 2 location-based 97 t CO₂e nell’anno di riferimento, calcolati secondo la UNI EN ISO 14064-1 con fattori nazionali dichiarati. 3: 3 infortuni registrabili su 410.000 ore lavorate, pari a circa 7,3 per milione di ore.",
+     "criteri": [
+      "Ho riportato dati e metodo",
+      "Ho indicato l’anno di riferimento",
+      "Ho calcolato il tasso"
+     ]
+    },
+    {
+     "q": "Come rispondi onestamente alle domande 4 e 5?",
+     "min": 5,
+     "modello": "4: non ancora; indicare che l’impresa sta definendo obiettivi e un piano d’azione entro una data precisa. 5: no; indicare eventuali pratiche di gestione esistenti, senza dichiarare una certificazione che non c’è.",
+     "criteri": [
+      "Ho evitato affermazioni non vere",
+      "Ho indicato i passi in corso"
+     ]
+    },
+    {
+     "q": "Come renderesti le risposte riutilizzabili per altri clienti?",
+     "min": 5,
+     "modello": "Raccogliendole in un rendiconto VSME con dati, metodi e fonti, aggiornato ogni anno e approvato dalla direzione, da inviare o allegare ai questionari.",
+     "criteri": [
+      "Ho proposto il rendiconto VSME",
+      "Ho previsto l’aggiornamento annuale"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio rispondi al questionario ESG di un cliente con i dati disponibili. Scrivi risposte complete di dati e metodo, rispondi con trasparenza dove i dati mancano e rendi le risposte riutilizzabili, poi confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "Raccomandazione (UE) 2025/1710 · UNI EN ISO 14064-1"
+  },
+  {
+   "t": "applica",
+   "tit": "Le richieste ESG che ricevi",
+   "lead": "Fai il punto sulle richieste di dati ESG alla tua organizzazione.",
+   "voci": [
+    "Questionari dei clienti",
+    "Richieste della banca",
+    "Piattaforme di valutazione dei fornitori",
+    "Bandi e finanziamenti pubblici",
+    "Richieste di investitori"
+   ],
+   "campo": "Il dato richiesto più spesso e chi lo produce",
+   "esempio": "Es.: emissioni Scope 1 e 2, prodotte dall’ufficio tecnico",
+   "min": 2,
+   "nar": "Fai il punto sulle richieste di dati ESG che ricevi e indica il dato richiesto più spesso."
+  },
+  {
+   "t": "vf",
+   "tit": "Ripasso · Quadro europeo",
+   "voci": [
+    [
+     "Dopo l’Omnibus I la CSRD riguarda le imprese con più di 1.000 dipendenti e oltre 450 milioni di fatturato.",
+     true,
+     "Vero."
+    ],
+    [
+     "Un’attività ammissibile alla Tassonomia è sempre allineata.",
+     false,
+     "Falso: l’allineamento richiede criteri tecnici, DNSH e garanzie minime."
+    ],
+    [
+     "La soglia CBAM di 50 t si calcola sulla massa delle merci soggette.",
+     true,
+     "Vero."
+    ],
+    [
+     "Una PMI fornitrice di un’impresa obbligata diventa soggetta alla CSRD.",
+     false,
+     "Falso."
+    ]
+   ],
+   "nar": "Ripasso: quattro affermazioni sul quadro europeo.",
+   "rif": "Omnibus I · Reg. (UE) 2020/852 · CBAM"
+  }
+ ]
+}

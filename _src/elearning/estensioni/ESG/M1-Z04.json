@@ -1,0 +1,58 @@
+{
+ "dopo": "Lo standard VSME: modulo base e modulo completo",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Il piano del primo rendiconto VSME",
+   "lead": "Prepari il piano del primo rendiconto VSME di una PMI meccanica con 45 dipendenti.",
+   "dossier": [
+    [
+     "Richieste ricevute",
+     "due clienti chiedono emissioni e infortuni; la banca chiede piano di transizione"
+    ],
+    [
+     "Dati disponibili",
+     "bollette, registro infortuni, MUD, buste paga"
+    ],
+    [
+     "Risorse",
+     "un responsabile qualità e un consulente esterno"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Scegli il modulo e motiva.",
+     "min": 5,
+     "modello": "Si parte dal modulo base B1-B11, che copre le richieste di emissioni e infortuni; si aggiungono le informative del modulo completo richieste dalla banca, come gli obiettivi e il piano di transizione per il clima, se l’impresa è in grado di sostenerli con dati.",
+     "criteri": [
+      "Ho scelto il modulo base",
+      "Ho aggiunto le informative richieste dalla banca",
+      "Ho motivato la scelta"
+     ]
+    },
+    {
+     "q": "Associa ai dati disponibili le informative del modulo base.",
+     "min": 7,
+     "modello": "Bollette e carburanti → B3 energia ed emissioni; MUD e registri → B7 risorse e rifiuti; registro infortuni → B9 salute e sicurezza; buste paga → B8 forza lavoro e B10 retribuzione e formazione; politiche e sanzioni → B2 e B11. B1 descrive la base di preparazione.",
+     "criteri": [
+      "Ho collegato B3 e B7",
+      "Ho collegato B8, B9 e B10",
+      "Ho considerato B1, B2 e B11"
+     ]
+    },
+    {
+     "q": "Prepara un calendario di tre mesi.",
+     "min": 6,
+     "modello": "Mese 1: perimetro, anno di riferimento, responsabili e raccolta dati. Mese 2: calcoli, controlli di coerenza, testi delle politiche. Mese 3: redazione, revisione interna, approvazione della direzione e invio ai clienti e alla banca.",
+     "criteri": [
+      "Ho previsto raccolta e responsabili",
+      "Ho previsto calcoli e controlli",
+      "Ho previsto approvazione e diffusione"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio pianifichi il primo rendiconto VSME di una PMI meccanica. Scegli il modulo, collega i dati disponibili alle informative e prepara un calendario, poi confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "Raccomandazione (UE) 2025/1710 · VSME"
+  }
+ ]
+}

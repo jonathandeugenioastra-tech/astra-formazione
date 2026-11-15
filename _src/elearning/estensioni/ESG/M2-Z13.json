@@ -1,0 +1,53 @@
+{
+ "dopo": "Le categorie di emissione della UNI EN ISO 14064-1",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Le emissioni indirette significative",
+   "lead": "Classifichi le fonti di emissione indirette di un’impresa di arredamento e valuti quali includere.",
+   "dossier": [
+    [
+     "Fonti",
+     "acquisto di pannelli e vernici; trasporto dei prodotti ai clienti con vettori esterni; viaggi di lavoro; pendolarismo dei dipendenti; rifiuti avviati a smaltimento; uso dei mobili presso i clienti; fine vita dei mobili"
+    ],
+    [
+     "Dati",
+     "spesa per acquisti; tonnellate-chilometro dei trasporti; questionario sul pendolarismo"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Assegna ogni fonte alla categoria della UNI EN ISO 14064-1.",
+     "min": 7,
+     "modello": "Categoria 3, trasporti: trasporto dei prodotti, viaggi di lavoro, pendolarismo. Categoria 4, prodotti utilizzati dall’organizzazione: pannelli, vernici, smaltimento dei rifiuti. Categoria 5, uso dei prodotti dell’organizzazione: uso e fine vita dei mobili.",
+     "criteri": [
+      "Ho assegnato i trasporti alla categoria 3",
+      "Ho assegnato acquisti e rifiuti alla categoria 4",
+      "Ho assegnato uso e fine vita alla categoria 5"
+     ]
+    },
+    {
+     "q": "Quali criteri usi per decidere se una fonte è significativa?",
+     "min": 5,
+     "modello": "Entità stimata delle emissioni, influenza dell’impresa sulla fonte, rischi e opportunità, richieste dei portatori di interesse, disponibilità dei dati. I criteri si documentano e le esclusioni si giustificano.",
+     "criteri": [
+      "Ho elencato i criteri",
+      "Ho previsto la documentazione delle esclusioni"
+     ]
+    },
+    {
+     "q": "Quali fonti includeresti nel primo inventario e come le stimeresti?",
+     "min": 6,
+     "modello": "Acquisti di pannelli e vernici, con fattori per tonnellata o per spesa; trasporto dei prodotti, con tonnellate-chilometro; pendolarismo, con il questionario. Le stime vanno dichiarate e migliorate nel tempo con dati dei fornitori.",
+     "criteri": [
+      "Ho scelto le fonti più rilevanti",
+      "Ho indicato i metodi di stima",
+      "Ho previsto il miglioramento dei dati"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio classifichi le emissioni indirette di un’impresa di arredamento. Assegna le fonti alle categorie, individua i criteri di significatività e scegli che cosa includere nel primo inventario, poi confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "UNI EN ISO 14064-1:2019"
+  }
+ ]
+}

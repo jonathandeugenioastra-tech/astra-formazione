@@ -1,0 +1,39 @@
+{
+ "dopo": "Il potenziale di riscaldamento globale (GWP)",
+ "schermate": [
+  {
+   "t": "esempio",
+   "tit": "Esempio guidato · Dalle tonnellate di gas alle tonnellate di CO₂e",
+   "lead": "Le emissioni di un allevamento e di un impianto frigorifero.",
+   "passi": [
+    [
+     "Metano",
+     "2,0 t di CH₄ con GWP AR5 pari a 28.",
+     "2,0 × 28 = 56 t CO₂e"
+    ],
+    [
+     "Protossido di azoto",
+     "0,15 t di N₂O con GWP AR5 pari a 265.",
+     "0,15 × 265 ≈ 39,8 t CO₂e"
+    ],
+    [
+     "Refrigerante",
+     "Perdita di 10 kg di HFC-134a con GWP AR5 pari a 1.300.",
+     "0,010 × 1.300 = 13 t CO₂e"
+    ],
+    [
+     "Il totale",
+     "56 + 39,8 + 13.",
+     "≈ 108,8 t CO₂e"
+    ],
+    [
+     "La coerenza",
+     "Con la serie AR6 i valori cambierebbero: si dichiara la serie usata e la si mantiene nel tempo.",
+     "Serie dichiarata e costante"
+    ]
+   ],
+   "nar": "Convertiamo i gas serra in CO₂ equivalente. Due tonnellate di metano per ventotto fanno cinquantasei tonnellate. Zero virgola quindici tonnellate di protossido di azoto per duecentosessantacinque fanno circa quaranta. Dieci chili di HFC centotrentaquattro a, con GWP milletrecento, fanno tredici tonnellate. In totale circa centonove tonnellate di CO₂ equivalente, con la serie AR cinque dichiarata e mantenuta nel tempo.",
+   "rif": "IPCC AR5 · UNI EN ISO 14064-1"
+  }
+ ]
+}

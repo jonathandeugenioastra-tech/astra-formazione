@@ -1,0 +1,39 @@
+{
+ "dopo": "I fattori di emissione per l’energia elettrica",
+ "schermate": [
+  {
+   "t": "esempio",
+   "tit": "Esempio guidato · Scope 2 location-based e market-based",
+   "lead": "Un’impresa consuma 800 MWh di elettricità; 300 MWh sono coperti da garanzie di origine rinnovabili.",
+   "passi": [
+    [
+     "Location-based",
+     "800 MWh × 199,6 g CO₂/kWh, fattore nazionale 2025 in stima preliminare.",
+     "≈ 159,7 t CO₂"
+    ],
+    [
+     "Market-based: quota coperta",
+     "300 MWh con garanzie di origine rinnovabili: emissioni nulle.",
+     "0 t"
+    ],
+    [
+     "Market-based: quota residua",
+     "500 MWh × residual mix 420,2 g CO₂/kWh.",
+     "≈ 210,1 t CO₂"
+    ],
+    [
+     "Il confronto",
+     "Il market-based supera il location-based perché il residual mix è più alto del mix medio.",
+     "210,1 > 159,7"
+    ],
+    [
+     "La comunicazione",
+     "Si riportano entrambi i valori, indicando fattori e anno.",
+     "Doppio valore dichiarato"
+    ]
+   ],
+   "nar": "Calcoliamo lo Scope due. Con il metodo location-based ottocento megawattora per centonovantanove virgola sei grammi per chilowattora danno circa centosessanta tonnellate. Con il metodo market-based, i trecento megawattora coperti da garanzie di origine valgono zero, mentre i cinquecento restanti, con il residual mix di quattrocentoventi grammi, danno circa duecentodieci tonnellate. Si riportano entrambi i valori con fattori e anno.",
+   "rif": "ISPRA · AIB residual mix · GHG Protocol Scope 2 Guidance"
+  }
+ ]
+}

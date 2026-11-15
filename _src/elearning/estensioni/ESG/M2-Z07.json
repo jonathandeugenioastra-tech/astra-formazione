@@ -1,0 +1,57 @@
+{
+ "dopo": "Integrazione con i sistemi di gestione",
+ "schermate": [
+  {
+   "t": "classifica",
+   "tit": "Da quale sistema arriva il dato?",
+   "lead": "Seleziona un dato del rendiconto, poi il sistema di gestione che lo produce.",
+   "colonne": [
+    "ISO 14001",
+    "ISO 45001",
+    "ISO 50001",
+    "UNI/PdR 125",
+    "Modello 231"
+   ],
+   "schede": [
+    [
+     "Registro delle prescrizioni ambientali",
+     0,
+     "Sistema di gestione ambientale.",
+     "Corretto."
+    ],
+    [
+     "Analisi degli infortuni e dei quasi incidenti",
+     1,
+     "Sistema di gestione della salute e sicurezza.",
+     "Corretto."
+    ],
+    [
+     "Indicatori di prestazione energetica",
+     2,
+     "Sistema di gestione dell’energia.",
+     "Corretto."
+    ],
+    [
+     "Indicatori di parità di genere",
+     3,
+     "Prassi di riferimento sulla parità di genere.",
+     "Corretto."
+    ],
+    [
+     "Flussi informativi verso l’organismo di vigilanza",
+     4,
+     "Modello organizzativo.",
+     "Corretto."
+    ],
+    [
+     "Rifiuti per destinazione",
+     0,
+     "Sistema di gestione ambientale.",
+     "Corretto."
+    ]
+   ],
+   "nar": "Sei dati del rendiconto di sostenibilità. Individua il sistema di gestione che li produce.",
+   "rif": "UNI EN ISO 14001 · 45001 · 50001 · UNI/PdR 125:2022 · D.lgs. 231/2001"
+  }
+ ]
+}

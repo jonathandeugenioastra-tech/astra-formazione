@@ -1,0 +1,75 @@
+{
+ "dopo": "Confini organizzativi e anno base",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "Il nuovo stabilimento acquisito",
+   "scena": "Una PMI con anno base 2023 e 900 t CO₂e acquista nel 2026 un’azienda con uno stabilimento che emette 400 t CO₂e l’anno.",
+   "decisioni": [
+    {
+     "dom": "Che cosa succede all’anno base?",
+     "opz": [
+      [
+       "Va ricalcolato includendo lo stabilimento acquisito, se il cambiamento supera la soglia di significatività stabilita",
+       true,
+       "Corretto: confronti coerenti richiedono lo stesso perimetro."
+      ],
+      [
+       "Resta invariato",
+       false,
+       "Il confronto sarebbe falsato."
+      ],
+      [
+       "Si cambia anno base ogni anno",
+       false,
+       "Si ricalcola, non si cambia."
+      ]
+     ]
+    },
+    {
+     "dom": "Con quale approccio si includono le emissioni?",
+     "opz": [
+      [
+       "Con l’approccio di consolidamento già scelto, ad esempio il controllo operativo, applicato in modo coerente",
+       true,
+       "Corretto."
+      ],
+      [
+       "Con un approccio diverso per la nuova società",
+       false,
+       "L’approccio deve essere coerente."
+      ],
+      [
+       "Solo se conviene",
+       false,
+       "Le regole vanno applicate sempre."
+      ]
+     ]
+    },
+    {
+     "dom": "Come comunichi il cambiamento?",
+     "opz": [
+      [
+       "Spiegando il ricalcolo, i valori prima e dopo e la crescita dovuta all’acquisizione",
+       true,
+       "Corretto: trasparenza sul perimetro."
+      ],
+      [
+       "Non lo comunichi",
+       false,
+       "Sarebbe fuorviante."
+      ],
+      [
+       "Dichiari una riduzione",
+       false,
+       "Le emissioni crescono per il perimetro."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "Acquisizioni e cessioni cambiano il perimetro: l’anno base si ricalcola secondo la soglia stabilita e si comunica con trasparenza.",
+   "nar": "Un’acquisizione cambia il perimetro dell’inventario. Decidi come gestire l’anno base.",
+   "rif": "UNI EN ISO 14064-1 · GHG Protocol Corporate Standard"
+  }
+ ]
+}

@@ -1,0 +1,75 @@
+{
+ "dopo": "La verifica di parte terza: livelli di garanzia",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "La verifica del rendiconto",
+   "scena": "Un cliente chiede che il rendiconto VSME di una PMI sia verificato da terzi.",
+   "decisioni": [
+    {
+     "dom": "Quale livello di garanzia chiedi?",
+     "opz": [
+      [
+       "Di norma una garanzia limitata, adeguata a un primo rendiconto e meno onerosa",
+       true,
+       "Corretto: la garanzia ragionevole richiede più evidenze e costi."
+      ],
+      [
+       "Sempre la garanzia ragionevole",
+       false,
+       "È più onerosa e non sempre necessaria."
+      ],
+      [
+       "Nessuna, basta l’autodichiarazione",
+       false,
+       "Il cliente ha chiesto una verifica."
+      ]
+     ]
+    },
+    {
+     "dom": "Che cosa prepari per il verificatore?",
+     "opz": [
+      [
+       "Dati, fonti, fattori di emissione, calcoli e documenti di supporto tracciabili",
+       true,
+       "Corretto: il verificatore campiona dati e calcoli."
+      ],
+      [
+       "Solo il documento finale",
+       false,
+       "Non è verificabile."
+      ],
+      [
+       "Una presentazione commerciale",
+       false,
+       "Non serve."
+      ]
+     ]
+    },
+    {
+     "dom": "Il verificatore trova un errore rilevante nello Scope 2. Che cosa fai?",
+     "opz": [
+      [
+       "Correggi il dato e documenti la correzione prima della dichiarazione di verifica",
+       true,
+       "Corretto."
+      ],
+      [
+       "Chiedi di ignorarlo",
+       false,
+       "Comprometterebbe la verifica."
+      ],
+      [
+       "Pubblichi senza verifica",
+       false,
+       "Il cliente l’ha chiesta."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "Garanzia limitata per iniziare, documentazione tracciabile e correzioni trasparenti: la verifica di terza parte aumenta la credibilità dei dati.",
+   "nar": "Un cliente chiede la verifica del rendiconto. Organizzala.",
+   "rif": "ISAE 3000 · UNI EN ISO 14064-3"
+  }
+ ]
+}

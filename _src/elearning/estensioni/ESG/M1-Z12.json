@@ -1,0 +1,62 @@
+{
+ "dopo": "Tassonomia e finanza sostenibile: perché le banche chiedono dati",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Il rischio climatico fisico del sito",
+   "lead": "Valuti i rischi climatici fisici di uno stabilimento per il questionario di una banca.",
+   "dossier": [
+    [
+     "Sito",
+     "pianura, a 400 m da un fiume, in area a pericolosità idraulica media secondo le mappe ufficiali"
+    ],
+    [
+     "Attività",
+     "lavorazioni con forni; magazzino al piano terra"
+    ],
+    [
+     "Eventi recenti",
+     "allagamento del piazzale nel 2023; estati con temperature interne oltre 35 °C"
+    ],
+    [
+     "Approvvigionamento idrico",
+     "pozzo, con abbassamento della falda in estate"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Individua i pericoli climatici rilevanti per il sito.",
+     "min": 6,
+     "modello": "Alluvioni e allagamenti da eventi intensi; ondate di calore; siccità e riduzione della disponibilità idrica. Sono pericoli acuti e cronici che possono crescere con i cambiamenti climatici.",
+     "criteri": [
+      "Ho individuato l’alluvione",
+      "Ho individuato il calore",
+      "Ho individuato la siccità"
+     ]
+    },
+    {
+     "q": "Valuta esposizione e vulnerabilità.",
+     "min": 6,
+     "modello": "Esposti: magazzino al piano terra, impianti elettrici e merci; lavoratori nei reparti caldi; processi che usano acqua di pozzo. Vulnerabilità alta per merci e quadri elettrici a quota bassa e per i lavoratori vicino ai forni; media per l’acqua, se esistono alternative.",
+     "criteri": [
+      "Ho considerato beni e persone",
+      "Ho graduato la vulnerabilità",
+      "Ho considerato i processi"
+     ]
+    },
+    {
+     "q": "Proponi misure di adattamento da indicare alla banca.",
+     "min": 6,
+     "modello": "Sopraelevazione di quadri e merci, barriere mobili e piano di emergenza per allagamenti; ventilazione, schermature e organizzazione dei turni nelle ondate di calore; ricircolo e accumulo dell’acqua; copertura assicurativa adeguata. Indicare tempi e costi.",
+     "criteri": [
+      "Ho proposto misure per ogni pericolo",
+      "Ho indicato tempi e costi",
+      "Ho considerato l’assicurazione"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio valuti i rischi climatici fisici di uno stabilimento per una banca. Individua i pericoli, valuta esposizione e vulnerabilità e proponi misure di adattamento, poi confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "Reg. (UE) 2020/852, Appendice A all’Allegato I del Reg. delegato (UE) 2021/2139"
+  }
+ ]
+}

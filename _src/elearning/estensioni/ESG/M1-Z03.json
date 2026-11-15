@@ -1,0 +1,75 @@
+{
+ "dopo": "Il quadro europeo dopo il pacchetto Omnibus I",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "Il cliente che chiede il rendiconto",
+   "scena": "Un grande cliente tedesco, soggetto alla CSRD, chiede a una PMI fornitrice con 60 dipendenti di compilare un questionario di 250 domande per il proprio rendiconto.",
+   "decisioni": [
+    {
+     "dom": "La PMI è soggetta alla CSRD?",
+     "opz": [
+      [
+       "No: dopo l’Omnibus I l’obbligo riguarda imprese con più di 1.000 dipendenti e oltre 450 milioni di fatturato",
+       true,
+       "Corretto."
+      ],
+      [
+       "Sì, come fornitore di un’impresa obbligata",
+       false,
+       "L’obbligo non si trasferisce al fornitore."
+      ],
+      [
+       "Sì, se fattura più di 10 milioni",
+       false,
+       "Non è la soglia."
+      ]
+     ]
+    },
+    {
+     "dom": "Deve rispondere a tutte le 250 domande?",
+     "opz": [
+      [
+       "Le richieste delle imprese obbligate alle imprese protette sono limitate al perimetro dello standard VSME",
+       true,
+       "Corretto: è il tetto informativo della catena del valore."
+      ],
+      [
+       "Sì, per contratto deve rispondere a tutto",
+       false,
+       "La normativa limita le richieste."
+      ],
+      [
+       "No, può ignorare il questionario",
+       false,
+       "Rispondere nel perimetro VSME è utile e spesso decisivo commercialmente."
+      ]
+     ]
+    },
+    {
+     "dom": "Quale strategia conviene alla PMI?",
+     "opz": [
+      [
+       "Preparare un rendiconto VSME e usarlo per rispondere a tutti i clienti",
+       true,
+       "Corretto: un solo documento, riutilizzabile."
+      ],
+      [
+       "Rispondere in modo diverso a ogni cliente",
+       false,
+       "Moltiplica il lavoro e le incoerenze."
+      ],
+      [
+       "Aspettare che lo chieda una legge",
+       false,
+       "Il mercato lo chiede già."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "Le PMI non sono soggette alla CSRD, ma i clienti chiedono dati: il tetto VSME limita le richieste e un rendiconto VSME permette di rispondere a tutti con un solo documento.",
+   "nar": "Un grande cliente chiede molti dati. Decidi la strategia della PMI.",
+   "rif": "Direttiva (UE) 2022/2464 come modificata dall’Omnibus I · Racc. (UE) 2025/1710"
+  }
+ ]
+}

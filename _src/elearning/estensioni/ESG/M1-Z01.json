@@ -1,0 +1,73 @@
+{
+ "dopo": "ESG: che cosa significa",
+ "schermate": [
+  {
+   "t": "classifica",
+   "tit": "Ambiente, sociale o governance?",
+   "lead": "Seleziona un tema, poi il pilastro ESG.",
+   "colonne": [
+    "Ambiente (E)",
+    "Sociale (S)",
+    "Governance (G)"
+   ],
+   "schede": [
+    [
+     "Consumi di energia e quota rinnovabile",
+     0,
+     "È un tema ambientale.",
+     "Corretto."
+    ],
+    [
+     "Tasso di infortuni",
+     1,
+     "Salute e sicurezza sono temi sociali.",
+     "Corretto."
+    ],
+    [
+     "Politica anticorruzione",
+     2,
+     "È governance.",
+     "Corretto."
+    ],
+    [
+     "Rifiuti avviati a recupero",
+     0,
+     "Ambientale.",
+     "Corretto."
+    ],
+    [
+     "Ore di formazione per dipendente",
+     1,
+     "Sociale.",
+     "Corretto."
+    ],
+    [
+     "Composizione dell’organo amministrativo",
+     2,
+     "Governance.",
+     "Corretto."
+    ],
+    [
+     "Prelievi idrici",
+     0,
+     "Ambientale.",
+     "Corretto."
+    ],
+    [
+     "Divario retributivo di genere",
+     1,
+     "Sociale.",
+     "Corretto."
+    ],
+    [
+     "Gestione dei rischi e controlli interni",
+     2,
+     "Governance.",
+     "Corretto."
+    ]
+   ],
+   "nar": "Nove temi di sostenibilità. Collocali nel pilastro ambientale, sociale o di governance.",
+   "rif": "Raccomandazione (UE) 2025/1710 · VSME"
+  }
+ ]
+}

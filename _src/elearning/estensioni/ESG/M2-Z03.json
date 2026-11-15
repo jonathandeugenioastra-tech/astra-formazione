@@ -1,0 +1,62 @@
+{
+ "dopo": "Esempio applicativo: Scope 1 dal gas naturale",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Scope 1 e Scope 2 di una PMI",
+   "lead": "Calcola le emissioni del 2024 di una PMI.",
+   "dossier": [
+    [
+     "Gas naturale",
+     "60.000 Sm³; fattore per le emissioni 2024: 2,019 t CO₂ ogni 1.000 Sm³"
+    ],
+    [
+     "Gasolio della flotta",
+     "18.000 litri; densità 0,835 kg/l; 3,150 t CO₂ per t"
+    ],
+    [
+     "Gas refrigerante",
+     "ricarica di 3 kg di R-410A; GWP AR5 1.924"
+    ],
+    [
+     "Elettricità",
+     "500 MWh; fattore 2024 di 194,0 g CO₂eq/kWh"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Calcola le emissioni di gas naturale e gasolio.",
+     "min": 7,
+     "modello": "Gas: 60.000 / 1.000 × 2,019 = 121,1 t CO₂. Gasolio: 18.000 × 0,835 = 15.030 kg = 15,03 t; × 3,150 = 47,3 t CO₂.",
+     "criteri": [
+      "Ho calcolato 121,1 t",
+      "Ho convertito litri in tonnellate",
+      "Ho calcolato 47,3 t"
+     ]
+    },
+    {
+     "q": "Calcola le emissioni del refrigerante e lo Scope 1 totale.",
+     "min": 5,
+     "modello": "3 kg × 1.924 = 5.772 kg = 5,8 t CO₂e. Scope 1 = 121,1 + 47,3 + 5,8 ≈ 174,2 t CO₂e.",
+     "criteri": [
+      "Ho usato la ricarica come stima della perdita",
+      "Ho calcolato 5,8 t CO₂e",
+      "Ho sommato circa 174 t"
+     ]
+    },
+    {
+     "q": "Calcola lo Scope 2 location-based e indica che cosa dichiari nel rendiconto.",
+     "min": 6,
+     "modello": "500 MWh × 194,0 g/kWh = 97,0 t CO₂e. Nel rendiconto: Scope 1 174 t e Scope 2 location-based 97 t, con anno, fattori, fonti, serie di GWP e metodo; se disponibile anche il market-based.",
+     "criteri": [
+      "Ho calcolato 97 t",
+      "Ho dichiarato fattori, fonti e GWP",
+      "Ho considerato il market-based"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio calcoli le emissioni Scope uno e Scope due di una PMI per il duemilaventiquattro, da gas naturale, gasolio, refrigerante ed elettricità. Esegui i calcoli e indica che cosa dichiarare, poi confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "Tabella ISPRA dei parametri standard nazionali · ISPRA fattori elettrici · IPCC AR5"
+  }
+ ]
+}

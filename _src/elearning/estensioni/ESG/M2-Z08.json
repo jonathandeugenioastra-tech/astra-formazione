@@ -1,0 +1,66 @@
+{
+ "dopo": "Le asserzioni ambientali: Direttiva (UE) 2024/825",
+ "schermate": [
+  {
+   "t": "classifica",
+   "tit": "Asserzione ammessa o vietata?",
+   "lead": "Seleziona un’asserzione, poi la colonna.",
+   "colonne": [
+    "Ammessa, se dimostrata",
+    "Vietata"
+   ],
+   "schede": [
+    [
+     "«Prodotto ecologico», senza ulteriori specifiche",
+     1,
+     "Asserzione generica vietata.",
+     "Corretto."
+    ],
+    [
+     "«Imballaggio realizzato con il 70% di plastica riciclata, certificato»",
+     0,
+     "Specifica e verificabile.",
+     "Corretto."
+    ],
+    [
+     "«Neutrale per il clima» grazie a crediti di compensazione",
+     1,
+     "Vietata se basata sulla compensazione.",
+     "Corretto."
+    ],
+    [
+     "«Riduzione del 25% delle emissioni dello stabilimento rispetto al 2022, verificata»",
+     0,
+     "Specifica e documentata.",
+     "Corretto."
+    ],
+    [
+     "Marchio «Amico della natura» creato dall’impresa senza certificazione",
+     1,
+     "Vietato se non basato su un sistema di certificazione.",
+     "Corretto."
+    ],
+    [
+     "«Consumo d’acqua ridotto del 30% per tonnellata di prodotto rispetto al 2023»",
+     0,
+     "Specifica, misurabile.",
+     "Corretto."
+    ],
+    [
+     "«Green» sull’intera gamma per un solo prodotto migliorato",
+     1,
+     "Vietata: estende all’intero prodotto o impresa ciò che vale per una parte.",
+     "Corretto."
+    ],
+    [
+     "«Energia elettrica da garanzie di origine rinnovabili per il 100% dei consumi 2025»",
+     0,
+     "Specifica e documentabile.",
+     "Corretto."
+    ]
+   ],
+   "nar": "Otto asserzioni ambientali. Distingui quelle ammesse, se dimostrate, da quelle vietate dalla direttiva sulla transizione verde dei consumatori.",
+   "rif": "Direttiva (UE) 2024/825 · D.lgs. 30/2026"
+  }
+ ]
+}

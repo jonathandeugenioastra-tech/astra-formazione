@@ -1,0 +1,80 @@
+{
+ "dopo": "Esercitazione · Il rendiconto «impatto zero»",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Riscrivere le asserzioni",
+   "lead": "Riscrivi le frasi del sito di una PMI dopo la revisione legale.",
+   "dossier": [
+    [
+     "Frase 1",
+     "«Siamo un’azienda green al 100%»"
+    ],
+    [
+     "Frase 2",
+     "«I nostri prodotti sono a impatto zero grazie ai crediti di carbonio»"
+    ],
+    [
+     "Frase 3",
+     "«Usiamo solo energia pulita»"
+    ],
+    [
+     "Dati disponibili",
+     "fotovoltaico che copre il 35% dei consumi elettrici; garanzie di origine per il resto dell’elettricità nel 2025; riduzione del 18% delle emissioni Scope 1 e 2 dal 2022; crediti acquistati per 200 t"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Riscrivi la frase 1.",
+     "min": 5,
+     "modello": "«Dal 2022 abbiamo ridotto del 18% le emissioni di gas serra dirette e da energia elettrica dei nostri stabilimenti.» Si sostituisce un’asserzione generica con un risultato specifico e verificabile.",
+     "criteri": [
+      "Ho eliminato il termine generico",
+      "Ho usato un dato verificabile",
+      "Ho indicato perimetro e periodo"
+     ]
+    },
+    {
+     "q": "Riscrivi la frase 2.",
+     "min": 6,
+     "modello": "«Nel 2025 abbiamo finanziato progetti di riduzione o assorbimento per 200 t CO₂e, in aggiunta ai nostri obiettivi di riduzione.» Non si dichiara neutralità del prodotto basata sulle compensazioni.",
+     "criteri": [
+      "Ho eliminato «impatto zero»",
+      "Ho distinto compensazione e riduzione",
+      "Ho indicato quantità e anno"
+     ]
+    },
+    {
+     "q": "Riscrivi la frase 3.",
+     "min": 5,
+     "modello": "«Nel 2025 il 35% della nostra elettricità è stato prodotto dal nostro impianto fotovoltaico e il restante 65% è stato coperto da garanzie di origine rinnovabili.» L’asserzione riguarda l’elettricità, non tutta l’energia, che comprende anche il gas.",
+     "criteri": [
+      "Ho limitato l’asserzione all’elettricità",
+      "Ho distinto autoproduzione e garanzie",
+      "Ho indicato l’anno"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio riscrivi tre frasi del sito di una PMI che rischiano di essere asserzioni ambientali vietate. Usa i dati disponibili per trasformarle in affermazioni specifiche e verificabili, poi confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "Direttiva (UE) 2024/825 · D.lgs. 30/2026"
+  },
+  {
+   "t": "applica",
+   "tit": "Il tuo primo rendiconto",
+   "lead": "Scegli le prossime azioni per il rendiconto di sostenibilità della tua organizzazione.",
+   "voci": [
+    "Nominare un referente",
+    "Costruire la mappa dei dati",
+    "Calcolare Scope 1 e 2",
+    "Calcolare gli indicatori sociali",
+    "Scrivere la politica di sostenibilità",
+    "Definire obiettivi",
+    "Rivedere le asserzioni del sito"
+   ],
+   "campo": "L’azione numero uno e la data entro cui completarla",
+   "esempio": "Es.: calcolo Scope 1 e 2 del 2025 entro marzo",
+   "min": 3,
+   "nar": "Scegli le prossime azioni per il rendiconto di sostenibilità della tua organizzazione e indica l’azione numero uno con una data."
+  }
+ ]
+}

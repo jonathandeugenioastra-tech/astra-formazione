@@ -1,0 +1,102 @@
+{
+ "dopo": "Esercitazione · L’importazione diretta",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · La mappa REACH della tua impresa",
+   "lead": "Prepari la mappa REACH di un’impresa che produce adesivi.",
+   "dossier": [
+    [
+     "Acquisti",
+     "12 sostanze da fornitori italiani; 2 sostanze importate dalla Corea, 4 e 25 t l’anno"
+    ],
+    [
+     "Prodotti",
+     "adesivi per l’industria e per il fai da te"
+    ],
+    [
+     "Contenuti",
+     "un adesivo contiene diisocianati allo 0,5%"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Indica i ruoli dell’impresa e gli obblighi principali.",
+     "min": 7,
+     "modello": "Utilizzatore a valle e formulatore per le sostanze acquistate in Italia: verificare gli usi negli scenari, preparare SDS e scenari per i clienti. Importatore per le due sostanze coreane: registrazione nelle fasce 1-10 e 100-1000 t, salvo rappresentante esclusivo. Fornitore di miscele: classificazione, etichettatura, notifica ai centri antiveleni e UFI.",
+     "criteri": [
+      "Ho indicato i ruoli",
+      "Ho indicato la registrazione",
+      "Ho indicato gli obblighi del formulatore"
+     ]
+    },
+    {
+     "q": "Quali obblighi speciali derivano dall’adesivo con diisocianati?",
+     "min": 5,
+     "modello": "Restrizione della voce 74: etichetta con l’avviso sulla formazione per gli usi professionali e industriali; per il fai da te verificare le condizioni di vendita al pubblico previste dalle norme; formazione degli utilizzatori professionali.",
+     "criteri": [
+      "Ho richiamato la voce 74",
+      "Ho distinto professionale e pubblico"
+     ]
+    },
+    {
+     "q": "Quali sono le priorità dei prossimi sei mesi?",
+     "min": 5,
+     "modello": "Verificare le registrazioni delle importazioni o nominare il rappresentante esclusivo; controllare SDS e scenari in entrata e in uscita; aggiornare etichette e notifiche; monitorare l’elenco delle candidate per le sostanze usate.",
+     "criteri": [
+      "Ho previsto le registrazioni",
+      "Ho previsto SDS ed etichette",
+      "Ho previsto il monitoraggio delle SVHC"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio prepari la mappa REACH di un’impresa che produce adesivi. Individua ruoli e obblighi, gli obblighi legati ai diisocianati e le priorità dei prossimi sei mesi, poi confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "Reg. (CE) 1907/2006 · Reg. (CE) 1272/2008"
+  },
+  {
+   "t": "applica",
+   "tit": "Il REACH nella tua impresa",
+   "lead": "Verifica la tua posizione rispetto al REACH.",
+   "voci": [
+    "Conosco il mio ruolo per ogni prodotto",
+    "Importo sostanze o miscele da fuori Unione",
+    "Ricevo SDS estese con scenari",
+    "Verifico gli usi negli scenari",
+    "Fornisco articoli con SVHC",
+    "Controllo le restrizioni sui prodotti"
+   ],
+   "campo": "L’obbligo REACH più urgente per te",
+   "esempio": "Es.: verificare la registrazione della resina importata",
+   "min": 3,
+   "nar": "Verifica la posizione della tua impresa rispetto al REACH e indica l’obbligo più urgente."
+  },
+  {
+   "t": "vf",
+   "tit": "Ripasso · REACH",
+   "voci": [
+    [
+     "La registrazione è obbligatoria da 1 t/anno per fabbricante o importatore.",
+     true,
+     "Vero."
+    ],
+    [
+     "La soglia dello 0,1% per le SVHC si calcola sull’articolo complesso intero.",
+     false,
+     "Falso: si calcola su ogni articolo componente."
+    ],
+    [
+     "L’importatore coperto da un rappresentante esclusivo è un utilizzatore a valle.",
+     true,
+     "Vero."
+    ],
+    [
+     "Le restrizioni dell’Allegato XVII riguardano solo le sostanze, non gli articoli.",
+     false,
+     "Falso: molte restrizioni riguardano articoli."
+    ]
+   ],
+   "nar": "Ripasso: quattro affermazioni sul REACH.",
+   "rif": "Reg. (CE) 1907/2006"
+  }
+ ]
+}

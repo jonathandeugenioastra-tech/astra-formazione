@@ -1,0 +1,63 @@
+{
+ "dopo": "Autorizzazione e restrizioni",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Verificare le restrizioni su articoli",
+   "lead": "Un’impresa progetta e vende accessori di abbigliamento e oggetti in gomma per il pubblico.",
+   "dossier": [
+    [
+     "Prodotto 1",
+     "fibbie metalliche per cinture, a contatto prolungato con la pelle"
+    ],
+    [
+     "Prodotto 2",
+     "impugnature in gomma per utensili da giardino"
+    ],
+    [
+     "Prodotto 3",
+     "portachiavi per bambini in plastica morbida"
+    ],
+    [
+     "Fornitori",
+     "extra-UE, senza dichiarazioni"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Individua le restrizioni da verificare per ogni prodotto.",
+     "min": 7,
+     "modello": "Fibbie: rilascio di nichel, voce 27, con limite di 0,5 µg/cm² per settimana per il contatto prolungato. Impugnature: idrocarburi policiclici aromatici, voce 50, limite di 1 mg/kg per ciascuno degli otto IPA nei componenti a contatto con la pelle per il pubblico. Portachiavi: ftalati, voce 51, e, se considerati giocattoli, limiti più severi; IPA a 0,5 mg/kg per i giocattoli.",
+     "criteri": [
+      "Ho indicato il nichel",
+      "Ho indicato gli IPA con i limiti",
+      "Ho considerato gli ftalati"
+     ],
+     "minc": 120
+    },
+    {
+     "q": "Come organizzi i controlli sui fornitori?",
+     "min": 6,
+     "modello": "Capitolato con le restrizioni applicabili; dichiarazioni di conformità; rapporti di prova di laboratori accreditati su campioni rappresentativi; controlli a campione sui lotti; azioni in caso di non conformità.",
+     "criteri": [
+      "Ho previsto capitolato e dichiarazioni",
+      "Ho previsto prove di laboratorio",
+      "Ho previsto controlli sui lotti"
+     ]
+    },
+    {
+     "q": "Che cosa fai se un lotto di fibbie supera il limite del nichel?",
+     "min": 5,
+     "modello": "Si blocca il lotto, non si immette sul mercato, si informa il fornitore, si valutano richiamo o ritiro se già venduto e si rafforzano i controlli; si documenta tutto.",
+     "criteri": [
+      "Ho bloccato il lotto",
+      "Ho considerato il ritiro",
+      "Ho previsto la documentazione"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio verifichi le restrizioni dell’Allegato diciassette su tre articoli. Individua le restrizioni applicabili, organizza i controlli sui fornitori e decidi come gestire una non conformità, poi confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "Reg. (CE) 1907/2006, Allegato XVII, voci 27, 50 e 51"
+  }
+ ]
+}

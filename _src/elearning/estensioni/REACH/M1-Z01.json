@@ -1,0 +1,69 @@
+{
+ "dopo": "I ruoli nel REACH",
+ "schermate": [
+  {
+   "t": "classifica",
+   "tit": "Qual è il ruolo nel REACH?",
+   "lead": "Seleziona un’impresa, poi il suo ruolo.",
+   "colonne": [
+    "Fabbricante",
+    "Importatore",
+    "Utilizzatore a valle",
+    "Distributore",
+    "Produttore di articoli"
+   ],
+   "schede": [
+    [
+     "Produce nell’Unione un solvente per la vendita",
+     0,
+     "Fabbrica la sostanza nell’Unione.",
+     "Corretto."
+    ],
+    [
+     "Acquista una resina dalla Cina e la porta in Italia",
+     1,
+     "Introduce la sostanza nel territorio doganale dell’Unione.",
+     "Corretto."
+    ],
+    [
+     "Usa una vernice acquistata in Italia per verniciare mobili",
+     2,
+     "Usa una miscela nell’esercizio dell’attività.",
+     "Corretto."
+    ],
+    [
+     "Rivende detergenti senza modificarli",
+     3,
+     "Immagazzina e immette sul mercato senza usare.",
+     "Corretto."
+    ],
+    [
+     "Fabbrica cavi elettrici con un rivestimento in PVC",
+     4,
+     "Produce articoli.",
+     "Corretto."
+    ],
+    [
+     "Formula una colla miscelando sostanze acquistate in Italia",
+     2,
+     "Il formulatore è un utilizzatore a valle.",
+     "Corretto."
+    ],
+    [
+     "Importa smartphone completi",
+     1,
+     "Importa articoli: per gli articoli valgono gli obblighi dell’art. 7 e 33.",
+     "Corretto."
+    ],
+    [
+     "Usa un lubrificante per le proprie macchine",
+     2,
+     "È utilizzatore a valle.",
+     "Corretto."
+    ]
+   ],
+   "nar": "Otto imprese. Individua il ruolo di ciascuna nel regolamento REACH: da questo dipendono gli obblighi.",
+   "rif": "Reg. (CE) 1907/2006, art. 3"
+  }
+ ]
+}

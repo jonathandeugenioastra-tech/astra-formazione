@@ -1,0 +1,57 @@
+{
+ "dopo": "Scenari di esposizione e SDS estesa",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · L’uso rientra nello scenario?",
+   "lead": "Confronti lo scenario di esposizione di un solvente con l’uso reale in reparto.",
+   "dossier": [
+    [
+     "Scenario",
+     "applicazione a pennello; aspirazione localizzata; durata massima 4 ore al giorno; guanti in gomma nitrilica"
+    ],
+    [
+     "Uso reale",
+     "applicazione a spruzzo, senza aspirazione, per circa 6 ore al giorno"
+    ],
+    [
+     "DPI",
+     "guanti in lattice"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "L’uso è coperto dallo scenario? Motiva.",
+     "min": 6,
+     "modello": "No: cambia la tecnica, da pennello a spruzzo, manca l’aspirazione, la durata supera le 4 ore e i guanti non sono quelli indicati. Le condizioni operative e le misure di gestione del rischio non corrispondono.",
+     "criteri": [
+      "Ho confrontato tecnica e durata",
+      "Ho rilevato l’assenza di aspirazione",
+      "Ho rilevato i guanti non conformi"
+     ]
+    },
+    {
+     "q": "Quali opzioni ha l’utilizzatore a valle?",
+     "min": 7,
+     "modello": "Adeguare l’uso alle condizioni dello scenario, ad esempio introducendo aspirazione, limitando la durata e usando i guanti indicati; oppure chiedere al fornitore di includere l’uso; oppure redigere una propria relazione sulla sicurezza chimica e notificarla all’ECHA, salvo esenzioni.",
+     "criteri": [
+      "Ho indicato l’adeguamento",
+      "Ho indicato la richiesta al fornitore",
+      "Ho indicato la relazione dell’utilizzatore a valle"
+     ]
+    },
+    {
+     "q": "Che cosa documenti nella valutazione dei rischi?",
+     "min": 5,
+     "modello": "Il confronto con lo scenario, l’opzione scelta, le misure adottate e i tempi; l’aggiornamento della scheda di reparto e la formazione degli addetti.",
+     "criteri": [
+      "Ho documentato confronto e scelta",
+      "Ho previsto la scheda di reparto e la formazione"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio confronti lo scenario di esposizione di un solvente con l’uso reale. Valuta se l’uso è coperto, individua le opzioni dell’utilizzatore a valle e indica che cosa documentare, poi confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "Art. 37 Reg. (CE) 1907/2006"
+  }
+ ]
+}

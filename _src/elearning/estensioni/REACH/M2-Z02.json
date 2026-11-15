@@ -1,0 +1,39 @@
+{
+ "dopo": "Il regolamento CLP: classi e categorie di pericolo",
+ "schermate": [
+  {
+   "t": "esempio",
+   "tit": "Esempio guidato · Quale categoria di liquido infiammabile?",
+   "lead": "I criteri del punto di infiammabilità e del punto di ebollizione.",
+   "passi": [
+    [
+     "Categoria 1",
+     "Punto di infiammabilità sotto 23 °C e punto iniziale di ebollizione fino a 35 °C.",
+     "H224"
+    ],
+    [
+     "Categoria 2",
+     "Punto di infiammabilità sotto 23 °C e punto iniziale di ebollizione oltre 35 °C.",
+     "H225"
+    ],
+    [
+     "Categoria 3",
+     "Punto di infiammabilità tra 23 e 60 °C.",
+     "H226"
+    ],
+    [
+     "Il caso",
+     "Un diluente ha punto di infiammabilità di 12 °C e punto di ebollizione di 110 °C.",
+     "Categoria 2 · H225"
+    ],
+    [
+     "L’etichetta",
+     "Pittogramma GHS02, avvertenza «Pericolo».",
+     "GHS02 · Pericolo"
+    ]
+   ],
+   "nar": "Classifichiamo un liquido infiammabile. Sotto i ventitré gradi di punto di infiammabilità si è in categoria uno o due, a seconda che il punto di ebollizione sia fino a trentacinque gradi o superiore; tra ventitré e sessanta gradi si è in categoria tre. Un diluente con infiammabilità a dodici gradi ed ebollizione a centodieci è in categoria due, con H duecentoventicinque, fiamma e avvertenza «Pericolo».",
+   "rif": "Reg. (CE) 1272/2008, Allegato I, punto 2.6"
+  }
+ ]
+}

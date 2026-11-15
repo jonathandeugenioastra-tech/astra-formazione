@@ -1,0 +1,61 @@
+{
+ "dopo": "Il codice UFI e la notifica ai centri antiveleni",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · La notifica ai centri antiveleni",
+   "lead": "Un formulatore immette sul mercato italiano un nuovo detergente classificato Skin Corr. 1.",
+   "dossier": [
+    [
+     "Uso",
+     "professionale"
+    ],
+    [
+     "Composizione",
+     "4 componenti, uno con identità riservata dal fornitore"
+    ],
+    [
+     "Mercati",
+     "Italia, poi Francia"
+    ],
+    [
+     "Etichetta",
+     "in preparazione"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Chi notifica, quando e con quali informazioni?",
+     "min": 6,
+     "modello": "Il formulatore, come utilizzatore a valle che immette la miscela sul mercato, prima dell’immissione, tramite il portale ECHA nel formato armonizzato: identificazione, classificazione ed etichetta, composizione con concentrazioni, informazioni tossicologiche, categoria di prodotto EuPCS e UFI.",
+     "criteri": [
+      "Ho indicato chi e quando",
+      "Ho indicato il portale e il formato",
+      "Ho elencato le informazioni"
+     ]
+    },
+    {
+     "q": "Come gestisci il componente con identità riservata?",
+     "min": 5,
+     "modello": "Si chiede al fornitore di comunicare le informazioni direttamente all’ECHA o di fornire il suo UFI di miscela in miscela, così che la notifica sia completa senza rivelare l’identità al formulatore.",
+     "criteri": [
+      "Ho proposto la comunicazione del fornitore",
+      "Ho citato l’UFI della miscela in miscela"
+     ]
+    },
+    {
+     "q": "Che cosa cambia per l’etichetta e per la Francia?",
+     "min": 6,
+     "modello": "Il codice UFI di 16 caratteri va riportato sull’etichetta, in genere vicino alle informazioni supplementari; per la Francia serve la notifica anche per quello Stato membro e l’etichetta in lingua francese. Ogni modifica significativa della composizione richiede l’aggiornamento della notifica e, se necessario, un nuovo UFI.",
+     "criteri": [
+      "Ho indicato l’UFI in etichetta",
+      "Ho considerato lingua e Stato membro",
+      "Ho previsto gli aggiornamenti"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio prepari la notifica ai centri antiveleni di un nuovo detergente. Indica chi notifica e con quali informazioni, come gestire un componente riservato e che cosa cambia per etichetta e mercati esteri, poi confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "Reg. (CE) 1272/2008, art. 45 e Allegato VIII"
+  }
+ ]
+}

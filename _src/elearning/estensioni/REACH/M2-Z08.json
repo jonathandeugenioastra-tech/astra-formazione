@@ -1,0 +1,75 @@
+{
+ "dopo": "L’etichetta CLP e le novità della revisione",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "Il prodotto venduto online",
+   "scena": "Un’impresa vende online un disincrostante classificato Skin Corr. 1. La pagina del prodotto mostra solo foto, prezzo e descrizione commerciale.",
+   "decisioni": [
+    {
+     "dom": "La pagina è conforme?",
+     "opz": [
+      [
+       "No: chi vende a distanza deve indicare i pericoli prima dell’acquisto, come pittogrammi, avvertenza e indicazioni di pericolo",
+       true,
+       "Corretto: il CLP richiede le informazioni sui pericoli anche nella pubblicità e nelle vendite a distanza."
+      ],
+      [
+       "Sì, l’etichetta è sulla confezione",
+       false,
+       "Il consumatore deve conoscere i pericoli prima di acquistare."
+      ],
+      [
+       "Sì, se c’è il link alla SDS",
+       false,
+       "Non basta."
+      ]
+     ]
+    },
+    {
+     "dom": "Che cosa aggiungi alla pagina?",
+     "opz": [
+      [
+       "Pittogramma, avvertenza, indicazioni di pericolo e, se previsto, informazioni supplementari, coerenti con l’etichetta",
+       true,
+       "Corretto."
+      ],
+      [
+       "Una frase «maneggiare con cura»",
+       false,
+       "È generica."
+      ],
+      [
+       "Nulla",
+       false,
+       "Le informazioni sono obbligatorie."
+      ]
+     ]
+    },
+    {
+     "dom": "Chi controlla la coerenza tra pagina, etichetta e SDS?",
+     "opz": [
+      [
+       "Un responsabile interno con una procedura di revisione a ogni aggiornamento",
+       true,
+       "Corretto."
+      ],
+      [
+       "Il fornitore del sito web",
+       false,
+       "La responsabilità è dell’impresa."
+      ],
+      [
+       "Nessuno",
+       false,
+       "Serve un controllo."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "Nella vendita a distanza i pericoli vanno mostrati prima dell’acquisto, coerenti con etichetta e SDS e aggiornati a ogni revisione.",
+   "nar": "Un prodotto pericoloso venduto online. Verifica la pagina.",
+   "rif": "Reg. (CE) 1272/2008, art. 48, come modificato dal Reg. (UE) 2024/2865"
+  }
+ ]
+}

@@ -1,0 +1,75 @@
+{
+ "dopo": "Controlli e sanzioni in Italia",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "L’ispezione sulle schede di sicurezza",
+   "scena": "Durante un controllo sul REACH e sul CLP, gli ispettori chiedono a un distributore di prodotti chimici le SDS di dieci prodotti e le prove della loro trasmissione ai clienti.",
+   "decisioni": [
+    {
+     "dom": "Che cosa mostri?",
+     "opz": [
+      [
+       "Le SDS aggiornate in italiano e le evidenze dell’invio ai clienti alla prima fornitura e dopo ogni revisione",
+       true,
+       "Corretto: il distributore deve trasmettere le SDS lungo la catena."
+      ],
+      [
+       "Solo le fatture",
+       false,
+       "Non dimostrano l’invio delle SDS."
+      ],
+      [
+       "Le SDS del fornitore in inglese",
+       false,
+       "Vanno in italiano."
+      ]
+     ]
+    },
+    {
+     "dom": "Una SDS è del 2018 e il fornitore ha emesso una revisione nel 2024 che non hai trasmesso. Che cosa rischi?",
+     "opz": [
+      [
+       "Una sanzione per la mancata trasmissione delle informazioni aggiornate",
+       true,
+       "Corretto: le violazioni sono sanzionate dal D.lgs. 133/2009."
+      ],
+      [
+       "Nulla, la vecchia scheda va bene",
+       false,
+       "La revisione va trasmessa."
+      ],
+      [
+       "Solo un richiamo verbale",
+       false,
+       "Sono previste sanzioni."
+      ]
+     ]
+    },
+    {
+     "dom": "Come eviti il problema in futuro?",
+     "opz": [
+      [
+       "Un sistema che registra versioni e invii delle SDS e avvisa i clienti a ogni revisione",
+       true,
+       "Corretto."
+      ],
+      [
+       "Inviare le SDS solo su richiesta",
+       false,
+       "L’obbligo è automatico."
+      ],
+      [
+       "Pubblicarle sul sito e basta",
+       false,
+       "Va dimostrato l’invio ai clienti."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "SDS aggiornate, in italiano, trasmesse ai clienti a ogni revisione e con prova dell’invio: è ciò che gli ispettori verificano presso i distributori.",
+   "nar": "Un controllo sulle schede di sicurezza presso un distributore. Prepara le evidenze.",
+   "rif": "Art. 31 Reg. (CE) 1907/2006 · D.lgs. 133/2009"
+  }
+ ]
+}

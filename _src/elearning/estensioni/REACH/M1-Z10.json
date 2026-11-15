@@ -1,0 +1,75 @@
+{
+ "dopo": "Il regolamento REACH e gli obblighi dell’utilizzatore",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "L’uso che lo scenario non prevede",
+   "scena": "Un’impresa riceve la SDS estesa di una sostanza registrata: il suo uso, la nebulizzazione per la pulizia di stampi, non compare tra gli usi identificati.",
+   "decisioni": [
+    {
+     "dom": "Entro quando deve agire?",
+     "opz": [
+      [
+       "Entro 12 mesi dalla ricezione della SDS estesa",
+       true,
+       "Corretto: è il termine per adeguarsi o scegliere un’altra strada."
+      ],
+      [
+       "Entro 5 anni",
+       false,
+       "Il termine è molto più breve."
+      ],
+      [
+       "Non deve fare nulla",
+       false,
+       "L’uso non coperto va gestito."
+      ]
+     ]
+    },
+    {
+     "dom": "Quali opzioni ha?",
+     "opz": [
+      [
+       "Adeguare l’uso, chiedere al fornitore di includerlo o preparare una propria relazione sulla sicurezza chimica",
+       true,
+       "Corretto: sono le opzioni dell’art. 37."
+      ],
+      [
+       "Solo cambiare fornitore",
+       false,
+       "È possibile ma non è l’unica opzione."
+      ],
+      [
+       "Continuare senza modifiche",
+       false,
+       "Non è conforme."
+      ]
+     ]
+    },
+    {
+     "dom": "Che cosa comunica all’ECHA se prepara la propria relazione?",
+     "opz": [
+      [
+       "Le informazioni previste dall’art. 38, salvo esenzioni come quantità inferiori a 1 t/anno",
+       true,
+       "Corretto."
+      ],
+      [
+       "Nulla",
+       false,
+       "Ci sono obblighi di comunicazione."
+      ],
+      [
+       "Solo il nome dell’impresa",
+       false,
+       "Non basta."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "Un uso non coperto dallo scenario si gestisce entro dodici mesi: adeguandosi, chiedendo al fornitore di includerlo o con una propria valutazione comunicata all’ECHA.",
+   "nar": "Un uso non previsto nella SDS estesa. Decidi come procedere.",
+   "rif": "Reg. (CE) 1907/2006, artt. 37 e 38"
+  }
+ ]
+}

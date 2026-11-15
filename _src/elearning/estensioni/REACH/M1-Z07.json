@@ -1,0 +1,75 @@
+{
+ "dopo": "Le sostanze dell’Allegato XIV: uso autorizzato e obblighi a valle",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "La cromatura con triossido di cromo",
+   "scena": "Un’impresa di cromatura decorativa acquista triossido di cromo da un fornitore titolare di un’autorizzazione per il suo uso.",
+   "decisioni": [
+    {
+     "dom": "Può continuare a usarlo?",
+     "opz": [
+      [
+       "Sì, se il suo uso rientra in quello autorizzato e rispetta le condizioni dell’autorizzazione",
+       true,
+       "Corretto: gli utilizzatori a valle possono avvalersi dell’autorizzazione del fornitore."
+      ],
+      [
+       "Sì, sempre",
+       false,
+       "Servono uso coperto e condizioni rispettate."
+      ],
+      [
+       "No, mai",
+       false,
+       "È possibile se coperto."
+      ]
+     ]
+    },
+    {
+     "dom": "Quale adempimento verso l’ECHA?",
+     "opz": [
+      [
+       "Notificare l’uso entro tre mesi dalla prima fornitura",
+       true,
+       "Corretto: art. 66."
+      ],
+      [
+       "Nessuno",
+       false,
+       "La notifica è obbligatoria."
+      ],
+      [
+       "Registrare la sostanza",
+       false,
+       "Non spetta all’utilizzatore a valle."
+      ]
+     ]
+    },
+    {
+     "dom": "Quali condizioni sono tipiche in questi casi?",
+     "opz": [
+      [
+       "Misure di controllo dell’esposizione, monitoraggio dell’aria e biologico, e attenzione alle alternative",
+       true,
+       "Corretto."
+      ],
+      [
+       "Solo l’etichetta",
+       false,
+       "Le condizioni sono più ampie."
+      ],
+      [
+       "Nessuna",
+       false,
+       "L’autorizzazione ha condizioni."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "Uso coperto e condizioni rispettate, notifica entro tre mesi, monitoraggio e ricerca di alternative: sono gli obblighi a valle delle sostanze soggette ad autorizzazione.",
+   "nar": "Una cromatura usa una sostanza soggetta ad autorizzazione. Verifica gli obblighi.",
+   "rif": "Reg. (CE) 1907/2006, artt. 56 e 66"
+  }
+ ]
+}

@@ -1,0 +1,54 @@
+{
+ "dopo": "Le nuove classi di pericolo: interferenti endocrini, PBT e PMT",
+ "schermate": [
+  {
+   "t": "classifica",
+   "tit": "Classe vecchia o nuova?",
+   "lead": "Seleziona una classe di pericolo, poi la colonna.",
+   "colonne": [
+    "Classi introdotte nel 2023",
+    "Classi già presenti"
+   ],
+   "schede": [
+    [
+     "Interferenti endocrini per la salute umana",
+     0,
+     "Introdotta dal Reg. delegato (UE) 2023/707.",
+     "Corretto."
+    ],
+    [
+     "Persistenti, mobili e tossiche (PMT)",
+     0,
+     "Nuova classe.",
+     "Corretto."
+    ],
+    [
+     "Persistenti, bioaccumulabili e tossiche (PBT)",
+     0,
+     "Diventa classe di pericolo del CLP con il regolamento del 2023.",
+     "Corretto."
+    ],
+    [
+     "Tossicità per la riproduzione",
+     1,
+     "Era già presente.",
+     "Corretto."
+    ],
+    [
+     "Sensibilizzazione cutanea",
+     1,
+     "Era già presente.",
+     "Corretto."
+    ],
+    [
+     "Interferenti endocrini per l’ambiente",
+     0,
+     "Nuova classe.",
+     "Corretto."
+    ]
+   ],
+   "nar": "Sei classi di pericolo. Distingui quelle introdotte nel duemilaventitré da quelle già presenti nel CLP.",
+   "rif": "Reg. delegato (UE) 2023/707"
+  }
+ ]
+}

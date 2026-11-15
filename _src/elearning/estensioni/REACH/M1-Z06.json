@@ -1,0 +1,75 @@
+{
+ "dopo": "La restrizione sulle microplastiche aggiunte intenzionalmente",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "I glitter del negozio di bricolage",
+   "scena": "Un negozio di articoli per il fai da te vende glitter sfusi in plastica per decorazioni e chiede se può continuare.",
+   "decisioni": [
+    {
+     "dom": "I glitter sfusi rientrano nella restrizione?",
+     "opz": [
+      [
+       "Sì: sono microplastiche aggiunte intenzionalmente immesse sul mercato come tali, vietate dal 17 ottobre 2023",
+       true,
+       "Corretto."
+      ],
+      [
+       "No, sono un prodotto decorativo",
+       false,
+       "L’uso decorativo non li esclude."
+      ],
+      [
+       "Solo se venduti online",
+       false,
+       "Il canale non conta."
+      ]
+     ]
+    },
+    {
+     "dom": "Che cosa può vendere in alternativa?",
+     "opz": [
+      [
+       "Glitter non coperti dalla definizione, ad esempio solubili, biodegradabili secondo i criteri o di origine naturale non modificata chimicamente",
+       true,
+       "Corretto: occorre verificare la documentazione del fornitore."
+      ],
+      [
+       "Gli stessi glitter in confezioni più piccole",
+       false,
+       "La restrizione resta."
+      ],
+      [
+       "Qualsiasi glitter etichettato «eco»",
+       false,
+       "Un’etichetta non basta."
+      ]
+     ]
+    },
+    {
+     "dom": "Come si tutela il negozio?",
+     "opz": [
+      [
+       "Chiedendo ai fornitori dichiarazioni e documentazione sulla conformità",
+       true,
+       "Corretto."
+      ],
+      [
+       "Ignorando la restrizione",
+       false,
+       "Espone a sanzioni."
+      ],
+      [
+       "Togliendo l’etichetta",
+       false,
+       "Non cambia la sostanza."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "Le microplastiche aggiunte intenzionalmente sono vietate come tali: chi vende prodotti alternativi deve averne la documentazione dal fornitore.",
+   "nar": "Un negozio vende glitter in plastica. Verifica la restrizione.",
+   "rif": "Reg. (UE) 2023/2055"
+  }
+ ]
+}

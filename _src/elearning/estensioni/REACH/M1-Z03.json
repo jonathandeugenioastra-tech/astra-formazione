@@ -1,0 +1,75 @@
+{
+ "dopo": "Il rappresentante esclusivo del fabbricante extra-UE",
+ "schermate": [
+  {
+   "t": "scenario",
+   "tit": "Il fornitore con il rappresentante esclusivo",
+   "scena": "Un fabbricante indiano dichiara di avere un rappresentante esclusivo nell’Unione che copre le importazioni della tua impresa per una sostanza.",
+   "decisioni": [
+    {
+     "dom": "Che cosa verifichi?",
+     "opz": [
+      [
+       "Che il rappresentante abbia registrato la sostanza e che la tua impresa sia nel suo elenco di importatori coperti, con le quantità",
+       true,
+       "Corretto: senza copertura l’obbligo resta all’importatore."
+      ],
+      [
+       "Solo la fattura",
+       false,
+       "Non dimostra la copertura."
+      ],
+      [
+       "Nulla, basta la dichiarazione",
+       false,
+       "Va verificata."
+      ]
+     ]
+    },
+    {
+     "dom": "Se sei coperto, che ruolo hai?",
+     "opz": [
+      [
+       "Utilizzatore a valle",
+       true,
+       "Corretto: gli importatori coperti sono considerati utilizzatori a valle."
+      ],
+      [
+       "Importatore con obbligo di registrare",
+       false,
+       "La registrazione è del rappresentante."
+      ],
+      [
+       "Distributore",
+       false,
+       "Non è il caso."
+      ]
+     ]
+    },
+    {
+     "dom": "Le quantità importate crescono oltre la fascia registrata. Che cosa fai?",
+     "opz": [
+      [
+       "Lo comunichi al rappresentante perché aggiorni la registrazione",
+       true,
+       "Corretto: la registrazione deve coprire le quantità."
+      ],
+      [
+       "Nulla",
+       false,
+       "La copertura potrebbe non bastare."
+      ],
+      [
+       "Registri tu la differenza",
+       false,
+       "Si coordina con il rappresentante."
+      ]
+     ]
+    }
+   ],
+   "chiusura": "Con un rappresentante esclusivo l’importatore diventa utilizzatore a valle, ma deve verificare registrazione, copertura e quantità.",
+   "nar": "Un fornitore extra-UE con rappresentante esclusivo. Verifica la tua posizione.",
+   "rif": "Reg. (CE) 1907/2006, art. 8"
+  }
+ ]
+}

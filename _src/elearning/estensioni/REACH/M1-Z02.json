@@ -1,0 +1,60 @@
+{
+ "dopo": "La registrazione",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Serve registrare?",
+   "lead": "Un’impresa italiana importa da fuori Unione le seguenti merci ogni anno.",
+   "dossier": [
+    [
+     "Sostanza A",
+     "0,6 t come tale"
+    ],
+    [
+     "Sostanza B",
+     "15 t come tale, classificata pericolosa"
+    ],
+    [
+     "Miscela M",
+     "20 t di una miscela che contiene il 40% della sostanza C"
+    ],
+    [
+     "Rappresentante esclusivo",
+     "nessuno"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Calcola le tonnellate annue per sostanza.",
+     "min": 5,
+     "modello": "A: 0,6 t. B: 15 t. C: 20 × 0,40 = 8 t, perché per le miscele si conta la quantità di ciascuna sostanza contenuta.",
+     "criteri": [
+      "Ho calcolato 8 t per la sostanza C",
+      "Ho considerato le sostanze in miscela"
+     ]
+    },
+    {
+     "q": "Quali sostanze vanno registrate e con quali requisiti?",
+     "min": 7,
+     "modello": "A: sotto 1 t, nessuna registrazione. B: registrazione nella fascia 10-100 t con relazione sulla sicurezza chimica e, essendo pericolosa, scenari di esposizione. C: registrazione nella fascia 1-10 t. Le registrazioni si fanno tramite il SIEF della sostanza, con condivisione dei dati.",
+     "criteri": [
+      "Ho escluso A",
+      "Ho indicato la relazione per B",
+      "Ho indicato la fascia di C e il SIEF"
+     ]
+    },
+    {
+     "q": "Quale alternativa riduce gli oneri dell’importatore?",
+     "min": 5,
+     "modello": "Chiedere al fabbricante extra-UE di nominare un rappresentante esclusivo che registri le sostanze: l’importatore diventa utilizzatore a valle. In alternativa acquistare da un importatore che ha già registrato.",
+     "criteri": [
+      "Ho proposto il rappresentante esclusivo",
+      "Ho spiegato il cambio di ruolo"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio verifichi gli obblighi di registrazione di un importatore. Calcola le tonnellate per sostanza, stabilisci che cosa registrare e individua un’alternativa che riduca gli oneri, poi confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "Reg. (CE) 1907/2006, artt. 6, 8, 10 e 14"
+  }
+ ]
+}

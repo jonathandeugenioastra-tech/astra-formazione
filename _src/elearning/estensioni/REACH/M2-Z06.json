@@ -1,0 +1,79 @@
+{
+ "dopo": "Esercitazione · L’etichetta in inglese",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · L’etichetta di una nuova miscela",
+   "lead": "Prepari l’etichetta di una miscela sgrassante da vendere a utilizzatori professionali.",
+   "dossier": [
+    [
+     "Componente X",
+     "20%, stima della tossicità acuta orale 500 mg/kg"
+    ],
+    [
+     "Altri componenti",
+     "non classificati per la tossicità acuta"
+    ],
+    [
+     "Classificazione già determinata",
+     "liquido infiammabile categoria 3; irritazione cutanea categoria 2"
+    ],
+    [
+     "Confezione",
+     "5 litri"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "La miscela è classificata per tossicità acuta orale? Calcola l’ATEmix.",
+     "min": 6,
+     "modello": "ATEmix = 100 / (20 / 500) = 2.500 mg/kg. È oltre 2.000 mg/kg, quindi la miscela non è classificata per tossicità acuta orale.",
+     "criteri": [
+      "Ho applicato la formula",
+      "Ho ottenuto 2.500 mg/kg",
+      "Ho confrontato con 2.000"
+     ]
+    },
+    {
+     "q": "Elenca gli elementi dell’etichetta.",
+     "min": 7,
+     "modello": "Identificatore del prodotto e UFI; nome, indirizzo e telefono del fornitore; quantità nominale; pittogrammi GHS02 e GHS07; avvertenza «Attenzione»; H226 e H315; consigli di prudenza pertinenti, ad esempio P210, P280, P302+P352; in lingua italiana.",
+     "criteri": [
+      "Ho indicato i pittogrammi corretti",
+      "Ho indicato l’avvertenza «Attenzione»",
+      "Ho indicato frasi H e P in italiano"
+     ]
+    },
+    {
+     "q": "Quali errori eviti?",
+     "min": 5,
+     "modello": "Etichetta solo in inglese; avvertenza «Pericolo» non coerente con le categorie; pittogrammi ridondanti; mancanza dell’UFI; dimensioni non leggibili; informazioni non coerenti con la SDS.",
+     "criteri": [
+      "Ho indicato la lingua",
+      "Ho indicato la coerenza con la SDS",
+      "Ho indicato UFI e leggibilità"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio prepari l’etichetta di una nuova miscela sgrassante. Calcola la stima della tossicità acuta, elenca gli elementi dell’etichetta e gli errori da evitare, poi confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "Reg. (CE) 1272/2008, artt. 17 e 18 e Allegato I"
+  },
+  {
+   "t": "applica",
+   "tit": "Le etichette e le schede della tua impresa",
+   "lead": "Verifica la gestione di etichette e schede di sicurezza.",
+   "voci": [
+    "Tutti i prodotti hanno SDS in italiano",
+    "Le SDS sono aggiornate",
+    "Le etichette sono coerenti con le SDS",
+    "Le miscele immesse sul mercato sono notificate",
+    "L’UFI è in etichetta",
+    "Esiste un sistema di invio delle SDS ai clienti"
+   ],
+   "campo": "Il controllo che farai per primo",
+   "esempio": "Es.: confronto tra sezione 2 e sezione 3 delle dieci SDS più usate",
+   "min": 3,
+   "nar": "Verifica come la tua impresa gestisce etichette e schede di sicurezza e indica il primo controllo che farai."
+  }
+ ]
+}

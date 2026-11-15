@@ -1,0 +1,65 @@
+{
+ "dopo": "Esempio applicativo: leggere la scheda di dati di sicurezza",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · La scheda che non convince",
+   "lead": "Controlli la scheda di dati di sicurezza di una vernice ricevuta da un nuovo fornitore.",
+   "dossier": [
+    [
+     "Data di revisione",
+     "2017"
+    ],
+    [
+     "Formato",
+     "sezioni conformi al vecchio Allegato II"
+    ],
+    [
+     "Sezione 3",
+     "componenti senza intervalli di concentrazione"
+    ],
+    [
+     "Sezione 8",
+     "«usare DPI adeguati», nessun valore limite e nessun tipo di guanto"
+    ],
+    [
+     "Lingua",
+     "in parte in inglese"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Elenca le carenze della scheda.",
+     "min": 6,
+     "modello": "Scheda datata e non aggiornata al Reg. (UE) 2020/878; composizione incompleta; sezione 8 generica, senza valori limite né indicazioni concrete su guanti e protezione respiratoria; scheda non interamente in italiano.",
+     "criteri": [
+      "Ho rilevato la data e il formato",
+      "Ho rilevato la sezione 3 incompleta",
+      "Ho rilevato la sezione 8 generica e la lingua"
+     ]
+    },
+    {
+     "q": "Che cosa chiedi al fornitore e perché?",
+     "min": 5,
+     "modello": "Una scheda aggiornata, conforme all’Allegato II modificato, in lingua italiana, con composizione e sezione 8 complete: il fornitore è obbligato a fornirla e l’utilizzatore ne ha bisogno per valutare il rischio.",
+     "criteri": [
+      "Ho chiesto la scheda aggiornata in italiano",
+      "Ho motivato con l’obbligo del fornitore"
+     ]
+    },
+    {
+     "q": "Nel frattempo come gestisci il prodotto?",
+     "min": 6,
+     "modello": "Si sospende l’introduzione o la si limita con misure prudenziali: uso in cabina aspirata, DPI scelti sui componenti noti, quantità minime; si registra la richiesta e si aggiorna la valutazione appena arriva la scheda corretta.",
+     "criteri": [
+      "Ho previsto misure prudenziali",
+      "Ho previsto la registrazione della richiesta",
+      "Ho previsto l’aggiornamento della valutazione"
+     ]
+    }
+   ],
+   "nar": "Il laboratorio ti chiede di valutare la qualità di una scheda di dati di sicurezza. Individua le carenze, decidi che cosa chiedere al fornitore e come gestire il prodotto nel frattempo, poi confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "Art. 31 Reg. (CE) 1907/2006 · Reg. (UE) 2020/878"
+  }
+ ]
+}

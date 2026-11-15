@@ -1,0 +1,61 @@
+{
+ "dopo": "Il regolamento CLP: classi e categorie di pericolo",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Classificare una miscela per l’ambiente",
+   "lead": "Classifichi per i pericoli per l’ambiente acquatico una miscela antivegetativa.",
+   "dossier": [
+    [
+     "Componente P",
+     "2%, Aquatic Chronic 1, fattore M = 1"
+    ],
+    [
+     "Componente Q",
+     "4%, Aquatic Chronic 2"
+    ],
+    [
+     "Altri componenti",
+     "non classificati per l’ambiente"
+    ],
+    [
+     "Regole di somma",
+     "Chronic 1 se Σ(C1 × M) ≥ 25%; Chronic 2 se Σ(C1 × M × 10) + Σ C2 ≥ 25%; Chronic 3 se Σ(C1 × M × 100) + Σ(C2 × 10) + Σ C3 ≥ 25%"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Applica il metodo della somma con M = 1.",
+     "min": 7,
+     "modello": "Chronic 1: 2 × 1 = 2%, sotto 25%. Chronic 2: 2 × 1 × 10 + 4 = 24%, sotto 25%. Chronic 3: 2 × 1 × 100 + 4 × 10 = 240%, oltre 25%. La miscela è Aquatic Chronic 3, H412, senza pittogramma.",
+     "criteri": [
+      "Ho applicato le tre somme in ordine",
+      "Ho ottenuto Chronic 3",
+      "Ho indicato H412 senza pittogramma"
+     ]
+    },
+    {
+     "q": "Che cosa cambia se il fattore M del componente P è 10?",
+     "min": 6,
+     "modello": "Chronic 1: 2 × 10 = 20%, sotto 25%. Chronic 2: 2 × 10 × 10 + 4 = 204%, oltre 25%. La miscela è Aquatic Chronic 2, H411, con pittogramma GHS09.",
+     "criteri": [
+      "Ho ricalcolato con M = 10",
+      "Ho ottenuto Chronic 2",
+      "Ho indicato il pittogramma GHS09"
+     ]
+    },
+    {
+     "q": "Dove si trova il fattore M e perché è importante?",
+     "min": 5,
+     "modello": "In sezione 3 della SDS del fornitore, come previsto dal Reg. (UE) 2020/878, oppure nella classificazione armonizzata. Moltiplica il peso dei componenti molto tossici: ignorarlo porta a sottovalutare la classificazione.",
+     "criteri": [
+      "Ho indicato la sezione 3",
+      "Ho spiegato l’effetto del fattore M"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio classifichi una miscela per i pericoli per l’ambiente acquatico con il metodo della somma. Applica le regole con due diversi fattori M e spiega il ruolo del fattore, poi confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "Reg. (CE) 1272/2008, Allegato I, punto 4.1.3.5"
+  }
+ ]
+}

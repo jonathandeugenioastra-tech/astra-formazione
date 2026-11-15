@@ -1,0 +1,61 @@
+{
+ "dopo": "Verificare la qualità di una SDS",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Coerenza tra sezioni della SDS",
+   "lead": "Controlli la coerenza interna della scheda di un detergente industriale.",
+   "dossier": [
+    [
+     "Sezione 2",
+     "classificazione: Eye Irrit. 2 (H319)"
+    ],
+    [
+     "Sezione 3",
+     "12% di un componente classificato Eye Dam. 1 (H318); 5% di un tensioattivo Skin Irrit. 2"
+    ],
+    [
+     "Sezione 9",
+     "punto di infiammabilità: 45 °C"
+    ],
+    [
+     "Sezione 14",
+     "non soggetto ad ADR"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "La classificazione per gli occhi è coerente con la composizione?",
+     "min": 6,
+     "modello": "No. Con il metodo di calcolo una miscela con almeno il 3% di componenti Eye Dam. 1 è classificata Eye Dam. 1, H318, salvo dati specifici. Con il 12% la classificazione corretta è Eye Dam. 1.",
+     "criteri": [
+      "Ho applicato la soglia del 3%",
+      "Ho concluso Eye Dam. 1"
+     ]
+    },
+    {
+     "q": "Che cosa noti sul punto di infiammabilità?",
+     "min": 6,
+     "modello": "Un punto di infiammabilità di 45 °C rientra nei liquidi infiammabili di categoria 3, tra 23 e 60 °C: manca la classificazione H226, salvo deroghe per liquidi che non sostengono la combustione da dimostrare. Va verificata anche la coerenza con la sezione 14.",
+     "criteri": [
+      "Ho collegato 45 °C alla categoria 3",
+      "Ho rilevato H226 mancante",
+      "Ho considerato la sezione 14"
+     ]
+    },
+    {
+     "q": "Come procedi con il fornitore e internamente?",
+     "min": 5,
+     "modello": "Si segnalano per iscritto le incoerenze e si chiede una SDS corretta; nel frattempo si gestisce il prodotto secondo la classificazione più severa, con protezione degli occhi e misure contro l’incendio, e si aggiorna la valutazione dei rischi.",
+     "criteri": [
+      "Ho chiesto la correzione",
+      "Ho adottato la classificazione più severa",
+      "Ho aggiornato la valutazione"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio controlli la coerenza tra le sezioni della scheda di un detergente. Verifica la classificazione per gli occhi, il punto di infiammabilità e decidi come procedere, poi confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "Reg. (CE) 1272/2008, Allegato I · Reg. (UE) 2020/878"
+  }
+ ]
+}

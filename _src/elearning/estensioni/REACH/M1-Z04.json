@@ -1,0 +1,62 @@
+{
+ "dopo": "SVHC, elenco di sostanze candidate e articoli",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Lo 0,1% nell’articolo complesso",
+   "lead": "Un’impresa importa biciclette. Le manopole contengono un plastificante dell’elenco delle sostanze candidate.",
+   "dossier": [
+    [
+     "Bicicletta",
+     "15 kg"
+    ],
+    [
+     "Manopole",
+     "2 manopole da 120 g ciascuna"
+    ],
+    [
+     "SVHC",
+     "0,3 g in ciascuna manopola"
+    ],
+    [
+     "Importazioni annue",
+     "10.000 biciclette"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Calcola la concentrazione e stabilisci se si applica l’art. 33.",
+     "min": 6,
+     "modello": "Ogni manopola è un articolo: 0,3 / 120 = 0,25%, oltre lo 0,1%. Si applica l’art. 33 anche se rispetto alla bicicletta intera la concentrazione sarebbe minima: la soglia si calcola su ogni articolo componente.",
+     "criteri": [
+      "Ho calcolato lo 0,25%",
+      "Ho applicato la soglia al componente",
+      "Ho concluso che l’art. 33 si applica"
+     ]
+    },
+    {
+     "q": "Serve la notifica all’ECHA dell’art. 7, comma 2?",
+     "min": 6,
+     "modello": "Quantità annua di SVHC: 10.000 biciclette × 2 manopole × 0,3 g = 6 kg, molto sotto 1 t: la notifica dell’art. 7, comma 2, non è dovuta. Resta la notifica alla banca dati SCIP.",
+     "criteri": [
+      "Ho calcolato 6 kg",
+      "Ho confrontato con 1 t",
+      "Ho ricordato la SCIP"
+     ]
+    },
+    {
+     "q": "Quali informazioni fornisci e a chi?",
+     "min": 5,
+     "modello": "Ai clienti professionali, alla fornitura, il nome della sostanza e le informazioni per l’uso sicuro; ai consumatori che lo chiedono, gratuitamente entro 45 giorni; la notifica SCIP all’ECHA prima dell’immissione sul mercato.",
+     "criteri": [
+      "Ho indicato i clienti professionali",
+      "Ho indicato i consumatori",
+      "Ho indicato la SCIP"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio applichi la soglia dello zero virgola uno per cento a un articolo complesso, una bicicletta. Calcola la concentrazione, verifica la notifica e indica le informazioni da fornire, poi confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "Reg. (CE) 1907/2006, artt. 7 e 33 · Corte di giustizia UE, C-106/14"
+  }
+ ]
+}

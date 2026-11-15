@@ -1,0 +1,66 @@
+{
+ "dopo": "L’etichetta CLP e le novità della revisione",
+ "schermate": [
+  {
+   "t": "laboratorio",
+   "tit": "Laboratorio · Etichetta e scheda di uno sgrassante",
+   "lead": "Un reparto di manutenzione usa un nuovo sgrassante a base di solventi.",
+   "dossier": [
+    [
+     "Pittogrammi",
+     "GHS02, GHS07, GHS09"
+    ],
+    [
+     "Avvertenza",
+     "Pericolo"
+    ],
+    [
+     "Indicazioni H",
+     "H225 liquido e vapori facilmente infiammabili; H315 provoca irritazione cutanea; H336 può provocare sonnolenza o vertigini; H411 tossico per gli organismi acquatici con effetti di lunga durata"
+    ],
+    [
+     "Consigli P",
+     "P210 tenere lontano da fonti di calore e scintille; P280 indossare guanti e protezione per gli occhi"
+    ],
+    [
+     "Uso",
+     "pulizia di pezzi meccanici a pennello, in un locale piccolo"
+    ]
+   ],
+   "compiti": [
+    {
+     "q": "Spiega in parole semplici i pericoli del prodotto per gli addetti.",
+     "min": 6,
+     "modello": "Prende fuoco molto facilmente e i vapori possono incendiarsi; irrita la pelle; respirare i vapori può dare sonnolenza e vertigini; è dannoso per l’ambiente acquatico e non va disperso negli scarichi.",
+     "criteri": [
+      "Ho spiegato il pericolo di incendio",
+      "Ho spiegato gli effetti su pelle e sistema nervoso",
+      "Ho indicato il pericolo per l’ambiente"
+     ]
+    },
+    {
+     "q": "Quali sezioni della scheda consulti e per che cosa?",
+     "min": 6,
+     "modello": "Sezione 7 per lo stoccaggio e le incompatibilità; sezione 8 per i valori limite, i controlli tecnici e i DPI, come il tipo di guanto e di filtro; sezione 5 e 6 per incendio e sversamenti; sezione 13 per lo smaltimento; sezione 4 per il primo soccorso.",
+     "criteri": [
+      "Ho indicato le sezioni 7 e 8",
+      "Ho indicato le sezioni per le emergenze",
+      "Ho indicato la sezione 13"
+     ]
+    },
+    {
+     "q": "Quali misure proponi per l’uso nel locale piccolo?",
+     "min": 7,
+     "modello": "Valutare la sostituzione con un prodotto a base acquosa; se non possibile, aspirazione localizzata o banco aspirato e ventilazione; quantità minime al posto di lavoro in contenitori chiusi ed etichettati; nessuna fonte di innesco; guanti adatti secondo la sezione 8 e occhiali; formazione degli addetti.",
+     "criteri": [
+      "Ho considerato la sostituzione",
+      "Ho previsto ventilazione e controllo delle fonti di innesco",
+      "Ho indicato i DPI secondo la sezione 8"
+     ]
+    }
+   ],
+   "nar": "Nel laboratorio interpreti l’etichetta di uno sgrassante e la sua scheda di dati di sicurezza. Spiega i pericoli agli addetti, individua le sezioni da consultare e proponi le misure per l’uso in un locale piccolo, poi confronta ogni risposta con la soluzione di riferimento.",
+   "rif": "Reg. (CE) 1272/2008 · Reg. (UE) 2020/878"
+  }
+ ]
+}

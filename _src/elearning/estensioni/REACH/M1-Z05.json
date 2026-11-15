@@ -1,0 +1,54 @@
+{
+ "dopo": "Autorizzazione e restrizioni",
+ "schermate": [
+  {
+   "t": "classifica",
+   "tit": "Autorizzazione o restrizione?",
+   "lead": "Seleziona una caratteristica, poi lo strumento REACH.",
+   "colonne": [
+    "Autorizzazione (Allegato XIV)",
+    "Restrizione (Allegato XVII)"
+   ],
+   "schede": [
+    [
+     "Dopo la data di scadenza la sostanza si usa solo per usi autorizzati",
+     0,
+     "È il meccanismo dell’autorizzazione.",
+     "Corretto."
+    ],
+    [
+     "Limita il contenuto di nichel rilasciato dagli articoli a contatto con la pelle",
+     1,
+     "È una restrizione.",
+     "Corretto."
+    ],
+    [
+     "L’utilizzatore a valle notifica all’ECHA l’uso entro tre mesi dalla prima fornitura",
+     0,
+     "Art. 66.",
+     "Corretto."
+    ],
+    [
+     "Vieta le microplastiche aggiunte intenzionalmente oltre una certa concentrazione",
+     1,
+     "Voce dell’Allegato XVII.",
+     "Corretto."
+    ],
+    [
+     "Riguarda sostanze estremamente preoccupanti prioritarie",
+     0,
+     "Le SVHC prioritarie passano all’Allegato XIV.",
+     "Corretto."
+    ],
+    [
+     "Impone la formazione per l’uso professionale dei diisocianati",
+     1,
+     "Voce 74 dell’Allegato XVII.",
+     "Corretto."
+    ]
+   ],
+   "nar": "Sei caratteristiche. Distingui quelle dell’autorizzazione da quelle delle restrizioni.",
+   "rif": "Reg. (CE) 1907/2006, Titoli VII e VIII"
+  }
+ ]
+}

@@ -184,7 +184,7 @@
   P.home = () => {
     const prossime = D.edizioni.filter(e => e.posti > 0).slice(0, 4);
     const nCorsi = D.corsi.length;
-    const anni = new Date().getFullYear() - 1987;
+    const anni = new Date().getFullYear() - 1981;
     const evid = ['PREP', 'DL', 'LAV-AGG', 'AI-2', 'CAMP-RIF', 'RENTRI', 'RSPP-AGG', 'CAR'].map(corso);
     return `
     <section class="hero" aria-label="Presentazione">
@@ -219,7 +219,7 @@
 
     <section class="numeri" aria-label="ASTRA in numeri">
       <div class="wrap">
-        <div class="numero rivela"><b data-conta="${anni}">0</b><span>anni di consulenza alle imprese, dal 1987</span></div>
+        <div class="numero rivela"><b data-conta="${anni}">0</b><span>anni di consulenza alle imprese, dal 1981</span></div>
         <div class="numero rivela ritardo-1"><b data-conta="${D.laboratorio.analisiAnno}" data-suffisso="+">0</b><span>analisi annue nel laboratorio accreditato</span></div>
         <div class="numero rivela ritardo-2"><b data-conta="${nCorsi}">0</b><span>corsi a catalogo in 4 aree tematiche</span></div>
         <div class="numero rivela ritardo-3"><b data-conta="3">0</b><span>modalità di erogazione: aula, videoconferenza, e-learning</span></div>
@@ -745,15 +745,15 @@ ${c.mod.includes('EL') ? `<div class="box-prova" style="border:1px solid var(--l
   }
 
   /* ---------- Chi siamo ---------- */
-  P['chi-siamo'] = () => testa('Chi siamo', 'Dal 1987 supporto tecnico-scientifico alle imprese in materia di salute e sicurezza sul lavoro, tutela dell\'ambiente, energia e qualità.', null, 'chi') + `
+  P['chi-siamo'] = () => testa('Chi siamo', 'Dal 1981 supporto tecnico-scientifico alle imprese in materia di salute e sicurezza sul lavoro, tutela dell\'ambiente, energia e qualità.', null, 'chi') + `
     <section class="sez"><div class="wrap split">
       <div class="rivela">
         <div class="intest" style="margin-bottom:18px"><div><span class="k">Profilo</span><h2>${esc(A.ragioneSociale)}</h2></div></div>
-        <p style="color:var(--testo-2);text-align:justify;font-size:17px">ASTRA S.r.l. è stata costituita a Teramo nel 1987 con l'obiettivo di offrire alle imprese un riferimento unitario in materia di salute e sicurezza sul lavoro, tutela dell'ambiente, energia e sistemi di gestione. Alla società di consulenza è affiancato ${esc(D.laboratorio.ragioneSociale)}, laboratorio di analisi attivo dal ${D.laboratorio.fondazione} e accreditato ACCREDIA, che esegue oltre ${D.laboratorio.analisiAnno.toLocaleString('it-IT')} analisi l'anno su acque, alimenti, aria, rifiuti e ambienti di lavoro.</p>
+        <p style="color:var(--testo-2);text-align:justify;font-size:17px">ASTRA S.r.l. è stata costituita a Teramo nel 1981 con l'obiettivo di offrire alle imprese un riferimento unitario in materia di salute e sicurezza sul lavoro, tutela dell'ambiente, energia e sistemi di gestione. Alla società di consulenza è affiancato ${esc(D.laboratorio.ragioneSociale)}, laboratorio di analisi attivo dal ${D.laboratorio.fondazione} e accreditato ACCREDIA, che esegue oltre ${D.laboratorio.analisiAnno.toLocaleString('it-IT')} analisi l'anno su acque, alimenti, aria, rifiuti e ambienti di lavoro.</p>
         <p style="color:var(--testo-2);text-align:justify;font-size:17px;margin-top:14px">Come <b>Centro di Formazione AiFOS</b>, ASTRA organizza ed eroga i corsi secondo i programmi e le procedure dell'associazione: gli attestati di salute e sicurezza sono rilasciati da AiFOS e registrati nel registro nazionale della formazione.</p>
         <div style="display:flex;gap:18px;align-items:center;margin-top:28px;flex-wrap:wrap"><img src="loghi/astra_logo.svg" alt="ASTRA" style="height:64px"><img src="loghi/aifos_logo.svg" alt="AiFOS – Centro di Formazione" style="height:60px"></div>
       </div>
-      <div class="foto-tonda rivela ritardo-1">${foto('laboratorio', '', '(max-width:1024px) 100vw, 50vw')}<div class="flottante"><b>1987</b><span>anno di fondazione di ASTRA S.r.l. a Teramo</span></div></div>
+      <div class="foto-tonda rivela ritardo-1">${foto('laboratorio', '', '(max-width:1024px) 100vw, 50vw')}<div class="flottante"><b>1981</b><span>anno di fondazione di ASTRA S.r.l. a Teramo</span></div></div>
     </div></section>
     <section class="sez grigia"><div class="wrap">
       <div class="intest rivela"><div><span class="k">Struttura</span><h2>Responsabile della formazione</h2></div></div>

@@ -167,16 +167,13 @@
       };
       return via();
     }
-    if (!tts) return fine();
+    // nessuna voce sintetica del dispositivo: senza registrazione della voce ufficiale si mostrano solo i sottotitoli
     const via = () => {
       if (gen !== narGen) return;
       if (i >= frasi.length) return fine();
-      const u = new SpeechSynthesisUtterance(frasi[i]);
-      u.lang = 'it-IT'; if (voce) u.voice = voce; u.rate = 1; u.pitch = 1;
       evid(i);
-      u.onend = () => { if (gen !== narGen) return; i++; if (onSegno) onSegno(i / frasi.length); via(); };
-      u.onerror = () => fine();
-      tts.speak(u);
+      const tm = setTimeout(() => { if (gen !== narGen) return; i++; if (onSegno) onSegno(i / frasi.length); via(); }, ANTEPRIMA ? 400 : durata(frasi[i]) * 1000);
+      timersSch.push(tm);
     };
     via();
   };

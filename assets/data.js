@@ -1464,7 +1464,7 @@ window.ASTRA = {
    "prezzo": 220,
    "agg": "4 ore ogni 5 anni (prevalentemente pratiche)",
    "rif": "D.lgs. 81/2008 art. 73 comma 5 · Accordo Stato-Regioni 17/04/2025",
-   "pres": "Il corso abilita alla conduzione di una tipologia di macchina movimento terra (escavatore idraulico, caricatore frontale, terna o autoribaltabile a cingoli). Per l'abilitazione congiunta a escavatori idraulici, caricatori frontali e terne il modulo pratico è di 12 ore. L'abilitazione è richiesta per qualsiasi escavatore, indipendentemente dalla massa, compresi i miniescavatori (FAQ ministeriale n. 22 del 27 marzo 2026).",
+   "pres": "Il corso abilita alla conduzione di una tipologia di macchina movimento terra (escavatore idraulico, caricatore frontale, terna o autoribaltabile a cingoli). Per l'abilitazione congiunta a escavatori idraulici, caricatori frontali e terne il modulo pratico è di 12 ore. L'abilitazione è richiesta per qualsiasi escavatore, indipendentemente dalla massa, compresi i miniescavatori: l'Accordo Stato-Regioni 2025 ha eliminato la soglia dei 6.000 kg (si vedano anche le FAQ ministeriali del 27 marzo 2026, quesito 22).",
    "dest": "Operatori di escavatori, pale caricatrici, terne e autoribaltabili.",
    "req": "Formazione generale e specifica dei lavoratori; idoneità sanitaria alla mansione.",
    "obj": [
@@ -1968,7 +1968,7 @@ window.ASTRA = {
    "prezzo": 240,
    "agg": "Secondo la norma CEI 11-27:2025 e la valutazione del datore di lavoro",
    "rif": "CEI 11-27:2025 · CEI EN 50110-1:2024 · D.lgs. 81/2008 art. 82",
-   "pres": "Il corso fornisce le conoscenze teoriche e pratiche per l'attribuzione, da parte del datore di lavoro, delle qualifiche di persona esperta (PES), persona avvertita (PAV) e dell'idoneità ai lavori sotto tensione (PEI) secondo la norma CEI 11-27:2025 (VI edizione), unica edizione applicabile dal 29 maggio 2026.",
+   "pres": "Il corso fornisce le conoscenze teoriche e pratiche per l'attribuzione, da parte del datore di lavoro, delle qualifiche di persona esperta (PES), persona avvertita (PAV) e dell'idoneità ai lavori sotto tensione (PEI) secondo la norma CEI 11-27:2025 (VI edizione), applicabile in via esclusiva dal 30 maggio 2026 (l'edizione 2021 è rimasta applicabile fino al 29 maggio 2026).",
    "dest": "Lavoratori che eseguono lavori elettrici o in prossimità di parti attive.",
    "req": "Conoscenze tecniche di base in materia elettrotecnica.",
    "obj": [

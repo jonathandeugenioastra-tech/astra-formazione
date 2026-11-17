@@ -5610,7 +5610,7 @@ window.CORSO = {
        ]
       }
      ],
-     "chiusura": "Il datore di lavoro si forma con un corso di sedici ore entro il diciannove maggio duemilaventisette, più sei ore per i cantieri se l’impresa è affidataria, con crediti per chi è già formato come datore di lavoro RSPP.",
+     "chiusura": "Il datore di lavoro si forma con un corso di sedici ore entro il 19 maggio 2027, più sei ore per i cantieri se l’impresa è affidataria, con crediti per chi è già formato come datore di lavoro RSPP.",
      "nar": "Un titolare non ancora formato. Pianifica il suo corso.",
      "rif": "Art. 37, c. 7, D.lgs. 81/2008 · Accordo 17 aprile 2025 · FAQ 27 marzo 2026",
      "est": true,

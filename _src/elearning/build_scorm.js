@@ -66,7 +66,7 @@ fs.copyFileSync(path.join(ROOT, 'formazione/risorse/timbro_DEU.png'), path.join(
   fs.writeFileSync(path.join(OUT, 'index.html'), `<!doctype html>
 <html lang="it"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>${C.titolo} · ASTRA e-learning</title><meta name="robots" content="noindex">
-<meta name="author" content="dr. Jonathan D'Eugenio"><meta name="theme-color" content="#0B2A33">
+<meta name="author" content="dr. Jonathan D'Eugenio"><meta name="theme-color" content="#0B2A33"><link rel="icon" href="data:,">
 
 <link rel="stylesheet" href="player/player.css?v=${vers}"></head>
 <body><noscript>Per seguire il corso è necessario abilitare JavaScript.</noscript>

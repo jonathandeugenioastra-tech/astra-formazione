@@ -642,62 +642,16 @@ ${c.mod.includes('EL') ? `<div class="box-prova" style="border:1px solid var(--l
         <tr><td>da 1 a ${AULA.minimo - 1} (solo corsi in aula)</td><td class="c">minimo pari a ${AULA.minimo} quote</td></tr>
         ${AULA.fasce.slice().sort((x, y) => x[0] - y[0]).map(([n, x], i, f) => `<tr><td>${f[i + 1] ? 'da ' + n + ' a ' + (f[i + 1][0] - 1) : n + ' e oltre'}</td><td class="c">${x ? 'riduzione del ' + x + '%' : 'quota intera'}</td></tr>`).join('')}</tbody></table></div>
       <p style="max-width:720px;font-size:14px;color:var(--testo-3)">Nei corsi abilitanti all'uso delle attrezzature non si applicano riduzioni per numerosità, poiché nelle prove pratiche il rapporto massimo è di un istruttore ogni 6 discenti. Le edizioni in videoconferenza sincrona si avviano al raggiungimento di ${MVCS} iscrizioni; in difetto, la segreteria propone una data alternativa senza oneri per l'iscritto. Per le sedi distanti oltre 100 km dalla sede ASTRA di Teramo, le spese di viaggio e il tempo di trasferimento del docente sono quotati nell'offerta. Il numero massimo di partecipanti e il rapporto tra docente e discenti nelle esercitazioni pratiche sono quelli stabiliti dall'Accordo Stato-Regioni del 17 aprile 2025.</p>
-      <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:32px"><a class="btn btn-rosso" href="#/area-azienda">Dimostrazione dell'area azienda</a><a class="btn btn-bordo" href="#/contatti">Richiesta di piano formativo</a></div>
+      <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:32px"><a class="btn btn-rosso" href="#/area-azienda">Area riservata alle aziende</a><a class="btn btn-bordo" href="#/contatti">Richiesta di piano formativo</a></div>
     </div></section>`;
 
-  /* ---------- Area azienda (dimostrativa) ---------- */
-  const DIP = [
-    ['Rossi Mario', 'Magazziniere', 'LAV-AGG', 'EL', 'ok', 100, '2031-03-12'],
-    ['Bianco Luca', 'Capo reparto', 'PREP-AGG', 'VCS', 'corso', 50, '2026-12-20'],
-    ['Verdi Anna', 'Impiegata', 'LAV-AGG', 'EL', 'corso', 35, '2027-01-15'],
-    ['Neri Paolo', 'Carrellista', 'CAR', 'P', 'att', 0, '2026-12-02'],
-    ['Gialli Sara', 'Addetta antincendio', 'AI-2', 'P', 'sca', 0, '2026-11-30'],
-    ['Russo Marco', 'Operaio', 'LAV-SPEC-M', 'VCS', 'ok', 100, '2031-06-04'],
-    ['Esposito Giulia', 'Addetta primo soccorso', 'PS-BC', 'P', 'att', 0, '2027-01-20'],
-    ['Ferrari Luigi', 'RLS', 'RLS', 'VCS', 'sca', 0, '2026-12-31']
-  ];
-  const ST = { ok: 'Completato', corso: 'In corso', att: 'Da iniziare', sca: 'In scadenza' };
-  let vista = 'dip';
-  P['area-azienda'] = () => testa('Area azienda', 'Ambiente dimostrativo dell\'area riservata al referente aziendale; i dati riportati sono fittizi.', null, null) + `
-    <div class="wrap dash">
-      <nav aria-label="Sezioni area azienda">
-        ${[['dip', I.utenti, 'Dipendenti'], ['posti', I.carrello, 'Posti acquistati'], ['scad', I.campana, 'Scadenzario'], ['att', I.doc, 'Attestati']].map(([k, ic, t]) => `<button data-v="${k}" aria-pressed="${vista === k}">${ic}${t}</button>`).join('')}
-      </nav>
-      <div>
-        <div class="avviso giallo" style="margin-bottom:20px">${I.info}<span><b>Ambiente dimostrativo.</b> Nominativi, corsi e date sono fittizi. Nel portale in esercizio i dati sono acquisiti dal sistema di gestione degli ordini e dalla piattaforma di apprendimento.</span></div>
-        <div class="kpi">
-          <div><b data-conta="24">0</b><span>posti acquistati</span></div>
-          <div><b data-conta="18">0</b><span>posti assegnati</span></div>
-          <div><b data-conta="11">0</b><span>attestati rilasciati</span></div>
-          <div><b data-conta="2" style="color:var(--rosso)">0</b><span>scadenze entro 60 giorni</span></div>
-        </div>
-        <div class="box" id="vista"></div>
-      </div>
+  /* ---------- Area azienda ---------- */
+  P['area-azienda'] = () => testa('Area riservata alle aziende', 'Accesso del referente aziendale ai posti acquistati, all’avanzamento dei dipendenti, allo scadenzario della formazione e agli attestati.', null, null) + `
+    <div class="wrap" style="max-width:880px;padding-top:40px;padding-bottom:96px">
+      <div class="avviso giallo">${I.info}<span><b>Servizio in attivazione.</b> L’area riservata sarà disponibile con le credenziali rilasciate al referente aziendale all’attivazione del servizio. Nel frattempo la segreteria fornisce su richiesta il riepilogo dei posti acquistati, lo stato di avanzamento dei dipendenti, lo scadenzario della formazione e copia degli attestati.</span></div>
+      <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:28px"><a class="btn btn-rosso" href="#/contatti">Contatta la segreteria</a><a class="btn btn-bordo" href="#/aziende">Soluzioni per le aziende</a></div>
     </div>`;
-  function disegnaVista() {
-    const v = $('#vista'); if (!v) return;
-    $$('.dash nav button').forEach(b => b.setAttribute('aria-pressed', b.dataset.v === vista));
-    const stato = s => `<span class="stato ${s}">${ST[s]}</span>`;
-    if (vista === 'dip') v.innerHTML = `<div style="display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-bottom:16px"><h2 style="margin:0">Dipendenti e avanzamento</h2><div style="display:flex;gap:8px;flex-wrap:wrap"><button class="btn btn-bordo btn-s" type="button" data-demo>Importa CSV</button><button class="btn btn-petrolio btn-s" type="button" data-demo>+ Assegna posto</button></div></div>
-      <div class="tab-wrap"><table class="t"><thead><tr><th>Dipendente</th><th>Mansione</th><th>Corso</th><th>Modalità</th><th>Avanzamento</th><th>Stato</th></tr></thead><tbody>
-      ${DIP.map(d => `<tr><td>${d[0]}</td><td>${d[1]}</td><td>${esc(corso(d[2]).titolo)}</td><td class="c"><span class="chip ${d[3]}">${d[3]}</span></td><td class="c"><div style="display:flex;gap:8px;align-items:center"><span class="barra-prog" style="flex:1"><i style="width:${d[5]}%"></i></span><b style="font-size:13px;min-width:38px">${d[5]}%</b></div></td><td class="c">${stato(d[4])}</td></tr>`).join('')}</tbody></table></div>
-      <div class="legenda"><b>Legenda:</b><span><span class="chip EL">EL</span> e-learning</span><span><span class="chip VCS">VCS</span> videoconferenza sincrona</span><span><span class="chip P">P</span> presenza</span></div>`;
-    if (vista === 'posti') v.innerHTML = `<h2>Pacchetti di posti</h2><div class="tab-wrap"><table class="t"><thead><tr><th>Ordine</th><th>Corso</th><th>Modalità</th><th>Acquistati</th><th>Assegnati</th><th>Liberi</th></tr></thead><tbody>
-      ${[['#1042', 'LAV-AGG', 'EL', 10, 8], ['#1042', 'PREP-AGG', 'VCS', 4, 3], ['#1057', 'AI-2', 'P', 4, 3], ['#1063', 'PS-BC', 'P', 6, 4]].map(r => `<tr><td class="c">${r[0]}</td><td>${esc(corso(r[1]).titolo)}</td><td class="c"><span class="chip ${r[2]}">${r[2]}</span></td><td class="c">${r[3]}</td><td class="c">${r[4]}</td><td class="c"><b>${r[3] - r[4]}</b></td></tr>`).join('')}</tbody></table></div>`;
-    if (vista === 'scad') { const l = DIP.slice().sort((a, b) => a[6].localeCompare(b[6]));
-      v.innerHTML = `<h2>Scadenzario della formazione</h2><div class="tab-wrap"><table class="t"><thead><tr><th>Dipendente</th><th>Obbligo</th><th>Scadenza</th><th>Giorni</th><th>Promemoria</th></tr></thead><tbody>
-      ${l.map(d => { const g = Math.round((new Date(d[6]) - new Date()) / 864e5), col = g < 30 ? '#EE0000' : g < 60 ? '#FFC000' : g < 120 ? '#FFFF00' : '#00B050', tc = g < 30 || g >= 120 ? '#fff' : '#2a1d00';
-        return `<tr><td>${d[0]}</td><td>${esc(corso(d[2]).titolo)}</td><td class="c">${dataLunga(d[6])}</td><td class="c"><span class="stato" style="background:${col};color:${tc}">${g}</span></td><td class="c">${g < 120 ? 'Inviato' : 'Programmato'}</td></tr>`; }).join('')}</tbody></table></div>
-      <div class="legenda"><b>Legenda giorni alla scadenza:</b><span class="stato" style="background:#EE0000;color:#fff">meno di 30</span><span class="stato" style="background:#FFC000;color:#2a1d00">30–59</span><span class="stato" style="background:#FFFF00;color:#2a1d00">60–119</span><span class="stato" style="background:#00B050;color:#fff">120 e oltre</span></div>`; }
-    if (vista === 'att') v.innerHTML = `<h2>Attestati disponibili</h2><div class="tab-wrap"><table class="t"><thead><tr><th>Codice</th><th>Dipendente</th><th>Corso</th><th>Data</th><th>File</th></tr></thead><tbody>
-      ${DIP.filter(d => d[4] === 'ok').map((d, i) => `<tr><td class="c">AST-2026-00012${3 + i}</td><td>${d[0]}</td><td>${esc(corso(d[2]).titolo)}</td><td class="c">05/11/2026</td><td class="c"><button class="btn btn-bordo btn-s" type="button" data-demo>PDF</button></td></tr>`).join('')}</tbody></table></div>`;
-  }
-  function montaArea() {
-    if (!$('#vista')) return;
-    $('.dash nav').addEventListener('click', e => { const b = e.target.closest('button'); if (!b) return; vista = b.dataset.v; disegnaVista(); });
-    $('#vista').addEventListener('click', e => { if (e.target.closest('[data-demo]')) toast('Funzione disponibile nel portale definitivo'); });
-    disegnaVista();
-  }
+  function montaArea() { }
 
   /* ---------- Normativa ---------- */
   P.normativa = () => testa('Normativa e aggiornamenti', 'Sintesi ragionata delle principali novità normative in materia di obblighi formativi, salute e sicurezza, ambiente, energia e igiene degli alimenti.', null, 'sicurezza') + `
@@ -713,10 +667,10 @@ ${c.mod.includes('EL') ? `<div class="box-prova" style="border:1px solid var(--l
   P.attestato = par => testa('Verifica attestato', 'Verifica dell\'autenticità degli attestati mediante il codice univoco riportato sul documento o tramite lettura del codice QR.') + `
     <div class="wrap" style="max-width:880px;padding-top:40px;padding-bottom:96px">
       <form id="verifica" class="box" style="display:flex;gap:12px;flex-wrap:wrap;align-items:flex-end">
-        <label class="campo" style="flex:1 1 320px">Codice attestato<input name="c" value="${esc(par.codice || '')}" placeholder="es. AST-2026-000123" style="letter-spacing:.04em;font-size:17px;height:52px"></label>
+        <label class="campo" style="flex:1 1 320px">Codice attestato<input name="c" value="${esc(par.codice || '')}" placeholder="Codice riportato sull’attestato" style="letter-spacing:.04em;font-size:17px;height:52px"></label>
         <button class="btn btn-petrolio" style="height:52px">Verifica</button>
       </form>
-      ${D.verificaApi ? '' : '<p style="font-size:13px;color:var(--testo-3);margin-top:10px">Codice dimostrativo: AST-2026-000123 (dati fittizi).</p>'}
+      ${D.verificaApi ? '' : `<div class="avviso giallo" style="margin-top:14px">${I.info}<span><b>Verifica online in attivazione.</b> Fino all’attivazione del servizio l’autenticità di un attestato si verifica contattando la segreteria (${esc(A.email)}) e indicando il codice riportato sul documento.</span></div>`}
       <div id="esito" aria-live="polite" style="margin-top:20px"></div>
       <p style="font-size:13px;color:var(--testo-3);margin-top:20px">Per tutela della riservatezza la pagina mostra solo i dati necessari alla verifica: il codice fiscale è parzialmente oscurato.</p>
     </div>`;
@@ -737,9 +691,7 @@ ${c.mod.includes('EL') ? `<div class="box-prova" style="border:1px solid var(--l
           }).catch(() => { $('#esito').innerHTML = `<div class="avviso rosso">${I.info}<span>Servizio di verifica momentaneamente non raggiungibile. Riprovare più tardi.</span></div>`; });
         return;
       }
-      $('#esito').innerHTML = c === 'AST-2026-000123' ? `<section class="box" style="padding:0;overflow:hidden;border-color:#9ED4B0"><div style="background:#00B050;color:#fff;padding:14px 20px;display:flex;gap:10px;align-items:center" class="b"><span style="width:22px;height:22px">${I.ok}</span>Attestato valido</div>
-        <table class="t"><tbody><tr><th scope="row">Corsista</th><td>Mario Rossi · codice fiscale RSS***********3S</td></tr><tr><th scope="row">Corso</th><td>Lavoratori – Aggiornamento (6 ore)</td></tr><tr><th scope="row">Modalità</th><td>E-learning</td></tr><tr><th scope="row">Completato il</th><td>05/11/2026</td></tr><tr><th scope="row">Prossimo aggiornamento entro</th><td>05/11/2031</td></tr><tr><th scope="row">Rilasciato da</th><td>AiFOS – tramite il Centro di Formazione ASTRA S.r.l.</td></tr></tbody></table></section>`
-        : nonTrovato; };
+      $('#esito').innerHTML = `<div class="avviso giallo">${I.info}<span>La verifica online non è ancora attiva: per verificare il codice <b>${esc(c)}</b> contattare la segreteria (${esc(A.email)}).</span></div>`; };
     f.addEventListener('submit', e => { e.preventDefault(); v(); });
     if (f.c.value) v();
   }
